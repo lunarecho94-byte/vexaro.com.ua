@@ -118,7 +118,14 @@ export function ProductOrderPanel({ product }: ProductOrderPanelProps) {
       <div className="fixed bottom-0 left-0 right-0 z-40 border-t border-border bg-surface/95 p-3.5 backdrop-blur-lg sm:hidden">
         <div className="flex items-center justify-between gap-3 max-w-md mx-auto">
           <div>
-            <div className="text-[11px] text-muted">Ціна товару</div>
+            <div className="flex items-center gap-1.5">
+              <span className="text-[11px] text-muted">Ціна</span>
+              {product.oldPrice && (
+                <span className="text-[10px] text-red-500 line-through decoration-red-500 font-semibold">
+                  {product.oldPrice.toLocaleString('uk-UA')} ₴
+                </span>
+              )}
+            </div>
             <div className="text-base font-black text-foreground">
               {product.price.toLocaleString('uk-UA')} ₴
             </div>

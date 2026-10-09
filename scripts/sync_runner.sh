@@ -31,7 +31,7 @@ if [ -n "$CHANGED_FILES" ]; then
     git -c user.name="VEXARO Sync Bot" -c user.email="sync@vexaro.com.ua" commit -m "Auto-sync footwear catalog [$TIMESTAMP]" >> "$LOG_FILE" 2>&1
     
     # Push to origin main to trigger automatic Vercel production rebuild
-    git push origin main >> "$LOG_FILE" 2>&1 || echo "[$TIMESTAMP] Warning: git push queued for next network sync cycle" >> "$LOG_FILE"
+    GIT_TERMINAL_PROMPT=0 git push origin main >> "$LOG_FILE" 2>&1 || echo "[$TIMESTAMP] Warning: git push queued for next network sync cycle" >> "$LOG_FILE"
 
     echo "[$TIMESTAMP] Successfully synchronized footwear. Vercel deployment triggered." >> "$LOG_FILE"
 else

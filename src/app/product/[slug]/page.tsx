@@ -174,7 +174,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
                 {product.price.toLocaleString('uk-UA')} ₴
               </span>
               {product.oldPrice && (
-                <span className="text-sm text-muted line-through">
+                <span className="text-sm sm:text-base text-red-500 line-through decoration-red-500 font-semibold">
                   {product.oldPrice.toLocaleString('uk-UA')} ₴
                 </span>
               )}

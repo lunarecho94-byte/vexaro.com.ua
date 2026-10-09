@@ -137,7 +137,7 @@ export function FavoritesDrawer() {
                           {product.price.toLocaleString('uk-UA')} ₴
                         </span>
                         {product.oldPrice && (
-                          <span className="text-[11px] text-muted line-through">
+                          <span className="text-[11px] text-red-500 line-through decoration-red-500 font-semibold">
                             {product.oldPrice.toLocaleString('uk-UA')} ₴
                           </span>
                         )}

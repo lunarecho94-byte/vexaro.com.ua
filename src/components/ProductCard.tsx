@@ -97,7 +97,7 @@ export function ProductCard({ product, priority = false }: ProductCardProps) {
                 {product.price.toLocaleString('uk-UA')} ₴
               </span>
               {product.oldPrice && (
-                <span className="text-xs text-muted line-through">
+                <span className="text-xs text-red-500 line-through decoration-red-500 font-semibold">
                   {product.oldPrice.toLocaleString('uk-UA')} ₴
                 </span>
               )}

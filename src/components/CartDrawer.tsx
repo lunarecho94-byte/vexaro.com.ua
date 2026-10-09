@@ -146,8 +146,15 @@ export function CartDrawer() {
                         </button>
                       </div>
 
-                      <div className="text-xs font-extrabold text-foreground">
-                        {(item.product.price * item.quantity).toLocaleString('uk-UA')} ₴
+                      <div className="flex items-baseline gap-1.5">
+                        <span className="text-xs font-extrabold text-foreground">
+                          {(item.product.price * item.quantity).toLocaleString('uk-UA')} ₴
+                        </span>
+                        {item.product.oldPrice && (
+                          <span className="text-[10px] text-red-500 line-through decoration-red-500 font-semibold">
+                            {(item.product.oldPrice * item.quantity).toLocaleString('uk-UA')} ₴
+                          </span>
+                        )}
                       </div>
                     </div>
                   </div>
