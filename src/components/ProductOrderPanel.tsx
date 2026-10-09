@@ -6,6 +6,7 @@ import { Product } from '@/types/product';
 import { useCartStore } from '@/lib/cart-store';
 import { ShoppingBag, Ruler, Check, Zap } from 'lucide-react';
 import { SizeGuideModal } from './SizeGuideModal';
+import { FavoriteButton } from './FavoriteButton';
 
 interface ProductOrderPanelProps {
   product: Product;
@@ -98,15 +99,19 @@ export function ProductOrderPanel({ product }: ProductOrderPanelProps) {
           )}
         </button>
 
-        <button
-          type="button"
-          onClick={handleBuyNow}
-          disabled={!product.inStock}
-          className="flex h-12 w-full items-center justify-center gap-2 rounded-xl border border-border bg-surface text-xs font-bold uppercase tracking-wider text-foreground hover:bg-surface-raised disabled:opacity-40 transition-colors"
-        >
-          <Zap className="h-4 w-4 text-primary" />
-          <span>Швидке замовлення</span>
-        </button>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+          <button
+            type="button"
+            onClick={handleBuyNow}
+            disabled={!product.inStock}
+            className="flex h-12 w-full items-center justify-center gap-2 rounded-xl border border-border bg-surface text-xs font-bold uppercase tracking-wider text-foreground hover:bg-surface-raised disabled:opacity-40 transition-colors"
+          >
+            <Zap className="h-4 w-4 text-primary" />
+            <span>Швидке замовлення</span>
+          </button>
+
+          <FavoriteButton product={product} variant="panel" />
+        </div>
       </div>
 
       {/* Mobile Sticky Bottom Bar (appears on small screens) */}
@@ -119,15 +124,19 @@ export function ProductOrderPanel({ product }: ProductOrderPanelProps) {
             </div>
           </div>
 
-          <button
-            type="button"
-            onClick={handleAddToCart}
-            disabled={!product.inStock}
-            className="flex-1 h-12 rounded-xl bg-primary text-xs font-bold uppercase tracking-wider text-background hover:bg-primary-hover flex items-center justify-center gap-2"
-          >
-            <ShoppingBag className="h-4 w-4" />
-            <span>В кошик {selectedSize ? `(${selectedSize})` : ''}</span>
-          </button>
+          <div className="flex items-center gap-2 flex-1 justify-end">
+            <FavoriteButton product={product} variant="card" className="shrink-0" />
+
+            <button
+              type="button"
+              onClick={handleAddToCart}
+              disabled={!product.inStock}
+              className="flex-1 h-12 rounded-xl bg-primary text-xs font-bold uppercase tracking-wider text-background hover:bg-primary-hover flex items-center justify-center gap-2"
+            >
+              <ShoppingBag className="h-4 w-4" />
+              <span>В кошик {selectedSize ? `(${selectedSize})` : ''}</span>
+            </button>
+          </div>
         </div>
       </div>
 

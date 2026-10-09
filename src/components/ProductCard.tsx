@@ -5,6 +5,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { Product } from '@/types/product';
 import { useCartStore } from '@/lib/cart-store';
+import { FavoriteButton } from '@/components/FavoriteButton';
 
 interface ProductCardProps {
   product: Product;
@@ -49,6 +50,11 @@ export function ProductCard({ product, priority = false }: ProductCardProps) {
                 Немає в наявності
               </span>
             )}
+          </div>
+
+          {/* Favorite Wishlist Button */}
+          <div className="absolute top-2 right-2 z-10">
+            <FavoriteButton product={product} variant="card" />
           </div>
         </div>
 

@@ -2,8 +2,9 @@
 
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { ShoppingBag, Phone, Search, X } from 'lucide-react';
+import { ShoppingBag, Phone, Search, X, Heart } from 'lucide-react';
 import { useCartStore } from '@/lib/cart-store';
+import { useFavoritesStore } from '@/lib/favorites-store';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { VexaroLogo } from '@/components/VexaroLogo';
 
@@ -16,6 +17,9 @@ export function Header() {
 
   const totalCount = useCartStore((state) => state.getTotalCount());
   const openCart = useCartStore((state) => state.openCart);
+
+  const favoritesCount = useFavoritesStore((state) => state.getCount());
+  const openFavorites = useFavoritesStore((state) => state.openFavorites);
 
   useEffect(() => {
     setMounted(true);
@@ -61,12 +65,30 @@ export function Header() {
             {isSearchOpen ? <X className="h-5 w-5" /> : <Search className="h-5 w-5" />}
           </button>
 
+          {/* Favorites Button */}
+          <button
+            type="button"
+            onClick={openFavorites}
+            className="relative flex h-11 items-center gap-1.5 sm:gap-2 rounded-lg bg-surface px-2.5 sm:px-3 text-foreground hover:border-rose-500/50 hover:text-rose-400 border border-border transition-colors"
+            aria-label="Обрані товари"
+            title="Обране"
+          >
+            <Heart className="h-5 w-5 text-rose-500 fill-rose-500/20" />
+            <span className="text-xs font-semibold hidden md:inline">Обране</span>
+            {mounted && favoritesCount > 0 && (
+              <span className="flex h-5 min-w-[20px] items-center justify-center rounded-full bg-rose-500 px-1 text-[11px] font-bold text-white shadow-[0_0_8px_rgba(244,63,94,0.5)]">
+                {favoritesCount}
+              </span>
+            )}
+          </button>
+
           {/* Cart Button */}
           <button
             type="button"
             onClick={openCart}
-            className="relative flex h-11 items-center gap-2 rounded-lg bg-surface px-3 text-foreground hover:border-primary border border-border transition-colors"
+            className="relative flex h-11 items-center gap-1.5 sm:gap-2 rounded-lg bg-surface px-2.5 sm:px-3 text-foreground hover:border-primary border border-border transition-colors"
             aria-label="Кошик замовлень"
+            title="Кошик"
           >
             <ShoppingBag className="h-5 w-5 text-primary" />
             <span className="text-xs font-semibold hidden sm:inline">Кошик</span>

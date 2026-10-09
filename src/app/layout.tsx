@@ -4,6 +4,7 @@ import './globals.css';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { CartDrawer } from '@/components/CartDrawer';
+import { FavoritesDrawer } from '@/components/FavoritesDrawer';
 import { MetaPixel } from '@/components/MetaPixel';
 
 import { SITE_URL, SITE_NAME } from '@/lib/config';
@@ -60,6 +61,7 @@ export default function RootLayout({
         </main>
 
         <CartDrawer />
+        <FavoritesDrawer />
         <Footer />
       </body>
     </html>
