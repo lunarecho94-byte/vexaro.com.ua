@@ -10,7 +10,7 @@ interface CatalogFiltersProps {
   currentSort?: string;
 }
 
-export function CatalogFilters({ meta, currentSort = 'popular' }: CatalogFiltersProps) {
+export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersProps) {
   const router = useRouter();
   const searchParams = useSearchParams();
   const [isPending, startTransition] = useTransition();
@@ -127,10 +127,10 @@ export function CatalogFilters({ meta, currentSort = 'popular' }: CatalogFilters
             className="h-10 rounded-lg border border-border bg-surface px-3 text-xs font-medium text-foreground focus:border-primary focus:outline-none"
             aria-label="Сортування товарів"
           >
+            <option value="newest">Нові поставки</option>
             <option value="popular">За популярністю</option>
             <option value="price_asc">Від дешевих до дорогих</option>
             <option value="price_desc">Від дорогих до дешевих</option>
-            <option value="newest">Нові надходження</option>
           </select>
 
           {/* Filter Modal Trigger */}

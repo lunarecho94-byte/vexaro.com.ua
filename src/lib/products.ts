@@ -88,13 +88,14 @@ export async function getProducts(params: CatalogQueryParams = {}): Promise<Cata
     );
   }
 
-  // Sorting
+  // Sorting: default to newest arrivals (highest ID first)
   if (params.sort === 'price_asc') {
     filtered = [...filtered].sort((a, b) => a.price - b.price);
   } else if (params.sort === 'price_desc') {
     filtered = [...filtered].sort((a, b) => b.price - a.price);
-  } else if (params.sort === 'newest') {
-    filtered = [...filtered].sort((a, b) => Number(b.id) - Number(a.id));
+  } else {
+    // 'newest' or default/popular -> latest drops first
+    filtered = [...filtered].sort((a, b) => (Number(b.id) || 0) - (Number(a.id) || 0));
   }
 
   const total = filtered.length;

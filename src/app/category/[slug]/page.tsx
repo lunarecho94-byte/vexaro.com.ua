@@ -82,7 +82,7 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
     gender: searchParams.gender,
     season: searchParams.season,
     size: searchParams.size,
-    sort: searchParams.sort || 'popular',
+    sort: searchParams.sort || 'newest',
     search: searchParams.search,
   };
 

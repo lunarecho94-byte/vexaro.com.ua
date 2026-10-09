@@ -723,6 +723,9 @@ def main():
         'maxPrice': int(max_price)
     }
 
+    # Sort: newest arrivals first (highest EasyDrop ID first)
+    products.sort(key=lambda p: int(p['id']) if str(p.get('id', '')).isdigit() else 0, reverse=True)
+
     os.makedirs(SRC_DATA_DIR, exist_ok=True)
     with open(OUTPUT_PRODUCTS, 'w', encoding='utf-8') as f:
         json.dump(products, f, ensure_ascii=False, indent=2)

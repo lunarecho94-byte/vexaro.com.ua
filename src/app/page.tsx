@@ -71,7 +71,7 @@ export default async function CatalogPage({ searchParams }: PageProps) {
     size: searchParams.size,
     minPrice: searchParams.minPrice ? Number(searchParams.minPrice) : undefined,
     maxPrice: searchParams.maxPrice ? Number(searchParams.maxPrice) : undefined,
-    sort: searchParams.sort || 'popular',
+    sort: searchParams.sort || 'newest',
     search: searchParams.search,
   };
 
