@@ -619,11 +619,10 @@ def main():
 
         gender_slug, gender_title = determine_gender(clean_name, brand_slug, sorted_sizes)
 
-        # Pricing markup: flat 27% markup without rounding the sum on all goods
-        price_val = round(raw_price * 1.27, 2)
-        price = int(price_val) if price_val.is_integer() else price_val
+        # Pricing markup: flat +27% markup, whole hryvnias without kopecks
+        price = int(round(raw_price * 1.27 + 0.0001))
 
-        # Old crossed-out price (+18% pre-discount badge)
+        # Old crossed-out price (+18% pre-discount badge, whole hryvnias)
         old_price = int(round(price * 1.18))
 
         if price < min_price:
