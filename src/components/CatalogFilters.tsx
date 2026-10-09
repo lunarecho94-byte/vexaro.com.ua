@@ -199,39 +199,41 @@ export function CatalogFilters({ meta, currentSort = 'popular' }: CatalogFilters
             </div>
 
             <div className="mt-6 flex flex-col gap-6 flex-1">
-              {/* Category */}
-              <div>
-                <label className="text-xs font-bold uppercase tracking-wider text-muted block mb-2">
-                  Категорія
-                </label>
-                <div className="flex flex-wrap gap-1.5">
-                  <button
-                    type="button"
-                    onClick={() => updateFilters('category', 'all')}
-                    className={`rounded-lg px-3 py-1.5 text-xs font-medium border ${
-                      selectedCategory === 'all'
-                        ? 'border-primary bg-primary text-background font-bold'
-                        : 'border-border bg-background text-muted hover:text-foreground'
-                    }`}
-                  >
-                    Всі ({meta.total})
-                  </button>
-                  {meta.categories.map((c) => (
+              {/* Category (if multiple categories exist) */}
+              {meta.categories.length > 1 && (
+                <div>
+                  <label className="text-xs font-bold uppercase tracking-wider text-muted block mb-2">
+                    Категорія
+                  </label>
+                  <div className="flex flex-wrap gap-1.5">
                     <button
-                      key={c.slug}
                       type="button"
-                      onClick={() => updateFilters('category', c.slug)}
+                      onClick={() => updateFilters('category', 'all')}
                       className={`rounded-lg px-3 py-1.5 text-xs font-medium border ${
-                        selectedCategory === c.slug
+                        selectedCategory === 'all'
                           ? 'border-primary bg-primary text-background font-bold'
                           : 'border-border bg-background text-muted hover:text-foreground'
                       }`}
                     >
-                      {c.name} ({c.count})
+                      Всі ({meta.total})
                     </button>
-                  ))}
+                    {meta.categories.map((c) => (
+                      <button
+                        key={c.slug}
+                        type="button"
+                        onClick={() => updateFilters('category', c.slug)}
+                        className={`rounded-lg px-3 py-1.5 text-xs font-medium border ${
+                          selectedCategory === c.slug
+                            ? 'border-primary bg-primary text-background font-bold'
+                            : 'border-border bg-background text-muted hover:text-foreground'
+                        }`}
+                      >
+                        {c.name} ({c.count})
+                      </button>
+                    ))}
+                  </div>
                 </div>
-              </div>
+              )}
 
               {/* Brand */}
               <div>

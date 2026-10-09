@@ -75,6 +75,11 @@ for (const p of rawProducts) {
     continue;
   }
 
+  // Filter ONLY Footwear as requested ("только обувь")
+  if (p.cat !== 'shoes' && p.cat_name !== 'Взуття') {
+    continue;
+  }
+
   const cleanSku = (p.art || p.id).toString().trim();
   let slug = createSlug(p.name, cleanSku, p.id);
 
