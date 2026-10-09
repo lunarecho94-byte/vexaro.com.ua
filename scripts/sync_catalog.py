@@ -619,13 +619,12 @@ def main():
 
         gender_slug, gender_title = determine_gender(clean_name, brand_slug, sorted_sizes)
 
-        # Pricing markup: +25% markup, minimum 500 UAH margin, round to 10 UAH
-        markup = max(raw_price * 0.25, 500)
-        price = round((raw_price + markup) / 10) * 10
-        if price - raw_price < 500:
-            price = math.ceil((raw_price + 500) / 10) * 10
+        # Pricing markup: flat 27% markup without rounding the sum on all goods
+        price_val = round(raw_price * 1.27, 2)
+        price = int(price_val) if price_val.is_integer() else price_val
 
-        old_price = round((price * 1.18) / 10) * 10
+        # Old crossed-out price (+18% pre-discount badge)
+        old_price = int(round(price * 1.18))
 
         if price < min_price:
             min_price = price
