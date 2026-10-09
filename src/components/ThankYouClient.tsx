@@ -17,7 +17,7 @@ export function ThankYouClient() {
     if (typeof window === 'undefined') return;
 
     // Retrieve order details from session storage
-    const raw = sessionStorage.getItem(`urban_order_${orderId}`);
+    const raw = sessionStorage.getItem(`vexaro_order_${orderId}`) || sessionStorage.getItem(`urban_order_${orderId}`);
     let data: any = null;
     if (raw) {
       try {

@@ -43,7 +43,7 @@ export async function generateMetadata({ params }: ProductPageProps): Promise<Me
       title: product.seo.title,
       description: product.seo.description,
       url: `https://urbangrid.com.ua/product/${product.slug}`,
-      siteName: 'URBAN',
+      siteName: 'VEXARO',
       locale: 'uk_UA',
       type: 'website',
       images: [
@@ -89,7 +89,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
         : 'https://schema.org/OutOfStock',
       seller: {
         '@type': 'Organization',
-        name: 'URBAN',
+        name: 'VEXARO',
       },
     },
   };

@@ -53,10 +53,10 @@ export function Footer() {
         <div className="grid grid-cols-1 gap-8 md:grid-cols-4">
           <div className="md:col-span-2">
             <span className="text-lg font-black tracking-wider text-foreground">
-              URBAN
+              VEXARO
             </span>
             <p className="mt-2 text-xs leading-relaxed max-w-md">
-              Спеціалізований каталог оригінального взуття, кросівок та одягу. Прямі поставки зі складів в Україні.
+              Спеціалізований інтернет-магазин брендового та якісного взуття. Прямі поставки зі складів в Україні.
             </p>
             <p className="mt-3 text-xs text-muted">
               Пн–Нд: 09:00 – 20:00 (без вихідних)
@@ -103,7 +103,7 @@ export function Footer() {
         </div>
 
         <div className="mt-8 border-t border-border pt-6 text-center text-xs text-muted">
-          © {new Date().getFullYear()} URBAN. Всі права захищено.
+          © {new Date().getFullYear()} VEXARO. Всі права захищено.
         </div>
       </div>
     </footer>

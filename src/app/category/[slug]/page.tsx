@@ -43,7 +43,7 @@ export async function generateMetadata({ params, searchParams }: CategoryPagePro
   const catName = category ? category.name : 'Каталог';
   const pageNum = Number(searchParams.page) || 1;
 
-  let title = `${catName} — купити в інтернет-магазині URBAN`;
+  let title = `${catName} — купити в інтернет-магазині VEXARO`;
   let description = `Великий асортимент: ${catName}. Швидка доставка Новою Поштою 1–2 дні по Україні, оплата після примірки (накладений платіж).`;
 
   if (pageNum > 1) {

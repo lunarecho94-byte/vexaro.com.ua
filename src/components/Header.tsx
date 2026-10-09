@@ -36,10 +36,10 @@ export function Header() {
         {/* Brand / Logo */}
         <Link href="/" className="flex items-center gap-2 group">
           <span className="text-xl font-black tracking-wider text-foreground group-hover:text-primary transition-colors">
-            URBAN
+            VEXARO
           </span>
           <span className="hidden sm:inline-block text-xs uppercase tracking-widest text-muted border-l border-border pl-2">
-            Sneakers & Dropship
+            Footwear Store
           </span>
         </Link>
 

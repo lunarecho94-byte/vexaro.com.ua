@@ -1,6 +1,6 @@
-# URBAN — Однотоварний / Мульти-каталог преміум взуття (Next.js 14 App Router)
+# VEXARO — Мульти-каталог брендового взуття (Next.js 14 App Router)
 
-Нова архітектура магазину URBAN з підтримкою SSR/ISR, Schema.org, Meta Conversions API (CAPI), Nova Poshta та Telegram-сповіщень.
+Нова архітектура інтернет-магазину VEXARO з підтримкою SSR/ISR, Schema.org, Meta Conversions API (CAPI), Nova Poshta та Telegram-сповіщень.
 
 ## Основні характеристики:
 - **Швидкість та SEO**: SSR та ISR для всіх категорій і товарів, Schema.org Product з Offer та BreadcrumbList.

@@ -122,7 +122,7 @@ export function CheckoutForm() {
       // Store in sessionStorage for one-time deduplicated Purchase event
       if (typeof window !== 'undefined') {
         sessionStorage.setItem(
-          `urban_order_${data.orderId}`,
+          `vexaro_order_${data.orderId}`,
           JSON.stringify({
             orderId: data.orderId,
             totalAmount: data.totalAmount,

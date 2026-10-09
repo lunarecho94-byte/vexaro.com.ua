@@ -85,7 +85,7 @@ export async function POST(req: NextRequest) {
     const body = await req.json();
     const validatedData = orderSchema.parse(body);
 
-    const orderId = `UB-${Date.now().toString().slice(-6)}`;
+    const orderId = `VX-${Date.now().toString().slice(-6)}`;
     const orderRecord = {
       id: orderId,
       ...validatedData,

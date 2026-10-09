@@ -133,7 +133,7 @@ for (const p of rawProducts) {
 
   const description = descParts.join(' ');
 
-  const title = `${p.name} (арт. ${cleanSku}) — купити в інтернет-магазині URBAN`;
+  const title = `${p.name} (арт. ${cleanSku}) — купити в інтернет-магазині VEXARO`;
   const metaDescription = `Замовляйте ${p.name} (арт. ${cleanSku}) за ${price} ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж).`;
 
   processedProducts.push({
