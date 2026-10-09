@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { ShoppingBag, Phone, Search, X } from 'lucide-react';
 import { useCartStore } from '@/lib/cart-store';
 import { useRouter, useSearchParams } from 'next/navigation';
+import { VexaroLogo } from '@/components/VexaroLogo';
 
 export function Header() {
   const router = useRouter();
@@ -34,13 +35,8 @@ export function Header() {
     <header className="sticky top-0 z-40 w-full border-b border-border bg-background/95 backdrop-blur-md">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6">
         {/* Brand / Logo */}
-        <Link href="/" className="flex items-center gap-2 group">
-          <span className="text-xl font-black tracking-wider text-foreground group-hover:text-primary transition-colors">
-            VEXARO
-          </span>
-          <span className="hidden sm:inline-block text-xs uppercase tracking-widest text-muted border-l border-border pl-2">
-            Footwear Store
-          </span>
+        <Link href="/" aria-label="Головна сторінка VEXARO">
+          <VexaroLogo variant="header" animated={true} />
         </Link>
 
         {/* Action Controls */}

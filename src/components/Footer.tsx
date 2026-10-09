@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { Truck, ShieldCheck, RefreshCw, Phone, Mail } from 'lucide-react';
+import { VexaroLogo } from '@/components/VexaroLogo';
 
 export function Footer() {
   return (
@@ -52,10 +53,10 @@ export function Footer() {
       <div className="mx-auto max-w-7xl px-4 py-10 sm:px-6">
         <div className="grid grid-cols-1 gap-8 md:grid-cols-4">
           <div className="md:col-span-2">
-            <span className="text-lg font-black tracking-wider text-foreground">
-              VEXARO
-            </span>
-            <p className="mt-2 text-xs leading-relaxed max-w-md">
+            <Link href="/" aria-label="Головна сторінка VEXARO">
+              <VexaroLogo variant="footer" animated={true} />
+            </Link>
+            <p className="mt-3 text-xs leading-relaxed max-w-md">
               Спеціалізований інтернет-магазин брендового та якісного взуття. Прямі поставки зі складів в Україні.
             </p>
             <p className="mt-3 text-xs text-muted">

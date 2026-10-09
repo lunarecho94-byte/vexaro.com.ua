@@ -27,6 +27,11 @@ export const metadata: Metadata = {
     description:
       'Каталог брендового взуття та кросівок. Доставка Новою Поштою по Україні, оплата після примірки.',
   },
+  icons: {
+    icon: '/images/vexaro-emblem.png',
+    shortcut: '/images/vexaro-emblem.png',
+    apple: '/images/vexaro-emblem.png',
+  },
 };
 
 export default function RootLayout({

@@ -1,5 +1,25 @@
 [
   {
+    "id": "VX-157848",
+    "customerName": "Тест Вексаро",
+    "phone": "+38 (097) 111-22-33",
+    "city": "Львів",
+    "warehouse": "Відділення №5",
+    "items": [
+      {
+        "id": "123",
+        "name": "Nike Air Max Vexaro",
+        "sku": "VX-001",
+        "size": "43",
+        "price": 2900,
+        "quantity": 1
+      }
+    ],
+    "totalAmount": 2900,
+    "status": "new",
+    "createdAt": "2026-10-09T18:55:57.848Z"
+  },
+  {
     "id": "UB-401758",
     "customerName": "Тарас Шевченко",
     "phone": "+38 (097) 123-45-67",
