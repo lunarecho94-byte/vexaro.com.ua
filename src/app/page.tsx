@@ -129,7 +129,7 @@ export default async function CatalogPage({ searchParams }: PageProps) {
               <ProductCard
                 key={product.id}
                 product={product}
-                priority={idx < 4}
+                priority={idx < 2}
               />
             ))}
           </div>

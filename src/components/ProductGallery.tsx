@@ -46,6 +46,7 @@ export function ProductGallery({ images, productName }: ProductGalleryProps) {
                 alt={`${productName} мініатюра ${idx + 1}`}
                 fill
                 sizes="72px"
+                loading="lazy"
                 className="object-cover"
               />
             </button>
