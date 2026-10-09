@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "import": "node scripts/import-products.mjs"
+    "import": "node scripts/import-products.mjs",
+    "sync": "bash scripts/sync_runner.sh",
+    "sync:daemon": "bash scripts/sync_daemon.sh"
   },
   "dependencies": {
     "next": "^14.2.15",
