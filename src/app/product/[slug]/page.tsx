@@ -5,6 +5,7 @@ import { getProductBySlug } from '@/lib/products';
 import { ProductGallery } from '@/components/ProductGallery';
 import { ProductOrderPanel } from '@/components/ProductOrderPanel';
 import { Truck, ShieldCheck, RefreshCw, ChevronRight } from 'lucide-react';
+import { SITE_URL, SITE_NAME } from '@/lib/config';
 
 interface ProductPageProps {
   params: {
@@ -31,19 +32,19 @@ export async function generateMetadata({ params }: ProductPageProps): Promise<Me
     };
   }
 
-  const primaryImage = product.images[0] || 'https://urbangrid.com.ua/og-default.jpg';
+  const primaryImage = product.images[0] || `${SITE_URL}/og-default.jpg`;
 
   return {
     title: product.seo.title,
     description: product.seo.description,
     alternates: {
-      canonical: `https://urbangrid.com.ua/product/${product.slug}`,
+      canonical: `${SITE_URL}/product/${product.slug}`,
     },
     openGraph: {
       title: product.seo.title,
       description: product.seo.description,
-      url: `https://urbangrid.com.ua/product/${product.slug}`,
-      siteName: 'VEXARO',
+      url: `${SITE_URL}/product/${product.slug}`,
+      siteName: SITE_NAME,
       locale: 'uk_UA',
       type: 'website',
       images: [
@@ -79,7 +80,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
     },
     offers: {
       '@type': 'Offer',
-      url: `https://urbangrid.com.ua/product/${product.slug}`,
+      url: `${SITE_URL}/product/${product.slug}`,
       priceCurrency: 'UAH',
       price: product.price,
       priceValidUntil: '2027-12-31',
@@ -89,7 +90,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
         : 'https://schema.org/OutOfStock',
       seller: {
         '@type': 'Organization',
-        name: 'VEXARO',
+        name: SITE_NAME,
       },
     },
   };
@@ -102,19 +103,19 @@ export default async function ProductPage({ params }: ProductPageProps) {
         '@type': 'ListItem',
         position: 1,
         name: 'Головна',
-        item: 'https://urbangrid.com.ua/',
+        item: `${SITE_URL}/`,
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: product.category,
-        item: `https://urbangrid.com.ua/category/${product.categorySlug}`,
+        item: `${SITE_URL}/category/${product.categorySlug}`,
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: product.name,
-        item: `https://urbangrid.com.ua/product/${product.slug}`,
+        item: `${SITE_URL}/product/${product.slug}`,
       },
     ],
   };

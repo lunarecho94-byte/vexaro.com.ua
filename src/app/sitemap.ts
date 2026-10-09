@@ -2,12 +2,13 @@ import { MetadataRoute } from 'next';
 import fs from 'fs';
 import path from 'path';
 import { Product, CatalogMeta } from '@/types/product';
+import { SITE_URL } from '@/lib/config';
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const dataDir = path.join(process.cwd(), 'src', 'data');
   const products = JSON.parse(fs.readFileSync(path.join(dataDir, 'products.json'), 'utf-8')) as Product[];
   const meta = JSON.parse(fs.readFileSync(path.join(dataDir, 'meta.json'), 'utf-8')) as CatalogMeta;
-  const baseUrl = 'https://urbangrid.com.ua';
+  const baseUrl = SITE_URL;
 
   // In-stock products URLs
   // Rule: "Кількість URL у sitemap.xml дорівнює кількості товарів у продажу"

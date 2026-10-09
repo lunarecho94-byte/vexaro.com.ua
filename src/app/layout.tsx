@@ -6,8 +6,10 @@ import { Footer } from '@/components/Footer';
 import { CartDrawer } from '@/components/CartDrawer';
 import { MetaPixel } from '@/components/MetaPixel';
 
+import { SITE_URL, SITE_NAME } from '@/lib/config';
+
 export const metadata: Metadata = {
-  metadataBase: new URL('https://urbangrid.com.ua'),
+  metadataBase: new URL(SITE_URL),
   title: {
     default: 'VEXARO — Інтернет-магазин брендового взуття та кросівок',
     template: '%s | VEXARO',
@@ -21,8 +23,8 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'uk_UA',
-    url: 'https://urbangrid.com.ua',
-    siteName: 'VEXARO',
+    url: SITE_URL,
+    siteName: SITE_NAME,
     title: 'VEXARO — Інтернет-магазин брендового взуття та кросівок',
     description:
       'Каталог брендового взуття та кросівок. Доставка Новою Поштою по Україні, оплата після примірки.',

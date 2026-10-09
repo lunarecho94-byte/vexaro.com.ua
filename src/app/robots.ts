@@ -1,4 +1,5 @@
 import { MetadataRoute } from 'next';
+import { SITE_URL } from '@/lib/config';
 
 export default function robots(): MetadataRoute.Robots {
   return {
@@ -9,6 +10,6 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ['/checkout', '/thank-you', '/api/'],
       },
     ],
-    sitemap: 'https://urbangrid.com.ua/sitemap.xml',
+    sitemap: `${SITE_URL}/sitemap.xml`,
   };
 }

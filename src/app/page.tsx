@@ -6,6 +6,7 @@ import { ProductCard } from '@/components/ProductCard';
 import { CatalogFilters } from '@/components/CatalogFilters';
 import { Pagination } from '@/components/Pagination';
 import { EmptyState } from '@/components/EmptyState';
+import { SITE_URL } from '@/lib/config';
 
 interface PageProps {
   searchParams: {
@@ -45,9 +46,9 @@ export async function generateMetadata({ searchParams }: PageProps): Promise<Met
 
   // Canonical rule:
   // "сторінки з фільтрами вказують на категорію, сторінки пагінації вказують самі на себе"
-  let canonicalUrl = 'https://urbangrid.com.ua/';
+  let canonicalUrl = `${SITE_URL}/`;
   if (pageNum > 1) {
-    canonicalUrl = `https://urbangrid.com.ua/?page=${pageNum}`;
+    canonicalUrl = `${SITE_URL}/?page=${pageNum}`;
   }
 
   return {
@@ -87,7 +88,7 @@ export default async function CatalogPage({ searchParams }: PageProps) {
       '@type': 'ListItem',
       position: index + 1,
       name: prod.name,
-      url: `https://urbangrid.com.ua/product/${prod.slug}`,
+      url: `${SITE_URL}/product/${prod.slug}`,
     })),
   };
 

@@ -1,4 +1,5 @@
 import crypto from 'crypto';
+import { SITE_URL } from './config';
 
 export const META_PIXEL_ID = process.env.NEXT_PUBLIC_META_PIXEL_ID || '1423887033036082';
 
@@ -62,7 +63,7 @@ export async function sendMetaServerEvent(payload: ServerEventPayload) {
         event_name: payload.eventName,
         event_time: Math.floor(Date.now() / 1000),
         event_id: payload.eventId,
-        event_source_url: payload.sourceUrl || 'https://urbangrid.com.ua',
+        event_source_url: payload.sourceUrl || SITE_URL,
         action_source: 'website',
         user_data: userData,
         custom_data: payload.customData,

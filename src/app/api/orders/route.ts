@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { z } from 'zod';
 import fs from 'fs';
 import path from 'path';
+import { SITE_URL } from '@/lib/config';
 
 const orderSchema = z.object({
   customerName: z.string().min(2, 'Вкажіть ваше імʼя'),
@@ -105,7 +106,7 @@ export async function POST(req: NextRequest) {
       await sendMetaServerEvent({
         eventName: 'Purchase',
         eventId: orderId,
-        sourceUrl: req.headers.get('referer') || 'https://urbangrid.com.ua/checkout',
+        sourceUrl: req.headers.get('referer') || `${SITE_URL}/checkout`,
         user: {
           name: validatedData.customerName,
           phone: validatedData.phone,

@@ -6,6 +6,7 @@ import { ProductCard } from '@/components/ProductCard';
 import { CatalogFilters } from '@/components/CatalogFilters';
 import { Pagination } from '@/components/Pagination';
 import { EmptyState } from '@/components/EmptyState';
+import { SITE_URL } from '@/lib/config';
 
 interface CategoryPageProps {
   params: {
@@ -51,9 +52,9 @@ export async function generateMetadata({ params, searchParams }: CategoryPagePro
   }
 
   // Canonical points to category URL, or itself with pagination
-  let canonicalUrl = `https://urbangrid.com.ua/category/${params.slug}`;
+  let canonicalUrl = `${SITE_URL}/category/${params.slug}`;
   if (pageNum > 1) {
-    canonicalUrl = `https://urbangrid.com.ua/category/${params.slug}?page=${pageNum}`;
+    canonicalUrl = `${SITE_URL}/category/${params.slug}?page=${pageNum}`;
   }
 
   return {
@@ -96,13 +97,13 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
         '@type': 'ListItem',
         position: 1,
         name: 'Головна',
-        item: 'https://urbangrid.com.ua/',
+        item: `${SITE_URL}/`,
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: category?.name || 'Каталог',
-        item: `https://urbangrid.com.ua/category/${params.slug}`,
+        item: `${SITE_URL}/category/${params.slug}`,
       },
     ],
   };
