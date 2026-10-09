@@ -1,0 +1,23 @@
+[
+  {
+    "id": "UB-764181",
+    "customerName": "Олександр Мельник",
+    "phone": "+38 (097) 452-44-35",
+    "city": "Київ",
+    "warehouse": "Відділення № 15 (вул. Хрещатик, 22)",
+    "comment": "Прошу відправити якомога швидше",
+    "items": [
+      {
+        "id": "100077",
+        "name": "Adidas Niteball White/Black",
+        "sku": "А00136",
+        "size": "42",
+        "price": 3060,
+        "quantity": 1
+      }
+    ],
+    "totalAmount": 3060,
+    "status": "new",
+    "createdAt": "2026-10-09T18:16:04.181Z"
+  }
+]
