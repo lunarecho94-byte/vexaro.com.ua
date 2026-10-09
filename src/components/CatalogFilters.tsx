@@ -96,6 +96,17 @@ export function CatalogFilters({ meta, currentSort = 'popular' }: CatalogFilters
           </button>
           <button
             type="button"
+            onClick={() => updateFilters('season', selectedSeason === 'demi' ? 'all' : 'demi')}
+            className={`rounded-lg px-3 py-2 text-xs font-semibold whitespace-nowrap transition-colors ${
+              selectedSeason === 'demi'
+                ? 'bg-primary text-background'
+                : 'bg-surface text-muted hover:text-foreground border border-border'
+            }`}
+          >
+            Демісезон
+          </button>
+          <button
+            type="button"
             onClick={() => updateFilters('season', selectedSeason === 'winter' ? 'all' : 'winter')}
             className={`rounded-lg px-3 py-2 text-xs font-semibold whitespace-nowrap transition-colors ${
               selectedSeason === 'winter'

@@ -70,6 +70,11 @@ for (const p of rawProducts) {
     continue;
   }
 
+  // Filter only Demi-season and Winter as requested ("оставь тут только демисезон и зыма")
+  if (p.season !== 'demi' && p.season !== 'winter') {
+    continue;
+  }
+
   const cleanSku = (p.art || p.id).toString().trim();
   let slug = createSlug(p.name, cleanSku, p.id);
 

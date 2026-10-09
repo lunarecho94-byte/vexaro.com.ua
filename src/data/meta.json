@@ -1,30 +1,25 @@
 {
-  "total": 7386,
+  "total": 6268,
   "brands": [
     {
       "name": "Nike",
       "slug": "nike",
-      "count": 2050
+      "count": 1611
     },
     {
       "name": "New Balance",
       "slug": "newbalance",
-      "count": 1316
+      "count": 1060
     },
     {
       "name": "Інші бренди",
       "slug": "other",
-      "count": 935
+      "count": 890
     },
     {
       "name": "Adidas",
       "slug": "adidas",
-      "count": 507
-    },
-    {
-      "name": "Asics",
-      "slug": "asics",
-      "count": 405
+      "count": 394
     },
     {
       "name": "UGG",
@@ -32,34 +27,24 @@
       "count": 386
     },
     {
+      "name": "Asics",
+      "slug": "asics",
+      "count": 304
+    },
+    {
       "name": "Chanel",
       "slug": "chanel",
       "count": 153
     },
     {
-      "name": "Air Jordan",
-      "slug": "jordan",
-      "count": 137
-    },
-    {
       "name": "Dior",
       "slug": "dior",
-      "count": 133
+      "count": 132
     },
     {
       "name": "Balenciaga",
       "slug": "balenciaga",
-      "count": 112
-    },
-    {
-      "name": "Salomon",
-      "slug": "salomon",
-      "count": 109
-    },
-    {
-      "name": "On Cloud",
-      "slug": "oncloud",
-      "count": 84
+      "count": 96
     },
     {
       "name": "Hermes",
@@ -67,9 +52,24 @@
       "count": 81
     },
     {
+      "name": "On Cloud",
+      "slug": "oncloud",
+      "count": 80
+    },
+    {
+      "name": "Air Jordan",
+      "slug": "jordan",
+      "count": 78
+    },
+    {
       "name": "Coach",
       "slug": "coach",
       "count": 76
+    },
+    {
+      "name": "Salomon",
+      "slug": "salomon",
+      "count": 74
     },
     {
       "name": "Yves Saint Laurent",
@@ -82,11 +82,6 @@
       "count": 65
     },
     {
-      "name": "The North Face",
-      "slug": "tnf",
-      "count": 59
-    },
-    {
       "name": "Premiata",
       "slug": "premiata",
       "count": 58
@@ -97,14 +92,19 @@
       "count": 52
     },
     {
-      "name": "Off-White",
-      "slug": "offwhite",
-      "count": 52
-    },
-    {
       "name": "Golden Goose",
       "slug": "goldengoose",
       "count": 50
+    },
+    {
+      "name": "Off-White",
+      "slug": "offwhite",
+      "count": 48
+    },
+    {
+      "name": "The North Face",
+      "slug": "tnf",
+      "count": 46
     },
     {
       "name": "Puma",
@@ -122,26 +122,6 @@
       "count": 32
     },
     {
-      "name": "Loro Piana",
-      "slug": "loropiana",
-      "count": 30
-    },
-    {
-      "name": "Stone Island",
-      "slug": "stoneisland",
-      "count": 26
-    },
-    {
-      "name": "Vans",
-      "slug": "vans",
-      "count": 25
-    },
-    {
-      "name": "Louis Vuitton",
-      "slug": "louisvuitton",
-      "count": 25
-    },
-    {
       "name": "Dolce & Gabbana",
       "slug": "dolcegabbana",
       "count": 25
@@ -150,6 +130,26 @@
       "name": "Prada",
       "slug": "prada",
       "count": 24
+    },
+    {
+      "name": "Louis Vuitton",
+      "slug": "louisvuitton",
+      "count": 24
+    },
+    {
+      "name": "Loro Piana",
+      "slug": "loropiana",
+      "count": 24
+    },
+    {
+      "name": "Vans",
+      "slug": "vans",
+      "count": 21
+    },
+    {
+      "name": "Stone Island",
+      "slug": "stoneisland",
+      "count": 20
     },
     {
       "name": "Alexander McQueen",
@@ -162,11 +162,6 @@
       "count": 18
     },
     {
-      "name": "Hugo Boss",
-      "slug": "hugo",
-      "count": 16
-    },
-    {
       "name": "Lacoste",
       "slug": "lacoste",
       "count": 16
@@ -177,8 +172,8 @@
       "count": 15
     },
     {
-      "name": "Converse",
-      "slug": "converse",
+      "name": "Hugo Boss",
+      "slug": "hugo",
       "count": 13
     },
     {
@@ -187,28 +182,23 @@
       "count": 11
     },
     {
+      "name": "Converse",
+      "slug": "converse",
+      "count": 11
+    },
+    {
       "name": "Arc'teryx",
       "slug": "arcteryx",
       "count": 11
     },
     {
-      "name": "Champion",
-      "slug": "champion",
-      "count": 11
-    },
-    {
-      "name": "Under Armour",
-      "slug": "underarmour",
-      "count": 11
-    },
-    {
-      "name": "Stussy",
-      "slug": "stussy",
-      "count": 10
-    },
-    {
       "name": "Carhartt",
       "slug": "carhartt",
+      "count": 9
+    },
+    {
+      "name": "Champion",
+      "slug": "champion",
       "count": 9
     },
     {
@@ -232,9 +222,19 @@
       "count": 8
     },
     {
+      "name": "Stussy",
+      "slug": "stussy",
+      "count": 8
+    },
+    {
       "name": "Columbia",
       "slug": "columbia",
       "count": 8
+    },
+    {
+      "name": "Under Armour",
+      "slug": "underarmour",
+      "count": 6
     },
     {
       "name": "Guess",
@@ -270,18 +270,13 @@
       "name": "Chloé",
       "slug": "chloe",
       "count": 2
-    },
-    {
-      "name": "Essentials / FOG",
-      "slug": "essentials",
-      "count": 1
     }
   ],
   "categories": [
     {
       "name": "Взуття",
       "slug": "shoes",
-      "count": 5646
+      "count": 4599
     },
     {
       "name": "Аксесуари & Сумки",
@@ -291,7 +286,7 @@
     {
       "name": "Одяг & Куртки",
       "slug": "clothing",
-      "count": 761
+      "count": 690
     },
     {
       "name": "Труси & Білизна",
@@ -308,17 +303,17 @@
     {
       "name": "Жіночі",
       "slug": "women",
-      "count": 2886
+      "count": 2632
     },
     {
       "name": "Унісекс",
       "slug": "unisex",
-      "count": 2413
+      "count": 1890
     },
     {
       "name": "Чоловічі",
       "slug": "men",
-      "count": 2087
+      "count": 1746
     }
   ],
   "seasons": [
@@ -326,11 +321,6 @@
       "name": "Демісезон",
       "slug": "demi",
       "count": 5514
-    },
-    {
-      "name": "Літо",
-      "slug": "summer",
-      "count": 1118
     },
     {
       "name": "Зима",
@@ -805,7 +795,6 @@
     "44x27x13",
     "44.5",
     "45",
-    "45/46",
     "46",
     "47",
     "48",
