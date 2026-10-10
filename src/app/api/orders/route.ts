@@ -18,6 +18,7 @@ const orderSchema = z.object({
       size: z.string(),
       price: z.number().positive(),
       quantity: z.number().int().positive(),
+      slug: z.string().optional(),
     })
   ).min(1, 'Кошик порожній'),
   totalAmount: z.number().positive(),
@@ -44,40 +45,57 @@ async function sendTelegramNotification(order: any) {
   const chatId = process.env.TELEGRAM_CHAT_ID;
 
   if (!token || !chatId) {
-    console.log('ℹ️ Telegram не налаштовано (TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID відсутні).');
+    console.log('ℹ️ Telegram не налаштовано (TELEGRAM_BOT_TOKEN або TELEGRAM_CHAT_ID відсутні у .env).');
     return;
   }
 
+  const cleanDigits = order.phone.replace(/\D/g, '');
+  const normalizedPhone = cleanDigits.startsWith('38') ? cleanDigits : '38' + cleanDigits;
+  const phoneCallLink = `tel:+${normalizedPhone}`;
+  const tgLink = `https://t.me/+${normalizedPhone}`;
+  const viberLink = `viber://chat?number=%2B${normalizedPhone}`;
+
   const itemsList = order.items
-    .map(
-      (i: any) =>
-        `• ${i.name} (арт. ${i.sku})\n  Розмір: ${i.size} | К-сть: ${i.quantity} шт. | ${i.price} ₴`
-    )
+    .map((i: any) => {
+      const productUrl = i.slug ? `${SITE_URL}/product/${i.slug}` : null;
+      const title = productUrl ? `<a href="${productUrl}">${i.name}</a>` : `<b>${i.name}</b>`;
+      return `• ${title}\n  Розмір: <b>${i.size}</b> | Арт: <code>${i.sku}</code> | К-сть: ${i.quantity} шт. | <b>${i.price.toLocaleString('uk-UA')} ₴</b>`;
+    })
     .join('\n\n');
 
   const text =
     `🔥 <b>НОВЕ ЗАМОВЛЕННЯ #${order.id}</b>\n\n` +
     `👤 <b>Клієнт:</b> ${order.customerName}\n` +
-    `📞 <b>Телефон:</b> ${order.phone}\n` +
+    `📞 <b>Телефон:</b> <a href="${phoneCallLink}">${order.phone}</a>\n` +
+    `💬 <b>Швидкий зв'язок:</b> <a href="${tgLink}">Telegram</a> • <a href="${viberLink}">Viber</a>\n` +
     `📍 <b>Місто:</b> ${order.city}\n` +
-    `📦 <b>Відділення НП:</b> ${order.warehouse}\n` +
-    (order.comment ? `💬 <b>Коментар:</b> ${order.comment}\n` : '') +
-    `\n🛒 <b>Товари:</b>\n${itemsList}\n\n` +
+    `📦 <b>Нова Пошта:</b> ${order.warehouse}\n` +
+    (order.comment ? `💬 <b>Коментар:</b> <i>${order.comment}</i>\n` : '') +
+    `\n🛒 <b>Товари (${order.items.length}):</b>\n${itemsList}\n\n` +
     `💰 <b>РАЗОМ ДО СПЛАТИ:</b> <b>${order.totalAmount.toLocaleString('uk-UA')} ₴</b>\n` +
-    `💳 <b>Оплата:</b> Накладений платіж при отриманні`;
+    `💳 <b>Спосіб оплати:</b> Накладений платіж (при отриманні)\n` +
+    `🕒 <b>Час:</b> ${new Date().toLocaleString('uk-UA', { timeZone: 'Europe/Kyiv' })}`;
 
   try {
-    await fetch(`https://api.telegram.org/bot${token}/sendMessage`, {
+    const res = await fetch(`https://api.telegram.org/bot${token}/sendMessage`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
         chat_id: chatId,
         text,
         parse_mode: 'HTML',
+        disable_web_page_preview: true,
       }),
     });
+
+    if (!res.ok) {
+      const errBody = await res.text();
+      console.error(`❌ Telegram API Error (${res.status}):`, errBody);
+    } else {
+      console.log(`✅ Telegram сповіщення успішно надіслано для замовлення #${order.id}`);
+    }
   } catch (err) {
-    console.error('Telegram notification error:', err);
+    console.error('Telegram notification network error:', err);
   }
 }
 

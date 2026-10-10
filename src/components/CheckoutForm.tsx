@@ -103,6 +103,7 @@ export function CheckoutForm() {
           size: i.size,
           price: i.product.price,
           quantity: i.quantity,
+          slug: i.product.slug,
         })),
         totalAmount: getTotalAmount(),
       };
