@@ -6,6 +6,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useCartStore } from '@/lib/cart-store';
 import { Truck, ShieldCheck, ShoppingBag, Loader2, ArrowLeft } from 'lucide-react';
+import { NovaPoshtaDeliverySelect } from '@/components/NovaPoshtaDeliverySelect';
 
 export function CheckoutForm() {
   const router = useRouter();
@@ -224,33 +225,12 @@ export function CheckoutForm() {
           </div>
 
           <div className="space-y-4">
-            <div>
-              <label className="text-xs font-semibold text-muted block mb-1.5">
-                Місто / Населений пункт <span className="text-rose-500">*</span>
-              </label>
-              <input
-                type="text"
-                required
-                value={city}
-                onChange={(e) => setCity(e.target.value)}
-                placeholder="Київ, Львів, Дніпро..."
-                className="w-full h-11 rounded-lg border border-border bg-background px-3.5 text-sm text-foreground placeholder:text-muted focus:border-primary focus:outline-none"
-              />
-            </div>
-
-            <div>
-              <label className="text-xs font-semibold text-muted block mb-1.5">
-                Відділення або поштомат Нової Пошти <span className="text-rose-500">*</span>
-              </label>
-              <input
-                type="text"
-                required
-                value={warehouse}
-                onChange={(e) => setWarehouse(e.target.value)}
-                placeholder="Відділення № 25 або Поштомат № 11200"
-                className="w-full h-11 rounded-lg border border-border bg-background px-3.5 text-sm text-foreground placeholder:text-muted focus:border-primary focus:outline-none"
-              />
-            </div>
+            <NovaPoshtaDeliverySelect
+              city={city}
+              warehouse={warehouse}
+              onCityChange={setCity}
+              onWarehouseChange={setWarehouse}
+            />
 
             <div>
               <label className="text-xs font-semibold text-muted block mb-1.5">
