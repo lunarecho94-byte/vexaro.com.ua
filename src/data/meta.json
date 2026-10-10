@@ -1,25 +1,25 @@
 {
-  "total": 5834,
+  "total": 5891,
   "brands": [
     {
       "name": "Nike",
       "slug": "nike",
-      "count": 2036
+      "count": 2060
     },
     {
       "name": "New Balance",
       "slug": "newbalance",
-      "count": 1326
+      "count": 1338
     },
     {
       "name": "Adidas",
       "slug": "adidas",
-      "count": 494
+      "count": 499
     },
     {
       "name": "UGG",
       "slug": "ugg",
-      "count": 435
+      "count": 441
     },
     {
       "name": "Asics",
@@ -29,22 +29,22 @@
     {
       "name": "Інші бренди",
       "slug": "other",
-      "count": 167
-    },
-    {
-      "name": "Air Jordan",
-      "slug": "jordan",
-      "count": 125
+      "count": 170
     },
     {
       "name": "Salomon",
       "slug": "salomon",
+      "count": 125
+    },
+    {
+      "name": "Air Jordan",
+      "slug": "jordan",
       "count": 121
     },
     {
       "name": "Balenciaga",
       "slug": "balenciaga",
-      "count": 92
+      "count": 91
     },
     {
       "name": "On Cloud",
@@ -54,7 +54,12 @@
     {
       "name": "Premiata",
       "slug": "premiata",
-      "count": 61
+      "count": 60
+    },
+    {
+      "name": "Off-White",
+      "slug": "offwhite",
+      "count": 55
     },
     {
       "name": "Golden Goose",
@@ -62,14 +67,9 @@
       "count": 54
     },
     {
-      "name": "Off-White",
-      "slug": "offwhite",
-      "count": 51
-    },
-    {
       "name": "Puma",
       "slug": "puma",
-      "count": 39
+      "count": 44
     },
     {
       "name": "Dior",
@@ -77,13 +77,13 @@
       "count": 37
     },
     {
-      "name": "The North Face",
-      "slug": "tnf",
-      "count": 28
-    },
-    {
       "name": "Vans",
       "slug": "vans",
+      "count": 27
+    },
+    {
+      "name": "The North Face",
+      "slug": "tnf",
       "count": 27
     },
     {
@@ -112,14 +112,14 @@
       "count": 19
     },
     {
-      "name": "Lacoste",
-      "slug": "lacoste",
+      "name": "Converse",
+      "slug": "converse",
       "count": 14
     },
     {
-      "name": "Converse",
-      "slug": "converse",
-      "count": 13
+      "name": "Lacoste",
+      "slug": "lacoste",
+      "count": 14
     },
     {
       "name": "Miu Miu",
@@ -132,14 +132,14 @@
       "count": 12
     },
     {
+      "name": "Merrell",
+      "slug": "merrell",
+      "count": 12
+    },
+    {
       "name": "Gucci",
       "slug": "gucci",
       "count": 11
-    },
-    {
-      "name": "Merrell",
-      "slug": "merrell",
-      "count": 10
     },
     {
       "name": "Mizuno",
@@ -152,13 +152,13 @@
       "count": 9
     },
     {
-      "name": "Reebok",
-      "slug": "reebok",
-      "count": 9
-    },
-    {
       "name": "Bottega Veneta",
       "slug": "bottega",
+      "count": 7
+    },
+    {
+      "name": "Reebok",
+      "slug": "reebok",
       "count": 7
     },
     {
@@ -211,36 +211,36 @@
     {
       "name": "Взуття",
       "slug": "shoes",
-      "count": 5834
+      "count": 5891
     }
   ],
   "genders": [
     {
       "name": "Унісекс",
       "slug": "unisex",
-      "count": 2960
+      "count": 2979
     },
     {
       "name": "Жіночі",
       "slug": "women",
-      "count": 1588
+      "count": 1606
     },
     {
       "name": "Чоловічі",
       "slug": "men",
-      "count": 1286
+      "count": 1306
     }
   ],
   "seasons": [
     {
       "name": "Демісезон",
       "slug": "demi",
-      "count": 5202
+      "count": 5254
     },
     {
       "name": "Зима",
       "slug": "winter",
-      "count": 632
+      "count": 637
     }
   ],
   "sizes": [
@@ -264,15 +264,15 @@
     "48",
     "49",
     "50",
-    "L",
-    "M",
-    "45/46",
     "XL",
-    "40 2/3",
     "40–41",
+    "45/46",
+    "M",
     "42 2/3",
+    "L",
+    "40 2/3",
     "S"
   ],
   "minPrice": 508,
-  "maxPrice": 7493
+  "maxPrice": 8255
 }
