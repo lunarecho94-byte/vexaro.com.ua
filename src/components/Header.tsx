@@ -45,6 +45,16 @@ export function Header() {
 
         {/* Action Controls */}
         <div className="flex items-center gap-2 sm:gap-3">
+          {/* Search Button */}
+          <button
+            type="button"
+            onClick={() => setIsSearchOpen(!isSearchOpen)}
+            className="flex h-11 w-11 items-center justify-center rounded-lg text-muted hover:text-foreground hover:bg-surface transition-colors"
+            aria-label="Пошук товарів"
+          >
+            {isSearchOpen ? <X className="h-5 w-5" /> : <Search className="h-5 w-5" />}
+          </button>
+
           {/* Messengers: Viber & Telegram */}
           <div className="flex items-center gap-1 sm:gap-1.5">
             <a
@@ -81,16 +91,6 @@ export function Header() {
               <span className="hidden xl:inline text-[11px]">Telegram</span>
             </a>
           </div>
-
-          {/* Search Button */}
-          <button
-            type="button"
-            onClick={() => setIsSearchOpen(!isSearchOpen)}
-            className="flex h-11 w-11 items-center justify-center rounded-lg text-muted hover:text-foreground hover:bg-surface transition-colors"
-            aria-label="Пошук товарів"
-          >
-            {isSearchOpen ? <X className="h-5 w-5" /> : <Search className="h-5 w-5" />}
-          </button>
 
           {/* Favorites Button */}
           <button
