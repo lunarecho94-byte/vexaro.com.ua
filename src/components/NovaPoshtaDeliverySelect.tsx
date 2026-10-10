@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, useMemo } from 'react';
 import { MapPin, Search, Check, ChevronDown, X, Loader2, Building2, Package, Edit3 } from 'lucide-react';
 
 interface CityItem {
@@ -30,12 +30,13 @@ interface NovaPoshtaDeliverySelectProps {
 
 const POPULAR_QUICK_CITIES = [
   { name: 'Київ', cityRef: '8d5a980d-391c-11dd-90d9-001a92567626', ref: 'e718a680-4b33-11e4-ab6d-005056801329' },
-  { name: 'Львів', cityRef: '8d5a980e-391c-11dd-90d9-001a92567626', ref: 'e718a68a-4b33-11e4-ab6d-005056801329' },
-  { name: 'Одеса', cityRef: '8d5a980f-391c-11dd-90d9-001a92567626', ref: 'e718a68e-4b33-11e4-ab6d-005056801329' },
-  { name: 'Дніпро', cityRef: 'db5c88f0-391c-11dd-90d9-001a92567626', ref: 'e718a686-4b33-11e4-ab6d-005056801329' },
-  { name: 'Харків', cityRef: 'db5c88e0-391c-11dd-90d9-001a92567626', ref: 'e718a685-4b33-11e4-ab6d-005056801329' },
-  { name: 'Вінниця', cityRef: 'db5c88f5-391c-11dd-90d9-001a92567626', ref: 'e718a698-4b33-11e4-ab6d-005056801329' },
-  { name: 'Івано-Франківськ', cityRef: 'db5c88f7-391c-11dd-90d9-001a92567626', ref: 'e718a693-4b33-11e4-ab6d-005056801329' },
+  { name: 'Львів', cityRef: 'db5c88f5-391c-11dd-90d9-001a92567626', ref: 'e71abb60-4b33-11e4-ab6d-005056801329' },
+  { name: 'Одеса', cityRef: 'db5c88d0-391c-11dd-90d9-001a92567626', ref: 'e71c2a15-4b33-11e4-ab6d-005056801329' },
+  { name: 'Дніпро', cityRef: 'db5c88f0-391c-11dd-90d9-001a92567626', ref: 'e717110a-4b33-11e4-ab6d-005056801329' },
+  { name: 'Харків', cityRef: 'db5c88e0-391c-11dd-90d9-001a92567626', ref: 'e71f8842-4b33-11e4-ab6d-005056801329' },
+  { name: 'Запоріжжя', cityRef: 'db5c88c6-391c-11dd-90d9-001a92567626', ref: 'e717bce9-4b33-11e4-ab6d-005056801329' },
+  { name: 'Вінниця', cityRef: 'db5c88de-391c-11dd-90d9-001a92567626', ref: 'e71629ab-4b33-11e4-ab6d-005056801329' },
+  { name: 'Івано-Франківськ', cityRef: 'db5c8904-391c-11dd-90d9-001a92567626', ref: 'e7182b3c-4b33-11e4-ab6d-005056801329' },
 ];
 
 export function NovaPoshtaDeliverySelect({
@@ -48,14 +49,17 @@ export function NovaPoshtaDeliverySelect({
 
   // City state
   const [citySearch, setCitySearch] = useState(city);
-  const [selectedCityRef, setSelectedCityRef] = useState<string>('');
+  const [selectedCityRef, setSelectedCityRef] = useState<string>(() => {
+    const quick = POPULAR_QUICK_CITIES.find((c) => c.name.toLowerCase() === (city || '').toLowerCase());
+    return quick ? quick.cityRef : '';
+  });
   const [cityList, setCityList] = useState<CityItem[]>([]);
   const [isCityLoading, setIsCityLoading] = useState(false);
   const [isCityDropdownOpen, setIsCityDropdownOpen] = useState(false);
 
   // Warehouse state
   const [warehouseSearch, setWarehouseSearch] = useState('');
-  const [warehouseList, setWarehouseList] = useState<WarehouseItem[]>([]);
+  const [allCityWarehouses, setAllCityWarehouses] = useState<WarehouseItem[]>([]);
   const [isWarehouseLoading, setIsWarehouseLoading] = useState(false);
   const [isWarehouseDropdownOpen, setIsWarehouseDropdownOpen] = useState(false);
   const [warehouseTypeFilter, setWarehouseTypeFilter] = useState<'all' | 'branch' | 'postomat'>('all');
@@ -65,8 +69,12 @@ export function NovaPoshtaDeliverySelect({
 
   // Synchronize internal citySearch if parent changes
   useEffect(() => {
-    if (city && city !== citySearch && !selectedCityRef) {
+    if (city && city !== citySearch) {
       setCitySearch(city);
+      const quick = POPULAR_QUICK_CITIES.find((c) => c.name.toLowerCase() === city.toLowerCase());
+      if (quick) {
+        setSelectedCityRef(quick.cityRef);
+      }
     }
   }, [city]);
 
@@ -107,23 +115,26 @@ export function NovaPoshtaDeliverySelect({
     return () => clearTimeout(timer);
   }, [citySearch, isCityDropdownOpen, manualMode]);
 
-  // Fetch warehouses when selectedCityRef or search/filter changes
+  // Fetch all warehouses for the active city
   useEffect(() => {
-    if (manualMode || !selectedCityRef) return;
+    const activeCityName = citySearch || city;
+    if (manualMode || (!selectedCityRef && !activeCityName)) {
+      setAllCityWarehouses([]);
+      return;
+    }
 
     let cancelled = false;
-    const fetchWarehouses = async () => {
+    const fetchAllWarehousesForCity = async () => {
       setIsWarehouseLoading(true);
       try {
-        const params = new URLSearchParams({
-          cityRef: selectedCityRef,
-          search: warehouseSearch,
-          type: warehouseTypeFilter,
-        });
+        const params = new URLSearchParams();
+        if (selectedCityRef) params.set('cityRef', selectedCityRef);
+        if (activeCityName) params.set('cityName', activeCityName);
+
         const res = await fetch(`/api/novaposhta/warehouses?${params.toString()}`);
         const data = await res.json();
         if (!cancelled && data.success && Array.isArray(data.warehouses)) {
-          setWarehouseList(data.warehouses);
+          setAllCityWarehouses(data.warehouses);
         }
       } catch (err) {
         if (!cancelled) console.error('Failed to load warehouses:', err);
@@ -132,12 +143,67 @@ export function NovaPoshtaDeliverySelect({
       }
     };
 
-    const timer = setTimeout(fetchWarehouses, warehouseSearch ? 250 : 0);
+    fetchAllWarehousesForCity();
+
     return () => {
       cancelled = true;
-      clearTimeout(timer);
     };
-  }, [selectedCityRef, warehouseSearch, warehouseTypeFilter, manualMode]);
+  }, [selectedCityRef, city, manualMode]);
+
+  // Smart client-side filtering across all city warehouses
+  const displayedWarehouses = useMemo(() => {
+    let list = allCityWarehouses;
+
+    // Filter by type
+    if (warehouseTypeFilter === 'branch') {
+      list = list.filter((w) => w.type === 'branch');
+    } else if (warehouseTypeFilter === 'postomat') {
+      list = list.filter((w) => w.type === 'postomat');
+    }
+
+    const query = warehouseSearch.trim();
+    if (!query) return list;
+
+    // Clean search string
+    const cleaned = query
+      .replace(/(відділення|отделение|поштомат|почтомат|нова\s*пошта|номер)/gi, '')
+      .replace(/[№#]/g, '')
+      .trim();
+    const lowerCleaned = cleaned.toLowerCase();
+    const lowerRaw = query.toLowerCase();
+
+    return list
+      .filter((w) => {
+        // 1. Direct number match or prefix match
+        if (cleaned && w.number === cleaned) return true;
+        if (cleaned && w.number.startsWith(cleaned)) return true;
+
+        // 2. Substring in description or short address
+        if (lowerCleaned && w.description.toLowerCase().includes(lowerCleaned)) return true;
+        if (lowerCleaned && w.shortAddress.toLowerCase().includes(lowerCleaned)) return true;
+        if (w.description.toLowerCase().includes(lowerRaw)) return true;
+        return false;
+      })
+      .sort((a, b) => {
+        // Prioritize exact number match at index 0
+        if (cleaned) {
+          const aExact = a.number === cleaned;
+          const bExact = b.number === cleaned;
+          if (aExact && !bExact) return -1;
+          if (!aExact && bExact) return 1;
+        }
+        return 0;
+      });
+  }, [allCityWarehouses, warehouseSearch, warehouseTypeFilter]);
+
+  const branchCount = useMemo(
+    () => allCityWarehouses.filter((w) => w.type === 'branch').length,
+    [allCityWarehouses]
+  );
+  const postomatCount = useMemo(
+    () => allCityWarehouses.filter((w) => w.type === 'postomat').length,
+    [allCityWarehouses]
+  );
 
   const handleSelectCity = (cityItem: CityItem | typeof POPULAR_QUICK_CITIES[0]) => {
     const name = cityItem.name;
@@ -163,7 +229,7 @@ export function NovaPoshtaDeliverySelect({
     setSelectedCityRef('');
     onCityChange('');
     onWarehouseChange('');
-    setWarehouseList([]);
+    setAllCityWarehouses([]);
     setIsCityDropdownOpen(true);
   };
 
@@ -203,7 +269,7 @@ export function NovaPoshtaDeliverySelect({
             required
             value={warehouse}
             onChange={(e) => onWarehouseChange(e.target.value)}
-            placeholder="наприклад: Відділення №25 (вул. Хрещатик, 14)"
+            placeholder="наприклад: Відділення №25 (вул. Ряшівська, 13)"
             className="w-full h-11 rounded-lg border border-border bg-surface px-3.5 text-xs text-foreground placeholder:text-muted focus:border-primary focus:outline-none transition-colors"
           />
         </div>
@@ -211,8 +277,7 @@ export function NovaPoshtaDeliverySelect({
     );
   }
 
-  const branchCount = warehouseList.filter((w) => w.type === 'branch').length;
-  const postomatCount = warehouseList.filter((w) => w.type === 'postomat').length;
+  const currentCityName = citySearch || city;
 
   return (
     <div className="space-y-4">
@@ -238,7 +303,7 @@ export function NovaPoshtaDeliverySelect({
         {/* Quick-select chips for popular cities */}
         {!selectedCityRef && (
           <div className="mb-2 flex flex-wrap gap-1.5">
-            {POPULAR_QUICK_CITIES.slice(0, 6).map((c) => (
+            {POPULAR_QUICK_CITIES.map((c) => (
               <button
                 key={c.name}
                 type="button"
@@ -340,9 +405,13 @@ export function NovaPoshtaDeliverySelect({
             <span>Відділення або поштомат</span>
             <span className="text-rose-500">*</span>
           </label>
-          {selectedCityRef && (
+          {currentCityName && (
             <span className="text-[11px] text-muted">
-              {warehouseList.length > 0 ? `${warehouseList.length} пунктів у м. ${city}` : ''}
+              {allCityWarehouses.length > 0
+                ? `${allCityWarehouses.length} пунктів у м. ${currentCityName}`
+                : isWarehouseLoading
+                ? 'Завантаження списку...'
+                : ''}
             </span>
           )}
         </div>
@@ -358,7 +427,7 @@ export function NovaPoshtaDeliverySelect({
               )}
               <div>
                 <div className="font-bold text-foreground leading-snug">{warehouse}</div>
-                <div className="text-[11px] text-muted mt-0.5">Нова Пошта • м. {city}</div>
+                <div className="text-[11px] text-muted mt-0.5">Нова Пошта • м. {currentCityName}</div>
               </div>
             </div>
             <button
@@ -374,7 +443,7 @@ export function NovaPoshtaDeliverySelect({
             <input
               type="text"
               required
-              disabled={!city}
+              disabled={!currentCityName}
               value={warehouseSearch || (warehouse && !isWarehouseDropdownOpen ? warehouse : '')}
               onChange={(e) => {
                 setWarehouseSearch(e.target.value);
@@ -382,10 +451,10 @@ export function NovaPoshtaDeliverySelect({
                 setIsWarehouseDropdownOpen(true);
               }}
               onFocus={() => {
-                if (city) setIsWarehouseDropdownOpen(true);
+                if (currentCityName) setIsWarehouseDropdownOpen(true);
               }}
               placeholder={
-                city
+                currentCityName
                   ? 'Оберіть відділення або введіть номер (наприклад: 12)'
                   : 'Спочатку оберіть місто вище'
               }
@@ -413,7 +482,7 @@ export function NovaPoshtaDeliverySelect({
         )}
 
         {/* Warehouse Dropdown List with Filter Tabs */}
-        {isWarehouseDropdownOpen && city && (
+        {isWarehouseDropdownOpen && currentCityName && (
           <div className="absolute z-30 mt-1 max-h-72 w-full flex flex-col overflow-hidden rounded-xl border border-border bg-surface-raised shadow-2xl">
             {/* Filter Tabs: All, Branch, Postomat */}
             <div className="flex border-b border-border bg-surface p-1.5 gap-1 shrink-0">
@@ -426,7 +495,7 @@ export function NovaPoshtaDeliverySelect({
                     : 'text-muted hover:text-foreground'
                 }`}
               >
-                Всі
+                Всі {allCityWarehouses.length > 0 ? `(${allCityWarehouses.length})` : ''}
               </button>
               <button
                 type="button"
@@ -456,12 +525,12 @@ export function NovaPoshtaDeliverySelect({
 
             {/* Warehouse List */}
             <div className="overflow-y-auto max-h-56 p-1 scrollbar-thin">
-              {isWarehouseLoading && warehouseList.length === 0 ? (
+              {isWarehouseLoading && allCityWarehouses.length === 0 ? (
                 <div className="flex items-center justify-center p-6 text-xs text-muted gap-2">
                   <Loader2 className="h-4 w-4 animate-spin text-primary" />
-                  <span>Завантаження пунктів Нової Пошти...</span>
+                  <span>Завантаження всіх пунктів Нової Пошти...</span>
                 </div>
-              ) : warehouseList.length === 0 ? (
+              ) : displayedWarehouses.length === 0 ? (
                 <div className="p-4 text-center text-xs text-muted">
                   За запитом нічого не знайдено.{' '}
                   <button
@@ -476,7 +545,7 @@ export function NovaPoshtaDeliverySelect({
                   </button>
                 </div>
               ) : (
-                warehouseList.map((wh) => (
+                displayedWarehouses.map((wh) => (
                   <button
                     key={wh.ref}
                     type="button"
