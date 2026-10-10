@@ -17,9 +17,9 @@ LOG_FILE="$PROJECT_DIR/scripts/sync.log"
 echo "[$TIMESTAMP] === Starting VEXARO Sneakers Auto-Sync ===" >> "$LOG_FILE"
 
 # 1. Run Python sync script
-python3 "$PROJECT_DIR/scripts/sync_catalog.py" --download >> "$LOG_FILE" 2>&1 || {
-    echo "[$TIMESTAMP] Download attempt encountered network isolation, continuing with cached supplier feed..." >> "$LOG_FILE"
-    python3 "$PROJECT_DIR/scripts/sync_catalog.py" >> "$LOG_FILE" 2>&1
+python3 -u "$PROJECT_DIR/scripts/sync_catalog.py" --download >> "$LOG_FILE" 2>&1 || {
+    echo "[$TIMESTAMP] Download attempt encountered network issue, continuing with cached supplier feed..." >> "$LOG_FILE"
+    python3 -u "$PROJECT_DIR/scripts/sync_catalog.py" >> "$LOG_FILE" 2>&1
 }
 
 # 2. Check if catalog files changed

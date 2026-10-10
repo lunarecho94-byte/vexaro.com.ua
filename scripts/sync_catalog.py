@@ -232,7 +232,7 @@ def download_export_feed():
     )
     temp_path = EXPORT_FILE + '.tmp'
     try:
-        with urllib.request.urlopen(req, timeout=90) as response, open(temp_path, 'wb') as out_file:
+        with urllib.request.urlopen(req, timeout=300) as response, open(temp_path, 'wb') as out_file:
             shutil.copyfileobj(response, out_file)
         
         file_size = os.path.getsize(temp_path)
