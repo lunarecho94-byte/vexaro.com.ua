@@ -84,7 +84,7 @@ export function ProductOrderPanel({ product }: ProductOrderPanelProps) {
           type="button"
           onClick={handleAddToCart}
           disabled={!product.inStock}
-          className="flex h-14 sm:h-16 w-full items-center justify-center gap-3 rounded-2xl bg-primary text-sm sm:text-base font-extrabold uppercase tracking-wider text-background shadow-lg shadow-primary/25 hover:bg-primary-hover hover:shadow-primary/40 active:scale-[0.99] disabled:opacity-40 transition-all"
+          className="flex h-14 sm:h-16 w-full items-center justify-center gap-3 rounded-2xl bg-primary text-base sm:text-lg font-black uppercase tracking-wider text-background shadow-lg shadow-primary/25 hover:bg-primary-hover hover:shadow-primary/40 active:scale-[0.99] disabled:opacity-40 transition-all"
         >
           {addedAnimation ? (
             <>
@@ -115,9 +115,9 @@ export function ProductOrderPanel({ product }: ProductOrderPanelProps) {
       </div>
 
       {/* Mobile Sticky Bottom Bar (appears on small screens) */}
-      <div className="fixed bottom-0 left-0 right-0 z-40 border-t border-border bg-surface/95 p-3.5 backdrop-blur-lg sm:hidden">
+      <div className="fixed bottom-0 left-0 right-0 z-40 border-t border-border bg-surface/95 px-3.5 py-3 backdrop-blur-xl sm:hidden pb-[max(0.75rem,env(safe-area-inset-bottom))] shadow-[0_-8px_25px_rgba(0,0,0,0.5)]">
         <div className="flex items-center justify-between gap-3 max-w-md mx-auto">
-          <div>
+          <div className="shrink-0">
             <div className="flex items-center gap-1.5">
               <span className="text-[11px] text-muted">Ціна</span>
               {product.oldPrice && (
@@ -126,22 +126,31 @@ export function ProductOrderPanel({ product }: ProductOrderPanelProps) {
                 </span>
               )}
             </div>
-            <div className="text-base font-black text-foreground">
+            <div className="text-base sm:text-lg font-black text-foreground">
               {product.price.toLocaleString('uk-UA')} ₴
             </div>
           </div>
 
-          <div className="flex items-center gap-2 flex-1 justify-end">
-            <FavoriteButton product={product} variant="card" className="shrink-0" />
+          <div className="flex items-center gap-2.5 flex-1 justify-end min-w-0">
+            <FavoriteButton product={product} variant="card" className="h-12 w-12 shrink-0" />
 
             <button
               type="button"
               onClick={handleAddToCart}
               disabled={!product.inStock}
-              className="flex-1 h-13 rounded-xl bg-primary text-xs sm:text-sm font-extrabold uppercase tracking-wider text-background shadow-md shadow-primary/20 hover:bg-primary-hover active:scale-[0.99] flex items-center justify-center gap-2"
+              className="flex-1 min-w-0 h-14 rounded-2xl bg-primary text-sm sm:text-base font-black uppercase tracking-wider text-background shadow-lg shadow-primary/30 hover:bg-primary-hover active:scale-[0.98] flex items-center justify-center gap-2 px-3 transition-all"
             >
-              <ShoppingBag className="h-5 w-5 stroke-[2.5]" />
-              <span>В кошик {selectedSize ? `(${selectedSize})` : ''}</span>
+              {addedAnimation ? (
+                <>
+                  <Check className="h-5 w-5 stroke-[2.5]" />
+                  <span>Додано!</span>
+                </>
+              ) : (
+                <>
+                  <ShoppingBag className="h-5 w-5 stroke-[2.5]" />
+                  <span className="truncate">В кошик {selectedSize ? `(${selectedSize})` : ''}</span>
+                </>
+              )}
             </button>
           </div>
         </div>

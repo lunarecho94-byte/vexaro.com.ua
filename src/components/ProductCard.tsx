@@ -123,7 +123,7 @@ export function ProductCard({ product, priority = false }: ProductCardProps) {
           type="button"
           onClick={handleQuickAdd}
           disabled={!product.inStock}
-          className="w-full h-11 rounded-xl bg-surface-raised border border-border text-xs font-bold uppercase tracking-wider text-foreground hover:bg-primary hover:text-background hover:border-primary disabled:opacity-40 disabled:hover:bg-surface-raised disabled:hover:text-foreground transition-all flex items-center justify-center gap-1.5"
+          className="w-full h-12 rounded-xl bg-surface-raised border border-border text-xs sm:text-sm font-extrabold uppercase tracking-wider text-foreground hover:bg-primary hover:text-background hover:border-primary disabled:opacity-40 disabled:hover:bg-surface-raised disabled:hover:text-foreground transition-all flex items-center justify-center gap-1.5 active:scale-[0.98]"
         >
           {product.inStock ? 'В кошик' : 'Немає в наявності'}
         </button>
