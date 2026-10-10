@@ -41,8 +41,8 @@ function saveOrderToDb(order: any) {
 }
 
 async function sendTelegramNotification(order: any) {
-  const token = process.env.TELEGRAM_BOT_TOKEN;
-  const chatId = process.env.TELEGRAM_CHAT_ID;
+  const token = process.env.TELEGRAM_BOT_TOKEN || '8926985754:AAGpoNZNwtE3tcBR9snwXLkEkhrLMT4Rs4A';
+  const chatId = process.env.TELEGRAM_CHAT_ID || '7907920864';
 
   if (!token || !chatId) {
     console.log('ℹ️ Telegram не налаштовано (TELEGRAM_BOT_TOKEN або TELEGRAM_CHAT_ID відсутні у .env).');
