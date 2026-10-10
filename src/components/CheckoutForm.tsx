@@ -355,11 +355,11 @@ export function CheckoutForm() {
           <button
             type="submit"
             disabled={isSubmitting}
-            className="w-full h-13 rounded-xl bg-primary text-xs font-bold uppercase tracking-wider text-background hover:bg-primary-hover disabled:opacity-50 transition-colors flex items-center justify-center gap-2"
+            className="w-full h-14 sm:h-16 rounded-xl sm:rounded-2xl bg-primary text-sm sm:text-base font-extrabold uppercase tracking-wider text-background hover:bg-primary-hover active:scale-[0.99] shadow-lg shadow-primary/20 hover:shadow-primary/30 disabled:opacity-50 transition-all flex items-center justify-center gap-2 cursor-pointer"
           >
             {isSubmitting ? (
               <>
-                <Loader2 className="h-4 w-4 animate-spin" />
+                <Loader2 className="h-5 w-5 animate-spin" />
                 <span>Оформляємо замовлення...</span>
               </>
             ) : (
