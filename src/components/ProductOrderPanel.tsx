@@ -79,32 +79,32 @@ export function ProductOrderPanel({ product }: ProductOrderPanelProps) {
       )}
 
       {/* Main Order Buttons */}
-      <div className="flex flex-col gap-2.5 pt-2">
+      <div className="flex flex-col gap-3 pt-2">
         <button
           type="button"
           onClick={handleAddToCart}
           disabled={!product.inStock}
-          className="flex h-13 w-full items-center justify-center gap-2 rounded-xl bg-primary text-xs font-bold uppercase tracking-wider text-background hover:bg-primary-hover disabled:opacity-40 transition-colors"
+          className="flex h-14 sm:h-16 w-full items-center justify-center gap-3 rounded-2xl bg-primary text-sm sm:text-base font-extrabold uppercase tracking-wider text-background shadow-lg shadow-primary/25 hover:bg-primary-hover hover:shadow-primary/40 active:scale-[0.99] disabled:opacity-40 transition-all"
         >
           {addedAnimation ? (
             <>
-              <Check className="h-5 w-5" />
+              <Check className="h-6 w-6 stroke-[2.5]" />
               <span>Додано до кошика!</span>
             </>
           ) : (
             <>
-              <ShoppingBag className="h-5 w-5" />
+              <ShoppingBag className="h-6 w-6 stroke-[2.5]" />
               <span>Додати в кошик</span>
             </>
           )}
         </button>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+        <div className="grid grid-cols-2 gap-2.5">
           <button
             type="button"
             onClick={handleBuyNow}
             disabled={!product.inStock}
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-xl border border-border bg-surface text-xs font-bold uppercase tracking-wider text-foreground hover:bg-surface-raised disabled:opacity-40 transition-colors"
+            className="flex h-12 w-full items-center justify-center gap-2 rounded-xl border border-border bg-surface text-xs font-bold uppercase tracking-wider text-foreground hover:bg-surface-raised active:scale-[0.99] disabled:opacity-40 transition-all"
           >
             <Zap className="h-4 w-4 text-primary" />
             <span>Швидке замовлення</span>
@@ -138,9 +138,9 @@ export function ProductOrderPanel({ product }: ProductOrderPanelProps) {
               type="button"
               onClick={handleAddToCart}
               disabled={!product.inStock}
-              className="flex-1 h-12 rounded-xl bg-primary text-xs font-bold uppercase tracking-wider text-background hover:bg-primary-hover flex items-center justify-center gap-2"
+              className="flex-1 h-13 rounded-xl bg-primary text-xs sm:text-sm font-extrabold uppercase tracking-wider text-background shadow-md shadow-primary/20 hover:bg-primary-hover active:scale-[0.99] flex items-center justify-center gap-2"
             >
-              <ShoppingBag className="h-4 w-4" />
+              <ShoppingBag className="h-5 w-5 stroke-[2.5]" />
               <span>В кошик {selectedSize ? `(${selectedSize})` : ''}</span>
             </button>
           </div>
