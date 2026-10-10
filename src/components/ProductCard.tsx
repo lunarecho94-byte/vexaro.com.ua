@@ -1,6 +1,6 @@
 'use client';
 
-import React from 'react';
+import React, { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { Product } from '@/types/product';
@@ -14,7 +14,11 @@ interface ProductCardProps {
 
 export function ProductCard({ product, priority = false }: ProductCardProps) {
   const addItem = useCartStore((state) => state.addItem);
-  const primaryImage = product.images[0] || '/placeholder.png';
+  const [imageIndex, setImageIndex] = useState(0);
+  const [hasError, setHasError] = useState(false);
+
+  const imagesList = product.images && product.images.length > 0 ? product.images : [];
+  const currentImage = !hasError && imagesList[imageIndex] ? imagesList[imageIndex] : '/images/shoe-placeholder.svg';
 
   const handleQuickAdd = (e: React.MouseEvent) => {
     e.preventDefault();
@@ -30,12 +34,19 @@ export function ProductCard({ product, priority = false }: ProductCardProps) {
         {/* Image Area */}
         <div className="relative aspect-square w-full overflow-hidden bg-surface-raised">
           <Image
-            src={primaryImage}
+            src={currentImage}
             alt={product.name}
             fill
             sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
             priority={priority}
             className="object-cover object-center group-hover:scale-105 transition-transform duration-300"
+            onError={() => {
+              if (imageIndex + 1 < imagesList.length) {
+                setImageIndex(imageIndex + 1);
+              } else {
+                setHasError(true);
+              }
+            }}
           />
 
           {/* Badges */}

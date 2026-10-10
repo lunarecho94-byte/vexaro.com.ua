@@ -15,7 +15,6 @@ export default function imageLoader({
   }
 
   const q = quality || 80;
-  // Cloudflare-backed global CDN image optimization
-  // Compresses 2.1MB raw supplier JPEGs down to ~18-25KB modern WebP
-  return `https://wsrv.nl/?url=${encodeURIComponent(src)}&w=${width}&q=${q}&output=webp`;
+  // Cloudflare-backed global CDN image optimization with automatic fallback to original
+  return `https://wsrv.nl/?url=${encodeURIComponent(src)}&w=${width}&q=${q}&output=webp&default=${encodeURIComponent(src)}`;
 }

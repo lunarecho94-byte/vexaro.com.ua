@@ -92,8 +92,11 @@ export function FavoritesDrawer() {
                     className="relative h-20 w-20 shrink-0 overflow-hidden rounded-xl border border-border bg-surface-raised"
                   >
                     <img
-                      src={product.images[0]}
+                      src={product.images[0] || '/images/shoe-placeholder.svg'}
                       alt={product.name}
+                      onError={(e) => {
+                        (e.currentTarget as HTMLImageElement).src = '/images/shoe-placeholder.svg';
+                      }}
                       className="h-full w-full object-cover group-hover:scale-105 transition-transform duration-300"
                     />
                   </Link>

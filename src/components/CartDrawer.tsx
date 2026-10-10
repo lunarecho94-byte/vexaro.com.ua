@@ -91,7 +91,7 @@ export function CartDrawer() {
                 >
                   <div className="relative h-20 w-20 shrink-0 overflow-hidden rounded-lg bg-surface-raised">
                     <Image
-                      src={item.product.images[0] || '/placeholder.png'}
+                      src={item.product.images[0] || '/images/shoe-placeholder.svg'}
                       alt={item.product.name}
                       fill
                       sizes="80px"

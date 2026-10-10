@@ -495,6 +495,17 @@ def clean_product_title(name, brand_slug, brand_title, cname=""):
     t = re.sub(r'\s+', ' ', t).strip(' -.,')
     return t
 
+IMAGE_REPLACEMENTS = {
+    'https://easydrop.one/media/uploads/images/base/ffb7b5c2-e73d-49ec-b067-55137d3d60ab.jpg': 'https://easydrop.one/media/uploads/images/base/a774cab8-7ea9-436b-8d04-c22e0d85bfeb.jpeg',  # Asics Onitsuka Tiger Tokuten Deep Ash
+    'https://easydrop.one/media/uploads/images/base/e7db0209-3069-47ec-a138-8478fc541ab4.jpeg': 'https://easydrop.one/media/uploads/images/base/7268d362-753b-4c6a-a0a6-a85d8032631b.jpeg',  # Salomon XT-6 White Silver
+    'https://easydrop.one/media/uploads/images/base/f22139a9-8503-40a2-a764-8d4ee02be0d4.jpeg': 'https://easydrop.one/media/uploads/images/base/d0d5f105-203b-4d86-84cf-d460381fb9fe.jpeg',  # Salomon XT-6 Gore-Tex Safari
+    'https://easydrop.one/media/uploads/images/base/b34a811f-900d-4b5c-b4a1-6b975a45a866.jpg': 'https://easydrop.one/media/uploads/images/base/1b93c385-1bc1-40c2-8740-6379211cb0bd.jpg',  # New Balance 9060 Linen Burgundy
+    'https://easydrop.one/media/uploads/images/base/a68a4cef-00c9-44e1-9f8e-78a1422becf4.jpg': 'https://easydrop.one/media/uploads/images/base/2ed43010-8783-48bb-9b75-0916984143b7.jpeg',  # New Balance 204L Brown
+    'https://easydrop.one/media/uploads/images/base/ed7911bc-8d90-455d-b33f-70c337285f89.jpg': 'https://easydrop.one/media/uploads/images/base/8af69743-77bd-4281-86ac-84d5b513bf93.jpeg',  # New Balance 204L Cream / Burgundy
+    'https://easydrop.one/media/uploads/images/base/216a4a07-c92c-4f00-b8d9-a7a9fcf3f208.jpeg': 'https://easydrop.one/media/uploads/images/base/b265a4bf-c7a1-4e38-b6bd-8fbeb94b1d3a.jpg',  # Nike Air Jordan 1 Low Travis Scott
+    'https://easydrop.one/media/uploads/images/base/a0b4b5dc-9fac-4e94-bd4a-e14f4e877c22.jpeg': 'https://easydrop.one/media/uploads/images/base/bd75da8b-2e60-4353-8712-8b3846069088.jpg',  # New Balance 9060 Joe Freshgoods
+}
+
 
 def main():
     if '--download' in sys.argv:
@@ -567,6 +578,7 @@ def main():
             for img in it.findall('image'):
                 if img.text:
                     url = img.text.strip()
+                    url = IMAGE_REPLACEMENTS.get(url, url)
                     if url and url not in imgs:
                         imgs.append(url)
                         
