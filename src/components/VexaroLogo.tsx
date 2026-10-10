@@ -88,11 +88,11 @@ export function VexaroLogo({
 
   // Default: 'header' variant
   return (
-    <div className={`group relative inline-flex items-center gap-2.5 sm:gap-3 py-1 ${className}`}>
+    <div className={`group relative inline-flex items-center gap-2 sm:gap-2.5 py-1 ${className}`}>
       {/* Dynamic neon aura behind emblem */}
-      <div className="relative flex items-center justify-center">
+      <div className="relative flex items-center justify-center shrink-0">
         {animated && (
-          <div className="absolute -inset-1.5 rounded-full bg-lime-400/25 blur-md opacity-60 transition-all duration-500 group-hover:opacity-100 group-hover:scale-125" />
+          <div className="absolute -inset-1 rounded-full bg-lime-400/25 blur-sm opacity-60 transition-all duration-500 group-hover:opacity-100 group-hover:scale-125" />
         )}
 
         {/* Orbit Emblem with breathing glow and hover rotation */}
@@ -104,22 +104,22 @@ export function VexaroLogo({
           <img
             src="/images/vexaro-emblem.png"
             alt="VEXARO"
-            className="h-9 w-9 sm:h-10 sm:w-10 object-contain drop-shadow-[0_0_10px_rgba(163,230,53,0.55)]"
+            className="h-7 w-7 sm:h-9 sm:w-9 md:h-10 md:w-10 object-contain drop-shadow-[0_0_8px_rgba(163,230,53,0.55)]"
           />
         </div>
       </div>
 
       {/* Brand text & tagline with shimmer effect */}
-      <div className="relative flex flex-col justify-center overflow-hidden">
-        <div className="relative flex items-center gap-1.5">
-          <span className="text-xl sm:text-2xl font-black tracking-[0.18em] text-foreground transition-all duration-300 group-hover:text-lime-400">
+      <div className="relative flex flex-col justify-center overflow-hidden min-w-0">
+        <div className="relative flex items-center gap-1 sm:gap-1.5">
+          <span className="text-[15px] sm:text-xl md:text-2xl font-black tracking-[0.12em] sm:tracking-[0.18em] text-foreground transition-all duration-300 group-hover:text-lime-400 whitespace-nowrap">
             VEXARO
           </span>
           {/* Subtle neon dot indicator */}
-          <span className="h-1.5 w-1.5 rounded-full bg-lime-400 shadow-[0_0_6px_#a3e635] animate-pulse" />
+          <span className="h-1.5 w-1.5 rounded-full bg-lime-400 shadow-[0_0_6px_#a3e635] animate-pulse shrink-0" />
         </div>
 
-        <span className="text-[8.5px] sm:text-[9.5px] font-semibold tracking-[0.22em] text-muted uppercase transition-colors group-hover:text-foreground/90">
+        <span className="hidden sm:inline-block text-[8.5px] sm:text-[9.5px] font-semibold tracking-[0.22em] text-muted uppercase transition-colors group-hover:text-foreground/90 whitespace-nowrap">
           Sneakers for your story
         </span>
 
