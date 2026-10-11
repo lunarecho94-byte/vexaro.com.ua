@@ -222,6 +222,26 @@ COLOR_WORDS = {
     'classic', 'oreo', 'zebra', 'blush', 'salt', 'cinder', 'bone', 'flax', 'clay', 'ash', 'mono'
 }
 
+# Explicitly excluded items (sandals, slippers, flip-flops, per store owner request)
+EXCLUDED_SKUS = {'16006', '16005', '16004', '16003'}
+EXCLUDED_NAME_PATTERNS = re.compile(
+    r'summer charms|'
+    r'\bsandals?\b|'
+    r'сандал|'
+    r'босоніж|'
+    r'сланц|'
+    r'сланец|'
+    r'шльоп|'
+    r'шлеп|'
+    r'тапочк|'
+    r'вьетнамк|'
+    r'в\'єтнамк|'
+    r'flip.?flop|'
+    r'\badilette\b',
+    re.I
+)
+
+
 
 def download_export_feed():
     os.makedirs(LOCAL_FEED_DIR, exist_ok=True)
@@ -386,6 +406,17 @@ def determine_season(name, cat_slug, mat="", desc="", cname=""):
     cname_lower = (cname or '').lower()
     full_ctx = f"{name_lower} {mat_lower} {cname_lower}"
 
+    # Summer check (open shoes, slides, crocs, sandals, slippers) - checked first!
+    is_open_shoe = bool(re.search(
+        r'sandal|sandals|сандал|босоніж|сланц|сланец|шльоп|шлеп|тапочк|тапочки|'
+        r'вьетнамк|в\'єтнамк|flip.?flop|summer charms|\badilette\b|\bcrocs\b|крокс',
+        name_lower
+    ))
+    is_summer_mesh = bool(re.search(r'\b(?:climacool|breeze)\b', name_lower)) and not bool(re.search(r'шкіра|кожа|замша|нубук|suede|leather', full_ctx))
+
+    if is_open_shoe or is_summer_mesh:
+        return 'summer', 'Літо'
+
     has_no_fur = bool(re.search(r'без\s+(?:меха|хутра)', full_ctx))
 
     # Winter footwear
@@ -394,18 +425,11 @@ def determine_season(name, cat_slug, mat="", desc="", cname=""):
         r'(?:зима|зимов|winter|термо|хутр|мех|мехом|пуховик|сноубут|дутик|мунбут|фліс|флис|fleece|шерсть|утепл|єврозима|еврозима|primaloft|thinsulate)',
         full_ctx
     ))
-    is_ugg = bool(re.search(r'\b(ugg|угг)\b', name_lower)) and not bool(re.search(r'сланц|сандал|шльоп', name_lower))
+    is_ugg = bool(re.search(r'\b(ugg|угг)\b', name_lower)) and not bool(re.search(r'сланц|сандал|шльоп|sandal', name_lower))
     has_fur_in_title = bool(re.search(r'\(хутро\)|\(термо\)', name_lower))
 
     if (winter_kw or is_polar or is_ugg or has_fur_in_title) and not has_no_fur:
         return 'winter', 'Зима'
-
-    # Summer check (open shoes, slides, crocs, sandals)
-    is_open_shoe = bool(re.search(r'сланц|шльоп|шлеп|сандал|босоніж|\bcrocs\b|крокс|вьетнамк|в\'єтнамк|\bslides?\b|\bclog\b', name_lower))
-    is_summer_mesh = bool(re.search(r'\b(?:climacool|breeze)\b', name_lower)) and not bool(re.search(r'шкіра|кожа|замша|нубук|suede|leather', full_ctx))
-
-    if is_open_shoe or is_summer_mesh:
-        return 'summer', 'Літо'
 
     # Default to demi-season
     return 'demi', 'Демісезон'
@@ -613,6 +637,10 @@ def main():
 
         # STRICT RULE: ONLY FOOTWEAR ("только обувь")
         if cat_slug != 'shoes':
+            continue
+
+        clean_sku = str(art).strip()
+        if clean_sku in EXCLUDED_SKUS or EXCLUDED_NAME_PATTERNS.search(name):
             continue
 
         # STRICT RULE: AT LEAST 3 SIZES IN STOCK (avoid single dead stock)

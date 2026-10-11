@@ -1,25 +1,25 @@
 {
-  "total": 5907,
+  "total": 5920,
   "brands": [
     {
       "name": "Nike",
       "slug": "nike",
-      "count": 2079
+      "count": 2086
     },
     {
       "name": "New Balance",
       "slug": "newbalance",
-      "count": 1334
+      "count": 1333
     },
     {
       "name": "Adidas",
       "slug": "adidas",
-      "count": 500
+      "count": 511
     },
     {
       "name": "UGG",
       "slug": "ugg",
-      "count": 443
+      "count": 440
     },
     {
       "name": "Asics",
@@ -29,7 +29,7 @@
     {
       "name": "Інші бренди",
       "slug": "other",
-      "count": 170
+      "count": 175
     },
     {
       "name": "Salomon",
@@ -44,7 +44,7 @@
     {
       "name": "Balenciaga",
       "slug": "balenciaga",
-      "count": 92
+      "count": 93
     },
     {
       "name": "On Cloud",
@@ -74,7 +74,7 @@
     {
       "name": "Dior",
       "slug": "dior",
-      "count": 37
+      "count": 39
     },
     {
       "name": "Vans",
@@ -87,19 +87,14 @@
       "count": 27
     },
     {
+      "name": "Louis Vuitton",
+      "slug": "louisvuitton",
+      "count": 26
+    },
+    {
       "name": "Alo Yoga",
       "slug": "aloyoga",
       "count": 23
-    },
-    {
-      "name": "Louis Vuitton",
-      "slug": "louisvuitton",
-      "count": 22
-    },
-    {
-      "name": "Hermes",
-      "slug": "hermes",
-      "count": 20
     },
     {
       "name": "Alexander McQueen",
@@ -107,9 +102,14 @@
       "count": 19
     },
     {
+      "name": "Miu Miu",
+      "slug": "miumiu",
+      "count": 16
+    },
+    {
       "name": "Loro Piana",
       "slug": "loropiana",
-      "count": 19
+      "count": 15
     },
     {
       "name": "Converse",
@@ -120,11 +120,6 @@
       "name": "Lacoste",
       "slug": "lacoste",
       "count": 14
-    },
-    {
-      "name": "Miu Miu",
-      "slug": "miumiu",
-      "count": 12
     },
     {
       "name": "Dr. Martens",
@@ -147,11 +142,6 @@
       "count": 10
     },
     {
-      "name": "Chanel",
-      "slug": "chanel",
-      "count": 9
-    },
-    {
       "name": "Reebok",
       "slug": "reebok",
       "count": 8
@@ -162,19 +152,34 @@
       "count": 7
     },
     {
+      "name": "Chanel",
+      "slug": "chanel",
+      "count": 6
+    },
+    {
+      "name": "Hermes",
+      "slug": "hermes",
+      "count": 6
+    },
+    {
       "name": "Under Armour",
       "slug": "underarmour",
       "count": 6
     },
     {
-      "name": "Prada",
-      "slug": "prada",
+      "name": "Celine",
+      "slug": "celine",
       "count": 5
     },
     {
       "name": "Columbia",
       "slug": "columbia",
       "count": 5
+    },
+    {
+      "name": "Prada",
+      "slug": "prada",
+      "count": 4
     },
     {
       "name": "Stone Island",
@@ -211,36 +216,36 @@
     {
       "name": "Взуття",
       "slug": "shoes",
-      "count": 5907
+      "count": 5920
     }
   ],
   "genders": [
     {
       "name": "Унісекс",
       "slug": "unisex",
-      "count": 2996
+      "count": 2993
     },
     {
       "name": "Жіночі",
       "slug": "women",
-      "count": 1601
+      "count": 1615
     },
     {
       "name": "Чоловічі",
       "slug": "men",
-      "count": 1310
+      "count": 1312
     }
   ],
   "seasons": [
     {
       "name": "Демісезон",
       "slug": "demi",
-      "count": 5273
+      "count": 5289
     },
     {
       "name": "Зима",
       "slug": "winter",
-      "count": 634
+      "count": 631
     }
   ],
   "sizes": [
@@ -265,14 +270,14 @@
     "49",
     "50",
     "42 2/3",
-    "S",
     "M",
-    "40 2/3",
     "40–41",
     "L",
+    "45/46",
     "XL",
-    "45/46"
+    "40 2/3",
+    "S"
   ],
-  "minPrice": 480,
+  "minPrice": 300,
   "maxPrice": 13333
 }
