@@ -750,11 +750,13 @@ def main():
         'maxPrice': int(max_price)
     }
 
-    # Sort: Nike Air Max Plus / TN pinned to top, then newest arrivals (highest EasyDrop ID first)
+    # Sort: Nike Air Max Plus SE-- M. Frank Rudy #1, then Nike Air Max Plus / TN, then newest arrivals
     def sort_key(p):
         name = p.get('name', '').lower()
         is_priority = 0
-        if 'nike' in name and 'surplus' not in name and 'homme plus' not in name:
+        if 'frank rudy' in name or str(p.get('id', '')) == '122263':
+            is_priority = 2
+        elif 'nike' in name and 'surplus' not in name and 'homme plus' not in name:
             if 'air max plus' in name or 'air max tn' in name or ('air max' in name and 'plus' in name):
                 is_priority = 1
         prod_id = int(p['id']) if str(p.get('id', '')).isdigit() else 0

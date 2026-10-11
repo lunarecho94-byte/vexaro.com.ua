@@ -47,15 +47,21 @@ export async function getProductById(id: string): Promise<Product | null> {
   return productById.get(id) || null;
 }
 
-export function isAirMaxPlus(name: string): boolean {
-  const n = name.toLowerCase();
-  if (!n.includes('nike')) return false;
-  if (n.includes('surplus') || n.includes('homme plus')) return false;
-  return (
+export function getProductPriority(product: { id: string; name: string }): number {
+  const n = product.name.toLowerCase();
+  if (n.includes('frank rudy') || String(product.id) === '122263') {
+    return 2;
+  }
+  if (!n.includes('nike')) return 0;
+  if (n.includes('surplus') || n.includes('homme plus')) return 0;
+  if (
     n.includes('air max plus') ||
     n.includes('air max tn') ||
     (n.includes('air max') && n.includes('plus'))
-  );
+  ) {
+    return 1;
+  }
+  return 0;
 }
 
 export async function getProducts(params: CatalogQueryParams = {}): Promise<CatalogResponse> {
@@ -103,16 +109,16 @@ export async function getProducts(params: CatalogQueryParams = {}): Promise<Cata
     );
   }
 
-  // Sorting: default to newest arrivals with Nike Air Max Plus prioritized at top
+  // Sorting: default to newest arrivals with Nike Air Max Plus SE Frank Rudy #1, followed by Air Max Plus
   if (params.sort === 'price_asc') {
     filtered = [...filtered].sort((a, b) => a.price - b.price);
   } else if (params.sort === 'price_desc') {
     filtered = [...filtered].sort((a, b) => b.price - a.price);
   } else {
-    // 'newest' or default/popular -> latest drops with Nike Air Max Plus pinned first
+    // 'newest' or default/popular -> Frank Rudy #1, Air Max Plus next, then latest drops
     filtered = [...filtered].sort((a, b) => {
-      const isPriorityA = isAirMaxPlus(a.name) ? 1 : 0;
-      const isPriorityB = isAirMaxPlus(b.name) ? 1 : 0;
+      const isPriorityA = getProductPriority(a);
+      const isPriorityB = getProductPriority(b);
       if (isPriorityA !== isPriorityB) {
         return isPriorityB - isPriorityA;
       }
