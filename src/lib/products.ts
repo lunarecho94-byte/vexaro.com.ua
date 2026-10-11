@@ -24,6 +24,9 @@ function ensureLoaded() {
   for (const p of allProducts) {
     productBySlug.set(p.slug, p);
     productById.set(p.id, p);
+    if (p.id === '254776') {
+      productBySlug.set('nike-air-max-plus-tn-black-teal-yellow-dh4776-001', p);
+    }
   }
 }
 

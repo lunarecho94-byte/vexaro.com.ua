@@ -238,7 +238,7 @@ EXCLUDED_NAME_PATTERNS = re.compile(
 CURATED_PRODUCTS = [
     {
         'id': '254776',
-        'slug': 'nike-air-max-plus-tn-black-teal-yellow-dh4776-001',
+        'slug': 'nike-air-max-plus-tn-black-teal-yellow-a5689',
         'name': 'Nike Air Max Plus Tn Black Teal Yellow',
         'brand': 'Nike',
         'brandSlug': 'nike',
@@ -251,7 +251,7 @@ CURATED_PRODUCTS = [
         'price': 2490,
         'oldPrice': 2950,
         'costPrice': 2000,
-        'sku': 'DH4776-001',
+        'sku': 'А5689',
         'material': 'Шкіра, текстиль',
         'country': "В'єтнам",
         'sizes': ['40', '41', '42', '43', '44', '45'],
@@ -266,15 +266,15 @@ CURATED_PRODUCTS = [
         ],
         'description': (
             'Легендарні чоловічі кросівки Nike Air Max Plus Tn у рідкісному контрастному забарвленні '
-            'Black Teal Yellow (артикул: DH4776-001). Верх виконаний із дихаючої сітки чорного кольору з '
+            'Black Teal Yellow (артикул: А5689). Верх виконаний із дихаючої сітки чорного кольору з '
             'градієнтними вставками бірюзового (Teal) та золотисто-жовтого (University Gold) кольорів. '
             'Фірмова підошва з технологією Tuned Air забезпечує максимальну амортизацію та комфорт протягом '
             'усього дня. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні '
             '(накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.'
         ),
         'seo': {
-            'title': 'Nike Air Max Plus Tn Black Teal Yellow (арт. DH4776-001) — купити в інтернет-магазині VEXARO',
-            'description': 'Замовляйте Nike Air Max Plus Tn Black Teal Yellow (арт. DH4776-001) за 2490 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж).'
+            'title': 'Nike Air Max Plus Tn Black Teal Yellow (арт. А5689) — купити в інтернет-магазині VEXARO',
+            'description': 'Замовляйте Nike Air Max Plus Tn Black Teal Yellow (арт. А5689) за 2490 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж).'
         }
     }
 ]
