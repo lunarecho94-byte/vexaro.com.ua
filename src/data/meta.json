@@ -1,25 +1,25 @@
 {
-  "total": 5737,
+  "total": 5720,
   "brands": [
     {
       "name": "Nike",
       "slug": "nike",
-      "count": 2077
+      "count": 2070
     },
     {
       "name": "New Balance",
       "slug": "newbalance",
-      "count": 1329
+      "count": 1327
     },
     {
       "name": "Adidas",
       "slug": "adidas",
-      "count": 495
+      "count": 493
     },
     {
       "name": "Asics",
       "slug": "asics",
-      "count": 413
+      "count": 412
     },
     {
       "name": "UGG",
@@ -29,7 +29,7 @@
     {
       "name": "Інші бренди",
       "slug": "other",
-      "count": 170
+      "count": 169
     },
     {
       "name": "Salomon",
@@ -39,7 +39,7 @@
     {
       "name": "Air Jordan",
       "slug": "jordan",
-      "count": 121
+      "count": 120
     },
     {
       "name": "Balenciaga",
@@ -54,7 +54,7 @@
     {
       "name": "Premiata",
       "slug": "premiata",
-      "count": 60
+      "count": 58
     },
     {
       "name": "Off-White",
@@ -87,13 +87,13 @@
       "count": 27
     },
     {
-      "name": "Alo Yoga",
-      "slug": "aloyoga",
-      "count": 23
-    },
-    {
       "name": "Louis Vuitton",
       "slug": "louisvuitton",
+      "count": 22
+    },
+    {
+      "name": "Alo Yoga",
+      "slug": "aloyoga",
       "count": 22
     },
     {
@@ -206,36 +206,36 @@
     {
       "name": "Взуття",
       "slug": "shoes",
-      "count": 5737
+      "count": 5720
     }
   ],
   "genders": [
     {
       "name": "Унісекс",
       "slug": "unisex",
-      "count": 2972
+      "count": 2966
     },
     {
       "name": "Жіночі",
       "slug": "women",
-      "count": 1459
+      "count": 1453
     },
     {
       "name": "Чоловічі",
       "slug": "men",
-      "count": 1306
+      "count": 1301
     }
   ],
   "seasons": [
     {
       "name": "Демісезон",
       "slug": "demi",
-      "count": 5220
+      "count": 5205
     },
     {
       "name": "Зима",
       "slug": "winter",
-      "count": 517
+      "count": 515
     }
   ],
   "sizes": [
@@ -259,14 +259,14 @@
     "48",
     "49",
     "50",
-    "45/46",
-    "M",
-    "L",
     "42 2/3",
     "40 2/3",
     "S",
-    "XL",
-    "40–41"
+    "40–41",
+    "45/46",
+    "M",
+    "L",
+    "XL"
   ],
   "minPrice": 480,
   "maxPrice": 13333
