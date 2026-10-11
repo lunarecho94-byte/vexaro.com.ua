@@ -222,22 +222,15 @@ COLOR_WORDS = {
     'classic', 'oreo', 'zebra', 'blush', 'salt', 'cinder', 'bone', 'flax', 'clay', 'ash', 'mono'
 }
 
-# Explicitly excluded items (sandals, slippers, flip-flops, per store owner request)
+# Explicitly excluded items (all slippers, slides, clogs, mules, sandals, etc. per store owner request)
 EXCLUDED_SKUS = {'16006', '16005', '16004', '16003'}
 EXCLUDED_NAME_PATTERNS = re.compile(
+    r'\b(slides?|slippers?|clogs?|mules?|sandals?|'
+    r'flip.?flops?|adimule|tazz|tasman|funkette|disquette|tazzlita|lanah|goldenstar|'
+    r'crocs|thongs?|sabot|adilette|chypre|dway|tippi|birkenstock)\b|'
+    r'triomphe.*mule|'
     r'summer charms|'
-    r'\bsandals?\b|'
-    r'сандал|'
-    r'босоніж|'
-    r'сланц|'
-    r'сланец|'
-    r'шльоп|'
-    r'шлеп|'
-    r'тапочк|'
-    r'вьетнамк|'
-    r'в\'єтнамк|'
-    r'flip.?flop|'
-    r'\badilette\b',
+    r'тапк[иаеоу]?|тапочк[иаеоу]?|шльоп|шлеп|сланц|сланец|босоніж|босонож|вьетнамк|в\'єтнамк|сабо|пантоф|лофер|loafer',
     re.I
 )
 
@@ -407,11 +400,7 @@ def determine_season(name, cat_slug, mat="", desc="", cname=""):
     full_ctx = f"{name_lower} {mat_lower} {cname_lower}"
 
     # Summer check (open shoes, slides, crocs, sandals, slippers) - checked first!
-    is_open_shoe = bool(re.search(
-        r'sandal|sandals|сандал|босоніж|сланц|сланец|шльоп|шлеп|тапочк|тапочки|'
-        r'вьетнамк|в\'єтнамк|flip.?flop|summer charms|\badilette\b|\bcrocs\b|крокс',
-        name_lower
-    ))
+    is_open_shoe = bool(EXCLUDED_NAME_PATTERNS.search(name_lower))
     is_summer_mesh = bool(re.search(r'\b(?:climacool|breeze)\b', name_lower)) and not bool(re.search(r'шкіра|кожа|замша|нубук|suede|leather', full_ctx))
 
     if is_open_shoe or is_summer_mesh:

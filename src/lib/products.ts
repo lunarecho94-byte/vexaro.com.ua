@@ -7,6 +7,9 @@ let catalogMeta: CatalogMeta | null = null;
 const productBySlug = new Map<string, Product>();
 const productById = new Map<string, Product>();
 
+const EXCLUDED_TAPKI_REGEX =
+  /\b(slides?|slippers?|clogs?|mules?|sandals?|flip.?flops?|adimule|tazz|tasman|funkette|disquette|tazzlita|lanah|goldenstar|crocs|thongs?|sabot|adilette|chypre|dway|tippi|birkenstock)\b|triomphe.*mule|summer charms|тапк|тапочк|шльоп|шлеп|сланц|сланец|босоніж|босонож|вьетнамк|в'єтнамк|сабо|пантоф|лофер|loafer/i;
+
 function ensureLoaded() {
   if (allProducts) return;
 
@@ -14,7 +17,8 @@ function ensureLoaded() {
   const prodsRaw = fs.readFileSync(path.join(dataDir, 'products.json'), 'utf-8');
   const metaRaw = fs.readFileSync(path.join(dataDir, 'meta.json'), 'utf-8');
 
-  allProducts = JSON.parse(prodsRaw) as Product[];
+  const rawProducts = JSON.parse(prodsRaw) as Product[];
+  allProducts = rawProducts.filter((p) => !EXCLUDED_TAPKI_REGEX.test(p.name));
   catalogMeta = JSON.parse(metaRaw) as CatalogMeta;
 
   for (const p of allProducts) {
