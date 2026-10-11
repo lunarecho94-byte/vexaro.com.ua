@@ -43,6 +43,17 @@ export async function getProductById(id: string): Promise<Product | null> {
   return productById.get(id) || null;
 }
 
+export function isAirMaxPlus(name: string): boolean {
+  const n = name.toLowerCase();
+  if (!n.includes('nike')) return false;
+  if (n.includes('surplus') || n.includes('homme plus')) return false;
+  return (
+    n.includes('air max plus') ||
+    n.includes('air max tn') ||
+    (n.includes('air max') && n.includes('plus'))
+  );
+}
+
 export async function getProducts(params: CatalogQueryParams = {}): Promise<CatalogResponse> {
   ensureLoaded();
   const page = Math.max(1, Number(params.page) || 1);
@@ -88,14 +99,21 @@ export async function getProducts(params: CatalogQueryParams = {}): Promise<Cata
     );
   }
 
-  // Sorting: default to newest arrivals (highest ID first)
+  // Sorting: default to newest arrivals with Nike Air Max Plus prioritized at top
   if (params.sort === 'price_asc') {
     filtered = [...filtered].sort((a, b) => a.price - b.price);
   } else if (params.sort === 'price_desc') {
     filtered = [...filtered].sort((a, b) => b.price - a.price);
   } else {
-    // 'newest' or default/popular -> latest drops first
-    filtered = [...filtered].sort((a, b) => (Number(b.id) || 0) - (Number(a.id) || 0));
+    // 'newest' or default/popular -> latest drops with Nike Air Max Plus pinned first
+    filtered = [...filtered].sort((a, b) => {
+      const isPriorityA = isAirMaxPlus(a.name) ? 1 : 0;
+      const isPriorityB = isAirMaxPlus(b.name) ? 1 : 0;
+      if (isPriorityA !== isPriorityB) {
+        return isPriorityB - isPriorityA;
+      }
+      return (Number(b.id) || 0) - (Number(a.id) || 0);
+    });
   }
 
   const total = filtered.length;

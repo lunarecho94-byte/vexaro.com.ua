@@ -761,8 +761,17 @@ def main():
         'maxPrice': int(max_price)
     }
 
-    # Sort: newest arrivals first (highest EasyDrop ID first)
-    products.sort(key=lambda p: int(p['id']) if str(p.get('id', '')).isdigit() else 0, reverse=True)
+    # Sort: Nike Air Max Plus / TN pinned to top, then newest arrivals (highest EasyDrop ID first)
+    def sort_key(p):
+        name = p.get('name', '').lower()
+        is_priority = 0
+        if 'nike' in name and 'surplus' not in name and 'homme plus' not in name:
+            if 'air max plus' in name or 'air max tn' in name or ('air max' in name and 'plus' in name):
+                is_priority = 1
+        prod_id = int(p['id']) if str(p.get('id', '')).isdigit() else 0
+        return (is_priority, prod_id)
+
+    products.sort(key=sort_key, reverse=True)
 
     os.makedirs(SRC_DATA_DIR, exist_ok=True)
     with open(OUTPUT_PRODUCTS, 'w', encoding='utf-8') as f:
