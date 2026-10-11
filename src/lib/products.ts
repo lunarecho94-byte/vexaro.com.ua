@@ -27,6 +27,10 @@ function ensureLoaded() {
     if (p.id === '254776') {
       productBySlug.set('nike-air-max-plus-tn-black-teal-yellow-dh4776-001', p);
     }
+    if (p.id === '146368') {
+      productBySlug.set('nike-air-max-plus-tn-lace-toggle-white-black-fd0799-001', p);
+      productBySlug.set('nike-air-max-plus-tn-lace-toggle-white-black', p);
+    }
   }
 }
 
@@ -53,9 +57,12 @@ export async function getProductById(id: string): Promise<Product | null> {
 export function getProductPriority(product: { id: string; name: string }): number {
   const n = product.name.toLowerCase();
   if (n.includes('frank rudy') || String(product.id) === '122263') {
-    return 3;
+    return 4;
   }
   if (n.includes('black teal yellow') || String(product.id) === '254776') {
+    return 3;
+  }
+  if (n.includes('lace toggle') || String(product.id) === '146368') {
     return 2;
   }
   if (!n.includes('nike')) return 0;

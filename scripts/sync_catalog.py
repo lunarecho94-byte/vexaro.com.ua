@@ -276,6 +276,49 @@ CURATED_PRODUCTS = [
             'title': 'Nike Air Max Plus Tn Black Teal Yellow (арт. А5689) — купити в інтернет-магазині VEXARO',
             'description': 'Замовляйте Nike Air Max Plus Tn Black Teal Yellow (арт. А5689) за 2490 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж).'
         }
+    },
+    {
+        'id': '146368',
+        'slug': 'nike-air-max-plus-tn-lace-toggle-white-black-2002',
+        'name': 'Nike Air Max Plus TN Lace Toggle White Black',
+        'brand': 'Nike',
+        'brandSlug': 'nike',
+        'category': 'Взуття',
+        'categorySlug': 'shoes',
+        'gender': 'men',
+        'genderName': 'Чоловічі',
+        'season': 'demi',
+        'seasonName': 'Демісезон',
+        'price': 2490,
+        'oldPrice': 2950,
+        'costPrice': 1950,
+        'sku': '2002',
+        'material': 'Текстиль, шкіра, 3M рефлектив',
+        'country': "В'єтнам",
+        'sizes': ['40', '41', '42', '43', '44', '45'],
+        'inStock': True,
+        'images': [
+            '/images/products/nike-air-max-plus-tn-lace-toggle-white-black/img-1.jpg',
+            '/images/products/nike-air-max-plus-tn-lace-toggle-white-black/img-2.jpg',
+            '/images/products/nike-air-max-plus-tn-lace-toggle-white-black/img-3.jpg',
+            '/images/products/nike-air-max-plus-tn-lace-toggle-white-black/img-4.jpg',
+            '/images/products/nike-air-max-plus-tn-lace-toggle-white-black/img-5.jpg',
+            '/images/products/nike-air-max-plus-tn-lace-toggle-white-black/img-6.jpg',
+            '/images/products/nike-air-max-plus-tn-lace-toggle-white-black/img-7.jpg',
+            '/images/products/nike-air-max-plus-tn-lace-toggle-white-black/img-8.jpg',
+        ],
+        'description': (
+            'Культові чоловічі кросівки Nike Air Max Plus TN Lace Toggle у фірмовому забарвленні '
+            'White Black / Metallic Silver (артикул: 2002, офіційний стиль-код: FD0799-001). Особливістю моделі '
+            'є система швидкої шнурівки з надійним фіксатором (toggle), світловідбиваючий принт 3M на дихаючій '
+            'сітці та преміальні сріблясті накладки. Легендарна підошва Tuned Air (TN) із блакитними балонами '
+            'забезпечує амортизацію та комфорт найвищого рівня. Доставка Новою Поштою по Україні протягом 1–2 днів. '
+            'Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.'
+        ),
+        'seo': {
+            'title': 'Nike Air Max Plus TN Lace Toggle White Black (арт. 2002) — купити в інтернет-магазині VEXARO',
+            'description': 'Замовляйте кросівки Nike Air Max Plus TN Lace Toggle White Black (арт. 2002 / FD0799-001) за 2490 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж).'
+        }
     }
 ]
 
@@ -778,28 +821,28 @@ def main():
 
     # Inject curated products permanently requested by store owner
     for cp in CURATED_PRODUCTS:
-        if not any(p['id'] == cp['id'] for p in products):
-            products.append(cp)
-            for s in cp['sizes']:
-                size_set.add(s)
-            bslug = cp['brandSlug']
-            brand_map[bslug] = {
-                'name': cp['brand'],
-                'slug': bslug,
-                'count': brand_map.get(bslug, {}).get('count', 0) + 1
-            }
-            sslug = cp['season']
-            season_map[sslug] = {
-                'name': cp['seasonName'],
-                'slug': sslug,
-                'count': season_map.get(sslug, {}).get('count', 0) + 1
-            }
-            gslug = cp['gender']
-            gender_map[gslug] = {
-                'name': cp['genderName'],
-                'slug': gslug,
-                'count': gender_map.get(gslug, {}).get('count', 0) + 1
-            }
+        products = [p for p in products if p['id'] != cp['id']]
+        products.append(cp)
+        for s in cp['sizes']:
+            size_set.add(s)
+        bslug = cp['brandSlug']
+        brand_map[bslug] = {
+            'name': cp['brand'],
+            'slug': bslug,
+            'count': brand_map.get(bslug, {}).get('count', 0) + 1
+        }
+        sslug = cp['season']
+        season_map[sslug] = {
+            'name': cp['seasonName'],
+            'slug': sslug,
+            'count': season_map.get(sslug, {}).get('count', 0) + 1
+        }
+        gslug = cp['gender']
+        gender_map[gslug] = {
+            'name': cp['genderName'],
+            'slug': gslug,
+            'count': gender_map.get(gslug, {}).get('count', 0) + 1
+        }
 
     def sort_key_sizes(x):
         try:
@@ -820,13 +863,15 @@ def main():
         'maxPrice': int(max_price)
     }
 
-    # Sort: Frank Rudy #1, Nike Air Max Plus Tn Black Teal Yellow #2, then Nike Air Max Plus / TN, then newest arrivals
+    # Sort: Frank Rudy #1, Nike Air Max Plus Tn Black Teal Yellow #2, Nike Air Max Plus TN Lace Toggle #3, then Nike Air Max Plus / TN, then newest arrivals
     def sort_key(p):
         name = p.get('name', '').lower()
         is_priority = 0
         if 'frank rudy' in name or str(p.get('id', '')) == '122263':
-            is_priority = 3
+            is_priority = 4
         elif 'black teal yellow' in name or str(p.get('id', '')) == '254776':
+            is_priority = 3
+        elif 'lace toggle' in name or str(p.get('id', '')) in ('146368', '254777'):
             is_priority = 2
         elif 'nike' in name and 'surplus' not in name and 'homme plus' not in name:
             if 'air max plus' in name or 'air max tn' in name or ('air max' in name and 'plus' in name):
