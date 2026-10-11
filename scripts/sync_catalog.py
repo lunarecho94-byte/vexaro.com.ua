@@ -234,6 +234,51 @@ EXCLUDED_NAME_PATTERNS = re.compile(
     re.I
 )
 
+# Curated products permanently added by store owner request
+CURATED_PRODUCTS = [
+    {
+        'id': '254776',
+        'slug': 'nike-air-max-plus-tn-black-teal-yellow-dh4776-001',
+        'name': 'Nike Air Max Plus Tn Black Teal Yellow',
+        'brand': 'Nike',
+        'brandSlug': 'nike',
+        'category': 'Взуття',
+        'categorySlug': 'shoes',
+        'gender': 'men',
+        'genderName': 'Чоловічі',
+        'season': 'demi',
+        'seasonName': 'Демісезон',
+        'price': 2490,
+        'oldPrice': 2950,
+        'costPrice': 2000,
+        'sku': 'DH4776-001',
+        'material': 'Шкіра, текстиль',
+        'country': "В'єтнам",
+        'sizes': ['40', '41', '42', '43', '44', '45'],
+        'inStock': True,
+        'images': [
+            '/images/products/nike-air-max-plus-tn-black-teal-yellow/img-2.jpg',
+            '/images/products/nike-air-max-plus-tn-black-teal-yellow/img-4.jpg',
+            '/images/products/nike-air-max-plus-tn-black-teal-yellow/img-3.jpg',
+            '/images/products/nike-air-max-plus-tn-black-teal-yellow/img-5.jpg',
+            '/images/products/nike-air-max-plus-tn-black-teal-yellow/img-1.jpg',
+            '/images/products/nike-air-max-plus-tn-black-teal-yellow/img-6.jpg',
+        ],
+        'description': (
+            'Легендарні чоловічі кросівки Nike Air Max Plus Tn у рідкісному контрастному забарвленні '
+            'Black Teal Yellow (артикул: DH4776-001). Верх виконаний із дихаючої сітки чорного кольору з '
+            'градієнтними вставками бірюзового (Teal) та золотисто-жовтого (University Gold) кольорів. '
+            'Фірмова підошва з технологією Tuned Air забезпечує максимальну амортизацію та комфорт протягом '
+            'усього дня. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні '
+            '(накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.'
+        ),
+        'seo': {
+            'title': 'Nike Air Max Plus Tn Black Teal Yellow (арт. DH4776-001) — купити в інтернет-магазині VEXARO',
+            'description': 'Замовляйте Nike Air Max Plus Tn Black Teal Yellow (арт. DH4776-001) за 2490 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж).'
+        }
+    }
+]
+
 
 
 def download_export_feed():
@@ -731,6 +776,31 @@ def main():
         for s in sorted_sizes:
             size_set.add(s)
 
+    # Inject curated products permanently requested by store owner
+    for cp in CURATED_PRODUCTS:
+        if not any(p['id'] == cp['id'] for p in products):
+            products.append(cp)
+            for s in cp['sizes']:
+                size_set.add(s)
+            bslug = cp['brandSlug']
+            brand_map[bslug] = {
+                'name': cp['brand'],
+                'slug': bslug,
+                'count': brand_map.get(bslug, {}).get('count', 0) + 1
+            }
+            sslug = cp['season']
+            season_map[sslug] = {
+                'name': cp['seasonName'],
+                'slug': sslug,
+                'count': season_map.get(sslug, {}).get('count', 0) + 1
+            }
+            gslug = cp['gender']
+            gender_map[gslug] = {
+                'name': cp['genderName'],
+                'slug': gslug,
+                'count': gender_map.get(gslug, {}).get('count', 0) + 1
+            }
+
     def sort_key_sizes(x):
         try:
             return float(x.replace(',', '.'))
@@ -750,11 +820,13 @@ def main():
         'maxPrice': int(max_price)
     }
 
-    # Sort: Nike Air Max Plus SE-- M. Frank Rudy #1, then Nike Air Max Plus / TN, then newest arrivals
+    # Sort: Frank Rudy #1, Nike Air Max Plus Tn Black Teal Yellow #2, then Nike Air Max Plus / TN, then newest arrivals
     def sort_key(p):
         name = p.get('name', '').lower()
         is_priority = 0
         if 'frank rudy' in name or str(p.get('id', '')) == '122263':
+            is_priority = 3
+        elif 'black teal yellow' in name or str(p.get('id', '')) == '254776':
             is_priority = 2
         elif 'nike' in name and 'surplus' not in name and 'homme plus' not in name:
             if 'air max plus' in name or 'air max tn' in name or ('air max' in name and 'plus' in name):

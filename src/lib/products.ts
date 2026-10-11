@@ -50,6 +50,9 @@ export async function getProductById(id: string): Promise<Product | null> {
 export function getProductPriority(product: { id: string; name: string }): number {
   const n = product.name.toLowerCase();
   if (n.includes('frank rudy') || String(product.id) === '122263') {
+    return 3;
+  }
+  if (n.includes('black teal yellow') || String(product.id) === '254776') {
     return 2;
   }
   if (!n.includes('nike')) return 0;
