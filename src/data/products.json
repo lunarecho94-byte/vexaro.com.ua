@@ -7557,6 +7557,7 @@
     "sizes": [
       "37",
       "39",
+      "41",
       "42",
       "43",
       "44",
@@ -10295,6 +10296,42 @@
     "seo": {
       "title": "Nike Dunk Low Gore-Tex Black (арт. NG008) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Nike Dunk Low Gore-Tex Black (арт. NG008) за 3240 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "253338",
+    "slug": "nike-dunk-low-gore-tex-light-bone-mink-brown-ng005",
+    "name": "Nike Dunk Low Gore-Tex Light Bone / Mink Brown",
+    "brand": "Nike",
+    "brandSlug": "nike",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "unisex",
+    "genderName": "Унісекс",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 3240,
+    "oldPrice": 3823,
+    "costPrice": 2700,
+    "sku": "NG005",
+    "material": "Шкіра",
+    "country": "В'єтнам",
+    "sizes": [
+      "37",
+      "43",
+      "44"
+    ],
+    "inStock": true,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/4b3c3f24-5446-4b19-9478-30b63e75a04d.jpg",
+      "https://easydrop.one/media/uploads/images/base/4b8f5a6b-be58-482b-adf3-6bd1ba711da2.jpg",
+      "https://easydrop.one/media/uploads/images/base/d5c85768-5079-4357-96a4-421294c0b944.jpg",
+      "https://easydrop.one/media/uploads/images/base/a8f801a3-d050-421c-9198-40b2fb0ad257.jpg"
+    ],
+    "description": "Модель: Nike Dunk Low Gore-Tex Light Bone / Mink Brown. Артикул: NG005. Матеріал: Шкіра. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Nike Dunk Low Gore-Tex Light Bone / Mink Brown (арт. NG005) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Nike Dunk Low Gore-Tex Light Bone / Mink Brown (арт. NG005) за 3240 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -17957,7 +17994,7 @@
     "sizes": [
       "36",
       "37",
-      "39",
+      "38",
       "45"
     ],
     "inStock": true,
@@ -18644,6 +18681,7 @@
       "40",
       "41",
       "42",
+      "43",
       "44",
       "45"
     ],
@@ -19113,6 +19151,7 @@
       "41",
       "43",
       "44",
+      "45",
       "46"
     ],
     "inStock": true,
@@ -26264,7 +26303,8 @@
       "37",
       "39",
       "42",
-      "43"
+      "43",
+      "45"
     ],
     "inStock": true,
     "images": [
@@ -26379,6 +26419,7 @@
     "sizes": [
       "36",
       "37",
+      "38",
       "42",
       "43",
       "44",
@@ -36195,6 +36236,39 @@
     }
   },
   {
+    "id": "244278",
+    "slug": "new-balance-1906r-cordura-3109",
+    "name": "New Balance 1906R Cordura",
+    "brand": "New Balance",
+    "brandSlug": "newbalance",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "unisex",
+    "genderName": "Унісекс",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 3120,
+    "oldPrice": 3682,
+    "costPrice": 2600,
+    "sku": "3109",
+    "material": "Текстиль, шкіра",
+    "country": "В'єтнам",
+    "sizes": [
+      "40",
+      "41",
+      "42"
+    ],
+    "inStock": true,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/8baf33a0-72f8-48c6-af66-07586498283c.jpg"
+    ],
+    "description": "Модель: New Balance 1906R Cordura. Артикул: 3109. Матеріал: Текстиль, шкіра. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "New Balance 1906R Cordura (арт. 3109) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте New Balance 1906R Cordura (арт. 3109) за 3120 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
     "id": "244277",
     "slug": "new-balance-1906r-cordura-3108",
     "name": "New Balance 1906R Cordura",
@@ -39006,7 +39080,8 @@
       "41",
       "42",
       "43",
-      "44"
+      "44",
+      "45"
     ],
     "inStock": true,
     "images": [
@@ -48467,6 +48542,7 @@
     "sizes": [
       "41",
       "42",
+      "43",
       "44",
       "45"
     ],
@@ -59702,6 +59778,42 @@
     }
   },
   {
+    "id": "227832",
+    "slug": "new-balance-327-brown-n3550",
+    "name": "New Balance 327 Brown",
+    "brand": "New Balance",
+    "brandSlug": "newbalance",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "unisex",
+    "genderName": "Унісекс",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 2580,
+    "oldPrice": 3044,
+    "costPrice": 2150,
+    "sku": "N3550",
+    "material": "шкіра,текстиль",
+    "country": "В'єтнам",
+    "sizes": [
+      "36",
+      "37",
+      "41"
+    ],
+    "inStock": true,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/eff9ab8f-844a-4aa1-bad9-f1a046688b27.jpg",
+      "https://easydrop.one/media/uploads/images/base/14de099d-a684-49e2-aae0-f58850f4d5ea.jpeg",
+      "https://easydrop.one/media/uploads/images/base/8bff095b-b0bd-465d-94ff-4122fb3042f8.jpeg",
+      "https://easydrop.one/media/uploads/images/base/8b1d9133-d5f8-433a-8671-947e57483dda.jpeg"
+    ],
+    "description": "Модель: New Balance 327 Brown. Артикул: N3550. Матеріал: шкіра,текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "New Balance 327 Brown (арт. N3550) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте New Balance 327 Brown (арт. N3550) за 2580 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
     "id": "227810",
     "slug": "salomon-xt-mm6-x-maison-margiela-black-red-2654",
     "name": "Salomon XT-MM6 x Maison Margiela Black Red",
@@ -62615,6 +62727,7 @@
     "country": "В'єтнам",
     "sizes": [
       "36",
+      "37",
       "38",
       "39",
       "40",
@@ -71970,6 +72083,7 @@
     "material": "Текстиль / комбінований",
     "country": "-",
     "sizes": [
+      "41",
       "43",
       "44",
       "45",
@@ -84600,9 +84714,9 @@
     "genderName": "Унісекс",
     "season": "demi",
     "seasonName": "Демісезон",
-    "price": 3240,
-    "oldPrice": 3823,
-    "costPrice": 2700,
+    "price": 3120,
+    "oldPrice": 3682,
+    "costPrice": 2600,
     "sku": "2848",
     "material": "Замша, шкіра",
     "country": "В'єтнам",
@@ -84620,7 +84734,7 @@
     "description": "Модель: Nike Air Jordan Spizike. Артикул: 2848. Матеріал: Замша, шкіра. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
     "seo": {
       "title": "Nike Air Jordan Spizike (арт. 2848) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Nike Air Jordan Spizike (арт. 2848) за 3240 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+      "description": "Замовляйте Nike Air Jordan Spizike (арт. 2848) за 3120 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -85520,6 +85634,7 @@
     "material": "Шкіра",
     "country": "В'єтнам",
     "sizes": [
+      "36",
       "38",
       "39",
       "40",
@@ -96664,8 +96779,8 @@
     "brandSlug": "nike",
     "category": "Взуття",
     "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
+    "gender": "unisex",
+    "genderName": "Унісекс",
     "season": "demi",
     "seasonName": "Демісезон",
     "price": 2760,
@@ -96675,6 +96790,7 @@
     "material": "Текстиль / комбінований",
     "country": "В'єтнам",
     "sizes": [
+      "40",
       "41",
       "42",
       "44",
@@ -96892,6 +97008,7 @@
     "material": "Замша , Натуральный мех",
     "country": "Китай",
     "sizes": [
+      "36",
       "37",
       "38",
       "39",
@@ -110772,6 +110889,40 @@
     }
   },
   {
+    "id": "191649",
+    "slug": "salomon-xt-6-black-phantom-gore-tex-0623",
+    "name": "Salomon XT-6 \"Black/Phantom\"GORE-TEX",
+    "brand": "Salomon",
+    "brandSlug": "salomon",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "men",
+    "genderName": "Чоловічі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 3240,
+    "oldPrice": 3823,
+    "costPrice": 2700,
+    "sku": "0623",
+    "material": "Текстиль+Мембрана",
+    "country": "В'єтнам",
+    "sizes": [
+      "41",
+      "42",
+      "43"
+    ],
+    "inStock": true,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/b9fabc26-0a7f-4162-b3d5-5164b60aab30.jpg",
+      "https://easydrop.one/media/uploads/images/base/d8c2192d-c27e-420b-9bf6-880c2031fb77.jpg"
+    ],
+    "description": "Модель: Salomon XT-6 \"Black/Phantom\"GORE-TEX. Артикул: 0623. Матеріал: Текстиль+Мембрана. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Salomon XT-6 \"Black/Phantom\"GORE-TEX (арт. 0623) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Salomon XT-6 \"Black/Phantom\"GORE-TEX (арт. 0623) за 3240 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
     "id": "191582",
     "slug": "ecco-biom-2-1-x-country-black-white-art1588",
     "name": "Ecco Biom 2.1 x Country Black\\White",
@@ -119254,39 +119405,6 @@
     }
   },
   {
-    "id": "184731",
-    "slug": "new-balance-2002r-green-black-0508",
-    "name": "New Balance 2002R Green Black",
-    "brand": "New Balance",
-    "brandSlug": "newbalance",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "unisex",
-    "genderName": "Унісекс",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 2220,
-    "oldPrice": 2620,
-    "costPrice": 1850,
-    "sku": "0508",
-    "material": "Текстиль / комбінований",
-    "country": "В'єтнам",
-    "sizes": [
-      "40",
-      "41",
-      "42"
-    ],
-    "inStock": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/32565dbc-124a-4699-b5e2-d0069e28df4c.jpg"
-    ],
-    "description": "Модель: New Balance 2002R Green Black. Артикул: 0508. Матеріал: Текстиль / комбінований. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "New Balance 2002R Green Black (арт. 0508) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте New Balance 2002R Green Black (арт. 0508) за 2220 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "184729",
     "slug": "on-cloud-cloudhorizon-0513",
     "name": "On Cloud Cloudhorizon",
@@ -122982,6 +123100,7 @@
       "40",
       "41",
       "42",
+      "43",
       "44"
     ],
     "inStock": true,
@@ -128465,9 +128584,9 @@
     "genderName": "Чоловічі",
     "season": "winter",
     "seasonName": "Зима",
-    "price": 2760,
-    "oldPrice": 3257,
-    "costPrice": 2300,
+    "price": 2640,
+    "oldPrice": 3115,
+    "costPrice": 2200,
     "sku": "2343",
     "material": "Текстиль",
     "country": "В'єтнам",
@@ -128483,7 +128602,7 @@
     "description": "Модель: Salomon Odyssey | Gore-Tex | (термо). Артикул: 2343. Матеріал: Текстиль. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
     "seo": {
       "title": "Salomon Odyssey | Gore-Tex | (термо) (арт. 2343) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Salomon Odyssey | Gore-Tex | (термо) (арт. 2343) за 2760 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+      "description": "Замовляйте Salomon Odyssey | Gore-Tex | (термо) (арт. 2343) за 2640 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -148054,6 +148173,7 @@
       "40",
       "41",
       "42",
+      "43",
       "44"
     ],
     "inStock": true,
@@ -173414,8 +173534,7 @@
       "38",
       "42",
       "43",
-      "44",
-      "45"
+      "44"
     ],
     "inStock": true,
     "images": [
@@ -174444,6 +174563,7 @@
     "material": "Замша,текстиль",
     "country": "-",
     "sizes": [
+      "37",
       "39",
       "41",
       "42",
@@ -182784,6 +182904,7 @@
     "material": "Текстиль / комбінований",
     "country": "-",
     "sizes": [
+      "41",
       "42",
       "43",
       "44",
