@@ -1,55 +1,55 @@
 {
-  "total": 5711,
+  "total": 5731,
   "brands": [
     {
       "name": "Nike",
       "slug": "nike",
-      "count": 2068
+      "count": 2074
     },
     {
       "name": "New Balance",
       "slug": "newbalance",
-      "count": 1324
+      "count": 1328
     },
     {
       "name": "Adidas",
       "slug": "adidas",
-      "count": 492
+      "count": 495
     },
     {
       "name": "Asics",
       "slug": "asics",
-      "count": 412
+      "count": 413
     },
     {
       "name": "UGG",
       "slug": "ugg",
-      "count": 319
+      "count": 320
     },
     {
       "name": "Інші бренди",
       "slug": "other",
-      "count": 168
+      "count": 169
     },
     {
       "name": "Salomon",
       "slug": "salomon",
-      "count": 123
+      "count": 125
     },
     {
       "name": "Air Jordan",
       "slug": "jordan",
-      "count": 120
-    },
-    {
-      "name": "Balenciaga",
-      "slug": "balenciaga",
-      "count": 89
+      "count": 122
     },
     {
       "name": "On Cloud",
       "slug": "oncloud",
       "count": 89
+    },
+    {
+      "name": "Balenciaga",
+      "slug": "balenciaga",
+      "count": 87
     },
     {
       "name": "Premiata",
@@ -74,7 +74,7 @@
     {
       "name": "Dior",
       "slug": "dior",
-      "count": 37
+      "count": 38
     },
     {
       "name": "Vans",
@@ -84,16 +84,16 @@
     {
       "name": "The North Face",
       "slug": "tnf",
-      "count": 26
-    },
-    {
-      "name": "Louis Vuitton",
-      "slug": "louisvuitton",
-      "count": 22
+      "count": 27
     },
     {
       "name": "Alo Yoga",
       "slug": "aloyoga",
+      "count": 23
+    },
+    {
+      "name": "Louis Vuitton",
+      "slug": "louisvuitton",
       "count": 22
     },
     {
@@ -122,14 +122,14 @@
       "count": 12
     },
     {
-      "name": "Dr. Martens",
-      "slug": "drmartens",
-      "count": 12
-    },
-    {
       "name": "Merrell",
       "slug": "merrell",
       "count": 12
+    },
+    {
+      "name": "Dr. Martens",
+      "slug": "drmartens",
+      "count": 11
     },
     {
       "name": "Mizuno",
@@ -206,36 +206,36 @@
     {
       "name": "Взуття",
       "slug": "shoes",
-      "count": 5711
+      "count": 5731
     }
   ],
   "genders": [
     {
       "name": "Унісекс",
       "slug": "unisex",
-      "count": 2962
+      "count": 2982
     },
     {
       "name": "Жіночі",
       "slug": "women",
-      "count": 1452
+      "count": 1453
     },
     {
       "name": "Чоловічі",
       "slug": "men",
-      "count": 1297
+      "count": 1296
     }
   ],
   "seasons": [
     {
       "name": "Демісезон",
       "slug": "demi",
-      "count": 5197
+      "count": 5214
     },
     {
       "name": "Зима",
       "slug": "winter",
-      "count": 514
+      "count": 517
     }
   ],
   "sizes": [
@@ -259,14 +259,14 @@
     "48",
     "49",
     "50",
-    "L",
-    "S",
-    "M",
-    "40–41",
     "45/46",
+    "40 2/3",
     "XL",
     "42 2/3",
-    "40 2/3"
+    "40–41",
+    "L",
+    "S",
+    "M"
   ],
   "minPrice": 480,
   "maxPrice": 13333
