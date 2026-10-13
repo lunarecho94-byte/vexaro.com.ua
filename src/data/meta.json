@@ -1,25 +1,25 @@
 {
-  "total": 5748,
+  "total": 5729,
   "brands": [
     {
       "name": "Nike",
       "slug": "nike",
-      "count": 2071
+      "count": 2061
     },
     {
       "name": "New Balance",
       "slug": "newbalance",
-      "count": 1339
+      "count": 1325
     },
     {
       "name": "Adidas",
       "slug": "adidas",
-      "count": 501
+      "count": 502
     },
     {
       "name": "Asics",
       "slug": "asics",
-      "count": 414
+      "count": 415
     },
     {
       "name": "UGG",
@@ -29,7 +29,7 @@
     {
       "name": "Інші бренди",
       "slug": "other",
-      "count": 170
+      "count": 169
     },
     {
       "name": "Salomon",
@@ -39,7 +39,7 @@
     {
       "name": "Air Jordan",
       "slug": "jordan",
-      "count": 119
+      "count": 120
     },
     {
       "name": "On Cloud",
@@ -54,7 +54,7 @@
     {
       "name": "Premiata",
       "slug": "premiata",
-      "count": 56
+      "count": 58
     },
     {
       "name": "Off-White",
@@ -69,7 +69,7 @@
     {
       "name": "Puma",
       "slug": "puma",
-      "count": 43
+      "count": 44
     },
     {
       "name": "Dior",
@@ -206,36 +206,36 @@
     {
       "name": "Взуття",
       "slug": "shoes",
-      "count": 5748
+      "count": 5729
     }
   ],
   "genders": [
     {
       "name": "Унісекс",
       "slug": "unisex",
-      "count": 2972
+      "count": 2973
     },
     {
       "name": "Жіночі",
       "slug": "women",
-      "count": 1472
+      "count": 1459
     },
     {
       "name": "Чоловічі",
       "slug": "men",
-      "count": 1304
+      "count": 1297
     }
   ],
   "seasons": [
     {
       "name": "Демісезон",
       "slug": "demi",
-      "count": 5229
+      "count": 5208
     },
     {
       "name": "Зима",
       "slug": "winter",
-      "count": 519
+      "count": 521
     }
   ],
   "sizes": [
@@ -259,14 +259,14 @@
     "48",
     "49",
     "50",
-    "40 2/3",
+    "L",
     "45/46",
-    "42 2/3",
-    "XL",
-    "M",
-    "S",
     "40–41",
-    "L"
+    "42 2/3",
+    "40 2/3",
+    "S",
+    "XL",
+    "M"
   ],
   "minPrice": 480,
   "maxPrice": 13333
