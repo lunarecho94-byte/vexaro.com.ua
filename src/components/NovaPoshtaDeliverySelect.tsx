@@ -150,9 +150,44 @@ export function NovaPoshtaDeliverySelect({
     };
   }, [selectedCityRef, city, manualMode]);
 
-  // Smart client-side filtering across all city warehouses
+  // Server-side search: big cities have >1000 points, so the preloaded list is incomplete.
+  const [serverMatches, setServerMatches] = useState<WarehouseItem[]>([]);
+  useEffect(() => {
+    const activeCityName = citySearch || city;
+    const q = warehouseSearch.trim();
+    if (manualMode || !q || (!selectedCityRef && !activeCityName)) {
+      setServerMatches([]);
+      return;
+    }
+    let cancelled = false;
+    const timer = setTimeout(async () => {
+      try {
+        const params = new URLSearchParams();
+        if (selectedCityRef) params.set('cityRef', selectedCityRef);
+        if (activeCityName) params.set('cityName', activeCityName);
+        params.set('search', q);
+        const res = await fetch(`/api/novaposhta/warehouses?${params.toString()}`);
+        const data = await res.json();
+        if (!cancelled && data.success && Array.isArray(data.warehouses)) {
+          setServerMatches(data.warehouses);
+        }
+      } catch (err) {
+        if (!cancelled) console.error('Warehouse search failed:', err);
+      }
+    }, 300);
+    return () => {
+      cancelled = true;
+      clearTimeout(timer);
+    };
+  }, [warehouseSearch, selectedCityRef, city, manualMode]);
+
+  // Smart client-side filtering across all city warehouses (+ server matches)
   const displayedWarehouses = useMemo(() => {
     let list = allCityWarehouses;
+    if (serverMatches.length > 0) {
+      const seen = new Set(list.map((w) => w.ref));
+      list = [...list, ...serverMatches.filter((w) => !seen.has(w.ref))];
+    }
 
     // Filter by type
     if (warehouseTypeFilter === 'branch') {
@@ -194,7 +229,7 @@ export function NovaPoshtaDeliverySelect({
         }
         return 0;
       });
-  }, [allCityWarehouses, warehouseSearch, warehouseTypeFilter]);
+  }, [allCityWarehouses, serverMatches, warehouseSearch, warehouseTypeFilter]);
 
   const branchCount = useMemo(
     () => allCityWarehouses.filter((w) => w.type === 'branch').length,

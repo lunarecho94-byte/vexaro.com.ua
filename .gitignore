@@ -39,3 +39,4 @@ scripts/*.log
 scripts/*.tmp
 
 scratch/
+scripts/.sync_daemon.pid

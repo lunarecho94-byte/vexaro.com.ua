@@ -55,22 +55,29 @@ async function sendTelegramNotification(order: any) {
   const tgLink = `https://t.me/+${normalizedPhone}`;
   const viberLink = `viber://chat?number=%2B${normalizedPhone}`;
 
+  const esc = (s: unknown) =>
+    String(s ?? '')
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;');
+
   const itemsList = order.items
     .map((i: any) => {
-      const productUrl = i.slug ? `${SITE_URL}/product/${i.slug}` : null;
-      const title = productUrl ? `<a href="${productUrl}">${i.name}</a>` : `<b>${i.name}</b>`;
-      return `• ${title}\n  Розмір: <b>${i.size}</b> | Арт: <code>${i.sku}</code> | К-сть: ${i.quantity} шт. | <b>${i.price.toLocaleString('uk-UA')} ₴</b>`;
+      const productUrl = i.slug ? `${SITE_URL}/product/${encodeURIComponent(i.slug)}` : null;
+      const title = productUrl ? `<a href="${productUrl}">${esc(i.name)}</a>` : `<b>${esc(i.name)}</b>`;
+      return `• ${title}\n  Розмір: <b>${esc(i.size)}</b> | Арт: <code>${esc(i.sku)}</code> | К-сть: ${i.quantity} шт. | <b>${i.price.toLocaleString('uk-UA')} ₴</b>`;
     })
     .join('\n\n');
 
   const text =
     `🔥 <b>НОВЕ ЗАМОВЛЕННЯ #${order.id}</b>\n\n` +
-    `👤 <b>Клієнт:</b> ${order.customerName}\n` +
-    `📞 <b>Телефон:</b> <a href="${phoneCallLink}">${order.phone}</a>\n` +
+    `👤 <b>Клієнт:</b> ${esc(order.customerName)}\n` +
+    `📞 <b>Телефон:</b> <a href="${phoneCallLink}">${esc(order.phone)}</a>\n` +
     `💬 <b>Швидкий зв'язок:</b> <a href="${tgLink}">Telegram</a> • <a href="${viberLink}">Viber</a>\n` +
-    `📍 <b>Місто:</b> ${order.city}\n` +
-    `📦 <b>Нова Пошта:</b> ${order.warehouse}\n` +
-    (order.comment ? `💬 <b>Коментар:</b> <i>${order.comment}</i>\n` : '') +
+    `📍 <b>Місто:</b> ${esc(order.city)}\n` +
+    `📦 <b>Нова Пошта:</b> ${esc(order.warehouse)}\n` +
+    (order.comment ? `💬 <b>Коментар:</b> <i>${esc(order.comment)}</i>\n` : '') +
     `\n🛒 <b>Товари (${order.items.length}):</b>\n${itemsList}\n\n` +
     `💰 <b>РАЗОМ ДО СПЛАТИ:</b> <b>${order.totalAmount.toLocaleString('uk-UA')} ₴</b>\n` +
     `💳 <b>Спосіб оплати:</b> Накладений платіж (при отриманні)\n` +
