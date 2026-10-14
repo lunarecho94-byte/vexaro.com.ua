@@ -1,20 +1,20 @@
 {
-  "total": 5751,
+  "total": 5740,
   "brands": [
     {
       "name": "Nike",
       "slug": "nike",
-      "count": 2073
+      "count": 2066
     },
     {
       "name": "New Balance",
       "slug": "newbalance",
-      "count": 1339
+      "count": 1337
     },
     {
       "name": "Adidas",
       "slug": "adidas",
-      "count": 502
+      "count": 506
     },
     {
       "name": "Asics",
@@ -24,22 +24,22 @@
     {
       "name": "UGG",
       "slug": "ugg",
-      "count": 321
+      "count": 320
     },
     {
       "name": "Інші бренди",
       "slug": "other",
-      "count": 170
+      "count": 171
     },
     {
       "name": "Salomon",
       "slug": "salomon",
-      "count": 129
+      "count": 128
     },
     {
       "name": "Air Jordan",
       "slug": "jordan",
-      "count": 119
+      "count": 118
     },
     {
       "name": "On Cloud",
@@ -49,12 +49,12 @@
     {
       "name": "Balenciaga",
       "slug": "balenciaga",
-      "count": 88
+      "count": 87
     },
     {
       "name": "Premiata",
       "slug": "premiata",
-      "count": 57
+      "count": 56
     },
     {
       "name": "Off-White",
@@ -107,14 +107,14 @@
       "count": 15
     },
     {
-      "name": "Converse",
-      "slug": "converse",
-      "count": 14
-    },
-    {
       "name": "Lacoste",
       "slug": "lacoste",
       "count": 14
+    },
+    {
+      "name": "Converse",
+      "slug": "converse",
+      "count": 13
     },
     {
       "name": "Miu Miu",
@@ -122,13 +122,13 @@
       "count": 12
     },
     {
-      "name": "Merrell",
-      "slug": "merrell",
-      "count": 12
-    },
-    {
       "name": "Dr. Martens",
       "slug": "drmartens",
+      "count": 11
+    },
+    {
+      "name": "Merrell",
+      "slug": "merrell",
       "count": 11
     },
     {
@@ -206,36 +206,36 @@
     {
       "name": "Взуття",
       "slug": "shoes",
-      "count": 5751
+      "count": 5740
     }
   ],
   "genders": [
     {
       "name": "Унісекс",
       "slug": "unisex",
-      "count": 2972
+      "count": 2968
     },
     {
       "name": "Жіночі",
       "slug": "women",
-      "count": 1473
+      "count": 1471
     },
     {
       "name": "Чоловічі",
       "slug": "men",
-      "count": 1306
+      "count": 1301
     }
   ],
   "seasons": [
     {
       "name": "Демісезон",
       "slug": "demi",
-      "count": 5232
+      "count": 5223
     },
     {
       "name": "Зима",
       "slug": "winter",
-      "count": 519
+      "count": 517
     }
   ],
   "sizes": [
@@ -259,11 +259,11 @@
     "48",
     "49",
     "50",
-    "45/46",
     "42 2/3",
-    "40–41",
+    "45/46",
     "40 2/3",
     "S",
+    "40–41",
     "XL",
     "M",
     "L"
