@@ -1,10 +1,10 @@
 {
-  "total": 5753,
+  "total": 5751,
   "brands": [
     {
       "name": "Nike",
       "slug": "nike",
-      "count": 2074
+      "count": 2073
     },
     {
       "name": "New Balance",
@@ -19,7 +19,7 @@
     {
       "name": "Asics",
       "slug": "asics",
-      "count": 414
+      "count": 413
     },
     {
       "name": "UGG",
@@ -206,14 +206,14 @@
     {
       "name": "Взуття",
       "slug": "shoes",
-      "count": 5753
+      "count": 5751
     }
   ],
   "genders": [
     {
       "name": "Унісекс",
       "slug": "unisex",
-      "count": 2973
+      "count": 2972
     },
     {
       "name": "Жіночі",
@@ -223,14 +223,14 @@
     {
       "name": "Чоловічі",
       "slug": "men",
-      "count": 1307
+      "count": 1306
     }
   ],
   "seasons": [
     {
       "name": "Демісезон",
       "slug": "demi",
-      "count": 5234
+      "count": 5232
     },
     {
       "name": "Зима",
@@ -259,14 +259,14 @@
     "48",
     "49",
     "50",
-    "S",
-    "L",
     "XL",
     "40–41",
+    "L",
     "40 2/3",
-    "45/46",
     "42 2/3",
-    "M"
+    "M",
+    "S",
+    "45/46"
   ],
   "minPrice": 480,
   "maxPrice": 13333

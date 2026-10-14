@@ -39329,7 +39329,6 @@
     "material": "Текстиль, гума, піна",
     "country": "-",
     "sizes": [
-      "41",
       "42",
       "43",
       "44",
@@ -102298,8 +102297,8 @@
     "brandSlug": "asics",
     "category": "Взуття",
     "categorySlug": "shoes",
-    "gender": "unisex",
-    "genderName": "Унісекс",
+    "gender": "men",
+    "genderName": "Чоловічі",
     "season": "demi",
     "seasonName": "Демісезон",
     "price": 2640,
@@ -102309,7 +102308,6 @@
     "material": "Замша, текстиль",
     "country": "В'єтнам",
     "sizes": [
-      "40",
       "41",
       "42",
       "43"
@@ -113147,42 +113145,6 @@
     "seo": {
       "title": "UGG CHELSEA BLACK LEATHER (арт. 1373) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте UGG CHELSEA BLACK LEATHER (арт. 1373) за 1799 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "190450",
-    "slug": "nike-sb-dunk-low-pro-black-grey-01197",
-    "name": "Nike SB Dunk Low Pro Black Grey",
-    "brand": "Nike",
-    "brandSlug": "nike",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 2460,
-    "oldPrice": 2903,
-    "costPrice": 2050,
-    "sku": "01197",
-    "material": "Замша",
-    "country": "Китай",
-    "sizes": [
-      "41",
-      "42",
-      "44"
-    ],
-    "inStock": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/77498f03-fd01-4221-8d88-736d747e3626.jpg",
-      "https://easydrop.one/media/uploads/images/base/ace89f15-5036-43e8-8539-1d027d29345e.jpg",
-      "https://easydrop.one/media/uploads/images/base/a5e0d5de-903a-4c44-be32-2318441171fc.jpg",
-      "https://easydrop.one/media/uploads/images/base/268ca53a-34ab-4153-83d8-ee8351795480.jpg"
-    ],
-    "description": "Модель: Nike SB Dunk Low Pro Black Grey. Артикул: 01197. Матеріал: Замша. Сезон: Демісезон. Виробництво: Китай. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Nike SB Dunk Low Pro Black Grey (арт. 01197) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Nike SB Dunk Low Pro Black Grey (арт. 01197) за 2460 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -132767,8 +132729,7 @@
       "36",
       "37",
       "38",
-      "41",
-      "43"
+      "41"
     ],
     "inStock": true,
     "images": [
@@ -152752,7 +152713,6 @@
       "39",
       "41",
       "42",
-      "43",
       "44",
       "45"
     ],
@@ -176976,39 +176936,6 @@
     "seo": {
       "title": "New Balance 990 (арт. #art1151) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте New Balance 990 (арт. #art1151) за 2160 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "95753",
-    "slug": "asics-gel-kayano-trainer-21-art1147",
-    "name": "ASICS Gel-Kayano Trainer 21",
-    "brand": "Asics",
-    "brandSlug": "asics",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 2640,
-    "oldPrice": 3115,
-    "costPrice": 2200,
-    "sku": "#art1147",
-    "material": "Замша, текстиль",
-    "country": "-",
-    "sizes": [
-      "41",
-      "42",
-      "43"
-    ],
-    "inStock": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/a84f15ef-4dac-4703-a5d7-758a73d5b29d.jpg"
-    ],
-    "description": "Модель: ASICS Gel-Kayano Trainer 21. Артикул: #art1147. Матеріал: Замша, текстиль. Сезон: Демісезон. Виробництво: -. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "ASICS Gel-Kayano Trainer 21 (арт. #art1147) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте ASICS Gel-Kayano Trainer 21 (арт. #art1147) за 2640 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
