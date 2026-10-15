@@ -34,9 +34,88 @@ function ensureLoaded() {
   }
 }
 
+export function matchesCategory(p: Product, categorySlug: string): boolean {
+  const cat = categorySlug.toLowerCase();
+  if (cat === 'all' || cat === 'shoes') return true;
+
+  const n = p.name.toLowerCase();
+  const isWinter =
+    p.season === 'winter' ||
+    n.includes('ugg') ||
+    n.includes('чобот') ||
+    n.includes('ботинк') ||
+    n.includes('boot') ||
+    n.includes('fur');
+
+  const isKedy =
+    !isWinter &&
+    (n.includes('kedy') ||
+      n.includes('кед') ||
+      n.includes('samba') ||
+      n.includes('gazelle') ||
+      n.includes('spezial') ||
+      n.includes('converse') ||
+      n.includes('vans') ||
+      n.includes('all star') ||
+      n.includes('sk8'));
+
+  if (cat === 'winter' || cat === 'boots') {
+    return isWinter;
+  }
+  if (cat === 'kedy') {
+    return isKedy;
+  }
+  if (cat === 'sneakers') {
+    return !isWinter && !isKedy;
+  }
+  if (cat === 'men') {
+    return p.gender === 'men' || p.gender === 'unisex';
+  }
+  if (cat === 'women') {
+    return p.gender === 'women' || p.gender === 'unisex';
+  }
+  if (cat === 'unisex') {
+    return p.gender === 'unisex';
+  }
+
+  return p.categorySlug === categorySlug;
+}
+
 export async function getCatalogMeta(): Promise<CatalogMeta> {
   ensureLoaded();
-  return catalogMeta!;
+  const prods = allProducts!;
+  const enrichedCategories = [
+    {
+      name: 'Кросівки',
+      slug: 'sneakers',
+      count: prods.filter((p) => matchesCategory(p, 'sneakers')).length,
+    },
+    {
+      name: 'Зимове взуття',
+      slug: 'winter',
+      count: prods.filter((p) => matchesCategory(p, 'winter')).length,
+    },
+    {
+      name: 'Кеди',
+      slug: 'kedy',
+      count: prods.filter((p) => matchesCategory(p, 'kedy')).length,
+    },
+    {
+      name: 'Чоловіче взуття',
+      slug: 'men',
+      count: prods.filter((p) => matchesCategory(p, 'men')).length,
+    },
+    {
+      name: 'Жіноче взуття',
+      slug: 'women',
+      count: prods.filter((p) => matchesCategory(p, 'women')).length,
+    },
+  ];
+
+  return {
+    ...catalogMeta!,
+    categories: enrichedCategories,
+  };
 }
 
 export async function getAllSlugs(): Promise<string[]> {
@@ -85,7 +164,10 @@ export async function getProducts(params: CatalogQueryParams = {}): Promise<Cata
   let filtered = allProducts!;
 
   if (params.category && params.category !== 'all') {
-    filtered = filtered.filter((p) => p.categorySlug === params.category);
+    const cats = params.category.split(',').map((c) => c.trim().toLowerCase()).filter(Boolean);
+    if (cats.length > 0) {
+      filtered = filtered.filter((p) => cats.some((cat) => matchesCategory(p, cat)));
+    }
   }
 
   if (params.brand && params.brand !== 'all') {

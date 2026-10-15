@@ -9,7 +9,6 @@ import {
   Search,
   Check,
   ChevronDown,
-  ArrowUpDown,
 } from 'lucide-react';
 import { CatalogMeta } from '@/types/product';
 
@@ -28,20 +27,24 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
   const [brandSearch, setBrandSearch] = useState('');
 
   // Parse active filters from URL
+  const selectedCategories = searchParams?.get('category')
+    ? searchParams.get('category')!.split(',').map((s) => s.trim().toLowerCase()).filter((s) => s && s !== 'all' && s !== 'shoes')
+    : [];
+
   const selectedBrands = searchParams?.get('brand')
-    ? searchParams.get('brand')!.split(',').map((s) => s.trim().toLowerCase()).filter(Boolean)
+    ? searchParams.get('brand')!.split(',').map((s) => s.trim().toLowerCase()).filter((s) => s && s !== 'all')
     : [];
 
   const selectedSizes = searchParams?.get('size')
-    ? searchParams.get('size')!.split(',').map((s) => s.trim()).filter(Boolean)
+    ? searchParams.get('size')!.split(',').map((s) => s.trim()).filter((s) => s && s !== 'all')
     : [];
 
   const selectedGenders = searchParams?.get('gender')
-    ? searchParams.get('gender')!.split(',').map((s) => s.trim().toLowerCase()).filter(Boolean)
+    ? searchParams.get('gender')!.split(',').map((s) => s.trim().toLowerCase()).filter((s) => s && s !== 'all')
     : [];
 
   const selectedSeasons = searchParams?.get('season')
-    ? searchParams.get('season')!.split(',').map((s) => s.trim().toLowerCase()).filter(Boolean)
+    ? searchParams.get('season')!.split(',').map((s) => s.trim().toLowerCase()).filter((s) => s && s !== 'all')
     : [];
 
   const currentMinPrice = searchParams?.get('minPrice') || '';
@@ -50,6 +53,7 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
   const currentSearch = searchParams?.get('search') || '';
 
   // Local draft state for the full filter drawer
+  const [draftCategories, setDraftCategories] = useState<string[]>([]);
   const [draftBrands, setDraftBrands] = useState<string[]>([]);
   const [draftSizes, setDraftSizes] = useState<string[]>([]);
   const [draftGenders, setDraftGenders] = useState<string[]>([]);
@@ -59,6 +63,7 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
 
   // Sync draft state whenever drawer opens
   const openDrawer = () => {
+    setDraftCategories(selectedCategories);
     setDraftBrands(selectedBrands);
     setDraftSizes(selectedSizes);
     setDraftGenders(selectedGenders);
@@ -94,6 +99,7 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
 
   // Active filters count
   const activeCount =
+    selectedCategories.length +
     selectedBrands.length +
     selectedSizes.length +
     selectedGenders.length +
@@ -123,14 +129,15 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
 
   // Instant toggle for top quick bar
   const toggleQuickFilter = (
-    key: 'gender' | 'brand' | 'season' | 'size',
+    key: 'category' | 'gender' | 'brand' | 'season' | 'size',
     value: string,
     currentList: string[]
   ) => {
-    const isSelected = currentList.includes(value.toLowerCase());
+    const lower = value.toLowerCase();
+    const isSelected = currentList.includes(lower);
     const nextList = isSelected
-      ? currentList.filter((item) => item !== value.toLowerCase())
-      : [...currentList, value.toLowerCase()];
+      ? currentList.filter((item) => item !== lower)
+      : [...currentList, lower];
 
     commitFilters({
       [key]: nextList.length > 0 ? nextList.join(',') : null,
@@ -140,6 +147,7 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
   // Apply draft from drawer
   const applyDrawerFilters = () => {
     commitFilters({
+      category: draftCategories.length > 0 ? draftCategories.join(',') : null,
       brand: draftBrands.length > 0 ? draftBrands.join(',') : null,
       size: draftSizes.length > 0 ? draftSizes.join(',') : null,
       gender: draftGenders.length > 0 ? draftGenders.join(',') : null,
@@ -164,18 +172,18 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
     return arr.includes(lower) ? arr.filter((x) => x !== lower) : [...arr, lower];
   };
 
-  // Clean numeric sizes
+  // Standard numeric shoe sizes
   const numericSizes = meta.sizes
     .filter((s) => !isNaN(Number(s)))
     .sort((a, b) => Number(a) - Number(b));
 
-  // Quick popular sizes for the top bar
-  const quickSizes = ['38', '39', '40', '41', '42', '43', '44', '45'];
-
-  // Filtered brands for drawer
+  // Filtered brands for drawer search
   const filteredBrands = meta.brands.filter((b) =>
     b.name.toLowerCase().includes(brandSearch.trim().toLowerCase())
   );
+
+  // Top popular brands for quick tiles in drawer
+  const topBrands = meta.brands.slice(0, 6);
 
   // Price presets
   const applyPricePreset = (min: string, max: string) => {
@@ -187,9 +195,9 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
     <div className="sticky top-14 sm:top-16 z-30 mb-6 -mx-4 px-4 sm:-mx-6 sm:px-6 bg-background/95 backdrop-blur-md py-2.5 sm:py-3 border-b border-border shadow-xs transition-all">
       {/* Top Filter Bar */}
       <div className="flex flex-col gap-2.5 sm:flex-row sm:items-center sm:justify-between">
-        {/* Left Side: Filter Drawer Trigger + Horizontal Quick Pills */}
+        {/* Left Side: Filter Trigger & Clean Quick Category / Gender Pills */}
         <div className="flex items-center gap-2 overflow-x-auto pb-1 sm:pb-0 scrollbar-none min-w-0 flex-1">
-          {/* Main "Filters" Button with Active Badge */}
+          {/* Main "Filters" Button with Active Counter Badge */}
           <button
             type="button"
             onClick={openDrawer}
@@ -211,11 +219,12 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
 
           <div className="h-5 w-px bg-border shrink-0" />
 
-          {/* Quick Tab: All */}
+          {/* All */}
           <button
             type="button"
             onClick={() => {
               commitFilters({
+                category: null,
                 gender: null,
                 brand: null,
                 season: null,
@@ -233,71 +242,29 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
             Всі
           </button>
 
-          {/* Quick Gender Pills */}
-          <button
-            type="button"
-            onClick={() => toggleQuickFilter('gender', 'men', selectedGenders)}
-            className={`h-9 shrink-0 rounded-xl px-3 text-xs font-semibold whitespace-nowrap transition-colors ${
-              selectedGenders.includes('men')
-                ? 'bg-primary text-white'
-                : 'bg-surface text-muted hover:text-foreground border border-border'
-            }`}
-          >
-            Чоловічі
-          </button>
-          <button
-            type="button"
-            onClick={() => toggleQuickFilter('gender', 'women', selectedGenders)}
-            className={`h-9 shrink-0 rounded-xl px-3 text-xs font-semibold whitespace-nowrap transition-colors ${
-              selectedGenders.includes('women')
-                ? 'bg-primary text-white'
-                : 'bg-surface text-muted hover:text-foreground border border-border'
-            }`}
-          >
-            Жіночі
-          </button>
-          <button
-            type="button"
-            onClick={() => toggleQuickFilter('gender', 'unisex', selectedGenders)}
-            className={`h-9 shrink-0 rounded-xl px-3 text-xs font-semibold whitespace-nowrap transition-colors ${
-              selectedGenders.includes('unisex')
-                ? 'bg-primary text-white'
-                : 'bg-surface text-muted hover:text-foreground border border-border'
-            }`}
-          >
-            Унісекс
-          </button>
-
-          <div className="h-5 w-px bg-border shrink-0" />
-
-          {/* Quick Season Pills */}
-          <button
-            type="button"
-            onClick={() => toggleQuickFilter('season', 'demi', selectedSeasons)}
-            className={`h-9 shrink-0 rounded-xl px-3 text-xs font-semibold whitespace-nowrap transition-colors ${
-              selectedSeasons.includes('demi')
-                ? 'bg-primary text-white'
-                : 'bg-surface text-muted hover:text-foreground border border-border'
-            }`}
-          >
-            Демісезон
-          </button>
-          <button
-            type="button"
-            onClick={() => toggleQuickFilter('season', 'winter', selectedSeasons)}
-            className={`h-9 shrink-0 rounded-xl px-3 text-xs font-semibold whitespace-nowrap transition-colors ${
-              selectedSeasons.includes('winter')
-                ? 'bg-primary text-white'
-                : 'bg-surface text-muted hover:text-foreground border border-border'
-            }`}
-          >
-            Зимові
-          </button>
+          {/* Quick Categories & Gender */}
+          {meta.categories.map((c) => {
+            const isSelected = selectedCategories.includes(c.slug.toLowerCase());
+            return (
+              <button
+                key={c.slug}
+                type="button"
+                onClick={() => toggleQuickFilter('category', c.slug, selectedCategories)}
+                className={`h-9 shrink-0 rounded-xl px-3 text-xs font-semibold whitespace-nowrap transition-colors ${
+                  isSelected
+                    ? 'bg-primary text-white'
+                    : 'bg-surface text-muted hover:text-foreground border border-border'
+                }`}
+              >
+                {c.name}
+              </button>
+            );
+          })}
 
           <div className="h-5 w-px bg-border shrink-0" />
 
           {/* Quick Popular Brands */}
-          {meta.brands.slice(0, 6).map((b) => {
+          {topBrands.slice(0, 4).map((b) => {
             const isSelected = selectedBrands.includes(b.slug.toLowerCase());
             return (
               <button
@@ -311,28 +278,6 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
                 }`}
               >
                 {b.name}
-              </button>
-            );
-          })}
-
-          <div className="h-5 w-px bg-border shrink-0" />
-
-          {/* Quick Sizes */}
-          <span className="text-[11px] font-bold uppercase text-muted shrink-0 pl-1">Розмір:</span>
-          {quickSizes.map((sz) => {
-            const isSelected = selectedSizes.includes(sz);
-            return (
-              <button
-                key={sz}
-                type="button"
-                onClick={() => toggleQuickFilter('size', sz, selectedSizes)}
-                className={`h-8 w-9 shrink-0 rounded-lg text-xs font-bold transition-all ${
-                  isSelected
-                    ? 'bg-primary text-white shadow-xs'
-                    : 'bg-surface text-foreground border border-border hover:border-primary/60'
-                }`}
-              >
-                {sz}
               </button>
             );
           })}
@@ -378,23 +323,27 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
             Обрано ({activeCount}):
           </span>
 
-          {/* Gender Chips */}
-          {selectedGenders.map((g) => (
-            <span
-              key={g}
-              className="inline-flex items-center gap-1 rounded-lg border border-primary/40 bg-primary/10 px-2.5 py-1 text-xs font-semibold text-primary"
-            >
-              <span>Стать: {g === 'men' ? 'Чоловічі' : g === 'women' ? 'Жіночі' : 'Унісекс'}</span>
-              <button
-                type="button"
-                onClick={() => toggleQuickFilter('gender', g, selectedGenders)}
-                className="hover:text-foreground p-0.5"
-                aria-label="Видалити фільтр статі"
+          {/* Category Chips */}
+          {selectedCategories.map((cSlug) => {
+            const catObj = meta.categories.find((c) => c.slug.toLowerCase() === cSlug);
+            const catName = catObj ? catObj.name : cSlug;
+            return (
+              <span
+                key={cSlug}
+                className="inline-flex items-center gap-1 rounded-lg border border-primary/40 bg-primary/10 px-2.5 py-1 text-xs font-semibold text-primary"
               >
-                <X className="h-3 w-3" />
-              </button>
-            </span>
-          ))}
+                <span>Категорія: {catName}</span>
+                <button
+                  type="button"
+                  onClick={() => toggleQuickFilter('category', cSlug, selectedCategories)}
+                  className="hover:text-foreground p-0.5"
+                  aria-label={`Видалити фільтр категорії ${catName}`}
+                >
+                  <X className="h-3 w-3" />
+                </button>
+              </span>
+            );
+          })}
 
           {/* Size Chips */}
           {selectedSizes.map((sz) => (
@@ -435,6 +384,24 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
               </span>
             );
           })}
+
+          {/* Gender Chips */}
+          {selectedGenders.map((g) => (
+            <span
+              key={g}
+              className="inline-flex items-center gap-1 rounded-lg border border-primary/40 bg-primary/10 px-2.5 py-1 text-xs font-semibold text-primary"
+            >
+              <span>Стать: {g === 'men' ? 'Чоловічі' : g === 'women' ? 'Жіночі' : 'Унісекс'}</span>
+              <button
+                type="button"
+                onClick={() => toggleQuickFilter('gender', g, selectedGenders)}
+                className="hover:text-foreground p-0.5"
+                aria-label="Видалити фільтр статі"
+              >
+                <X className="h-3 w-3" />
+              </button>
+            </span>
+          ))}
 
           {/* Season Chips */}
           {selectedSeasons.map((s) => (
@@ -504,7 +471,7 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
           {/* Backdrop click to close */}
           <div className="flex-1" onClick={() => setIsOpenDrawer(false)} />
 
-          {/* Drawer Content */}
+          {/* Drawer Content Container */}
           <div className="flex h-full w-full max-w-md flex-col bg-surface shadow-2xl border-l border-border animate-in slide-in-from-right duration-300">
             {/* Drawer Header */}
             <div className="sticky top-0 z-10 flex items-center justify-between border-b border-border bg-surface/95 px-5 py-4 backdrop-blur-md">
@@ -528,8 +495,49 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
 
             {/* Drawer Scrollable Body */}
             <div className="flex-1 overflow-y-auto px-5 py-5 flex flex-col gap-6">
-              {/* Section 1: Footwear Sizes (EU) */}
+              {/* 1. КАТЕГОРІЇ ТОВАРУ */}
               <div>
+                <div className="flex items-baseline justify-between mb-2.5">
+                  <label className="text-xs font-black uppercase tracking-wider text-foreground">
+                    Категорія товару
+                  </label>
+                  {draftCategories.length > 0 && (
+                    <button
+                      type="button"
+                      onClick={() => setDraftCategories([])}
+                      className="text-[11px] font-semibold text-primary hover:underline"
+                    >
+                      Скинути ({draftCategories.length})
+                    </button>
+                  )}
+                </div>
+
+                <div className="grid grid-cols-2 gap-2">
+                  {meta.categories.map((c) => {
+                    const isSelected = draftCategories.includes(c.slug.toLowerCase());
+                    return (
+                      <button
+                        key={c.slug}
+                        type="button"
+                        onClick={() => setDraftCategories(toggleItem(draftCategories, c.slug))}
+                        className={`h-11 rounded-xl px-3 text-xs font-bold transition-all flex items-center justify-between text-left ${
+                          isSelected
+                            ? 'bg-primary text-white shadow-sm border-2 border-primary'
+                            : 'bg-background text-foreground border border-border hover:border-primary/50'
+                        }`}
+                      >
+                        <span className="truncate">{c.name}</span>
+                        <span className="text-[10px] opacity-75 font-normal shrink-0 pl-1">
+                          ({c.count.toLocaleString('uk-UA')})
+                        </span>
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
+
+              {/* 2. РОЗМІР ВЗУТТЯ (EU) */}
+              <div className="border-t border-border/80 pt-5">
                 <div className="flex items-baseline justify-between mb-2.5">
                   <label className="text-xs font-black uppercase tracking-wider text-foreground">
                     Розмір взуття (EU)
@@ -544,7 +552,7 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
                     </button>
                   )}
                 </div>
-                <p className="text-[11px] text-muted mb-3">Оберіть один або декілька розмірів:</p>
+                <p className="text-[11px] text-muted mb-3">Оберіть потрібний розмір (можна кілька):</p>
 
                 <div className="grid grid-cols-4 sm:grid-cols-5 gap-2">
                   {numericSizes.map((sz) => {
@@ -567,7 +575,107 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
                 </div>
               </div>
 
-              {/* Section 2: Price Range */}
+              {/* 3. БРЕНДИ */}
+              <div className="border-t border-border/80 pt-5">
+                <div className="flex items-baseline justify-between mb-2.5">
+                  <label className="text-xs font-black uppercase tracking-wider text-foreground">
+                    Бренд
+                  </label>
+                  {draftBrands.length > 0 && (
+                    <button
+                      type="button"
+                      onClick={() => setDraftBrands([])}
+                      className="text-[11px] font-semibold text-primary hover:underline"
+                    >
+                      Скинути ({draftBrands.length})
+                    </button>
+                  )}
+                </div>
+
+                {/* Popular Brand Quick Tiles */}
+                <div className="grid grid-cols-3 gap-2 mb-3">
+                  {topBrands.map((b) => {
+                    const isSelected = draftBrands.includes(b.slug.toLowerCase());
+                    return (
+                      <button
+                        key={b.slug}
+                        type="button"
+                        onClick={() => setDraftBrands(toggleItem(draftBrands, b.slug))}
+                        className={`h-9 rounded-xl px-2 text-xs font-bold transition-all flex items-center justify-center text-center ${
+                          isSelected
+                            ? 'bg-primary text-white shadow-xs border-2 border-primary'
+                            : 'bg-background text-foreground border border-border hover:border-primary/50'
+                        }`}
+                      >
+                        <span className="truncate">{b.name}</span>
+                      </button>
+                    );
+                  })}
+                </div>
+
+                {/* Brand Search Input */}
+                <div className="relative mb-2.5">
+                  <input
+                    type="text"
+                    value={brandSearch}
+                    onChange={(e) => setBrandSearch(e.target.value)}
+                    placeholder="Пошук інших брендів..."
+                    className="w-full h-9 rounded-xl border border-border bg-background pl-8 pr-8 text-xs text-foreground placeholder:text-muted focus:border-primary focus:outline-none"
+                  />
+                  <Search className="absolute left-2.5 top-2.5 h-4 w-4 text-muted pointer-events-none" />
+                  {brandSearch && (
+                    <button
+                      type="button"
+                      onClick={() => setBrandSearch('')}
+                      className="absolute right-2.5 top-2.5 text-muted hover:text-foreground"
+                    >
+                      <X className="h-4 w-4" />
+                    </button>
+                  )}
+                </div>
+
+                {/* Full Brand List with Checkboxes */}
+                <div className="max-h-52 overflow-y-auto pr-1 flex flex-col gap-1.5 scrollbar-thin">
+                  {filteredBrands.map((b) => {
+                    const isSelected = draftBrands.includes(b.slug.toLowerCase());
+                    return (
+                      <button
+                        key={b.slug}
+                        type="button"
+                        onClick={() => setDraftBrands(toggleItem(draftBrands, b.slug))}
+                        className={`flex items-center justify-between rounded-xl px-3 py-2 text-xs transition-colors ${
+                          isSelected
+                            ? 'bg-primary/10 text-primary font-bold'
+                            : 'bg-background hover:bg-surface-raised text-foreground'
+                        }`}
+                      >
+                        <div className="flex items-center gap-2.5 min-w-0">
+                          <span
+                            className={`flex h-4 w-4 shrink-0 items-center justify-center rounded border transition-colors ${
+                              isSelected
+                                ? 'bg-primary border-primary text-white'
+                                : 'border-border bg-surface'
+                            }`}
+                          >
+                            {isSelected && <Check className="h-3 w-3 stroke-[3]" />}
+                          </span>
+                          <span className="truncate">{b.name}</span>
+                        </div>
+                        <span className="text-[11px] text-muted shrink-0 pl-2">
+                          {b.count.toLocaleString('uk-UA')}
+                        </span>
+                      </button>
+                    );
+                  })}
+                  {filteredBrands.length === 0 && (
+                    <div className="py-4 text-center text-xs text-muted">
+                      Брендів за запитом «{brandSearch}» не знайдено
+                    </div>
+                  )}
+                </div>
+              </div>
+
+              {/* 4. ЦІНА (ГРН) */}
               <div className="border-t border-border/80 pt-5">
                 <div className="flex items-baseline justify-between mb-2.5">
                   <label className="text-xs font-black uppercase tracking-wider text-foreground">
@@ -627,7 +735,7 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
                   </div>
                 </div>
 
-                {/* Price Range Quick Presets */}
+                {/* Quick Presets */}
                 <div className="grid grid-cols-2 gap-2">
                   <button
                     type="button"
@@ -675,139 +783,6 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
                   </button>
                 </div>
               </div>
-
-              {/* Section 3: Gender */}
-              <div className="border-t border-border/80 pt-5">
-                <label className="text-xs font-black uppercase tracking-wider text-foreground block mb-2.5">
-                  Стать
-                </label>
-                <div className="grid grid-cols-3 gap-2">
-                  {meta.genders.map((g) => {
-                    const isSelected = draftGenders.includes(g.slug);
-                    return (
-                      <button
-                        key={g.slug}
-                        type="button"
-                        onClick={() => setDraftGenders(toggleItem(draftGenders, g.slug))}
-                        className={`h-10 rounded-xl px-2 text-xs font-bold transition-all flex flex-col items-center justify-center ${
-                          isSelected
-                            ? 'bg-primary text-white shadow-xs border-2 border-primary'
-                            : 'bg-background text-foreground border border-border hover:border-primary/50'
-                        }`}
-                      >
-                        <span>{g.name}</span>
-                        <span className="text-[10px] opacity-75 font-normal">({g.count})</span>
-                      </button>
-                    );
-                  })}
-                </div>
-              </div>
-
-              {/* Section 4: Brand with Search */}
-              <div className="border-t border-border/80 pt-5">
-                <div className="flex items-baseline justify-between mb-2.5">
-                  <label className="text-xs font-black uppercase tracking-wider text-foreground">
-                    Бренд
-                  </label>
-                  {draftBrands.length > 0 && (
-                    <button
-                      type="button"
-                      onClick={() => setDraftBrands([])}
-                      className="text-[11px] font-semibold text-primary hover:underline"
-                    >
-                      Скинути ({draftBrands.length})
-                    </button>
-                  )}
-                </div>
-
-                {/* Brand Search Input */}
-                <div className="relative mb-2.5">
-                  <input
-                    type="text"
-                    value={brandSearch}
-                    onChange={(e) => setBrandSearch(e.target.value)}
-                    placeholder="Пошук бренду..."
-                    className="w-full h-9 rounded-xl border border-border bg-background pl-8 pr-8 text-xs text-foreground placeholder:text-muted focus:border-primary focus:outline-none"
-                  />
-                  <Search className="absolute left-2.5 top-2.5 h-4 w-4 text-muted pointer-events-none" />
-                  {brandSearch && (
-                    <button
-                      type="button"
-                      onClick={() => setBrandSearch('')}
-                      className="absolute right-2.5 top-2.5 text-muted hover:text-foreground"
-                    >
-                      <X className="h-4 w-4" />
-                    </button>
-                  )}
-                </div>
-
-                {/* Brand List */}
-                <div className="max-h-56 overflow-y-auto pr-1 flex flex-col gap-1.5 scrollbar-thin">
-                  {filteredBrands.map((b) => {
-                    const isSelected = draftBrands.includes(b.slug.toLowerCase());
-                    return (
-                      <button
-                        key={b.slug}
-                        type="button"
-                        onClick={() => setDraftBrands(toggleItem(draftBrands, b.slug))}
-                        className={`flex items-center justify-between rounded-xl px-3 py-2 text-xs transition-colors ${
-                          isSelected
-                            ? 'bg-primary/10 text-primary font-bold'
-                            : 'bg-background hover:bg-surface-raised text-foreground'
-                        }`}
-                      >
-                        <div className="flex items-center gap-2.5 min-w-0">
-                          <span
-                            className={`flex h-4 w-4 shrink-0 items-center justify-center rounded border transition-colors ${
-                              isSelected
-                                ? 'bg-primary border-primary text-white'
-                                : 'border-border bg-surface'
-                            }`}
-                          >
-                            {isSelected && <Check className="h-3 w-3 stroke-[3]" />}
-                          </span>
-                          <span className="truncate">{b.name}</span>
-                        </div>
-                        <span className="text-[11px] text-muted shrink-0 pl-2">
-                          {b.count.toLocaleString('uk-UA')}
-                        </span>
-                      </button>
-                    );
-                  })}
-                  {filteredBrands.length === 0 && (
-                    <div className="py-4 text-center text-xs text-muted">
-                      Брендів за запитом «{brandSearch}» не знайдено
-                    </div>
-                  )}
-                </div>
-              </div>
-
-              {/* Section 5: Season */}
-              <div className="border-t border-border/80 pt-5">
-                <label className="text-xs font-black uppercase tracking-wider text-foreground block mb-2.5">
-                  Сезон
-                </label>
-                <div className="grid grid-cols-2 gap-2">
-                  {meta.seasons.map((s) => {
-                    const isSelected = draftSeasons.includes(s.slug);
-                    return (
-                      <button
-                        key={s.slug}
-                        type="button"
-                        onClick={() => setDraftSeasons(toggleItem(draftSeasons, s.slug))}
-                        className={`h-10 rounded-xl px-3 text-xs font-bold transition-all flex items-center justify-between ${
-                          isSelected
-                            ? 'bg-primary text-white shadow-xs border-2 border-primary'
-                            : 'bg-background text-foreground border border-border hover:border-primary/50'
-                        }`}
-                      >
-                        <span>{s.name}</span>
-                        <span className="text-[11px] opacity-75 font-normal">({s.count})</span>
-                      </button>
-                    );
-                  })}
-                </div>
-              </div>
             </div>
 
             {/* Drawer Fixed Footer */}
@@ -815,6 +790,7 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
               <button
                 type="button"
                 onClick={() => {
+                  setDraftCategories([]);
                   setDraftBrands([]);
                   setDraftSizes([]);
                   setDraftGenders([]);
