@@ -39,6 +39,20 @@ export function ProductBreadcrumbs({
     }
   };
 
+  const handleCategoryClick = (e: React.MouseEvent) => {
+    if (typeof window === 'undefined') return;
+    const lastCatalogUrl = sessionStorage.getItem('vexaro_last_catalog_url');
+    if (
+      lastCatalogUrl &&
+      (lastCatalogUrl.startsWith(`/category/${categorySlug}`) ||
+        lastCatalogUrl.includes(`category=${categorySlug}`))
+    ) {
+      e.preventDefault();
+      sessionStorage.setItem('vexaro_restore_scroll', 'true');
+      router.push(lastCatalogUrl);
+    }
+  };
+
   return (
     <nav className="mb-6 flex items-center gap-2 text-xs text-muted overflow-x-auto whitespace-nowrap py-1">
       {/* Explicit Back button */}
@@ -65,6 +79,7 @@ export function ProductBreadcrumbs({
         <ChevronRight className="h-3 w-3 shrink-0 opacity-50" />
         <Link
           href={`/category/${categorySlug}`}
+          onClick={handleCategoryClick}
           className="hover:text-foreground transition-colors"
         >
           {category}

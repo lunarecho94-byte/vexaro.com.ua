@@ -47,6 +47,13 @@ export async function generateMetadata({ params, searchParams }: CategoryPagePro
   let title = `${catName} — купити в інтернет-магазині VEXARO`;
   let description = `Великий асортимент: ${catName}. Швидка доставка Новою Поштою 1–2 дні по Україні, оплата після примірки (накладений платіж).`;
 
+  if (searchParams.brand && searchParams.brand !== 'all') {
+    const brandObj = meta.brands.find((b) => b.slug === searchParams.brand);
+    const bName = brandObj ? brandObj.name : searchParams.brand;
+    title = `${catName} ${bName} — купити в інтернет-магазині VEXARO`;
+    description = `Великий асортимент ${catName.toLowerCase()} бренду ${bName}. Швидка доставка Новою Поштою 1–2 дні по Україні, оплата після примірки (накладений платіж).`;
+  }
+
   if (pageNum > 1) {
     title += ` — Сторінка ${pageNum}`;
   }

@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Link from 'next/link';
-import { useSearchParams } from 'next/navigation';
+import { usePathname, useSearchParams } from 'next/navigation';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 interface PaginationProps {
@@ -11,6 +11,7 @@ interface PaginationProps {
 }
 
 export function Pagination({ currentPage, totalPages }: PaginationProps) {
+  const pathname = usePathname();
   const searchParams = useSearchParams();
 
   if (totalPages <= 1) return null;
@@ -22,8 +23,9 @@ export function Pagination({ currentPage, totalPages }: PaginationProps) {
     } else {
       params.set('page', String(page));
     }
+    const basePath = pathname || '/';
     const query = params.toString();
-    return query ? `/?${query}` : '/';
+    return query ? `${basePath}?${query}` : basePath;
   };
 
   // Generate page numbers window

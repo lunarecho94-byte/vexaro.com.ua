@@ -24,6 +24,7 @@ interface PageProps {
 }
 
 export async function generateMetadata({ searchParams }: PageProps): Promise<Metadata> {
+  const meta = await getCatalogMeta();
   const pageNum = Number(searchParams.page) || 1;
   const category = searchParams.category;
   const brand = searchParams.brand;
@@ -33,9 +34,11 @@ export async function generateMetadata({ searchParams }: PageProps): Promise<Met
   let description = 'Великий вибір оригінальних кросівок і взуття з доставкою по Україні за 1–2 дні. Оплата після примірки (накладений платіж).';
 
   if (category && category !== 'all') {
-    title = `Взуття категорії ${category}`;
+    const catObj = meta.categories.find((c) => c.slug === category);
+    title = `${catObj ? catObj.name : category} — інтернет-магазин VEXARO`;
   } else if (brand && brand !== 'all') {
-    title = `Оригінальне взуття ${brand.toUpperCase()}`;
+    const brandObj = meta.brands.find((b) => b.slug === brand);
+    title = `Оригінальне взуття ${brandObj ? brandObj.name : brand.toUpperCase()}`;
   } else if (search) {
     title = `Пошук «${search}» — каталог взуття`;
   }

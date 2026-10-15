@@ -1,8 +1,8 @@
 'use client';
 
 import React, { useState, useTransition } from 'react';
-import { useRouter, useSearchParams } from 'next/navigation';
-import { SlidersHorizontal, X, RotateCcw } from 'lucide-react';
+import { useRouter, usePathname, useSearchParams } from 'next/navigation';
+import { SlidersHorizontal, X, RotateCcw, Search as SearchIcon } from 'lucide-react';
 import { CatalogMeta } from '@/types/product';
 
 interface CatalogFiltersProps {
@@ -12,11 +12,18 @@ interface CatalogFiltersProps {
 
 export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersProps) {
   const router = useRouter();
+  const pathname = usePathname();
   const searchParams = useSearchParams();
   const [isPending, startTransition] = useTransition();
   const [isOpenMobile, setIsOpenMobile] = useState(false);
+  const [brandSearch, setBrandSearch] = useState('');
 
-  const selectedCategory = searchParams?.get('category') || 'all';
+  // Extract category from pathname (/category/[slug]) or searchParams (?category=[slug])
+  const pathCategory = pathname?.startsWith('/category/')
+    ? pathname.replace('/category/', '').split('/')[0]
+    : null;
+  const selectedCategory = pathCategory || searchParams?.get('category') || 'all';
+
   const selectedBrand = searchParams?.get('brand') || 'all';
   const selectedGender = searchParams?.get('gender') || 'all';
   const selectedSeason = searchParams?.get('season') || 'all';
@@ -25,19 +32,32 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
 
   const updateFilters = (key: string, value: string) => {
     const params = new URLSearchParams(searchParams?.toString() || '');
-    
+
     // Always reset to page 1 when changing filters
     params.delete('page');
 
-    if (value === 'all' || !value) {
-      params.delete(key);
+    let targetPathname = pathname || '/';
+
+    if (key === 'category') {
+      if (value === 'all' || !value) {
+        targetPathname = '/';
+        params.delete('category');
+      } else {
+        targetPathname = `/category/${value}`;
+        params.delete('category');
+      }
     } else {
-      params.set(key, value);
+      if (value === 'all' || !value) {
+        params.delete(key);
+      } else {
+        params.set(key, value);
+      }
     }
 
     startTransition(() => {
       const queryString = params.toString();
-      router.push(queryString ? `/?${queryString}` : '/', { scroll: false });
+      const targetUrl = queryString ? `${targetPathname}?${queryString}` : targetPathname;
+      router.push(targetUrl, { scroll: false });
     });
   };
 
@@ -55,26 +75,66 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
     selectedSeason !== 'all' ||
     Boolean(currentSearch);
 
+  const activeCategoryName =
+    selectedCategory !== 'all'
+      ? meta.categories.find((c) => c.slug === selectedCategory)?.name || selectedCategory
+      : null;
+
+  const activeBrandName =
+    selectedBrand !== 'all'
+      ? meta.brands.find((b) => b.slug === selectedBrand)?.name || selectedBrand
+      : null;
+
+  const filteredBrands = meta.brands.filter((b) =>
+    b.name.toLowerCase().includes(brandSearch.trim().toLowerCase())
+  );
+
   return (
     <div className="mb-6">
-      {/* Top Bar: Active categories quick pills & Mobile filter trigger */}
+      {/* Top Bar: Quick Pills & Filters Drawer Trigger */}
       <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-        {/* Quick Gender / Category Tabs */}
+        {/* Quick Tabs: Gender, Category, Popular Brands & Seasons */}
         <div className="flex items-center gap-1.5 overflow-x-auto pb-1 sm:pb-0 scrollbar-none">
+          {/* All */}
           <button
             type="button"
-            onClick={() => updateFilters('gender', 'all')}
+            onClick={() => {
+              if (selectedCategory !== 'all') {
+                updateFilters('category', 'all');
+              }
+              if (selectedGender !== 'all') {
+                updateFilters('gender', 'all');
+              }
+            }}
             className={`rounded-lg px-3 py-2 text-xs font-semibold whitespace-nowrap transition-colors ${
-              selectedGender === 'all'
+              selectedGender === 'all' && selectedCategory === 'all'
                 ? 'bg-primary text-background'
                 : 'bg-surface text-muted hover:text-foreground border border-border'
             }`}
           >
             Всі
           </button>
+
+          {/* Categories */}
+          {meta.categories.map((c) => (
+            <button
+              key={c.slug}
+              type="button"
+              onClick={() => updateFilters('category', selectedCategory === c.slug ? 'all' : c.slug)}
+              className={`rounded-lg px-3 py-2 text-xs font-semibold whitespace-nowrap transition-colors ${
+                selectedCategory === c.slug
+                  ? 'bg-primary text-background'
+                  : 'bg-surface text-muted hover:text-foreground border border-border'
+              }`}
+            >
+              {c.name}
+            </button>
+          ))}
+
+          {/* Gender */}
           <button
             type="button"
-            onClick={() => updateFilters('gender', 'men')}
+            onClick={() => updateFilters('gender', selectedGender === 'men' ? 'all' : 'men')}
             className={`rounded-lg px-3 py-2 text-xs font-semibold whitespace-nowrap transition-colors ${
               selectedGender === 'men'
                 ? 'bg-primary text-background'
@@ -85,7 +145,7 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
           </button>
           <button
             type="button"
-            onClick={() => updateFilters('gender', 'women')}
+            onClick={() => updateFilters('gender', selectedGender === 'women' ? 'all' : 'women')}
             className={`rounded-lg px-3 py-2 text-xs font-semibold whitespace-nowrap transition-colors ${
               selectedGender === 'women'
                 ? 'bg-primary text-background'
@@ -94,6 +154,26 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
           >
             Жіночі
           </button>
+
+          {/* Popular Brands */}
+          <div className="h-4 w-px bg-border shrink-0 mx-0.5" />
+          {meta.brands.slice(0, 4).map((b) => (
+            <button
+              key={b.slug}
+              type="button"
+              onClick={() => updateFilters('brand', selectedBrand === b.slug ? 'all' : b.slug)}
+              className={`rounded-lg px-3 py-2 text-xs font-semibold whitespace-nowrap transition-colors ${
+                selectedBrand === b.slug
+                  ? 'bg-primary text-background'
+                  : 'bg-surface text-muted hover:text-foreground border border-border'
+              }`}
+            >
+              {b.name}
+            </button>
+          ))}
+
+          {/* Seasons */}
+          <div className="h-4 w-px bg-border shrink-0 mx-0.5" />
           <button
             type="button"
             onClick={() => updateFilters('season', selectedSeason === 'demi' ? 'all' : 'demi')}
@@ -165,20 +245,98 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
         </div>
       </div>
 
-      {/* Active Search Tag banner */}
-      {currentSearch && (
-        <div className="mt-3 flex items-center gap-2 text-xs text-muted">
-          <span>Результати за запитом:</span>
-          <span className="font-semibold text-foreground bg-surface border border-border px-2 py-0.5 rounded flex items-center gap-1.5">
-            «{currentSearch}»
-            <button
-              type="button"
-              onClick={() => updateFilters('search', '')}
-              className="text-muted hover:text-foreground"
-            >
-              <X className="h-3 w-3" />
-            </button>
-          </span>
+      {/* Active Filter Badges */}
+      {hasActiveFilters && (
+        <div className="mt-3 flex flex-wrap items-center gap-1.5 text-xs">
+          <span className="text-muted text-[11px] font-medium mr-1">Фільтри:</span>
+
+          {/* Category Chip */}
+          {activeCategoryName && (
+            <span className="inline-flex items-center gap-1 rounded-md border border-primary/40 bg-primary/10 px-2 py-0.5 text-xs font-semibold text-primary">
+              <span>Категорія: {activeCategoryName}</span>
+              <button
+                type="button"
+                onClick={() => updateFilters('category', 'all')}
+                className="hover:text-foreground p-0.5"
+                aria-label={`Видалити фільтр категорії ${activeCategoryName}`}
+              >
+                <X className="h-3 w-3" />
+              </button>
+            </span>
+          )}
+
+          {/* Brand Chip */}
+          {activeBrandName && (
+            <span className="inline-flex items-center gap-1 rounded-md border border-primary/40 bg-primary/10 px-2 py-0.5 text-xs font-semibold text-primary">
+              <span>Бренд: {activeBrandName}</span>
+              <button
+                type="button"
+                onClick={() => updateFilters('brand', 'all')}
+                className="hover:text-foreground p-0.5"
+                aria-label={`Видалити фільтр бренду ${activeBrandName}`}
+              >
+                <X className="h-3 w-3" />
+              </button>
+            </span>
+          )}
+
+          {/* Gender Chip */}
+          {selectedGender !== 'all' && (
+            <span className="inline-flex items-center gap-1 rounded-md border border-border bg-surface px-2 py-0.5 text-xs font-medium text-foreground">
+              <span>
+                Стать: {selectedGender === 'men' ? 'Чоловічі' : selectedGender === 'women' ? 'Жіночі' : 'Унісекс'}
+              </span>
+              <button
+                type="button"
+                onClick={() => updateFilters('gender', 'all')}
+                className="text-muted hover:text-foreground p-0.5"
+                aria-label="Видалити фільтр статі"
+              >
+                <X className="h-3 w-3" />
+              </button>
+            </span>
+          )}
+
+          {/* Season Chip */}
+          {selectedSeason !== 'all' && (
+            <span className="inline-flex items-center gap-1 rounded-md border border-border bg-surface px-2 py-0.5 text-xs font-medium text-foreground">
+              <span>
+                Сезон: {selectedSeason === 'winter' ? 'Зимові' : selectedSeason === 'demi' ? 'Демісезон' : selectedSeason}
+              </span>
+              <button
+                type="button"
+                onClick={() => updateFilters('season', 'all')}
+                className="text-muted hover:text-foreground p-0.5"
+                aria-label="Видалити фільтр сезону"
+              >
+                <X className="h-3 w-3" />
+              </button>
+            </span>
+          )}
+
+          {/* Search Chip */}
+          {currentSearch && (
+            <span className="inline-flex items-center gap-1 rounded-md border border-border bg-surface px-2 py-0.5 text-xs font-medium text-foreground">
+              <span>Пошук: «{currentSearch}»</span>
+              <button
+                type="button"
+                onClick={() => updateFilters('search', '')}
+                className="text-muted hover:text-foreground p-0.5"
+                aria-label="Очистити пошуковий запит"
+              >
+                <X className="h-3 w-3" />
+              </button>
+            </span>
+          )}
+
+          {/* Clear all text button */}
+          <button
+            type="button"
+            onClick={resetAll}
+            className="text-[11px] text-muted hover:text-primary transition-colors underline ml-1"
+          >
+            Очистити все
+          </button>
         </div>
       )}
 
@@ -199,8 +357,8 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
             </div>
 
             <div className="mt-6 flex flex-col gap-6 flex-1">
-              {/* Category (if multiple categories exist) */}
-              {meta.categories.length > 1 && (
+              {/* Category */}
+              {meta.categories.length > 0 && (
                 <div>
                   <label className="text-xs font-bold uppercase tracking-wider text-muted block mb-2">
                     Категорія
@@ -215,7 +373,7 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
                           : 'border-border bg-background text-muted hover:text-foreground'
                       }`}
                     >
-                      Всі ({meta.total})
+                      Всі товари ({meta.total})
                     </button>
                     {meta.categories.map((c) => (
                       <button
@@ -237,10 +395,43 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
 
               {/* Brand */}
               <div>
-                <label className="text-xs font-bold uppercase tracking-wider text-muted block mb-2">
-                  Бренд
-                </label>
-                <div className="max-h-48 overflow-y-auto pr-1 flex flex-col gap-1">
+                <div className="flex items-center justify-between mb-2">
+                  <label className="text-xs font-bold uppercase tracking-wider text-muted block">
+                    Бренд
+                  </label>
+                  {selectedBrand !== 'all' && (
+                    <button
+                      type="button"
+                      onClick={() => updateFilters('brand', 'all')}
+                      className="text-[11px] text-primary hover:underline"
+                    >
+                      Скинути бренд
+                    </button>
+                  )}
+                </div>
+
+                {/* Brand Search Input */}
+                <div className="relative mb-2">
+                  <input
+                    type="text"
+                    value={brandSearch}
+                    onChange={(e) => setBrandSearch(e.target.value)}
+                    placeholder="Пошук бренду..."
+                    className="w-full h-8 rounded-lg border border-border bg-background px-8 text-xs text-foreground placeholder:text-muted focus:border-primary focus:outline-none"
+                  />
+                  <SearchIcon className="absolute left-2.5 top-2 h-4 w-4 text-muted" />
+                  {brandSearch && (
+                    <button
+                      type="button"
+                      onClick={() => setBrandSearch('')}
+                      className="absolute right-2 top-2 text-muted hover:text-foreground"
+                    >
+                      <X className="h-4 w-4" />
+                    </button>
+                  )}
+                </div>
+
+                <div className="max-h-48 overflow-y-auto pr-1 flex flex-col gap-1 scrollbar-thin">
                   <button
                     type="button"
                     onClick={() => updateFilters('brand', 'all')}
@@ -252,7 +443,7 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
                   >
                     Всі бренди
                   </button>
-                  {meta.brands.slice(0, 20).map((b) => (
+                  {filteredBrands.map((b) => (
                     <button
                       key={b.slug}
                       type="button"
@@ -267,6 +458,11 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
                       <span className="text-[11px] opacity-60">({b.count})</span>
                     </button>
                   ))}
+                  {filteredBrands.length === 0 && (
+                    <div className="py-3 text-center text-xs text-muted">
+                      Брендів не знайдено
+                    </div>
+                  )}
                 </div>
               </div>
 
@@ -303,6 +499,40 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
                   ))}
                 </div>
               </div>
+
+              {/* Gender */}
+              <div>
+                <label className="text-xs font-bold uppercase tracking-wider text-muted block mb-2">
+                  Стать
+                </label>
+                <div className="flex flex-wrap gap-1.5">
+                  <button
+                    type="button"
+                    onClick={() => updateFilters('gender', 'all')}
+                    className={`rounded-lg px-3 py-1.5 text-xs font-medium border ${
+                      selectedGender === 'all'
+                        ? 'border-primary bg-primary text-background font-bold'
+                        : 'border-border bg-background text-muted hover:text-foreground'
+                    }`}
+                  >
+                    Всі
+                  </button>
+                  {meta.genders.map((g) => (
+                    <button
+                      key={g.slug}
+                      type="button"
+                      onClick={() => updateFilters('gender', g.slug)}
+                      className={`rounded-lg px-3 py-1.5 text-xs font-medium border ${
+                        selectedGender === g.slug
+                          ? 'border-primary bg-primary text-background font-bold'
+                          : 'border-border bg-background text-muted hover:text-foreground'
+                      }`}
+                    >
+                      {g.name} ({g.count})
+                    </button>
+                  ))}
+                </div>
+              </div>
             </div>
 
             {/* Bottom Actions */}
@@ -312,7 +542,7 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
                 onClick={resetAll}
                 className="flex-1 h-11 rounded-lg border border-border bg-background text-xs font-semibold text-muted hover:text-foreground"
               >
-                Скинути
+                Скинути все
               </button>
               <button
                 type="button"
