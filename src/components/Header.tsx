@@ -155,7 +155,7 @@ export function Header() {
             />
             <button
               type="submit"
-              className="rounded-lg bg-primary px-4 py-2.5 text-sm font-semibold text-background hover:bg-primary-hover transition-colors"
+              className="rounded-lg bg-primary px-4 py-2.5 text-sm font-semibold text-white hover:bg-primary-hover transition-colors"
             >
               Знайти
             </button>

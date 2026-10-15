@@ -90,7 +90,7 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
   );
 
   return (
-    <div className="mb-6">
+    <div className="sticky top-14 sm:top-16 z-30 mb-6 -mx-4 px-4 sm:-mx-6 sm:px-6 bg-background/95 backdrop-blur-md py-2.5 sm:py-3 border-b border-border shadow-xs transition-all">
       {/* Top Bar: Quick Pills & Filters Drawer Trigger */}
       <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
         {/* Quick Tabs: Gender, Category, Popular Brands & Seasons */}
@@ -247,7 +247,7 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
 
       {/* Active Filter Badges */}
       {hasActiveFilters && (
-        <div className="mt-3 flex flex-wrap items-center gap-1.5 text-xs">
+        <div className="mt-2 flex items-center gap-1.5 overflow-x-auto scrollbar-none whitespace-nowrap text-xs pb-0.5">
           <span className="text-muted text-[11px] font-medium mr-1">Фільтри:</span>
 
           {/* Category Chip */}
