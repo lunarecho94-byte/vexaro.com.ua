@@ -108,7 +108,7 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
             }}
             className={`rounded-lg px-3 py-2 text-xs font-semibold whitespace-nowrap transition-colors ${
               selectedGender === 'all' && selectedCategory === 'all'
-                ? 'bg-primary text-background'
+                ? 'bg-primary text-white'
                 : 'bg-surface text-muted hover:text-foreground border border-border'
             }`}
           >
@@ -123,7 +123,7 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
               onClick={() => updateFilters('category', selectedCategory === c.slug ? 'all' : c.slug)}
               className={`rounded-lg px-3 py-2 text-xs font-semibold whitespace-nowrap transition-colors ${
                 selectedCategory === c.slug
-                  ? 'bg-primary text-background'
+                  ? 'bg-primary text-white'
                   : 'bg-surface text-muted hover:text-foreground border border-border'
               }`}
             >
@@ -137,7 +137,7 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
             onClick={() => updateFilters('gender', selectedGender === 'men' ? 'all' : 'men')}
             className={`rounded-lg px-3 py-2 text-xs font-semibold whitespace-nowrap transition-colors ${
               selectedGender === 'men'
-                ? 'bg-primary text-background'
+                ? 'bg-primary text-white'
                 : 'bg-surface text-muted hover:text-foreground border border-border'
             }`}
           >
@@ -148,7 +148,7 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
             onClick={() => updateFilters('gender', selectedGender === 'women' ? 'all' : 'women')}
             className={`rounded-lg px-3 py-2 text-xs font-semibold whitespace-nowrap transition-colors ${
               selectedGender === 'women'
-                ? 'bg-primary text-background'
+                ? 'bg-primary text-white'
                 : 'bg-surface text-muted hover:text-foreground border border-border'
             }`}
           >
@@ -164,7 +164,7 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
               onClick={() => updateFilters('brand', selectedBrand === b.slug ? 'all' : b.slug)}
               className={`rounded-lg px-3 py-2 text-xs font-semibold whitespace-nowrap transition-colors ${
                 selectedBrand === b.slug
-                  ? 'bg-primary text-background'
+                  ? 'bg-primary text-white'
                   : 'bg-surface text-muted hover:text-foreground border border-border'
               }`}
             >
@@ -179,7 +179,7 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
             onClick={() => updateFilters('season', selectedSeason === 'demi' ? 'all' : 'demi')}
             className={`rounded-lg px-3 py-2 text-xs font-semibold whitespace-nowrap transition-colors ${
               selectedSeason === 'demi'
-                ? 'bg-primary text-background'
+                ? 'bg-primary text-white'
                 : 'bg-surface text-muted hover:text-foreground border border-border'
             }`}
           >
@@ -190,7 +190,7 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
             onClick={() => updateFilters('season', selectedSeason === 'winter' ? 'all' : 'winter')}
             className={`rounded-lg px-3 py-2 text-xs font-semibold whitespace-nowrap transition-colors ${
               selectedSeason === 'winter'
-                ? 'bg-primary text-background'
+                ? 'bg-primary text-white'
                 : 'bg-surface text-muted hover:text-foreground border border-border'
             }`}
           >
@@ -369,7 +369,7 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
                       onClick={() => updateFilters('category', 'all')}
                       className={`rounded-lg px-3 py-1.5 text-xs font-medium border ${
                         selectedCategory === 'all'
-                          ? 'border-primary bg-primary text-background font-bold'
+                          ? 'border-primary bg-primary text-white font-bold'
                           : 'border-border bg-background text-muted hover:text-foreground'
                       }`}
                     >
@@ -382,7 +382,7 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
                         onClick={() => updateFilters('category', c.slug)}
                         className={`rounded-lg px-3 py-1.5 text-xs font-medium border ${
                           selectedCategory === c.slug
-                            ? 'border-primary bg-primary text-background font-bold'
+                            ? 'border-primary bg-primary text-white font-bold'
                             : 'border-border bg-background text-muted hover:text-foreground'
                         }`}
                       >
@@ -477,7 +477,7 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
                     onClick={() => updateFilters('season', 'all')}
                     className={`rounded-lg px-3 py-1.5 text-xs font-medium border ${
                       selectedSeason === 'all'
-                        ? 'border-primary bg-primary text-background font-bold'
+                        ? 'border-primary bg-primary text-white font-bold'
                         : 'border-border bg-background text-muted hover:text-foreground'
                     }`}
                   >
@@ -490,7 +490,7 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
                       onClick={() => updateFilters('season', s.slug)}
                       className={`rounded-lg px-3 py-1.5 text-xs font-medium border ${
                         selectedSeason === s.slug
-                          ? 'border-primary bg-primary text-background font-bold'
+                          ? 'border-primary bg-primary text-white font-bold'
                           : 'border-border bg-background text-muted hover:text-foreground'
                       }`}
                     >
@@ -511,7 +511,7 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
                     onClick={() => updateFilters('gender', 'all')}
                     className={`rounded-lg px-3 py-1.5 text-xs font-medium border ${
                       selectedGender === 'all'
-                        ? 'border-primary bg-primary text-background font-bold'
+                        ? 'border-primary bg-primary text-white font-bold'
                         : 'border-border bg-background text-muted hover:text-foreground'
                     }`}
                   >
@@ -524,7 +524,7 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
                       onClick={() => updateFilters('gender', g.slug)}
                       className={`rounded-lg px-3 py-1.5 text-xs font-medium border ${
                         selectedGender === g.slug
-                          ? 'border-primary bg-primary text-background font-bold'
+                          ? 'border-primary bg-primary text-white font-bold'
                           : 'border-border bg-background text-muted hover:text-foreground'
                       }`}
                     >
@@ -547,7 +547,7 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
               <button
                 type="button"
                 onClick={() => setIsOpenMobile(false)}
-                className="flex-1 h-11 rounded-lg bg-primary text-xs font-bold text-background hover:bg-primary-hover"
+                className="flex-1 h-11 rounded-lg bg-primary text-xs font-bold text-white hover:bg-primary-hover shadow-sm"
               >
                 Застосувати
               </button>

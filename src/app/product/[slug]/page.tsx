@@ -176,7 +176,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
                   В наявності
                 </span>
               ) : (
-                <span className="rounded-full bg-zinc-800 border border-border px-2.5 py-0.5 text-xs font-semibold text-zinc-400">
+                <span className="rounded-full bg-zinc-100 border border-zinc-200 px-2.5 py-0.5 text-xs font-semibold text-zinc-600">
                   Немає в наявності
                 </span>
               )}

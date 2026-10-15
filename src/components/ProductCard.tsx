@@ -107,7 +107,7 @@ export function ProductCard({ product, priority = false }: ProductCardProps) {
   return (
     <article
       id={`product-${product.slug}`}
-      className="group relative flex flex-col justify-between overflow-hidden rounded-xl border border-border bg-surface hover:border-primary/50 transition-colors"
+      className="group relative flex flex-col justify-between overflow-hidden rounded-2xl border border-border bg-surface hover:border-primary/50 hover:shadow-md transition-all"
     >
       <Link
         href={`/product/${product.slug}`}
@@ -116,7 +116,7 @@ export function ProductCard({ product, priority = false }: ProductCardProps) {
       >
         {/* Image Area with Gallery Controls */}
         <div
-          className="relative aspect-square w-full overflow-hidden bg-surface-raised select-none"
+          className="relative aspect-square w-full overflow-hidden bg-[#f6f6f6] select-none"
           onTouchStart={handleTouchStart}
           onTouchMove={handleTouchMove}
           onTouchEnd={handleTouchEnd}
@@ -145,7 +145,7 @@ export function ProductCard({ product, priority = false }: ProductCardProps) {
               </span>
             )}
             {!product.inStock && (
-              <span className="rounded bg-zinc-800/90 px-2 py-0.5 text-[11px] font-semibold text-zinc-300 uppercase shadow-sm">
+              <span className="rounded bg-zinc-700/90 px-2 py-0.5 text-[11px] font-semibold text-white uppercase shadow-sm">
                 Немає в наявності
               </span>
             )}
@@ -164,7 +164,7 @@ export function ProductCard({ product, priority = false }: ProductCardProps) {
                 type="button"
                 onClick={handlePrevImage}
                 aria-label="Попереднє фото товару"
-                className="absolute left-1.5 top-1/2 -translate-y-1/2 z-20 flex h-7 w-7 items-center justify-center rounded-full bg-black/60 text-white backdrop-blur-sm opacity-0 group-hover:opacity-100 hover:bg-black/80 hover:scale-110 active:scale-95 transition-all shadow-md"
+                className="absolute left-1.5 top-1/2 -translate-y-1/2 z-20 flex h-7 w-7 items-center justify-center rounded-full bg-white/90 text-zinc-800 border border-zinc-200/80 backdrop-blur-sm opacity-0 group-hover:opacity-100 hover:bg-white hover:scale-110 active:scale-95 transition-all shadow-md"
               >
                 <ChevronLeft className="h-4 w-4" />
               </button>
@@ -174,7 +174,7 @@ export function ProductCard({ product, priority = false }: ProductCardProps) {
                 type="button"
                 onClick={handleNextImage}
                 aria-label="Наступне фото товару"
-                className="absolute right-1.5 top-1/2 -translate-y-1/2 z-20 flex h-7 w-7 items-center justify-center rounded-full bg-black/60 text-white backdrop-blur-sm opacity-0 group-hover:opacity-100 hover:bg-black/80 hover:scale-110 active:scale-95 transition-all shadow-md"
+                className="absolute right-1.5 top-1/2 -translate-y-1/2 z-20 flex h-7 w-7 items-center justify-center rounded-full bg-white/90 text-zinc-800 border border-zinc-200/80 backdrop-blur-sm opacity-0 group-hover:opacity-100 hover:bg-white hover:scale-110 active:scale-95 transition-all shadow-md"
               >
                 <ChevronRight className="h-4 w-4" />
               </button>
@@ -187,19 +187,19 @@ export function ProductCard({ product, priority = false }: ProductCardProps) {
                     className={`h-1 rounded-full transition-all duration-200 ${
                       imageIndex === idx
                         ? 'w-3.5 bg-primary shadow-sm'
-                        : 'w-1 bg-white/40'
+                        : 'w-1 bg-zinc-400'
                     }`}
                   />
                 ))}
                 {totalImages > 6 && (
-                  <span className="text-[9px] font-bold text-white/80 ml-0.5 drop-shadow">
+                  <span className="text-[9px] font-bold text-zinc-600 ml-0.5 drop-shadow">
                     +{totalImages - 6}
                   </span>
                 )}
               </div>
 
               {/* Photo Counter Pill */}
-              <div className="absolute bottom-2 right-2 z-10 rounded-md bg-black/60 px-1.5 py-0.5 text-[9px] font-mono font-bold text-white/90 backdrop-blur-sm pointer-events-none">
+              <div className="absolute bottom-2 right-2 z-10 rounded-md bg-white/90 border border-zinc-200/80 px-1.5 py-0.5 text-[9px] font-mono font-bold text-zinc-700 backdrop-blur-sm pointer-events-none shadow-xs">
                 {imageIndex + 1}/{totalImages}
               </div>
             </>
@@ -226,7 +226,7 @@ export function ProductCard({ product, priority = false }: ProductCardProps) {
                 {product.sizes.slice(0, 4).map((s) => (
                   <span
                     key={s}
-                    className="rounded border border-border bg-background px-1.5 py-0.5 text-[10px] text-muted font-medium"
+                    className="rounded border border-border bg-surface-raised px-1.5 py-0.5 text-[10px] text-muted font-medium"
                   >
                     {s}
                   </span>
@@ -260,7 +260,7 @@ export function ProductCard({ product, priority = false }: ProductCardProps) {
           type="button"
           onClick={handleQuickAdd}
           disabled={!product.inStock}
-          className="w-full h-12 rounded-xl bg-surface-raised border border-border text-xs sm:text-sm font-extrabold uppercase tracking-wider text-foreground hover:bg-primary hover:text-background hover:border-primary disabled:opacity-40 disabled:hover:bg-surface-raised disabled:hover:text-foreground transition-all flex items-center justify-center gap-1.5 active:scale-[0.98]"
+          className="w-full h-12 rounded-xl bg-surface-raised border border-border text-xs sm:text-sm font-extrabold uppercase tracking-wider text-foreground hover:bg-primary hover:text-white hover:border-primary disabled:opacity-40 disabled:hover:bg-surface-raised disabled:hover:text-foreground transition-all flex items-center justify-center gap-1.5 active:scale-[0.98]"
         >
           {product.inStock ? 'В кошик' : 'Немає в наявності'}
         </button>

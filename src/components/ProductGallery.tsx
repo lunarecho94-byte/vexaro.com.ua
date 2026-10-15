@@ -78,7 +78,7 @@ export function ProductGallery({ images, productName }: ProductGalleryProps) {
     <div className="flex flex-col gap-3.5">
       {/* Main Large Image Box */}
       <div
-        className="group relative aspect-square w-full overflow-hidden rounded-2xl border border-border bg-surface-raised select-none"
+        className="group relative aspect-square w-full overflow-hidden rounded-2xl border border-border bg-[#f6f6f6] select-none"
         onTouchStart={onTouchStart}
         onTouchEnd={onTouchEnd}
       >
@@ -95,7 +95,7 @@ export function ProductGallery({ images, productName }: ProductGalleryProps) {
 
         {/* Counter Badge */}
         {total > 1 && (
-          <div className="absolute top-3 left-3 z-10 rounded-lg bg-black/60 backdrop-blur-md px-2.5 py-1 text-xs font-mono font-bold text-white shadow-md pointer-events-none">
+          <div className="absolute top-3 left-3 z-10 rounded-lg bg-white/90 border border-zinc-200/80 backdrop-blur-md px-2.5 py-1 text-xs font-mono font-bold text-zinc-700 shadow-sm pointer-events-none">
             {activeIdx + 1} / {total}
           </div>
         )}
@@ -104,7 +104,7 @@ export function ProductGallery({ images, productName }: ProductGalleryProps) {
         <button
           type="button"
           onClick={() => setIsLightboxOpen(true)}
-          className="absolute top-3 right-3 z-10 flex h-9 w-9 items-center justify-center rounded-xl bg-black/60 text-white backdrop-blur-md hover:bg-black/80 hover:scale-105 active:scale-95 transition-all shadow-md"
+          className="absolute top-3 right-3 z-10 flex h-9 w-9 items-center justify-center rounded-xl bg-white/90 text-zinc-800 border border-zinc-200/80 backdrop-blur-md hover:bg-white hover:scale-105 active:scale-95 transition-all shadow-md"
           title="Відкрити фото на весь екран"
           aria-label="Збільшити фото"
         >
@@ -120,7 +120,7 @@ export function ProductGallery({ images, productName }: ProductGalleryProps) {
               handlePrev();
             }}
             aria-label="Попереднє фото"
-            className="absolute left-3 top-1/2 -translate-y-1/2 z-10 flex h-10 w-10 items-center justify-center rounded-full bg-black/60 text-white backdrop-blur-md hover:bg-black/90 hover:scale-110 active:scale-90 transition-all shadow-lg opacity-80 sm:opacity-0 sm:group-hover:opacity-100"
+            className="absolute left-3 top-1/2 -translate-y-1/2 z-10 flex h-10 w-10 items-center justify-center rounded-full bg-white/90 text-zinc-800 border border-zinc-200/80 backdrop-blur-md hover:bg-white hover:scale-110 active:scale-90 transition-all shadow-md opacity-80 sm:opacity-0 sm:group-hover:opacity-100"
           >
             <ChevronLeft className="h-5 w-5" />
           </button>
@@ -135,7 +135,7 @@ export function ProductGallery({ images, productName }: ProductGalleryProps) {
               handleNext();
             }}
             aria-label="Наступне фото"
-            className="absolute right-3 top-1/2 -translate-y-1/2 z-10 flex h-10 w-10 items-center justify-center rounded-full bg-black/60 text-white backdrop-blur-md hover:bg-black/90 hover:scale-110 active:scale-90 transition-all shadow-lg opacity-80 sm:opacity-0 sm:group-hover:opacity-100"
+            className="absolute right-3 top-1/2 -translate-y-1/2 z-10 flex h-10 w-10 items-center justify-center rounded-full bg-white/90 text-zinc-800 border border-zinc-200/80 backdrop-blur-md hover:bg-white hover:scale-110 active:scale-90 transition-all shadow-md opacity-80 sm:opacity-0 sm:group-hover:opacity-100"
           >
             <ChevronRight className="h-5 w-5" />
           </button>

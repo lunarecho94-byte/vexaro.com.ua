@@ -36,7 +36,7 @@ export function Header() {
   };
 
   return (
-    <header className="sticky top-0 z-40 w-full border-b border-border bg-background/95 backdrop-blur-md">
+    <header className="sticky top-0 z-40 w-full border-b border-border bg-surface/95 backdrop-blur-md">
       <div className="mx-auto flex h-14 sm:h-16 max-w-7xl items-center justify-between px-3 sm:px-6">
         {/* Brand / Logo */}
         <Link

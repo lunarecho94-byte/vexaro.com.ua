@@ -50,8 +50,8 @@ export function FavoriteButton({
         aria-label={active ? 'Видалити з обраного' : 'Додати в обране'}
         className={`flex h-12 items-center justify-center gap-2 rounded-xl border px-4 font-semibold text-xs transition-all active:scale-95 ${
           active
-            ? 'border-rose-500/40 bg-rose-500/10 text-rose-400 hover:bg-rose-500/20'
-            : 'border-border bg-surface text-muted hover:border-rose-500/30 hover:text-rose-400'
+            ? 'border-rose-500/40 bg-rose-50 text-rose-500 hover:bg-rose-100'
+            : 'border-border bg-surface text-muted hover:border-rose-500/30 hover:text-rose-500'
         } ${className}`}
       >
         <Heart
@@ -73,8 +73,8 @@ export function FavoriteButton({
       title={active ? 'Видалити з обраного' : 'Додати в обране'}
       className={`group/fav flex h-10 w-10 sm:h-11 sm:w-11 items-center justify-center rounded-full backdrop-blur-md transition-all active:scale-90 ${
         active
-          ? 'bg-rose-500/20 text-rose-400 border border-rose-500/40 shadow-[0_0_12px_rgba(244,63,94,0.35)]'
-          : 'bg-black/50 text-white/80 hover:bg-black/75 hover:text-rose-400 border border-white/10'
+          ? 'bg-rose-50 text-rose-500 border border-rose-200 shadow-sm'
+          : 'bg-white/90 text-zinc-600 hover:text-rose-500 hover:bg-white border border-zinc-200/80 shadow-xs'
       } ${className}`}
     >
       <Heart

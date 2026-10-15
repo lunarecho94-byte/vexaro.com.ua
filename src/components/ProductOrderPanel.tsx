@@ -65,7 +65,7 @@ export function ProductOrderPanel({ product }: ProductOrderPanelProps) {
                   onClick={() => setSelectedSize(size)}
                   className={`flex h-12 items-center justify-center rounded-xl border text-sm font-bold transition-all ${
                     isSelected
-                      ? 'border-primary bg-primary text-background ring-2 ring-primary/30'
+                      ? 'border-primary bg-primary text-white ring-2 ring-primary/30'
                       : 'border-border bg-surface text-foreground hover:border-primary/50'
                   }`}
                   aria-label={`Розмір ${size}`}
@@ -84,7 +84,7 @@ export function ProductOrderPanel({ product }: ProductOrderPanelProps) {
           type="button"
           onClick={handleAddToCart}
           disabled={!product.inStock}
-          className="flex h-14 sm:h-16 w-full items-center justify-center gap-3 rounded-2xl bg-primary text-base sm:text-lg font-black uppercase tracking-wider text-background shadow-lg shadow-primary/25 hover:bg-primary-hover hover:shadow-primary/40 active:scale-[0.99] disabled:opacity-40 transition-all"
+          className="flex h-14 sm:h-16 w-full items-center justify-center gap-3 rounded-2xl bg-primary text-base sm:text-lg font-black uppercase tracking-wider text-white shadow-lg shadow-primary/25 hover:bg-primary-hover hover:shadow-primary/40 active:scale-[0.99] disabled:opacity-40 transition-all"
         >
           {addedAnimation ? (
             <>
@@ -115,7 +115,7 @@ export function ProductOrderPanel({ product }: ProductOrderPanelProps) {
       </div>
 
       {/* Mobile Sticky Bottom Bar (appears on small screens) */}
-      <div className="fixed bottom-0 left-0 right-0 z-40 border-t border-border bg-surface/95 px-3.5 py-3 backdrop-blur-xl sm:hidden pb-[max(0.75rem,env(safe-area-inset-bottom))] shadow-[0_-8px_25px_rgba(0,0,0,0.5)]">
+      <div className="fixed bottom-0 left-0 right-0 z-40 border-t border-border bg-surface/95 px-3.5 py-3 backdrop-blur-xl sm:hidden pb-[max(0.75rem,env(safe-area-inset-bottom))] shadow-[0_-8px_25px_rgba(0,0,0,0.08)]">
         <div className="flex items-center justify-between gap-3 max-w-md mx-auto">
           <div className="shrink-0">
             <div className="flex items-center gap-1.5">
@@ -138,7 +138,7 @@ export function ProductOrderPanel({ product }: ProductOrderPanelProps) {
               type="button"
               onClick={handleAddToCart}
               disabled={!product.inStock}
-              className="flex-1 min-w-0 h-14 rounded-2xl bg-primary text-sm sm:text-base font-black uppercase tracking-wider text-background shadow-lg shadow-primary/30 hover:bg-primary-hover active:scale-[0.98] flex items-center justify-center gap-2 px-3 transition-all"
+              className="flex-1 min-w-0 h-14 rounded-2xl bg-primary text-sm sm:text-base font-black uppercase tracking-wider text-white shadow-lg shadow-primary/30 hover:bg-primary-hover active:scale-[0.98] flex items-center justify-center gap-2 px-3 transition-all"
             >
               {addedAnimation ? (
                 <>
