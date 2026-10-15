@@ -111,12 +111,10 @@ export function VexaroLogo({
 
       {/* Brand text & tagline with shimmer effect */}
       <div className="relative flex flex-col justify-center overflow-hidden min-w-0">
-        <div className="relative flex items-center gap-1 sm:gap-1.5">
+        <div className="relative flex items-center">
           <span className="text-[15px] sm:text-xl md:text-2xl font-black tracking-[0.12em] sm:tracking-[0.18em] text-foreground transition-all duration-300 group-hover:text-lime-400 whitespace-nowrap">
             VEXARO
           </span>
-          {/* Subtle neon dot indicator */}
-          <span className="h-1.5 w-1.5 rounded-full bg-lime-400 shadow-[0_0_6px_#a3e635] animate-pulse shrink-0" />
         </div>
 
         <span className="hidden sm:inline-block text-[8.5px] sm:text-[9.5px] font-semibold tracking-[0.22em] text-muted uppercase transition-colors group-hover:text-foreground/90 whitespace-nowrap">
