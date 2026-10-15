@@ -139,6 +139,11 @@ export function ProductCard({ product, priority = false }: ProductCardProps) {
 
           {/* Badges */}
           <div className="absolute top-2 left-2 flex flex-col gap-1 z-10 pointer-events-none">
+            {Number(product.id) >= 254800 && (
+              <span className="rounded bg-primary px-2 py-0.5 text-[10px] font-extrabold text-background uppercase shadow-sm tracking-wide">
+                Новинка
+              </span>
+            )}
             {product.oldPrice && product.oldPrice > product.price && (
               <span className="rounded bg-rose-500/90 px-2 py-0.5 text-[11px] font-bold text-white uppercase shadow-sm">
                 -{Math.round(((product.oldPrice - product.price) / product.oldPrice) * 100)}%

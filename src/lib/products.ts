@@ -122,21 +122,14 @@ export async function getProducts(params: CatalogQueryParams = {}): Promise<Cata
     );
   }
 
-  // Sorting: default to newest arrivals with Nike Air Max Plus SE Frank Rudy #1, followed by Air Max Plus
+  // Sorting: default to newest arrivals (newest items first)
   if (params.sort === 'price_asc') {
     filtered = [...filtered].sort((a, b) => a.price - b.price);
   } else if (params.sort === 'price_desc') {
     filtered = [...filtered].sort((a, b) => b.price - a.price);
   } else {
-    // 'newest' or default/popular -> Frank Rudy #1, Air Max Plus next, then latest drops
-    filtered = [...filtered].sort((a, b) => {
-      const isPriorityA = getProductPriority(a);
-      const isPriorityB = getProductPriority(b);
-      if (isPriorityA !== isPriorityB) {
-        return isPriorityB - isPriorityA;
-      }
-      return (Number(b.id) || 0) - (Number(a.id) || 0);
-    });
+    // 'newest' (default) or 'popular' -> newest drops first by ID descending
+    filtered = [...filtered].sort((a, b) => (Number(b.id) || 0) - (Number(a.id) || 0));
   }
 
   const total = filtered.length;
