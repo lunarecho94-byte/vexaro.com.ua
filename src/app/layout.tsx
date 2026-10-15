@@ -7,6 +7,7 @@ import { CartDrawer } from '@/components/CartDrawer';
 import { FavoritesDrawer } from '@/components/FavoritesDrawer';
 import { MetaPixel } from '@/components/MetaPixel';
 import { ScrollRestorer } from '@/components/ScrollRestorer';
+import { ScrollToTop } from '@/components/ScrollToTop';
 
 import { SITE_URL, SITE_NAME } from '@/lib/config';
 
@@ -72,6 +73,9 @@ export default function RootLayout({
         <CartDrawer />
         <FavoritesDrawer />
         <Footer />
+        <Suspense fallback={null}>
+          <ScrollToTop />
+        </Suspense>
       </body>
     </html>
   );
