@@ -5,7 +5,9 @@ import path from 'path';
 import { SITE_URL } from '@/lib/config';
 
 const orderSchema = z.object({
-  customerName: z.string().min(2, 'Вкажіть ваше імʼя'),
+  customerName: z.string().min(2, 'Вкажіть ваше імʼя та прізвище'),
+  firstName: z.string().optional(),
+  lastName: z.string().optional(),
   phone: z.string().min(10, 'Вкажіть дійсний номер телефону'),
   city: z.string().min(2, 'Вкажіть місто доставки'),
   warehouse: z.string().min(1, 'Вкажіть відділення або поштомат Нової Пошти'),

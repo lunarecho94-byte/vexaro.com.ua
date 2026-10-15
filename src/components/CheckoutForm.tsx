@@ -13,7 +13,8 @@ export function CheckoutForm() {
   const [mounted, setMounted] = useState(false);
   const { items, getTotalAmount, clearCart } = useCartStore();
 
-  const [customerName, setCustomerName] = useState('');
+  const [firstName, setFirstName] = useState('');
+  const [lastName, setLastName] = useState('');
   const [phone, setPhone] = useState('');
   const [city, setCity] = useState('');
   const [warehouse, setWarehouse] = useState('');
@@ -63,8 +64,13 @@ export function CheckoutForm() {
     e.preventDefault();
     setErrorMsg('');
 
-    if (!customerName.trim() || customerName.trim().length < 2) {
-      setErrorMsg('Будь ласка, вкажіть ваше імʼя та прізвище');
+    if (!lastName.trim() || lastName.trim().length < 2) {
+      setErrorMsg('Будь ласка, вкажіть ваше прізвище');
+      return;
+    }
+
+    if (!firstName.trim() || firstName.trim().length < 2) {
+      setErrorMsg('Будь ласка, вкажіть ваше імʼя');
       return;
     }
 
@@ -92,8 +98,11 @@ export function CheckoutForm() {
     setIsSubmitting(true);
 
     try {
+      const fullName = `${lastName.trim()} ${firstName.trim()}`;
       const payload = {
-        customerName: customerName.trim(),
+        customerName: fullName,
+        firstName: firstName.trim(),
+        lastName: lastName.trim(),
         phone: phone.trim(),
         city: city.trim(),
         warehouse: warehouse.trim(),
@@ -189,14 +198,30 @@ export function CheckoutForm() {
           <div className="space-y-4">
             <div>
               <label className="text-xs font-semibold text-muted block mb-1.5">
-                Імʼя та прізвище <span className="text-rose-500">*</span>
+                Прізвище <span className="text-rose-500">*</span>
               </label>
               <input
                 type="text"
                 required
-                value={customerName}
-                onChange={(e) => setCustomerName(e.target.value)}
-                placeholder="Іван Петренко"
+                value={lastName}
+                onChange={(e) => setLastName(e.target.value)}
+                placeholder="Петренко"
+                autoComplete="family-name"
+                className="w-full h-11 rounded-lg border border-border bg-background px-3.5 text-sm text-foreground placeholder:text-muted focus:border-primary focus:outline-none"
+              />
+            </div>
+
+            <div>
+              <label className="text-xs font-semibold text-muted block mb-1.5">
+                Імʼя <span className="text-rose-500">*</span>
+              </label>
+              <input
+                type="text"
+                required
+                value={firstName}
+                onChange={(e) => setFirstName(e.target.value)}
+                placeholder="Іван"
+                autoComplete="given-name"
                 className="w-full h-11 rounded-lg border border-border bg-background px-3.5 text-sm text-foreground placeholder:text-muted focus:border-primary focus:outline-none"
               />
             </div>
