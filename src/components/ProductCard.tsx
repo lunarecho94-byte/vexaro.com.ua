@@ -4,7 +4,6 @@ import React, { useState, useRef } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { Product } from '@/types/product';
-import { useCartStore } from '@/lib/cart-store';
 import { FavoriteButton } from '@/components/FavoriteButton';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
@@ -14,7 +13,6 @@ interface ProductCardProps {
 }
 
 export function ProductCard({ product, priority = false }: ProductCardProps) {
-  const addItem = useCartStore((state) => state.addItem);
   const [imageIndex, setImageIndex] = useState(0);
   const [hasError, setHasError] = useState(false);
 
@@ -78,14 +76,6 @@ export function ProductCard({ product, priority = false }: ProductCardProps) {
     setTimeout(() => {
       isSwipingRef.current = false;
     }, 100);
-  };
-
-  const handleQuickAdd = (e: React.MouseEvent) => {
-    e.preventDefault();
-    e.stopPropagation();
-    // Default to the first available size if available
-    const chosenSize = product.sizes[0] || 'Універсальний';
-    addItem(product, chosenSize);
   };
 
   const handleCardClick = (e: React.MouseEvent) => {
@@ -253,18 +243,6 @@ export function ProductCard({ product, priority = false }: ProductCardProps) {
           </div>
         </div>
       </Link>
-
-      {/* Action Button */}
-      <div className="p-3.5 pt-0">
-        <button
-          type="button"
-          onClick={handleQuickAdd}
-          disabled={!product.inStock}
-          className="w-full h-12 rounded-xl bg-surface-raised border border-border text-xs sm:text-sm font-extrabold uppercase tracking-wider text-foreground hover:bg-primary hover:text-white hover:border-primary disabled:opacity-40 disabled:hover:bg-surface-raised disabled:hover:text-foreground transition-all flex items-center justify-center gap-1.5 active:scale-[0.98]"
-        >
-          {product.inStock ? 'В кошик' : 'Немає в наявності'}
-        </button>
-      </div>
     </article>
   );
 }
