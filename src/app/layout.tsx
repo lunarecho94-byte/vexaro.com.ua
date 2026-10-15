@@ -6,6 +6,7 @@ import { Footer } from '@/components/Footer';
 import { CartDrawer } from '@/components/CartDrawer';
 import { FavoritesDrawer } from '@/components/FavoritesDrawer';
 import { MetaPixel } from '@/components/MetaPixel';
+import { ScrollRestorer } from '@/components/ScrollRestorer';
 
 import { SITE_URL, SITE_NAME } from '@/lib/config';
 
@@ -52,6 +53,10 @@ export default function RootLayout({
         <link rel="dns-prefetch" href="https://easydrop.one" />
       </head>
       <body className="min-h-screen flex flex-col bg-background text-foreground antialiased">
+        <Suspense fallback={null}>
+          <ScrollRestorer />
+        </Suspense>
+
         <Suspense fallback={null}>
           <MetaPixel />
         </Suspense>

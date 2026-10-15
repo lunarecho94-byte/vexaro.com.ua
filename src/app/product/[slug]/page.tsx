@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { getProductBySlug } from '@/lib/products';
 import { ProductGallery } from '@/components/ProductGallery';
 import { ProductOrderPanel } from '@/components/ProductOrderPanel';
+import { ProductBreadcrumbs } from '@/components/ProductBreadcrumbs';
 import { Truck, ShieldCheck, RefreshCw, ChevronRight } from 'lucide-react';
 import { SITE_URL, SITE_NAME } from '@/lib/config';
 
@@ -131,20 +132,12 @@ export default async function ProductPage({ params }: ProductPageProps) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaBreadcrumbs) }}
       />
 
-      {/* Breadcrumb Navigation */}
-      <nav className="mb-6 flex items-center gap-1.5 text-xs text-muted overflow-x-auto whitespace-nowrap">
-        <Link href="/" className="hover:text-foreground">
-          Головна
-        </Link>
-        <ChevronRight className="h-3 w-3 shrink-0" />
-        <Link href={`/category/${product.categorySlug}`} className="hover:text-foreground">
-          {product.category}
-        </Link>
-        <ChevronRight className="h-3 w-3 shrink-0" />
-        <span className="text-foreground font-medium truncate max-w-[200px] sm:max-w-md">
-          {product.name}
-        </span>
-      </nav>
+      {/* Breadcrumb Navigation & Back Button */}
+      <ProductBreadcrumbs
+        category={product.category}
+        categorySlug={product.categorySlug}
+        productName={product.name}
+      />
 
       {/* Main Product Layout */}
       <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-12">

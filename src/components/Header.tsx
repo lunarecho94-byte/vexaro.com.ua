@@ -39,7 +39,20 @@ export function Header() {
     <header className="sticky top-0 z-40 w-full border-b border-border bg-background/95 backdrop-blur-md">
       <div className="mx-auto flex h-14 sm:h-16 max-w-7xl items-center justify-between px-3 sm:px-6">
         {/* Brand / Logo */}
-        <Link href="/" aria-label="Головна сторінка VEXARO" className="shrink-0 min-w-0">
+        <Link
+          href="/"
+          aria-label="Головна сторінка VEXARO"
+          onClick={() => {
+            if (typeof window !== 'undefined') {
+              sessionStorage.removeItem('vexaro_restore_scroll');
+              sessionStorage.removeItem('vexaro_last_scroll_y');
+              sessionStorage.removeItem('vexaro_last_product_slug');
+              sessionStorage.removeItem('vexaro_from_product');
+              sessionStorage.removeItem('vexaro_scroll_/');
+            }
+          }}
+          className="shrink-0 min-w-0"
+        >
           <VexaroLogo variant="header" animated={true} />
         </Link>
 

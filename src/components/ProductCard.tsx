@@ -28,9 +28,28 @@ export function ProductCard({ product, priority = false }: ProductCardProps) {
     addItem(product, chosenSize);
   };
 
+  const handleCardClick = () => {
+    if (typeof window !== 'undefined') {
+      const currentUrl = window.location.pathname + window.location.search;
+      sessionStorage.setItem('vexaro_last_catalog_url', currentUrl);
+      sessionStorage.setItem(`vexaro_scroll_${currentUrl}`, window.scrollY.toString());
+      sessionStorage.setItem('vexaro_last_scroll_y', window.scrollY.toString());
+      sessionStorage.setItem('vexaro_last_product_slug', product.slug);
+      sessionStorage.setItem('vexaro_from_product', '1');
+      sessionStorage.setItem('vexaro_restore_scroll', 'true');
+    }
+  };
+
   return (
-    <article className="group relative flex flex-col justify-between overflow-hidden rounded-xl border border-border bg-surface hover:border-primary/50 transition-colors">
-      <Link href={`/product/${product.slug}`} className="flex flex-col flex-1">
+    <article
+      id={`product-${product.slug}`}
+      className="group relative flex flex-col justify-between overflow-hidden rounded-xl border border-border bg-surface hover:border-primary/50 transition-colors"
+    >
+      <Link
+        href={`/product/${product.slug}`}
+        onClick={handleCardClick}
+        className="flex flex-col flex-1"
+      >
         {/* Image Area */}
         <div className="relative aspect-square w-full overflow-hidden bg-surface-raised">
           <Image
