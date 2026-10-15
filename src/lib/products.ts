@@ -89,19 +89,38 @@ export async function getProducts(params: CatalogQueryParams = {}): Promise<Cata
   }
 
   if (params.brand && params.brand !== 'all') {
-    filtered = filtered.filter((p) => p.brandSlug === params.brand);
+    const brands = params.brand.split(',').map((b) => b.trim().toLowerCase()).filter(Boolean);
+    if (brands.length > 0) {
+      filtered = filtered.filter((p) => brands.includes(p.brandSlug.toLowerCase()));
+    }
   }
 
   if (params.gender && params.gender !== 'all') {
-    filtered = filtered.filter((p) => p.gender === params.gender);
+    const genders = params.gender.split(',').map((g) => g.trim().toLowerCase()).filter(Boolean);
+    if (genders.length > 0) {
+      filtered = filtered.filter((p) => {
+        if (genders.includes('men') && (p.gender === 'men' || p.gender === 'unisex')) return true;
+        if (genders.includes('women') && (p.gender === 'women' || p.gender === 'unisex')) return true;
+        if (genders.includes('unisex') && p.gender === 'unisex') return true;
+        return genders.includes(p.gender.toLowerCase());
+      });
+    }
   }
 
   if (params.season && params.season !== 'all') {
-    filtered = filtered.filter((p) => p.season === params.season);
+    const seasons = params.season.split(',').map((s) => s.trim().toLowerCase()).filter(Boolean);
+    if (seasons.length > 0) {
+      filtered = filtered.filter((p) => seasons.includes(p.season.toLowerCase()));
+    }
   }
 
-  if (params.size) {
-    filtered = filtered.filter((p) => p.sizes.includes(params.size!));
+  if (params.size && params.size !== 'all') {
+    const sizes = params.size.split(',').map((s) => s.trim().toLowerCase()).filter(Boolean);
+    if (sizes.length > 0) {
+      filtered = filtered.filter((p) =>
+        p.sizes.some((sz) => sizes.includes(sz.trim().toLowerCase()))
+      );
+    }
   }
 
   if (params.minPrice !== undefined && !isNaN(params.minPrice)) {

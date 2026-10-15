@@ -18,6 +18,8 @@ interface CategoryPageProps {
     gender?: string;
     season?: string;
     size?: string;
+    minPrice?: string;
+    maxPrice?: string;
     sort?: 'popular' | 'price_asc' | 'price_desc' | 'newest';
     search?: string;
   };
@@ -89,6 +91,8 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
     gender: searchParams.gender,
     season: searchParams.season,
     size: searchParams.size,
+    minPrice: searchParams.minPrice ? Number(searchParams.minPrice) : undefined,
+    maxPrice: searchParams.maxPrice ? Number(searchParams.maxPrice) : undefined,
     sort: searchParams.sort || 'newest',
     search: searchParams.search,
   };
