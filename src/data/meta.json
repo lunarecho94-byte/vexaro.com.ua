@@ -1,15 +1,15 @@
 {
-  "total": 5742,
+  "total": 5750,
   "brands": [
     {
       "name": "Nike",
       "slug": "nike",
-      "count": 2066
+      "count": 2068
     },
     {
       "name": "New Balance",
       "slug": "newbalance",
-      "count": 1333
+      "count": 1337
     },
     {
       "name": "Adidas",
@@ -39,16 +39,16 @@
     {
       "name": "Air Jordan",
       "slug": "jordan",
-      "count": 118
-    },
-    {
-      "name": "Balenciaga",
-      "slug": "balenciaga",
-      "count": 88
+      "count": 119
     },
     {
       "name": "On Cloud",
       "slug": "oncloud",
+      "count": 89
+    },
+    {
+      "name": "Balenciaga",
+      "slug": "balenciaga",
       "count": 88
     },
     {
@@ -206,14 +206,14 @@
     {
       "name": "Взуття",
       "slug": "shoes",
-      "count": 5742
+      "count": 5750
     }
   ],
   "genders": [
     {
       "name": "Унісекс",
       "slug": "unisex",
-      "count": 2970
+      "count": 2977
     },
     {
       "name": "Жіночі",
@@ -223,14 +223,14 @@
     {
       "name": "Чоловічі",
       "slug": "men",
-      "count": 1304
+      "count": 1305
     }
   ],
   "seasons": [
     {
       "name": "Демісезон",
       "slug": "demi",
-      "count": 5224
+      "count": 5232
     },
     {
       "name": "Зима",
@@ -259,14 +259,14 @@
     "48",
     "49",
     "50",
-    "42 2/3",
-    "45/46",
+    "XL",
+    "L",
     "40 2/3",
+    "45/46",
+    "42 2/3",
     "S",
     "M",
-    "XL",
-    "40–41",
-    "L"
+    "40–41"
   ],
   "minPrice": 480,
   "maxPrice": 13333
