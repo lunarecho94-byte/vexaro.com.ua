@@ -1,30 +1,30 @@
 {
-  "total": 5742,
+  "total": 5735,
   "brands": [
     {
       "name": "Nike",
       "slug": "nike",
-      "count": 2066
+      "count": 2062
     },
     {
       "name": "New Balance",
       "slug": "newbalance",
-      "count": 1333
+      "count": 1330
     },
     {
       "name": "Adidas",
       "slug": "adidas",
-      "count": 507
+      "count": 510
     },
     {
       "name": "Asics",
       "slug": "asics",
-      "count": 418
+      "count": 416
     },
     {
       "name": "UGG",
       "slug": "ugg",
-      "count": 320
+      "count": 321
     },
     {
       "name": "Інші бренди",
@@ -52,13 +52,13 @@
       "count": 88
     },
     {
-      "name": "Premiata",
-      "slug": "premiata",
-      "count": 56
-    },
-    {
       "name": "Off-White",
       "slug": "offwhite",
+      "count": 55
+    },
+    {
+      "name": "Premiata",
+      "slug": "premiata",
       "count": 55
     },
     {
@@ -77,14 +77,14 @@
       "count": 38
     },
     {
-      "name": "Vans",
-      "slug": "vans",
-      "count": 27
-    },
-    {
       "name": "The North Face",
       "slug": "tnf",
       "count": 27
+    },
+    {
+      "name": "Vans",
+      "slug": "vans",
+      "count": 26
     },
     {
       "name": "Alo Yoga",
@@ -206,36 +206,36 @@
     {
       "name": "Взуття",
       "slug": "shoes",
-      "count": 5742
+      "count": 5735
     }
   ],
   "genders": [
     {
       "name": "Унісекс",
       "slug": "unisex",
-      "count": 2970
+      "count": 2968
     },
     {
       "name": "Жіночі",
       "slug": "women",
-      "count": 1468
+      "count": 1466
     },
     {
       "name": "Чоловічі",
       "slug": "men",
-      "count": 1304
+      "count": 1301
     }
   ],
   "seasons": [
     {
       "name": "Демісезон",
       "slug": "demi",
-      "count": 5224
+      "count": 5216
     },
     {
       "name": "Зима",
       "slug": "winter",
-      "count": 518
+      "count": 519
     }
   ],
   "sizes": [
@@ -259,14 +259,14 @@
     "48",
     "49",
     "50",
-    "L",
-    "40 2/3",
-    "M",
-    "XL",
-    "45/46",
-    "S",
     "40–41",
-    "42 2/3"
+    "42 2/3",
+    "L",
+    "S",
+    "XL",
+    "40 2/3",
+    "45/46",
+    "M"
   ],
   "minPrice": 480,
   "maxPrice": 13333
