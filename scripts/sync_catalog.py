@@ -248,8 +248,8 @@ CURATED_PRODUCTS = [
         'genderName': 'Чоловічі',
         'season': 'demi',
         'seasonName': 'Демісезон',
-        'price': 2490,
-        'oldPrice': 2950,
+        'price': 2590,
+        'oldPrice': 3056,
         'costPrice': 2000,
         'sku': 'А5689',
         'material': 'Шкіра, текстиль',
@@ -274,7 +274,7 @@ CURATED_PRODUCTS = [
         ),
         'seo': {
             'title': 'Nike Air Max Plus Tn Black Teal Yellow (арт. А5689) — купити в інтернет-магазині VEXARO',
-            'description': 'Замовляйте Nike Air Max Plus Tn Black Teal Yellow (арт. А5689) за 2490 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж).'
+            'description': 'Замовляйте Nike Air Max Plus Tn Black Teal Yellow (арт. А5689) за 2590 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж).'
         }
     },
     {
@@ -289,8 +289,8 @@ CURATED_PRODUCTS = [
         'genderName': 'Чоловічі',
         'season': 'demi',
         'seasonName': 'Демісезон',
-        'price': 2490,
-        'oldPrice': 2950,
+        'price': 2540,
+        'oldPrice': 2997,
         'costPrice': 1950,
         'sku': '2002',
         'material': 'Текстиль, шкіра, 3M рефлектив',
@@ -317,7 +317,7 @@ CURATED_PRODUCTS = [
         ),
         'seo': {
             'title': 'Nike Air Max Plus TN Lace Toggle White Black (арт. 2002) — купити в інтернет-магазині VEXARO',
-            'description': 'Замовляйте кросівки Nike Air Max Plus TN Lace Toggle White Black (арт. 2002 / FD0799-001) за 2490 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж).'
+            'description': 'Замовляйте кросівки Nike Air Max Plus TN Lace Toggle White Black (арт. 2002 / FD0799-001) за 2540 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж).'
         }
     }
 ]
@@ -736,8 +736,8 @@ def main():
 
         gender_slug, gender_title = determine_gender(clean_name, brand_slug, sorted_sizes)
 
-        # Pricing markup: flat +20% markup, whole hryvnias without kopecks
-        price = int(round(raw_price * 1.20 + 0.0001))
+        # Pricing markup: flat 590 UAH markup on all products per store owner request
+        price = int(raw_price + 590)
 
         # Old crossed-out price (+18% pre-discount badge, whole hryvnias)
         old_price = int(round(price * 1.18))
@@ -863,21 +863,9 @@ def main():
         'maxPrice': int(max_price)
     }
 
-    # Sort: Frank Rudy #1, Nike Air Max Plus Tn Black Teal Yellow #2, Nike Air Max Plus TN Lace Toggle #3, then Nike Air Max Plus / TN, then newest arrivals
+    # Sort: newest arrivals first by product ID descending
     def sort_key(p):
-        name = p.get('name', '').lower()
-        is_priority = 0
-        if 'frank rudy' in name or str(p.get('id', '')) == '122263':
-            is_priority = 4
-        elif 'black teal yellow' in name or str(p.get('id', '')) == '254776':
-            is_priority = 3
-        elif 'lace toggle' in name or str(p.get('id', '')) in ('146368', '254777'):
-            is_priority = 2
-        elif 'nike' in name and 'surplus' not in name and 'homme plus' not in name:
-            if 'air max plus' in name or 'air max tn' in name or ('air max' in name and 'plus' in name):
-                is_priority = 1
-        prod_id = int(p['id']) if str(p.get('id', '')).isdigit() else 0
-        return (is_priority, prod_id)
+        return int(p['id']) if str(p.get('id', '')).isdigit() else 0
 
     products.sort(key=sort_key, reverse=True)
 
