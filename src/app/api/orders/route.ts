@@ -10,6 +10,7 @@ const orderSchema = z.object({
   city: z.string().min(2, 'Вкажіть місто доставки'),
   warehouse: z.string().min(1, 'Вкажіть відділення або поштомат Нової Пошти'),
   comment: z.string().optional(),
+  dontCall: z.boolean().optional(),
   items: z.array(
     z.object({
       id: z.string(),
@@ -75,6 +76,9 @@ async function sendTelegramNotification(order: any) {
     `👤 <b>Клієнт:</b> ${esc(order.customerName)}\n` +
     `📞 <b>Телефон:</b> <a href="${phoneCallLink}">${esc(order.phone)}</a>\n` +
     `💬 <b>Швидкий зв'язок:</b> <a href="${tgLink}">Telegram</a> • <a href="${viberLink}">Viber</a>\n` +
+    (order.dontCall
+      ? `🔕 <b>Дзвінок:</b> <b>НЕ ТЕЛЕФОНУВАТИ</b> (відправляти без підтвердження)\n`
+      : `🔔 <b>Дзвінок:</b> Потрібен дзвінок для підтвердження\n`) +
     `📍 <b>Місто:</b> ${esc(order.city)}\n` +
     `📦 <b>Нова Пошта:</b> ${esc(order.warehouse)}\n` +
     (order.comment ? `💬 <b>Коментар:</b> <i>${esc(order.comment)}</i>\n` : '') +

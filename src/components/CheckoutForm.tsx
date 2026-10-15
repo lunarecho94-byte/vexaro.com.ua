@@ -18,6 +18,7 @@ export function CheckoutForm() {
   const [city, setCity] = useState('');
   const [warehouse, setWarehouse] = useState('');
   const [comment, setComment] = useState('');
+  const [dontCall, setDontCall] = useState(false);
 
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [errorMsg, setErrorMsg] = useState('');
@@ -97,6 +98,7 @@ export function CheckoutForm() {
         city: city.trim(),
         warehouse: warehouse.trim(),
         comment: comment.trim() || undefined,
+        dontCall,
         items: items.map((i) => ({
           id: i.product.id,
           name: i.product.name,
@@ -133,6 +135,7 @@ export function CheckoutForm() {
             warehouse: payload.warehouse,
             customerName: payload.customerName,
             phone: payload.phone,
+            dontCall: payload.dontCall,
           })
         );
       }
@@ -212,6 +215,24 @@ export function CheckoutForm() {
                 className="w-full h-11 rounded-lg border border-border bg-background px-3.5 text-sm font-mono text-foreground placeholder:text-muted focus:border-primary focus:outline-none"
               />
             </div>
+
+            {/* Option: Можна мені не телефонувати */}
+            <label className="flex items-start gap-3 rounded-xl border border-border bg-background/50 p-3.5 hover:border-primary/50 hover:bg-surface-raised cursor-pointer transition-all select-none group mt-2">
+              <input
+                type="checkbox"
+                checked={dontCall}
+                onChange={(e) => setDontCall(e.target.checked)}
+                className="mt-0.5 h-4 w-4 rounded border-border text-primary focus:ring-0 accent-primary cursor-pointer shrink-0"
+              />
+              <div className="flex flex-col">
+                <span className="text-sm font-bold text-foreground leading-snug group-hover:text-primary transition-colors">
+                  Можна мені не телефонувати
+                </span>
+                <span className="text-xs text-muted mt-0.5 leading-normal">
+                  Дані вірні — відправляйте без дзвінка-підтвердження
+                </span>
+              </div>
+            </label>
           </div>
         </div>
 

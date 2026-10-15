@@ -78,7 +78,9 @@ export function ThankYouClient() {
           Дякуємо! Ваше замовлення прийнято
         </h1>
         <p className="mt-2 text-xs text-muted max-w-md mx-auto leading-relaxed">
-          Наш менеджер звʼяжеться з вами для підтвердження деталей відправки. Номер ТТН Нової Пошти буде надіслано в повідомленні після оформлення.
+          {orderData?.dontCall
+            ? 'Ви обрали відправку без дзвінка. Ми вже формуємо та пакуємо ваше замовлення! Номер ТТН Нової Пошти буде надіслано в повідомленні після відправки.'
+            : 'Наш менеджер звʼяжеться з вами для підтвердження деталей відправки. Номер ТТН Нової Пошти буде надіслано в повідомленні після оформлення.'}
         </p>
       </div>
 
@@ -107,6 +109,12 @@ export function ThankYouClient() {
               <span>Відділення:</span>{' '}
               <strong className="text-foreground">{orderData.warehouse}</strong>
             </div>
+            {orderData.dontCall && (
+              <div className="sm:col-span-2 text-emerald-400">
+                <span>Дзвінок менеджера:</span>{' '}
+                <strong>Не телефонувати (відправка без підтвердження)</strong>
+              </div>
+            )}
           </div>
 
           {orderData.items && orderData.items.length > 0 && (
