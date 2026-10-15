@@ -127,18 +127,14 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
     });
   };
 
-  // Instant toggle for top quick bar
-  const toggleQuickFilter = (
+  // Remove single active filter chip
+  const removeActiveFilter = (
     key: 'category' | 'gender' | 'brand' | 'season' | 'size',
     value: string,
     currentList: string[]
   ) => {
     const lower = value.toLowerCase();
-    const isSelected = currentList.includes(lower);
-    const nextList = isSelected
-      ? currentList.filter((item) => item !== lower)
-      : [...currentList, lower];
-
+    const nextList = currentList.filter((item) => item !== lower);
     commitFilters({
       [key]: nextList.length > 0 ? nextList.join(',') : null,
     });
@@ -193,104 +189,42 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
 
   return (
     <div className="sticky top-14 sm:top-16 z-30 mb-6 -mx-4 px-4 sm:-mx-6 sm:px-6 bg-background/95 backdrop-blur-md py-2.5 sm:py-3 border-b border-border shadow-xs transition-all">
-      {/* Top Filter Bar */}
-      <div className="flex flex-col gap-2.5 sm:flex-row sm:items-center sm:justify-between">
-        {/* Left Side: Filter Trigger & Clean Quick Category / Gender Pills */}
-        <div className="flex items-center gap-2 overflow-x-auto pb-1 sm:pb-0 scrollbar-none min-w-0 flex-1">
-          {/* Main "Filters" Button with Active Counter Badge */}
+      {/* Clean Top Bar: Only Filter Button & Sorting */}
+      <div className="flex items-center justify-between gap-3">
+        {/* Left Side: Filter Trigger Button & Count */}
+        <div className="flex items-center gap-3">
           <button
             type="button"
             onClick={openDrawer}
-            className={`flex h-9 shrink-0 items-center gap-2 rounded-xl border px-3.5 text-xs font-bold transition-all active:scale-95 ${
+            className={`flex h-10 items-center gap-2.5 rounded-xl border px-4 text-xs font-bold transition-all active:scale-95 ${
               activeCount > 0
-                ? 'border-primary bg-primary text-white shadow-sm shadow-primary/25 hover:bg-primary-hover'
-                : 'border-border bg-surface text-foreground hover:border-primary/50 hover:bg-surface-raised'
+                ? 'border-primary bg-primary text-white shadow-md shadow-primary/25 hover:bg-primary-hover'
+                : 'border-border bg-surface text-foreground shadow-xs hover:border-primary/60 hover:bg-surface-raised'
             }`}
             aria-label="Відкрити фільтри"
           >
             <SlidersHorizontal className="h-4 w-4" />
             <span>Фільтри</span>
             {activeCount > 0 && (
-              <span className="flex h-5 min-w-5 items-center justify-center rounded-full bg-white px-1 text-[10px] font-black text-primary">
+              <span className="flex h-5 min-w-5 items-center justify-center rounded-full bg-white px-1.5 text-[11px] font-black text-primary">
                 {activeCount}
               </span>
             )}
           </button>
 
-          <div className="h-5 w-px bg-border shrink-0" />
-
-          {/* All */}
-          <button
-            type="button"
-            onClick={() => {
-              commitFilters({
-                category: null,
-                gender: null,
-                brand: null,
-                season: null,
-                size: null,
-                minPrice: null,
-                maxPrice: null,
-              });
-            }}
-            className={`h-9 shrink-0 rounded-xl px-3 text-xs font-semibold whitespace-nowrap transition-colors ${
-              activeCount === 0
-                ? 'bg-primary text-white'
-                : 'bg-surface text-muted hover:text-foreground border border-border'
-            }`}
-          >
-            Всі
-          </button>
-
-          {/* Quick Categories & Gender */}
-          {meta.categories.map((c) => {
-            const isSelected = selectedCategories.includes(c.slug.toLowerCase());
-            return (
-              <button
-                key={c.slug}
-                type="button"
-                onClick={() => toggleQuickFilter('category', c.slug, selectedCategories)}
-                className={`h-9 shrink-0 rounded-xl px-3 text-xs font-semibold whitespace-nowrap transition-colors ${
-                  isSelected
-                    ? 'bg-primary text-white'
-                    : 'bg-surface text-muted hover:text-foreground border border-border'
-                }`}
-              >
-                {c.name}
-              </button>
-            );
-          })}
-
-          <div className="h-5 w-px bg-border shrink-0" />
-
-          {/* Quick Popular Brands */}
-          {topBrands.slice(0, 4).map((b) => {
-            const isSelected = selectedBrands.includes(b.slug.toLowerCase());
-            return (
-              <button
-                key={b.slug}
-                type="button"
-                onClick={() => toggleQuickFilter('brand', b.slug, selectedBrands)}
-                className={`h-9 shrink-0 rounded-xl px-3 text-xs font-semibold whitespace-nowrap transition-colors ${
-                  isSelected
-                    ? 'bg-primary text-white'
-                    : 'bg-surface text-muted hover:text-foreground border border-border'
-                }`}
-              >
-                {b.name}
-              </button>
-            );
-          })}
+          <span className="text-xs text-muted font-medium hidden sm:inline-block">
+            {meta.total.toLocaleString('uk-UA')} товарів
+          </span>
         </div>
 
         {/* Right Side: Sorting & Reset */}
-        <div className="flex items-center gap-2 shrink-0 self-end sm:self-auto">
+        <div className="flex items-center gap-2">
           {/* Sorting Dropdown */}
           <div className="relative">
             <select
               value={selectedSort}
               onChange={(e) => commitFilters({ sort: e.target.value })}
-              className="h-9 appearance-none rounded-xl border border-border bg-surface pl-3 pr-8 text-xs font-medium text-foreground focus:border-primary focus:outline-none cursor-pointer"
+              className="h-10 appearance-none rounded-xl border border-border bg-surface pl-3.5 pr-8 text-xs font-medium text-foreground shadow-xs focus:border-primary focus:outline-none cursor-pointer hover:border-border/80"
               aria-label="Сортування товарів"
             >
               <option value="newest">Нові поставки</option>
@@ -298,7 +232,7 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
               <option value="price_asc">Від дешевих до дорогих</option>
               <option value="price_desc">Від дорогих до дешевих</option>
             </select>
-            <ChevronDown className="pointer-events-none absolute right-2.5 top-2.5 h-4 w-4 text-muted" />
+            <ChevronDown className="pointer-events-none absolute right-2.5 top-3 h-4 w-4 text-muted" />
           </div>
 
           {/* Reset button if active */}
@@ -306,7 +240,7 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
             <button
               type="button"
               onClick={resetAll}
-              className="flex h-9 w-9 items-center justify-center rounded-xl border border-border bg-surface text-muted hover:text-red-500 hover:border-red-200 transition-colors"
+              className="flex h-10 w-10 items-center justify-center rounded-xl border border-border bg-surface text-muted shadow-xs hover:text-red-500 hover:border-red-200 transition-colors"
               title="Скинути всі фільтри"
               aria-label="Скинути всі фільтри"
             >
@@ -335,7 +269,7 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
                 <span>Категорія: {catName}</span>
                 <button
                   type="button"
-                  onClick={() => toggleQuickFilter('category', cSlug, selectedCategories)}
+                  onClick={() => removeActiveFilter('category', cSlug, selectedCategories)}
                   className="hover:text-foreground p-0.5"
                   aria-label={`Видалити фільтр категорії ${catName}`}
                 >
@@ -354,7 +288,7 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
               <span>Розмір: {sz}</span>
               <button
                 type="button"
-                onClick={() => toggleQuickFilter('size', sz, selectedSizes)}
+                onClick={() => removeActiveFilter('size', sz, selectedSizes)}
                 className="hover:text-foreground p-0.5"
                 aria-label={`Видалити фільтр розміру ${sz}`}
               >
@@ -375,7 +309,7 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
                 <span>Бренд: {brandName}</span>
                 <button
                   type="button"
-                  onClick={() => toggleQuickFilter('brand', bSlug, selectedBrands)}
+                  onClick={() => removeActiveFilter('brand', bSlug, selectedBrands)}
                   className="hover:text-foreground p-0.5"
                   aria-label={`Видалити фільтр бренду ${brandName}`}
                 >
@@ -394,7 +328,7 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
               <span>Стать: {g === 'men' ? 'Чоловічі' : g === 'women' ? 'Жіночі' : 'Унісекс'}</span>
               <button
                 type="button"
-                onClick={() => toggleQuickFilter('gender', g, selectedGenders)}
+                onClick={() => removeActiveFilter('gender', g, selectedGenders)}
                 className="hover:text-foreground p-0.5"
                 aria-label="Видалити фільтр статі"
               >
@@ -412,7 +346,7 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
               <span>Сезон: {s === 'winter' ? 'Зимові' : 'Демісезон'}</span>
               <button
                 type="button"
-                onClick={() => toggleQuickFilter('season', s, selectedSeasons)}
+                onClick={() => removeActiveFilter('season', s, selectedSeasons)}
                 className="text-muted hover:text-foreground p-0.5"
                 aria-label="Видалити фільтр сезону"
               >
