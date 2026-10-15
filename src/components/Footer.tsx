@@ -1,56 +1,68 @@
+'use client';
+
 import React from 'react';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import { Truck, ShieldCheck, RefreshCw, Mail } from 'lucide-react';
 import { VexaroLogo } from '@/components/VexaroLogo';
 
 export function Footer() {
+  const pathname = usePathname();
+  const isProductPage = pathname?.startsWith('/product/');
+
   return (
-    <footer className="mt-16 border-t border-border bg-surface text-muted">
-      {/* Guarantees bar */}
-      <div className="border-b border-border py-8">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6">
-          <div className="grid grid-cols-1 gap-6 sm:grid-cols-3">
-            <div className="flex items-start gap-3">
-              <div className="rounded-lg bg-surface-raised p-2 text-primary border border-border">
-                <Truck className="h-5 w-5" />
+    <footer
+      className={`border-t border-border bg-surface text-muted transition-colors ${
+        isProductPage ? 'mt-4 sm:mt-8 pb-24 sm:pb-0' : 'mt-16'
+      }`}
+    >
+      {/* Guarantees bar - shown only on catalog/home pages, hidden on product page to prevent duplicate */}
+      {!isProductPage && (
+        <div className="border-b border-border py-8">
+          <div className="mx-auto max-w-7xl px-4 sm:px-6">
+            <div className="grid grid-cols-1 gap-6 sm:grid-cols-3">
+              <div className="flex items-start gap-3">
+                <div className="rounded-lg bg-surface-raised p-2 text-primary border border-border">
+                  <Truck className="h-5 w-5" />
+                </div>
+                <div>
+                  <h4 className="text-sm font-semibold text-foreground">Доставка 1–2 дні</h4>
+                  <p className="mt-1 text-xs">
+                    Відправка замовлень Новою Поштою по всій території України щодня.
+                  </p>
+                </div>
               </div>
-              <div>
-                <h4 className="text-sm font-semibold text-foreground">Доставка 1–2 дні</h4>
-                <p className="mt-1 text-xs">
-                  Відправка замовлень Новою Поштою по всій території України щодня.
-                </p>
-              </div>
-            </div>
 
-            <div className="flex items-start gap-3">
-              <div className="rounded-lg bg-surface-raised p-2 text-primary border border-border">
-                <ShieldCheck className="h-5 w-5" />
+              <div className="flex items-start gap-3">
+                <div className="rounded-lg bg-surface-raised p-2 text-primary border border-border">
+                  <ShieldCheck className="h-5 w-5" />
+                </div>
+                <div>
+                  <h4 className="text-sm font-semibold text-foreground">Накладений платіж</h4>
+                  <p className="mt-1 text-xs">
+                    Оплата після огляду та примірки товару у відділенні без передоплати.
+                  </p>
+                </div>
               </div>
-              <div>
-                <h4 className="text-sm font-semibold text-foreground">Накладений платіж</h4>
-                <p className="mt-1 text-xs">
-                  Оплата після огляду та примірки товару у відділенні без передоплати.
-                </p>
-              </div>
-            </div>
 
-            <div className="flex items-start gap-3">
-              <div className="rounded-lg bg-surface-raised p-2 text-primary border border-border">
-                <RefreshCw className="h-5 w-5" />
-              </div>
-              <div>
-                <h4 className="text-sm font-semibold text-foreground">Обмін та повернення</h4>
-                <p className="mt-1 text-xs">
-                  14 днів гарантії на обмін або повернення коштів згідно із законом України.
-                </p>
+              <div className="flex items-start gap-3">
+                <div className="rounded-lg bg-surface-raised p-2 text-primary border border-border">
+                  <RefreshCw className="h-5 w-5" />
+                </div>
+                <div>
+                  <h4 className="text-sm font-semibold text-foreground">Обмін та повернення</h4>
+                  <p className="mt-1 text-xs">
+                    14 днів гарантії на обмін або повернення коштів згідно із законом України.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      )}
 
       {/* Main footer info */}
-      <div className="mx-auto max-w-7xl px-4 py-10 sm:px-6">
+      <div className="mx-auto max-w-7xl px-4 py-8 sm:py-10 sm:px-6">
         <div className="grid grid-cols-1 gap-8 md:grid-cols-4">
           <div className="md:col-span-2">
             <Link href="/" aria-label="Головна сторінка VEXARO">

@@ -122,7 +122,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
   };
 
   return (
-    <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 pb-24 sm:pb-12">
+    <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 pb-2 sm:pb-6">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaProduct) }}
@@ -222,7 +222,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
           </div>
 
           {/* Delivery & Warranty Guarantees */}
-          <div className="py-6 space-y-3.5">
+          <div className="pt-6 pb-2 space-y-3">
             <div className="flex items-start gap-3 rounded-xl border border-border bg-surface p-3.5">
               <Truck className="h-5 w-5 text-primary shrink-0 mt-0.5" />
               <div className="text-xs">
