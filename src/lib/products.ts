@@ -10,6 +10,58 @@ const productById = new Map<string, Product>();
 const EXCLUDED_TAPKI_REGEX =
   /\b(slides?|slippers?|clogs?|mules?|sandals?|flip.?flops?|adimule|tazz|tasman|funkette|disquette|tazzlita|lanah|goldenstar|crocs|thongs?|sabot|adilette|chypre|dway|tippi|birkenstock)\b|triomphe.*mule|summer charms|тапк|тапочк|шльоп|шлеп|сланц|сланец|босоніж|босонож|вьетнамк|в'єтнамк|сабо|пантоф|лофер|loafer/i;
 
+const FEMALE_REGEX =
+  /\b(pink|rose|pearl|glitter|sparkle|strawberry|бантик|пудр|розов|ніжн|fuchsia|magenta|lilac|бузков|лаванд|lavender|violet|women|жіноч|floral|heart|pastel)\b/i;
+
+const MALE_REGEX =
+  /\b(men|чоловіч|camo|tactical|cordura|gore-tex|gtx|freehiker|terrex|initiator|kaws|monarch)\b/i;
+
+export function getNumericSizes(p: Product): number[] {
+  return p.sizes
+    .map((s) => parseFloat(s))
+    .filter((s) => !isNaN(s))
+    .sort((a, b) => a - b);
+}
+
+export function isRealisticMen(p: Product): boolean {
+  if (p.gender === 'women') return false;
+  if (FEMALE_REGEX.test(p.name)) return false;
+  if (
+    /\bugg\b/i.test(p.name) &&
+    /\b(mini|ultra mini|platform|lowmel|tazz|tasman)\b/i.test(p.name) &&
+    !MALE_REGEX.test(p.name)
+  ) {
+    return false;
+  }
+  const sizes = getNumericSizes(p);
+  const minSize = sizes.length > 0 ? sizes[0] : 0;
+  const maxSize = sizes.length > 0 ? sizes[sizes.length - 1] : 0;
+
+  if (p.gender === 'men') return true;
+  if (p.gender === 'unisex') {
+    if (maxSize >= 42) return true;
+    if (maxSize === 41 && minSize >= 40) return true;
+  }
+  return false;
+}
+
+export function isRealisticWomen(p: Product): boolean {
+  if (p.gender === 'men') return false;
+  const sizes = getNumericSizes(p);
+  const minSize = sizes.length > 0 ? sizes[0] : 0;
+  if (p.gender === 'women') return true;
+  if (p.gender === 'unisex' && minSize > 0 && minSize <= 39) return true;
+  return false;
+}
+
+export function isRealisticUnisex(p: Product): boolean {
+  if (p.gender === 'men' || p.gender === 'women') return false;
+  if (FEMALE_REGEX.test(p.name)) return false;
+  const sizes = getNumericSizes(p);
+  if (sizes.length === 0) return false;
+  return sizes[0] <= 39 && sizes[sizes.length - 1] >= 42;
+}
+
 function ensureLoaded() {
   if (allProducts) return;
 
@@ -37,6 +89,16 @@ function ensureLoaded() {
 export function matchesCategory(p: Product, categorySlug: string): boolean {
   const cat = categorySlug.toLowerCase();
   if (cat === 'all' || cat === 'shoes') return true;
+
+  if (cat === 'men') {
+    return isRealisticMen(p);
+  }
+  if (cat === 'women') {
+    return isRealisticWomen(p);
+  }
+  if (cat === 'unisex') {
+    return isRealisticUnisex(p);
+  }
 
   const n = p.name.toLowerCase();
   const isWinter =
@@ -68,15 +130,6 @@ export function matchesCategory(p: Product, categorySlug: string): boolean {
   if (cat === 'sneakers') {
     return !isWinter && !isKedy;
   }
-  if (cat === 'men') {
-    return p.gender === 'men' || p.gender === 'unisex';
-  }
-  if (cat === 'women') {
-    return p.gender === 'women' || p.gender === 'unisex';
-  }
-  if (cat === 'unisex') {
-    return p.gender === 'unisex';
-  }
 
   return p.categorySlug === categorySlug;
 }
@@ -85,6 +138,16 @@ export async function getCatalogMeta(): Promise<CatalogMeta> {
   ensureLoaded();
   const prods = allProducts!;
   const enrichedCategories = [
+    {
+      name: 'Чоловіче взуття',
+      slug: 'men',
+      count: prods.filter(isRealisticMen).length,
+    },
+    {
+      name: 'Жіноче взуття',
+      slug: 'women',
+      count: prods.filter(isRealisticWomen).length,
+    },
     {
       name: 'Кросівки',
       slug: 'sneakers',
@@ -106,17 +169,17 @@ export async function getCatalogMeta(): Promise<CatalogMeta> {
     {
       name: 'Чоловічі',
       slug: 'men',
-      count: prods.filter((p) => p.gender === 'men' || p.gender === 'unisex').length,
+      count: prods.filter(isRealisticMen).length,
     },
     {
       name: 'Жіночі',
       slug: 'women',
-      count: prods.filter((p) => p.gender === 'women' || p.gender === 'unisex').length,
+      count: prods.filter(isRealisticWomen).length,
     },
     {
       name: 'Унісекс',
       slug: 'unisex',
-      count: prods.filter((p) => p.gender === 'unisex').length,
+      count: prods.filter(isRealisticUnisex).length,
     },
   ];
 
@@ -175,7 +238,15 @@ export async function getProducts(params: CatalogQueryParams = {}): Promise<Cata
   if (params.category && params.category !== 'all') {
     const cats = params.category.split(',').map((c) => c.trim().toLowerCase()).filter(Boolean);
     if (cats.length > 0) {
-      filtered = filtered.filter((p) => cats.some((cat) => matchesCategory(p, cat)));
+      const genderCats = cats.filter((c) => c === 'men' || c === 'women' || c === 'unisex');
+      const typeCats = cats.filter((c) => c !== 'men' && c !== 'women' && c !== 'unisex');
+
+      if (genderCats.length > 0) {
+        filtered = filtered.filter((p) => genderCats.some((c) => matchesCategory(p, c)));
+      }
+      if (typeCats.length > 0) {
+        filtered = filtered.filter((p) => typeCats.some((c) => matchesCategory(p, c)));
+      }
     }
   }
 
@@ -190,10 +261,10 @@ export async function getProducts(params: CatalogQueryParams = {}): Promise<Cata
     const genders = params.gender.split(',').map((g) => g.trim().toLowerCase()).filter(Boolean);
     if (genders.length > 0) {
       filtered = filtered.filter((p) => {
-        if (genders.includes('men') && (p.gender === 'men' || p.gender === 'unisex')) return true;
-        if (genders.includes('women') && (p.gender === 'women' || p.gender === 'unisex')) return true;
-        if (genders.includes('unisex') && p.gender === 'unisex') return true;
-        return genders.includes(p.gender.toLowerCase());
+        if (genders.includes('men') && isRealisticMen(p)) return true;
+        if (genders.includes('women') && isRealisticWomen(p)) return true;
+        if (genders.includes('unisex') && isRealisticUnisex(p)) return true;
+        return false;
       });
     }
   }
@@ -232,14 +303,47 @@ export async function getProducts(params: CatalogQueryParams = {}): Promise<Cata
     );
   }
 
-  // Sorting: default to newest arrivals (newest items first)
+  // Sorting:
   if (params.sort === 'price_asc') {
     filtered = [...filtered].sort((a, b) => a.price - b.price);
   } else if (params.sort === 'price_desc') {
     filtered = [...filtered].sort((a, b) => b.price - a.price);
   } else {
-    // 'newest' (default) or 'popular' -> newest drops first by ID descending
-    filtered = [...filtered].sort((a, b) => (Number(b.id) || 0) - (Number(a.id) || 0));
+    // 'newest' (default) or 'popular'
+    const categoryLower = params.category ? params.category.toLowerCase() : '';
+    const genderLower = params.gender ? params.gender.toLowerCase() : '';
+
+    const hasMen = categoryLower.includes('men') || genderLower.includes('men');
+    const hasWomen = categoryLower.includes('women') || genderLower.includes('women');
+
+    const isMenOnly = hasMen && !hasWomen;
+    const isWomenOnly = hasWomen && !hasMen;
+
+    if (isMenOnly) {
+      filtered = [...filtered].sort((a, b) => {
+        const pA = getProductPriority(a);
+        const pB = getProductPriority(b);
+        if (pB !== pA) return pB - pA;
+        const aDed = a.gender === 'men' ? 1 : 0;
+        const bDed = b.gender === 'men' ? 1 : 0;
+        if (bDed !== aDed) return bDed - aDed;
+        return (Number(b.id) || 0) - (Number(a.id) || 0);
+      });
+    } else if (isWomenOnly) {
+      filtered = [...filtered].sort((a, b) => {
+        const aDed = a.gender === 'women' ? 1 : 0;
+        const bDed = b.gender === 'women' ? 1 : 0;
+        if (bDed !== aDed) return bDed - aDed;
+        return (Number(b.id) || 0) - (Number(a.id) || 0);
+      });
+    } else {
+      filtered = [...filtered].sort((a, b) => {
+        const pA = getProductPriority(a);
+        const pB = getProductPriority(b);
+        if (pB !== pA) return pB - pA;
+        return (Number(b.id) || 0) - (Number(a.id) || 0);
+      });
+    }
   }
 
   const total = filtered.length;

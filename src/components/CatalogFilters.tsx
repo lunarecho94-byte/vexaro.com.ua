@@ -470,14 +470,17 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
                 </div>
 
                 <div className="grid grid-cols-2 gap-2">
-                  {meta.categories.map((c) => {
+                  {meta.categories.map((c, idx) => {
                     const isSelected = draftCategories.includes(c.slug.toLowerCase());
+                    const isLastOdd = idx === meta.categories.length - 1 && meta.categories.length % 2 !== 0;
                     return (
                       <button
                         key={c.slug}
                         type="button"
                         onClick={() => setDraftCategories(toggleItem(draftCategories, c.slug))}
                         className={`h-11 rounded-xl px-3 text-xs font-bold transition-all flex items-center justify-between text-left ${
+                          isLastOdd ? 'col-span-2' : ''
+                        } ${
                           isSelected
                             ? 'bg-primary text-white shadow-sm border-2 border-primary'
                             : 'bg-background text-foreground border border-border hover:border-primary/50'
@@ -524,7 +527,9 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
                         }`}
                       >
                         <span>{g.name}</span>
-                        <span className="text-[10px] opacity-75 font-normal">({g.count})</span>
+                        <span className="text-[10px] opacity-75 font-normal">
+                          ({g.count.toLocaleString('uk-UA')})
+                        </span>
                       </button>
                     );
                   })}
