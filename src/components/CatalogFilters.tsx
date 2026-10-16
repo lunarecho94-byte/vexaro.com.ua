@@ -26,10 +26,20 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
   const [isOpenDrawer, setIsOpenDrawer] = useState(false);
   const [brandSearch, setBrandSearch] = useState('');
 
+  // Path category (if URL is /category/[slug])
+  const pathCategory = pathname?.startsWith('/category/')
+    ? pathname.replace('/category/', '').split('/')[0].toLowerCase()
+    : null;
+  const isGenericCategory = !pathCategory || pathCategory === 'shoes' || pathCategory === 'all';
+
   // Parse active filters from URL
-  const selectedCategories = searchParams?.get('category')
-    ? searchParams.get('category')!.split(',').map((s) => s.trim().toLowerCase()).filter((s) => s && s !== 'all' && s !== 'shoes')
-    : [];
+  const urlCategoryParam = searchParams?.get('category');
+  const selectedCategories = urlCategoryParam
+    ? urlCategoryParam
+        .split(',')
+        .map((s) => s.trim().toLowerCase())
+        .filter((s) => s && s !== 'all' && s !== 'shoes')
+    : (!isGenericCategory && pathCategory ? [pathCategory] : []);
 
   const selectedBrands = searchParams?.get('brand')
     ? searchParams.get('brand')!.split(',').map((s) => s.trim().toLowerCase()).filter((s) => s && s !== 'all')
@@ -122,7 +132,8 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
 
     startTransition(() => {
       const queryString = params.toString();
-      const targetUrl = queryString ? `${pathname}?${queryString}` : pathname || '/';
+      const targetPath = pathname?.startsWith('/category/') ? '/' : (pathname || '/');
+      const targetUrl = queryString ? `${targetPath}?${queryString}` : targetPath;
       router.push(targetUrl, { scroll: false });
     });
   };
@@ -157,7 +168,7 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
   // Reset all filters
   const resetAll = () => {
     startTransition(() => {
-      router.push(pathname || '/', { scroll: false });
+      router.push('/', { scroll: false });
     });
     setIsOpenDrawer(false);
   };
@@ -279,6 +290,24 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
             );
           })}
 
+          {/* Gender Chips */}
+          {selectedGenders.map((g) => (
+            <span
+              key={g}
+              className="inline-flex items-center gap-1 rounded-lg border border-primary/40 bg-primary/10 px-2.5 py-1 text-xs font-semibold text-primary"
+            >
+              <span>Стать: {g === 'men' ? 'Чоловічі' : g === 'women' ? 'Жіночі' : 'Унісекс'}</span>
+              <button
+                type="button"
+                onClick={() => removeActiveFilter('gender', g, selectedGenders)}
+                className="hover:text-foreground p-0.5"
+                aria-label="Видалити фільтр статі"
+              >
+                <X className="h-3 w-3" />
+              </button>
+            </span>
+          ))}
+
           {/* Size Chips */}
           {selectedSizes.map((sz) => (
             <span
@@ -318,24 +347,6 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
               </span>
             );
           })}
-
-          {/* Gender Chips */}
-          {selectedGenders.map((g) => (
-            <span
-              key={g}
-              className="inline-flex items-center gap-1 rounded-lg border border-primary/40 bg-primary/10 px-2.5 py-1 text-xs font-semibold text-primary"
-            >
-              <span>Стать: {g === 'men' ? 'Чоловічі' : g === 'women' ? 'Жіночі' : 'Унісекс'}</span>
-              <button
-                type="button"
-                onClick={() => removeActiveFilter('gender', g, selectedGenders)}
-                className="hover:text-foreground p-0.5"
-                aria-label="Видалити фільтр статі"
-              >
-                <X className="h-3 w-3" />
-              </button>
-            </span>
-          ))}
 
           {/* Season Chips */}
           {selectedSeasons.map((s) => (
@@ -470,7 +481,45 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
                 </div>
               </div>
 
-              {/* 2. РОЗМІР ВЗУТТЯ (EU) */}
+              {/* 2. СТАТЬ */}
+              <div className="border-t border-border/80 pt-5">
+                <div className="flex items-baseline justify-between mb-2.5">
+                  <label className="text-xs font-black uppercase tracking-wider text-foreground">
+                    Стать
+                  </label>
+                  {draftGenders.length > 0 && (
+                    <button
+                      type="button"
+                      onClick={() => setDraftGenders([])}
+                      className="text-[11px] font-semibold text-primary hover:underline"
+                    >
+                      Скинути ({draftGenders.length})
+                    </button>
+                  )}
+                </div>
+                <div className="grid grid-cols-3 gap-2">
+                  {meta.genders.map((g) => {
+                    const isSelected = draftGenders.includes(g.slug.toLowerCase());
+                    return (
+                      <button
+                        key={g.slug}
+                        type="button"
+                        onClick={() => setDraftGenders(toggleItem(draftGenders, g.slug))}
+                        className={`h-10 rounded-xl px-2 text-xs font-bold transition-all flex flex-col items-center justify-center ${
+                          isSelected
+                            ? 'bg-primary text-white shadow-xs border-2 border-primary'
+                            : 'bg-background text-foreground border border-border hover:border-primary/50'
+                        }`}
+                      >
+                        <span>{g.name}</span>
+                        <span className="text-[10px] opacity-75 font-normal">({g.count})</span>
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
+
+              {/* 3. РОЗМІР ВЗУТТЯ (EU) */}
               <div className="border-t border-border/80 pt-5">
                 <div className="flex items-baseline justify-between mb-2.5">
                   <label className="text-xs font-black uppercase tracking-wider text-foreground">
@@ -509,7 +558,7 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
                 </div>
               </div>
 
-              {/* 3. БРЕНДИ */}
+              {/* 4. БРЕНДИ */}
               <div className="border-t border-border/80 pt-5">
                 <div className="flex items-baseline justify-between mb-2.5">
                   <label className="text-xs font-black uppercase tracking-wider text-foreground">
@@ -609,7 +658,7 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
                 </div>
               </div>
 
-              {/* 4. ЦІНА (ГРН) */}
+              {/* 5. ЦІНА (ГРН) */}
               <div className="border-t border-border/80 pt-5">
                 <div className="flex items-baseline justify-between mb-2.5">
                   <label className="text-xs font-black uppercase tracking-wider text-foreground">
@@ -715,6 +764,44 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
                   >
                     Від 6 000 ₴
                   </button>
+                </div>
+              </div>
+
+              {/* 6. СЕЗОН */}
+              <div className="border-t border-border/80 pt-5">
+                <div className="flex items-baseline justify-between mb-2.5">
+                  <label className="text-xs font-black uppercase tracking-wider text-foreground">
+                    Сезон
+                  </label>
+                  {draftSeasons.length > 0 && (
+                    <button
+                      type="button"
+                      onClick={() => setDraftSeasons([])}
+                      className="text-[11px] font-semibold text-primary hover:underline"
+                    >
+                      Скинути ({draftSeasons.length})
+                    </button>
+                  )}
+                </div>
+                <div className="grid grid-cols-2 gap-2">
+                  {meta.seasons.map((s) => {
+                    const isSelected = draftSeasons.includes(s.slug.toLowerCase());
+                    return (
+                      <button
+                        key={s.slug}
+                        type="button"
+                        onClick={() => setDraftSeasons(toggleItem(draftSeasons, s.slug))}
+                        className={`h-10 rounded-xl px-3 text-xs font-bold transition-all flex items-center justify-between ${
+                          isSelected
+                            ? 'bg-primary text-white shadow-xs border-2 border-primary'
+                            : 'bg-background text-foreground border border-border hover:border-primary/50'
+                        }`}
+                      >
+                        <span>{s.name}</span>
+                        <span className="text-[11px] opacity-75 font-normal">({s.count})</span>
+                      </button>
+                    );
+                  })}
                 </div>
               </div>
             </div>

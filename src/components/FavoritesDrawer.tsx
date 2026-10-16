@@ -73,7 +73,7 @@ export function FavoritesDrawer() {
             <button
               type="button"
               onClick={closeFavorites}
-              className="inline-flex h-12 items-center gap-2 rounded-xl bg-primary px-6 text-xs font-bold uppercase tracking-wider text-background hover:bg-primary-hover transition-colors"
+              className="inline-flex h-12 items-center gap-2 rounded-xl bg-primary px-6 text-xs font-bold uppercase tracking-wider text-white hover:bg-primary-hover shadow-md shadow-primary/25 transition-all"
             >
               <span>Перейти до каталогу</span>
               <ArrowRight className="h-4 w-4" />
@@ -173,7 +173,7 @@ export function FavoritesDrawer() {
               <button
                 type="button"
                 onClick={closeFavorites}
-                className="inline-flex h-11 items-center gap-2 rounded-xl bg-primary px-5 text-xs font-bold uppercase tracking-wider text-background hover:bg-primary-hover transition-colors"
+                className="inline-flex h-11 items-center gap-2 rounded-xl bg-primary px-5 text-xs font-bold uppercase tracking-wider text-white hover:bg-primary-hover shadow-md shadow-primary/25 transition-all"
               >
                 <span>Продовжити покупки</span>
               </button>

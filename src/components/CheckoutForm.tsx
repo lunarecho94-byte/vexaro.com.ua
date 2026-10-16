@@ -174,7 +174,7 @@ export function CheckoutForm() {
         </p>
         <Link
           href="/"
-          className="inline-flex h-11 items-center gap-2 rounded-lg bg-primary px-5 text-xs font-bold uppercase tracking-wider text-background hover:bg-primary-hover"
+          className="inline-flex h-11 items-center gap-2 rounded-lg bg-primary px-5 text-xs font-bold uppercase tracking-wider text-white hover:bg-primary-hover shadow-sm"
         >
           <ArrowLeft className="h-4 w-4" />
           <span>Перейти до каталогу</span>
@@ -381,7 +381,7 @@ export function CheckoutForm() {
           <button
             type="submit"
             disabled={isSubmitting}
-            className="w-full h-14 sm:h-16 rounded-xl sm:rounded-2xl bg-primary text-sm sm:text-base font-extrabold uppercase tracking-wider text-background hover:bg-primary-hover active:scale-[0.99] shadow-lg shadow-primary/20 hover:shadow-primary/30 disabled:opacity-50 transition-all flex items-center justify-center gap-2 cursor-pointer"
+            className="w-full h-14 sm:h-16 rounded-xl sm:rounded-2xl bg-primary text-sm sm:text-base font-extrabold uppercase tracking-wider text-white hover:bg-primary-hover active:scale-[0.99] shadow-lg shadow-primary/25 hover:shadow-primary/35 disabled:opacity-50 transition-all flex items-center justify-center gap-2 cursor-pointer"
           >
             {isSubmitting ? (
               <>

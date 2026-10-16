@@ -182,7 +182,7 @@ export function CartDrawer() {
             <Link
               href="/checkout"
               onClick={closeCart}
-              className="flex h-12 w-full items-center justify-center gap-2 rounded-xl bg-primary text-xs font-bold uppercase tracking-wider text-background hover:bg-primary-hover transition-colors"
+              className="flex h-12 w-full items-center justify-center gap-2 rounded-xl bg-primary text-xs font-bold uppercase tracking-wider text-white hover:bg-primary-hover shadow-md shadow-primary/25 transition-all"
             >
               <span>Оформити замовлення</span>
               <ArrowRight className="h-4 w-4" />

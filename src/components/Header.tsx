@@ -133,7 +133,7 @@ export function Header() {
             <ShoppingBag className="h-4 w-4 sm:h-5 sm:w-5 text-primary" />
             <span className="text-xs font-semibold hidden sm:inline">Кошик</span>
             {mounted && totalCount > 0 && (
-              <span className="flex h-4 min-w-[16px] sm:h-5 sm:min-w-[20px] items-center justify-center rounded-full bg-primary px-1 text-[10px] sm:text-[11px] font-bold text-background">
+              <span className="flex h-4 min-w-[16px] sm:h-5 sm:min-w-[20px] items-center justify-center rounded-full bg-primary px-1 text-[10px] sm:text-[11px] font-black text-white shadow-xs">
                 {totalCount}
               </span>
             )}

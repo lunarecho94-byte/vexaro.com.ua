@@ -30,7 +30,7 @@ export default function Error({
       <button
         type="button"
         onClick={() => reset()}
-        className="inline-flex h-11 items-center gap-2 rounded-xl bg-primary px-5 text-xs font-bold uppercase tracking-wider text-background hover:bg-primary-hover transition-colors"
+        className="inline-flex h-11 items-center gap-2 rounded-xl bg-primary px-5 text-xs font-bold uppercase tracking-wider text-white hover:bg-primary-hover shadow-md shadow-primary/25 transition-all"
       >
         <RotateCcw className="h-4 w-4" />
         <span>Спробувати ще раз</span>

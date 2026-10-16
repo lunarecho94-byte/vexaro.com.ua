@@ -526,7 +526,7 @@ export function NovaPoshtaDeliverySelect({
                 onClick={() => setWarehouseTypeFilter('all')}
                 className={`flex-1 rounded-md py-1.5 text-[11px] font-semibold transition-colors ${
                   warehouseTypeFilter === 'all'
-                    ? 'bg-primary text-background'
+                    ? 'bg-primary text-white font-bold shadow-xs'
                     : 'text-muted hover:text-foreground'
                 }`}
               >
@@ -537,7 +537,7 @@ export function NovaPoshtaDeliverySelect({
                 onClick={() => setWarehouseTypeFilter('branch')}
                 className={`flex-1 rounded-md py-1.5 text-[11px] font-semibold transition-colors flex items-center justify-center gap-1 ${
                   warehouseTypeFilter === 'branch'
-                    ? 'bg-primary text-background'
+                    ? 'bg-primary text-white font-bold shadow-xs'
                     : 'text-muted hover:text-foreground'
                 }`}
               >
@@ -549,7 +549,7 @@ export function NovaPoshtaDeliverySelect({
                 onClick={() => setWarehouseTypeFilter('postomat')}
                 className={`flex-1 rounded-md py-1.5 text-[11px] font-semibold transition-colors flex items-center justify-center gap-1 ${
                   warehouseTypeFilter === 'postomat'
-                    ? 'bg-primary text-background'
+                    ? 'bg-primary text-white font-bold shadow-xs'
                     : 'text-muted hover:text-foreground'
                 }`}
               >

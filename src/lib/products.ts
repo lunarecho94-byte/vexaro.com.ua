@@ -100,21 +100,30 @@ export async function getCatalogMeta(): Promise<CatalogMeta> {
       slug: 'kedy',
       count: prods.filter((p) => matchesCategory(p, 'kedy')).length,
     },
+  ];
+
+  const enrichedGenders = [
     {
-      name: 'Чоловіче взуття',
+      name: 'Чоловічі',
       slug: 'men',
-      count: prods.filter((p) => matchesCategory(p, 'men')).length,
+      count: prods.filter((p) => p.gender === 'men' || p.gender === 'unisex').length,
     },
     {
-      name: 'Жіноче взуття',
+      name: 'Жіночі',
       slug: 'women',
-      count: prods.filter((p) => matchesCategory(p, 'women')).length,
+      count: prods.filter((p) => p.gender === 'women' || p.gender === 'unisex').length,
+    },
+    {
+      name: 'Унісекс',
+      slug: 'unisex',
+      count: prods.filter((p) => p.gender === 'unisex').length,
     },
   ];
 
   return {
     ...catalogMeta!,
     categories: enrichedCategories,
+    genders: enrichedGenders,
   };
 }
 

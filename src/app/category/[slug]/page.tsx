@@ -30,16 +30,21 @@ export const dynamicParams = true;
 export async function generateStaticParams() {
   const { getCatalogMeta } = await import('@/lib/products');
   const meta = await getCatalogMeta();
-  return meta.categories.map((c) => ({
-    slug: c.slug,
+  const slugs = new Set(['shoes', ...meta.categories.map((c) => c.slug)]);
+  return Array.from(slugs).map((slug) => ({
+    slug,
   }));
 }
 
 export async function generateMetadata({ params, searchParams }: CategoryPageProps): Promise<Metadata> {
   const meta = await getCatalogMeta();
-  const category = meta.categories.find((c) => c.slug === params.slug);
+  const category =
+    meta.categories.find((c) => c.slug === params.slug) ||
+    (params.slug === 'shoes' || params.slug === 'all'
+      ? { name: 'Взуття', slug: 'shoes', count: meta.total }
+      : null);
 
-  if (!category && params.slug !== 'all') {
+  if (!category) {
     return { title: 'Категорія не знайдена' };
   }
 
@@ -77,9 +82,13 @@ export async function generateMetadata({ params, searchParams }: CategoryPagePro
 
 export default async function CategoryPage({ params, searchParams }: CategoryPageProps) {
   const meta = await getCatalogMeta();
-  const category = meta.categories.find((c) => c.slug === params.slug);
+  const category =
+    meta.categories.find((c) => c.slug === params.slug) ||
+    (params.slug === 'shoes' || params.slug === 'all'
+      ? { name: 'Взуття', slug: 'shoes', count: meta.total }
+      : null);
 
-  if (!category && params.slug !== 'all') {
+  if (!category) {
     notFound();
   }
 
