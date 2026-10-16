@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState, useEffect, useTransition } from 'react';
+import { createPortal } from 'react-dom';
 import { useRouter, usePathname, useSearchParams } from 'next/navigation';
 import {
   SlidersHorizontal,
@@ -23,8 +24,13 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
   const searchParams = useSearchParams();
   const [isPending, startTransition] = useTransition();
 
+  const [mounted, setMounted] = useState(false);
   const [isOpenDrawer, setIsOpenDrawer] = useState(false);
   const [brandSearch, setBrandSearch] = useState('');
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   // Path category (if URL is /category/[slug])
   const pathCategory = pathname?.startsWith('/category/')
@@ -199,227 +205,233 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
   };
 
   return (
-    <div className="sticky top-14 sm:top-16 z-30 mb-6 -mx-4 px-4 sm:-mx-6 sm:px-6 bg-background/95 backdrop-blur-md py-2.5 sm:py-3 border-b border-border shadow-xs transition-all">
-      {/* Clean Top Bar: Only Filter Button & Sorting */}
-      <div className="flex items-center justify-between gap-3">
-        {/* Left Side: Filter Trigger Button & Count */}
-        <div className="flex items-center gap-3">
-          <button
-            type="button"
-            onClick={openDrawer}
-            className={`flex h-10 items-center gap-2.5 rounded-xl border px-4 text-xs font-bold transition-all active:scale-95 ${
-              activeCount > 0
-                ? 'border-primary bg-primary text-white shadow-md shadow-primary/25 hover:bg-primary-hover'
-                : 'border-border bg-surface text-foreground shadow-xs hover:border-primary/60 hover:bg-surface-raised'
-            }`}
-            aria-label="Відкрити фільтри"
-          >
-            <SlidersHorizontal className="h-4 w-4" />
-            <span>Фільтри</span>
-            {activeCount > 0 && (
-              <span className="flex h-5 min-w-5 items-center justify-center rounded-full bg-white px-1.5 text-[11px] font-black text-primary">
-                {activeCount}
-              </span>
-            )}
-          </button>
-
-          <span className="text-xs text-muted font-medium hidden sm:inline-block">
-            {meta.total.toLocaleString('uk-UA')} товарів
-          </span>
-        </div>
-
-        {/* Right Side: Sorting & Reset */}
-        <div className="flex items-center gap-2">
-          {/* Sorting Dropdown */}
-          <div className="relative">
-            <select
-              value={selectedSort}
-              onChange={(e) => commitFilters({ sort: e.target.value })}
-              className="h-10 appearance-none rounded-xl border border-border bg-surface pl-3.5 pr-8 text-xs font-medium text-foreground shadow-xs focus:border-primary focus:outline-none cursor-pointer hover:border-border/80"
-              aria-label="Сортування товарів"
+    <>
+      <div className="sticky top-14 sm:top-16 z-30 mb-6 -mx-4 px-4 sm:-mx-6 sm:px-6 bg-background/95 backdrop-blur-md py-2.5 sm:py-3 border-b border-border shadow-xs transition-all">
+        {/* Clean Top Bar: Only Filter Button & Sorting */}
+        <div className="flex items-center justify-between gap-3">
+          {/* Left Side: Filter Trigger Button & Count */}
+          <div className="flex items-center gap-3">
+            <button
+              type="button"
+              onClick={openDrawer}
+              className={`flex h-10 items-center gap-2.5 rounded-xl border px-4 text-xs font-bold transition-all active:scale-95 ${
+                activeCount > 0
+                  ? 'border-primary bg-primary text-white shadow-md shadow-primary/25 hover:bg-primary-hover'
+                  : 'border-border bg-surface text-foreground shadow-xs hover:border-primary/60 hover:bg-surface-raised'
+              }`}
+              aria-label="Відкрити фільтри"
             >
-              <option value="newest">Нові поставки</option>
-              <option value="popular">За популярністю</option>
-              <option value="price_asc">Від дешевих до дорогих</option>
-              <option value="price_desc">Від дорогих до дешевих</option>
-            </select>
-            <ChevronDown className="pointer-events-none absolute right-2.5 top-3 h-4 w-4 text-muted" />
+              <SlidersHorizontal className="h-4 w-4" />
+              <span>Фільтри</span>
+              {activeCount > 0 && (
+                <span className="flex h-5 min-w-5 items-center justify-center rounded-full bg-white px-1.5 text-[11px] font-black text-primary">
+                  {activeCount}
+                </span>
+              )}
+            </button>
+
+            <span className="text-xs text-muted font-medium hidden sm:inline-block">
+              {meta.total.toLocaleString('uk-UA')} товарів
+            </span>
           </div>
 
-          {/* Reset button if active */}
-          {activeCount > 0 && (
+          {/* Right Side: Sorting & Reset */}
+          <div className="flex items-center gap-2">
+            {/* Sorting Dropdown */}
+            <div className="relative">
+              <select
+                value={selectedSort}
+                onChange={(e) => commitFilters({ sort: e.target.value })}
+                className="h-10 appearance-none rounded-xl border border-border bg-surface pl-3.5 pr-8 text-xs font-medium text-foreground shadow-xs focus:border-primary focus:outline-none cursor-pointer hover:border-border/80"
+                aria-label="Сортування товарів"
+              >
+                <option value="newest">Нові поставки</option>
+                <option value="popular">За популярністю</option>
+                <option value="price_asc">Від дешевих до дорогих</option>
+                <option value="price_desc">Від дорогих до дешевих</option>
+              </select>
+              <ChevronDown className="pointer-events-none absolute right-2.5 top-3 h-4 w-4 text-muted" />
+            </div>
+
+            {/* Reset button if active */}
+            {activeCount > 0 && (
+              <button
+                type="button"
+                onClick={resetAll}
+                className="flex h-10 w-10 items-center justify-center rounded-xl border border-border bg-surface text-muted shadow-xs hover:text-red-500 hover:border-red-200 transition-colors"
+                title="Скинути всі фільтри"
+                aria-label="Скинути всі фільтри"
+              >
+                <RotateCcw className="h-4 w-4" />
+              </button>
+            )}
+          </div>
+        </div>
+
+        {/* Active Filter Badges */}
+        {activeCount > 0 && (
+          <div className="mt-2.5 flex items-center gap-1.5 overflow-x-auto scrollbar-none whitespace-nowrap text-xs pb-0.5 pt-0.5 border-t border-border/60">
+            <span className="text-muted text-[11px] font-bold uppercase tracking-wider mr-1">
+              Обрано ({activeCount}):
+            </span>
+
+            {/* Category Chips */}
+            {selectedCategories.map((cSlug) => {
+              const catObj = meta.categories.find((c) => c.slug.toLowerCase() === cSlug);
+              const catName = catObj ? catObj.name : cSlug;
+              return (
+                <span
+                  key={cSlug}
+                  className="inline-flex items-center gap-1 rounded-lg border border-primary/40 bg-primary/10 px-2.5 py-1 text-xs font-semibold text-primary"
+                >
+                  <span>Категорія: {catName}</span>
+                  <button
+                    type="button"
+                    onClick={() => removeActiveFilter('category', cSlug, selectedCategories)}
+                    className="hover:text-foreground p-0.5"
+                    aria-label={`Видалити фільтр категорії ${catName}`}
+                  >
+                    <X className="h-3 w-3" />
+                  </button>
+                </span>
+              );
+            })}
+
+            {/* Gender Chips */}
+            {selectedGenders.map((g) => (
+              <span
+                key={g}
+                className="inline-flex items-center gap-1 rounded-lg border border-primary/40 bg-primary/10 px-2.5 py-1 text-xs font-semibold text-primary"
+              >
+                <span>Стать: {g === 'men' ? 'Чоловічі' : g === 'women' ? 'Жіночі' : 'Унісекс'}</span>
+                <button
+                  type="button"
+                  onClick={() => removeActiveFilter('gender', g, selectedGenders)}
+                  className="hover:text-foreground p-0.5"
+                  aria-label="Видалити фільтр статі"
+                >
+                  <X className="h-3 w-3" />
+                </button>
+              </span>
+            ))}
+
+            {/* Size Chips */}
+            {selectedSizes.map((sz) => (
+              <span
+                key={sz}
+                className="inline-flex items-center gap-1 rounded-lg border border-primary/40 bg-primary/10 px-2.5 py-1 text-xs font-semibold text-primary"
+              >
+                <span>Розмір: {sz}</span>
+                <button
+                  type="button"
+                  onClick={() => removeActiveFilter('size', sz, selectedSizes)}
+                  className="hover:text-foreground p-0.5"
+                  aria-label={`Видалити фільтр розміру ${sz}`}
+                >
+                  <X className="h-3 w-3" />
+                </button>
+              </span>
+            ))}
+
+            {/* Brand Chips */}
+            {selectedBrands.map((bSlug) => {
+              const brandObj = meta.brands.find((b) => b.slug.toLowerCase() === bSlug);
+              const brandName = brandObj ? brandObj.name : bSlug;
+              return (
+                <span
+                  key={bSlug}
+                  className="inline-flex items-center gap-1 rounded-lg border border-primary/40 bg-primary/10 px-2.5 py-1 text-xs font-semibold text-primary"
+                >
+                  <span>Бренд: {brandName}</span>
+                  <button
+                    type="button"
+                    onClick={() => removeActiveFilter('brand', bSlug, selectedBrands)}
+                    className="hover:text-foreground p-0.5"
+                    aria-label={`Видалити фільтр бренду ${brandName}`}
+                  >
+                    <X className="h-3 w-3" />
+                  </button>
+                </span>
+              );
+            })}
+
+            {/* Season Chips */}
+            {selectedSeasons.map((s) => (
+              <span
+                key={s}
+                className="inline-flex items-center gap-1 rounded-lg border border-border bg-surface px-2.5 py-1 text-xs font-medium text-foreground"
+              >
+                <span>Сезон: {s === 'winter' ? 'Зимові' : 'Демісезон'}</span>
+                <button
+                  type="button"
+                  onClick={() => removeActiveFilter('season', s, selectedSeasons)}
+                  className="text-muted hover:text-foreground p-0.5"
+                  aria-label="Видалити фільтр сезону"
+                >
+                  <X className="h-3 w-3" />
+                </button>
+              </span>
+            ))}
+
+            {/* Price Chip */}
+            {(currentMinPrice || currentMaxPrice) && (
+              <span className="inline-flex items-center gap-1 rounded-lg border border-border bg-surface px-2.5 py-1 text-xs font-medium text-foreground">
+                <span>
+                  Ціна: {currentMinPrice ? `від ${currentMinPrice} ₴` : ''}{' '}
+                  {currentMaxPrice ? `до ${currentMaxPrice} ₴` : ''}
+                </span>
+                <button
+                  type="button"
+                  onClick={() => commitFilters({ minPrice: null, maxPrice: null })}
+                  className="text-muted hover:text-foreground p-0.5"
+                  aria-label="Очистити фільтр ціни"
+                >
+                  <X className="h-3 w-3" />
+                </button>
+              </span>
+            )}
+
+            {/* Search Chip */}
+            {currentSearch && (
+              <span className="inline-flex items-center gap-1 rounded-lg border border-border bg-surface px-2.5 py-1 text-xs font-medium text-foreground">
+                <span>Пошук: «{currentSearch}»</span>
+                <button
+                  type="button"
+                  onClick={() => commitFilters({ search: null })}
+                  className="text-muted hover:text-foreground p-0.5"
+                  aria-label="Очистити пошуковий запит"
+                >
+                  <X className="h-3 w-3" />
+                </button>
+              </span>
+            )}
+
+            {/* Clear All Text Button */}
             <button
               type="button"
               onClick={resetAll}
-              className="flex h-10 w-10 items-center justify-center rounded-xl border border-border bg-surface text-muted shadow-xs hover:text-red-500 hover:border-red-200 transition-colors"
-              title="Скинути всі фільтри"
-              aria-label="Скинути всі фільтри"
+              className="text-[11px] font-semibold text-muted hover:text-red-500 transition-colors ml-2 underline underline-offset-2"
             >
-              <RotateCcw className="h-4 w-4" />
+              Скинути все
             </button>
-          )}
-        </div>
+          </div>
+        )}
       </div>
 
-      {/* Active Filter Badges */}
-      {activeCount > 0 && (
-        <div className="mt-2.5 flex items-center gap-1.5 overflow-x-auto scrollbar-none whitespace-nowrap text-xs pb-0.5 pt-0.5 border-t border-border/60">
-          <span className="text-muted text-[11px] font-bold uppercase tracking-wider mr-1">
-            Обрано ({activeCount}):
-          </span>
-
-          {/* Category Chips */}
-          {selectedCategories.map((cSlug) => {
-            const catObj = meta.categories.find((c) => c.slug.toLowerCase() === cSlug);
-            const catName = catObj ? catObj.name : cSlug;
-            return (
-              <span
-                key={cSlug}
-                className="inline-flex items-center gap-1 rounded-lg border border-primary/40 bg-primary/10 px-2.5 py-1 text-xs font-semibold text-primary"
-              >
-                <span>Категорія: {catName}</span>
-                <button
-                  type="button"
-                  onClick={() => removeActiveFilter('category', cSlug, selectedCategories)}
-                  className="hover:text-foreground p-0.5"
-                  aria-label={`Видалити фільтр категорії ${catName}`}
-                >
-                  <X className="h-3 w-3" />
-                </button>
-              </span>
-            );
-          })}
-
-          {/* Gender Chips */}
-          {selectedGenders.map((g) => (
-            <span
-              key={g}
-              className="inline-flex items-center gap-1 rounded-lg border border-primary/40 bg-primary/10 px-2.5 py-1 text-xs font-semibold text-primary"
-            >
-              <span>Стать: {g === 'men' ? 'Чоловічі' : g === 'women' ? 'Жіночі' : 'Унісекс'}</span>
-              <button
-                type="button"
-                onClick={() => removeActiveFilter('gender', g, selectedGenders)}
-                className="hover:text-foreground p-0.5"
-                aria-label="Видалити фільтр статі"
-              >
-                <X className="h-3 w-3" />
-              </button>
-            </span>
-          ))}
-
-          {/* Size Chips */}
-          {selectedSizes.map((sz) => (
-            <span
-              key={sz}
-              className="inline-flex items-center gap-1 rounded-lg border border-primary/40 bg-primary/10 px-2.5 py-1 text-xs font-semibold text-primary"
-            >
-              <span>Розмір: {sz}</span>
-              <button
-                type="button"
-                onClick={() => removeActiveFilter('size', sz, selectedSizes)}
-                className="hover:text-foreground p-0.5"
-                aria-label={`Видалити фільтр розміру ${sz}`}
-              >
-                <X className="h-3 w-3" />
-              </button>
-            </span>
-          ))}
-
-          {/* Brand Chips */}
-          {selectedBrands.map((bSlug) => {
-            const brandObj = meta.brands.find((b) => b.slug.toLowerCase() === bSlug);
-            const brandName = brandObj ? brandObj.name : bSlug;
-            return (
-              <span
-                key={bSlug}
-                className="inline-flex items-center gap-1 rounded-lg border border-primary/40 bg-primary/10 px-2.5 py-1 text-xs font-semibold text-primary"
-              >
-                <span>Бренд: {brandName}</span>
-                <button
-                  type="button"
-                  onClick={() => removeActiveFilter('brand', bSlug, selectedBrands)}
-                  className="hover:text-foreground p-0.5"
-                  aria-label={`Видалити фільтр бренду ${brandName}`}
-                >
-                  <X className="h-3 w-3" />
-                </button>
-              </span>
-            );
-          })}
-
-          {/* Season Chips */}
-          {selectedSeasons.map((s) => (
-            <span
-              key={s}
-              className="inline-flex items-center gap-1 rounded-lg border border-border bg-surface px-2.5 py-1 text-xs font-medium text-foreground"
-            >
-              <span>Сезон: {s === 'winter' ? 'Зимові' : 'Демісезон'}</span>
-              <button
-                type="button"
-                onClick={() => removeActiveFilter('season', s, selectedSeasons)}
-                className="text-muted hover:text-foreground p-0.5"
-                aria-label="Видалити фільтр сезону"
-              >
-                <X className="h-3 w-3" />
-              </button>
-            </span>
-          ))}
-
-          {/* Price Chip */}
-          {(currentMinPrice || currentMaxPrice) && (
-            <span className="inline-flex items-center gap-1 rounded-lg border border-border bg-surface px-2.5 py-1 text-xs font-medium text-foreground">
-              <span>
-                Ціна: {currentMinPrice ? `від ${currentMinPrice} ₴` : ''}{' '}
-                {currentMaxPrice ? `до ${currentMaxPrice} ₴` : ''}
-              </span>
-              <button
-                type="button"
-                onClick={() => commitFilters({ minPrice: null, maxPrice: null })}
-                className="text-muted hover:text-foreground p-0.5"
-                aria-label="Очистити фільтр ціни"
-              >
-                <X className="h-3 w-3" />
-              </button>
-            </span>
-          )}
-
-          {/* Search Chip */}
-          {currentSearch && (
-            <span className="inline-flex items-center gap-1 rounded-lg border border-border bg-surface px-2.5 py-1 text-xs font-medium text-foreground">
-              <span>Пошук: «{currentSearch}»</span>
-              <button
-                type="button"
-                onClick={() => commitFilters({ search: null })}
-                className="text-muted hover:text-foreground p-0.5"
-                aria-label="Очистити пошуковий запит"
-              >
-                <X className="h-3 w-3" />
-              </button>
-            </span>
-          )}
-
-          {/* Clear All Text Button */}
-          <button
-            type="button"
-            onClick={resetAll}
-            className="text-[11px] font-semibold text-muted hover:text-red-500 transition-colors ml-2 underline underline-offset-2"
-          >
-            Скинути все
-          </button>
-        </div>
-      )}
-
-      {/* Full Modern Filter Drawer */}
-      {isOpenDrawer && (
-        <div className="fixed inset-0 z-50 flex bg-black/60 backdrop-blur-xs transition-opacity animate-in fade-in duration-200">
+      {/* Full Modern Filter Drawer rendered in React Portal to document.body */}
+      {mounted && isOpenDrawer && createPortal(
+        <div className="fixed inset-0 z-50 flex justify-end bg-black/60 backdrop-blur-xs transition-opacity animate-in fade-in duration-200">
           {/* Backdrop click to close */}
-          <div className="flex-1" onClick={() => setIsOpenDrawer(false)} />
+          <div
+            className="fixed inset-0 bg-transparent"
+            onClick={() => setIsOpenDrawer(false)}
+            aria-hidden="true"
+          />
 
           {/* Drawer Content Container */}
-          <div className="flex h-full w-full max-w-md flex-col bg-surface shadow-2xl border-l border-border animate-in slide-in-from-right duration-300">
+          <div className="relative z-10 flex h-full w-full max-w-md flex-col bg-surface shadow-2xl border-l border-border animate-in slide-in-from-right duration-300">
             {/* Drawer Header */}
-            <div className="sticky top-0 z-10 flex items-center justify-between border-b border-border bg-surface/95 px-5 py-4 backdrop-blur-md">
+            <div className="flex h-16 shrink-0 items-center justify-between border-b border-border bg-surface px-5">
               <div>
                 <h3 className="text-base font-black uppercase tracking-tight text-foreground">
                   Фільтри товарів
@@ -807,7 +819,7 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
             </div>
 
             {/* Drawer Fixed Footer */}
-            <div className="sticky bottom-0 z-10 border-t border-border bg-surface/95 px-5 py-4 backdrop-blur-md flex gap-3">
+            <div className="shrink-0 border-t border-border bg-surface-raised px-5 py-4 flex gap-3">
               <button
                 type="button"
                 onClick={() => {
@@ -819,7 +831,7 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
                   setDraftMinPrice('');
                   setDraftMaxPrice('');
                 }}
-                className="flex-1 h-12 rounded-xl border border-border bg-background text-xs font-bold text-muted hover:text-foreground hover:bg-surface-raised transition-colors"
+                className="flex-1 h-12 rounded-xl border border-border bg-background text-xs font-bold text-muted hover:text-foreground hover:bg-surface transition-colors"
               >
                 Скинути все
               </button>
@@ -832,8 +844,9 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
               </button>
             </div>
           </div>
-        </div>
+        </div>,
+        document.body
       )}
-    </div>
+    </>
   );
 }
