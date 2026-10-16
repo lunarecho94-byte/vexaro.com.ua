@@ -308,42 +308,17 @@ export async function getProducts(params: CatalogQueryParams = {}): Promise<Cata
     filtered = [...filtered].sort((a, b) => a.price - b.price);
   } else if (params.sort === 'price_desc') {
     filtered = [...filtered].sort((a, b) => b.price - a.price);
+  } else if (params.sort === 'popular') {
+    // 'popular' -> prioritize top iconic models, then newest
+    filtered = [...filtered].sort((a, b) => {
+      const pA = getProductPriority(a);
+      const pB = getProductPriority(b);
+      if (pB !== pA) return pB - pA;
+      return (Number(b.id) || 0) - (Number(a.id) || 0);
+    });
   } else {
-    // 'newest' (default) or 'popular'
-    const categoryLower = params.category ? params.category.toLowerCase() : '';
-    const genderLower = params.gender ? params.gender.toLowerCase() : '';
-
-    const hasMen = categoryLower.includes('men') || genderLower.includes('men');
-    const hasWomen = categoryLower.includes('women') || genderLower.includes('women');
-
-    const isMenOnly = hasMen && !hasWomen;
-    const isWomenOnly = hasWomen && !hasMen;
-
-    if (isMenOnly) {
-      filtered = [...filtered].sort((a, b) => {
-        const pA = getProductPriority(a);
-        const pB = getProductPriority(b);
-        if (pB !== pA) return pB - pA;
-        const aDed = a.gender === 'men' ? 1 : 0;
-        const bDed = b.gender === 'men' ? 1 : 0;
-        if (bDed !== aDed) return bDed - aDed;
-        return (Number(b.id) || 0) - (Number(a.id) || 0);
-      });
-    } else if (isWomenOnly) {
-      filtered = [...filtered].sort((a, b) => {
-        const aDed = a.gender === 'women' ? 1 : 0;
-        const bDed = b.gender === 'women' ? 1 : 0;
-        if (bDed !== aDed) return bDed - aDed;
-        return (Number(b.id) || 0) - (Number(a.id) || 0);
-      });
-    } else {
-      filtered = [...filtered].sort((a, b) => {
-        const pA = getProductPriority(a);
-        const pB = getProductPriority(b);
-        if (pB !== pA) return pB - pA;
-        return (Number(b.id) || 0) - (Number(a.id) || 0);
-      });
-    }
+    // 'newest' (default) -> strictly newest arrivals first by ID descending
+    filtered = [...filtered].sort((a, b) => (Number(b.id) || 0) - (Number(a.id) || 0));
   }
 
   const total = filtered.length;
