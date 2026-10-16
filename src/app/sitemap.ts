@@ -1,17 +1,17 @@
 import { MetadataRoute } from 'next';
 import fs from 'fs';
 import path from 'path';
-import { Product, CatalogMeta } from '@/types/product';
+import { Product } from '@/types/product';
+import { getCatalogMeta } from '@/lib/products';
 import { SITE_URL } from '@/lib/config';
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const dataDir = path.join(process.cwd(), 'src', 'data');
   const products = JSON.parse(fs.readFileSync(path.join(dataDir, 'products.json'), 'utf-8')) as Product[];
-  const meta = JSON.parse(fs.readFileSync(path.join(dataDir, 'meta.json'), 'utf-8')) as CatalogMeta;
+  const meta = await getCatalogMeta();
   const baseUrl = SITE_URL;
 
   // In-stock products URLs
-  // Rule: "Кількість URL у sitemap.xml дорівнює кількості товарів у продажу"
   const inStockProducts = products.filter((p) => p.inStock);
 
   const productUrls = inStockProducts.map((p) => ({
@@ -21,8 +21,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.8,
   }));
 
-  const categoryUrls = meta.categories.map((c) => ({
-    url: `${baseUrl}/category/${c.slug}`,
+  const categorySlugs = new Set(['shoes', ...meta.categories.map((c) => c.slug)]);
+
+  const categoryUrls = Array.from(categorySlugs).map((slug) => ({
+    url: `${baseUrl}/category/${slug}`,
     lastModified: new Date(),
     changeFrequency: 'daily' as const,
     priority: 0.9,

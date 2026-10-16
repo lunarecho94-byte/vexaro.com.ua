@@ -37,13 +37,12 @@ export function CartDrawer() {
   const totalAmount = getTotalAmount();
 
   return (
-    <div className="fixed inset-0 z-50 flex bg-black/70 backdrop-blur-sm">
-      <div
-        className="fixed inset-0"
-        onClick={closeCart}
-        aria-hidden="true"
-      />
-
+    <div
+      className="fixed inset-0 z-50 flex bg-black/70 backdrop-blur-sm"
+      onClick={(e) => {
+        if (e.target === e.currentTarget) closeCart();
+      }}
+    >
       <div className="relative ml-auto flex h-full w-full max-w-md flex-col bg-surface shadow-2xl border-l border-border">
         {/* Drawer Header */}
         <div className="flex h-16 items-center justify-between border-b border-border px-5">

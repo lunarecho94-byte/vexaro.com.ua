@@ -29,8 +29,10 @@ export function Header() {
     e.preventDefault();
     if (searchQuery.trim()) {
       router.push(`/?search=${encodeURIComponent(searchQuery.trim())}`);
+      router.refresh();
     } else {
       router.push('/');
+      router.refresh();
     }
     setIsSearchOpen(false);
   };
