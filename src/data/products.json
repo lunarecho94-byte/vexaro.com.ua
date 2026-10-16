@@ -8715,7 +8715,6 @@
     "sizes": [
       "41",
       "42",
-      "43",
       "44",
       "45"
     ],
@@ -14488,9 +14487,9 @@
     "genderName": "Чоловічі",
     "season": "winter",
     "seasonName": "Зима",
-    "price": 2990,
-    "oldPrice": 3528,
-    "costPrice": 2400,
+    "price": 3090,
+    "oldPrice": 3646,
+    "costPrice": 2500,
     "sku": "3182",
     "material": "Текстиль, замша",
     "country": "В'єтнам",
@@ -14509,7 +14508,7 @@
     "description": "Модель: Asics Gel-NYC | Gore-Tex | (термо). Артикул: 3182. Матеріал: Текстиль, замша. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
     "seo": {
       "title": "Asics Gel-NYC | Gore-Tex | (термо) (арт. 3182) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Asics Gel-NYC | Gore-Tex | (термо) (арт. 3182) за 2990 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+      "description": "Замовляйте Asics Gel-NYC | Gore-Tex | (термо) (арт. 3182) за 3090 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -15247,8 +15246,7 @@
     "sizes": [
       "40",
       "41",
-      "42",
-      "44"
+      "42"
     ],
     "inStock": true,
     "images": [
@@ -15506,39 +15504,6 @@
     "seo": {
       "title": "Nike Air Max 95 \"Black Grey\" (арт. N00363) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Nike Air Max 95 \"Black Grey\" (арт. N00363) за 3090 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "250504",
-    "slug": "salomon-xt-6-gore-tex-black-grey-sa004",
-    "name": "Salomon XT-6 Gore-Tex Black Grey",
-    "brand": "Salomon",
-    "brandSlug": "salomon",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 2990,
-    "oldPrice": 3528,
-    "costPrice": 2400,
-    "sku": "SA004",
-    "material": "Текстиль",
-    "country": "-",
-    "sizes": [
-      "36",
-      "37",
-      "40"
-    ],
-    "inStock": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/3e6c3c0c-254c-4083-be34-fd8dd00a8b36.jpeg"
-    ],
-    "description": "Модель: Salomon XT-6 Gore-Tex Black Grey. Артикул: SA004. Матеріал: Текстиль. Сезон: Демісезон. Виробництво: -. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Salomon XT-6 Gore-Tex Black Grey (арт. SA004) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Salomon XT-6 Gore-Tex Black Grey (арт. SA004) за 2990 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -16323,8 +16288,7 @@
       "41",
       "42",
       "43",
-      "44",
-      "45"
+      "44"
     ],
     "inStock": true,
     "images": [
@@ -16358,7 +16322,6 @@
       "36",
       "37",
       "38",
-      "39",
       "40",
       "41",
       "42",
@@ -17261,8 +17224,7 @@
       "41",
       "42",
       "43",
-      "44",
-      "45"
+      "44"
     ],
     "inStock": true,
     "images": [
@@ -20677,6 +20639,44 @@
     "seo": {
       "title": "Nike V2K Run Summery Florals HJ5269-600 (арт. 2042) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Nike V2K Run Summery Florals HJ5269-600 (арт. 2042) за 2640 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "249166",
+    "slug": "nike-dunk-low-khaki-leopard-7240",
+    "name": "Nike Dunk Low \"Khaki Leopard \"",
+    "brand": "Nike",
+    "brandSlug": "nike",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 3090,
+    "oldPrice": 3646,
+    "costPrice": 2500,
+    "sku": "7240",
+    "material": "замша",
+    "country": "В'єтнам",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "inStock": true,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/55598e45-6fa1-44a9-b5df-4cff0dba0259.jpg",
+      "https://easydrop.one/media/uploads/images/base/e080470f-7c8b-430a-83aa-9154de42f526.jpg",
+      "https://easydrop.one/media/uploads/images/base/a13f7693-220f-4f47-a04a-3e9d8fcc9653.jpg",
+      "https://easydrop.one/media/uploads/images/base/3f397b66-8efc-40e0-a830-6f756e27dad3.jpg"
+    ],
+    "description": "Модель: Nike Dunk Low \"Khaki Leopard \". Артикул: 7240. Матеріал: замша. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Nike Dunk Low \"Khaki Leopard \" (арт. 7240) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Nike Dunk Low \"Khaki Leopard \" (арт. 7240) за 3090 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -24383,7 +24383,6 @@
     "material": "Текстиль / комбінований",
     "country": "В'єтнам",
     "sizes": [
-      "38",
       "39",
       "40",
       "41"
@@ -31593,7 +31592,6 @@
       "38",
       "41",
       "42",
-      "43",
       "44",
       "45"
     ],
@@ -35185,8 +35183,7 @@
       "41",
       "43",
       "44",
-      "45",
-      "46"
+      "45"
     ],
     "inStock": true,
     "images": [
@@ -35357,7 +35354,6 @@
     "country": "В'єтнам",
     "sizes": [
       "41",
-      "42",
       "43",
       "44",
       "45",
@@ -36307,8 +36303,7 @@
       "41",
       "42",
       "43",
-      "44",
-      "45"
+      "44"
     ],
     "inStock": true,
     "images": [
@@ -48353,7 +48348,6 @@
     "material": "Шкіра, текстиль",
     "country": "-",
     "sizes": [
-      "37",
       "38",
       "39",
       "40"
@@ -48984,8 +48978,7 @@
       "37",
       "38",
       "39",
-      "41",
-      "44"
+      "41"
     ],
     "inStock": true,
     "images": [
@@ -50029,39 +50022,6 @@
     "seo": {
       "title": "New Balance 204L Timberwolf Linen (арт. N4180) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте New Balance 204L Timberwolf Linen (арт. N4180) за 3090 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "232119",
-    "slug": "nike-air-max-moto-2k-ntr740",
-    "name": "Nike AIR MAX MOTO 2K",
-    "brand": "Nike",
-    "brandSlug": "nike",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 2540,
-    "oldPrice": 2997,
-    "costPrice": 1950,
-    "sku": "NTR740",
-    "material": "Шкіра, вентилюємий текстиль, піна, гума",
-    "country": "В'єтнам",
-    "sizes": [
-      "41",
-      "44",
-      "45"
-    ],
-    "inStock": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/76879a3b-0267-4d60-902e-9cf43cba850d.jpg"
-    ],
-    "description": "Модель: Nike AIR MAX MOTO 2K. Артикул: NTR740. Матеріал: Шкіра, вентилюємий текстиль, піна, гума. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Nike AIR MAX MOTO 2K (арт. NTR740) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Nike AIR MAX MOTO 2K (арт. NTR740) за 2540 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -52587,39 +52547,6 @@
     "seo": {
       "title": "Nike Dunk Low Suede Rose (арт. #art1841) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Nike Dunk Low Suede Rose (арт. #art1841) за 2790 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "230768",
-    "slug": "nike-dunk-low-lx-black-white-art1840",
-    "name": "Nike Dunk Low LX \"Black White\"",
-    "brand": "Nike",
-    "brandSlug": "nike",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 2990,
-    "oldPrice": 3528,
-    "costPrice": 2400,
-    "sku": "#art1840",
-    "material": "Шкіра",
-    "country": "В'єтнам",
-    "sizes": [
-      "37",
-      "38",
-      "40"
-    ],
-    "inStock": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/38f8cc50-ee90-4acc-800f-69a0f22e0b71.jpg"
-    ],
-    "description": "Модель: Nike Dunk Low LX \"Black White\". Артикул: #art1840. Матеріал: Шкіра. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Nike Dunk Low LX \"Black White\" (арт. #art1840) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Nike Dunk Low LX \"Black White\" (арт. #art1840) за 2990 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -67095,7 +67022,6 @@
     "material": "Шкіра",
     "country": "Китай",
     "sizes": [
-      "36",
       "37",
       "38",
       "39",
@@ -68067,7 +67993,6 @@
       "40",
       "41",
       "42",
-      "43",
       "45"
     ],
     "inStock": true,
@@ -85172,7 +85097,6 @@
     "country": "В'єтнам",
     "sizes": [
       "36",
-      "39",
       "40",
       "44",
       "45"
@@ -88796,7 +88720,6 @@
     "sizes": [
       "38",
       "42",
-      "43",
       "45"
     ],
     "inStock": true,
@@ -99903,39 +99826,6 @@
     }
   },
   {
-    "id": "196705",
-    "slug": "2588-ugg-classic-mini-dipper-2588",
-    "name": "2588 UGG Classic Mini Dipper",
-    "brand": "UGG",
-    "brandSlug": "ugg",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 3790,
-    "oldPrice": 4472,
-    "costPrice": 3200,
-    "sku": "2588",
-    "material": "Замша, овчина",
-    "country": "В'єтнам",
-    "sizes": [
-      "36",
-      "38",
-      "41"
-    ],
-    "inStock": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/d9f4ed11-9ef8-49c8-bc01-ac34671f47a3.jpg"
-    ],
-    "description": "Модель: 2588 UGG Classic Mini Dipper. Артикул: 2588. Матеріал: Замша, овчина. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "2588 UGG Classic Mini Dipper (арт. 2588) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте 2588 UGG Classic Mini Dipper (арт. 2588) за 3790 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "196703",
     "slug": "2587-ugg-funkarra-2587",
     "name": "2587 UGG Funkarra",
@@ -108811,8 +108701,7 @@
     "sizes": [
       "41",
       "42",
-      "43",
-      "44"
+      "43"
     ],
     "inStock": true,
     "images": [
@@ -110591,7 +110480,6 @@
     "country": "В'єтнам",
     "sizes": [
       "41",
-      "42",
       "44",
       "45"
     ],
@@ -127124,39 +127012,6 @@
     "seo": {
       "title": "Nike V2K Runtekk \"Beige\" (арт. 0925) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Nike V2K Runtekk \"Beige\" (арт. 0925) за 2689 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "174682",
-    "slug": "nike-p-6000-light-iron-grey-1206",
-    "name": "Nike P-6000 Light Iron Grey",
-    "brand": "Nike",
-    "brandSlug": "nike",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "unisex",
-    "genderName": "Унісекс",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 2590,
-    "oldPrice": 3056,
-    "costPrice": 2000,
-    "sku": "1206",
-    "material": "Текстиль / комбінований",
-    "country": "В'єтнам",
-    "sizes": [
-      "38",
-      "39",
-      "42"
-    ],
-    "inStock": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/829266f3-65df-4604-9b6f-8c9130effbf7.jpg"
-    ],
-    "description": "Модель: Nike P-6000 Light Iron Grey. Артикул: 1206. Матеріал: Текстиль / комбінований. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Nike P-6000 Light Iron Grey (арт. 1206) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Nike P-6000 Light Iron Grey (арт. 1206) за 2590 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -144038,7 +143893,6 @@
     "sizes": [
       "37",
       "38",
-      "39",
       "41",
       "42",
       "43",
@@ -148284,40 +148138,6 @@
     }
   },
   {
-    "id": "147473",
-    "slug": "salomon-solomon-xt-6-soft-ground-black-silver-gore-tex-termo-0231",
-    "name": "Salomon Solomon XT-6 Soft Ground \"Black Silver\"Gore-Tex - (термо)",
-    "brand": "Salomon",
-    "brandSlug": "salomon",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 3280,
-    "oldPrice": 3870,
-    "costPrice": 2690,
-    "sku": "0231",
-    "material": "Мембрана+Текстиль",
-    "country": "В'єтнам",
-    "sizes": [
-      "41",
-      "42",
-      "43"
-    ],
-    "inStock": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/646b352a-29da-40a8-b74b-671b24271f99.jpg",
-      "https://easydrop.one/media/uploads/images/base/4914a652-b004-4d68-9824-a43adcca0b3b.jpg"
-    ],
-    "description": "Модель: Salomon Solomon XT-6 Soft Ground \"Black Silver\"Gore-Tex - (термо). Артикул: 0231. Матеріал: Мембрана+Текстиль. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Salomon Solomon XT-6 Soft Ground \"Black Silver\"Gore-Tex - (термо) (арт. 0231) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Salomon Solomon XT-6 Soft Ground \"Black Silver\"Gore-Tex - (термо) (арт. 0231) за 3280 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "147320",
     "slug": "salomon-xt-6-brown-gore-tex-0497",
     "name": "Salomon XT-6 Brown Gore-Tex",
@@ -151336,7 +151156,6 @@
     "sizes": [
       "36",
       "42",
-      "43",
       "44"
     ],
     "inStock": true,
@@ -152853,7 +152672,6 @@
     "country": "В'єтнам",
     "sizes": [
       "41",
-      "42",
       "43",
       "44"
     ],
@@ -154156,39 +153974,6 @@
     }
   },
   {
-    "id": "130819",
-    "slug": "nike-air-max-95-sp-corteiz-pink-1928",
-    "name": "Nike Air Max 95 SP Corteiz \"Pink\"",
-    "brand": "Nike",
-    "brandSlug": "nike",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 3090,
-    "oldPrice": 3646,
-    "costPrice": 2500,
-    "sku": "1928",
-    "material": "Кожа , Текстиль",
-    "country": "В'єтнам",
-    "sizes": [
-      "43",
-      "44",
-      "45"
-    ],
-    "inStock": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/73b34508-e8f2-42f5-98f9-e548c9ef75ed.jpeg"
-    ],
-    "description": "Модель: Nike Air Max 95 SP Corteiz \"Pink\". Артикул: 1928. Матеріал: Кожа , Текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Nike Air Max 95 SP Corteiz \"Pink\" (арт. 1928) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Nike Air Max 95 SP Corteiz \"Pink\" (арт. 1928) за 3090 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "130818",
     "slug": "nike-air-max-95-sp-corteiz-gutta-green-haki-1891",
     "name": "Nike Air Max 95 SP Corteiz Gutta Green Haki",
@@ -154557,7 +154342,6 @@
     "country": "В'єтнам",
     "sizes": [
       "41",
-      "42",
       "43",
       "44"
     ],
@@ -158202,7 +157986,9 @@
       "40",
       "41",
       "42",
-      "43"
+      "43",
+      "45",
+      "46"
     ],
     "inStock": true,
     "images": [
@@ -158912,7 +158698,6 @@
     "sizes": [
       "41",
       "42",
-      "43",
       "44"
     ],
     "inStock": true,
@@ -173040,7 +172825,6 @@
       "37",
       "38",
       "39",
-      "40",
       "41"
     ],
     "inStock": true,
@@ -174696,7 +174480,6 @@
     "material": "Замша,текстиль",
     "country": "-",
     "sizes": [
-      "37",
       "39",
       "41",
       "42",
@@ -201307,7 +201090,9 @@
       "41",
       "42",
       "43",
-      "44"
+      "44",
+      "45",
+      "46"
     ],
     "inStock": true,
     "images": [
@@ -201347,7 +201132,8 @@
       "42",
       "43",
       "44",
-      "45"
+      "45",
+      "46"
     ],
     "inStock": true,
     "images": [
