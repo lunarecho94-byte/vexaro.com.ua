@@ -8,6 +8,9 @@ import { Pagination } from '@/components/Pagination';
 import { EmptyState } from '@/components/EmptyState';
 import { SITE_URL } from '@/lib/config';
 
+export const dynamic = 'force-dynamic';
+export const revalidate = 0;
+
 interface PageProps {
   searchParams: {
     page?: string;

@@ -141,6 +141,7 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
       const targetPath = pathname?.startsWith('/category/') ? '/' : (pathname || '/');
       const targetUrl = queryString ? `${targetPath}?${queryString}` : targetPath;
       router.push(targetUrl, { scroll: false });
+      router.refresh();
     });
   };
 
@@ -175,6 +176,7 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
   const resetAll = () => {
     startTransition(() => {
       router.push('/', { scroll: false });
+      router.refresh();
     });
     setIsOpenDrawer(false);
   };
@@ -420,14 +422,14 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
 
       {/* Full Modern Filter Drawer rendered in React Portal to document.body */}
       {mounted && isOpenDrawer && createPortal(
-        <div className="fixed inset-0 z-50 flex justify-end bg-black/60 backdrop-blur-xs transition-opacity animate-in fade-in duration-200">
-          {/* Backdrop click to close */}
-          <div
-            className="fixed inset-0 bg-transparent"
-            onClick={() => setIsOpenDrawer(false)}
-            aria-hidden="true"
-          />
-
+        <div
+          className="fixed inset-0 z-50 flex justify-end bg-black/60 backdrop-blur-xs transition-opacity animate-in fade-in duration-200"
+          onClick={(e) => {
+            if (e.target === e.currentTarget) {
+              setIsOpenDrawer(false);
+            }
+          }}
+        >
           {/* Drawer Content Container */}
           <div className="relative z-10 flex h-full w-full max-w-md flex-col bg-surface shadow-2xl border-l border-border animate-in slide-in-from-right duration-300">
             {/* Drawer Header */}
