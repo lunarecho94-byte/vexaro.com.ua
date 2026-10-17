@@ -88,7 +88,7 @@ export function ProductGallery({ images, productName }: ProductGalleryProps) {
           fill
           priority
           sizes="(max-width: 768px) 100vw, 50vw"
-          className="object-contain object-center cursor-zoom-in transition-transform duration-300 group-hover:scale-[1.02] p-2 sm:p-4"
+          className="object-cover object-center cursor-zoom-in transition-transform duration-300 group-hover:scale-[1.02]"
           onClick={() => setIsLightboxOpen(true)}
           onError={() => handleImageError(currentImage)}
         />
