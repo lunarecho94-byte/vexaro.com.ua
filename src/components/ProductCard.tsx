@@ -117,7 +117,7 @@ export function ProductCard({ product, priority = false }: ProductCardProps) {
             fill
             sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
             priority={priority}
-            className="object-contain object-center group-hover:scale-105 transition-transform duration-300 p-2"
+            className="object-cover object-center group-hover:scale-105 transition-transform duration-300"
             onError={() => {
               if (imageIndex + 1 < imagesList.length) {
                 setImageIndex(imageIndex + 1);
