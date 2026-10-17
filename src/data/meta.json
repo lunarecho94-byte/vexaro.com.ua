@@ -1,15 +1,15 @@
 {
-  "total": 5755,
+  "total": 5748,
   "brands": [
     {
       "name": "Nike",
       "slug": "nike",
-      "count": 2070
+      "count": 2067
     },
     {
       "name": "New Balance",
       "slug": "newbalance",
-      "count": 1337
+      "count": 1333
     },
     {
       "name": "Adidas",
@@ -24,7 +24,7 @@
     {
       "name": "UGG",
       "slug": "ugg",
-      "count": 323
+      "count": 324
     },
     {
       "name": "Інші бренди",
@@ -34,7 +34,7 @@
     {
       "name": "Salomon",
       "slug": "salomon",
-      "count": 125
+      "count": 124
     },
     {
       "name": "Air Jordan",
@@ -206,36 +206,36 @@
     {
       "name": "Взуття",
       "slug": "shoes",
-      "count": 5755
+      "count": 5748
     }
   ],
   "genders": [
     {
       "name": "Унісекс",
       "slug": "unisex",
-      "count": 2968
+      "count": 2961
     },
     {
       "name": "Жіночі",
       "slug": "women",
-      "count": 1482
+      "count": 1484
     },
     {
       "name": "Чоловічі",
       "slug": "men",
-      "count": 1305
+      "count": 1303
     }
   ],
   "seasons": [
     {
       "name": "Демісезон",
       "slug": "demi",
-      "count": 5233
+      "count": 5225
     },
     {
       "name": "Зима",
       "slug": "winter",
-      "count": 522
+      "count": 523
     }
   ],
   "sizes": [
@@ -259,16 +259,16 @@
     "48",
     "49",
     "50",
-    "L",
     "XL",
-    "40 2/3",
-    "S",
-    "44(світліші)",
-    "M",
     "40–41",
+    "40 2/3",
+    "44(світліші)",
     "43(світліші)",
+    "S",
     "45/46",
-    "42 2/3"
+    "42 2/3",
+    "L",
+    "M"
   ],
   "minPrice": 985,
   "maxPrice": 11696
