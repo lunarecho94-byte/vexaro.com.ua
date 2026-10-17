@@ -78,7 +78,7 @@ export function ProductGallery({ images, productName }: ProductGalleryProps) {
     <div className="flex flex-col gap-3.5">
       {/* Main Large Image Box */}
       <div
-        className="group relative aspect-square w-full overflow-hidden rounded-2xl border border-border bg-[#f6f6f6] select-none"
+        className="group relative aspect-square w-full overflow-hidden rounded-2xl border border-border bg-white select-none"
         onTouchStart={onTouchStart}
         onTouchEnd={onTouchEnd}
       >
@@ -166,7 +166,7 @@ export function ProductGallery({ images, productName }: ProductGalleryProps) {
               key={`${img}-${idx}`}
               type="button"
               onClick={() => setActiveIdx(idx)}
-              className={`relative h-20 w-20 shrink-0 overflow-hidden rounded-xl border-2 transition-all ${
+              className={`relative h-20 w-20 shrink-0 overflow-hidden rounded-xl border-2 bg-white transition-all ${
                 activeIdx === idx
                   ? 'border-primary ring-2 ring-primary/40 scale-[1.02]'
                   : 'border-border/80 opacity-70 hover:opacity-100 hover:border-border'

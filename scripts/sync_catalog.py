@@ -25,6 +25,7 @@ from collections import defaultdict, Counter
 PROJECT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC_DATA_DIR = os.path.join(PROJECT_DIR, 'src', 'data')
 LOCAL_FEED_DIR = os.path.join(PROJECT_DIR, 'data')
+PUBLIC_DIR = os.path.join(PROJECT_DIR, 'public')
 EXPORT_FILE = os.path.join(LOCAL_FEED_DIR, 'easydrop_export.xml')
 FALLBACK_FEED = '/Users/mac/.gemini/antigravity/scratch/streetwear-dropship-ua/easydrop_export.xml'
 
@@ -752,6 +753,14 @@ def main():
         if slug in slug_set:
             slug = f"{slug}-{gid}"
         slug_set.add(slug)
+
+        # Check if high-quality local images exist for this slug
+        local_prod_dir = os.path.join(PUBLIC_DIR, 'images', 'products', slug)
+        if os.path.isdir(local_prod_dir):
+            local_files = sorted(os.listdir(local_prod_dir))
+            local_imgs = [f'/images/products/{slug}/{fn}' for fn in local_files if fn.endswith(('.jpg', '.jpeg', '.webp', '.png'))]
+            if local_imgs:
+                imgs = local_imgs
 
         material_str = mat if mat else "Текстиль / комбінований"
         country_str = origin if origin else "В'єтнам"

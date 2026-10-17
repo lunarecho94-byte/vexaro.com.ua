@@ -106,7 +106,7 @@ export function ProductCard({ product, priority = false }: ProductCardProps) {
       >
         {/* Image Area with Gallery Controls */}
         <div
-          className="relative aspect-square w-full overflow-hidden bg-[#f6f6f6] select-none"
+          className="relative aspect-square w-full overflow-hidden bg-white select-none border-b border-border/40"
           onTouchStart={handleTouchStart}
           onTouchMove={handleTouchMove}
           onTouchEnd={handleTouchEnd}
