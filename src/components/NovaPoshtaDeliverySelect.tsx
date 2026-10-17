@@ -76,6 +76,7 @@ export function NovaPoshtaDeliverySelect({
         setSelectedCityRef(quick.cityRef);
       }
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [city]);
 
   // Click outside listener
@@ -117,7 +118,7 @@ export function NovaPoshtaDeliverySelect({
 
   // Fetch all warehouses for the active city
   useEffect(() => {
-    const activeCityName = citySearch || city;
+    const activeCityName = city;
     if (manualMode || (!selectedCityRef && !activeCityName)) {
       setAllCityWarehouses([]);
       return;
@@ -153,7 +154,7 @@ export function NovaPoshtaDeliverySelect({
   // Server-side search: big cities have >1000 points, so the preloaded list is incomplete.
   const [serverMatches, setServerMatches] = useState<WarehouseItem[]>([]);
   useEffect(() => {
-    const activeCityName = citySearch || city;
+    const activeCityName = city;
     const q = warehouseSearch.trim();
     if (manualMode || !q || (!selectedCityRef && !activeCityName)) {
       setServerMatches([]);

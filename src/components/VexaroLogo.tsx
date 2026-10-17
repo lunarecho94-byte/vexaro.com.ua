@@ -26,9 +26,11 @@ export function VexaroLogo({
             animated ? 'animate-vexaro-glow group-hover:scale-110' : ''
           }`}
         >
-          <img
+          <Image
             src="/images/vexaro-emblem.png"
             alt="VEXARO Emblem"
+            width={40}
+            height={40}
             className="h-10 w-10 object-contain drop-shadow-[0_0_8px_rgba(163,230,53,0.5)]"
           />
         </div>
@@ -47,9 +49,11 @@ export function VexaroLogo({
             animated ? 'animate-vexaro-glow group-hover:scale-105' : ''
           }`}
         >
-          <img
+          <Image
             src="/images/vexaro-full.png"
             alt="VEXARO Logo"
+            width={240}
+            height={80}
             className="h-20 w-auto object-contain drop-shadow-[0_0_12px_rgba(163,230,53,0.4)]"
           />
           {animated && (
@@ -66,9 +70,11 @@ export function VexaroLogo({
         {/* Animated emblem */}
         <div className="relative">
           <div className="absolute -inset-1 rounded-full bg-lime-400/15 blur-sm opacity-70 group-hover:opacity-100 transition-opacity" />
-          <img
+          <Image
             src="/images/vexaro-emblem.png"
             alt="VEXARO"
+            width={36}
+            height={36}
             className="relative h-9 w-9 object-contain drop-shadow-[0_0_8px_rgba(163,230,53,0.4)] transition-transform duration-300 group-hover:scale-110 group-hover:rotate-6"
           />
         </div>
@@ -101,9 +107,12 @@ export function VexaroLogo({
             animated ? 'animate-vexaro-glow group-hover:scale-110 group-hover:-rotate-3' : ''
           }`}
         >
-          <img
+          <Image
             src="/images/vexaro-emblem.png"
             alt="VEXARO"
+            width={40}
+            height={40}
+            priority
             className="h-7 w-7 sm:h-9 sm:w-9 md:h-10 md:w-10 object-contain drop-shadow-[0_0_8px_rgba(163,230,53,0.55)]"
           />
         </div>
