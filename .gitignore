@@ -37,6 +37,7 @@ next-env.d.ts
 *.xml
 scripts/*.log
 scripts/*.tmp
+*.dylib
 
 scratch/
 scripts/.sync_daemon.pid
