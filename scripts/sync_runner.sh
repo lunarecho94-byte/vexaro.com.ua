@@ -34,6 +34,10 @@ if [ -n "$CHANGED_FILES" ]; then
     GIT_TERMINAL_PROMPT=0 git push origin main >> "$LOG_FILE" 2>&1 || echo "[$TIMESTAMP] Warning: git push queued for next network sync cycle" >> "$LOG_FILE"
 
     echo "[$TIMESTAMP] Successfully synchronized footwear. Vercel deployment triggered." >> "$LOG_FILE"
+
+    # Auto-publish newly added products to Telegram channel @vexaro_ua
+    echo "[$TIMESTAMP] Auto-publishing newly loaded products to Telegram channel @vexaro_ua..." >> "$LOG_FILE"
+    python3 "$PROJECT_DIR/scripts/post_to_telegram.py" 25 >> "$LOG_FILE" 2>&1 || echo "[$TIMESTAMP] Warning: Telegram publish encountered an error" >> "$LOG_FILE"
 else
     echo "[$TIMESTAMP] No changes in footwear stock. Catalog is up to date." >> "$LOG_FILE"
 fi
