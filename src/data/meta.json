@@ -1,10 +1,10 @@
 {
-  "total": 5791,
+  "total": 5782,
   "brands": [
     {
       "name": "Nike",
       "slug": "nike",
-      "count": 2085
+      "count": 2080
     },
     {
       "name": "New Balance",
@@ -14,12 +14,12 @@
     {
       "name": "Adidas",
       "slug": "adidas",
-      "count": 513
+      "count": 514
     },
     {
       "name": "Asics",
       "slug": "asics",
-      "count": 423
+      "count": 421
     },
     {
       "name": "UGG",
@@ -34,27 +34,27 @@
     {
       "name": "Salomon",
       "slug": "salomon",
-      "count": 137
+      "count": 136
     },
     {
       "name": "Air Jordan",
       "slug": "jordan",
-      "count": 121
+      "count": 120
     },
     {
       "name": "On Cloud",
       "slug": "oncloud",
-      "count": 91
+      "count": 92
     },
     {
       "name": "Balenciaga",
       "slug": "balenciaga",
-      "count": 85
+      "count": 86
     },
     {
       "name": "Off-White",
       "slug": "offwhite",
-      "count": 55
+      "count": 56
     },
     {
       "name": "Golden Goose",
@@ -64,12 +64,12 @@
     {
       "name": "Premiata",
       "slug": "premiata",
-      "count": 54
+      "count": 52
     },
     {
       "name": "Puma",
       "slug": "puma",
-      "count": 43
+      "count": 42
     },
     {
       "name": "Dior",
@@ -79,12 +79,12 @@
     {
       "name": "Vans",
       "slug": "vans",
-      "count": 30
+      "count": 29
     },
     {
       "name": "The North Face",
       "slug": "tnf",
-      "count": 27
+      "count": 26
     },
     {
       "name": "Alo Yoga",
@@ -94,7 +94,7 @@
     {
       "name": "Louis Vuitton",
       "slug": "louisvuitton",
-      "count": 22
+      "count": 21
     },
     {
       "name": "Alexander McQueen",
@@ -147,6 +147,11 @@
       "count": 7
     },
     {
+      "name": "Columbia",
+      "slug": "columbia",
+      "count": 7
+    },
+    {
       "name": "Reebok",
       "slug": "reebok",
       "count": 7
@@ -160,11 +165,6 @@
       "name": "Under Armour",
       "slug": "underarmour",
       "count": 6
-    },
-    {
-      "name": "Columbia",
-      "slug": "columbia",
-      "count": 5
     },
     {
       "name": "Prada",
@@ -206,36 +206,36 @@
     {
       "name": "Взуття",
       "slug": "shoes",
-      "count": 5791
+      "count": 5782
     }
   ],
   "genders": [
     {
       "name": "Унісекс",
       "slug": "unisex",
-      "count": 2999
+      "count": 2994
     },
     {
       "name": "Жіночі",
       "slug": "women",
-      "count": 1471
+      "count": 1473
     },
     {
       "name": "Чоловічі",
       "slug": "men",
-      "count": 1321
+      "count": 1315
     }
   ],
   "seasons": [
     {
       "name": "Демісезон",
       "slug": "demi",
-      "count": 5259
+      "count": 5253
     },
     {
       "name": "Зима",
       "slug": "winter",
-      "count": 532
+      "count": 529
     }
   ],
   "sizes": [
@@ -259,16 +259,16 @@
     "48",
     "49",
     "50",
-    "40–41",
-    "S",
     "44(світліші)",
-    "43(світліші)",
     "XL",
     "45/46",
-    "M",
-    "L",
+    "42 2/3",
+    "40–41",
     "40 2/3",
-    "42 2/3"
+    "S",
+    "43(світліші)",
+    "M",
+    "L"
   ],
   "minPrice": 964,
   "maxPrice": 11675
