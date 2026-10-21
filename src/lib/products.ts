@@ -303,22 +303,34 @@ export async function getProducts(params: CatalogQueryParams = {}): Promise<Cata
     );
   }
 
+  // Pinned products permanently pinned at top by store owner request
+  const PINNED_SKUS = ['N1780'];
+  const isPinned = (p: Product) => PINNED_SKUS.includes((p.sku || '').trim().toUpperCase());
+
   // Sorting:
   if (params.sort === 'price_asc') {
     filtered = [...filtered].sort((a, b) => a.price - b.price);
   } else if (params.sort === 'price_desc') {
     filtered = [...filtered].sort((a, b) => b.price - a.price);
   } else if (params.sort === 'popular') {
-    // 'popular' -> prioritize top iconic models, then newest
+    // 'popular' -> pinned items first, then prioritize top iconic models, then newest
     filtered = [...filtered].sort((a, b) => {
+      const pinA = isPinned(a) ? 1 : 0;
+      const pinB = isPinned(b) ? 1 : 0;
+      if (pinB !== pinA) return pinB - pinA;
       const pA = getProductPriority(a);
       const pB = getProductPriority(b);
       if (pB !== pA) return pB - pA;
       return (Number(b.id) || 0) - (Number(a.id) || 0);
     });
   } else {
-    // 'newest' (default) -> strictly newest arrivals first by ID descending
-    filtered = [...filtered].sort((a, b) => (Number(b.id) || 0) - (Number(a.id) || 0));
+    // 'newest' (default) -> pinned items first, then newest arrivals by ID descending
+    filtered = [...filtered].sort((a, b) => {
+      const pinA = isPinned(a) ? 1 : 0;
+      const pinB = isPinned(b) ? 1 : 0;
+      if (pinB !== pinA) return pinB - pinA;
+      return (Number(b.id) || 0) - (Number(a.id) || 0);
+    });
   }
 
   const total = filtered.length;

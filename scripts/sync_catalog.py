@@ -872,9 +872,15 @@ def main():
         'maxPrice': int(max_price)
     }
 
-    # Sort: newest arrivals first by product ID descending
+    # Pinned products permanently pinned at top by store owner request
+    PINNED_SKUS = {'N1780'}
+
+    # Sort: pinned products first, then newest arrivals by product ID descending
     def sort_key(p):
-        return int(p['id']) if str(p.get('id', '')).isdigit() else 0
+        sku = str(p.get('sku', '')).strip().upper()
+        is_pinned = 1 if sku in PINNED_SKUS else 0
+        pid = int(p['id']) if str(p.get('id', '')).isdigit() else 0
+        return (is_pinned, pid)
 
     products.sort(key=sort_key, reverse=True)
 
