@@ -249,8 +249,8 @@ CURATED_PRODUCTS = [
         'genderName': 'Чоловічі',
         'season': 'demi',
         'seasonName': 'Демісезон',
-        'price': 2564,
-        'oldPrice': 3026,
+        'price': 2560,
+        'oldPrice': 3021,
         'costPrice': 2000,
         'sku': 'А5689',
         'material': 'Шкіра, текстиль',
@@ -275,7 +275,7 @@ CURATED_PRODUCTS = [
         ),
         'seo': {
             'title': 'Nike Air Max Plus Tn Black Teal Yellow (арт. А5689) — купити в інтернет-магазині VEXARO',
-            'description': 'Замовляйте Nike Air Max Plus Tn Black Teal Yellow (арт. А5689) за 2564 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж).'
+            'description': 'Замовляйте Nike Air Max Plus Tn Black Teal Yellow (арт. А5689) за 2560 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж).'
         }
     },
     {
@@ -290,8 +290,8 @@ CURATED_PRODUCTS = [
         'genderName': 'Чоловічі',
         'season': 'demi',
         'seasonName': 'Демісезон',
-        'price': 2514,
-        'oldPrice': 2967,
+        'price': 2510,
+        'oldPrice': 2962,
         'costPrice': 1950,
         'sku': '2002',
         'material': 'Текстиль, шкіра, 3M рефлектив',
@@ -318,7 +318,7 @@ CURATED_PRODUCTS = [
         ),
         'seo': {
             'title': 'Nike Air Max Plus TN Lace Toggle White Black (арт. 2002) — купити в інтернет-магазині VEXARO',
-            'description': 'Замовляйте кросівки Nike Air Max Plus TN Lace Toggle White Black (арт. 2002 / FD0799-001) за 2514 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж).'
+            'description': 'Замовляйте кросівки Nike Air Max Plus TN Lace Toggle White Black (арт. 2002 / FD0799-001) за 2510 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж).'
         }
     }
 ]
@@ -737,8 +737,8 @@ def main():
 
         gender_slug, gender_title = determine_gender(clean_name, brand_slug, sorted_sizes)
 
-        # Pricing markup: flat 564 UAH markup on all products per store owner request
-        price = int(raw_price + 564)
+        # Pricing markup: flat 560 UAH markup on all products per store owner request
+        price = int(raw_price + 560)
 
         # Old crossed-out price (+18% pre-discount badge, whole hryvnias)
         old_price = int(round(price * 1.18))
