@@ -21731,7 +21731,9 @@
     "country": "-",
     "sizes": [
       "37",
+      "38",
       "41",
+      "43",
       "44",
       "45"
     ],
@@ -54738,6 +54740,7 @@
       "40",
       "41",
       "42",
+      "43",
       "44"
     ],
     "inStock": true,
@@ -109219,6 +109222,42 @@
     "seo": {
       "title": "Nike Air Max Terrascape 90 'Rattan' (арт. 01233) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Nike Air Max Terrascape 90 'Rattan' (арт. 01233) за 3114 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "192582",
+    "slug": "dc-court-graffik-purple-sabbath-23002",
+    "name": "DC Court Graffik Purple Sabbath",
+    "brand": "Інші бренди",
+    "brandSlug": "other",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 2764,
+    "oldPrice": 3262,
+    "costPrice": 2200,
+    "sku": "23002",
+    "material": "Шкіра",
+    "country": "Китай",
+    "sizes": [
+      "38",
+      "39",
+      "40"
+    ],
+    "inStock": true,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/dd9f0831-e43e-4efe-8e15-00a7120d144f.jpg",
+      "https://easydrop.one/media/uploads/images/base/4e65e681-0909-4faa-a5dc-2c7c33aff51a.jpg",
+      "https://easydrop.one/media/uploads/images/base/c0279b84-db05-41b7-9de4-a0f95c3962b9.jpg",
+      "https://easydrop.one/media/uploads/images/base/185a4932-f4d6-4395-8327-f507621caa80.jpg"
+    ],
+    "description": "Модель: DC Court Graffik Purple Sabbath. Артикул: 23002. Матеріал: Шкіра. Сезон: Демісезон. Виробництво: Китай. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "DC Court Graffik Purple Sabbath (арт. 23002) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте DC Court Graffik Purple Sabbath (арт. 23002) за 2764 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
