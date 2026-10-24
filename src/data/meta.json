@@ -1,5 +1,5 @@
 {
-  "total": 5808,
+  "total": 5812,
   "brands": [
     {
       "name": "Nike",
@@ -19,12 +19,12 @@
     {
       "name": "Asics",
       "slug": "asics",
-      "count": 426
+      "count": 427
     },
     {
       "name": "UGG",
       "slug": "ugg",
-      "count": 321
+      "count": 322
     },
     {
       "name": "Інші бренди",
@@ -49,7 +49,7 @@
     {
       "name": "Balenciaga",
       "slug": "balenciaga",
-      "count": 86
+      "count": 88
     },
     {
       "name": "Golden Goose",
@@ -206,14 +206,14 @@
     {
       "name": "Взуття",
       "slug": "shoes",
-      "count": 5808
+      "count": 5812
     }
   ],
   "genders": [
     {
       "name": "Унісекс",
       "slug": "unisex",
-      "count": 3015
+      "count": 3019
     },
     {
       "name": "Жіночі",
@@ -230,12 +230,12 @@
     {
       "name": "Демісезон",
       "slug": "demi",
-      "count": 5278
+      "count": 5281
     },
     {
       "name": "Зима",
       "slug": "winter",
-      "count": 530
+      "count": 531
     }
   ],
   "sizes": [
@@ -259,16 +259,16 @@
     "48",
     "49",
     "50",
-    "44(світліші)",
     "42 2/3",
-    "43(світліші)",
-    "40 2/3",
-    "M",
-    "S",
     "45/46",
     "40–41",
+    "44(світліші)",
+    "S",
     "XL",
-    "L"
+    "43(світліші)",
+    "L",
+    "M",
+    "40 2/3"
   ],
   "minPrice": 960,
   "maxPrice": 11671
