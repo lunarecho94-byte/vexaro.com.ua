@@ -873,14 +873,15 @@ def main():
     }
 
     # Pinned products permanently pinned at top by store owner request
-    PINNED_SKUS = {'N1780'}
+    PINNED_SKUS = ['5780', 'N1780']
+    pinned_rank = {sku: len(PINNED_SKUS) - idx for idx, sku in enumerate(PINNED_SKUS)}
 
-    # Sort: pinned products first, then newest arrivals by product ID descending
+    # Sort: pinned products first (in order), then newest arrivals by product ID descending
     def sort_key(p):
         sku = str(p.get('sku', '')).strip().upper()
-        is_pinned = 1 if sku in PINNED_SKUS else 0
+        rank = pinned_rank.get(sku, 0)
         pid = int(p['id']) if str(p.get('id', '')).isdigit() else 0
-        return (is_pinned, pid)
+        return (rank, pid)
 
     products.sort(key=sort_key, reverse=True)
 

@@ -304,8 +304,12 @@ export async function getProducts(params: CatalogQueryParams = {}): Promise<Cata
   }
 
   // Pinned products permanently pinned at top by store owner request
-  const PINNED_SKUS = ['N1780'];
-  const isPinned = (p: Product) => PINNED_SKUS.includes((p.sku || '').trim().toUpperCase());
+  const PINNED_SKUS = ['5780', 'N1780'];
+  const getPinRank = (p: Product) => {
+    const sku = (p.sku || '').trim().toUpperCase();
+    const idx = PINNED_SKUS.indexOf(sku);
+    return idx >= 0 ? PINNED_SKUS.length - idx : 0;
+  };
 
   // Sorting:
   if (params.sort === 'price_asc') {
@@ -315,8 +319,8 @@ export async function getProducts(params: CatalogQueryParams = {}): Promise<Cata
   } else if (params.sort === 'popular') {
     // 'popular' -> pinned items first, then prioritize top iconic models, then newest
     filtered = [...filtered].sort((a, b) => {
-      const pinA = isPinned(a) ? 1 : 0;
-      const pinB = isPinned(b) ? 1 : 0;
+      const pinA = getPinRank(a);
+      const pinB = getPinRank(b);
       if (pinB !== pinA) return pinB - pinA;
       const pA = getProductPriority(a);
       const pB = getProductPriority(b);
@@ -326,8 +330,8 @@ export async function getProducts(params: CatalogQueryParams = {}): Promise<Cata
   } else {
     // 'newest' (default) -> pinned items first, then newest arrivals by ID descending
     filtered = [...filtered].sort((a, b) => {
-      const pinA = isPinned(a) ? 1 : 0;
-      const pinB = isPinned(b) ? 1 : 0;
+      const pinA = getPinRank(a);
+      const pinB = getPinRank(b);
       if (pinB !== pinA) return pinB - pinA;
       return (Number(b.id) || 0) - (Number(a.id) || 0);
     });
