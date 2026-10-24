@@ -173,6 +173,11 @@ export default async function ProductPage({ params }: ProductPageProps) {
                   {product.oldPrice.toLocaleString('uk-UA')} ₴
                 </span>
               )}
+              {product.oldPrice && product.oldPrice > product.price && (
+                <span className="rounded bg-rose-500/90 px-2 py-0.5 text-xs font-bold text-white uppercase shadow-sm">
+                  -{Math.round(((product.oldPrice - product.price) / product.oldPrice) * 100)}%
+                </span>
+              )}
               {product.inStock ? (
                 <span className="rounded-full bg-emerald-500/10 border border-emerald-500/20 px-2.5 py-0.5 text-xs font-semibold text-emerald-400">
                   В наявності

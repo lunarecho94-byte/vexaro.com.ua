@@ -250,7 +250,7 @@ CURATED_PRODUCTS = [
         'season': 'demi',
         'seasonName': 'Демісезон',
         'price': 2500,
-        'oldPrice': 2950,
+        'oldPrice': 3333,
         'costPrice': 2000,
         'sku': 'А5689',
         'material': 'Шкіра, текстиль',
@@ -291,7 +291,7 @@ CURATED_PRODUCTS = [
         'season': 'demi',
         'seasonName': 'Демісезон',
         'price': 2450,
-        'oldPrice': 2891,
+        'oldPrice': 3267,
         'costPrice': 1950,
         'sku': '2002',
         'material': 'Текстиль, шкіра, 3M рефлектив',
@@ -740,8 +740,8 @@ def main():
         # Pricing markup: flat 500 UAH markup on all products per store owner request
         price = int(raw_price + 500)
 
-        # Old crossed-out price (+18% pre-discount badge, whole hryvnias)
-        old_price = int(round(price * 1.18))
+        # Old crossed-out price (25% discount badge, whole hryvnias)
+        old_price = int(round(price / 0.75))
 
         if price < min_price:
             min_price = price
