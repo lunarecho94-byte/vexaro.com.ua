@@ -179,8 +179,8 @@ export default async function ProductPage({ params }: ProductPageProps) {
                 </span>
               )}
               {isHitProduct(product) && (
-                <span className="rounded bg-gradient-to-r from-amber-500 to-amber-600 px-2.5 py-0.5 text-xs font-black text-black uppercase shadow-sm tracking-wide flex items-center gap-1">
-                  🔥 Хіт продажу
+                <span className="rounded bg-gradient-to-r from-amber-500 to-amber-600 px-2 py-0.5 text-xs font-bold text-black uppercase shadow-sm flex items-center gap-1">
+                  🔥 Хіт
                 </span>
               )}
               {product.inStock ? (

@@ -129,10 +129,10 @@ export function ProductCard({ product, priority = false }: ProductCardProps) {
           />
 
           {/* Badges */}
-          <div className="absolute top-2 left-2 flex flex-col gap-1 z-10 pointer-events-none">
+          <div className="absolute top-2 left-2 flex flex-col items-start gap-1 z-10 pointer-events-none">
             {isHitProduct(product) && (
-              <span className="rounded bg-gradient-to-r from-amber-500 to-amber-600 px-2 py-0.5 text-[10px] font-black text-black uppercase shadow-sm tracking-wide flex items-center gap-1 backdrop-blur-sm">
-                🔥 Хіт продажу
+              <span className="rounded bg-gradient-to-r from-amber-500 to-amber-600 px-1.5 py-0.5 text-[10px] font-bold text-black uppercase shadow-sm flex items-center gap-0.5 backdrop-blur-sm">
+                🔥 Хіт
               </span>
             )}
             {product.oldPrice && product.oldPrice > product.price && (
@@ -141,7 +141,7 @@ export function ProductCard({ product, priority = false }: ProductCardProps) {
               </span>
             )}
             {!product.inStock && (
-              <span className="rounded bg-zinc-700/90 px-2 py-0.5 text-[11px] font-semibold text-white uppercase shadow-sm">
+              <span className="rounded bg-zinc-700/90 px-1.5 py-0.5 text-[10px] font-semibold text-white uppercase shadow-sm">
                 Немає в наявності
               </span>
             )}
