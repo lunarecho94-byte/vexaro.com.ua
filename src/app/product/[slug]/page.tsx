@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
-import { getProductBySlug } from '@/lib/products';
+import { getProductBySlug, isHitProduct } from '@/lib/products';
 import { ProductGallery } from '@/components/ProductGallery';
 import { ProductOrderPanel } from '@/components/ProductOrderPanel';
 import { ProductBreadcrumbs } from '@/components/ProductBreadcrumbs';
@@ -176,6 +176,11 @@ export default async function ProductPage({ params }: ProductPageProps) {
               {product.oldPrice && product.oldPrice > product.price && (
                 <span className="rounded bg-rose-500/90 px-2 py-0.5 text-xs font-bold text-white uppercase shadow-sm">
                   -{Math.round(((product.oldPrice - product.price) / product.oldPrice) * 100)}%
+                </span>
+              )}
+              {isHitProduct(product) && (
+                <span className="rounded bg-gradient-to-r from-amber-500 to-amber-600 px-2.5 py-0.5 text-xs font-black text-black uppercase shadow-sm tracking-wide flex items-center gap-1">
+                  🔥 Хіт продажу
                 </span>
               )}
               {product.inStock ? (

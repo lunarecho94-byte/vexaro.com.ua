@@ -1,6 +1,9 @@
 import fs from 'fs';
 import path from 'path';
 import { Product, CatalogMeta, CatalogQueryParams, CatalogResponse } from '@/types/product';
+import { isHitProduct } from './product-badges';
+
+export { isHitProduct };
 
 let allProducts: Product[] | null = null;
 let catalogMeta: CatalogMeta | null = null;
@@ -205,7 +208,7 @@ export async function getProductById(id: string): Promise<Product | null> {
   return productById.get(id) || null;
 }
 
-export function getProductPriority(product: { id: string; name: string }): number {
+export function getProductPriority(product: { id: string; name: string; brandSlug?: string; brand?: string; isHit?: boolean }): number {
   const n = product.name.toLowerCase();
   if (n.includes('frank rudy') || String(product.id) === '122263') {
     return 4;
@@ -214,6 +217,9 @@ export function getProductPriority(product: { id: string; name: string }): numbe
     return 3;
   }
   if (n.includes('lace toggle') || String(product.id) === '146368') {
+    return 2;
+  }
+  if (isHitProduct(product)) {
     return 2;
   }
   if (!n.includes('nike')) return 0;
@@ -301,6 +307,25 @@ export async function getProducts(params: CatalogQueryParams = {}): Promise<Cata
         p.sku.toLowerCase().includes(q) ||
         p.brand.toLowerCase().includes(q)
     );
+  }
+
+  if (params.bestseller) {
+    const b = params.bestseller.toLowerCase().trim();
+    if (b === 'all' || b === 'true') {
+      filtered = filtered.filter((p) => isHitProduct(p));
+    } else if (b === '9060') {
+      filtered = filtered.filter((p) => p.name.toLowerCase().includes('9060'));
+    } else if (b === 'ugg') {
+      filtered = filtered.filter((p) => p.brandSlug.toLowerCase() === 'ugg' || /\b(ugg|угг)\b/i.test(p.name));
+    } else if (b === '1906') {
+      filtered = filtered.filter((p) => p.name.toLowerCase().includes('1906'));
+    } else if (b === 'airforce' || b === 'air-force') {
+      filtered = filtered.filter((p) => /air\s*force/i.test(p.name));
+    } else if (b === 'xt6' || b === 'xt-6') {
+      filtered = filtered.filter((p) => /xt[- ]*6/i.test(p.name));
+    } else if (b === 'campus') {
+      filtered = filtered.filter((p) => p.name.toLowerCase().includes('campus'));
+    }
   }
 
   // Pinned products permanently pinned at top by store owner request

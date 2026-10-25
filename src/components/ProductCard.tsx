@@ -6,6 +6,7 @@ import Image from 'next/image';
 import { Product } from '@/types/product';
 import { FavoriteButton } from '@/components/FavoriteButton';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
+import { isHitProduct } from '@/lib/product-badges';
 
 interface ProductCardProps {
   product: Product;
@@ -129,6 +130,11 @@ export function ProductCard({ product, priority = false }: ProductCardProps) {
 
           {/* Badges */}
           <div className="absolute top-2 left-2 flex flex-col gap-1 z-10 pointer-events-none">
+            {isHitProduct(product) && (
+              <span className="rounded bg-gradient-to-r from-amber-500 to-amber-600 px-2 py-0.5 text-[10px] font-black text-black uppercase shadow-sm tracking-wide flex items-center gap-1 backdrop-blur-sm">
+                🔥 Хіт продажу
+              </span>
+            )}
             {product.oldPrice && product.oldPrice > product.price && (
               <span className="rounded bg-rose-500/90 px-2 py-0.5 text-[11px] font-bold text-white uppercase shadow-sm">
                 -{Math.round(((product.oldPrice - product.price) / product.oldPrice) * 100)}%

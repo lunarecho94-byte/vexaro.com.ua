@@ -23,6 +23,7 @@ interface PageProps {
     maxPrice?: string;
     sort?: 'popular' | 'price_asc' | 'price_desc' | 'newest';
     search?: string;
+    bestseller?: string;
   };
 }
 
@@ -79,6 +80,7 @@ export default async function CatalogPage({ searchParams }: PageProps) {
     maxPrice: searchParams.maxPrice ? Number(searchParams.maxPrice) : undefined,
     sort: searchParams.sort || 'newest',
     search: searchParams.search,
+    bestseller: searchParams.bestseller,
   };
 
   const [catalogResponse, meta] = await Promise.all([

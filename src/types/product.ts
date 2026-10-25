@@ -27,6 +27,7 @@ export interface Product {
     title: string;
     description: string;
   };
+  isHit?: boolean;
 }
 
 export interface FilterItem {
@@ -58,6 +59,7 @@ export interface CatalogQueryParams {
   maxPrice?: number;
   sort?: 'popular' | 'price_asc' | 'price_desc' | 'newest';
   search?: string;
+  bestseller?: string;
 }
 
 export interface CatalogResponse {

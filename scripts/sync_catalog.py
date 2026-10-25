@@ -276,7 +276,8 @@ CURATED_PRODUCTS = [
         'seo': {
             'title': 'Nike Air Max Plus Tn Black Teal Yellow (арт. А5689) — купити в інтернет-магазині VEXARO',
             'description': 'Замовляйте Nike Air Max Plus Tn Black Teal Yellow (арт. А5689) за 2500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж).'
-        }
+        },
+        'isHit': False
     },
     {
         'id': '146368',
@@ -319,7 +320,8 @@ CURATED_PRODUCTS = [
         'seo': {
             'title': 'Nike Air Max Plus TN Lace Toggle White Black (арт. 2002) — купити в інтернет-магазині VEXARO',
             'description': 'Замовляйте кросівки Nike Air Max Plus TN Lace Toggle White Black (арт. 2002 / FD0799-001) за 2450 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж).'
-        }
+        },
+        'isHit': False
     }
 ]
 
@@ -609,6 +611,25 @@ IMAGE_REPLACEMENTS = {
 }
 
 
+def check_is_hit(name: str, brand_slug: str = '') -> bool:
+    """Flagship bestselling lines: NB 9060, UGG, NB 1906, Nike Air Force, Salomon XT-6, Adidas Campus 00s"""
+    n = (name or '').lower()
+    b = (brand_slug or '').lower()
+    if '9060' in n:
+        return True
+    if b == 'ugg' or re.search(r'\b(ugg|угг)\b', n):
+        return True
+    if '1906' in n:
+        return True
+    if re.search(r'air\s*force', n):
+        return True
+    if re.search(r'xt[- ]*6', n):
+        return True
+    if 'campus' in n:
+        return True
+    return False
+
+
 def main():
     if '--download' in sys.argv:
         download_export_feed()
@@ -800,6 +821,7 @@ def main():
             'country': country_str,
             'sizes': sorted_sizes,
             'inStock': len(sorted_sizes) > 0,
+            'isHit': check_is_hit(clean_name, brand_slug),
             'images': imgs[:5],
             'description': description,
             'seo': {

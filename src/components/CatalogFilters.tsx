@@ -18,6 +18,16 @@ interface CatalogFiltersProps {
   currentSort?: string;
 }
 
+const BESTSELLER_PILLS = [
+  { id: 'all', label: '🔥 Усі хіти' },
+  { id: '9060', label: 'NB 9060' },
+  { id: 'ugg', label: 'UGG' },
+  { id: '1906', label: 'NB 1906' },
+  { id: 'airforce', label: 'Air Force' },
+  { id: 'xt6', label: 'Salomon XT-6' },
+  { id: 'campus', label: 'Campus 00s' },
+];
+
 export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersProps) {
   const router = useRouter();
   const pathname = usePathname();
@@ -67,6 +77,7 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
   const currentMaxPrice = searchParams?.get('maxPrice') || '';
   const selectedSort = searchParams?.get('sort') || currentSort;
   const currentSearch = searchParams?.get('search') || '';
+  const currentBestseller = searchParams?.get('bestseller') || '';
 
   // Local draft state for the full filter drawer
   const [draftCategories, setDraftCategories] = useState<string[]>([]);
@@ -121,7 +132,8 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
     selectedGenders.length +
     selectedSeasons.length +
     (currentMinPrice || currentMaxPrice ? 1 : 0) +
-    (currentSearch ? 1 : 0);
+    (currentSearch ? 1 : 0) +
+    (currentBestseller ? 1 : 0);
 
   // Helper to commit filters to URL
   const commitFilters = (updates: Record<string, string | null>) => {
@@ -270,12 +282,48 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
           </div>
         </div>
 
+        {/* Bestseller Quick Filter Pills */}
+        <div className="mt-2.5 flex items-center gap-2 overflow-x-auto scrollbar-none pb-0.5 pt-0.5">
+          {BESTSELLER_PILLS.map((pill) => {
+            const isActive = currentBestseller === pill.id;
+            return (
+              <button
+                key={pill.id}
+                type="button"
+                onClick={() => commitFilters({ bestseller: isActive ? null : pill.id })}
+                className={`whitespace-nowrap px-3 py-1.5 rounded-xl text-xs font-bold transition-all shrink-0 border ${
+                  isActive
+                    ? 'bg-amber-500 text-black border-amber-500 shadow-sm shadow-amber-500/20'
+                    : 'bg-surface text-foreground border-border hover:border-amber-500/50 hover:bg-surface-raised'
+                }`}
+              >
+                {pill.label}
+              </button>
+            );
+          })}
+        </div>
+
         {/* Active Filter Badges */}
         {activeCount > 0 && (
           <div className="mt-2.5 flex items-center gap-1.5 overflow-x-auto scrollbar-none whitespace-nowrap text-xs pb-0.5 pt-0.5 border-t border-border/60">
             <span className="text-muted text-[11px] font-bold uppercase tracking-wider mr-1">
               Обрано ({activeCount}):
             </span>
+
+            {/* Bestseller Chip */}
+            {currentBestseller && (
+              <span className="inline-flex items-center gap-1 rounded-lg border border-amber-500/40 bg-amber-500/10 px-2.5 py-1 text-xs font-semibold text-amber-600 dark:text-amber-400">
+                <span>Хіт: {BESTSELLER_PILLS.find((p) => p.id === currentBestseller)?.label || currentBestseller}</span>
+                <button
+                  type="button"
+                  onClick={() => commitFilters({ bestseller: null })}
+                  className="hover:text-foreground p-0.5"
+                  aria-label="Видалити фільтр хітів"
+                >
+                  <X className="h-3 w-3" />
+                </button>
+              </span>
+            )}
 
             {/* Category Chips */}
             {selectedCategories.map((cSlug) => {
