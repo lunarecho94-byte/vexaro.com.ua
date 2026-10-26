@@ -1,45 +1,5 @@
 [
   {
-    "id": "255456",
-    "slug": "nike-sb-dunk-light-crimson-5780",
-    "name": "Nike SB Dunk Light Crimson",
-    "brand": "Nike",
-    "brandSlug": "nike",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "unisex",
-    "genderName": "Унісекс",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 3000,
-    "oldPrice": 4000,
-    "costPrice": 2500,
-    "sku": "5780",
-    "material": "шкіра",
-    "country": "В'єтнам",
-    "sizes": [
-      "36",
-      "37",
-      "38",
-      "39",
-      "40",
-      "41"
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/82c7743f-d3ec-4884-84be-13924fb26aef.jpeg",
-      "https://easydrop.one/media/uploads/images/base/b649bda1-bfd0-42a6-8b7c-061928c1a793.jpeg",
-      "https://easydrop.one/media/uploads/images/base/dd3d54c1-3fb3-4b6b-ba7b-67c64e01cb1c.jpeg",
-      "https://easydrop.one/media/uploads/images/base/724c677b-fc47-4fe8-a17f-144f587fb3e8.jpeg"
-    ],
-    "description": "Модель: Nike SB Dunk Light Crimson. Артикул: 5780. Матеріал: шкіра. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Nike SB Dunk Light Crimson (арт. 5780) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Nike SB Dunk Light Crimson (арт. 5780) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "255466",
     "slug": "new-balance-9060-beige-black-n1780",
     "name": "New Balance 9060 Beige/Black",
@@ -4500,6 +4460,46 @@
     "seo": {
       "title": "Travis Scott x Air Jordan 1 Low «Mocha » (арт. NK1410) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Travis Scott x Air Jordan 1 Low «Mocha » (арт. NK1410) за 3100 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "255456",
+    "slug": "nike-sb-dunk-light-crimson-5780",
+    "name": "Nike SB Dunk Light Crimson",
+    "brand": "Nike",
+    "brandSlug": "nike",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "unisex",
+    "genderName": "Унісекс",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 3000,
+    "oldPrice": 4000,
+    "costPrice": 2500,
+    "sku": "5780",
+    "material": "шкіра",
+    "country": "В'єтнам",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/82c7743f-d3ec-4884-84be-13924fb26aef.jpeg",
+      "https://easydrop.one/media/uploads/images/base/b649bda1-bfd0-42a6-8b7c-061928c1a793.jpeg",
+      "https://easydrop.one/media/uploads/images/base/dd3d54c1-3fb3-4b6b-ba7b-67c64e01cb1c.jpeg",
+      "https://easydrop.one/media/uploads/images/base/724c677b-fc47-4fe8-a17f-144f587fb3e8.jpeg"
+    ],
+    "description": "Модель: Nike SB Dunk Light Crimson. Артикул: 5780. Матеріал: шкіра. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Nike SB Dunk Light Crimson (арт. 5780) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Nike SB Dunk Light Crimson (арт. 5780) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
