@@ -237,12 +237,12 @@ export function ProductCard({ product, priority = false }: ProductCardProps) {
 
             {/* Price block */}
             <div className="flex items-baseline gap-2">
-              <span className="text-base font-extrabold text-foreground">
-                {product.price.toLocaleString('uk-UA')} ₴
+              <span className="text-base font-extrabold text-foreground whitespace-nowrap">
+                {product.price.toLocaleString('uk-UA')}&nbsp;₴
               </span>
               {product.oldPrice && (
-                <span className="text-xs text-red-500 line-through decoration-red-500 font-semibold">
-                  {product.oldPrice.toLocaleString('uk-UA')} ₴
+                <span className="text-xs text-red-500 line-through decoration-red-500 font-semibold whitespace-nowrap">
+                  {product.oldPrice.toLocaleString('uk-UA')}&nbsp;₴
                 </span>
               )}
             </div>

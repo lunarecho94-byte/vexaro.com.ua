@@ -121,13 +121,13 @@ export function ProductOrderPanel({ product }: ProductOrderPanelProps) {
             <div className="flex items-center gap-1.5">
               <span className="text-[11px] text-muted">Ціна</span>
               {product.oldPrice && (
-                <span className="text-[10px] text-red-500 line-through decoration-red-500 font-semibold">
-                  {product.oldPrice.toLocaleString('uk-UA')} ₴
+                <span className="text-[10px] text-red-500 line-through decoration-red-500 font-semibold whitespace-nowrap">
+                  {product.oldPrice.toLocaleString('uk-UA')}&nbsp;₴
                 </span>
               )}
             </div>
-            <div className="text-base sm:text-lg font-black text-foreground">
-              {product.price.toLocaleString('uk-UA')} ₴
+            <div className="text-base sm:text-lg font-black text-foreground whitespace-nowrap">
+              {product.price.toLocaleString('uk-UA')}&nbsp;₴
             </div>
           </div>
 

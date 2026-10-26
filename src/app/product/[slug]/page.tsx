@@ -164,34 +164,39 @@ export default async function ProductPage({ params }: ProductPageProps) {
             </h1>
 
             {/* Price Box */}
-            <div className="mt-4 flex items-baseline gap-3">
-              <span className="text-2xl font-black text-foreground sm:text-3xl">
-                {product.price.toLocaleString('uk-UA')} ₴
-              </span>
-              {product.oldPrice && (
-                <span className="text-sm sm:text-base text-red-500 line-through decoration-red-500 font-semibold">
-                  {product.oldPrice.toLocaleString('uk-UA')} ₴
+            <div className="mt-4 flex flex-wrap items-center gap-x-3 gap-y-2">
+              <div className="flex items-center gap-2.5">
+                <span className="text-2xl font-black text-foreground sm:text-3xl whitespace-nowrap">
+                  {product.price.toLocaleString('uk-UA')}&nbsp;₴
                 </span>
-              )}
-              {product.oldPrice && product.oldPrice > product.price && (
-                <span className="rounded bg-rose-500/90 px-2 py-0.5 text-xs font-bold text-white uppercase shadow-sm">
-                  -{Math.round(((product.oldPrice - product.price) / product.oldPrice) * 100)}%
-                </span>
-              )}
-              {isHitProduct(product) && (
-                <span className="rounded bg-gradient-to-r from-amber-500 to-amber-600 px-2 py-0.5 text-xs font-bold text-black uppercase shadow-sm flex items-center gap-1">
-                  🔥 Хіт
-                </span>
-              )}
-              {product.inStock ? (
-                <span className="rounded-full bg-emerald-500/10 border border-emerald-500/20 px-2.5 py-0.5 text-xs font-semibold text-emerald-400">
-                  В наявності
-                </span>
-              ) : (
-                <span className="rounded-full bg-zinc-100 border border-zinc-200 px-2.5 py-0.5 text-xs font-semibold text-zinc-600">
-                  Немає в наявності
-                </span>
-              )}
+                {product.oldPrice && (
+                  <span className="text-sm sm:text-base text-red-500 line-through decoration-red-500 font-semibold whitespace-nowrap">
+                    {product.oldPrice.toLocaleString('uk-UA')}&nbsp;₴
+                  </span>
+                )}
+                {product.oldPrice && product.oldPrice > product.price && (
+                  <span className="shrink-0 whitespace-nowrap rounded bg-rose-500/90 px-2 py-0.5 text-xs font-bold text-white uppercase shadow-sm">
+                    -{Math.round(((product.oldPrice - product.price) / product.oldPrice) * 100)}%
+                  </span>
+                )}
+              </div>
+
+              <div className="flex items-center gap-2">
+                {isHitProduct(product) && (
+                  <span className="shrink-0 whitespace-nowrap rounded bg-gradient-to-r from-amber-500 to-amber-600 px-2 py-0.5 text-xs font-bold text-black uppercase shadow-sm flex items-center gap-1">
+                    🔥&nbsp;Хіт
+                  </span>
+                )}
+                {product.inStock ? (
+                  <span className="shrink-0 whitespace-nowrap rounded-full bg-emerald-500/10 border border-emerald-500/20 px-2.5 py-0.5 text-xs font-semibold text-emerald-400">
+                    В&nbsp;наявності
+                  </span>
+                ) : (
+                  <span className="shrink-0 whitespace-nowrap rounded-full bg-zinc-100 border border-zinc-200 px-2.5 py-0.5 text-xs font-semibold text-zinc-600">
+                    Немає в&nbsp;наявності
+                  </span>
+                )}
+              </div>
             </div>
           </div>
 
