@@ -1,15 +1,15 @@
 {
-  "total": 5771,
+  "total": 5764,
   "brands": [
     {
       "name": "Nike",
       "slug": "nike",
-      "count": 2071
+      "count": 2075
     },
     {
       "name": "New Balance",
       "slug": "newbalance",
-      "count": 1326
+      "count": 1324
     },
     {
       "name": "Adidas",
@@ -19,27 +19,27 @@
     {
       "name": "Asics",
       "slug": "asics",
-      "count": 423
+      "count": 421
     },
     {
       "name": "UGG",
       "slug": "ugg",
-      "count": 319
+      "count": 318
     },
     {
       "name": "Інші бренди",
       "slug": "other",
-      "count": 177
+      "count": 176
     },
     {
       "name": "Salomon",
       "slug": "salomon",
-      "count": 136
+      "count": 137
     },
     {
       "name": "Air Jordan",
       "slug": "jordan",
-      "count": 121
+      "count": 120
     },
     {
       "name": "On Cloud",
@@ -59,12 +59,12 @@
     {
       "name": "Off-White",
       "slug": "offwhite",
-      "count": 55
+      "count": 54
     },
     {
       "name": "Premiata",
       "slug": "premiata",
-      "count": 53
+      "count": 51
     },
     {
       "name": "Puma",
@@ -74,17 +74,17 @@
     {
       "name": "Dior",
       "slug": "dior",
-      "count": 38
-    },
-    {
-      "name": "Vans",
-      "slug": "vans",
-      "count": 29
+      "count": 37
     },
     {
       "name": "The North Face",
       "slug": "tnf",
       "count": 29
+    },
+    {
+      "name": "Vans",
+      "slug": "vans",
+      "count": 28
     },
     {
       "name": "Alo Yoga",
@@ -206,36 +206,36 @@
     {
       "name": "Взуття",
       "slug": "shoes",
-      "count": 5771
+      "count": 5764
     }
   ],
   "genders": [
     {
       "name": "Унісекс",
       "slug": "unisex",
-      "count": 2970
+      "count": 2976
     },
     {
       "name": "Жіночі",
       "slug": "women",
-      "count": 1475
+      "count": 1474
     },
     {
       "name": "Чоловічі",
       "slug": "men",
-      "count": 1326
+      "count": 1314
     }
   ],
   "seasons": [
     {
       "name": "Демісезон",
       "slug": "demi",
-      "count": 5240
+      "count": 5237
     },
     {
       "name": "Зима",
       "slug": "winter",
-      "count": 531
+      "count": 527
     }
   ],
   "sizes": [
@@ -259,16 +259,16 @@
     "48",
     "49",
     "50",
-    "42 2/3",
-    "45/46",
+    "M",
+    "S",
+    "44(світліші)",
     "40 2/3",
+    "40–41",
+    "XL",
     "43(світліші)",
     "L",
-    "40–41",
-    "44(світліші)",
-    "M",
-    "XL",
-    "S"
+    "45/46",
+    "42 2/3"
   ],
   "minPrice": 900,
   "maxPrice": 11611
