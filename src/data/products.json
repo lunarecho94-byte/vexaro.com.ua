@@ -24280,7 +24280,6 @@
     "sizes": [
       "38",
       "39",
-      "40",
       "42",
       "43"
     ],
@@ -74318,7 +74317,6 @@
     "sizes": [
       "41",
       "42",
-      "43",
       "44"
     ],
     "inStock": true,
@@ -78237,8 +78235,8 @@
     "brandSlug": "jordan",
     "category": "Взуття",
     "categorySlug": "shoes",
-    "gender": "unisex",
-    "genderName": "Унісекс",
+    "gender": "women",
+    "genderName": "Жіночі",
     "season": "demi",
     "seasonName": "Демісезон",
     "price": 2900,
@@ -78250,8 +78248,7 @@
     "sizes": [
       "36",
       "38",
-      "40",
-      "41"
+      "40"
     ],
     "inStock": true,
     "isHit": false,
@@ -81061,7 +81058,6 @@
       "38",
       "41",
       "42",
-      "43",
       "44"
     ],
     "inStock": true,
@@ -86248,8 +86244,8 @@
     "brandSlug": "newbalance",
     "category": "Взуття",
     "categorySlug": "shoes",
-    "gender": "unisex",
-    "genderName": "Унісекс",
+    "gender": "women",
+    "genderName": "Жіночі",
     "season": "demi",
     "seasonName": "Демісезон",
     "price": 2700,
@@ -86262,8 +86258,7 @@
       "37",
       "38",
       "39",
-      "40",
-      "41"
+      "40"
     ],
     "inStock": true,
     "isHit": false,
@@ -117306,7 +117301,6 @@
       "36",
       "37",
       "38",
-      "39",
       "43"
     ],
     "inStock": true,
@@ -135586,8 +135580,8 @@
     "brandSlug": "adidas",
     "category": "Взуття",
     "categorySlug": "shoes",
-    "gender": "unisex",
-    "genderName": "Унісекс",
+    "gender": "women",
+    "genderName": "Жіночі",
     "season": "demi",
     "seasonName": "Демісезон",
     "price": 3500,
@@ -135600,8 +135594,7 @@
       "36",
       "37",
       "38",
-      "39",
-      "44"
+      "39"
     ],
     "inStock": true,
     "isHit": false,
@@ -136391,7 +136384,6 @@
     "sizes": [
       "36",
       "37",
-      "38",
       "39",
       "41"
     ],
@@ -147111,40 +147103,6 @@
     "seo": {
       "title": "New Balance 9060 Grey Suede (арт. 2111) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте New Balance 9060 Grey Suede (арт. 2111) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "155429",
-    "slug": "new-balance-9060-brown-suede-2098",
-    "name": "New Balance 9060 Brown Suede",
-    "brand": "New Balance",
-    "brandSlug": "newbalance",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 2800,
-    "oldPrice": 3733,
-    "costPrice": 2300,
-    "sku": "2098",
-    "material": "Замша , Текстиль",
-    "country": "В'єтнам",
-    "sizes": [
-      "37",
-      "38",
-      "40"
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/4c757007-2fa6-4181-a491-d68af742db5f.jpeg"
-    ],
-    "description": "Модель: New Balance 9060 Brown Suede. Артикул: 2098. Матеріал: Замша , Текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "New Balance 9060 Brown Suede (арт. 2098) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте New Balance 9060 Brown Suede (арт. 2098) за 2800 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -164339,8 +164297,7 @@
       "41",
       "42",
       "43",
-      "44",
-      "45"
+      "44"
     ],
     "inStock": true,
     "isHit": false,
@@ -164624,8 +164581,7 @@
     "sizes": [
       "41",
       "42",
-      "44",
-      "45"
+      "44"
     ],
     "inStock": true,
     "isHit": false,
@@ -169181,7 +169137,6 @@
     "sizes": [
       "41",
       "42",
-      "43",
       "44",
       "45"
     ],
@@ -190834,8 +190789,8 @@
     "categorySlug": "shoes",
     "gender": "women",
     "genderName": "Жіночі",
-    "season": "demi",
-    "seasonName": "Демісезон",
+    "season": "winter",
+    "seasonName": "Зима",
     "price": 2099,
     "oldPrice": 2799,
     "costPrice": 1599,
@@ -190854,7 +190809,7 @@
     "images": [
       "https://easydrop.one/media/uploads/images/base/2a80a4bb-0054-4c35-bcb2-982d46200576.jpeg"
     ],
-    "description": "Модель: UGG MINI GRAPHITE GREY LACQUER premium (5. Артикул: 0813. Матеріал: Натуральна замша, натуральна цільна овчина. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "description": "Модель: UGG MINI GRAPHITE GREY LACQUER premium (5. Артикул: 0813. Матеріал: Натуральна замша, натуральна цільна овчина. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
     "seo": {
       "title": "UGG MINI GRAPHITE GREY LACQUER premium (5 (арт. 0813) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте UGG MINI GRAPHITE GREY LACQUER premium (5 (арт. 0813) за 2099 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
@@ -211041,7 +210996,6 @@
       "36",
       "37",
       "38",
-      "39",
       "42",
       "43",
       "45"
