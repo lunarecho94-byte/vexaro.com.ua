@@ -1,41 +1,5 @@
 [
   {
-    "id": "255466",
-    "slug": "new-balance-9060-beige-black-n1780",
-    "name": "New Balance 9060 Beige/Black",
-    "brand": "New Balance",
-    "brandSlug": "newbalance",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 3200,
-    "oldPrice": 4267,
-    "costPrice": 2700,
-    "sku": "N1780",
-    "material": "замша,текстиль",
-    "country": "В'єтнам",
-    "sizes": [
-      "41",
-      "42",
-      "43",
-      "44",
-      "45"
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/136ecb08-3fc6-4c97-88c0-d2f55a035b9f.jpg"
-    ],
-    "description": "Модель: New Balance 9060 Beige/Black. Артикул: N1780. Матеріал: замша,текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "New Balance 9060 Beige/Black (арт. N1780) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте New Balance 9060 Beige/Black (арт. N1780) за 3200 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "256703",
     "slug": "nike-sb-dunk-low-black-fur-nk181",
     "name": "Nike Sb Dunk Low Black Fur",
@@ -5011,6 +4975,42 @@
     "seo": {
       "title": "Nike ACG Terra Antarktik GORE-TEX Juniper Fog (арт. AS91) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Nike ACG Terra Antarktik GORE-TEX Juniper Fog (арт. AS91) за 3290 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "255466",
+    "slug": "new-balance-9060-beige-black-n1780",
+    "name": "New Balance 9060 Beige/Black",
+    "brand": "New Balance",
+    "brandSlug": "newbalance",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "men",
+    "genderName": "Чоловічі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 3200,
+    "oldPrice": 4267,
+    "costPrice": 2700,
+    "sku": "N1780",
+    "material": "замша,текстиль",
+    "country": "В'єтнам",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "inStock": true,
+    "isHit": true,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/136ecb08-3fc6-4c97-88c0-d2f55a035b9f.jpg"
+    ],
+    "description": "Модель: New Balance 9060 Beige/Black. Артикул: N1780. Матеріал: замша,текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "New Balance 9060 Beige/Black (арт. N1780) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте New Balance 9060 Beige/Black (арт. N1780) за 3200 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
