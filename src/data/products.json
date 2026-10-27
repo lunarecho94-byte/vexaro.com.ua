@@ -2330,7 +2330,6 @@
     "country": "В'єтнам",
     "sizes": [
       "41",
-      "42",
       "44",
       "45",
       "46"
@@ -16294,7 +16293,6 @@
     "material": "Кожа",
     "country": "В'єтнам",
     "sizes": [
-      "39",
       "40",
       "41",
       "42",
@@ -16359,8 +16357,8 @@
     "brandSlug": "other",
     "category": "Взуття",
     "categorySlug": "shoes",
-    "gender": "unisex",
-    "genderName": "Унісекс",
+    "gender": "women",
+    "genderName": "Жіночі",
     "season": "demi",
     "seasonName": "Демісезон",
     "price": 3200,
@@ -16374,8 +16372,7 @@
       "37",
       "38",
       "39",
-      "40",
-      "41"
+      "40"
     ],
     "inStock": true,
     "isHit": false,
@@ -19899,40 +19896,6 @@
     }
   },
   {
-    "id": "250502",
-    "slug": "salomon-xt-6-adv-dover-black-gore-tex-sa003",
-    "name": "Salomon XT-6 Adv Dover Black Gore-Tex",
-    "brand": "Salomon",
-    "brandSlug": "salomon",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 3000,
-    "oldPrice": 4000,
-    "costPrice": 2500,
-    "sku": "SA003",
-    "material": "Текстиль",
-    "country": "-",
-    "sizes": [
-      "36",
-      "37",
-      "39"
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/cd78ef34-3bd9-49e5-bcb2-ab8ffbf25ae3.jpeg"
-    ],
-    "description": "Модель: Salomon XT-6 Adv Dover Black Gore-Tex. Артикул: SA003. Матеріал: Текстиль. Сезон: Демісезон. Виробництво: -. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Salomon XT-6 Adv Dover Black Gore-Tex (арт. SA003) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Salomon XT-6 Adv Dover Black Gore-Tex (арт. SA003) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "250499",
     "slug": "salomon-xt-6-adv-dover-silver-beige-sa002",
     "name": "Salomon XT-6 Adv Dover Silver Beige",
@@ -23214,7 +23177,6 @@
     "sizes": [
       "37",
       "38",
-      "39",
       "43",
       "44",
       "45"
@@ -23321,7 +23283,6 @@
     "sizes": [
       "36",
       "37",
-      "38",
       "39",
       "40",
       "41",
@@ -39352,7 +39313,8 @@
     "sizes": [
       "41",
       "44",
-      "45"
+      "45",
+      "46"
     ],
     "inStock": true,
     "isHit": false,
@@ -50120,7 +50082,6 @@
     "sizes": [
       "37",
       "38",
-      "40",
       "41",
       "42",
       "43",
@@ -67367,8 +67328,8 @@
     "brandSlug": "nike",
     "category": "Взуття",
     "categorySlug": "shoes",
-    "gender": "unisex",
-    "genderName": "Унісекс",
+    "gender": "women",
+    "genderName": "Жіночі",
     "season": "demi",
     "seasonName": "Демісезон",
     "price": 2800,
@@ -67380,8 +67341,7 @@
     "sizes": [
       "37",
       "38",
-      "39",
-      "41"
+      "39"
     ],
     "inStock": true,
     "isHit": false,
@@ -76687,43 +76647,6 @@
     }
   },
   {
-    "id": "217900",
-    "slug": "nike-sb-dunk-sail-brown-dnk7070",
-    "name": "Nike SB Dunk sail brown",
-    "brand": "Nike",
-    "brandSlug": "nike",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "unisex",
-    "genderName": "Унісекс",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 3000,
-    "oldPrice": 4000,
-    "costPrice": 2500,
-    "sku": "#DNK7070",
-    "material": "Натуральна замша",
-    "country": "В'єтнам",
-    "sizes": [
-      "37",
-      "38",
-      "44"
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/d924c094-0667-4296-a804-0b733834e1b3.jpeg",
-      "https://easydrop.one/media/uploads/images/base/771a918d-4325-4248-a697-8caccb498897.jpeg",
-      "https://easydrop.one/media/uploads/images/base/c5137983-d798-4f23-85d0-8e0ed15989ba.jpeg",
-      "https://easydrop.one/media/uploads/images/base/61d1fe27-cfa1-4db0-a0e0-fae0bf28cf12.jpeg"
-    ],
-    "description": "Модель: Nike SB Dunk sail brown. Артикул: #DNK7070. Матеріал: Натуральна замша. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Nike SB Dunk sail brown (арт. #DNK7070) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Nike SB Dunk sail brown (арт. #DNK7070) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "217897",
     "slug": "nike-runtekk-v2k-summit-white-metalic-silver-dnb909",
     "name": "Nike Runtekk V2K Summit White Metalic Silver",
@@ -83691,7 +83614,6 @@
     "material": "Шкіра",
     "country": "В'єтнам",
     "sizes": [
-      "39",
       "40",
       "41",
       "42",
@@ -88619,7 +88541,6 @@
     "sizes": [
       "36",
       "38",
-      "39",
       "40"
     ],
     "inStock": true,
@@ -95479,8 +95400,7 @@
       "41",
       "42",
       "43",
-      "44",
-      "45"
+      "44"
     ],
     "inStock": true,
     "isHit": false,
@@ -96293,7 +96213,6 @@
       "37",
       "38",
       "39",
-      "40",
       "41",
       "42",
       "43",
@@ -117087,9 +117006,9 @@
     "genderName": "Унісекс",
     "season": "demi",
     "seasonName": "Демісезон",
-    "price": 3000,
-    "oldPrice": 4000,
-    "costPrice": 2500,
+    "price": 3500,
+    "oldPrice": 4667,
+    "costPrice": 3000,
     "sku": "2520",
     "material": "Текстиль, шкіра",
     "country": "В'єтнам",
@@ -117106,7 +117025,7 @@
     "description": "Модель: Saucony Progrid Omni 9. Артикул: 2520. Матеріал: Текстиль, шкіра. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
     "seo": {
       "title": "Saucony Progrid Omni 9 (арт. 2520) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Saucony Progrid Omni 9 (арт. 2520) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+      "description": "Замовляйте Saucony Progrid Omni 9 (арт. 2520) за 3500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -149403,43 +149322,6 @@
     }
   },
   {
-    "id": "150813",
-    "slug": "adidas-samba-brown-dad185",
-    "name": "Adidas Samba brown",
-    "brand": "Adidas",
-    "brandSlug": "adidas",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 2400,
-    "oldPrice": 3200,
-    "costPrice": 1900,
-    "sku": "#DAD185",
-    "material": "Натуральна шкіра, замша",
-    "country": "В'єтнам",
-    "sizes": [
-      "36",
-      "39",
-      "40"
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/a34844cd-fb8c-406a-9ea8-aeda06710f10.jpeg",
-      "https://easydrop.one/media/uploads/images/base/03d7c0b2-75da-4677-bc11-7d683ca0a79b.jpeg",
-      "https://easydrop.one/media/uploads/images/base/d0962a25-30e0-4ae2-925e-d5cfc2244790.jpeg",
-      "https://easydrop.one/media/uploads/images/base/f6272333-41d9-431a-b077-425c5e64361d.jpeg"
-    ],
-    "description": "Модель: Adidas Samba brown. Артикул: #DAD185. Матеріал: Натуральна шкіра, замша. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Adidas Samba brown (арт. #DAD185) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Adidas Samba brown (арт. #DAD185) за 2400 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "150798",
     "slug": "new-balance-530-beige-v2-dnb175",
     "name": "New Balance 530 beige v2",
@@ -172294,8 +172176,7 @@
     "sizes": [
       "36",
       "37",
-      "38",
-      "39"
+      "38"
     ],
     "inStock": true,
     "isHit": false,
@@ -172394,9 +172275,9 @@
     "genderName": "Унісекс",
     "season": "demi",
     "seasonName": "Демісезон",
-    "price": 3200,
-    "oldPrice": 4267,
-    "costPrice": 2700,
+    "price": 3000,
+    "oldPrice": 4000,
+    "costPrice": 2500,
     "sku": "1135",
     "material": "Текстиль / комбінований",
     "country": "В'єтнам",
@@ -172420,7 +172301,7 @@
     "description": "Модель: DC Sneakers Court Graffik Black White. Артикул: 1135. Матеріал: Текстиль / комбінований. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
     "seo": {
       "title": "DC Sneakers Court Graffik Black White (арт. 1135) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте DC Sneakers Court Graffik Black White (арт. 1135) за 3200 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+      "description": "Замовляйте DC Sneakers Court Graffik Black White (арт. 1135) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -180257,43 +180138,6 @@
     }
   },
   {
-    "id": "100155",
-    "slug": "new-balance-9060-x-joe-freshgoods-dark-grey-dnb72",
-    "name": "New Balance 9060 x Joe Freshgoods Dark Grey",
-    "brand": "New Balance",
-    "brandSlug": "newbalance",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 2850,
-    "oldPrice": 3800,
-    "costPrice": 2350,
-    "sku": "#DNB72",
-    "material": "Натуральна замша,текстиль",
-    "country": "В'єтнам",
-    "sizes": [
-      "42",
-      "43",
-      "44"
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/85e14f84-1f89-47ad-b7f0-5e439e1e6643.jpeg",
-      "https://easydrop.one/media/uploads/images/base/539706cd-bc79-42e3-aefb-15894ddb1dc9.jpeg",
-      "https://easydrop.one/media/uploads/images/base/406414ce-741c-4a3f-874b-28fb1f2bf312.jpeg",
-      "https://easydrop.one/media/uploads/images/base/d9042b5e-a05c-4891-b4e0-9e03a1911323.jpeg"
-    ],
-    "description": "Модель: New Balance 9060 x Joe Freshgoods Dark Grey. Артикул: #DNB72. Матеріал: Натуральна замша,текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "New Balance 9060 x Joe Freshgoods Dark Grey (арт. #DNB72) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте New Balance 9060 x Joe Freshgoods Dark Grey (арт. #DNB72) за 2850 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "100154",
     "slug": "new-balance-9060-blue-gray-dnb71",
     "name": "New Balance 9060 blue gray",
@@ -180314,7 +180158,8 @@
     "sizes": [
       "36",
       "37",
-      "38"
+      "38",
+      "39"
     ],
     "inStock": true,
     "isHit": true,
@@ -180348,7 +180193,6 @@
     "country": "-",
     "sizes": [
       "39",
-      "41",
       "42",
       "43",
       "44"
@@ -183247,7 +183091,6 @@
     "sizes": [
       "41",
       "43",
-      "44",
       "45"
     ],
     "inStock": true,
