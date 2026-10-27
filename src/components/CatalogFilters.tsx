@@ -282,27 +282,6 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
           </div>
         </div>
 
-        {/* Bestseller Quick Filter Pills */}
-        <div className="mt-2.5 flex items-center gap-2 overflow-x-auto scrollbar-none pb-0.5 pt-0.5">
-          {BESTSELLER_PILLS.map((pill) => {
-            const isActive = currentBestseller === pill.id;
-            return (
-              <button
-                key={pill.id}
-                type="button"
-                onClick={() => commitFilters({ bestseller: isActive ? null : pill.id })}
-                className={`whitespace-nowrap px-3 py-1.5 rounded-xl text-xs font-bold transition-all shrink-0 border ${
-                  isActive
-                    ? 'bg-amber-500 text-black border-amber-500 shadow-sm shadow-amber-500/20'
-                    : 'bg-surface text-foreground border-border hover:border-amber-500/50 hover:bg-surface-raised'
-                }`}
-              >
-                {pill.label}
-              </button>
-            );
-          })}
-        </div>
-
         {/* Active Filter Badges */}
         {activeCount > 0 && (
           <div className="mt-2.5 flex items-center gap-1.5 overflow-x-auto scrollbar-none whitespace-nowrap text-xs pb-0.5 pt-0.5 border-t border-border/60">
