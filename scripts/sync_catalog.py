@@ -895,7 +895,7 @@ def main():
     }
 
     # Pinned products permanently pinned at top by store owner request
-    PINNED_SKUS = ['S1090']
+    PINNED_SKUS = []
     pinned_rank = {sku: len(PINNED_SKUS) - idx for idx, sku in enumerate(PINNED_SKUS)}
 
     # Sort: pinned products first (in order), then newest arrivals by product ID descending

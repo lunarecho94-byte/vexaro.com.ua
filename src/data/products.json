@@ -1,44 +1,5 @@
 [
   {
-    "id": "256559",
-    "slug": "salomon-xt-6-coffee-french-s1090",
-    "name": "Salomon XT-6 Coffee French",
-    "brand": "Salomon",
-    "brandSlug": "salomon",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "unisex",
-    "genderName": "Унісекс",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 3300,
-    "oldPrice": 4400,
-    "costPrice": 2800,
-    "sku": "S1090",
-    "material": "тектиль",
-    "country": "В'єтнам",
-    "sizes": [
-      "40",
-      "41",
-      "42",
-      "43",
-      "44"
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/b0de31aa-6ef5-4db6-9c83-086e503c0f80.jpg",
-      "https://easydrop.one/media/uploads/images/base/a65c3c82-4337-4d15-853e-f1a1430acc0e.jpg",
-      "https://easydrop.one/media/uploads/images/base/41c2a89f-79f8-4cbd-a423-b5843dc6bec5.jpg",
-      "https://easydrop.one/media/uploads/images/base/6d5d2abc-e651-4f38-8917-c57d3c5623f9.jpg"
-    ],
-    "description": "Модель: Salomon XT-6 Coffee French. Артикул: S1090. Матеріал: тектиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Salomon XT-6 Coffee French (арт. S1090) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Salomon XT-6 Coffee French (арт. S1090) за 3300 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "257424",
     "slug": "ugg-ultra-mini-platform-sand-premium-1727",
     "name": "UGG ULTRA MINI PLATFORM | SAND premium",
@@ -1437,6 +1398,45 @@
     "seo": {
       "title": "Nike Air More Uptempo \"Low Grey Black\" (арт. AS115) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Nike Air More Uptempo \"Low Grey Black\" (арт. AS115) за 3090 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "256559",
+    "slug": "salomon-xt-6-coffee-french-s1090",
+    "name": "Salomon XT-6 Coffee French",
+    "brand": "Salomon",
+    "brandSlug": "salomon",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "unisex",
+    "genderName": "Унісекс",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 3300,
+    "oldPrice": 4400,
+    "costPrice": 2800,
+    "sku": "S1090",
+    "material": "тектиль",
+    "country": "В'єтнам",
+    "sizes": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44"
+    ],
+    "inStock": true,
+    "isHit": true,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/b0de31aa-6ef5-4db6-9c83-086e503c0f80.jpg",
+      "https://easydrop.one/media/uploads/images/base/a65c3c82-4337-4d15-853e-f1a1430acc0e.jpg",
+      "https://easydrop.one/media/uploads/images/base/41c2a89f-79f8-4cbd-a423-b5843dc6bec5.jpg",
+      "https://easydrop.one/media/uploads/images/base/6d5d2abc-e651-4f38-8917-c57d3c5623f9.jpg"
+    ],
+    "description": "Модель: Salomon XT-6 Coffee French. Артикул: S1090. Матеріал: тектиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Salomon XT-6 Coffee French (арт. S1090) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Salomon XT-6 Coffee French (арт. S1090) за 3300 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
