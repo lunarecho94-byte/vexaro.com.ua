@@ -1,35 +1,35 @@
 {
-  "total": 5814,
+  "total": 5816,
   "brands": [
     {
       "name": "Nike",
       "slug": "nike",
-      "count": 2091
+      "count": 2088
     },
     {
       "name": "New Balance",
       "slug": "newbalance",
-      "count": 1323
+      "count": 1320
     },
     {
       "name": "Adidas",
       "slug": "adidas",
-      "count": 511
+      "count": 510
     },
     {
       "name": "Asics",
       "slug": "asics",
-      "count": 419
+      "count": 417
     },
     {
       "name": "UGG",
       "slug": "ugg",
-      "count": 331
+      "count": 342
     },
     {
       "name": "Інші бренди",
       "slug": "other",
-      "count": 183
+      "count": 185
     },
     {
       "name": "Salomon",
@@ -39,7 +39,7 @@
     {
       "name": "Air Jordan",
       "slug": "jordan",
-      "count": 118
+      "count": 117
     },
     {
       "name": "On Cloud",
@@ -49,7 +49,7 @@
     {
       "name": "Balenciaga",
       "slug": "balenciaga",
-      "count": 86
+      "count": 85
     },
     {
       "name": "Golden Goose",
@@ -64,7 +64,7 @@
     {
       "name": "Premiata",
       "slug": "premiata",
-      "count": 54
+      "count": 53
     },
     {
       "name": "Puma",
@@ -107,14 +107,14 @@
       "count": 15
     },
     {
-      "name": "Converse",
-      "slug": "converse",
+      "name": "Dr. Martens",
+      "slug": "drmartens",
       "count": 14
     },
     {
-      "name": "Dr. Martens",
-      "slug": "drmartens",
-      "count": 13
+      "name": "Converse",
+      "slug": "converse",
+      "count": 14
     },
     {
       "name": "Lacoste",
@@ -206,36 +206,36 @@
     {
       "name": "Взуття",
       "slug": "shoes",
-      "count": 5814
+      "count": 5816
     }
   ],
   "genders": [
     {
       "name": "Унісекс",
       "slug": "unisex",
-      "count": 3006
+      "count": 3011
     },
     {
       "name": "Жіночі",
       "slug": "women",
-      "count": 1506
+      "count": 1512
     },
     {
       "name": "Чоловічі",
       "slug": "men",
-      "count": 1302
+      "count": 1293
     }
   ],
   "seasons": [
     {
       "name": "Демісезон",
       "slug": "demi",
-      "count": 5280
+      "count": 5270
     },
     {
       "name": "Зима",
       "slug": "winter",
-      "count": 534
+      "count": 546
     }
   ],
   "sizes": [
@@ -260,15 +260,15 @@
     "49",
     "50",
     "42 2/3",
-    "XL",
-    "40–41",
-    "44(світліші)",
     "S",
+    "44(світліші)",
+    "L",
     "45/46",
-    "40 2/3",
-    "43(світліші)",
+    "XL",
     "M",
-    "L"
+    "43(світліші)",
+    "40–41",
+    "40 2/3"
   ],
   "minPrice": 900,
   "maxPrice": 11611
