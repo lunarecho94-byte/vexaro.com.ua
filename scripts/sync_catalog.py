@@ -226,8 +226,8 @@ COLOR_WORDS = {
 # Explicitly excluded items (all slippers, slides, clogs, mules, sandals, etc. per store owner request)
 EXCLUDED_SKUS = {'16006', '16005', '16004', '16003'}
 
-# Pinned products permanently pinned at top by store owner request
-PINNED_SKUS = ['NB002', 'NB143']
+# Pinned products permanently pinned at top by store owner request (supports 'id:...' or SKU)
+PINNED_KEYS = ['id:2229', 'NB143']
 
 # Specific size exclusions per product SKU requested by store owner
 EXCLUDED_SIZES_BY_SKU = {
@@ -756,7 +756,12 @@ def main():
             sorted_sizes = [s for s in sorted_sizes if s not in ex_sizes]
 
         # STRICT RULE: AT LEAST 3 SIZES IN STOCK (avoid single dead stock), unless pinned by owner
-        if len(sorted_sizes) < 3 and clean_sku.upper() not in PINNED_SKUS:
+        is_pinned = any(
+            (k[3:].strip() == str(gid).strip()) if k.startswith('id:')
+            else (clean_sku.upper() == (k[4:].upper() if k.startswith('sku:') else k.upper()))
+            for k in PINNED_KEYS
+        )
+        if len(sorted_sizes) < 3 and not is_pinned:
             continue
 
         season_slug, season_title = determine_season(name, cat_slug, mat, desc, cname)
@@ -908,12 +913,21 @@ def main():
     }
 
     # Pinned products permanently pinned at top by store owner request
-    pinned_rank = {sku: len(PINNED_SKUS) - idx for idx, sku in enumerate(PINNED_SKUS)}
+    def match_pin(key, p):
+        if key.startswith('id:'):
+            return str(p.get('id', '')).strip() == key[3:].strip()
+        target_sku = key[4:].upper() if key.startswith('sku:') else key.upper()
+        return str(p.get('sku', '')).strip().upper() == target_sku
+
+    def get_pin_rank(p):
+        for idx, key in enumerate(PINNED_KEYS):
+            if match_pin(key, p):
+                return len(PINNED_KEYS) - idx
+        return 0
 
     # Sort: pinned products first (in order), then newest arrivals by product ID descending
     def sort_key(p):
-        sku = str(p.get('sku', '')).strip().upper()
-        rank = pinned_rank.get(sku, 0)
+        rank = get_pin_rank(p)
         pid = int(p['id']) if str(p.get('id', '')).isdigit() else 0
         return (rank, pid)
 

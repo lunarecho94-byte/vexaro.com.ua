@@ -328,12 +328,18 @@ export async function getProducts(params: CatalogQueryParams = {}): Promise<Cata
     }
   }
 
-  // Pinned products permanently pinned at top by store owner request
-  const PINNED_SKUS: string[] = ['NB002', 'NB143'];
+  // Pinned products permanently pinned at top by store owner request (supports 'id:...' or SKU)
+  const PINNED_KEYS: string[] = ['id:2229', 'NB143'];
+  const matchPin = (key: string, p: Product) => {
+    if (key.startsWith('id:')) {
+      return (p.id || '').trim() === key.slice(3).trim();
+    }
+    const targetSku = key.startsWith('sku:') ? key.slice(4).toUpperCase() : key.toUpperCase();
+    return (p.sku || '').trim().toUpperCase() === targetSku;
+  };
   const getPinRank = (p: Product) => {
-    const sku = (p.sku || '').trim().toUpperCase();
-    const idx = PINNED_SKUS.indexOf(sku);
-    return idx >= 0 ? PINNED_SKUS.length - idx : 0;
+    const idx = PINNED_KEYS.findIndex((k) => matchPin(k, p));
+    return idx >= 0 ? PINNED_KEYS.length - idx : 0;
   };
 
   // Sorting:
