@@ -225,6 +225,12 @@ COLOR_WORDS = {
 
 # Explicitly excluded items (all slippers, slides, clogs, mules, sandals, etc. per store owner request)
 EXCLUDED_SKUS = {'16006', '16005', '16004', '16003'}
+
+# Specific size exclusions per product SKU requested by store owner
+EXCLUDED_SIZES_BY_SKU = {
+    'NB143': {'38'},
+}
+
 EXCLUDED_NAME_PATTERNS = re.compile(
     r'\b(slides?|slippers?|clogs?|mules?|sandals?|'
     r'flip.?flops?|adimule|tazz|tasman|funkette|disquette|tazzlita|lanah|goldenstar|'
@@ -741,6 +747,10 @@ def main():
         clean_sku = str(art).strip()
         if clean_sku in EXCLUDED_SKUS or EXCLUDED_NAME_PATTERNS.search(name):
             continue
+
+        if clean_sku.upper() in EXCLUDED_SIZES_BY_SKU:
+            ex_sizes = EXCLUDED_SIZES_BY_SKU[clean_sku.upper()]
+            sorted_sizes = [s for s in sorted_sizes if s not in ex_sizes]
 
         # STRICT RULE: AT LEAST 3 SIZES IN STOCK (avoid single dead stock)
         if len(sorted_sizes) < 3:
