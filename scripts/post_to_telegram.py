@@ -6,8 +6,10 @@ import time
 import os
 import sys
 import re
+import io
 import tempfile
 from datetime import datetime
+from PIL import Image
 
 SCRATCH_DIR = "/Users/mac/.gemini/antigravity/scratch"
 PROJECT_DIR = "/Users/mac/.gemini/antigravity/scratch/urban-next"
@@ -173,6 +175,18 @@ def send_product(prod):
     try:
         dl_req = urllib.request.Request(img_url, headers={'User-Agent': 'Mozilla/5.0'})
         img_data = urllib.request.urlopen(dl_req, timeout=15).read()
+
+        # Optimize image dimensions for Telegram Bot API (Telegram strictly rejects photos where width+height > 10000)
+        try:
+            im = Image.open(io.BytesIO(img_data))
+            if max(im.size) > 1600 or sum(im.size) > 9000:
+                resample = getattr(Image, 'Resampling', Image).LANCZOS if hasattr(Image, 'Resampling') else getattr(Image, 'ANTIALIAS', Image.BICUBIC)
+                im.thumbnail((1600, 1600), resample)
+                out = io.BytesIO()
+                im.convert('RGB').save(out, format='JPEG', quality=88)
+                img_data = out.getvalue()
+        except Exception as img_err:
+            log(f"Image optimization notice: {img_err}")
     except Exception as e:
         log(f"Failed to fetch image {img_url}: {e}")
         return False
@@ -195,11 +209,16 @@ def send_product(prod):
             res = json.loads(resp.read().decode('utf-8'))
             return res.get('ok', False)
     except urllib.error.HTTPError as e:
+        err_body = ""
+        try:
+            err_body = e.read().decode('utf-8', errors='ignore')
+        except Exception:
+            pass
         if e.code == 429:
             log("Rate limit (429), pausing 15s...")
             time.sleep(15)
         else:
-            log(f"HTTP Error {e.code} for {prod.get('name')}")
+            log(f"HTTP Error {e.code} for {prod.get('name')}: {err_body}")
         return False
     except Exception as e:
         log(f"Error posting {prod.get('name')}: {e}")
