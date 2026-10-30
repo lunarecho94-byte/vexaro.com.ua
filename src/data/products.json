@@ -1092,7 +1092,6 @@
     "country": "-",
     "sizes": [
       "39",
-      "40",
       "41",
       "42",
       "43",
@@ -1944,7 +1943,6 @@
       "38",
       "39",
       "40",
-      "41",
       "42",
       "43",
       "44",
@@ -3058,7 +3056,6 @@
     "sizes": [
       "40",
       "41",
-      "42",
       "44",
       "45"
     ],
@@ -3913,7 +3910,6 @@
       "42",
       "43",
       "44",
-      "45",
       "46"
     ],
     "inStock": true,
@@ -4282,8 +4278,7 @@
     "sizes": [
       "36",
       "37",
-      "38",
-      "39"
+      "38"
     ],
     "inStock": true,
     "isHit": false,
@@ -4650,6 +4645,7 @@
     "material": "Замша/Хутро",
     "country": "В'єтнам",
     "sizes": [
+      "37",
       "38",
       "39",
       "40",
@@ -4866,7 +4862,6 @@
     "country": "-",
     "sizes": [
       "41",
-      "42",
       "43",
       "44"
     ],
@@ -4902,6 +4897,7 @@
     "sizes": [
       "41",
       "42",
+      "43",
       "44"
     ],
     "inStock": true,
@@ -6021,7 +6017,6 @@
     "sizes": [
       "41",
       "43",
-      "44",
       "45"
     ],
     "inStock": true,
@@ -7207,6 +7202,7 @@
     "sizes": [
       "40",
       "41",
+      "42",
       "43",
       "44",
       "45"
@@ -8798,7 +8794,6 @@
     "material": "Текстиль / комбінований",
     "country": "-",
     "sizes": [
-      "36",
       "37",
       "38",
       "40"
@@ -10121,40 +10116,6 @@
     "seo": {
       "title": "New Balance 9060 ХУТРО (арт. NB513) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте New Balance 9060 ХУТРО (арт. NB513) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "254061",
-    "slug": "new-balance-9060-khutro-nb512",
-    "name": "New Balance 9060 ХУТРО",
-    "brand": "New Balance",
-    "brandSlug": "newbalance",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 2900,
-    "oldPrice": 3867,
-    "costPrice": 2400,
-    "sku": "NB512",
-    "material": "Замша, хутро гума, піна, прошиті",
-    "country": "В'єтнам",
-    "sizes": [
-      "43",
-      "45",
-      "46"
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/2df597b9-ca64-4db2-bf5e-8288e58dbe94.jpg"
-    ],
-    "description": "Модель: New Balance 9060 ХУТРО. Артикул: NB512. Матеріал: Замша, хутро гума, піна, прошиті. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "New Balance 9060 ХУТРО (арт. NB512) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте New Balance 9060 ХУТРО (арт. NB512) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -13177,7 +13138,6 @@
     "material": "Текстиль / комбінований",
     "country": "-",
     "sizes": [
-      "41",
       "42",
       "44",
       "45"
@@ -13422,43 +13382,6 @@
     "seo": {
       "title": "Nike Dunk Low Retro Se \"Wolf Grey\" (арт. AS73) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Nike Dunk Low Retro Se \"Wolf Grey\" (арт. AS73) за 2950 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "253485",
-    "slug": "nike-p-6000-black-grey-red-dnb09131",
-    "name": "Nike P-6000 black grey red",
-    "brand": "Nike",
-    "brandSlug": "nike",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "unisex",
-    "genderName": "Унісекс",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 2850,
-    "oldPrice": 3800,
-    "costPrice": 2350,
-    "sku": "#DNB09131",
-    "material": "Шкіра,текстиль,піна",
-    "country": "В'єтнам",
-    "sizes": [
-      "40",
-      "42",
-      "43"
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "/images/products/nike-p-6000-black-grey-red-dnb09131/img-1.jpg",
-      "/images/products/nike-p-6000-black-grey-red-dnb09131/img-2.jpg",
-      "/images/products/nike-p-6000-black-grey-red-dnb09131/img-3.jpg",
-      "/images/products/nike-p-6000-black-grey-red-dnb09131/img-4.jpg"
-    ],
-    "description": "Модель: Nike P-6000 black grey red. Артикул: #DNB09131. Матеріал: Шкіра,текстиль,піна. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Nike P-6000 black grey red (арт. #DNB09131) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Nike P-6000 black grey red (арт. #DNB09131) за 2850 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -13745,7 +13668,6 @@
     "sizes": [
       "36",
       "38",
-      "42",
       "43",
       "44"
     ],
@@ -18402,8 +18324,8 @@
     "brandSlug": "other",
     "category": "Взуття",
     "categorySlug": "shoes",
-    "gender": "unisex",
-    "genderName": "Унісекс",
+    "gender": "men",
+    "genderName": "Чоловічі",
     "season": "demi",
     "seasonName": "Демісезон",
     "price": 3200,
@@ -18413,7 +18335,6 @@
     "material": "Замша/шкіра",
     "country": "В'єтнам",
     "sizes": [
-      "37",
       "41",
       "43",
       "44",
@@ -21162,7 +21083,6 @@
     "country": "В'єтнам",
     "sizes": [
       "38",
-      "40",
       "41",
       "42",
       "43",
@@ -22138,8 +22058,8 @@
     "brandSlug": "tnf",
     "category": "Взуття",
     "categorySlug": "shoes",
-    "gender": "unisex",
-    "genderName": "Унісекс",
+    "gender": "men",
+    "genderName": "Чоловічі",
     "season": "demi",
     "seasonName": "Демісезон",
     "price": 3400,
@@ -22149,7 +22069,6 @@
     "material": "Текстиль",
     "country": "В'єтнам",
     "sizes": [
-      "40",
       "41",
       "42",
       "44",
@@ -25676,8 +25595,7 @@
       "42",
       "43",
       "44",
-      "45",
-      "46"
+      "45"
     ],
     "inStock": true,
     "isHit": false,
@@ -25899,6 +25817,7 @@
     "sizes": [
       "38",
       "39",
+      "42",
       "43"
     ],
     "inStock": true,
@@ -29037,6 +28956,7 @@
     "sizes": [
       "40",
       "41",
+      "42",
       "44",
       "45"
     ],
@@ -29185,8 +29105,8 @@
     "sizes": [
       "40",
       "41",
-      "42",
-      "44"
+      "44",
+      "45"
     ],
     "inStock": true,
     "isHit": false,
@@ -30337,7 +30257,6 @@
     "material": "Шкіра, текстиль",
     "country": "В'єтнам",
     "sizes": [
-      "36",
       "37",
       "38",
       "39",
@@ -34387,7 +34306,8 @@
       "41",
       "42",
       "43",
-      "44"
+      "44",
+      "45"
     ],
     "inStock": true,
     "isHit": false,
@@ -38914,7 +38834,6 @@
     "material": "Шкіра, вологостійкий текстиль, термоутеплювач, гума, піна, прошиті",
     "country": "В'єтнам",
     "sizes": [
-      "41",
       "42",
       "44",
       "46"
@@ -39000,40 +38919,6 @@
     "seo": {
       "title": "New Balance 725 (термо) (арт. NB488) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте New Balance 725 (термо) (арт. NB488) за 2600 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "244286",
-    "slug": "nike-air-max-90-cordura-3117",
-    "name": "Nike Air Max 90 | Cordura",
-    "brand": "Nike",
-    "brandSlug": "nike",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 2800,
-    "oldPrice": 3733,
-    "costPrice": 2300,
-    "sku": "3117",
-    "material": "Текстиль, шкіра",
-    "country": "В'єтнам",
-    "sizes": [
-      "41",
-      "42",
-      "43"
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/0d853005-657a-4cb5-99cd-95374ccc2b03.jpg"
-    ],
-    "description": "Модель: Nike Air Max 90 | Cordura. Артикул: 3117. Матеріал: Текстиль, шкіра. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Nike Air Max 90 | Cordura (арт. 3117) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Nike Air Max 90 | Cordura (арт. 3117) за 2800 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -40659,6 +40544,7 @@
       "41",
       "43",
       "44",
+      "45",
       "46"
     ],
     "inStock": true,
@@ -42742,6 +42628,43 @@
     }
   },
   {
+    "id": "242872",
+    "slug": "salomon-odyssey-elmt-gore-tex-black-orange-nd-sl034",
+    "name": "Salomon Odyssey Elmt Gore-Tex Black Orange ND",
+    "brand": "Salomon",
+    "brandSlug": "salomon",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "men",
+    "genderName": "Чоловічі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 2800,
+    "oldPrice": 3733,
+    "costPrice": 2300,
+    "sku": "SL034",
+    "material": "Текстиль / комбінований",
+    "country": "-",
+    "sizes": [
+      "42",
+      "43",
+      "44"
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/541d1925-160b-44dc-95dc-6f199e969aad.jpeg",
+      "https://easydrop.one/media/uploads/images/base/4b0555d7-6660-45ff-9954-0cf8d23d6baa.jpeg",
+      "https://easydrop.one/media/uploads/images/base/4316a50e-ec64-4d61-9167-991433757acb.jpeg",
+      "https://easydrop.one/media/uploads/images/base/467b5192-503d-44cb-9cf8-f7c2b04b62a0.jpeg"
+    ],
+    "description": "Модель: Salomon Odyssey Elmt Gore-Tex Black Orange ND. Артикул: SL034. Матеріал: Текстиль / комбінований. Сезон: Демісезон. Виробництво: -. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Salomon Odyssey Elmt Gore-Tex Black Orange ND (арт. SL034) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Salomon Odyssey Elmt Gore-Tex Black Orange ND (арт. SL034) за 2800 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
     "id": "242871",
     "slug": "salomon-odyssey-elmt-gore-tex-black-white-nd-sl033",
     "name": "Salomon Odyssey Elmt Gore-Tex Black White ND",
@@ -44353,7 +44276,6 @@
     "sizes": [
       "37",
       "38",
-      "41",
       "44"
     ],
     "inStock": true,
@@ -45973,6 +45895,7 @@
     "country": "В'єтнам",
     "sizes": [
       "41",
+      "42",
       "43",
       "44"
     ],
@@ -47111,7 +47034,8 @@
     "sizes": [
       "41",
       "43",
-      "44"
+      "44",
+      "46"
     ],
     "inStock": true,
     "isHit": false,
@@ -49243,40 +49167,6 @@
     "seo": {
       "title": "Adidas Samba OG Cow Print (арт. 2007) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Adidas Samba OG Cow Print (арт. 2007) за 2600 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "238810",
-    "slug": "new-balance-9060-burgundy-u9060zsc-2006",
-    "name": "New Balance 9060 Burgundy U9060ZSC",
-    "brand": "New Balance",
-    "brandSlug": "newbalance",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 2600,
-    "oldPrice": 3467,
-    "costPrice": 2100,
-    "sku": "2006",
-    "material": "Замша",
-    "country": "В'єтнам",
-    "sizes": [
-      "36",
-      "37",
-      "38"
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/95956286-f3d2-4963-8700-298ca83b4730.jpeg"
-    ],
-    "description": "Модель: New Balance 9060 Burgundy U9060ZSC. Артикул: 2006. Матеріал: Замша. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "New Balance 9060 Burgundy U9060ZSC (арт. 2006) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте New Balance 9060 Burgundy U9060ZSC (арт. 2006) за 2600 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -52258,7 +52148,6 @@
     "sizes": [
       "36",
       "37",
-      "38",
       "39"
     ],
     "inStock": true,
@@ -60454,6 +60343,7 @@
       "40",
       "41",
       "42",
+      "43",
       "44"
     ],
     "inStock": true,
@@ -61326,7 +61216,6 @@
     "country": "В'єтнам",
     "sizes": [
       "36",
-      "37",
       "38",
       "40"
     ],
@@ -62207,7 +62096,6 @@
     "country": "В'єтнам",
     "sizes": [
       "36",
-      "37",
       "38",
       "39"
     ],
@@ -63294,43 +63182,6 @@
     }
   },
   {
-    "id": "227408",
-    "slug": "nike-v2k-run-mink-brown-01317",
-    "name": "Nike V2K Run Mink Brown",
-    "brand": "Nike",
-    "brandSlug": "nike",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "unisex",
-    "genderName": "Унісекс",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 2600,
-    "oldPrice": 3467,
-    "costPrice": 2100,
-    "sku": "01317",
-    "material": "Шкіра, Текстиль",
-    "country": "Китай",
-    "sizes": [
-      "38",
-      "39",
-      "41"
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/501435b7-6a0e-4038-85d9-5a7ffc5ae52c.jpg",
-      "https://easydrop.one/media/uploads/images/base/feaaca25-a915-40be-b03a-cce2ca8423de.jpg",
-      "https://easydrop.one/media/uploads/images/base/30198c7c-0b8a-425d-8045-8a5de7e10569.jpg",
-      "https://easydrop.one/media/uploads/images/base/b66148e2-fc9f-4ae9-a0ff-1ea8baf79f60.jpg"
-    ],
-    "description": "Модель: Nike V2K Run Mink Brown. Артикул: 01317. Матеріал: Шкіра, Текстиль. Сезон: Демісезон. Виробництво: Китай. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Nike V2K Run Mink Brown (арт. 01317) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Nike V2K Run Mink Brown (арт. 01317) за 2600 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "227397",
     "slug": "adidas-response-cl-grey-white-2777",
     "name": "Adidas Response CL Grey White",
@@ -63928,6 +63779,7 @@
     "sizes": [
       "41",
       "43",
+      "44",
       "45"
     ],
     "inStock": true,
@@ -65673,7 +65525,8 @@
       "41",
       "42",
       "43",
-      "44"
+      "44",
+      "45"
     ],
     "inStock": true,
     "isHit": true,
@@ -69495,74 +69348,6 @@
     }
   },
   {
-    "id": "224542",
-    "slug": "nike-air-max-tl-2-5-black-metallic-1269",
-    "name": "Nike Air Max Tl 2.5 Black Metallic",
-    "brand": "Nike",
-    "brandSlug": "nike",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 2900,
-    "oldPrice": 3867,
-    "costPrice": 2400,
-    "sku": "1269",
-    "material": "Текстиль / комбінований",
-    "country": "В'єтнам",
-    "sizes": [
-      "41",
-      "42",
-      "43"
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/35edc86b-1529-4813-be62-e4c7c18b7d83.jpg"
-    ],
-    "description": "Модель: Nike Air Max Tl 2.5 Black Metallic. Артикул: 1269. Матеріал: Текстиль / комбінований. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Nike Air Max Tl 2.5 Black Metallic (арт. 1269) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Nike Air Max Tl 2.5 Black Metallic (арт. 1269) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "224541",
-    "slug": "nike-air-force-1-luxe-black-gum-1268",
-    "name": "Nike Air Force 1 Luxe Black Gum",
-    "brand": "Nike",
-    "brandSlug": "nike",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 2900,
-    "oldPrice": 3867,
-    "costPrice": 2400,
-    "sku": "1268",
-    "material": "Текстиль / комбінований",
-    "country": "В'єтнам",
-    "sizes": [
-      "41",
-      "42",
-      "45"
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/a676cbed-a601-4581-a42d-031c926b2d0c.jpg"
-    ],
-    "description": "Модель: Nike Air Force 1 Luxe Black Gum. Артикул: 1268. Матеріал: Текстиль / комбінований. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Nike Air Force 1 Luxe Black Gum (арт. 1268) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Nike Air Force 1 Luxe Black Gum (арт. 1268) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "224530",
     "slug": "nike-air-max-95-aegean-storm-1267",
     "name": "Nike Air Max 95 Aegean Storm",
@@ -70509,8 +70294,8 @@
     "brandSlug": "adidas",
     "category": "Взуття",
     "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
+    "gender": "unisex",
+    "genderName": "Унісекс",
     "season": "demi",
     "seasonName": "Демісезон",
     "price": 3100,
@@ -70523,7 +70308,8 @@
       "37",
       "38",
       "39",
-      "40"
+      "40",
+      "41"
     ],
     "inStock": true,
     "isHit": false,
@@ -74632,8 +74418,7 @@
     "sizes": [
       "36",
       "37",
-      "38",
-      "40"
+      "38"
     ],
     "inStock": true,
     "isHit": false,
@@ -83612,6 +83397,7 @@
     "country": "В'єтнам",
     "sizes": [
       "36",
+      "39",
       "41",
       "42",
       "45"
@@ -84553,7 +84339,6 @@
       "37",
       "38",
       "39",
-      "41",
       "42",
       "43"
     ],
@@ -88303,6 +88088,7 @@
     "country": "В'єтнам",
     "sizes": [
       "38",
+      "40",
       "43",
       "44",
       "45"
@@ -89070,6 +88856,40 @@
     "seo": {
       "title": "Air Jordan Retro 12 Black (арт. 2596) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Air Jordan Retro 12 Black (арт. 2596) за 2700 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "209542",
+    "slug": "asics-gel-pickax-white-black-2587",
+    "name": "Asics Gel-Pickax White Black",
+    "brand": "Asics",
+    "brandSlug": "asics",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "men",
+    "genderName": "Чоловічі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 3100,
+    "oldPrice": 4133,
+    "costPrice": 2600,
+    "sku": "2587",
+    "material": "Кожа , Сетка",
+    "country": "В'єтнам",
+    "sizes": [
+      "41",
+      "42",
+      "44"
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/87102853-5e10-46cd-bb18-ec0b5731e26e.jpeg"
+    ],
+    "description": "Модель: Asics Gel-Pickax White Black. Артикул: 2587. Матеріал: Кожа , Сетка. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Asics Gel-Pickax White Black (арт. 2587) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Asics Gel-Pickax White Black (арт. 2587) за 3100 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -96428,7 +96248,6 @@
     "sizes": [
       "42",
       "43",
-      "44",
       "45"
     ],
     "inStock": true,
@@ -96715,7 +96534,8 @@
       "41",
       "42",
       "43",
-      "44"
+      "44",
+      "45"
     ],
     "inStock": true,
     "isHit": false,
@@ -97010,8 +96830,7 @@
       "41",
       "42",
       "43",
-      "44",
-      "45"
+      "44"
     ],
     "inStock": true,
     "isHit": false,
@@ -97050,7 +96869,6 @@
       "41",
       "42",
       "43",
-      "44",
       "45"
     ],
     "inStock": true,
@@ -98269,7 +98087,8 @@
       "38",
       "39",
       "40",
-      "41"
+      "41",
+      "42"
     ],
     "inStock": true,
     "isHit": true,
@@ -100173,8 +99992,8 @@
     "brandSlug": "asics",
     "category": "Взуття",
     "categorySlug": "shoes",
-    "gender": "unisex",
-    "genderName": "Унісекс",
+    "gender": "men",
+    "genderName": "Чоловічі",
     "season": "demi",
     "seasonName": "Демісезон",
     "price": 3000,
@@ -100184,7 +100003,6 @@
     "material": "Текстиль, замша",
     "country": "В'єтнам",
     "sizes": [
-      "39",
       "42",
       "43",
       "44",
@@ -100422,40 +100240,6 @@
     }
   },
   {
-    "id": "199877",
-    "slug": "ugg-neumel-chelsea-platform-chestnut-2400",
-    "name": "Ugg Neumel Chelsea Platform Chestnut",
-    "brand": "UGG",
-    "brandSlug": "ugg",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 3500,
-    "oldPrice": 4667,
-    "costPrice": 3000,
-    "sku": "2400",
-    "material": "Замша , Натуральный мех",
-    "country": "Китай",
-    "sizes": [
-      "38",
-      "40",
-      "41"
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/b197901b-ccf0-4258-8816-c83b254ba7f5.jpeg"
-    ],
-    "description": "Модель: Ugg Neumel Chelsea Platform Chestnut. Артикул: 2400. Матеріал: Замша , Натуральный мех. Сезон: Зима. Виробництво: Китай. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Ugg Neumel Chelsea Platform Chestnut (арт. 2400) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Ugg Neumel Chelsea Platform Chestnut (арт. 2400) за 3500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "199876",
     "slug": "ugg-lowmel-sneaker-high-black-2404",
     "name": "UGG Lowmel Sneaker High Black",
@@ -100476,7 +100260,8 @@
     "sizes": [
       "36",
       "37",
-      "38"
+      "38",
+      "40"
     ],
     "inStock": true,
     "isHit": true,
@@ -103621,7 +103406,6 @@
     "material": "Шкіра",
     "country": "В'єтнам",
     "sizes": [
-      "38",
       "40",
       "41",
       "42",
@@ -105275,10 +105059,8 @@
     "material": "Замша/текстиль",
     "country": "В'єтнам",
     "sizes": [
-      "36",
       "37",
       "38",
-      "39",
       "40"
     ],
     "inStock": true,
@@ -110278,8 +110060,8 @@
     "brandSlug": "asics",
     "category": "Взуття",
     "categorySlug": "shoes",
-    "gender": "unisex",
-    "genderName": "Унісекс",
+    "gender": "women",
+    "genderName": "Жіночі",
     "season": "demi",
     "seasonName": "Демісезон",
     "price": 2900,
@@ -110292,8 +110074,7 @@
       "37",
       "38",
       "39",
-      "40",
-      "41"
+      "40"
     ],
     "inStock": true,
     "isHit": false,
@@ -111091,7 +110872,6 @@
     "sizes": [
       "36",
       "37",
-      "40",
       "41"
     ],
     "inStock": true,
@@ -112716,6 +112496,40 @@
     "seo": {
       "title": "New Balance 9060 Termo Black Grey (арт. 2410) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте New Balance 9060 Termo Black Grey (арт. 2410) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "192684",
+    "slug": "nike-zoom-pulse-black-grey-winter-fur-2423",
+    "name": "Nike Zoom Pulse Black Grey Winter Fur",
+    "brand": "Nike",
+    "brandSlug": "nike",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "men",
+    "genderName": "Чоловічі",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 2300,
+    "oldPrice": 3067,
+    "costPrice": 1800,
+    "sku": "2423",
+    "material": "Текстиль , Кожа , Мех",
+    "country": "В'єтнам",
+    "sizes": [
+      "41",
+      "43",
+      "44"
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/53194e05-115e-4046-a938-bfbe874e93f2.jpeg"
+    ],
+    "description": "Модель: Nike Zoom Pulse Black Grey Winter Fur. Артикул: 2423. Матеріал: Текстиль , Кожа , Мех. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Nike Zoom Pulse Black Grey Winter Fur (арт. 2423) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Nike Zoom Pulse Black Grey Winter Fur (арт. 2423) за 2300 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -114750,8 +114564,7 @@
       "40",
       "41",
       "43",
-      "44",
-      "45"
+      "44"
     ],
     "inStock": true,
     "isHit": false,
@@ -114975,40 +114788,6 @@
     "seo": {
       "title": "Moncler Trailgrip Gore-Tex Black (арт. 2378) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Moncler Trailgrip Gore-Tex Black (арт. 2378) за 4000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "191585",
-    "slug": "nike-air-force-1-low-x-comme-des-gar-ons-supreme-art1591",
-    "name": "Nike Air Force 1 Low x Comme des Garçons Supreme",
-    "brand": "Nike",
-    "brandSlug": "nike",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "unisex",
-    "genderName": "Унісекс",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 2500,
-    "oldPrice": 3333,
-    "costPrice": 2000,
-    "sku": "#art1591",
-    "material": "Шкіра",
-    "country": "В'єтнам",
-    "sizes": [
-      "38",
-      "41",
-      "44"
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/65673db0-00ce-4db7-a214-779ecbb98f41.jpg"
-    ],
-    "description": "Модель: Nike Air Force 1 Low x Comme des Garçons Supreme. Артикул: #art1591. Матеріал: Шкіра. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Nike Air Force 1 Low x Comme des Garçons Supreme (арт. #art1591) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Nike Air Force 1 Low x Comme des Garçons Supreme (арт. #art1591) за 2500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -115362,7 +115141,6 @@
       "39",
       "40",
       "41",
-      "42",
       "44",
       "45"
     ],
@@ -116502,6 +116280,7 @@
       "42",
       "43",
       "44",
+      "45",
       "46"
     ],
     "inStock": true,
@@ -116916,43 +116695,6 @@
     "seo": {
       "title": "Salomon XT-6 GORE-TEX Grey (арт. 21004) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Salomon XT-6 GORE-TEX Grey (арт. 21004) за 3100 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "190434",
-    "slug": "salomon-xt-6-black-21003",
-    "name": "Salomon XT-6 Black",
-    "brand": "Salomon",
-    "brandSlug": "salomon",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 3000,
-    "oldPrice": 4000,
-    "costPrice": 2500,
-    "sku": "21003",
-    "material": "Текстиль",
-    "country": "Китай",
-    "sizes": [
-      "41",
-      "44",
-      "45"
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/a987162e-80ad-4f45-9d9b-c0148db92c00.jpg",
-      "https://easydrop.one/media/uploads/images/base/ec0c1b3b-2529-47ed-8e38-c2b86d84c139.jpg",
-      "https://easydrop.one/media/uploads/images/base/3dba6996-7c59-4b5b-bd37-ec0a9e3d31ca.jpg",
-      "https://easydrop.one/media/uploads/images/base/1a5f4e45-c1d3-499b-a8d6-f5f33a7a5e5e.jpg"
-    ],
-    "description": "Модель: Salomon XT-6 Black. Артикул: 21003. Матеріал: Текстиль. Сезон: Демісезон. Виробництво: Китай. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Salomon XT-6 Black (арт. 21003) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Salomon XT-6 Black (арт. 21003) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -124902,7 +124644,6 @@
       "36",
       "37",
       "38",
-      "39",
       "40",
       "41"
     ],
@@ -125202,6 +124943,40 @@
     "seo": {
       "title": "Adidas Spezial x C.P Company Blue (арт. 2352) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Adidas Spezial x C.P Company Blue (арт. 2352) за 2700 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "183943",
+    "slug": "hoka-w-kaha-2-low-gtx-haki-2314",
+    "name": "Hoka W Kaha 2 Low GTX Haki",
+    "brand": "Інші бренди",
+    "brandSlug": "other",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "men",
+    "genderName": "Чоловічі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 2299,
+    "oldPrice": 3065,
+    "costPrice": 1799,
+    "sku": "2314",
+    "material": "Кожа",
+    "country": "В'єтнам",
+    "sizes": [
+      "41",
+      "42",
+      "43"
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/546f2681-f662-4777-af96-bf7fef4be85d.jpeg"
+    ],
+    "description": "Модель: Hoka W Kaha 2 Low GTX Haki. Артикул: 2314. Матеріал: Кожа. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Hoka W Kaha 2 Low GTX Haki (арт. 2314) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Hoka W Kaha 2 Low GTX Haki (арт. 2314) за 2299 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -126001,6 +125776,7 @@
     "country": "-",
     "sizes": [
       "41",
+      "42",
       "44",
       "45",
       "46",
@@ -141040,8 +140816,7 @@
       "36",
       "37",
       "38",
-      "39",
-      "40"
+      "39"
     ],
     "inStock": true,
     "isHit": false,
@@ -141600,43 +141375,6 @@
     "seo": {
       "title": "Adidas Spezial WONDER SILVER (арт. #DAD295) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Adidas Spezial WONDER SILVER (арт. #DAD295) за 2550 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "163449",
-    "slug": "nike-v2k-runtekk-orewood-bron-dnb290",
-    "name": "Nike V2K Runtekk orewood bron",
-    "brand": "Nike",
-    "brandSlug": "nike",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 2600,
-    "oldPrice": 3467,
-    "costPrice": 2100,
-    "sku": "#DNB290",
-    "material": "Текстиль/піна",
-    "country": "В'єтнам",
-    "sizes": [
-      "36",
-      "37",
-      "38"
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/147aa89e-8aa7-4bca-9f01-620676e7a991.jpeg",
-      "https://easydrop.one/media/uploads/images/base/235d22b4-82a2-4f2a-a9f3-54aa1b3f09f0.jpeg",
-      "https://easydrop.one/media/uploads/images/base/eded6f03-1525-45cf-9b70-a60911d7544e.jpeg",
-      "https://easydrop.one/media/uploads/images/base/c3d85358-8693-444c-997b-e8fd17069404.jpeg"
-    ],
-    "description": "Модель: Nike V2K Runtekk orewood bron. Артикул: #DNB290. Матеріал: Текстиль/піна. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Nike V2K Runtekk orewood bron (арт. #DNB290) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Nike V2K Runtekk orewood bron (арт. #DNB290) за 2600 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -142210,40 +141948,6 @@
     }
   },
   {
-    "id": "162518",
-    "slug": "new-balance-574-blue-grey-art1450",
-    "name": "New Balance 574 Blue Grey",
-    "brand": "New Balance",
-    "brandSlug": "newbalance",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 2700,
-    "oldPrice": 3600,
-    "costPrice": 2200,
-    "sku": "#art1450",
-    "material": "Натуральна замша, сітка",
-    "country": "-",
-    "sizes": [
-      "41",
-      "44",
-      "45"
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/2eb8d513-a765-4694-b9e7-ec845b0aa220.jpg"
-    ],
-    "description": "Модель: New Balance 574 Blue Grey. Артикул: #art1450. Матеріал: Натуральна замша, сітка. Сезон: Демісезон. Виробництво: -. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "New Balance 574 Blue Grey (арт. #art1450) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте New Balance 574 Blue Grey (арт. #art1450) за 2700 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "162517",
     "slug": "nike-air-max-dn-gray-beige-art1455",
     "name": "Nike Air Max Dn Gray Beige",
@@ -142372,7 +142076,6 @@
       "37",
       "39",
       "40",
-      "41",
       "42",
       "44",
       "45"
@@ -143885,15 +143588,13 @@
     "material": "None",
     "country": "В'єтнам",
     "sizes": [
-      "36",
       "38",
       "39",
       "40",
       "41",
       "42",
       "43",
-      "44",
-      "45"
+      "44"
     ],
     "inStock": true,
     "isHit": true,
@@ -146665,8 +146366,7 @@
       "39",
       "42",
       "43",
-      "44",
-      "45"
+      "44"
     ],
     "inStock": true,
     "isHit": true,
@@ -150308,40 +150008,6 @@
     }
   },
   {
-    "id": "151841",
-    "slug": "nike-air-max-dn-sp-smokey-mauve-hq0913-200-1520",
-    "name": "Nike Air Max DN SP Smokey Mauve HQ0913-200",
-    "brand": "Nike",
-    "brandSlug": "nike",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 3000,
-    "oldPrice": 4000,
-    "costPrice": 2500,
-    "sku": "1520",
-    "material": "Текстиль",
-    "country": "В'єтнам",
-    "sizes": [
-      "41",
-      "44",
-      "45"
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/41ef622f-5cff-4a06-9070-20598cab2489.jpeg"
-    ],
-    "description": "Модель: Nike Air Max DN SP Smokey Mauve HQ0913-200. Артикул: 1520. Матеріал: Текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Nike Air Max DN SP Smokey Mauve HQ0913-200 (арт. 1520) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Nike Air Max DN SP Smokey Mauve HQ0913-200 (арт. 1520) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "151840",
     "slug": "nike-air-max-dn-premium-electric-pack-dm2362-100-1519",
     "name": "Nike Air Max DN Premium Electric Pack DM2362-100",
@@ -150397,8 +150063,7 @@
     "sizes": [
       "37",
       "41",
-      "42",
-      "44"
+      "42"
     ],
     "inStock": true,
     "isHit": true,
@@ -152677,7 +152342,9 @@
     "sizes": [
       "37",
       "38",
-      "44"
+      "39",
+      "44",
+      "45"
     ],
     "inStock": true,
     "isHit": true,
@@ -153286,6 +152953,7 @@
     "country": "В'єтнам",
     "sizes": [
       "38",
+      "39",
       "42",
       "43",
       "44"
@@ -154731,7 +154399,6 @@
       "40",
       "41",
       "42",
-      "43",
       "44",
       "45",
       "46"
@@ -157254,7 +156921,9 @@
     "sizes": [
       "40",
       "41",
-      "43"
+      "43",
+      "44",
+      "45"
     ],
     "inStock": true,
     "isHit": false,
@@ -159795,40 +159464,6 @@
     }
   },
   {
-    "id": "132463",
-    "slug": "salomon-xa-pro-street-gore-tex-termo-1787",
-    "name": "Salomon XA Pro Street | Gore-Tex | (термо)",
-    "brand": "Salomon",
-    "brandSlug": "salomon",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 2900,
-    "oldPrice": 3867,
-    "costPrice": 2400,
-    "sku": "1787",
-    "material": "Текстиль, шкіра",
-    "country": "В'єтнам",
-    "sizes": [
-      "41",
-      "43",
-      "46"
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/28edc8e3-ad90-4281-8a71-8e48687932a3.jpg"
-    ],
-    "description": "Модель: Salomon XA Pro Street | Gore-Tex | (термо). Артикул: 1787. Матеріал: Текстиль, шкіра. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Salomon XA Pro Street | Gore-Tex | (термо) (арт. 1787) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Salomon XA Pro Street | Gore-Tex | (термо) (арт. 1787) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "132461",
     "slug": "new-balance-740-gore-tex-termo-1785",
     "name": "New Balance 740 | Gore-Tex | (термо)",
@@ -160365,8 +160000,7 @@
     "sizes": [
       "41",
       "42",
-      "43",
-      "45"
+      "43"
     ],
     "inStock": true,
     "isHit": false,
@@ -161112,7 +160746,6 @@
       "40",
       "41",
       "42",
-      "43",
       "44",
       "45"
     ],
@@ -161691,6 +161324,7 @@
       "40",
       "41",
       "42",
+      "43",
       "45"
     ],
     "inStock": true,
@@ -161762,7 +161396,6 @@
     "sizes": [
       "41",
       "42",
-      "43",
       "44"
     ],
     "inStock": true,
@@ -167902,8 +167535,7 @@
       "41",
       "42",
       "43",
-      "44",
-      "45"
+      "44"
     ],
     "inStock": true,
     "isHit": false,
@@ -168080,7 +167712,6 @@
     "sizes": [
       "36",
       "37",
-      "38",
       "39",
       "40"
     ],
@@ -168294,8 +167925,7 @@
     "sizes": [
       "41",
       "42",
-      "44",
-      "45"
+      "44"
     ],
     "inStock": true,
     "isHit": false,
@@ -170806,7 +170436,6 @@
     "sizes": [
       "41",
       "42",
-      "43",
       "44",
       "45"
     ],
@@ -171415,8 +171044,6 @@
     "sizes": [
       "38",
       "39",
-      "41",
-      "43",
       "44",
       "45"
     ],
@@ -179009,7 +178636,6 @@
     "sizes": [
       "36",
       "38",
-      "43",
       "44"
     ],
     "inStock": true,
@@ -179316,6 +178942,40 @@
     }
   },
   {
+    "id": "105393",
+    "slug": "salomon-xt-6-white-icy-morn-sl001",
+    "name": "Salomon XT-6 White Icy Morn",
+    "brand": "Salomon",
+    "brandSlug": "salomon",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "unisex",
+    "genderName": "Унісекс",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 3000,
+    "oldPrice": 4000,
+    "costPrice": 2500,
+    "sku": "SL001",
+    "material": "Текстиль / комбінований",
+    "country": "В'єтнам",
+    "sizes": [
+      "39",
+      "41",
+      "42"
+    ],
+    "inStock": true,
+    "isHit": true,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/baeb8c01-7a8e-4d57-beef-741e8e72be88.jpeg"
+    ],
+    "description": "Модель: Salomon XT-6 White Icy Morn. Артикул: SL001. Матеріал: Текстиль / комбінований. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Salomon XT-6 White Icy Morn (арт. SL001) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Salomon XT-6 White Icy Morn (арт. SL001) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
     "id": "105392",
     "slug": "salomon-xt-6-black-sl002",
     "name": "Salomon XT-6 Black",
@@ -179334,7 +178994,7 @@
     "material": "Текстиль / комбінований",
     "country": "В'єтнам",
     "sizes": [
-      "37",
+      "39",
       "40",
       "41",
       "42",
@@ -184024,40 +183684,6 @@
     }
   },
   {
-    "id": "96706",
-    "slug": "reebok-zig-kinetica-2-5-x-cordura-salt-1726",
-    "name": "Reebok Zig Kinetica 2.5 x Cordura Salt",
-    "brand": "Reebok",
-    "brandSlug": "reebok",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 1999,
-    "oldPrice": 2665,
-    "costPrice": 1499,
-    "sku": "1726",
-    "material": "Замша , Кожа , Текстиль",
-    "country": "В'єтнам",
-    "sizes": [
-      "42",
-      "44",
-      "45"
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/272b0121-1539-4ed8-86fc-fe7ac8c090e2.jpeg"
-    ],
-    "description": "Модель: Reebok Zig Kinetica 2.5 x Cordura Salt. Артикул: 1726. Матеріал: Замша , Кожа , Текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Reebok Zig Kinetica 2.5 x Cordura Salt (арт. 1726) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Reebok Zig Kinetica 2.5 x Cordura Salt (арт. 1726) за 1999 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "96631",
     "slug": "nike-sb-dunk-low-valentine-s-day-1434",
     "name": "Nike SB Dunk Low Valentine’s Day",
@@ -184930,7 +184556,6 @@
     "country": "В'єтнам",
     "sizes": [
       "38",
-      "39",
       "40",
       "41",
       "42",
@@ -185582,8 +185207,8 @@
     "brandSlug": "salomon",
     "category": "Взуття",
     "categorySlug": "shoes",
-    "gender": "unisex",
-    "genderName": "Унісекс",
+    "gender": "men",
+    "genderName": "Чоловічі",
     "season": "demi",
     "seasonName": "Демісезон",
     "price": 3000,
@@ -185593,7 +185218,6 @@
     "material": "Текстиль",
     "country": "В'єтнам",
     "sizes": [
-      "40",
       "41",
       "43",
       "44",
@@ -188685,7 +188309,6 @@
     "country": "В'єтнам",
     "sizes": [
       "40",
-      "41",
       "42",
       "43",
       "44",
@@ -188758,7 +188381,6 @@
     "sizes": [
       "41",
       "43",
-      "44",
       "45"
     ],
     "inStock": true,
@@ -189119,7 +188741,6 @@
       "37",
       "38",
       "39",
-      "42",
       "43",
       "44",
       "45"
@@ -194182,7 +193803,6 @@
     "material": "Замша, овчина",
     "country": "В'єтнам",
     "sizes": [
-      "36",
       "37",
       "38",
       "39",
@@ -197089,6 +196709,7 @@
       "37",
       "38",
       "39",
+      "40",
       "41",
       "42",
       "43",
@@ -201913,6 +201534,40 @@
     }
   },
   {
+    "id": "42950",
+    "slug": "nike-jordan-1-travis-scott-1030",
+    "name": "Nike Jordan 1 Travis Scott",
+    "brand": "Nike",
+    "brandSlug": "nike",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "men",
+    "genderName": "Чоловічі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 2750,
+    "oldPrice": 3667,
+    "costPrice": 2250,
+    "sku": "1030",
+    "material": "Текстиль / комбінований",
+    "country": "В'єтнам",
+    "sizes": [
+      "41",
+      "42",
+      "45"
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/itemimage/d27593f2-6443-4268-8c54-01d7f7654c39.jpg"
+    ],
+    "description": "Модель: Nike Jordan 1 Travis Scott. Артикул: 1030. Матеріал: Текстиль / комбінований. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Nike Jordan 1 Travis Scott (арт. 1030) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Nike Jordan 1 Travis Scott (арт. 1030) за 2750 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
     "id": "42528",
     "slug": "new-balance-9060-art0929",
     "name": "New Balance 9060",
@@ -202474,7 +202129,6 @@
     "sizes": [
       "41",
       "42",
-      "43",
       "44",
       "45"
     ],
@@ -202511,8 +202165,8 @@
     "country": "В'єтнам",
     "sizes": [
       "36",
-      "37",
       "38",
+      "39",
       "40",
       "41",
       "42",
@@ -204783,7 +204437,6 @@
     "sizes": [
       "41",
       "42",
-      "43",
       "44"
     ],
     "inStock": true,
@@ -205315,9 +204968,9 @@
     "genderName": "Унісекс",
     "season": "winter",
     "seasonName": "Зима",
-    "price": 1600,
-    "oldPrice": 2133,
-    "costPrice": 1100,
+    "price": 950,
+    "oldPrice": 1267,
+    "costPrice": 450,
     "sku": "UG070",
     "material": "Текстиль/эко кожа",
     "country": "В'єтнам",
@@ -205335,7 +204988,7 @@
     "description": "Модель: Ugg Mini Black Leather. Артикул: UG070. Матеріал: Текстиль/эко кожа. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
     "seo": {
       "title": "Ugg Mini Black Leather (арт. UG070) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Ugg Mini Black Leather (арт. UG070) за 1600 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+      "description": "Замовляйте Ugg Mini Black Leather (арт. UG070) за 950 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -213017,6 +212670,8 @@
       "36",
       "37",
       "38",
+      "39",
+      "42",
       "43",
       "45"
     ],
