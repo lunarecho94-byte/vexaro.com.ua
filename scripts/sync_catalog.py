@@ -226,9 +226,12 @@ COLOR_WORDS = {
 # Explicitly excluded items (all slippers, slides, clogs, mules, sandals, etc. per store owner request)
 EXCLUDED_SKUS = {'16006', '16005', '16004', '16003'}
 
+# Pinned products permanently pinned at top by store owner request
+PINNED_SKUS = ['NB143']
+
 # Specific size exclusions per product SKU requested by store owner
 EXCLUDED_SIZES_BY_SKU = {
-    'NB143': {'38'},
+    'NB143': {'38', '40'},
 }
 
 EXCLUDED_NAME_PATTERNS = re.compile(
@@ -752,8 +755,8 @@ def main():
             ex_sizes = EXCLUDED_SIZES_BY_SKU[clean_sku.upper()]
             sorted_sizes = [s for s in sorted_sizes if s not in ex_sizes]
 
-        # STRICT RULE: AT LEAST 3 SIZES IN STOCK (avoid single dead stock)
-        if len(sorted_sizes) < 3:
+        # STRICT RULE: AT LEAST 3 SIZES IN STOCK (avoid single dead stock), unless pinned by owner
+        if len(sorted_sizes) < 3 and clean_sku.upper() not in PINNED_SKUS:
             continue
 
         season_slug, season_title = determine_season(name, cat_slug, mat, desc, cname)
@@ -905,7 +908,6 @@ def main():
     }
 
     # Pinned products permanently pinned at top by store owner request
-    PINNED_SKUS = ['NB143']
     pinned_rank = {sku: len(PINNED_SKUS) - idx for idx, sku in enumerate(PINNED_SKUS)}
 
     # Sort: pinned products first (in order), then newest arrivals by product ID descending
