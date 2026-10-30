@@ -227,7 +227,7 @@ COLOR_WORDS = {
 EXCLUDED_SKUS = {'16006', '16005', '16004', '16003'}
 
 # Pinned products permanently pinned at top by store owner request (supports 'id:...' or SKU)
-PINNED_KEYS = ['id:2229', 'NB143']
+PINNED_KEYS = ['id:2229']
 
 # Specific size exclusions per product SKU requested by store owner
 EXCLUDED_SIZES_BY_SKU = {
@@ -751,17 +751,19 @@ def main():
         if clean_sku in EXCLUDED_SKUS or EXCLUDED_NAME_PATTERNS.search(name):
             continue
 
+        orig_size_count = len(sorted_sizes)
         if clean_sku.upper() in EXCLUDED_SIZES_BY_SKU:
             ex_sizes = EXCLUDED_SIZES_BY_SKU[clean_sku.upper()]
             sorted_sizes = [s for s in sorted_sizes if s not in ex_sizes]
 
-        # STRICT RULE: AT LEAST 3 SIZES IN STOCK (avoid single dead stock), unless pinned by owner
+        # STRICT RULE: AT LEAST 3 SIZES IN STOCK (avoid single dead stock), unless pinned or owner-managed
         is_pinned = any(
             (k[3:].strip() == str(gid).strip()) if k.startswith('id:')
             else (clean_sku.upper() == (k[4:].upper() if k.startswith('sku:') else k.upper()))
             for k in PINNED_KEYS
         )
-        if len(sorted_sizes) < 3 and not is_pinned:
+        is_managed = is_pinned or (clean_sku.upper() in EXCLUDED_SIZES_BY_SKU)
+        if (len(sorted_sizes) < 3 and not is_managed) or len(sorted_sizes) == 0:
             continue
 
         season_slug, season_title = determine_season(name, cat_slug, mat, desc, cname)
