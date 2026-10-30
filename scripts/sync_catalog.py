@@ -227,7 +227,7 @@ COLOR_WORDS = {
 EXCLUDED_SKUS = {'16006', '16005', '16004', '16003'}
 
 # Pinned products permanently pinned at top by store owner request (supports 'id:...' or SKU)
-PINNED_KEYS = ['id:2229']
+PINNED_KEYS = ['id:1037', 'id:2229']
 
 # Specific size exclusions per product SKU requested by store owner
 EXCLUDED_SIZES_BY_SKU = {
@@ -329,6 +329,42 @@ CURATED_PRODUCTS = [
         'seo': {
             'title': 'Nike Air Max Plus TN Lace Toggle White Black (арт. 2002) — купити в інтернет-магазині VEXARO',
             'description': 'Замовляйте кросівки Nike Air Max Plus TN Lace Toggle White Black (арт. 2002 / FD0799-001) за 2450 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж).'
+        },
+        'isHit': False
+    },
+    {
+        'id': '1037',
+        'slug': 'new-balance-9060-pink-fur-1037',
+        'name': 'New Balance 9060 Pink Fur',
+        'brand': 'New Balance',
+        'brandSlug': 'newbalance',
+        'category': 'Взуття',
+        'categorySlug': 'shoes',
+        'gender': 'women',
+        'genderName': 'Жіночі',
+        'season': 'winter',
+        'seasonName': 'Зима',
+        'price': 3000,
+        'oldPrice': 4000,
+        'costPrice': 2500,
+        'sku': '1037',
+        'material': 'Замша, хутро / Gore-Tex термо',
+        'country': "В'єтнам",
+        'sizes': ['37', '38', '39'],
+        'inStock': True,
+        'images': [
+            'https://easydrop.one/media/uploads/images/base/6d3396c2-aee6-48b9-8a6c-07ca57ae0883.jpeg'
+        ],
+        'description': (
+            "Модель: New Balance 9060 Pink Fur. Артикул: 1037. "
+            "Матеріал: Замша, хутро / Gore-Tex термо. Сезон: Зима. "
+            "Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. "
+            "Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. "
+            "Гарантія обміну або повернення — 14 днів."
+        ),
+        'seo': {
+            'title': 'New Balance 9060 Pink Fur (арт. 1037) — купити в інтернет-магазині VEXARO',
+            'description': 'Замовляйте New Balance 9060 Pink Fur (арт. 1037) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж).'
         },
         'isHit': False
     }
