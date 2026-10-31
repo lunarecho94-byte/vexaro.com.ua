@@ -32,13 +32,26 @@ FALLBACK_FEED = '/Users/mac/.gemini/antigravity/scratch/streetwear-dropship-ua/e
 OUTPUT_PRODUCTS = os.path.join(SRC_DATA_DIR, 'products.json')
 OUTPUT_META = os.path.join(SRC_DATA_DIR, 'meta.json')
 
-EXPORT_URL = (
-    "https://easydrop.one/prom-export?key=96092464432393,30816448450308,25162466829867,"
-    "12333849528094,80233932855850,30580088002009,70419283037987,63422357219127,"
-    "96825986992025,40170268472376,11341144510008,47558675150578,30048652742791,"
-    "20168635902038,64017479183198,61619894907221,89534434099545,26277378991043,"
-    "50967565248169,94320236562495&pid=86764974149158"
-)
+EXPORT_URLS = [
+    # Main aggregated suppliers feed (20 warehouses)
+    (
+        "https://easydrop.one/prom-export?key=96092464432393,30816448450308,25162466829867,"
+        "12333849528094,80233932855850,30580088002009,70419283037987,63422357219127,"
+        "96825986992025,40170268472376,11341144510008,47558675150578,30048652742791,"
+        "20168635902038,64017479183198,61619894907221,89534434099545,26277378991043,"
+        "50967565248169,94320236562495&pid=86764974149158"
+    ),
+    # Gepard Drop warehouse feed
+    "https://easydrop.one/prom-export?key=42147462915546&pid=86764974149158"
+]
+EXPORT_URL = EXPORT_URLS[0]
+
+
+def get_feed_files():
+    files = [EXPORT_FILE]
+    for i in range(1, len(EXPORT_URLS)):
+        files.append(os.path.join(LOCAL_FEED_DIR, f'easydrop_export_{i}.xml'))
+    return files
 
 CYR_MAP = {
     'а': 'a', 'б': 'b', 'в': 'v', 'г': 'h', 'ґ': 'g', 'д': 'd', 'е': 'e', 'є': 'ye',
@@ -374,40 +387,42 @@ CURATED_PRODUCTS = [
 
 def download_export_feed():
     os.makedirs(LOCAL_FEED_DIR, exist_ok=True)
-    print("Downloading latest XML feed from EasyDrop...")
-    req = urllib.request.Request(
-        EXPORT_URL,
-        headers={'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36'}
-    )
-    temp_path = EXPORT_FILE + '.tmp'
-    try:
-        with urllib.request.urlopen(req, timeout=300) as response, open(temp_path, 'wb') as out_file:
-            shutil.copyfileobj(response, out_file)
-        
-        file_size = os.path.getsize(temp_path)
-        if file_size < 100000:
-            raise ValueError(f"Downloaded file too small: {file_size} bytes")
-        with open(temp_path, 'rb') as f:
-            header = f.read(500).decode('utf-8', errors='ignore')
-            if '<?xml' not in header and '<yml_catalog' not in header:
-                raise ValueError("Downloaded file is not valid XML")
-                
-        if os.path.exists(EXPORT_FILE):
-            os.replace(temp_path, EXPORT_FILE)
-        else:
-            os.rename(temp_path, EXPORT_FILE)
-        print(f"Successfully downloaded {file_size} bytes to {EXPORT_FILE}")
-    except Exception as e:
-        if os.path.exists(temp_path):
-            os.remove(temp_path)
-        print(f"Download warning/failure: {e}")
-        if not os.path.exists(EXPORT_FILE):
-            if os.path.exists(FALLBACK_FEED):
-                print(f"Using local cached feed from {FALLBACK_FEED}")
-                shutil.copyfile(FALLBACK_FEED, EXPORT_FILE)
+    feed_files = get_feed_files()
+    for idx, (url, feed_file) in enumerate(zip(EXPORT_URLS, feed_files)):
+        print(f"Downloading XML feed #{idx+1} from EasyDrop ({url[:60]}...)...")
+        req = urllib.request.Request(
+            url,
+            headers={'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36'}
+        )
+        temp_path = feed_file + '.tmp'
+        try:
+            with urllib.request.urlopen(req, timeout=300) as response, open(temp_path, 'wb') as out_file:
+                shutil.copyfileobj(response, out_file)
+            
+            file_size = os.path.getsize(temp_path)
+            if file_size < 5000:
+                raise ValueError(f"Downloaded file too small: {file_size} bytes")
+            with open(temp_path, 'rb') as f:
+                header = f.read(500).decode('utf-8', errors='ignore')
+                if '<?xml' not in header and '<yml_catalog' not in header:
+                    raise ValueError("Downloaded file is not valid XML")
+                    
+            if os.path.exists(feed_file):
+                os.replace(temp_path, feed_file)
             else:
-                print("No cached feed available.")
-                sys.exit(1)
+                os.rename(temp_path, feed_file)
+            print(f"Successfully downloaded {file_size} bytes to {feed_file}")
+        except Exception as e:
+            if os.path.exists(temp_path):
+                os.remove(temp_path)
+            print(f"Download warning/failure for feed #{idx+1}: {e}")
+            if idx == 0 and not os.path.exists(EXPORT_FILE):
+                if os.path.exists(FALLBACK_FEED):
+                    print(f"Using local cached feed from {FALLBACK_FEED}")
+                    shutil.copyfile(FALLBACK_FEED, EXPORT_FILE)
+                else:
+                    print("No cached feed available.")
+                    sys.exit(1)
 
 
 def clean_text(s):
@@ -686,16 +701,24 @@ def main():
         else:
             download_export_feed()
 
-    print(f"Reading {EXPORT_FILE}...")
-    tree = ET.parse(EXPORT_FILE)
-    root = tree.getroot()
-
-    cat_names = {cat.attrib.get('id'): clean_text(cat.text) for cat in root.findall('.//catalog/category')}
-
+    cat_names = {}
     groups = defaultdict(list)
-    for it in root.findall('.//items/item'):
-        gid = it.attrib.get('group_id') or it.findtext('barcode', '').split('-')[0]
-        groups[gid].append(it)
+    for feed_file in get_feed_files():
+        if not os.path.exists(feed_file):
+            continue
+        print(f"Reading {feed_file}...")
+        try:
+            tree = ET.parse(feed_file)
+            root = tree.getroot()
+            for cat in root.findall('.//catalog/category'):
+                cid = cat.attrib.get('id')
+                if cid and cid not in cat_names:
+                    cat_names[cid] = clean_text(cat.text)
+            for it in root.findall('.//items/item'):
+                gid = it.attrib.get('group_id') or it.findtext('barcode', '').split('-')[0]
+                groups[gid].append(it)
+        except Exception as e:
+            print(f"Error reading {feed_file}: {e}")
 
     print(f"Total raw groups: {len(groups)}")
 
