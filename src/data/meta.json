@@ -1,30 +1,30 @@
 {
-  "total": 5854,
+  "total": 5955,
   "brands": [
     {
       "name": "Nike",
       "slug": "nike",
-      "count": 2093
+      "count": 2151
     },
     {
       "name": "New Balance",
       "slug": "newbalance",
-      "count": 1320
+      "count": 1343
     },
     {
       "name": "Adidas",
       "slug": "adidas",
-      "count": 520
+      "count": 530
     },
     {
       "name": "Asics",
       "slug": "asics",
-      "count": 430
+      "count": 433
     },
     {
       "name": "UGG",
       "slug": "ugg",
-      "count": 343
+      "count": 348
     },
     {
       "name": "Інші бренди",
@@ -69,7 +69,7 @@
     {
       "name": "Puma",
       "slug": "puma",
-      "count": 43
+      "count": 44
     },
     {
       "name": "Dior",
@@ -79,7 +79,7 @@
     {
       "name": "Vans",
       "slug": "vans",
-      "count": 29
+      "count": 30
     },
     {
       "name": "The North Face",
@@ -206,36 +206,36 @@
     {
       "name": "Взуття",
       "slug": "shoes",
-      "count": 5854
+      "count": 5955
     }
   ],
   "genders": [
     {
       "name": "Унісекс",
       "slug": "unisex",
-      "count": 3034
+      "count": 3076
     },
     {
       "name": "Жіночі",
       "slug": "women",
-      "count": 1507
+      "count": 1564
     },
     {
       "name": "Чоловічі",
       "slug": "men",
-      "count": 1313
+      "count": 1315
     }
   ],
   "seasons": [
     {
       "name": "Демісезон",
       "slug": "demi",
-      "count": 5309
+      "count": 5405
     },
     {
       "name": "Зима",
       "slug": "winter",
-      "count": 545
+      "count": 550
     }
   ],
   "sizes": [
@@ -259,17 +259,17 @@
     "48",
     "49",
     "50",
-    "43(світліші)",
     "M",
-    "L",
-    "XL",
-    "S",
     "45/46",
-    "44(світліші)",
+    "S",
+    "43(світліші)",
     "‼️40",
     "40–41",
+    "XL",
+    "42 2/3",
     "40 2/3",
-    "42 2/3"
+    "44(світліші)",
+    "L"
   ],
   "minPrice": 900,
   "maxPrice": 11611
