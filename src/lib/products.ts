@@ -329,13 +329,13 @@ export async function getProducts(params: CatalogQueryParams = {}): Promise<Cata
   }
 
   // Pinned products permanently pinned at top by store owner request (supports 'id:...' or SKU)
-  const PINNED_KEYS: string[] = [];
+  const PINNED_KEYS: string[] = ['5002', 'S1462', '9002'];
   const matchPin = (key: string, p: Product) => {
     if (key.startsWith('id:')) {
       return (p.id || '').trim() === key.slice(3).trim();
     }
-    const targetSku = key.startsWith('sku:') ? key.slice(4).toUpperCase() : key.toUpperCase();
-    return (p.sku || '').trim().toUpperCase() === targetSku;
+    const target = key.startsWith('sku:') ? key.slice(4).toUpperCase() : key.toUpperCase();
+    return (p.sku || '').trim().toUpperCase() === target || (p.id || '').trim() === target;
   };
   const getPinRank = (p: Product) => {
     const idx = PINNED_KEYS.findIndex((k) => matchPin(k, p));

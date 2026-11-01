@@ -242,7 +242,7 @@ COLOR_WORDS = {
 EXCLUDED_SKUS = {'16006', '16005', '16004', '16003'}
 
 # Pinned products permanently pinned at top by store owner request (supports 'id:...' or SKU)
-PINNED_KEYS = []
+PINNED_KEYS = ['5002', 'S1462', '9002']
 
 # Specific size exclusions per product SKU requested by store owner
 EXCLUDED_SIZES_BY_SKU = {
@@ -979,8 +979,8 @@ def main():
     def match_pin(key, p):
         if key.startswith('id:'):
             return str(p.get('id', '')).strip() == key[3:].strip()
-        target_sku = key[4:].upper() if key.startswith('sku:') else key.upper()
-        return str(p.get('sku', '')).strip().upper() == target_sku
+        target = key[4:].upper() if key.startswith('sku:') else key.upper()
+        return str(p.get('sku', '')).strip().upper() == target or str(p.get('id', '')).strip() == target
 
     def get_pin_rank(p):
         for idx, key in enumerate(PINNED_KEYS):
