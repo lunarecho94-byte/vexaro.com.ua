@@ -3342,7 +3342,6 @@
       "40",
       "41",
       "42",
-      "43",
       "44",
       "45"
     ],
@@ -4709,6 +4708,7 @@
     "country": "В'єтнам",
     "sizes": [
       "36",
+      "38",
       "40",
       "41"
     ],
@@ -11253,6 +11253,7 @@
     "sizes": [
       "41",
       "42",
+      "43",
       "44",
       "45"
     ],
@@ -11265,6 +11266,40 @@
     "seo": {
       "title": "Nike Vomero 18 GORE-TEX Green (арт. #art1953) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Nike Vomero 18 GORE-TEX Green (арт. #art1953) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "254011",
+    "slug": "nike-vomero-18-gore-tex-black-art1951",
+    "name": "Nike Vomero 18 GORE-TEX Black",
+    "brand": "Nike",
+    "brandSlug": "nike",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "men",
+    "genderName": "Чоловічі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 2900,
+    "oldPrice": 3867,
+    "costPrice": 2400,
+    "sku": "#art1951",
+    "material": "Текстиль Gore-Tex, гума",
+    "country": "В'єтнам",
+    "sizes": [
+      "42",
+      "43",
+      "44"
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/0f2ea0f4-f387-4073-9349-c07ae8543ad8.jpg"
+    ],
+    "description": "Модель: Nike Vomero 18 GORE-TEX Black. Артикул: #art1951. Матеріал: Текстиль Gore-Tex, гума. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Nike Vomero 18 GORE-TEX Black (арт. #art1951) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Nike Vomero 18 GORE-TEX Black (арт. #art1951) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -12786,7 +12821,6 @@
     "material": "Вологостійкий текстиль, термоутеплювач, гума, піна, прошиті",
     "country": "В'єтнам",
     "sizes": [
-      "43",
       "44",
       "45",
       "46"
@@ -22660,8 +22694,7 @@
       "41",
       "42",
       "43",
-      "44",
-      "45"
+      "44"
     ],
     "inStock": true,
     "isHit": false,
@@ -22694,7 +22727,6 @@
     "country": "В'єтнам",
     "sizes": [
       "40",
-      "41",
       "42",
       "43",
       "44"
@@ -22708,40 +22740,6 @@
     "seo": {
       "title": "The North Face Hoka Kaha 2 Frost Moc GTX (арт. 3021) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте The North Face Hoka Kaha 2 Frost Moc GTX (арт. 3021) за 3400 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "250338",
-    "slug": "the-north-face-hoka-kaha-2-frost-moc-gtx-3020",
-    "name": "The North Face Hoka Kaha 2 Frost Moc GTX",
-    "brand": "The North Face",
-    "brandSlug": "tnf",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 3400,
-    "oldPrice": 4533,
-    "costPrice": 2900,
-    "sku": "3020",
-    "material": "Текстиль",
-    "country": "В'єтнам",
-    "sizes": [
-      "41",
-      "42",
-      "45"
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/40604eed-2c83-4ec3-af66-f8fea8dd9ba1.jpeg"
-    ],
-    "description": "Модель: The North Face Hoka Kaha 2 Frost Moc GTX. Артикул: 3020. Матеріал: Текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "The North Face Hoka Kaha 2 Frost Moc GTX (арт. 3020) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте The North Face Hoka Kaha 2 Frost Moc GTX (арт. 3020) за 3400 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -25290,6 +25288,7 @@
       "37",
       "38",
       "39",
+      "40",
       "42",
       "43"
     ],
@@ -39481,8 +39480,7 @@
     "sizes": [
       "40",
       "41",
-      "42",
-      "45"
+      "42"
     ],
     "inStock": true,
     "isHit": false,
@@ -41169,40 +41167,6 @@
     "seo": {
       "title": "NEW BALANCE 204L | LIGHT GREY / SILVER (10 (арт. 1643) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте NEW BALANCE 204L | LIGHT GREY / SILVER (10 (арт. 1643) за 3100 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "243473",
-    "slug": "salomon-xa-pro-street-thinsulate-gore-tex-koyot-2992",
-    "name": "Salomon XA Pro Street Thinsulate Gore-Tex Koyot",
-    "brand": "Salomon",
-    "brandSlug": "salomon",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 3000,
-    "oldPrice": 4000,
-    "costPrice": 2500,
-    "sku": "2992",
-    "material": "Кожа , Замша , Текстиль",
-    "country": "В'єтнам",
-    "sizes": [
-      "43",
-      "44",
-      "46"
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/070b6111-b3b1-43ac-8d86-17d3fe8efc9c.jpeg"
-    ],
-    "description": "Модель: Salomon XA Pro Street Thinsulate Gore-Tex Koyot. Артикул: 2992. Матеріал: Кожа , Замша , Текстиль. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Salomon XA Pro Street Thinsulate Gore-Tex Koyot (арт. 2992) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Salomon XA Pro Street Thinsulate Gore-Tex Koyot (арт. 2992) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -44832,40 +44796,6 @@
     }
   },
   {
-    "id": "242089",
-    "slug": "new-balance-9060-termo-nb484",
-    "name": "New Balance 9060 (термо)",
-    "brand": "New Balance",
-    "brandSlug": "newbalance",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "unisex",
-    "genderName": "Унісекс",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 2900,
-    "oldPrice": 3867,
-    "costPrice": 2400,
-    "sku": "NB484",
-    "material": "Замша, шкіра, вологостійкий текстиль, термоутеплювач, гума, піна, прошиті",
-    "country": "В'єтнам",
-    "sizes": [
-      "37",
-      "44",
-      "45"
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/f3c847bd-56cb-48f7-976e-acd35478798e.jpg"
-    ],
-    "description": "Модель: New Balance 9060 (термо). Артикул: NB484. Матеріал: Замша, шкіра, вологостійкий текстиль, термоутеплювач, гума, піна, прошиті. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "New Balance 9060 (термо) (арт. NB484) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте New Balance 9060 (термо) (арт. NB484) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "242087",
     "slug": "new-balance-9060-termo-nb483",
     "name": "New Balance 9060 (термо)",
@@ -47076,7 +47006,6 @@
     "sizes": [
       "41",
       "42",
-      "43",
       "44"
     ],
     "inStock": true,
@@ -57247,7 +57176,6 @@
     "sizes": [
       "37",
       "38",
-      "39",
       "41",
       "42",
       "44",
@@ -75549,7 +75477,6 @@
     "country": "-",
     "sizes": [
       "36",
-      "37",
       "38",
       "39",
       "40"
@@ -76488,6 +76415,7 @@
     "sizes": [
       "41",
       "42",
+      "43",
       "44"
     ],
     "inStock": true,
@@ -78428,8 +78356,8 @@
     "brandSlug": "nike",
     "category": "Взуття",
     "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
+    "gender": "unisex",
+    "genderName": "Унісекс",
     "season": "demi",
     "seasonName": "Демісезон",
     "price": 2600,
@@ -78439,6 +78367,7 @@
     "material": "Текстиль, гума",
     "country": "Китай",
     "sizes": [
+      "38",
       "43",
       "44",
       "45"
@@ -99147,42 +99076,6 @@
     }
   },
   {
-    "id": "201766",
-    "slug": "nike-air-jordan-11-retro-gamma-blue-3105",
-    "name": "Nike Air Jordan 11 Retro \"Gamma Blue\"",
-    "brand": "Nike",
-    "brandSlug": "nike",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 3150,
-    "oldPrice": 4200,
-    "costPrice": 2650,
-    "sku": "3105",
-    "material": "Шкіра+Текстиль",
-    "country": "В'єтнам",
-    "sizes": [
-      "41",
-      "44",
-      "45"
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/96db5afe-e631-4d07-9f22-d1f8c66cef2a.jpg",
-      "https://easydrop.one/media/uploads/images/base/6da048e5-02dd-4da5-977e-74eec089cf27.jpg",
-      "https://easydrop.one/media/uploads/images/base/aebfc1d3-e6e4-491f-a94e-041d58166712.jpg"
-    ],
-    "description": "Модель: Nike Air Jordan 11 Retro \"Gamma Blue\". Артикул: 3105. Матеріал: Шкіра+Текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Nike Air Jordan 11 Retro \"Gamma Blue\" (арт. 3105) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Nike Air Jordan 11 Retro \"Gamma Blue\" (арт. 3105) за 3150 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "201670",
     "slug": "nike-initiator-blue-nk007",
     "name": "Nike Initiator Blue",
@@ -100053,7 +99946,6 @@
     "country": "В'єтнам",
     "sizes": [
       "36",
-      "37",
       "38",
       "39",
       "40",
@@ -108332,7 +108224,6 @@
     "country": "В'єтнам",
     "sizes": [
       "41",
-      "42",
       "43",
       "44"
     ],
@@ -109583,6 +109474,41 @@
     "seo": {
       "title": "UGG Lowmel Sneaker Black (арт. #art1601) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте UGG Lowmel Sneaker Black (арт. #art1601) за 4500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "195558",
+    "slug": "ugg-astromel-chestnut-termo-sale-art1610",
+    "name": "UGG Astromel Chestnut (термо) SALE",
+    "brand": "UGG",
+    "brandSlug": "ugg",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "unisex",
+    "genderName": "Унісекс",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 3000,
+    "oldPrice": 4000,
+    "costPrice": 2500,
+    "sku": "#art1610",
+    "material": "Замша, текстиль",
+    "country": "В'єтнам",
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "41"
+    ],
+    "inStock": true,
+    "isHit": true,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/dc259114-157c-43d3-a1cf-7774cfda4aa6.jpg"
+    ],
+    "description": "Модель: UGG Astromel Chestnut (термо) SALE. Артикул: #art1610. Матеріал: Замша, текстиль. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "UGG Astromel Chestnut (термо) SALE (арт. #art1610) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте UGG Astromel Chestnut (термо) SALE (арт. #art1610) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -115047,7 +114973,6 @@
       "37",
       "38",
       "39",
-      "40",
       "41",
       "43",
       "44"
@@ -119309,6 +119234,7 @@
       "41",
       "42",
       "43",
+      "44",
       "45"
     ],
     "inStock": true,
@@ -119917,8 +119843,7 @@
       "40",
       "41",
       "43",
-      "45",
-      "46"
+      "45"
     ],
     "inStock": true,
     "isHit": true,
@@ -121624,6 +121549,40 @@
     }
   },
   {
+    "id": "186698",
+    "slug": "nike-p-6000-smoke-grey-platinum-purple-art1553",
+    "name": "Nike P-6000 Smoke Grey Platinum Purple",
+    "brand": "Nike",
+    "brandSlug": "nike",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "men",
+    "genderName": "Чоловічі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 2500,
+    "oldPrice": 3333,
+    "costPrice": 2000,
+    "sku": "#art1553",
+    "material": "Текстиль, шкіра",
+    "country": "В'єтнам",
+    "sizes": [
+      "41",
+      "42",
+      "44"
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/f43ea603-979a-4c15-b6d1-81465164a4d5.jpg"
+    ],
+    "description": "Модель: Nike P-6000 Smoke Grey Platinum Purple. Артикул: #art1553. Матеріал: Текстиль, шкіра. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Nike P-6000 Smoke Grey Platinum Purple (арт. #art1553) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Nike P-6000 Smoke Grey Platinum Purple (арт. #art1553) за 2500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
     "id": "186697",
     "slug": "nike-zoom-vomero-5-white-black-art1555",
     "name": "Nike Zoom Vomero 5 White Black",
@@ -123059,6 +123018,41 @@
     "seo": {
       "title": "Nike Pegasus Trail 5 GTX Gore-Tex White (арт. #art1549) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Nike Pegasus Trail 5 GTX Gore-Tex White (арт. #art1549) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "185089",
+    "slug": "nike-pegasus-trail-5-gtx-gore-tex-black-art1548",
+    "name": "Nike Pegasus Trail 5 GTX Gore-Tex Black",
+    "brand": "Nike",
+    "brandSlug": "nike",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "men",
+    "genderName": "Чоловічі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 2900,
+    "oldPrice": 3867,
+    "costPrice": 2400,
+    "sku": "#art1548",
+    "material": "Текстиль Gore-Tex",
+    "country": "В'єтнам",
+    "sizes": [
+      "41",
+      "43",
+      "44",
+      "45"
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/a06cf64a-a2bd-4fee-846c-cf6891057929.jpg"
+    ],
+    "description": "Модель: Nike Pegasus Trail 5 GTX Gore-Tex Black. Артикул: #art1548. Матеріал: Текстиль Gore-Tex. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Nike Pegasus Trail 5 GTX Gore-Tex Black (арт. #art1548) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Nike Pegasus Trail 5 GTX Gore-Tex Black (арт. #art1548) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -127268,8 +127262,7 @@
     "sizes": [
       "37",
       "38",
-      "44",
-      "45"
+      "44"
     ],
     "inStock": true,
     "isHit": true,
@@ -129589,6 +129582,42 @@
     }
   },
   {
+    "id": "180379",
+    "slug": "nike-pegasus-trail-5-gtx-gore-tex-black-art1524",
+    "name": "Nike Pegasus Trail 5 GTX Gore-Tex Black",
+    "brand": "Nike",
+    "brandSlug": "nike",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "men",
+    "genderName": "Чоловічі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 2900,
+    "oldPrice": 3867,
+    "costPrice": 2400,
+    "sku": "#art1524",
+    "material": "Текстиль Gore-Tex",
+    "country": "В'єтнам",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/8c175b20-e985-4e25-a099-24d366daa388.jpg"
+    ],
+    "description": "Модель: Nike Pegasus Trail 5 GTX Gore-Tex Black. Артикул: #art1524. Матеріал: Текстиль Gore-Tex. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Nike Pegasus Trail 5 GTX Gore-Tex Black (арт. #art1524) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Nike Pegasus Trail 5 GTX Gore-Tex Black (арт. #art1524) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
     "id": "180186",
     "slug": "adidas-vento-xlg-deluxe-white-red-017",
     "name": "Adidas Vento XLG Deluxe-- \"White/Red\"",
@@ -129933,8 +129962,7 @@
       "42",
       "43",
       "44",
-      "45",
-      "46"
+      "45"
     ],
     "inStock": true,
     "isHit": true,
@@ -134685,40 +134713,6 @@
     "seo": {
       "title": "Converse Omni Trainer (арт. 2335) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Converse Omni Trainer (арт. 2335) за 2800 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "174015",
-    "slug": "new-balance-530-beige-gray-art1500",
-    "name": "New Balance 530 Beige/Gray",
-    "brand": "New Balance",
-    "brandSlug": "newbalance",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 2350,
-    "oldPrice": 3133,
-    "costPrice": 1850,
-    "sku": "#art1500",
-    "material": "Текстиль, замша, шкіра",
-    "country": "-",
-    "sizes": [
-      "37",
-      "38",
-      "39"
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/d91b1ad8-1a8f-400d-b19f-3c4636551e2e.jpg"
-    ],
-    "description": "Модель: New Balance 530 Beige/Gray. Артикул: #art1500. Матеріал: Текстиль, замша, шкіра. Сезон: Демісезон. Виробництво: -. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "New Balance 530 Beige/Gray (арт. #art1500) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте New Balance 530 Beige/Gray (арт. #art1500) за 2350 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -142800,7 +142794,9 @@
     "sizes": [
       "36",
       "37",
-      "38"
+      "38",
+      "39",
+      "40"
     ],
     "inStock": true,
     "isHit": false,
@@ -143178,6 +143174,40 @@
     }
   },
   {
+    "id": "162515",
+    "slug": "nike-vomero-roam-white-beige-art1453",
+    "name": "Nike Vomero Roam White Beige",
+    "brand": "Nike",
+    "brandSlug": "nike",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 2700,
+    "oldPrice": 3600,
+    "costPrice": 2200,
+    "sku": "#art1453",
+    "material": "Текстиль, гума",
+    "country": "-",
+    "sizes": [
+      "36",
+      "37",
+      "39"
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/aa423ecc-6b58-427b-8ee0-46a324539cbe.jpg"
+    ],
+    "description": "Модель: Nike Vomero Roam White Beige. Артикул: #art1453. Матеріал: Текстиль, гума. Сезон: Демісезон. Виробництво: -. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Nike Vomero Roam White Beige (арт. #art1453) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Nike Vomero Roam White Beige (арт. #art1453) за 2700 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
     "id": "162514",
     "slug": "nike-vomero-roam-white-black-art1452",
     "name": "Nike Vomero Roam White Black",
@@ -143198,8 +143228,12 @@
     "sizes": [
       "36",
       "37",
+      "38",
+      "39",
       "40",
+      "41",
       "42",
+      "43",
       "44",
       "45"
     ],
@@ -155222,6 +155256,45 @@
     }
   },
   {
+    "id": "148116",
+    "slug": "nike-zoom-vomero-roam-black-sale-art1400",
+    "name": "Nike Zoom Vomero Roam Black SALE",
+    "brand": "Nike",
+    "brandSlug": "nike",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "unisex",
+    "genderName": "Унісекс",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 2700,
+    "oldPrice": 3600,
+    "costPrice": 2200,
+    "sku": "#art1400",
+    "material": "Текстиль, гума",
+    "country": "-",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/7475d7e3-a13a-4775-a5f2-91a204bcfe85.jpg"
+    ],
+    "description": "Модель: Nike Zoom Vomero Roam Black SALE. Артикул: #art1400. Матеріал: Текстиль, гума. Сезон: Демісезон. Виробництво: -. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Nike Zoom Vomero Roam Black SALE (арт. #art1400) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Nike Zoom Vomero Roam Black SALE (арт. #art1400) за 2700 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
     "id": "148115",
     "slug": "new-balance-more-trail-v3-beige-khaki-art1399",
     "name": "New Balance More Trail v3 Beige Khaki",
@@ -158071,7 +158144,6 @@
       "40",
       "41",
       "42",
-      "43",
       "44",
       "45"
     ],
@@ -162382,8 +162454,8 @@
     "brandSlug": "nike",
     "category": "Взуття",
     "categorySlug": "shoes",
-    "gender": "unisex",
-    "genderName": "Унісекс",
+    "gender": "men",
+    "genderName": "Чоловічі",
     "season": "demi",
     "seasonName": "Демісезон",
     "price": 2900,
@@ -162393,7 +162465,6 @@
     "material": "Текстиль , Прорезиненные вставки",
     "country": "В'єтнам",
     "sizes": [
-      "40",
       "41",
       "42",
       "44",
@@ -162469,7 +162540,6 @@
       "40",
       "41",
       "42",
-      "43",
       "45"
     ],
     "inStock": true,
@@ -162541,8 +162611,7 @@
     "sizes": [
       "41",
       "42",
-      "44",
-      "45"
+      "44"
     ],
     "inStock": true,
     "isHit": false,
@@ -167222,6 +167291,7 @@
     "sizes": [
       "41",
       "42",
+      "44",
       "45"
     ],
     "inStock": true,
@@ -175250,6 +175320,7 @@
       "37",
       "38",
       "39",
+      "40",
       "41",
       "42",
       "43",
@@ -192527,7 +192598,8 @@
       "36",
       "37",
       "38",
-      "39"
+      "39",
+      "40"
     ],
     "inStock": true,
     "isHit": true,
@@ -194510,7 +194582,8 @@
     "sizes": [
       "37",
       "38",
-      "39"
+      "39",
+      "40"
     ],
     "inStock": true,
     "isHit": true,
@@ -195622,6 +195695,40 @@
     "seo": {
       "title": "UGG Mini SALE (арт. #UGG042) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте UGG Mini SALE (арт. #UGG042) за 1600 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "65994",
+    "slug": "ugg-ultra-mini-sale-ugg038",
+    "name": "UGG Ultra Mini SALE",
+    "brand": "UGG",
+    "brandSlug": "ugg",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "unisex",
+    "genderName": "Унісекс",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 1500,
+    "oldPrice": 2000,
+    "costPrice": 1000,
+    "sku": "#UGG038",
+    "material": "Натуральна замша, штучне хутро",
+    "country": "Китай",
+    "sizes": [
+      "38",
+      "40",
+      "41"
+    ],
+    "inStock": true,
+    "isHit": true,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/b6797aeb-d636-4bae-a2c6-930c7e176e38.jpeg"
+    ],
+    "description": "Модель: UGG Ultra Mini SALE. Артикул: #UGG038. Матеріал: Натуральна замша, штучне хутро. Сезон: Зима. Виробництво: Китай. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "UGG Ultra Mini SALE (арт. #UGG038) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте UGG Ultra Mini SALE (арт. #UGG038) за 1500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -205524,6 +205631,7 @@
       "36",
       "37",
       "39",
+      "40",
       "41",
       "42",
       "43",
@@ -206481,7 +206589,8 @@
     "sizes": [
       "36",
       "37",
-      "38"
+      "38",
+      "39"
     ],
     "inStock": true,
     "isHit": true,
@@ -206776,6 +206885,40 @@
     "seo": {
       "title": "Nike Air Jordan 4 Retro \"Thunder\" (арт. 4114) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Nike Air Jordan 4 Retro \"Thunder\" (арт. 4114) за 3390 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "26395",
+    "slug": "ugg-ultra-mini-beige-sale-art0837",
+    "name": "UGG Ultra Mini Beige SALE",
+    "brand": "UGG",
+    "brandSlug": "ugg",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "unisex",
+    "genderName": "Унісекс",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 2200,
+    "oldPrice": 2933,
+    "costPrice": 1700,
+    "sku": "#art0837",
+    "material": "Натуральна замша, натуральна овчина",
+    "country": "Китай",
+    "sizes": [
+      "36",
+      "40",
+      "41"
+    ],
+    "inStock": true,
+    "isHit": true,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/b06fb5c2-944d-410b-9b7e-b49905c48654.jpg"
+    ],
+    "description": "Модель: UGG Ultra Mini Beige SALE. Артикул: #art0837. Матеріал: Натуральна замша, натуральна овчина. Сезон: Зима. Виробництво: Китай. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "UGG Ultra Mini Beige SALE (арт. #art0837) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте UGG Ultra Mini Beige SALE (арт. #art0837) за 2200 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
