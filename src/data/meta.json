@@ -1,5 +1,5 @@
 {
-  "total": 5953,
+  "total": 5956,
   "brands": [
     {
       "name": "Nike",
@@ -9,17 +9,17 @@
     {
       "name": "New Balance",
       "slug": "newbalance",
-      "count": 1341
+      "count": 1343
     },
     {
       "name": "Adidas",
       "slug": "adidas",
-      "count": 533
+      "count": 529
     },
     {
       "name": "Asics",
       "slug": "asics",
-      "count": 432
+      "count": 430
     },
     {
       "name": "UGG",
@@ -29,12 +29,12 @@
     {
       "name": "Інші бренди",
       "slug": "other",
-      "count": 186
+      "count": 190
     },
     {
       "name": "Salomon",
       "slug": "salomon",
-      "count": 134
+      "count": 133
     },
     {
       "name": "Air Jordan",
@@ -64,7 +64,7 @@
     {
       "name": "Premiata",
       "slug": "premiata",
-      "count": 52
+      "count": 55
     },
     {
       "name": "Puma",
@@ -84,7 +84,7 @@
     {
       "name": "The North Face",
       "slug": "tnf",
-      "count": 28
+      "count": 29
     },
     {
       "name": "Alo Yoga",
@@ -206,36 +206,36 @@
     {
       "name": "Взуття",
       "slug": "shoes",
-      "count": 5953
+      "count": 5956
     }
   ],
   "genders": [
     {
       "name": "Унісекс",
       "slug": "unisex",
-      "count": 3078
+      "count": 3066
     },
     {
       "name": "Жіночі",
       "slug": "women",
-      "count": 1565
+      "count": 1571
     },
     {
       "name": "Чоловічі",
       "slug": "men",
-      "count": 1310
+      "count": 1319
     }
   ],
   "seasons": [
     {
       "name": "Демісезон",
       "slug": "demi",
-      "count": 5406
+      "count": 5396
     },
     {
       "name": "Зима",
       "slug": "winter",
-      "count": 547
+      "count": 560
     }
   ],
   "sizes": [
@@ -259,15 +259,15 @@
     "48",
     "49",
     "50",
-    "‼️40",
-    "40 2/3",
-    "45/46",
-    "XL",
-    "43(світліші)",
     "L",
-    "40–41",
     "44(світліші)",
+    "43(світліші)",
+    "‼️40",
+    "XL",
+    "40 2/3",
     "S",
+    "40–41",
+    "45/46",
     "42 2/3",
     "M"
   ],
