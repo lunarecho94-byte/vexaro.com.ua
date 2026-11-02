@@ -21950,8 +21950,8 @@
     "country": "Китай",
     "sizes": [
       "42",
-      "43",
-      "44"
+      "44",
+      "45"
     ],
     "inStock": true,
     "isHit": false,
@@ -47473,6 +47473,40 @@
     "seo": {
       "title": "Nike Dunk Low Pulse White/Light Blue (арт. 7480) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Nike Dunk Low Pulse White/Light Blue (арт. 7480) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "241633",
+    "slug": "new-balance-9060-brown-mushroom-s1507",
+    "name": "New Balance 9060 Brown Mushroom",
+    "brand": "New Balance",
+    "brandSlug": "newbalance",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 2750,
+    "oldPrice": 3667,
+    "costPrice": 2250,
+    "sku": "S1507",
+    "material": "Замш",
+    "country": "-",
+    "sizes": [
+      "38",
+      "39",
+      "40"
+    ],
+    "inStock": true,
+    "isHit": true,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/be2889b8-593f-466b-bfef-f8beca18cd73.jpeg"
+    ],
+    "description": "Модель: New Balance 9060 Brown Mushroom. Артикул: S1507. Матеріал: Замш. Сезон: Демісезон. Виробництво: -. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "New Balance 9060 Brown Mushroom (арт. S1507) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте New Balance 9060 Brown Mushroom (арт. S1507) за 2750 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -200593,6 +200627,40 @@
     "seo": {
       "title": "Nike Dunk White Grey (арт. S1171) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Nike Dunk White Grey (арт. S1171) за 2600 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "62230",
+    "slug": "new-balance-nb-9060-quartz-grey-cream-s4059",
+    "name": "New Balance NB 9060 Quartz Grey Cream",
+    "brand": "New Balance",
+    "brandSlug": "newbalance",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "unisex",
+    "genderName": "Унісекс",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 2850,
+    "oldPrice": 3800,
+    "costPrice": 2350,
+    "sku": "S4059",
+    "material": "Замша",
+    "country": "В'єтнам",
+    "sizes": [
+      "37",
+      "39",
+      "41"
+    ],
+    "inStock": true,
+    "isHit": true,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/04587500-c6da-4fcb-b87a-841aaa51099e.jpeg"
+    ],
+    "description": "Модель: New Balance NB 9060 Quartz Grey Cream. Артикул: S4059. Матеріал: Замша. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "New Balance NB 9060 Quartz Grey Cream (арт. S4059) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте New Balance NB 9060 Quartz Grey Cream (арт. S4059) за 2850 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
