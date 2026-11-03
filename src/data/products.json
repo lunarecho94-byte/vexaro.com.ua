@@ -40,6 +40,126 @@
     }
   },
   {
+    "id": "257985",
+    "slug": "nike-sb-dunk-low-neckface-0595",
+    "name": "Nike SB Dunk Low Neckface",
+    "brand": "Nike",
+    "brandSlug": "nike",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "unisex",
+    "genderName": "Унісекс",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 2500,
+    "oldPrice": 3333,
+    "costPrice": 2000,
+    "sku": "0595",
+    "material": "Текстиль / комбінований",
+    "country": "В'єтнам",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44"
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/static/main/img/empty_item_square.jpeg"
+    ],
+    "description": "Модель: Nike SB Dunk Low Neckface. Артикул: 0595. Матеріал: Текстиль / комбінований. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Nike SB Dunk Low Neckface (арт. 0595) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Nike SB Dunk Low Neckface (арт. 0595) за 2500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "257983",
+    "slug": "adidas-superstar-white-0594",
+    "name": "Adidas Superstar White",
+    "brand": "Adidas",
+    "brandSlug": "adidas",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "unisex",
+    "genderName": "Унісекс",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 2700,
+    "oldPrice": 3600,
+    "costPrice": 2200,
+    "sku": "0594",
+    "material": "Текстиль / комбінований",
+    "country": "В'єтнам",
+    "sizes": [
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/static/main/img/empty_item_square.jpeg"
+    ],
+    "description": "Модель: Adidas Superstar White. Артикул: 0594. Матеріал: Текстиль / комбінований. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Adidas Superstar White (арт. 0594) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Adidas Superstar White (арт. 0594) за 2700 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "257982",
+    "slug": "adidas-superstar-black-0593",
+    "name": "Adidas Superstar Black",
+    "brand": "Adidas",
+    "brandSlug": "adidas",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "unisex",
+    "genderName": "Унісекс",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 2600,
+    "oldPrice": 3467,
+    "costPrice": 2100,
+    "sku": "0593",
+    "material": "Текстиль / комбінований",
+    "country": "В'єтнам",
+    "sizes": [
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/static/main/img/empty_item_square.jpeg"
+    ],
+    "description": "Модель: Adidas Superstar Black. Артикул: 0593. Матеріал: Текстиль / комбінований. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Adidas Superstar Black (арт. 0593) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Adidas Superstar Black (арт. 0593) за 2600 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
     "id": "257908",
     "slug": "new-balance-9060-ice-brown-dnb6673",
     "name": "New Balance 9060 ice brown",
@@ -6983,7 +7103,6 @@
     "material": "Замш, хутро",
     "country": "-",
     "sizes": [
-      "37",
       "38",
       "39",
       "40",
@@ -111618,9 +111737,9 @@
     "genderName": "Унісекс",
     "season": "winter",
     "seasonName": "Зима",
-    "price": 4500,
-    "oldPrice": 6000,
-    "costPrice": 4000,
+    "price": 4300,
+    "oldPrice": 5733,
+    "costPrice": 3800,
     "sku": "S1462",
     "material": "Замш, хутро",
     "country": "-",
@@ -111640,7 +111759,7 @@
     "description": "Модель: UGG Lowmel Sneaker Chestnut. Артикул: S1462. Матеріал: Замш, хутро. Сезон: Зима. Виробництво: -. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
     "seo": {
       "title": "UGG Lowmel Sneaker Chestnut (арт. S1462) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте UGG Lowmel Sneaker Chestnut (арт. S1462) за 4500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+      "description": "Замовляйте UGG Lowmel Sneaker Chestnut (арт. S1462) за 4300 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -198042,40 +198161,6 @@
     "seo": {
       "title": "Ugg Classic Mini Brown Chocolate (арт. 1094) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Ugg Classic Mini Brown Chocolate (арт. 1094) за 4000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "67191",
-    "slug": "new-balance-9060-grey-s4058",
-    "name": "New Balance 9060 Grey",
-    "brand": "New Balance",
-    "brandSlug": "newbalance",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 2700,
-    "oldPrice": 3600,
-    "costPrice": 2200,
-    "sku": "S4058",
-    "material": "Замша",
-    "country": "В'єтнам",
-    "sizes": [
-      "36",
-      "37",
-      "40"
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/62a86d41-e0c2-4af4-ab4f-fae00604168c.jpeg"
-    ],
-    "description": "Модель: New Balance 9060 Grey. Артикул: S4058. Матеріал: Замша. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "New Balance 9060 Grey (арт. S4058) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте New Balance 9060 Grey (арт. S4058) за 2700 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
