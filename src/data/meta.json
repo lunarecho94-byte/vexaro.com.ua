@@ -1,15 +1,15 @@
 {
-  "total": 5950,
+  "total": 5945,
   "brands": [
     {
       "name": "Nike",
       "slug": "nike",
-      "count": 2154
+      "count": 2155
     },
     {
       "name": "New Balance",
       "slug": "newbalance",
-      "count": 1339
+      "count": 1338
     },
     {
       "name": "Adidas",
@@ -19,22 +19,22 @@
     {
       "name": "Asics",
       "slug": "asics",
-      "count": 428
+      "count": 426
     },
     {
       "name": "UGG",
       "slug": "ugg",
-      "count": 347
+      "count": 344
     },
     {
       "name": "Інші бренди",
       "slug": "other",
-      "count": 188
+      "count": 190
     },
     {
       "name": "Salomon",
       "slug": "salomon",
-      "count": 132
+      "count": 133
     },
     {
       "name": "Air Jordan",
@@ -49,7 +49,7 @@
     {
       "name": "Balenciaga",
       "slug": "balenciaga",
-      "count": 88
+      "count": 90
     },
     {
       "name": "Golden Goose",
@@ -64,7 +64,7 @@
     {
       "name": "Premiata",
       "slug": "premiata",
-      "count": 55
+      "count": 53
     },
     {
       "name": "Puma",
@@ -74,7 +74,7 @@
     {
       "name": "Dior",
       "slug": "dior",
-      "count": 41
+      "count": 42
     },
     {
       "name": "Vans",
@@ -84,7 +84,7 @@
     {
       "name": "The North Face",
       "slug": "tnf",
-      "count": 29
+      "count": 26
     },
     {
       "name": "Alo Yoga",
@@ -172,11 +172,6 @@
       "count": 3
     },
     {
-      "name": "Stone Island",
-      "slug": "stoneisland",
-      "count": 3
-    },
-    {
       "name": "Dolce & Gabbana",
       "slug": "dolcegabbana",
       "count": 2
@@ -197,6 +192,11 @@
       "count": 2
     },
     {
+      "name": "Stone Island",
+      "slug": "stoneisland",
+      "count": 2
+    },
+    {
       "name": "Fila",
       "slug": "fila",
       "count": 1
@@ -206,36 +206,36 @@
     {
       "name": "Взуття",
       "slug": "shoes",
-      "count": 5950
+      "count": 5945
     }
   ],
   "genders": [
     {
       "name": "Унісекс",
       "slug": "unisex",
-      "count": 3063
+      "count": 3071
     },
     {
       "name": "Жіночі",
       "slug": "women",
-      "count": 1569
+      "count": 1566
     },
     {
       "name": "Чоловічі",
       "slug": "men",
-      "count": 1318
+      "count": 1308
     }
   ],
   "seasons": [
     {
       "name": "Демісезон",
       "slug": "demi",
-      "count": 5391
+      "count": 5387
     },
     {
       "name": "Зима",
       "slug": "winter",
-      "count": 559
+      "count": 558
     }
   ],
   "sizes": [
@@ -259,17 +259,17 @@
     "48",
     "49",
     "50",
-    "XL",
-    "42 2/3",
-    "43(світліші)",
+    "L",
     "44(світліші)",
-    "40–41",
-    "S",
-    "M",
-    "40 2/3",
     "45/46",
+    "42 2/3",
     "‼️40",
-    "L"
+    "40–41",
+    "43(світліші)",
+    "XL",
+    "S",
+    "40 2/3",
+    "M"
   ],
   "minPrice": 900,
   "maxPrice": 11611
