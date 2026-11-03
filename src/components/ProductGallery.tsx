@@ -18,7 +18,7 @@ export function ProductGallery({ images, productName }: ProductGalleryProps) {
   const touchStartXRef = useRef<number | null>(null);
   const touchStartYRef = useRef<number | null>(null);
 
-  const validImages = images.filter((img) => !failedImages[img]);
+  const validImages = images.filter((img) => !failedImages[img] && !img.includes('empty_item_square'));
   const total = validImages.length;
   const currentImage = validImages[activeIdx] || validImages[0] || '/images/shoe-placeholder.svg';
 

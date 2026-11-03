@@ -22,7 +22,9 @@ export function ProductCard({ product, priority = false }: ProductCardProps) {
   const touchStartYRef = useRef<number | null>(null);
   const isSwipingRef = useRef(false);
 
-  const imagesList = product.images && product.images.length > 0 ? product.images : [];
+  const imagesList = (product.images && product.images.length > 0 ? product.images : []).filter(
+    (img) => img && !img.includes('empty_item_square')
+  );
   const totalImages = imagesList.length;
   const currentImage =
     !hasError && imagesList[imageIndex] ? imagesList[imageIndex] : '/images/shoe-placeholder.svg';

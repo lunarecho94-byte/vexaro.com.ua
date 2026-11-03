@@ -772,8 +772,9 @@ def main():
                 if img.text:
                     url = img.text.strip()
                     url = IMAGE_REPLACEMENTS.get(url, url)
-                    if url and url not in imgs:
-                        imgs.append(url)
+                    if url and 'empty_item_square' not in url and 'placeholder' not in url:
+                        if url not in imgs:
+                            imgs.append(url)
                         
         if not imgs:
             continue
