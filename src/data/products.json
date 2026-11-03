@@ -198165,6 +198165,40 @@
     }
   },
   {
+    "id": "67191",
+    "slug": "new-balance-9060-grey-s4058",
+    "name": "New Balance 9060 Grey",
+    "brand": "New Balance",
+    "brandSlug": "newbalance",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 2700,
+    "oldPrice": 3600,
+    "costPrice": 2200,
+    "sku": "S4058",
+    "material": "Замша",
+    "country": "В'єтнам",
+    "sizes": [
+      "36",
+      "37",
+      "40"
+    ],
+    "inStock": true,
+    "isHit": true,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/62a86d41-e0c2-4af4-ab4f-fae00604168c.jpeg"
+    ],
+    "description": "Модель: New Balance 9060 Grey. Артикул: S4058. Матеріал: Замша. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "New Balance 9060 Grey (арт. S4058) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте New Balance 9060 Grey (арт. S4058) за 2700 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
     "id": "67096",
     "slug": "ugg-grey-chromium-mini-sale-art1048",
     "name": "UGG Grey Chromium Mini SALE",
