@@ -1,117 +1,5 @@
 [
   {
-    "id": "251090",
-    "slug": "new-balance-9060-black-cordura-5002",
-    "name": "New Balance 9060 Black Cordura",
-    "brand": "New Balance",
-    "brandSlug": "newbalance",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "unisex",
-    "genderName": "Унісекс",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 2900,
-    "oldPrice": 3867,
-    "costPrice": 2400,
-    "sku": "5002",
-    "material": "Замша, текстиль, cordura",
-    "country": "В'єтнам",
-    "sizes": [
-      "37",
-      "38",
-      "39",
-      "41",
-      "42",
-      "43",
-      "44",
-      "45"
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/503ebb33-f92a-48d6-8db2-1045fb0d0e05.jpeg",
-      "https://easydrop.one/media/uploads/images/base/603eedf8-50c9-4c6d-8eea-6b576d654c6c.jpeg"
-    ],
-    "description": "Модель: New Balance 9060 Black Cordura. Артикул: 5002. Матеріал: Замша, текстиль, cordura. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "New Balance 9060 Black Cordura (арт. 5002) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте New Balance 9060 Black Cordura (арт. 5002) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "195546",
-    "slug": "ugg-lowmel-sneaker-chestnut-s1462",
-    "name": "UGG Lowmel Sneaker Chestnut",
-    "brand": "UGG",
-    "brandSlug": "ugg",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "unisex",
-    "genderName": "Унісекс",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 4500,
-    "oldPrice": 6000,
-    "costPrice": 4000,
-    "sku": "S1462",
-    "material": "Замш, хутро",
-    "country": "-",
-    "sizes": [
-      "36",
-      "37",
-      "38",
-      "39",
-      "40",
-      "41"
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/62662fa0-7674-47c0-8918-f69388fdf0bd.jpeg"
-    ],
-    "description": "Модель: UGG Lowmel Sneaker Chestnut. Артикул: S1462. Матеріал: Замш, хутро. Сезон: Зима. Виробництво: -. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "UGG Lowmel Sneaker Chestnut (арт. S1462) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте UGG Lowmel Sneaker Chestnut (арт. S1462) за 4500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "246012",
-    "slug": "dior-chrono-white-black-9002",
-    "name": "Dior Chrono White Black",
-    "brand": "Dior",
-    "brandSlug": "dior",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "unisex",
-    "genderName": "Унісекс",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 4400,
-    "oldPrice": 5867,
-    "costPrice": 3900,
-    "sku": "9002",
-    "material": "Шкіра, текстиль",
-    "country": "Італія",
-    "sizes": [
-      "37",
-      "39",
-      "40",
-      "41"
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/0856857d-5a49-4f99-8978-64aabf73f695.jpeg"
-    ],
-    "description": "Модель: Dior Chrono White Black. Артикул: 9002. Матеріал: Шкіра, текстиль. Сезон: Демісезон. Виробництво: Італія. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Dior Chrono White Black (арт. 9002) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Dior Chrono White Black (арт. 9002) за 4400 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "257908",
     "slug": "new-balance-9060-ice-brown-dnb6673",
     "name": "New Balance 9060 ice brown",
@@ -22115,6 +22003,46 @@
     }
   },
   {
+    "id": "251090",
+    "slug": "new-balance-9060-black-cordura-5002",
+    "name": "New Balance 9060 Black Cordura",
+    "brand": "New Balance",
+    "brandSlug": "newbalance",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "unisex",
+    "genderName": "Унісекс",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 2900,
+    "oldPrice": 3867,
+    "costPrice": 2400,
+    "sku": "5002",
+    "material": "Замша, текстиль, cordura",
+    "country": "В'єтнам",
+    "sizes": [
+      "37",
+      "38",
+      "39",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "inStock": true,
+    "isHit": true,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/503ebb33-f92a-48d6-8db2-1045fb0d0e05.jpeg",
+      "https://easydrop.one/media/uploads/images/base/603eedf8-50c9-4c6d-8eea-6b576d654c6c.jpeg"
+    ],
+    "description": "Модель: New Balance 9060 Black Cordura. Артикул: 5002. Матеріал: Замша, текстиль, cordura. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "New Balance 9060 Black Cordura (арт. 5002) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте New Balance 9060 Black Cordura (арт. 5002) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
     "id": "251076",
     "slug": "dc-shoes-court-graffik-black-purple-10001",
     "name": "DC Shoes Court Graffik Black Purple",
@@ -37228,6 +37156,41 @@
     "seo": {
       "title": "Nike Dunk Low «Medium Olive» (арт. N00351) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Nike Dunk Low «Medium Olive» (арт. N00351) за 3100 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "246012",
+    "slug": "dior-chrono-white-black-9002",
+    "name": "Dior Chrono White Black",
+    "brand": "Dior",
+    "brandSlug": "dior",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "unisex",
+    "genderName": "Унісекс",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 4400,
+    "oldPrice": 5867,
+    "costPrice": 3900,
+    "sku": "9002",
+    "material": "Шкіра, текстиль",
+    "country": "Італія",
+    "sizes": [
+      "37",
+      "39",
+      "40",
+      "41"
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/0856857d-5a49-4f99-8978-64aabf73f695.jpeg"
+    ],
+    "description": "Модель: Dior Chrono White Black. Артикул: 9002. Матеріал: Шкіра, текстиль. Сезон: Демісезон. Виробництво: Італія. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Dior Chrono White Black (арт. 9002) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Dior Chrono White Black (арт. 9002) за 4400 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -112064,6 +112027,43 @@
     "seo": {
       "title": "UGG Astromel Chestnut (термо) SALE (арт. #art1610) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте UGG Astromel Chestnut (термо) SALE (арт. #art1610) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "195546",
+    "slug": "ugg-lowmel-sneaker-chestnut-s1462",
+    "name": "UGG Lowmel Sneaker Chestnut",
+    "brand": "UGG",
+    "brandSlug": "ugg",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "unisex",
+    "genderName": "Унісекс",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 4500,
+    "oldPrice": 6000,
+    "costPrice": 4000,
+    "sku": "S1462",
+    "material": "Замш, хутро",
+    "country": "-",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "inStock": true,
+    "isHit": true,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/62662fa0-7674-47c0-8918-f69388fdf0bd.jpeg"
+    ],
+    "description": "Модель: UGG Lowmel Sneaker Chestnut. Артикул: S1462. Матеріал: Замш, хутро. Сезон: Зима. Виробництво: -. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "UGG Lowmel Sneaker Chestnut (арт. S1462) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте UGG Lowmel Sneaker Chestnut (арт. S1462) за 4500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
