@@ -44,7 +44,9 @@ EXPORT_URLS = [
     # Gepard Drop warehouse feed
     "https://easydrop.one/prom-export?key=42147462915546&pid=86764974149158",
     # Additional warehouse feed (key 02895679027375)
-    "https://easydrop.one/prom-export?key=02895679027375&pid=86764974149158"
+    "https://easydrop.one/prom-export?key=02895679027375&pid=86764974149158",
+    # Additional warehouse feed (key 33422967305889)
+    "https://easydrop.one/prom-export?key=33422967305889&pid=86764974149158"
 ]
 EXPORT_URL = EXPORT_URLS[0]
 

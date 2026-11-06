@@ -9,7 +9,7 @@ import re
 import io
 import tempfile
 from datetime import datetime
-from PIL import Image
+from PIL import Image, ImageOps
 
 SCRATCH_DIR = "/Users/mac/.gemini/antigravity/scratch"
 PROJECT_DIR = "/Users/mac/.gemini/antigravity/scratch/urban-next"
@@ -176,17 +176,18 @@ def send_product(prod):
         dl_req = urllib.request.Request(img_url, headers={'User-Agent': 'Mozilla/5.0'})
         img_data = urllib.request.urlopen(dl_req, timeout=15).read()
 
-        # Optimize image dimensions for Telegram Bot API (Telegram strictly rejects photos where width+height > 10000)
+        # Fix orientation (EXIF transpose) and optimize dimensions for Telegram
         try:
             im = Image.open(io.BytesIO(img_data))
+            im = ImageOps.exif_transpose(im)
             if max(im.size) > 1600 or sum(im.size) > 9000:
                 resample = getattr(Image, 'Resampling', Image).LANCZOS if hasattr(Image, 'Resampling') else getattr(Image, 'ANTIALIAS', Image.BICUBIC)
                 im.thumbnail((1600, 1600), resample)
-                out = io.BytesIO()
-                im.convert('RGB').save(out, format='JPEG', quality=88)
-                img_data = out.getvalue()
+            out = io.BytesIO()
+            im.convert('RGB').save(out, format='JPEG', quality=90)
+            img_data = out.getvalue()
         except Exception as img_err:
-            log(f"Image optimization notice: {img_err}")
+            log(f"Image processing notice: {img_err}")
     except Exception as e:
         log(f"Failed to fetch image {img_url}: {e}")
         return False
