@@ -111706,8 +111706,8 @@
     "brandSlug": "ugg",
     "category": "Взуття",
     "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
+    "gender": "unisex",
+    "genderName": "Унісекс",
     "season": "winter",
     "seasonName": "Зима",
     "price": 4300,
@@ -111720,7 +111720,8 @@
       "37",
       "38",
       "39",
-      "40"
+      "40",
+      "41"
     ],
     "inStock": true,
     "isHit": true,
@@ -112165,6 +112166,7 @@
     "country": "-",
     "sizes": [
       "37",
+      "38",
       "39",
       "40"
     ],
@@ -196833,6 +196835,40 @@
     "seo": {
       "title": "Nike SB Dunk Pink (арт. 4910) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Nike SB Dunk Pink (арт. 4910) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "71623",
+    "slug": "nike-dunk-white-black-s1185",
+    "name": "Nike Dunk White Black",
+    "brand": "Nike",
+    "brandSlug": "nike",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 2600,
+    "oldPrice": 3467,
+    "costPrice": 2100,
+    "sku": "S1185",
+    "material": "Шкіра",
+    "country": "-",
+    "sizes": [
+      "38",
+      "39",
+      "40"
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/df4b8b06-1597-4e72-b99d-d215fd5c6511.jpeg"
+    ],
+    "description": "Модель: Nike Dunk White Black. Артикул: S1185. Матеріал: Шкіра. Сезон: Демісезон. Виробництво: -. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Nike Dunk White Black (арт. S1185) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Nike Dunk White Black (арт. S1185) за 2600 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
