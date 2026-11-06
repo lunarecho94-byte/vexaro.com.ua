@@ -6391,7 +6391,6 @@
     "material": "Шкіра",
     "country": "В'єтнам",
     "sizes": [
-      "36",
       "37",
       "38",
       "39",
@@ -12713,7 +12712,6 @@
     "sizes": [
       "41",
       "42",
-      "44",
       "45"
     ],
     "inStock": true,
@@ -14730,7 +14728,6 @@
     "material": "шкіра",
     "country": "В'єтнам",
     "sizes": [
-      "37",
       "38",
       "39",
       "40",
@@ -15597,7 +15594,6 @@
     "country": "-",
     "sizes": [
       "36",
-      "38",
       "40",
       "41"
     ],
@@ -19646,7 +19642,6 @@
     "country": "В'єтнам",
     "sizes": [
       "37",
-      "38",
       "39",
       "40",
       "41"
@@ -20150,8 +20145,7 @@
     "sizes": [
       "41",
       "42",
-      "43",
-      "44"
+      "43"
     ],
     "inStock": true,
     "isHit": false,
@@ -22415,8 +22409,7 @@
       "41",
       "43",
       "44",
-      "45",
-      "46"
+      "45"
     ],
     "inStock": true,
     "isHit": false,
@@ -25641,41 +25634,6 @@
     "seo": {
       "title": "Nike V2K Runtekk Mink Brown Summit White College (арт. S1523) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Nike V2K Runtekk Mink Brown Summit White College (арт. S1523) за 2750 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "249888",
-    "slug": "asics-gel-nyc-gore-tex-total-black-21",
-    "name": "Asics Gel Nyc Gore-Tex \"Total Black\"",
-    "brand": "Asics",
-    "brandSlug": "asics",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 3190,
-    "oldPrice": 4253,
-    "costPrice": 2690,
-    "sku": "АС21",
-    "material": "Шкіра+Текстиль",
-    "country": "В'єтнам",
-    "sizes": [
-      "42",
-      "44",
-      "45"
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/f9ac35d4-6c4b-48f3-8163-5adfb9e57d21.png",
-      "https://easydrop.one/media/uploads/images/base/e6e28ac8-224d-4bf9-8299-b1b3cfff0eb4.jpg"
-    ],
-    "description": "Модель: Asics Gel Nyc Gore-Tex \"Total Black\". Артикул: АС21. Матеріал: Шкіра+Текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Asics Gel Nyc Gore-Tex \"Total Black\" (арт. АС21) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Asics Gel Nyc Gore-Tex \"Total Black\" (арт. АС21) за 3190 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -35721,7 +35679,8 @@
       "42",
       "43",
       "44",
-      "45"
+      "45",
+      "46"
     ],
     "inStock": true,
     "isHit": false,
@@ -38457,7 +38416,6 @@
     "country": "Китай",
     "sizes": [
       "38",
-      "40",
       "41",
       "42",
       "43",
@@ -42393,8 +42351,7 @@
       "42",
       "43",
       "44",
-      "45",
-      "46"
+      "45"
     ],
     "inStock": true,
     "isHit": false,
@@ -46834,7 +46791,6 @@
     "country": "В'єтнам",
     "sizes": [
       "36",
-      "41",
       "44",
       "46"
     ],
@@ -101075,6 +101031,7 @@
     "sizes": [
       "40",
       "41",
+      "43",
       "45"
     ],
     "inStock": true,
@@ -110141,7 +110098,6 @@
     "material": "Замша, овчина",
     "country": "В'єтнам",
     "sizes": [
-      "36",
       "38",
       "39",
       "41"
@@ -112610,40 +112566,6 @@
     "seo": {
       "title": "UGG Lowmel Sneaker Gray (арт. #art1602) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте UGG Lowmel Sneaker Gray (арт. #art1602) за 4700 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "195572",
-    "slug": "ugg-lowmel-sneaker-black-art1601",
-    "name": "UGG Lowmel Sneaker Black",
-    "brand": "UGG",
-    "brandSlug": "ugg",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "unisex",
-    "genderName": "Унісекс",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 4500,
-    "oldPrice": 6000,
-    "costPrice": 4000,
-    "sku": "#art1601",
-    "material": "Замша, текстиль, хутро",
-    "country": "В'єтнам",
-    "sizes": [
-      "36",
-      "39",
-      "41"
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/e645402a-6b67-4ea8-a263-4ad27011a589.jpg"
-    ],
-    "description": "Модель: UGG Lowmel Sneaker Black. Артикул: #art1601. Матеріал: Замша, текстиль, хутро. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "UGG Lowmel Sneaker Black (арт. #art1601) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте UGG Lowmel Sneaker Black (арт. #art1601) за 4500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -145829,6 +145751,7 @@
     "sizes": [
       "36",
       "37",
+      "38",
       "39",
       "40",
       "41",
@@ -162599,40 +162522,6 @@
     }
   },
   {
-    "id": "140952",
-    "slug": "asics-gel-kahana-8-art1392",
-    "name": "Asics Gel Kahana 8",
-    "brand": "Asics",
-    "brandSlug": "asics",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 3000,
-    "oldPrice": 4000,
-    "costPrice": 2500,
-    "sku": "#art1392",
-    "material": "Шкіра, Gore-Tex",
-    "country": "-",
-    "sizes": [
-      "41",
-      "42",
-      "43"
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/3f936aa7-0bf9-45a4-98ef-762d520b8688.jpg"
-    ],
-    "description": "Модель: Asics Gel Kahana 8. Артикул: #art1392. Матеріал: Шкіра, Gore-Tex. Сезон: Демісезон. Виробництво: -. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Asics Gel Kahana 8 (арт. #art1392) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Asics Gel Kahana 8 (арт. #art1392) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "140951",
     "slug": "asics-gel-kahana-8-art1391",
     "name": "Asics Gel Kahana 8",
@@ -169633,7 +169522,6 @@
     "material": "Натуральна замша, натуральне хутро",
     "country": "Китай",
     "sizes": [
-      "36",
       "38",
       "39",
       "40",
@@ -175222,40 +175110,6 @@
     "seo": {
       "title": "New Balance 740 (арт. #art1261) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте New Balance 740 (арт. #art1261) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "116057",
-    "slug": "nike-air-force-winter-grey-red-1546",
-    "name": "Nike Air Force Winter Grey Red",
-    "brand": "Nike",
-    "brandSlug": "nike",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 3000,
-    "oldPrice": 4000,
-    "costPrice": 2500,
-    "sku": "1546",
-    "material": "Замшма , Мех",
-    "country": "В'єтнам",
-    "sizes": [
-      "41",
-      "43",
-      "45"
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/9c5af53a-ac94-40ee-b096-7ece696718d9.jpeg"
-    ],
-    "description": "Модель: Nike Air Force Winter Grey Red. Артикул: 1546. Матеріал: Замшма , Мех. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Nike Air Force Winter Grey Red (арт. 1546) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Nike Air Force Winter Grey Red (арт. 1546) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -193945,7 +193799,6 @@
     "material": "Замша/сітка",
     "country": "В'єтнам",
     "sizes": [
-      "36",
       "37",
       "38",
       "39",
