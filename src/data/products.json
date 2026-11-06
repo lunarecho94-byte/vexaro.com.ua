@@ -347,7 +347,6 @@
     "sizes": [
       "41",
       "42",
-      "43",
       "44",
       "45",
       "46"
@@ -10255,7 +10254,6 @@
       "37",
       "40",
       "41",
-      "43",
       "44"
     ],
     "inStock": true,
@@ -17676,8 +17674,7 @@
       "40",
       "42",
       "43",
-      "44",
-      "45"
+      "44"
     ],
     "inStock": true,
     "isHit": false,
@@ -21254,7 +21251,6 @@
     "country": "В'єтнам",
     "sizes": [
       "41",
-      "42",
       "44",
       "45"
     ],
@@ -39484,7 +39480,6 @@
     "sizes": [
       "40",
       "41",
-      "42",
       "44"
     ],
     "inStock": true,
@@ -42533,7 +42528,6 @@
     "sizes": [
       "41",
       "42",
-      "43",
       "44"
     ],
     "inStock": true,
@@ -49124,8 +49118,7 @@
       "42",
       "43",
       "44",
-      "45",
-      "46"
+      "45"
     ],
     "inStock": true,
     "isHit": false,
@@ -112941,8 +112934,8 @@
     "brandSlug": "salomon",
     "category": "Взуття",
     "categorySlug": "shoes",
-    "gender": "unisex",
-    "genderName": "Унісекс",
+    "gender": "men",
+    "genderName": "Чоловічі",
     "season": "demi",
     "seasonName": "Демісезон",
     "price": 3100,
@@ -112952,7 +112945,6 @@
     "material": "Gore Tex",
     "country": "В'єтнам",
     "sizes": [
-      "40",
       "42",
       "43",
       "44",
@@ -182727,6 +182719,43 @@
     "seo": {
       "title": "Nike ACG Terra Antarktik Gore-Tex Black White (арт. 0172) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Nike ACG Terra Antarktik Gore-Tex Black White (арт. 0172) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "116903",
+    "slug": "nike-acg-terra-antarktik-gore-tex-black-khaki-0173",
+    "name": "Nike ACG Terra Antarktik Gore-Tex Black Khaki",
+    "brand": "Nike",
+    "brandSlug": "nike",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "unisex",
+    "genderName": "Унісекс",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 3300,
+    "oldPrice": 4400,
+    "costPrice": 2800,
+    "sku": "0173",
+    "material": "Текстиль",
+    "country": "В'єтнам",
+    "sizes": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/b3f94c1b-6b55-4dfb-b12d-acf658592221.jpg"
+    ],
+    "description": "Модель: Nike ACG Terra Antarktik Gore-Tex Black Khaki. Артикул: 0173. Матеріал: Текстиль. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Nike ACG Terra Antarktik Gore-Tex Black Khaki (арт. 0173) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Nike ACG Terra Antarktik Gore-Tex Black Khaki (арт. 0173) за 3300 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
