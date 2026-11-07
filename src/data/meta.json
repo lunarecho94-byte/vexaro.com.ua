@@ -1,25 +1,25 @@
 {
-  "total": 6182,
+  "total": 6601,
   "brands": [
     {
       "name": "Nike",
       "slug": "nike",
-      "count": 2224
+      "count": 2401
     },
     {
       "name": "New Balance",
       "slug": "newbalance",
-      "count": 1417
+      "count": 1463
     },
     {
       "name": "Adidas",
       "slug": "adidas",
-      "count": 541
+      "count": 577
     },
     {
       "name": "Asics",
       "slug": "asics",
-      "count": 472
+      "count": 510
     },
     {
       "name": "UGG",
@@ -29,52 +29,52 @@
     {
       "name": "Інші бренди",
       "slug": "other",
-      "count": 188
+      "count": 208
     },
     {
       "name": "Salomon",
       "slug": "salomon",
-      "count": 138
+      "count": 145
     },
     {
       "name": "Air Jordan",
       "slug": "jordan",
-      "count": 112
+      "count": 141
     },
     {
       "name": "On Cloud",
       "slug": "oncloud",
-      "count": 110
+      "count": 111
     },
     {
       "name": "Balenciaga",
       "slug": "balenciaga",
-      "count": 93
-    },
-    {
-      "name": "Golden Goose",
-      "slug": "goldengoose",
-      "count": 67
+      "count": 104
     },
     {
       "name": "Off-White",
       "slug": "offwhite",
-      "count": 58
+      "count": 79
+    },
+    {
+      "name": "Golden Goose",
+      "slug": "goldengoose",
+      "count": 72
     },
     {
       "name": "Premiata",
       "slug": "premiata",
-      "count": 55
+      "count": 57
     },
     {
       "name": "Puma",
       "slug": "puma",
-      "count": 44
+      "count": 50
     },
     {
       "name": "Dior",
       "slug": "dior",
-      "count": 42
+      "count": 49
     },
     {
       "name": "The North Face",
@@ -84,7 +84,12 @@
     {
       "name": "Vans",
       "slug": "vans",
-      "count": 31
+      "count": 32
+    },
+    {
+      "name": "Louis Vuitton",
+      "slug": "louisvuitton",
+      "count": 29
     },
     {
       "name": "Alo Yoga",
@@ -92,14 +97,14 @@
       "count": 23
     },
     {
-      "name": "Louis Vuitton",
-      "slug": "louisvuitton",
-      "count": 21
-    },
-    {
       "name": "Alexander McQueen",
       "slug": "mcqueen",
       "count": 19
+    },
+    {
+      "name": "Converse",
+      "slug": "converse",
+      "count": 15
     },
     {
       "name": "Loro Piana",
@@ -117,14 +122,14 @@
       "count": 14
     },
     {
-      "name": "Converse",
-      "slug": "converse",
-      "count": 14
-    },
-    {
       "name": "Lacoste",
       "slug": "lacoste",
       "count": 12
+    },
+    {
+      "name": "Gucci",
+      "slug": "gucci",
+      "count": 10
     },
     {
       "name": "Merrell",
@@ -135,11 +140,6 @@
       "name": "Mizuno",
       "slug": "mizuno",
       "count": 9
-    },
-    {
-      "name": "Gucci",
-      "slug": "gucci",
-      "count": 8
     },
     {
       "name": "Reebok",
@@ -172,6 +172,11 @@
       "count": 3
     },
     {
+      "name": "Loewe",
+      "slug": "loewe",
+      "count": 3
+    },
+    {
       "name": "Stone Island",
       "slug": "stoneisland",
       "count": 3
@@ -189,11 +194,6 @@
     {
       "name": "Bape",
       "slug": "bape",
-      "count": 2
-    },
-    {
-      "name": "Loewe",
-      "slug": "loewe",
       "count": 2
     },
     {
@@ -216,51 +216,56 @@
     {
       "name": "Взуття",
       "slug": "shoes",
-      "count": 6182
+      "count": 6601
     }
   ],
   "genders": [
     {
       "name": "Унісекс",
       "slug": "unisex",
-      "count": 3204
+      "count": 3539
     },
     {
       "name": "Жіночі",
       "slug": "women",
-      "count": 1609
+      "count": 1651
     },
     {
       "name": "Чоловічі",
       "slug": "men",
-      "count": 1369
+      "count": 1411
     }
   ],
   "seasons": [
     {
       "name": "Демісезон",
       "slug": "demi",
-      "count": 5567
+      "count": 5944
     },
     {
       "name": "Зима",
       "slug": "winter",
-      "count": 615
+      "count": 657
     }
   ],
   "sizes": [
     "35",
     "36",
+    "36.5",
     "37",
+    "37.5",
     "38",
     "38.5",
     "39",
+    "39.5",
     "40",
     "40.5",
     "41",
+    "41.5",
     "42",
     "42.5",
     "43",
+    "43.5",
     "44",
     "44.5",
     "45",
@@ -269,18 +274,36 @@
     "48",
     "49",
     "50",
-    "XL",
-    "40–41",
-    "S",
-    "‼️40",
-    "40 2/3",
-    "44(світліші)",
-    "43(світліші)",
-    "42 2/3",
-    "45/46",
     "L",
-    "M"
+    "41 (8 us)",
+    "38(5,5 us)",
+    "40 2/3",
+    "42 2/3",
+    "43 (9.5 us)",
+    "40–41",
+    "37(5 us)",
+    "43(світліші)",
+    "40( 7 us)",
+    "37 ПІДОШВА фото",
+    "XL",
+    "39(6 us)",
+    "37 (5 us)",
+    "M",
+    "❗️ 42.5",
+    "39 (6 us)",
+    "40(7 us)",
+    "‼️40",
+    "38(5.5 us)",
+    "45 (11 us)",
+    "41(8 us)",
+    "S",
+    "45/46",
+    "44 (10 us)",
+    "40 (7 us)",
+    "37(ДИВ ФОТО)",
+    "44(світліші)",
+    "42 (8.5 us)"
   ],
   "minPrice": 900,
-  "maxPrice": 6400
+  "maxPrice": 7700
 }

@@ -46,7 +46,9 @@ EXPORT_URLS = [
     # Additional warehouse feed (key 02895679027375)
     "https://easydrop.one/prom-export?key=02895679027375&pid=86764974149158",
     # Additional warehouse feed (key 33422967305889)
-    "https://easydrop.one/prom-export?key=33422967305889&pid=86764974149158"
+    "https://easydrop.one/prom-export?key=33422967305889&pid=86764974149158",
+    # Additional warehouse feed (key 12954722677970)
+    "https://easydrop.one/prom-export?key=12954722677970&pid=86764974149158"
 ]
 EXPORT_URL = EXPORT_URLS[0]
 
