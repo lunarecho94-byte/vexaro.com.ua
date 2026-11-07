@@ -1,69 +1,204 @@
 {
-  "total": 400,
+  "total": 6181,
   "brands": [
     {
       "name": "Nike",
       "slug": "nike",
-      "count": 170
+      "count": 2224
     },
     {
       "name": "New Balance",
       "slug": "newbalance",
-      "count": 102
-    },
-    {
-      "name": "Asics",
-      "slug": "asics",
-      "count": 51
+      "count": 1417
     },
     {
       "name": "Adidas",
       "slug": "adidas",
-      "count": 20
+      "count": 541
     },
     {
-      "name": "Salomon",
-      "slug": "salomon",
-      "count": 15
+      "name": "Asics",
+      "slug": "asics",
+      "count": 472
     },
     {
       "name": "UGG",
       "slug": "ugg",
-      "count": 10
-    },
-    {
-      "name": "Balenciaga",
-      "slug": "balenciaga",
-      "count": 7
-    },
-    {
-      "name": "On Cloud",
-      "slug": "oncloud",
-      "count": 4
-    },
-    {
-      "name": "Off-White",
-      "slug": "offwhite",
-      "count": 4
-    },
-    {
-      "name": "Golden Goose",
-      "slug": "goldengoose",
-      "count": 4
-    },
-    {
-      "name": "The North Face",
-      "slug": "tnf",
-      "count": 3
-    },
-    {
-      "name": "Dior",
-      "slug": "dior",
-      "count": 2
+      "count": 345
     },
     {
       "name": "Інші бренди",
       "slug": "other",
+      "count": 188
+    },
+    {
+      "name": "Salomon",
+      "slug": "salomon",
+      "count": 138
+    },
+    {
+      "name": "Air Jordan",
+      "slug": "jordan",
+      "count": 111
+    },
+    {
+      "name": "On Cloud",
+      "slug": "oncloud",
+      "count": 110
+    },
+    {
+      "name": "Balenciaga",
+      "slug": "balenciaga",
+      "count": 93
+    },
+    {
+      "name": "Golden Goose",
+      "slug": "goldengoose",
+      "count": 67
+    },
+    {
+      "name": "Off-White",
+      "slug": "offwhite",
+      "count": 58
+    },
+    {
+      "name": "Premiata",
+      "slug": "premiata",
+      "count": 55
+    },
+    {
+      "name": "Puma",
+      "slug": "puma",
+      "count": 44
+    },
+    {
+      "name": "Dior",
+      "slug": "dior",
+      "count": 42
+    },
+    {
+      "name": "The North Face",
+      "slug": "tnf",
+      "count": 33
+    },
+    {
+      "name": "Vans",
+      "slug": "vans",
+      "count": 31
+    },
+    {
+      "name": "Alo Yoga",
+      "slug": "aloyoga",
+      "count": 23
+    },
+    {
+      "name": "Louis Vuitton",
+      "slug": "louisvuitton",
+      "count": 21
+    },
+    {
+      "name": "Alexander McQueen",
+      "slug": "mcqueen",
+      "count": 19
+    },
+    {
+      "name": "Loro Piana",
+      "slug": "loropiana",
+      "count": 15
+    },
+    {
+      "name": "Miu Miu",
+      "slug": "miumiu",
+      "count": 14
+    },
+    {
+      "name": "Dr. Martens",
+      "slug": "drmartens",
+      "count": 14
+    },
+    {
+      "name": "Converse",
+      "slug": "converse",
+      "count": 14
+    },
+    {
+      "name": "Lacoste",
+      "slug": "lacoste",
+      "count": 12
+    },
+    {
+      "name": "Merrell",
+      "slug": "merrell",
+      "count": 9
+    },
+    {
+      "name": "Mizuno",
+      "slug": "mizuno",
+      "count": 9
+    },
+    {
+      "name": "Gucci",
+      "slug": "gucci",
+      "count": 8
+    },
+    {
+      "name": "Reebok",
+      "slug": "reebok",
+      "count": 8
+    },
+    {
+      "name": "Bottega Veneta",
+      "slug": "bottega",
+      "count": 7
+    },
+    {
+      "name": "Columbia",
+      "slug": "columbia",
+      "count": 7
+    },
+    {
+      "name": "Chanel",
+      "slug": "chanel",
+      "count": 6
+    },
+    {
+      "name": "Under Armour",
+      "slug": "underarmour",
+      "count": 6
+    },
+    {
+      "name": "Prada",
+      "slug": "prada",
+      "count": 3
+    },
+    {
+      "name": "Stone Island",
+      "slug": "stoneisland",
+      "count": 3
+    },
+    {
+      "name": "Celine",
+      "slug": "celine",
+      "count": 3
+    },
+    {
+      "name": "Dolce & Gabbana",
+      "slug": "dolcegabbana",
+      "count": 2
+    },
+    {
+      "name": "Bape",
+      "slug": "bape",
+      "count": 2
+    },
+    {
+      "name": "Loewe",
+      "slug": "loewe",
+      "count": 2
+    },
+    {
+      "name": "Hugo Boss",
+      "slug": "hugo",
       "count": 2
     },
     {
@@ -72,23 +207,8 @@
       "count": 2
     },
     {
-      "name": "Air Jordan",
-      "slug": "jordan",
-      "count": 1
-    },
-    {
-      "name": "Vans",
-      "slug": "vans",
-      "count": 1
-    },
-    {
-      "name": "Puma",
-      "slug": "puma",
-      "count": 1
-    },
-    {
-      "name": "Premiata",
-      "slug": "premiata",
+      "name": "Fila",
+      "slug": "fila",
       "count": 1
     }
   ],
@@ -96,52 +216,71 @@
     {
       "name": "Взуття",
       "slug": "shoes",
-      "count": 400
+      "count": 6181
     }
   ],
   "genders": [
     {
       "name": "Унісекс",
       "slug": "unisex",
-      "count": 203
+      "count": 3205
     },
     {
       "name": "Жіночі",
       "slug": "women",
-      "count": 105
+      "count": 1608
     },
     {
       "name": "Чоловічі",
       "slug": "men",
-      "count": 92
+      "count": 1368
     }
   ],
   "seasons": [
     {
       "name": "Демісезон",
       "slug": "demi",
-      "count": 309
+      "count": 5567
     },
     {
       "name": "Зима",
       "slug": "winter",
-      "count": 91
+      "count": 614
     }
   ],
   "sizes": [
+    "35",
     "36",
     "37",
     "38",
+    "38.5",
     "39",
     "40",
+    "40.5",
     "41",
     "42",
+    "42.5",
     "43",
     "44",
+    "44.5",
     "45",
     "46",
-    "‼️40"
+    "47",
+    "48",
+    "49",
+    "50",
+    "L",
+    "42 2/3",
+    "S",
+    "XL",
+    "43(світліші)",
+    "44(світліші)",
+    "45/46",
+    "M",
+    "40 2/3",
+    "‼️40",
+    "40–41"
   ],
-  "minPrice": 1500,
-  "maxPrice": 4500
+  "minPrice": 900,
+  "maxPrice": 6400
 }

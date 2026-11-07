@@ -404,29 +404,35 @@ def download_export_feed():
                 shutil.copyfileobj(response, out_file)
             
             file_size = os.path.getsize(temp_path)
-            if file_size < 5000:
-                raise ValueError(f"Downloaded file too small: {file_size} bytes")
+            min_size = 50_000_000 if idx == 0 else 5000
+            if file_size < min_size:
+                raise ValueError(f"Downloaded file too small: {file_size} bytes (expected at least {min_size})")
             with open(temp_path, 'rb') as f:
                 header = f.read(500).decode('utf-8', errors='ignore')
                 if '<?xml' not in header and '<yml_catalog' not in header:
                     raise ValueError("Downloaded file is not valid XML")
+
+            # Validate complete XML structure before moving into production
+            print(f"Validating XML syntax of downloaded feed #{idx+1} ({file_size / (1024*1024):.1f} MB)...")
+            ET.parse(temp_path)
                     
             if os.path.exists(feed_file):
                 os.replace(temp_path, feed_file)
             else:
                 os.rename(temp_path, feed_file)
-            print(f"Successfully downloaded {file_size} bytes to {feed_file}")
+            print(f"Successfully verified and saved {file_size} bytes to {feed_file}")
         except Exception as e:
             if os.path.exists(temp_path):
                 os.remove(temp_path)
-            print(f"Download warning/failure for feed #{idx+1}: {e}")
-            if idx == 0 and not os.path.exists(EXPORT_FILE):
+            print(f"Download/validation warning for feed #{idx+1}: {e}")
+            if os.path.exists(feed_file):
+                print(f"Retaining existing valid cached feed at {feed_file}")
+            elif idx == 0:
                 if os.path.exists(FALLBACK_FEED):
                     print(f"Using local cached feed from {FALLBACK_FEED}")
                     shutil.copyfile(FALLBACK_FEED, EXPORT_FILE)
                 else:
-                    print("No cached feed available.")
-                    sys.exit(1)
+                    raise RuntimeError(f"Primary feed download failed and no cached feed available: {e}")
 
 
 def clean_text(s):
@@ -707,8 +713,10 @@ def main():
 
     cat_names = {}
     groups = defaultdict(list)
-    for feed_file in get_feed_files():
+    for idx, feed_file in enumerate(get_feed_files()):
         if not os.path.exists(feed_file):
+            if idx == 0:
+                raise RuntimeError(f"Primary feed file {feed_file} is missing!")
             continue
         print(f"Reading {feed_file}...")
         try:
@@ -723,6 +731,8 @@ def main():
                 groups[gid].append(it)
         except Exception as e:
             print(f"Error reading {feed_file}: {e}")
+            if idx == 0:
+                raise RuntimeError(f"Critical failure: primary feed file {feed_file} could not be parsed: {e}")
 
     print(f"Total raw groups: {len(groups)}")
 
@@ -998,6 +1008,26 @@ def main():
         return (rank, pid)
 
     products.sort(key=sort_key, reverse=True)
+
+    # Circuit breaker: ensure product catalog has not shrunk abnormally
+    if len(products) < 3000:
+        raise RuntimeError(
+            f"Circuit breaker triggered: catalog product count is {len(products)} (expected >= 3000). "
+            f"Aborting sync to prevent catalog wipeout."
+        )
+
+    if os.path.exists(OUTPUT_PRODUCTS):
+        try:
+            with open(OUTPUT_PRODUCTS, 'r', encoding='utf-8') as f:
+                prev_products = json.load(f)
+                if len(prev_products) >= 3000 and len(products) < len(prev_products) * 0.7:
+                    raise RuntimeError(
+                        f"Circuit breaker triggered: catalog shrunk unexpectedly from {len(prev_products)} "
+                        f"to {len(products)} products (>30% drop). Aborting sync."
+                    )
+        except Exception as err:
+            if "Circuit breaker" in str(err):
+                raise
 
     os.makedirs(SRC_DATA_DIR, exist_ok=True)
     with open(OUTPUT_PRODUCTS, 'w', encoding='utf-8') as f:
