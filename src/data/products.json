@@ -1,8 +1,8 @@
 [
   {
-    "id": "256593",
-    "slug": "nike-air-force-1-low-foamposite-purple-as120",
-    "name": "Nike Air Force 1 Low \"Foamposite Purple\"",
+    "id": "249148",
+    "slug": "nike-air-force-1-foamposite-pro-cough-drop-aj3664-601-2041",
+    "name": "Nike Air Force 1 Foamposite Pro Cough Drop AJ3664-601",
     "brand": "Nike",
     "brandSlug": "nike",
     "category": "Взуття",
@@ -11,13 +11,49 @@
     "genderName": "Чоловічі",
     "season": "demi",
     "seasonName": "Демісезон",
-    "price": 3250,
-    "oldPrice": 4333,
-    "costPrice": 2750,
-    "sku": "AS120",
-    "material": "Шкіра+Текстиль",
+    "price": 3200,
+    "oldPrice": 4267,
+    "costPrice": 2700,
+    "sku": "2041",
+    "material": "Текстиль",
     "country": "В'єтнам",
     "sizes": [
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "inStock": true,
+    "isHit": true,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/efed2f83-0b78-4413-a546-fd9cebafbf29.jpeg"
+    ],
+    "description": "Модель: Nike Air Force 1 Foamposite Pro Cough Drop AJ3664-601. Артикул: 2041. Матеріал: Текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Nike Air Force 1 Foamposite Pro Cough Drop AJ3664-601 (арт. 2041) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Nike Air Force 1 Foamposite Pro Cough Drop AJ3664-601 (арт. 2041) за 3200 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "209548",
+    "slug": "nike-air-force-1-foamposite-black-2585",
+    "name": "Nike Air Force 1 Foamposite Black",
+    "brand": "Nike",
+    "brandSlug": "nike",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "unisex",
+    "genderName": "Унісекс",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 3000,
+    "oldPrice": 4000,
+    "costPrice": 2500,
+    "sku": "2585",
+    "material": "Кожа",
+    "country": "В'єтнам",
+    "sizes": [
+      "40",
       "41",
       "42",
       "43",
@@ -27,12 +63,12 @@
     "inStock": true,
     "isHit": true,
     "images": [
-      "https://easydrop.one/media/uploads/images/base/74eafeba-4293-424c-b103-1a7db7f708ac.jpg"
+      "https://easydrop.one/media/uploads/images/base/3fa1a1cd-4c4e-4ee8-9cf8-c5c89169249f.jpeg"
     ],
-    "description": "Модель: Nike Air Force 1 Low \"Foamposite Purple\". Артикул: AS120. Матеріал: Шкіра+Текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "description": "Модель: Nike Air Force 1 Foamposite Black. Артикул: 2585. Матеріал: Кожа. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
     "seo": {
-      "title": "Nike Air Force 1 Low \"Foamposite Purple\" (арт. AS120) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Nike Air Force 1 Low \"Foamposite Purple\" (арт. AS120) за 3250 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+      "title": "Nike Air Force 1 Foamposite Black (арт. 2585) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Nike Air Force 1 Foamposite Black (арт. 2585) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -4339,6 +4375,42 @@
     "seo": {
       "title": "NEW BALANCE 1906R Cordura Olive (арт. #DNB2212) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте NEW BALANCE 1906R Cordura Olive (арт. #DNB2212) за 2800 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "256593",
+    "slug": "nike-air-force-1-low-foamposite-purple-as120",
+    "name": "Nike Air Force 1 Low \"Foamposite Purple\"",
+    "brand": "Nike",
+    "brandSlug": "nike",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "men",
+    "genderName": "Чоловічі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 3250,
+    "oldPrice": 4333,
+    "costPrice": 2750,
+    "sku": "AS120",
+    "material": "Шкіра+Текстиль",
+    "country": "В'єтнам",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "inStock": true,
+    "isHit": true,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/74eafeba-4293-424c-b103-1a7db7f708ac.jpg"
+    ],
+    "description": "Модель: Nike Air Force 1 Low \"Foamposite Purple\". Артикул: AS120. Матеріал: Шкіра+Текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Nike Air Force 1 Low \"Foamposite Purple\" (арт. AS120) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Nike Air Force 1 Low \"Foamposite Purple\" (арт. AS120) за 3250 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -31159,41 +31231,6 @@
     "seo": {
       "title": "Nike DUNK LOW Pink Flowers (арт. 7510) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Nike DUNK LOW Pink Flowers (арт. 7510) за 3100 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "249148",
-    "slug": "nike-air-force-1-foamposite-pro-cough-drop-aj3664-601-2041",
-    "name": "Nike Air Force 1 Foamposite Pro Cough Drop AJ3664-601",
-    "brand": "Nike",
-    "brandSlug": "nike",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 3200,
-    "oldPrice": 4267,
-    "costPrice": 2700,
-    "sku": "2041",
-    "material": "Текстиль",
-    "country": "В'єтнам",
-    "sizes": [
-      "42",
-      "43",
-      "44",
-      "45"
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/efed2f83-0b78-4413-a546-fd9cebafbf29.jpeg"
-    ],
-    "description": "Модель: Nike Air Force 1 Foamposite Pro Cough Drop AJ3664-601. Артикул: 2041. Матеріал: Текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Nike Air Force 1 Foamposite Pro Cough Drop AJ3664-601 (арт. 2041) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Nike Air Force 1 Foamposite Pro Cough Drop AJ3664-601 (арт. 2041) за 3200 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -97588,43 +97625,6 @@
     "seo": {
       "title": "Saucony Progrid Omni 9 (арт. 2821) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Saucony Progrid Omni 9 (арт. 2821) за 3500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "209548",
-    "slug": "nike-air-force-1-foamposite-black-2585",
-    "name": "Nike Air Force 1 Foamposite Black",
-    "brand": "Nike",
-    "brandSlug": "nike",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "unisex",
-    "genderName": "Унісекс",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 3000,
-    "oldPrice": 4000,
-    "costPrice": 2500,
-    "sku": "2585",
-    "material": "Кожа",
-    "country": "В'єтнам",
-    "sizes": [
-      "40",
-      "41",
-      "42",
-      "43",
-      "44",
-      "45"
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/3fa1a1cd-4c4e-4ee8-9cf8-c5c89169249f.jpeg"
-    ],
-    "description": "Модель: Nike Air Force 1 Foamposite Black. Артикул: 2585. Матеріал: Кожа. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Nike Air Force 1 Foamposite Black (арт. 2585) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Nike Air Force 1 Foamposite Black (арт. 2585) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
