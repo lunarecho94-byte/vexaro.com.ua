@@ -3980,6 +3980,7 @@
     "country": "В'єтнам",
     "sizes": [
       "41",
+      "42",
       "43",
       "44",
       "45",
@@ -16107,7 +16108,8 @@
     "sizes": [
       "36",
       "42",
-      "44"
+      "44",
+      "45"
     ],
     "inStock": true,
     "isHit": true,
@@ -112839,8 +112841,8 @@
     "brandSlug": "nike",
     "category": "Взуття",
     "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
+    "gender": "unisex",
+    "genderName": "Унісекс",
     "season": "demi",
     "seasonName": "Демісезон",
     "price": 3100,
@@ -112850,6 +112852,7 @@
     "material": "Текстиль",
     "country": "В'єтнам",
     "sizes": [
+      "40",
       "41",
       "43",
       "44"
@@ -127800,7 +127803,6 @@
     "material": "Замш, хутро",
     "country": "-",
     "sizes": [
-      "37",
       "38",
       "39",
       "40",
