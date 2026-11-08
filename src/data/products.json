@@ -118,42 +118,6 @@
     "isHit": false
   },
   {
-    "id": "258678",
-    "slug": "nike-air-jordan-5-low-dongdan-11003",
-    "name": "Nike Air Jordan 5 Low Dongdan",
-    "brand": "Nike",
-    "brandSlug": "nike",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "unisex",
-    "genderName": "Унісекс",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 3500,
-    "oldPrice": 4667,
-    "costPrice": 3000,
-    "sku": "11003",
-    "material": "Шкіра",
-    "country": "Китай",
-    "sizes": [
-      "37",
-      "38",
-      "39",
-      "40",
-      "41"
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/2d860045-222a-4914-86ed-3bf51d3cc3c1.jpeg"
-    ],
-    "description": "Модель: Nike Air Jordan 5 Low Dongdan. Артикул: 11003. Матеріал: Шкіра. Сезон: Демісезон. Виробництво: Китай. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Nike Air Jordan 5 Low Dongdan (арт. 11003) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Nike Air Jordan 5 Low Dongdan (арт. 11003) за 3500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "258663",
     "slug": "vans-old-skool-mte-sk8-hi-gore-tex-black-nd-vn006",
     "name": "Vans Old Skool MTE SK8-HI Gore-Tex Black ND",
@@ -958,6 +922,7 @@
     "country": "В'єтнам",
     "sizes": [
       "41",
+      "42",
       "44",
       "45",
       "46"
@@ -4015,6 +3980,7 @@
     "country": "В'єтнам",
     "sizes": [
       "41",
+      "42",
       "43",
       "44",
       "45",
@@ -5157,6 +5123,7 @@
     "material": "Gore Tex, хутро",
     "country": "В'єтнам",
     "sizes": [
+      "39",
       "40",
       "41",
       "42",
@@ -12324,6 +12291,7 @@
     "country": "В'єтнам",
     "sizes": [
       "41",
+      "42",
       "43",
       "44"
     ],
@@ -16120,6 +16088,41 @@
     }
   },
   {
+    "id": "254029",
+    "slug": "nike-air-force-1-classic-high-black-khutro-0465",
+    "name": "Nike Air Force 1 Classic High Black ХУТРО",
+    "brand": "Nike",
+    "brandSlug": "nike",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "unisex",
+    "genderName": "Унісекс",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 2900,
+    "oldPrice": 3867,
+    "costPrice": 2400,
+    "sku": "0465",
+    "material": "Шкіра, хутро",
+    "country": "В'єтнам",
+    "sizes": [
+      "36",
+      "42",
+      "44",
+      "45"
+    ],
+    "inStock": true,
+    "isHit": true,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/f3a50409-eeb5-4216-9f68-bed826a9c13c.jpeg"
+    ],
+    "description": "Модель: Nike Air Force 1 Classic High Black ХУТРО. Артикул: 0465. Матеріал: Шкіра, хутро. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Nike Air Force 1 Classic High Black ХУТРО (арт. 0465) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Nike Air Force 1 Classic High Black ХУТРО (арт. 0465) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
     "id": "254023",
     "slug": "nike-w-vomero-plus-hyper-pink-01356",
     "name": "Nike W Vomero Plus Hyper Pink",
@@ -19853,6 +19856,7 @@
     "material": "Хутро",
     "country": "В'єтнам",
     "sizes": [
+      "36",
       "37",
       "38",
       "40",
@@ -23578,6 +23582,7 @@
     "country": "В'єтнам",
     "sizes": [
       "41",
+      "42",
       "43",
       "44",
       "46"
@@ -127799,6 +127804,7 @@
     "sizes": [
       "38",
       "39",
+      "40",
       "41"
     ],
     "inStock": true,
@@ -128439,6 +128445,40 @@
     "seo": {
       "title": "Adidas Terrex Skychaser Tech GORE-TEX (арт. #art1596) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Adidas Terrex Skychaser Tech GORE-TEX (арт. #art1596) за 2800 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "195064",
+    "slug": "off-white-out-of-office-black-white-for-walking-16012",
+    "name": "Off-White Out of Office Black White For Walking",
+    "brand": "Off-White",
+    "brandSlug": "offwhite",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "unisex",
+    "genderName": "Унісекс",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 3800,
+    "oldPrice": 5067,
+    "costPrice": 3300,
+    "sku": "16012",
+    "material": "Шкіра",
+    "country": "В'єтнам",
+    "sizes": [
+      "38",
+      "41",
+      "42"
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/bba2ea9a-1910-4b6e-a154-c4f99c81f1a7.jpeg"
+    ],
+    "description": "Модель: Off-White Out of Office Black White For Walking. Артикул: 16012. Матеріал: Шкіра. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Off-White Out of Office Black White For Walking (арт. 16012) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Off-White Out of Office Black White For Walking (арт. 16012) за 3800 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -154378,7 +154418,8 @@
       "42",
       "43",
       "44",
-      "45"
+      "45",
+      "46"
     ],
     "inStock": true,
     "isHit": false,
@@ -196055,7 +196096,8 @@
     "sizes": [
       "41",
       "42",
-      "44"
+      "44",
+      "45"
     ],
     "inStock": true,
     "isHit": false,
