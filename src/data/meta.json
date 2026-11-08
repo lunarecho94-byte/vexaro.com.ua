@@ -1,20 +1,20 @@
 {
-  "total": 6577,
+  "total": 6574,
   "brands": [
     {
       "name": "Nike",
       "slug": "nike",
-      "count": 2398
+      "count": 2395
     },
     {
       "name": "New Balance",
       "slug": "newbalance",
-      "count": 1459
+      "count": 1458
     },
     {
       "name": "Adidas",
       "slug": "adidas",
-      "count": 576
+      "count": 577
     },
     {
       "name": "Asics",
@@ -24,7 +24,7 @@
     {
       "name": "UGG",
       "slug": "ugg",
-      "count": 338
+      "count": 336
     },
     {
       "name": "Інші бренди",
@@ -34,7 +34,7 @@
     {
       "name": "Salomon",
       "slug": "salomon",
-      "count": 144
+      "count": 146
     },
     {
       "name": "Air Jordan",
@@ -64,7 +64,7 @@
     {
       "name": "Premiata",
       "slug": "premiata",
-      "count": 57
+      "count": 56
     },
     {
       "name": "Puma",
@@ -84,7 +84,7 @@
     {
       "name": "The North Face",
       "slug": "tnf",
-      "count": 31
+      "count": 32
     },
     {
       "name": "Louis Vuitton",
@@ -216,14 +216,14 @@
     {
       "name": "Взуття",
       "slug": "shoes",
-      "count": 6577
+      "count": 6574
     }
   ],
   "genders": [
     {
       "name": "Унісекс",
       "slug": "unisex",
-      "count": 3524
+      "count": 3525
     },
     {
       "name": "Жіночі",
@@ -233,19 +233,19 @@
     {
       "name": "Чоловічі",
       "slug": "men",
-      "count": 1408
+      "count": 1404
     }
   ],
   "seasons": [
     {
       "name": "Демісезон",
       "slug": "demi",
-      "count": 5933
+      "count": 5937
     },
     {
       "name": "Зима",
       "slug": "winter",
-      "count": 644
+      "count": 637
     }
   ],
   "sizes": [
@@ -274,35 +274,35 @@
     "48",
     "49",
     "50",
-    "43 (9.5 us)",
-    "37(5 us)",
-    "37 (5 us)",
-    "37(ДИВ ФОТО)",
-    "S",
-    "37 ПІДОШВА фото",
     "40 2/3",
-    "43(світліші)",
+    "40( 7 us)",
     "41 (8 us)",
-    "42 (8.5 us)",
-    "40 (7 us)",
-    "45 (11 us)",
-    "‼️40",
-    "L",
-    "M",
-    "40(7 us)",
-    "XL",
-    "45/46",
-    "39(6 us)",
-    "42 2/3",
-    "39 (6 us)",
-    "38(5,5 us)",
+    "43(світліші)",
     "38(5.5 us)",
     "40–41",
-    "41(8 us)",
-    "40( 7 us)",
+    "42 (8.5 us)",
+    "37 (5 us)",
+    "39 (6 us)",
+    "39(6 us)",
+    "40(7 us)",
+    "S",
     "❗️ 42.5",
-    "44 (10 us)",
-    "44(світліші)"
+    "42 2/3",
+    "37(5 us)",
+    "‼️40",
+    "45/46",
+    "44(світліші)",
+    "37 ПІДОШВА фото",
+    "41(8 us)",
+    "XL",
+    "40 (7 us)",
+    "37(ДИВ ФОТО)",
+    "L",
+    "43 (9.5 us)",
+    "M",
+    "45 (11 us)",
+    "38(5,5 us)",
+    "44 (10 us)"
   ],
   "minPrice": 900,
   "maxPrice": 7700
