@@ -266,7 +266,7 @@ CURATED_PRODUCTS = [
         'season': 'demi',
         'seasonName': 'Демісезон',
         'price': 2500,
-        'oldPrice': 3333,
+        'oldPrice': 4167,
         'costPrice': 2000,
         'sku': 'А5689',
         'material': 'Шкіра, текстиль',
@@ -308,7 +308,7 @@ CURATED_PRODUCTS = [
         'season': 'demi',
         'seasonName': 'Демісезон',
         'price': 2450,
-        'oldPrice': 3267,
+        'oldPrice': 4083,
         'costPrice': 1950,
         'sku': '2002',
         'material': 'Текстиль, шкіра, 3M рефлектив',
@@ -352,7 +352,7 @@ CURATED_PRODUCTS = [
         'season': 'winter',
         'seasonName': 'Зима',
         'price': 3000,
-        'oldPrice': 4000,
+        'oldPrice': 5000,
         'costPrice': 2500,
         'sku': '1037',
         'material': 'Замша, хутро / Gore-Tex термо',
@@ -388,7 +388,7 @@ CURATED_PRODUCTS = [
         'season': 'winter',
         'seasonName': 'Зима',
         'price': 3100,
-        'oldPrice': 4133,
+        'oldPrice': 5167,
         'costPrice': 2600,
         'sku': '2112',
         'material': 'Нубук, хутро',
@@ -419,7 +419,7 @@ CURATED_PRODUCTS = [
         'season': 'winter',
         'seasonName': 'Зима',
         'price': 3300,
-        'oldPrice': 4400,
+        'oldPrice': 5500,
         'costPrice': 2800,
         'sku': '2113',
         'material': 'Шкіра, хутро',
@@ -907,8 +907,8 @@ def main():
         # Pricing markup: flat 500 UAH markup on all products per store owner request
         price = int(raw_price + 500)
 
-        # Old crossed-out price (25% discount badge, whole hryvnias)
-        old_price = int(round(price / 0.75))
+        # Old crossed-out price (40% discount badge, whole hryvnias)
+        old_price = int(round(price / 0.60))
 
         if price < min_price:
             min_price = price
@@ -998,6 +998,7 @@ def main():
 
     # Inject curated products permanently requested by store owner
     for cp in CURATED_PRODUCTS:
+        cp['oldPrice'] = int(round(cp['price'] / 0.60))
         products = [p for p in products if p['id'] != cp['id']]
         products.append(cp)
         for s in cp['sizes']:
