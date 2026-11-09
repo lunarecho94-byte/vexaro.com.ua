@@ -36713,7 +36713,6 @@
     "country": "В'єтнам",
     "sizes": [
       "37",
-      "40",
       "43",
       "44",
       "45"
@@ -46369,40 +46368,6 @@
     "seo": {
       "title": "Off-white Be Right Back Black (арт. 27005) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Off-white Be Right Back Black (арт. 27005) за 3200 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "245037",
-    "slug": "nike-acg-mountain-fly-black-gore-tex-termo-0976",
-    "name": "Nike ACG Mountain Fly Black Gore-Tex, (термо)",
-    "brand": "Nike",
-    "brandSlug": "nike",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 3100,
-    "oldPrice": 4133,
-    "costPrice": 2600,
-    "sku": "0976",
-    "material": "Gore Tex, термо",
-    "country": "В'єтнам",
-    "sizes": [
-      "41",
-      "44",
-      "45"
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/53a3d1df-be29-47c3-bb5f-a3db6e1453de.jpg"
-    ],
-    "description": "Модель: Nike ACG Mountain Fly Black Gore-Tex, (термо). Артикул: 0976. Матеріал: Gore Tex, термо. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Nike ACG Mountain Fly Black Gore-Tex, (термо) (арт. 0976) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Nike ACG Mountain Fly Black Gore-Tex, (термо) (арт. 0976) за 3100 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -181219,7 +181184,6 @@
     "material": "Gore Tex",
     "country": "Китай",
     "sizes": [
-      "41",
       "42",
       "43",
       "44"
