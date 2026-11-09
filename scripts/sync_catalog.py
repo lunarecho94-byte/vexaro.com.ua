@@ -233,7 +233,7 @@ COLOR_WORDS = {
 }
 
 # Explicitly excluded items (all slippers, slides, clogs, mules, sandals, etc. per store owner request)
-EXCLUDED_SKUS = {'16006', '16005', '16004', '16003', 'NB143', '0068', '2688'}
+EXCLUDED_SKUS = {'16006', '16005', '16004', '16003', 'NB143', '0068', '2688', 'R343'}
 
 # Pinned products permanently pinned at top by store owner request (supports 'id:...' or SKU)
 PINNED_KEYS = []
@@ -372,42 +372,6 @@ CURATED_PRODUCTS = [
         'seo': {
             'title': 'New Balance 9060 Pink Fur (арт. 1037) — купити в інтернет-магазині VEXARO',
             'description': 'Замовляйте New Balance 9060 Pink Fur (арт. 1037) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж).'
-        },
-        'isHit': False
-    },
-    {
-        'id': '260343',
-        'slug': 'nike-air-jordan-4-retro-grey-black-winter-fur-r343',
-        'name': 'Nike Air Jordan 4 Retro Grey Black Winter Fur',
-        'brand': 'Air Jordan',
-        'brandSlug': 'jordan',
-        'category': 'Взуття',
-        'categorySlug': 'shoes',
-        'gender': 'unisex',
-        'genderName': 'Унісекс',
-        'season': 'winter',
-        'seasonName': 'Зима',
-        'price': 2900,
-        'oldPrice': 3867,
-        'costPrice': 2400,
-        'sku': 'R343',
-        'material': 'Шкіра, хутро',
-        'country': "В'єтнам",
-        'sizes': ['36', '37', '38', '39', '40'],
-        'inStock': True,
-        'images': [
-            '/images/products/nike-air-jordan-4-retro-grey-black-winter-fur/img-1.jpg',
-        ],
-        'description': (
-            "Зимові кросівки Nike Air Jordan 4 Retro Grey Black Winter Fur з натуральним хутром "
-            "(артикул: R343). Верх виконаний із якісної зносостійкої шкіри у стильному сіро-чорному забарвленні. "
-            "Внутрішнє оздоблення з теплого густого хутра забезпечує комфорт та захист від холоду в морозну погоду. "
-            "Класична підошва Jordan 4 з амортизаційною капсулою Air у п'яті. Доставка Новою Поштою по Україні протягом 1–2 днів. "
-            "Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів."
-        ),
-        'seo': {
-            'title': 'Nike Air Jordan 4 Retro Grey Black Winter Fur (арт. R343) — купити в інтернет-магазині VEXARO',
-            'description': 'Замовляйте зимові кросівки Nike Air Jordan 4 Retro Grey Black Winter Fur (арт. R343) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж).'
         },
         'isHit': False
     },
