@@ -33,13 +33,11 @@ OUTPUT_PRODUCTS = os.path.join(SRC_DATA_DIR, 'products.json')
 OUTPUT_META = os.path.join(SRC_DATA_DIR, 'meta.json')
 
 EXPORT_URLS = [
-    # Main aggregated suppliers feed (20 warehouses)
+    # Top 10 suppliers feed
     (
         "https://easydrop.one/prom-export?key=96092464432393,30816448450308,25162466829867,"
         "12333849528094,80233932855850,30580088002009,70419283037987,63422357219127,"
-        "96825986992025,40170268472376,11341144510008,47558675150578,30048652742791,"
-        "20168635902038,64017479183198,61619894907221,89534434099545,26277378991043,"
-        "50967565248169,94320236562495&pid=86764974149158"
+        "96825986992025,40170268472376&pid=86764974149158"
     )
 ]
 EXPORT_URL = EXPORT_URLS[0]
@@ -1102,9 +1100,9 @@ def main():
     products.sort(key=sort_key, reverse=True)
 
     # Circuit breaker: ensure product catalog has not shrunk abnormally
-    if len(products) < 3000:
+    if len(products) < 2000:
         raise RuntimeError(
-            f"Circuit breaker triggered: catalog product count is {len(products)} (expected >= 3000). "
+            f"Circuit breaker triggered: catalog product count is {len(products)} (expected >= 2000). "
             f"Aborting sync to prevent catalog wipeout."
         )
 
@@ -1112,10 +1110,10 @@ def main():
         try:
             with open(OUTPUT_PRODUCTS, 'r', encoding='utf-8') as f:
                 prev_products = json.load(f)
-                if len(prev_products) >= 3000 and len(products) < len(prev_products) * 0.7:
+                if len(prev_products) >= 2000 and len(products) < len(prev_products) * 0.4:
                     raise RuntimeError(
                         f"Circuit breaker triggered: catalog shrunk unexpectedly from {len(prev_products)} "
-                        f"to {len(products)} products (>30% drop). Aborting sync."
+                        f"to {len(products)} products (>60% drop). Aborting sync."
                     )
         except Exception as err:
             if "Circuit breaker" in str(err):
