@@ -1,5 +1,5 @@
 {
-  "total": 2907,
+  "total": 2906,
   "brands": [
     {
       "name": "Nike",
@@ -9,7 +9,7 @@
     {
       "name": "New Balance",
       "slug": "newbalance",
-      "count": 619
+      "count": 618
     },
     {
       "name": "Adidas",
@@ -171,7 +171,7 @@
     {
       "name": "Взуття",
       "slug": "shoes",
-      "count": 2907
+      "count": 2906
     }
   ],
   "genders": [
@@ -183,7 +183,7 @@
     {
       "name": "Жіночі",
       "slug": "women",
-      "count": 805
+      "count": 804
     },
     {
       "name": "Чоловічі",
@@ -200,7 +200,7 @@
     {
       "name": "Зима",
       "slug": "winter",
-      "count": 357
+      "count": 356
     }
   ],
   "sizes": [
@@ -220,11 +220,11 @@
     "45",
     "46",
     "47",
-    "40–41",
-    "45/46",
-    "XL",
-    "S",
     "L",
+    "S",
+    "40–41",
+    "XL",
+    "45/46",
     "M"
   ],
   "minPrice": 900,
