@@ -40,15 +40,7 @@ EXPORT_URLS = [
         "96825986992025,40170268472376,11341144510008,47558675150578,30048652742791,"
         "20168635902038,64017479183198,61619894907221,89534434099545,26277378991043,"
         "50967565248169,94320236562495&pid=86764974149158"
-    ),
-    # Gepard Drop warehouse feed
-    "https://easydrop.one/prom-export?key=42147462915546&pid=86764974149158",
-    # Additional warehouse feed (key 02895679027375)
-    "https://easydrop.one/prom-export?key=02895679027375&pid=86764974149158",
-    # Additional warehouse feed (key 33422967305889)
-    "https://easydrop.one/prom-export?key=33422967305889&pid=86764974149158",
-    # Additional warehouse feed (key 12954722677970)
-    "https://easydrop.one/prom-export?key=12954722677970&pid=86764974149158"
+    )
 ]
 EXPORT_URL = EXPORT_URLS[0]
 
@@ -420,6 +412,68 @@ CURATED_PRODUCTS = [
         'seo': {
             'title': 'Nike Air Jordan 4 Retro Grey Black Winter Fur (арт. R343) — купити в інтернет-магазині VEXARO',
             'description': 'Замовляйте зимові кросівки Nike Air Jordan 4 Retro Grey Black Winter Fur (арт. R343) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж).'
+        },
+        'isHit': False
+    },
+    {
+        'id': '257973',
+        'slug': 'nike-jordan-4-black-cat-khutro-2112',
+        'name': 'Nike Jordan 4 Black Cat ХУТРО',
+        'brand': 'Nike',
+        'brandSlug': 'nike',
+        'category': 'Взуття',
+        'categorySlug': 'shoes',
+        'gender': 'unisex',
+        'genderName': 'Унісекс',
+        'season': 'winter',
+        'seasonName': 'Зима',
+        'price': 3100,
+        'oldPrice': 4133,
+        'costPrice': 2600,
+        'sku': '2112',
+        'material': 'Нубук, хутро',
+        'country': "В'єтнам",
+        'sizes': ['37', '38', '39', '40', '41', '42', '43', '44', '45'],
+        'inStock': True,
+        'images': [
+            'https://easydrop.one/media/uploads/images/base/51221539-49fc-4c24-a1c0-1e2f8087dd50.png',
+            'https://easydrop.one/media/uploads/images/base/7688390f-f107-41bb-b85f-c2be0103fb3e.jpeg'
+        ],
+        'description': "Модель: Nike Jordan 4 Black Cat ХУТРО. Артикул: 2112. Матеріал: Нубук, хутро. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+        'seo': {
+            'title': 'Nike Jordan 4 Black Cat ХУТРО (арт. 2112) — купити в інтернет-магазині VEXARO',
+            'description': 'Замовляйте Nike Jordan 4 Black Cat ХУТРО (арт. 2112) за 3100 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж).'
+        },
+        'isHit': False
+    },
+    {
+        'id': '257997',
+        'slug': 'nike-jordan-4-white-cement-khutro-2113',
+        'name': 'Nike Jordan 4 White Cement ХУТРО',
+        'brand': 'Nike',
+        'brandSlug': 'nike',
+        'category': 'Взуття',
+        'categorySlug': 'shoes',
+        'gender': 'unisex',
+        'genderName': 'Унісекс',
+        'season': 'winter',
+        'seasonName': 'Зима',
+        'price': 3300,
+        'oldPrice': 4400,
+        'costPrice': 2800,
+        'sku': '2113',
+        'material': 'Шкіра, хутро',
+        'country': "В'єтнам",
+        'sizes': ['37', '38', '39', '40', '41', '42', '43', '44', '45'],
+        'inStock': True,
+        'images': [
+            'https://easydrop.one/media/uploads/images/base/417cfcf2-867e-4ce5-8327-12c9a58ef86d.png',
+            'https://easydrop.one/media/uploads/images/base/c300b787-9f78-446c-b623-64d336c65168.jpeg'
+        ],
+        'description': "Модель: Nike Jordan 4 White Cement ХУТРО. Артикул: 2113. Матеріал: Шкіра, хутро. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+        'seo': {
+            'title': 'Nike Jordan 4 White Cement ХУТРО (арт. 2113) — купити в інтернет-магазині VEXARO',
+            'description': 'Замовляйте Nike Jordan 4 White Cement ХУТРО (арт. 2113) за 3300 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж).'
         },
         'isHit': False
     }
