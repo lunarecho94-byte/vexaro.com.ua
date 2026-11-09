@@ -1,10 +1,10 @@
 {
-  "total": 2905,
+  "total": 2904,
   "brands": [
     {
       "name": "Nike",
       "slug": "nike",
-      "count": 992
+      "count": 991
     },
     {
       "name": "New Balance",
@@ -171,14 +171,14 @@
     {
       "name": "Взуття",
       "slug": "shoes",
-      "count": 2905
+      "count": 2904
     }
   ],
   "genders": [
     {
       "name": "Унісекс",
       "slug": "unisex",
-      "count": 1595
+      "count": 1594
     },
     {
       "name": "Жіночі",
@@ -195,7 +195,7 @@
     {
       "name": "Демісезон",
       "slug": "demi",
-      "count": 2549
+      "count": 2548
     },
     {
       "name": "Зима",
@@ -220,12 +220,12 @@
     "45",
     "46",
     "47",
-    "M",
-    "40–41",
-    "L",
+    "45/46",
     "XL",
     "S",
-    "45/46"
+    "40–41",
+    "L",
+    "M"
   ],
   "minPrice": 900,
   "maxPrice": 6400
