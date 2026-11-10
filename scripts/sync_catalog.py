@@ -647,11 +647,12 @@ def determine_category(name, cat_name, desc, params_str="", sizes=None, brand_sl
     return 'other', 'Інше'
 
 
-def determine_season(name, cat_slug, mat="", desc="", cname=""):
+def determine_season(name, cat_slug, mat="", desc="", cname="", brand_slug=""):
     name_lower = name.lower()
     mat_lower = (mat or '').lower()
     cname_lower = (cname or '').lower()
-    full_ctx = f"{name_lower} {mat_lower} {cname_lower}"
+    desc_lower = (desc or '').lower()
+    full_ctx = f"{name_lower} {mat_lower} {cname_lower} {desc_lower}"
 
     # Summer check (open shoes, slides, crocs, sandals, slippers) - checked first!
     is_open_shoe = bool(EXCLUDED_NAME_PATTERNS.search(name_lower))
@@ -665,10 +666,10 @@ def determine_season(name, cat_slug, mat="", desc="", cname=""):
     # Winter footwear
     is_polar = bool(re.search(r'antarktik|gaiadome|duckboot', name_lower))
     winter_kw = bool(re.search(
-        r'(?:зима|зимов|winter|термо|хутр|мех|мехом|пуховик|сноубут|дутик|мунбут|фліс|флис|fleece|шерсть|утепл|єврозима|еврозима|primaloft|thinsulate)',
+        r'(?:зима|зимов|winter|термо|хутр|мех|мехом|пуховик|сноубут|дутик|мунбут|фліс|флис|fleece|шерсть|овчин|цигейк|байк|войлок|утепл|єврозима|еврозима|primaloft|thinsulate)',
         full_ctx
     ))
-    is_ugg = bool(re.search(r'\b(ugg|угг)\b', name_lower)) and not bool(re.search(r'сланц|сандал|шльоп|sandal', name_lower))
+    is_ugg = (brand_slug == 'ugg' or bool(re.search(r'\b(ugg|угг)\b', full_ctx))) and not bool(re.search(r'сланц|сандал|шльоп|sandal', name_lower))
     has_fur_in_title = bool(re.search(r'\(хутро\)|\(термо\)', name_lower))
 
     if (winter_kw or is_polar or is_ugg or has_fur_in_title) and not has_no_fur:
@@ -678,30 +679,74 @@ def determine_season(name, cat_slug, mat="", desc="", cname=""):
     return 'demi', 'Демісезон'
 
 
-def determine_gender(name, brand_slug, sizes):
-    name_lower = name.lower()
-    if re.search(r'жіноч|женск|\bwomen\b|\bwoman\b|дівчат|для неї', name_lower):
-        return 'women', 'Жіночі'
-    if re.search(r'чоловіч|мужск|\bmen\b|\bman\b|хлопц|для нього', name_lower):
-        return 'men', 'Чоловічі'
+MALE_NAME_PATTERNS = re.compile(
+    r'чоловіч|мужск|\bmen\b|\bman\b|хлопц|для нього|black cat',
+    re.I
+)
 
-    # Model specific
-    if re.search(r'platform|платформ|clog|slipper|dipper|funkette|tazzlita|disquette|tazz|tasman|mary jane|каблук|балетк|love pink', name_lower):
-        return 'women', 'Жіночі'
+MALE_SILHOUETTE_PATTERNS = re.compile(
+    r'tactical|тактич|cordura|military|мілітарі|cement|gore-tex|\bgtx\b|'
+    r'freehiker|terrex|initiator|kaws|monarch|air max plus|air max tn|\btn\b|shox|acg|'
+    r'balenciaga runner|balenciaga track|dior b22|lv skate|b22 black|b22 sneaker|'
+    r'travis|phantom|dark iris|canyon purple|triple black',
+    re.I
+)
+
+FEMALE_NAME_PATTERNS = re.compile(
+    r'жіноч|женск|\bwomen\b|\bwoman\b|дівчат|для неї|'
+    r'pink|rose|pearl|glitter|sparkle|strawberry|бантик|пудр|розов|ніжн|fuchsia|magenta|lilac|'
+    r'бузков|лаванд|lavender|violet|platform|платформ|clog|slipper|dipper|funkette|tazzlita|'
+    r'disquette|tazz|tasman|mary jane|каблук|балетк|love pink|floral|heart|pastel|'
+    r'ultra mini|classic mini|uggs|love.*edition|sakura',
+    re.I
+)
+
+
+def determine_gender(name, brand_slug, sizes, desc="", cname=""):
+    name_lower = name.lower()
+    full_ctx = f"{name_lower} {(desc or '').lower()} {(cname or '').lower()}"
 
     num_sizes = []
     for s in sizes:
         m = re.match(r'^(\d+(?:[.,]\d+)?)$', str(s).strip())
         if m:
             num_sizes.append(float(m.group(1).replace(',', '.')))
-            
+    num_sizes.sort()
+    min_s = num_sizes[0] if num_sizes else 0
+    max_s = num_sizes[-1] if num_sizes else 0
+
+    is_female = bool(FEMALE_NAME_PATTERNS.search(full_ctx))
+    is_explicit_male = bool(MALE_NAME_PATTERNS.search(full_ctx))
+    is_male_silhouette = bool(MALE_SILHOUETTE_PATTERNS.search(name_lower))
+
+    # Products that only have men's sizes (min size 41+) are strictly men's footwear
+    if num_sizes and min_s >= 41:
+        return 'men', 'Чоловічі'
+
+    # Explicit female styling (pink, lavender, platform, wmns, etc.)
+    if is_female and not is_explicit_male:
+        return 'women', 'Жіночі'
+
+    # Explicit male keywords (men, чоловічі, black cat, etc.)
+    if is_explicit_male and not is_female:
+        return 'men', 'Чоловічі'
+
+    # Masculine heavy streetwear silhouettes
+    if is_male_silhouette and not is_female:
+        return 'men', 'Чоловічі'
+
+    # Pure size runs
     if num_sizes:
-        min_s = min(num_sizes)
-        max_s = max(num_sizes)
-        if max_s <= 40:
+        # Standard Ukrainian women size run: 36..41 (max size <= 41)
+        if max_s <= 41:
             return 'women', 'Жіночі'
-        elif min_s >= 41:
+        # Standard Ukrainian men size run: 40..46 (min size >= 40)
+        if min_s >= 40:
             return 'men', 'Чоловічі'
+
+    # Wide runs: if masculine brand like Jordan / Salomon and not female colorway
+    if brand_slug in ('jordan', 'salomon') and not is_female:
+        return 'men', 'Чоловічі'
 
     return 'unisex', 'Унісекс'
 
@@ -1202,17 +1247,17 @@ def main():
         if (len(sorted_sizes) < 3 and not is_managed) or len(sorted_sizes) == 0:
             continue
 
-        season_slug, season_title = determine_season(name, cat_slug, mat, desc, cname)
+        clean_name = clean_product_title(name, brand_slug, brand_title, cname)
+        if not clean_name:
+            continue
+
+        season_slug, season_title = determine_season(clean_name, cat_slug, mat, desc, cname, brand_slug)
 
         # STRICT RULE: ONLY DEMI-SEASON AND WINTER ("оставь тут только демисезон и зыма")
         if season_slug not in ('demi', 'winter'):
             continue
 
-        clean_name = clean_product_title(name, brand_slug, brand_title, cname)
-        if not clean_name:
-            continue
-
-        gender_slug, gender_title = determine_gender(clean_name, brand_slug, sorted_sizes)
+        gender_slug, gender_title = determine_gender(clean_name, brand_slug, sorted_sizes, desc, cname)
 
         # Pricing markup: flat 500 UAH markup on all products per store owner request
         price = int(raw_price + 500)

@@ -14,52 +14,80 @@ const EXCLUDED_TAPKI_REGEX =
   /\b(slides?|slippers?|clogs?|mules?|sandals?|flip.?flops?|adimule|tazz|tasman|funkette|disquette|tazzlita|lanah|goldenstar|crocs|thongs?|sabot|adilette|chypre|dway|tippi|birkenstock)\b|triomphe.*mule|summer charms|тапк|тапочк|шльоп|шлеп|сланц|сланец|босоніж|босонож|вьетнамк|в'єтнамк|сабо|пантоф|лофер|loafer/i;
 
 const FEMALE_REGEX =
-  /\b(pink|rose|pearl|glitter|sparkle|strawberry|бантик|пудр|розов|ніжн|fuchsia|magenta|lilac|бузков|лаванд|lavender|violet|women|жіноч|floral|heart|pastel)\b/i;
+  /\b(pink|rose|pearl|glitter|sparkle|strawberry|бантик|пудр|розов|ніжн|fuchsia|magenta|lilac|бузков|лаванд|lavender|violet|women|жіноч|floral|heart|pastel|sakura|платформ|platform|mary jane|каблук|балетк)\b/i;
 
-const MALE_REGEX =
-  /\b(men|чоловіч|camo|tactical|cordura|gore-tex|gtx|freehiker|terrex|initiator|kaws|monarch)\b/i;
+const EXPLICIT_MALE_REGEX =
+  /\b(men|чоловіч|мужск|хлопц|для нього|black cat)\b/i;
+
+const MALE_SILHOUETTE_REGEX =
+  /\b(camo|tactical|тактич|cordura|military|мілітарі|cement|gore-tex|gtx|freehiker|terrex|initiator|kaws|monarch|air max plus|air max tn|tn|shox|acg|balenciaga runner|balenciaga track|dior b22|lv skate|b22 black|b22 sneaker|travis|phantom|dark iris|canyon purple|triple black)\b/i;
 
 export function getNumericSizes(p: Product): number[] {
   return p.sizes
-    .map((s) => parseFloat(s))
+    .map((s) => parseFloat(s.replace(',', '.')))
     .filter((s) => !isNaN(s))
     .sort((a, b) => a - b);
 }
 
 export function isRealisticMen(p: Product): boolean {
+  const sizes = getNumericSizes(p);
+  const minSize = sizes.length > 0 ? sizes[0] : 0;
+  const maxSize = sizes.length > 0 ? sizes[sizes.length - 1] : 0;
+
+  // If a shoe only has men's sizes 41+, it is definitely men's footwear
+  if (minSize >= 41) return true;
+
   if (p.gender === 'women') return false;
   if (FEMALE_REGEX.test(p.name)) return false;
   if (
     /\bugg\b/i.test(p.name) &&
     /\b(mini|ultra mini|platform|lowmel|tazz|tasman)\b/i.test(p.name) &&
-    !MALE_REGEX.test(p.name)
+    !EXPLICIT_MALE_REGEX.test(p.name)
   ) {
     return false;
   }
-  const sizes = getNumericSizes(p);
-  const minSize = sizes.length > 0 ? sizes[0] : 0;
-  const maxSize = sizes.length > 0 ? sizes[sizes.length - 1] : 0;
 
   if (p.gender === 'men') return true;
   if (p.gender === 'unisex') {
     if (maxSize >= 42) return true;
-    if (maxSize === 41 && minSize >= 40) return true;
+    if (minSize >= 40 && maxSize >= 41) return true;
   }
   return false;
 }
 
 export function isRealisticWomen(p: Product): boolean {
   if (p.gender === 'men') return false;
+  if (EXPLICIT_MALE_REGEX.test(p.name)) return false;
+
   const sizes = getNumericSizes(p);
   const minSize = sizes.length > 0 ? sizes[0] : 0;
+  const maxSize = sizes.length > 0 ? sizes[sizes.length - 1] : 0;
+
+  // Products with only sizes 41+ are men's runs, never women's footwear
+  if (minSize >= 41) return false;
+
+  const isFemale = FEMALE_REGEX.test(p.name);
+  if (isFemale && minSize > 0 && minSize <= 40) return true;
+
+  if (MALE_SILHOUETTE_REGEX.test(p.name)) return false;
+
+  // Real women footwear without explicit female styling does not span into men's sizes 43-46
+  if (maxSize >= 43) return false;
+
   if (p.gender === 'women') return true;
-  if (p.gender === 'unisex' && minSize > 0 && minSize <= 39) return true;
+
+  if (p.gender === 'unisex') {
+    // Only unisex models that fit female size ranges (stops at 40 or 41)
+    if (minSize > 0 && minSize <= 40 && maxSize <= 41) {
+      return true;
+    }
+  }
   return false;
 }
 
 export function isRealisticUnisex(p: Product): boolean {
-  if (p.gender === 'men' || p.gender === 'women') return false;
-  if (FEMALE_REGEX.test(p.name)) return false;
+  if (p.gender !== 'unisex') return false;
+  if (FEMALE_REGEX.test(p.name) || EXPLICIT_MALE_REGEX.test(p.name)) return false;
   const sizes = getNumericSizes(p);
   if (sizes.length === 0) return false;
   return sizes[0] <= 39 && sizes[sizes.length - 1] >= 42;
@@ -103,17 +131,13 @@ export function matchesCategory(p: Product, categorySlug: string): boolean {
     return isRealisticUnisex(p);
   }
 
-  const n = p.name.toLowerCase();
-  const isWinter =
-    p.season === 'winter' ||
-    n.includes('ugg') ||
-    n.includes('чобот') ||
-    n.includes('ботинк') ||
-    n.includes('boot') ||
-    n.includes('fur');
+  if (cat === 'winter' || cat === 'boots') {
+    return p.season === 'winter';
+  }
 
+  const n = p.name.toLowerCase();
   const isKedy =
-    !isWinter &&
+    p.season !== 'winter' &&
     (n.includes('kedy') ||
       n.includes('кед') ||
       n.includes('samba') ||
@@ -124,14 +148,11 @@ export function matchesCategory(p: Product, categorySlug: string): boolean {
       n.includes('all star') ||
       n.includes('sk8'));
 
-  if (cat === 'winter' || cat === 'boots') {
-    return isWinter;
-  }
   if (cat === 'kedy') {
     return isKedy;
   }
   if (cat === 'sneakers') {
-    return !isWinter && !isKedy;
+    return p.season !== 'winter' && !isKedy;
   }
 
   return p.categorySlug === categorySlug;
@@ -186,10 +207,24 @@ export async function getCatalogMeta(): Promise<CatalogMeta> {
     },
   ];
 
+  const enrichedSeasons = [
+    {
+      name: 'Демісезон',
+      slug: 'demi',
+      count: prods.filter((p) => p.season === 'demi').length,
+    },
+    {
+      name: 'Зима',
+      slug: 'winter',
+      count: prods.filter((p) => p.season === 'winter').length,
+    },
+  ];
+
   return {
     ...catalogMeta!,
     categories: enrichedCategories,
     genders: enrichedGenders,
+    seasons: enrichedSeasons,
   };
 }
 
