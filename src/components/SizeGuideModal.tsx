@@ -20,6 +20,7 @@ interface SizeRow {
 }
 
 const GENERAL_SIZE_CHART: SizeRow[] = [
+  { eu: '35', cm: '22.0', type: 'women' },
   { eu: '36', cm: '22.5', type: 'women' },
   { eu: '37', cm: '23.5', type: 'women' },
   { eu: '38', cm: '24.0', type: 'women' },
@@ -29,8 +30,9 @@ const GENERAL_SIZE_CHART: SizeRow[] = [
   { eu: '42', cm: '26.5', type: 'men' },
   { eu: '43', cm: '27.5', type: 'men' },
   { eu: '44', cm: '28.0', type: 'men' },
-  { eu: '45', cm: '29.0', type: 'men' },
-  { eu: '46', cm: '30.0', type: 'men' },
+  { eu: '45', cm: '28.5', type: 'men' },
+  { eu: '46', cm: '29.5', type: 'men' },
+  { eu: '47', cm: '30.0', type: 'men' },
 ];
 
 export function SizeGuideModal({
@@ -91,14 +93,14 @@ export function SizeGuideModal({
   };
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 p-4 backdrop-blur-sm animate-in fade-in duration-200">
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/75 p-4 backdrop-blur-sm animate-in fade-in duration-200">
       <div
         className="fixed inset-0"
         onClick={onClose}
         aria-hidden="true"
       />
 
-      <div className="relative w-full max-w-md max-h-[90vh] overflow-y-auto rounded-2xl border border-border bg-surface p-5 sm:p-6 shadow-2xl">
+      <div className="relative w-full max-w-md max-h-[92vh] overflow-y-auto rounded-2xl border border-border bg-surface p-5 sm:p-6 shadow-2xl">
         {/* Header */}
         <div className="flex items-center justify-between border-b border-border pb-3">
           <div className="flex items-center gap-2.5">
@@ -107,12 +109,10 @@ export function SizeGuideModal({
             </div>
             <div>
               <h3 className="text-base font-bold text-foreground">
-                Розмірна сітка взуття
+                Розмірна сітка постачальника
               </h3>
-              <p className="text-[11px] text-muted">
-                {hasModelChart && viewMode === 'model'
-                  ? `Сітка постачальника: ${product?.name || 'для цієї моделі'}`
-                  : 'Стандартна розмірна сітка постачальника'}
+              <p className="text-[11px] text-muted truncate max-w-[240px] sm:max-w-[280px]">
+                {product?.name ? product.name : 'Таблиця довжини устілки'}
               </p>
             </div>
           </div>
@@ -126,7 +126,7 @@ export function SizeGuideModal({
           </button>
         </div>
 
-        {/* View Mode Switcher (Model Specific vs General Grid) */}
+        {/* View Mode Switcher */}
         {hasModelChart && (
           <div className="mt-3.5 flex rounded-xl border border-border bg-surface-raised/60 p-1 text-xs font-semibold">
             <button
@@ -139,7 +139,7 @@ export function SizeGuideModal({
               }`}
             >
               <Sparkles className="h-3.5 w-3.5" />
-              <span>Для цього товару</span>
+              <span>Сітка цієї моделі</span>
             </button>
             <button
               type="button"
@@ -150,12 +150,12 @@ export function SizeGuideModal({
                   : 'text-muted hover:text-foreground'
               }`}
             >
-              Загальна таблиця
+              Загальний стандарт
             </button>
           </div>
         )}
 
-        {/* General Gender Filter Tabs (only when viewing general table) */}
+        {/* General Gender Filter Tabs */}
         {viewMode === 'general' && (
           <div className="mt-3 flex rounded-xl border border-border bg-surface-raised/40 p-1 text-[11px] font-semibold">
             <button
@@ -167,7 +167,7 @@ export function SizeGuideModal({
                   : 'text-muted hover:text-foreground'
               }`}
             >
-              Всі (36–46)
+              Всі (35–47)
             </button>
             <button
               type="button"
@@ -178,7 +178,7 @@ export function SizeGuideModal({
                   : 'text-muted hover:text-foreground'
               }`}
             >
-              Чоловічі (40–46)
+              Чоловічі (40–47)
             </button>
             <button
               type="button"
@@ -189,21 +189,21 @@ export function SizeGuideModal({
                   : 'text-muted hover:text-foreground'
               }`}
             >
-              Жіночі (36–41)
+              Жіночі (35–41)
             </button>
           </div>
         )}
 
-        {/* Model Specific Size Table */}
+        {/* Model Specific Size Table (Exact Match to EasyDrop Layout) */}
         {viewMode === 'model' && product?.sizeChart && (
           <div className="mt-4 overflow-hidden rounded-xl border border-border bg-background shadow-inner">
-            <div className="grid grid-cols-3 border-b border-border bg-surface-raised p-2.5 text-xs font-bold text-foreground text-center">
-              <span>Розмір (EU)</span>
-              <span>Довжина устілки</span>
+            <div className="grid grid-cols-3 border-b border-border bg-surface-raised p-2.5 text-xs font-bold text-foreground text-center tracking-wide">
+              <span>Розмір</span>
+              <span>Устілка (см)</span>
               <span>Наявність</span>
             </div>
 
-            <div className="divide-y divide-border text-xs max-h-72 overflow-y-auto">
+            <div className="divide-y divide-border/50 text-xs max-h-80 overflow-y-auto">
               {product.sizeChart.map((row: SizeChartItem) => {
                 const isSelected = selectedSize && selectedSize.trim() === row.size.trim();
                 const isAvailable = row.available !== false;
@@ -215,32 +215,32 @@ export function SizeGuideModal({
                     onClick={() => handleRowClick(row.size, isAvailable)}
                     className={`grid grid-cols-3 p-2.5 text-center items-center transition-colors ${
                       isSelected
-                        ? 'bg-primary/15 text-primary font-bold border-l-4 border-l-primary'
+                        ? 'bg-[#164426] text-white font-bold border-l-4 border-l-emerald-400 ring-1 ring-emerald-500/50'
                         : isAvailable
                         ? canSelect
-                          ? 'text-muted hover:bg-surface/70 cursor-pointer'
-                          : 'text-muted'
-                        : 'text-muted/40 bg-surface-raised/20 cursor-not-allowed'
+                          ? 'bg-[#0e2a18]/70 hover:bg-[#133921] text-emerald-200 cursor-pointer border-l-4 border-l-emerald-600/70'
+                          : 'bg-[#0e2a18]/70 text-emerald-200'
+                        : 'bg-surface/20 text-muted/40 cursor-not-allowed opacity-50'
                     }`}
                   >
-                    <span className={`font-semibold flex items-center justify-center gap-1 ${isSelected ? 'text-primary font-bold' : isAvailable ? 'text-foreground' : 'text-muted/60'}`}>
+                    <span className={`font-bold text-sm ${isSelected ? 'text-white' : isAvailable ? 'text-white' : 'text-muted/50'}`}>
                       {row.size}
                     </span>
-                    <span className={isSelected ? 'text-primary font-bold' : isAvailable ? 'text-foreground' : 'text-muted/60'}>
-                      {row.cm} см
+                    <span className={`font-semibold ${isSelected ? 'text-emerald-300' : isAvailable ? 'text-emerald-300 font-semibold' : 'text-muted/50'}`}>
+                      {row.cm}
                     </span>
                     <div className="flex items-center justify-center">
                       {isSelected ? (
-                        <span className="inline-flex items-center gap-1 rounded-full bg-primary/20 px-2 py-0.5 text-[10px] font-bold text-primary">
-                          <Check className="h-3 w-3 stroke-[3]" /> обрано
+                        <span className="inline-flex items-center gap-1 rounded bg-emerald-500/30 px-2 py-0.5 text-xs font-bold text-emerald-300">
+                          <Check className="h-3 w-3 stroke-[3]" /> Обрано
                         </span>
                       ) : isAvailable ? (
-                        <span className="inline-flex items-center gap-1 rounded-full bg-emerald-500/10 px-2 py-0.5 text-[10px] font-medium text-emerald-500">
-                          <span className="h-1.5 w-1.5 rounded-full bg-emerald-500" /> В наявності
+                        <span className="inline-flex items-center justify-center rounded bg-emerald-600/25 px-2 py-0.5 text-xs font-bold text-emerald-400 min-w-[28px]">
+                          Є
                         </span>
                       ) : (
-                        <span className="inline-flex items-center gap-1 rounded-full bg-muted/10 px-2 py-0.5 text-[10px] font-normal text-muted/60">
-                          Закінчився
+                        <span className="inline-flex items-center justify-center text-muted/40 font-semibold text-xs">
+                          0
                         </span>
                       )}
                     </div>
@@ -251,7 +251,7 @@ export function SizeGuideModal({
           </div>
         )}
 
-        {/* General Size Table */}
+        {/* General Standard Size Table */}
         {viewMode === 'general' && (
           <div className="mt-4 overflow-hidden rounded-xl border border-border bg-background shadow-inner">
             <div className="grid grid-cols-2 border-b border-border bg-surface-raised p-2.5 text-xs font-bold text-foreground text-center">
@@ -292,22 +292,12 @@ export function SizeGuideModal({
           </div>
         )}
 
-        {/* How to Measure Tip */}
-        <div className="mt-4 rounded-xl border border-border bg-surface-raised/40 p-3 text-[11px] text-muted leading-relaxed space-y-1">
-          <p className="font-semibold text-foreground">💡 Як правильно виміряти стопу:</p>
-          <ol className="list-decimal pl-4 space-y-0.5">
-            <li>Покладіть аркуш паперу на підлогу біля стіни та станьте на нього пʼятою впритул до стіни.</li>
-            <li>Зробіть позначку біля кінчика найдовшого пальця та виміряйте довжину лінійкою.</li>
-            <li>Зіставте отримані сантиметри з таблицею. Для комфорту рекомендується обирати розмір із запасом 0.5 см.</li>
-          </ol>
-        </div>
-
-        {/* Selection Confirmation Action */}
+        {/* Selection Confirmation Bar */}
         {selectedSize && (
-          <div className="mt-3 pt-2 border-t border-border flex items-center justify-between">
+          <div className="mt-3.5 pt-2.5 border-t border-border flex items-center justify-between">
             <div className="text-xs">
               <span className="text-muted">Обраний розмір: </span>
-              <span className="font-bold text-primary text-sm">{selectedSize}</span>
+              <span className="font-bold text-foreground text-sm">{selectedSize}</span>
             </div>
             <button
               type="button"
@@ -318,6 +308,16 @@ export function SizeGuideModal({
             </button>
           </div>
         )}
+
+        {/* How to Measure Tip */}
+        <div className="mt-4 rounded-xl border border-border bg-surface-raised/40 p-3 text-[11px] text-muted leading-relaxed space-y-1">
+          <p className="font-semibold text-foreground">💡 Як правильно виміряти стопу:</p>
+          <ol className="list-decimal pl-4 space-y-0.5">
+            <li>Покладіть аркуш паперу на підлогу біля стіни та станьте на нього пʼятою впритул до стіни.</li>
+            <li>Зробіть позначку біля кінчика найдовшого пальця та виміряйте довжину лінійкою.</li>
+            <li>Зіставте отримані сантиметри з таблицею моделі. Натисніть на свій розмір для швидкого вибору.</li>
+          </ol>
+        </div>
 
         <p className="mt-3 text-[11px] text-muted text-center">
           🚚 При отриманні у відділенні Нової Пошти ви завжди маєте можливість оглянути та приміряти взуття перед оплатою.

@@ -793,6 +793,23 @@ def check_is_hit(name: str, brand_slug: str = '') -> bool:
     return False
 
 
+EASYDROP_STANDARD_GRID = {
+    '35': '22.0',
+    '36': '22.5',
+    '37': '23.5',
+    '38': '24.0',
+    '39': '25.0',
+    '40': '25.5',
+    '41': '26.0',
+    '42': '26.5',
+    '43': '27.5',
+    '44': '28.0',
+    '45': '28.5',
+    '46': '29.5',
+    '47': '30.0',
+    '48': '30.5',
+}
+
 EU_CM_RANGE = {
     35: (21.5, 23.0),
     36: (22.0, 23.5),
@@ -804,56 +821,18 @@ EU_CM_RANGE = {
     42: (26.0, 27.5),
     43: (27.0, 28.5),
     44: (27.5, 29.0),
-    45: (28.5, 30.0),
-    46: (29.5, 31.0),
-    47: (30.0, 32.0),
-}
-
-WOMEN_DEFAULT_GRID = {
-    '35': '22.0',
-    '36': '22.5',
-    '37': '23.5',
-    '38': '24.0',
-    '39': '25.0',
-    '40': '25.5',
-    '41': '26.0',
-}
-
-MEN_DEFAULT_GRID = {
-    '40': '25.5',
-    '41': '26.0',
-    '42': '26.5',
-    '43': '27.5',
-    '44': '28.0',
-    '45': '29.0',
-    '46': '30.0',
-    '47': '30.5',
-}
-
-UNISEX_DEFAULT_GRID = {
-    '35': '22.0',
-    '36': '22.5',
-    '37': '23.5',
-    '38': '24.0',
-    '39': '25.0',
-    '40': '25.5',
-    '41': '26.0',
-    '42': '26.5',
-    '43': '27.5',
-    '44': '28.0',
-    '45': '29.0',
-    '46': '30.0',
-    '47': '30.5',
+    45: (28.0, 29.5),
+    46: (29.0, 30.5),
+    47: (29.5, 31.5),
 }
 
 
-def build_size_chart(desc: str, sorted_sizes: list, gender: str) -> list:
+def build_product_size_chart(items: list, sorted_sizes: list, desc: str, gender: str) -> list:
     """
-    Builds a product-specific size chart matching supplier data.
-    If the supplier description explicitly contains size-to-cm mappings
-    (e.g. '36-22,5 см; 37-23,5 см...'), uses the exact supplier measurements.
-    Otherwise, applies the supplier consensus standard grid tailored to the product's gender
-    and covers the model's actual sizes.
+    Builds the exact product-specific size chart matching EasyDrop supplier table.
+    Matches the exact 3-column supplier structure (EU size | cm | stock status).
+    Uses EasyDrop standard grid (with 45=28.5 cm, 46=29.5 cm) or explicit supplier description.
+    Includes the model's full size run as defined in the supplier feed.
     """
     matches = re.findall(r'(\b[34]\d)\s*[-–=:]\s*(\d{2}(?:[.,]\d+)?)\s*(?:см|cm)?', desc or '', re.I)
     explicit_map = {}
@@ -868,28 +847,38 @@ def build_size_chart(desc: str, sorted_sizes: list, gender: str) -> list:
         except (ValueError, KeyError):
             pass
 
-    if gender == 'men':
-        base_grid = MEN_DEFAULT_GRID
-    elif gender == 'women':
-        base_grid = WOMEN_DEFAULT_GRID
-    else:
-        base_grid = UNISEX_DEFAULT_GRID
+    feed_sizes = {}
+    for it in (items or []):
+        p = it.find('param')
+        if p is not None and p.text:
+            s = clean_text(p.text).rstrip('*').strip()
+            if re.match(r'^\d+([.,]\d+)?$', s):
+                is_avail = (it.attrib.get('available') == 'true' or it.findtext('available') == 'true')
+                feed_sizes[s] = feed_sizes.get(s, False) or (is_avail and s in sorted_sizes)
 
-    chart_sizes = set()
-    if len(explicit_map) >= 2:
-        chart_sizes.update(explicit_map.keys())
-    chart_sizes.update(sorted_sizes)
+    all_sizes = set(feed_sizes.keys())
+    if not all_sizes:
+        all_sizes.update(sorted_sizes)
+    if explicit_map:
+        all_sizes.update(explicit_map.keys())
 
     int_sizes = []
-    for s in sorted_sizes:
+    for s in all_sizes:
         try:
             int_sizes.append(int(float(s.replace(',', '.'))))
         except ValueError:
             pass
 
-    if int_sizes and (max(int_sizes) - min(int_sizes) <= 6):
-        for sz_int in range(min(int_sizes), max(int_sizes) + 1):
-            chart_sizes.add(str(sz_int))
+    if int_sizes:
+        min_sz = min(int_sizes)
+        max_sz = max(int_sizes)
+        if max_sz >= 44 and min_sz > 36 and min_sz <= 41:
+            min_sz = 36
+        if max_sz == 45:
+            max_sz = 46
+        if (max_sz - min_sz) <= 12:
+            for sz_int in range(min_sz, max_sz + 1):
+                all_sizes.add(str(sz_int))
 
     def parse_size_key(s):
         try:
@@ -897,23 +886,20 @@ def build_size_chart(desc: str, sorted_sizes: list, gender: str) -> list:
         except ValueError:
             return 999.0
 
-    sorted_chart_keys = sorted(chart_sizes, key=parse_size_key)
-
+    sorted_keys = sorted(all_sizes, key=parse_size_key)
     chart = []
-    for s in sorted_chart_keys:
+    for s in sorted_keys:
         if parse_size_key(s) >= 900:
             continue
-        cm = explicit_map.get(s) or base_grid.get(s)
+        cm = explicit_map.get(s) or EASYDROP_STANDARD_GRID.get(s)
         if not cm:
-            try:
-                int_s = int(float(s.replace(',', '.')))
-                cm = UNISEX_DEFAULT_GRID.get(str(int_s), '26.0')
-            except ValueError:
-                cm = '26.0'
+            int_s = str(int(float(s.replace(',', '.'))))
+            cm = EASYDROP_STANDARD_GRID.get(int_s, '26.0')
+        is_avail = feed_sizes.get(s, s in sorted_sizes)
         chart.append({
             'size': s,
             'cm': cm,
-            'available': s in sorted_sizes
+            'available': is_avail
         })
     return chart
 
@@ -1115,7 +1101,7 @@ def main():
 
         all_descs = [it.findtext('description') or '' for it in items]
         combined_desc = ' '.join(all_descs)
-        size_chart = build_size_chart(combined_desc, sorted_sizes, gender_slug)
+        size_chart = build_product_size_chart(items, sorted_sizes, combined_desc, gender_slug)
 
         product = {
             'id': str(gid),
@@ -1170,8 +1156,19 @@ def main():
     # Inject curated products permanently requested by store owner
     for cp in CURATED_PRODUCTS:
         cp['oldPrice'] = int(round(cp['price'] / 0.60))
-        if 'sizeChart' not in cp or not cp['sizeChart']:
-            cp['sizeChart'] = build_size_chart(cp.get('description', ''), cp['sizes'], cp['gender'])
+        cp_gender = cp.get('gender', 'men')
+        if cp_gender == 'women':
+            run = ['36', '37', '38', '39', '40', '41']
+        else:
+            run = ['36', '37', '38', '39', '40', '41', '42', '43', '44', '45', '46']
+        cp['sizeChart'] = [
+            {
+                'size': s,
+                'cm': EASYDROP_STANDARD_GRID.get(s, '26.0'),
+                'available': s in cp['sizes']
+            }
+            for s in run
+        ]
         products = [p for p in products if p['id'] != cp['id']]
         products.append(cp)
         for s in cp['sizes']:
