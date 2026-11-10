@@ -236,7 +236,7 @@ COLOR_WORDS = {
 EXCLUDED_SKUS = {'16006', '16005', '16004', '16003', 'NB143', '0068', '2688', 'R343'}
 
 # Pinned products permanently pinned at top by store owner request (supports 'id:...' or SKU)
-PINNED_KEYS = ['PM09', 'PM10', 'PM11', 'PM12']
+PINNED_KEYS = ['PM09', 'PM10', 'PM11', 'PM12', 'A6201']
 
 # Specific size exclusions per product SKU requested by store owner
 EXCLUDED_SIZES_BY_SKU = {}
