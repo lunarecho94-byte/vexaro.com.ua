@@ -1,243 +1,5 @@
 [
   {
-    "id": "255796",
-    "slug": "nike-dunk-low-lx-metallic-silver-7980",
-    "name": "Nike Dunk Low LX Metallic Silver",
-    "brand": "Nike",
-    "brandSlug": "nike",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "unisex",
-    "genderName": "Унісекс",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 2900,
-    "oldPrice": 4833,
-    "costPrice": 2400,
-    "sku": "7980",
-    "material": "шкіра",
-    "country": "В'єтнам",
-    "sizes": [
-      "36",
-      "37",
-      "38",
-      "39",
-      "40",
-      "41"
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/584b3664-31b7-47f7-bce6-629eb9c8426b.jpg",
-      "https://easydrop.one/media/uploads/images/base/5375bf6e-3c4a-4ee2-b142-8b0b1d4bf360.jpg",
-      "https://easydrop.one/media/uploads/images/base/f41f8c57-3516-4405-96c9-36380835e776.jpg",
-      "https://easydrop.one/media/uploads/images/base/530ea3c0-d774-491f-96af-ab1214e30018.jpg"
-    ],
-    "description": "Модель: Nike Dunk Low LX Metallic Silver. Артикул: 7980. Матеріал: шкіра. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Nike Dunk Low LX Metallic Silver (арт. 7980) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Nike Dunk Low LX Metallic Silver (арт. 7980) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "255795",
-    "slug": "nike-dunk-low-retro-phantom-light-7820",
-    "name": "Nike Dunk Low Retro Phantom/Light",
-    "brand": "Nike",
-    "brandSlug": "nike",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "unisex",
-    "genderName": "Унісекс",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 2900,
-    "oldPrice": 4833,
-    "costPrice": 2400,
-    "sku": "7820",
-    "material": "шкіра,текстиль",
-    "country": "В'єтнам",
-    "sizes": [
-      "36",
-      "37",
-      "38",
-      "39",
-      "40",
-      "41"
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/3b444d06-7d74-4e60-9853-c87ab8839cab.jpg",
-      "https://easydrop.one/media/uploads/images/base/bb476ca7-4ea1-47bf-b0fd-d9cc0c28e38a.jpg",
-      "https://easydrop.one/media/uploads/images/base/adc6ca58-dade-4db3-9dfd-3db8ecc238f4.jpg",
-      "https://easydrop.one/media/uploads/images/base/9c3a3fd2-ae08-45b9-a2e6-41754b487ac7.jpg"
-    ],
-    "description": "Модель: Nike Dunk Low Retro Phantom/Light. Артикул: 7820. Матеріал: шкіра,текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Nike Dunk Low Retro Phantom/Light (арт. 7820) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Nike Dunk Low Retro Phantom/Light (арт. 7820) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "255794",
-    "slug": "nike-sb-dunk-low-blue-tint-5930",
-    "name": "Nike SB Dunk Low \"Blue Tint\"",
-    "brand": "Nike",
-    "brandSlug": "nike",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "unisex",
-    "genderName": "Унісекс",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 2900,
-    "oldPrice": 4833,
-    "costPrice": 2400,
-    "sku": "5930",
-    "material": "шкіра",
-    "country": "В'єтнам",
-    "sizes": [
-      "36",
-      "37",
-      "38",
-      "39",
-      "40",
-      "41"
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/33150cc0-67c9-44d9-80c1-457b98fea8ed.jpg",
-      "https://easydrop.one/media/uploads/images/base/99652fca-58fe-4ddb-b619-8b35c365c988.jpg",
-      "https://easydrop.one/media/uploads/images/base/603f8437-9873-4bae-8dd4-5e251c4edf8b.jpg",
-      "https://easydrop.one/media/uploads/images/base/c8c19b65-8651-4535-8ce1-db416dcc38bc.jpg"
-    ],
-    "description": "Модель: Nike SB Dunk Low \"Blue Tint\". Артикул: 5930. Матеріал: шкіра. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Nike SB Dunk Low \"Blue Tint\" (арт. 5930) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Nike SB Dunk Low \"Blue Tint\" (арт. 5930) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "255793",
-    "slug": "nike-sb-dunk-se-beige-brown-5890",
-    "name": "Nike SB Dunk Se Beige/Brown",
-    "brand": "Nike",
-    "brandSlug": "nike",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "unisex",
-    "genderName": "Унісекс",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 2900,
-    "oldPrice": 4833,
-    "costPrice": 2400,
-    "sku": "5890",
-    "material": "шкіра",
-    "country": "В'єтнам",
-    "sizes": [
-      "36",
-      "37",
-      "38",
-      "39",
-      "40",
-      "41"
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/99400082-61ce-4a0c-8d40-f0ac93018d40.jpg",
-      "https://easydrop.one/media/uploads/images/base/e3ba0694-bb1a-49d5-86c9-db746bb81bf4.jpg",
-      "https://easydrop.one/media/uploads/images/base/cfa368ed-7705-4c4c-a2c8-6d0cbe555346.jpg",
-      "https://easydrop.one/media/uploads/images/base/7869bf8f-77bb-4483-ac68-7be8434fce24.jpg"
-    ],
-    "description": "Модель: Nike SB Dunk Se Beige/Brown. Артикул: 5890. Матеріал: шкіра. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Nike SB Dunk Se Beige/Brown (арт. 5890) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Nike SB Dunk Se Beige/Brown (арт. 5890) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "255792",
-    "slug": "nike-dunk-low-wmns-lace-pack-regal-white-8720",
-    "name": "Nike DUNK LOW WMNS ‘LACE PACK - REGAL WHITE",
-    "brand": "Nike",
-    "brandSlug": "nike",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "unisex",
-    "genderName": "Унісекс",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 2900,
-    "oldPrice": 4833,
-    "costPrice": 2400,
-    "sku": "8720",
-    "material": "шкіра,текстиль",
-    "country": "В'єтнам",
-    "sizes": [
-      "37",
-      "38",
-      "39",
-      "41"
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/ee6c87e1-8f40-41db-a620-619204df82ee.jpg",
-      "https://easydrop.one/media/uploads/images/base/56c2cacf-540b-4b82-b4eb-b6e2de7ccad1.jpg",
-      "https://easydrop.one/media/uploads/images/base/6d63e03a-17a5-43df-ba53-822466dd5de5.jpg",
-      "https://easydrop.one/media/uploads/images/base/6e08f7f7-ef8b-46f3-8b04-c32c5f9342d2.jpg"
-    ],
-    "description": "Модель: Nike DUNK LOW WMNS ‘LACE PACK - REGAL WHITE. Артикул: 8720. Матеріал: шкіра,текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Nike DUNK LOW WMNS ‘LACE PACK - REGAL WHITE (арт. 8720) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Nike DUNK LOW WMNS ‘LACE PACK - REGAL WHITE (арт. 8720) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "255791",
-    "slug": "nike-air-force-1-low-florette-8320",
-    "name": "Nike Air Force 1 Low \"Florette\"",
-    "brand": "Nike",
-    "brandSlug": "nike",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "unisex",
-    "genderName": "Унісекс",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 3000,
-    "oldPrice": 5000,
-    "costPrice": 2500,
-    "sku": "8320",
-    "material": "шкіра",
-    "country": "В'єтнам",
-    "sizes": [
-      "36",
-      "37",
-      "38",
-      "39",
-      "40",
-      "41"
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/3ab002f3-5e92-4806-9888-1cf7681c5576.jpg",
-      "https://easydrop.one/media/uploads/images/base/2cbcd2ba-584d-4190-a823-0b55f493d6e3.jpg",
-      "https://easydrop.one/media/uploads/images/base/c5dc2a7d-3284-4cda-8aa9-f36647c1dde0.jpg",
-      "https://easydrop.one/media/uploads/images/base/7b390285-76f8-42b0-a885-329e16aee0fc.jpg"
-    ],
-    "description": "Модель: Nike Air Force 1 Low \"Florette\". Артикул: 8320. Матеріал: шкіра. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Nike Air Force 1 Low \"Florette\" (арт. 8320) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Nike Air Force 1 Low \"Florette\" (арт. 8320) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "258760",
     "slug": "new-balance-9060-termo-nb523",
     "name": "New Balance 9060 (термо)",
@@ -3822,6 +3584,244 @@
     "seo": {
       "title": "Nike Dunk Low Premium SE Gum Dark/Brown (арт. NK089) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Nike Dunk Low Premium SE Gum Dark/Brown (арт. NK089) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "255796",
+    "slug": "nike-dunk-low-lx-metallic-silver-7980",
+    "name": "Nike Dunk Low LX Metallic Silver",
+    "brand": "Nike",
+    "brandSlug": "nike",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "unisex",
+    "genderName": "Унісекс",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 2900,
+    "oldPrice": 4833,
+    "costPrice": 2400,
+    "sku": "7980",
+    "material": "шкіра",
+    "country": "В'єтнам",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/584b3664-31b7-47f7-bce6-629eb9c8426b.jpg",
+      "https://easydrop.one/media/uploads/images/base/5375bf6e-3c4a-4ee2-b142-8b0b1d4bf360.jpg",
+      "https://easydrop.one/media/uploads/images/base/f41f8c57-3516-4405-96c9-36380835e776.jpg",
+      "https://easydrop.one/media/uploads/images/base/530ea3c0-d774-491f-96af-ab1214e30018.jpg"
+    ],
+    "description": "Модель: Nike Dunk Low LX Metallic Silver. Артикул: 7980. Матеріал: шкіра. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Nike Dunk Low LX Metallic Silver (арт. 7980) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Nike Dunk Low LX Metallic Silver (арт. 7980) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "255795",
+    "slug": "nike-dunk-low-retro-phantom-light-7820",
+    "name": "Nike Dunk Low Retro Phantom/Light",
+    "brand": "Nike",
+    "brandSlug": "nike",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "unisex",
+    "genderName": "Унісекс",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 2900,
+    "oldPrice": 4833,
+    "costPrice": 2400,
+    "sku": "7820",
+    "material": "шкіра,текстиль",
+    "country": "В'єтнам",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/3b444d06-7d74-4e60-9853-c87ab8839cab.jpg",
+      "https://easydrop.one/media/uploads/images/base/bb476ca7-4ea1-47bf-b0fd-d9cc0c28e38a.jpg",
+      "https://easydrop.one/media/uploads/images/base/adc6ca58-dade-4db3-9dfd-3db8ecc238f4.jpg",
+      "https://easydrop.one/media/uploads/images/base/9c3a3fd2-ae08-45b9-a2e6-41754b487ac7.jpg"
+    ],
+    "description": "Модель: Nike Dunk Low Retro Phantom/Light. Артикул: 7820. Матеріал: шкіра,текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Nike Dunk Low Retro Phantom/Light (арт. 7820) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Nike Dunk Low Retro Phantom/Light (арт. 7820) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "255794",
+    "slug": "nike-sb-dunk-low-blue-tint-5930",
+    "name": "Nike SB Dunk Low \"Blue Tint\"",
+    "brand": "Nike",
+    "brandSlug": "nike",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "unisex",
+    "genderName": "Унісекс",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 2900,
+    "oldPrice": 4833,
+    "costPrice": 2400,
+    "sku": "5930",
+    "material": "шкіра",
+    "country": "В'єтнам",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/33150cc0-67c9-44d9-80c1-457b98fea8ed.jpg",
+      "https://easydrop.one/media/uploads/images/base/99652fca-58fe-4ddb-b619-8b35c365c988.jpg",
+      "https://easydrop.one/media/uploads/images/base/603f8437-9873-4bae-8dd4-5e251c4edf8b.jpg",
+      "https://easydrop.one/media/uploads/images/base/c8c19b65-8651-4535-8ce1-db416dcc38bc.jpg"
+    ],
+    "description": "Модель: Nike SB Dunk Low \"Blue Tint\". Артикул: 5930. Матеріал: шкіра. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Nike SB Dunk Low \"Blue Tint\" (арт. 5930) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Nike SB Dunk Low \"Blue Tint\" (арт. 5930) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "255793",
+    "slug": "nike-sb-dunk-se-beige-brown-5890",
+    "name": "Nike SB Dunk Se Beige/Brown",
+    "brand": "Nike",
+    "brandSlug": "nike",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "unisex",
+    "genderName": "Унісекс",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 2900,
+    "oldPrice": 4833,
+    "costPrice": 2400,
+    "sku": "5890",
+    "material": "шкіра",
+    "country": "В'єтнам",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/99400082-61ce-4a0c-8d40-f0ac93018d40.jpg",
+      "https://easydrop.one/media/uploads/images/base/e3ba0694-bb1a-49d5-86c9-db746bb81bf4.jpg",
+      "https://easydrop.one/media/uploads/images/base/cfa368ed-7705-4c4c-a2c8-6d0cbe555346.jpg",
+      "https://easydrop.one/media/uploads/images/base/7869bf8f-77bb-4483-ac68-7be8434fce24.jpg"
+    ],
+    "description": "Модель: Nike SB Dunk Se Beige/Brown. Артикул: 5890. Матеріал: шкіра. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Nike SB Dunk Se Beige/Brown (арт. 5890) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Nike SB Dunk Se Beige/Brown (арт. 5890) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "255792",
+    "slug": "nike-dunk-low-wmns-lace-pack-regal-white-8720",
+    "name": "Nike DUNK LOW WMNS ‘LACE PACK - REGAL WHITE",
+    "brand": "Nike",
+    "brandSlug": "nike",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "unisex",
+    "genderName": "Унісекс",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 2900,
+    "oldPrice": 4833,
+    "costPrice": 2400,
+    "sku": "8720",
+    "material": "шкіра,текстиль",
+    "country": "В'єтнам",
+    "sizes": [
+      "37",
+      "38",
+      "39",
+      "41"
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/ee6c87e1-8f40-41db-a620-619204df82ee.jpg",
+      "https://easydrop.one/media/uploads/images/base/56c2cacf-540b-4b82-b4eb-b6e2de7ccad1.jpg",
+      "https://easydrop.one/media/uploads/images/base/6d63e03a-17a5-43df-ba53-822466dd5de5.jpg",
+      "https://easydrop.one/media/uploads/images/base/6e08f7f7-ef8b-46f3-8b04-c32c5f9342d2.jpg"
+    ],
+    "description": "Модель: Nike DUNK LOW WMNS ‘LACE PACK - REGAL WHITE. Артикул: 8720. Матеріал: шкіра,текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Nike DUNK LOW WMNS ‘LACE PACK - REGAL WHITE (арт. 8720) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Nike DUNK LOW WMNS ‘LACE PACK - REGAL WHITE (арт. 8720) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "255791",
+    "slug": "nike-air-force-1-low-florette-8320",
+    "name": "Nike Air Force 1 Low \"Florette\"",
+    "brand": "Nike",
+    "brandSlug": "nike",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "unisex",
+    "genderName": "Унісекс",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 3000,
+    "oldPrice": 5000,
+    "costPrice": 2500,
+    "sku": "8320",
+    "material": "шкіра",
+    "country": "В'єтнам",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "inStock": true,
+    "isHit": true,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/3ab002f3-5e92-4806-9888-1cf7681c5576.jpg",
+      "https://easydrop.one/media/uploads/images/base/2cbcd2ba-584d-4190-a823-0b55f493d6e3.jpg",
+      "https://easydrop.one/media/uploads/images/base/c5dc2a7d-3284-4cda-8aa9-f36647c1dde0.jpg",
+      "https://easydrop.one/media/uploads/images/base/7b390285-76f8-42b0-a885-329e16aee0fc.jpg"
+    ],
+    "description": "Модель: Nike Air Force 1 Low \"Florette\". Артикул: 8320. Матеріал: шкіра. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Nike Air Force 1 Low \"Florette\" (арт. 8320) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Nike Air Force 1 Low \"Florette\" (арт. 8320) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
