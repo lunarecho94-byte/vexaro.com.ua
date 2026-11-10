@@ -301,12 +301,17 @@ export async function getProducts(params: CatalogQueryParams = {}): Promise<Cata
 
   if (params.search && params.search.trim()) {
     const q = params.search.trim().toLowerCase();
-    filtered = filtered.filter(
-      (p) =>
+    const qNorm = q.replace(/а/g, 'a').replace(/е/g, 'e').replace(/с/g, 'c').replace(/о/g, 'o').replace(/р/g, 'p').replace(/х/g, 'x');
+    filtered = filtered.filter((p) => {
+      const sku = p.sku.toLowerCase();
+      const skuNorm = sku.replace(/а/g, 'a').replace(/е/g, 'e').replace(/с/g, 'c').replace(/о/g, 'o').replace(/р/g, 'p').replace(/х/g, 'x');
+      return (
         p.name.toLowerCase().includes(q) ||
-        p.sku.toLowerCase().includes(q) ||
+        sku.includes(q) ||
+        skuNorm.includes(qNorm) ||
         p.brand.toLowerCase().includes(q)
-    );
+      );
+    });
   }
 
   if (params.bestseller) {

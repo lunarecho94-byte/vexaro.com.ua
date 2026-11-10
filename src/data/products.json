@@ -141,6 +141,47 @@
     }
   },
   {
+    "id": "258770",
+    "slug": "premiata-moerun-khutro-a6201",
+    "name": "Premiata MOERUN ХУТРО",
+    "brand": "Premiata",
+    "brandSlug": "premiata",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "men",
+    "genderName": "Чоловічі",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 3400,
+    "oldPrice": 5667,
+    "costPrice": 2800,
+    "sku": "A6201",
+    "material": "Натуральна замша, натуральне хутро",
+    "country": "Італія",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "inStock": true,
+    "images": [
+      "/images/products/premiata-moerun-khutro-a6201/img-1.jpg",
+      "/images/products/premiata-moerun-khutro-a6201/img-2.jpg",
+      "/images/products/premiata-moerun-khutro-a6201/img-3.jpg",
+      "/images/products/premiata-moerun-khutro-a6201/img-4.jpg",
+      "/images/products/premiata-moerun-khutro-a6201/img-5.jpg",
+      "/images/products/premiata-moerun-khutro-a6201/img-6.jpg"
+    ],
+    "description": "Чоловічі зимові кросівки Premiata MOERUN ХУТРО у стильному коричневому забарвленні (артикул: A6201). Верх виконаний з натуральної замші преміум-якості, всередині — тепле натуральне хутро. Фірмова підошва Premiata забезпечує відмінну амортизацію та комфорт при щоденному носінні. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Premiata MOERUN ХУТРО (арт. A6201) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте зимові кросівки Premiata MOERUN ХУТРО (арт. A6201) за 3400 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    },
+    "isHit": false
+  },
+  {
     "id": "258760",
     "slug": "new-balance-9060-termo-nb523",
     "name": "New Balance 9060 (термо)",
