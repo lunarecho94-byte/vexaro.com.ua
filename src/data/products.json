@@ -1,5 +1,39 @@
 [
   {
+    "id": "257841",
+    "slug": "premiata-moerun-khutro-pm09",
+    "name": "Premiata MOERUN ХУТРО",
+    "brand": "Premiata",
+    "brandSlug": "premiata",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "men",
+    "genderName": "Чоловічі",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 3400,
+    "oldPrice": 5667,
+    "costPrice": 2900,
+    "sku": "PM09",
+    "material": "Шкіра, замша, хутро, текстиль, піна, гума",
+    "country": "Італія",
+    "sizes": [
+      "41",
+      "42",
+      "44"
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/3fca7bc4-3419-4938-b97e-8581a8fe1e2b.jpg"
+    ],
+    "description": "Модель: Premiata MOERUN ХУТРО. Артикул: PM09. Матеріал: Шкіра, замша, хутро, текстиль, піна, гума. Сезон: Зима. Виробництво: Італія. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Premiata MOERUN ХУТРО (арт. PM09) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Premiata MOERUN ХУТРО (арт. PM09) за 3400 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
     "id": "257842",
     "slug": "premiata-moerun-khutro-pm10",
     "name": "Premiata MOERUN ХУТРО",
@@ -611,40 +645,6 @@
       "description": "Замовляйте Nike Jordan 4 Black Cat ХУТРО (арт. 2112) за 3100 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     },
     "isHit": false
-  },
-  {
-    "id": "257841",
-    "slug": "premiata-moerun-khutro-pm09",
-    "name": "Premiata MOERUN ХУТРО",
-    "brand": "Premiata",
-    "brandSlug": "premiata",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 3400,
-    "oldPrice": 5667,
-    "costPrice": 2900,
-    "sku": "PM09",
-    "material": "Шкіра, замша, хутро, текстиль, піна, гума",
-    "country": "Італія",
-    "sizes": [
-      "41",
-      "42",
-      "44"
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/3fca7bc4-3419-4938-b97e-8581a8fe1e2b.jpg"
-    ],
-    "description": "Модель: Premiata MOERUN ХУТРО. Артикул: PM09. Матеріал: Шкіра, замша, хутро, текстиль, піна, гума. Сезон: Зима. Виробництво: Італія. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Premiata MOERUN ХУТРО (арт. PM09) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Premiata MOERUN ХУТРО (арт. PM09) за 3400 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
   },
   {
     "id": "257838",
