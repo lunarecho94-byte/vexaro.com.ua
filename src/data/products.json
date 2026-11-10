@@ -2200,7 +2200,6 @@
     "country": "В'єтнам",
     "sizes": [
       "41",
-      "42",
       "43",
       "44",
       "46"
@@ -2239,7 +2238,7 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": true
+        "available": false
       },
       {
         "size": "43",
@@ -11245,7 +11244,6 @@
     "country": "В'єтнам",
     "sizes": [
       "41",
-      "43",
       "44",
       "45",
       "46"
@@ -11289,7 +11287,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": true
+        "available": false
       },
       {
         "size": "44",
@@ -127056,8 +127054,7 @@
       "40",
       "41",
       "43",
-      "44",
-      "45"
+      "44"
     ],
     "sizeChart": [
       {
@@ -127108,7 +127105,7 @@
       {
         "size": "45",
         "cm": "29.0",
-        "available": true
+        "available": false
       },
       {
         "size": "46",
@@ -128454,8 +128451,6 @@
     "sizes": [
       "37",
       "38",
-      "43",
-      "44",
       "45"
     ],
     "sizeChart": [
@@ -128497,12 +128492,12 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": true
+        "available": false
       },
       {
         "size": "44",
         "cm": "28.0",
-        "available": true
+        "available": false
       },
       {
         "size": "45",
@@ -162524,7 +162519,6 @@
     "sizes": [
       "36",
       "37",
-      "41",
       "42",
       "44",
       "45"
@@ -162558,7 +162552,7 @@
       {
         "size": "41",
         "cm": "26.0",
-        "available": true
+        "available": false
       },
       {
         "size": "42",
@@ -201561,7 +201555,8 @@
       "37",
       "38",
       "39",
-      "40"
+      "40",
+      "41"
     ],
     "sizeChart": [
       {
@@ -201592,7 +201587,7 @@
       {
         "size": "41",
         "cm": "26.0",
-        "available": false
+        "available": true
       },
       {
         "size": "42",
@@ -245061,7 +245056,6 @@
       "39",
       "40",
       "41",
-      "43",
       "45"
     ],
     "sizeChart": [
@@ -245103,7 +245097,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": true
+        "available": false
       },
       {
         "size": "44",
@@ -245879,8 +245873,8 @@
     "brandSlug": "ugg",
     "category": "Взуття",
     "categorySlug": "shoes",
-    "gender": "unisex",
-    "genderName": "Унісекс",
+    "gender": "women",
+    "genderName": "Жіночі",
     "season": "winter",
     "seasonName": "Зима",
     "price": 1600,
@@ -245895,8 +245889,7 @@
       "38",
       "39",
       "40",
-      "41",
-      "43"
+      "41"
     ],
     "sizeChart": [
       {
@@ -245937,7 +245930,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": true
+        "available": false
       },
       {
         "size": "44",
