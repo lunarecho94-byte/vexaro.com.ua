@@ -159,6 +159,8 @@ export function ProductOrderPanel({ product }: ProductOrderPanelProps) {
       <SizeGuideModal
         isOpen={isSizeGuideOpen}
         onClose={() => setIsSizeGuideOpen(false)}
+        selectedSize={selectedSize}
+        gender={product.gender}
       />
     </div>
   );
