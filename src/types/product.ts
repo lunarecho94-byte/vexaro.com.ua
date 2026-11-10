@@ -1,6 +1,12 @@
 export type Gender = 'men' | 'women' | 'unisex';
 export type Season = 'winter' | 'demi' | 'summer' | 'all';
 
+export interface SizeChartItem {
+  size: string;
+  cm: string;
+  available?: boolean;
+}
+
 export interface Product {
   id: string;
   slug: string;
@@ -20,6 +26,7 @@ export interface Product {
   material: string;
   country: string;
   sizes: string[];
+  sizeChart?: SizeChartItem[];
   inStock: boolean;
   images: string[];
   description: string;

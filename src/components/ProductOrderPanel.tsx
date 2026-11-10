@@ -160,6 +160,8 @@ export function ProductOrderPanel({ product }: ProductOrderPanelProps) {
         isOpen={isSizeGuideOpen}
         onClose={() => setIsSizeGuideOpen(false)}
         selectedSize={selectedSize}
+        onSelectSize={(size) => setSelectedSize(size)}
+        product={product}
         gender={product.gender}
       />
     </div>

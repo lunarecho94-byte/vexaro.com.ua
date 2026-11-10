@@ -793,6 +793,131 @@ def check_is_hit(name: str, brand_slug: str = '') -> bool:
     return False
 
 
+EU_CM_RANGE = {
+    35: (21.5, 23.0),
+    36: (22.0, 23.5),
+    37: (22.5, 24.0),
+    38: (23.5, 25.0),
+    39: (24.0, 25.5),
+    40: (25.0, 26.5),
+    41: (25.5, 27.0),
+    42: (26.0, 27.5),
+    43: (27.0, 28.5),
+    44: (27.5, 29.0),
+    45: (28.5, 30.0),
+    46: (29.5, 31.0),
+    47: (30.0, 32.0),
+}
+
+WOMEN_DEFAULT_GRID = {
+    '35': '22.0',
+    '36': '22.5',
+    '37': '23.5',
+    '38': '24.0',
+    '39': '25.0',
+    '40': '25.5',
+    '41': '26.0',
+}
+
+MEN_DEFAULT_GRID = {
+    '40': '25.5',
+    '41': '26.0',
+    '42': '26.5',
+    '43': '27.5',
+    '44': '28.0',
+    '45': '29.0',
+    '46': '30.0',
+    '47': '30.5',
+}
+
+UNISEX_DEFAULT_GRID = {
+    '35': '22.0',
+    '36': '22.5',
+    '37': '23.5',
+    '38': '24.0',
+    '39': '25.0',
+    '40': '25.5',
+    '41': '26.0',
+    '42': '26.5',
+    '43': '27.5',
+    '44': '28.0',
+    '45': '29.0',
+    '46': '30.0',
+    '47': '30.5',
+}
+
+
+def build_size_chart(desc: str, sorted_sizes: list, gender: str) -> list:
+    """
+    Builds a product-specific size chart matching supplier data.
+    If the supplier description explicitly contains size-to-cm mappings
+    (e.g. '36-22,5 см; 37-23,5 см...'), uses the exact supplier measurements.
+    Otherwise, applies the supplier consensus standard grid tailored to the product's gender
+    and covers the model's actual sizes.
+    """
+    matches = re.findall(r'(\b[34]\d)\s*[-–=:]\s*(\d{2}(?:[.,]\d+)?)\s*(?:см|cm)?', desc or '', re.I)
+    explicit_map = {}
+    for sz_str, cm_str in matches:
+        try:
+            sz = int(sz_str)
+            cm_val = float(cm_str.replace(',', '.'))
+            if sz in EU_CM_RANGE:
+                min_c, max_c = EU_CM_RANGE[sz]
+                if min_c <= cm_val <= max_c:
+                    explicit_map[str(sz)] = f'{cm_val:.1f}' if cm_val % 1 != 0 else f'{int(cm_val)}.0'
+        except (ValueError, KeyError):
+            pass
+
+    if gender == 'men':
+        base_grid = MEN_DEFAULT_GRID
+    elif gender == 'women':
+        base_grid = WOMEN_DEFAULT_GRID
+    else:
+        base_grid = UNISEX_DEFAULT_GRID
+
+    chart_sizes = set()
+    if len(explicit_map) >= 2:
+        chart_sizes.update(explicit_map.keys())
+    chart_sizes.update(sorted_sizes)
+
+    int_sizes = []
+    for s in sorted_sizes:
+        try:
+            int_sizes.append(int(float(s.replace(',', '.'))))
+        except ValueError:
+            pass
+
+    if int_sizes and (max(int_sizes) - min(int_sizes) <= 6):
+        for sz_int in range(min(int_sizes), max(int_sizes) + 1):
+            chart_sizes.add(str(sz_int))
+
+    def parse_size_key(s):
+        try:
+            return float(s.replace(',', '.'))
+        except ValueError:
+            return 999.0
+
+    sorted_chart_keys = sorted(chart_sizes, key=parse_size_key)
+
+    chart = []
+    for s in sorted_chart_keys:
+        if parse_size_key(s) >= 900:
+            continue
+        cm = explicit_map.get(s) or base_grid.get(s)
+        if not cm:
+            try:
+                int_s = int(float(s.replace(',', '.')))
+                cm = UNISEX_DEFAULT_GRID.get(str(int_s), '26.0')
+            except ValueError:
+                cm = '26.0'
+        chart.append({
+            'size': s,
+            'cm': cm,
+            'available': s in sorted_sizes
+        })
+    return chart
+
+
 def main():
     if '--download' in sys.argv:
         download_export_feed()
@@ -988,6 +1113,10 @@ def main():
         seo_title = f"{clean_name} (арт. {clean_sku}) — купити в інтернет-магазині VEXARO"
         seo_desc = f"Замовляйте {clean_name} (арт. {clean_sku}) за {price} ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
 
+        all_descs = [it.findtext('description') or '' for it in items]
+        combined_desc = ' '.join(all_descs)
+        size_chart = build_size_chart(combined_desc, sorted_sizes, gender_slug)
+
         product = {
             'id': str(gid),
             'slug': slug,
@@ -1007,6 +1136,7 @@ def main():
             'material': material_str,
             'country': country_str,
             'sizes': sorted_sizes,
+            'sizeChart': size_chart,
             'inStock': len(sorted_sizes) > 0,
             'isHit': check_is_hit(clean_name, brand_slug),
             'images': imgs[:5],
@@ -1040,6 +1170,8 @@ def main():
     # Inject curated products permanently requested by store owner
     for cp in CURATED_PRODUCTS:
         cp['oldPrice'] = int(round(cp['price'] / 0.60))
+        if 'sizeChart' not in cp or not cp['sizeChart']:
+            cp['sizeChart'] = build_size_chart(cp.get('description', ''), cp['sizes'], cp['gender'])
         products = [p for p in products if p['id'] != cp['id']]
         products.append(cp)
         for s in cp['sizes']:
