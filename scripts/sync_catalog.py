@@ -793,22 +793,112 @@ def check_is_hit(name: str, brand_slug: str = '') -> bool:
     return False
 
 
-EASYDROP_STANDARD_GRID = {
-    '35': '22.0',
-    '36': '22.5',
-    '37': '23.5',
-    '38': '24.0',
-    '39': '25.0',
-    '40': '25.5',
-    '41': '26.0',
-    '42': '26.5',
-    '43': '27.5',
-    '44': '28.0',
-    '45': '28.5',
-    '46': '29.5',
-    '47': '30.0',
-    '48': '30.5',
+# Supplier & Brand specific insole grids (EU size -> insole length in cm)
+PREMIATA_ITALY_GRID = {
+    '35': '22.0', '36': '22.5', '37': '23.5', '38': '24.0', '39': '25.0',
+    '40': '25.5', '41': '26.0', '42': '26.5', '43': '27.5', '44': '28.0',
+    '45': '28.5', '46': '29.5', '47': '30.0', '48': '30.5'
 }
+
+NIKE_MEN_GRID = {
+    '38': '24.0', '39': '24.5', '40': '25.0', '41': '26.0', '42': '26.5',
+    '43': '27.5', '44': '28.0', '45': '29.0', '46': '30.0', '47': '30.5', '48': '31.0'
+}
+
+NIKE_WOMEN_GRID = {
+    '35': '22.0', '36': '23.0', '37': '23.5', '38': '24.0', '39': '24.5',
+    '40': '25.0', '41': '26.0', '42': '26.5'
+}
+
+NIKE_UNISEX_GRID = {
+    '35': '22.0', '36': '23.0', '37': '23.5', '38': '24.0', '39': '24.5',
+    '40': '25.0', '41': '26.0', '42': '26.5', '43': '27.5', '44': '28.0',
+    '45': '29.0', '46': '30.0', '47': '30.5', '48': '31.0'
+}
+
+ADIDAS_MEN_GRID = {
+    '38': '24.0', '39': '24.5', '40': '25.0', '41': '26.0', '42': '26.5',
+    '43': '27.5', '44': '28.0', '45': '28.5', '46': '29.0', '47': '30.0', '48': '30.5'
+}
+
+ADIDAS_WOMEN_GRID = {
+    '35': '22.0', '36': '22.5', '37': '23.5', '38': '24.0', '39': '24.5',
+    '40': '25.0', '41': '25.5', '42': '26.0'
+}
+
+ADIDAS_UNISEX_GRID = {
+    '35': '22.0', '36': '22.5', '37': '23.5', '38': '24.0', '39': '24.5',
+    '40': '25.0', '41': '26.0', '42': '26.5', '43': '27.5', '44': '28.0',
+    '45': '28.5', '46': '29.0', '47': '30.0', '48': '30.5'
+}
+
+NB_MEN_GRID = {
+    '38': '24.0', '39': '24.5', '40': '25.0', '41': '26.0', '42': '26.5',
+    '43': '27.5', '44': '28.0', '45': '29.0', '46': '30.0', '47': '30.5', '48': '31.0'
+}
+
+NB_WOMEN_GRID = {
+    '35': '22.0', '36': '22.5', '37': '23.5', '38': '24.0', '39': '24.5',
+    '40': '25.0', '41': '25.5', '42': '26.0'
+}
+
+NB_UNISEX_GRID = {
+    '35': '22.0', '36': '22.5', '37': '23.5', '38': '24.0', '39': '24.5',
+    '40': '25.0', '41': '26.0', '42': '26.5', '43': '27.5', '44': '28.0',
+    '45': '29.0', '46': '30.0', '47': '30.5'
+}
+
+UGG_GRID = {
+    '35': '22.5', '36': '23.0', '37': '23.5', '38': '24.5', '39': '25.0',
+    '40': '25.5', '41': '26.0', '42': '26.5', '43': '27.5', '44': '28.0'
+}
+
+DR_MARTENS_GRID = {
+    '36': '23.0', '37': '23.5', '38': '24.5', '39': '25.0', '40': '25.5',
+    '41': '26.0', '42': '26.5', '43': '27.5', '44': '28.0', '45': '28.5'
+}
+
+PUMA_GRID = {
+    '35': '22.0', '36': '22.5', '37': '23.0', '38': '24.0', '39': '24.5',
+    '40': '25.5', '41': '26.0', '42': '26.5', '43': '27.5', '44': '28.0',
+    '45': '29.0', '46': '29.5', '47': '30.0'
+}
+
+ASICS_GRID = {
+    '35': '22.0', '36': '22.5', '37': '23.5', '38': '24.0', '39': '24.5',
+    '40': '25.5', '41': '26.0', '42': '26.5', '43': '27.5', '44': '28.0',
+    '45': '28.5', '46': '29.0', '47': '30.0'
+}
+
+SALOMON_GRID = {
+    '35': '21.5', '36': '22.0', '37': '23.0', '38': '23.5', '39': '24.5',
+    '40': '25.0', '41': '26.0', '42': '26.5', '43': '27.5', '44': '28.0',
+    '45': '28.5', '46': '29.5', '47': '30.0'
+}
+
+LUXURY_GRID = {
+    '35': '22.5', '36': '23.0', '37': '23.5', '38': '24.0', '39': '25.0',
+    '40': '25.5', '41': '26.0', '42': '26.5', '43': '27.5', '44': '28.0',
+    '45': '28.5', '46': '29.5', '47': '30.0'
+}
+
+DEFAULT_MEN_GRID = {
+    '38': '24.0', '39': '24.5', '40': '25.0', '41': '26.0', '42': '26.5',
+    '43': '27.5', '44': '28.0', '45': '29.0', '46': '29.5', '47': '30.0', '48': '30.5'
+}
+
+DEFAULT_WOMEN_GRID = {
+    '35': '22.0', '36': '22.5', '37': '23.5', '38': '24.0', '39': '25.0',
+    '40': '25.5', '41': '26.0', '42': '26.5'
+}
+
+DEFAULT_UNISEX_GRID = {
+    '35': '22.0', '36': '22.5', '37': '23.5', '38': '24.0', '39': '25.0',
+    '40': '25.5', '41': '26.0', '42': '26.5', '43': '27.5', '44': '28.0',
+    '45': '28.5', '46': '29.5', '47': '30.0', '48': '30.5'
+}
+
+EASYDROP_STANDARD_GRID = DEFAULT_UNISEX_GRID
 
 EU_CM_RANGE = {
     35: (21.5, 23.0),
@@ -827,11 +917,75 @@ EU_CM_RANGE = {
 }
 
 
-def build_product_size_chart(items: list, sorted_sizes: list, desc: str, gender: str) -> list:
+def get_supplier_brand_grid(brand_slug: str, clean_sku: str, gender: str, country: str = '', name: str = '') -> dict:
+    b = (brand_slug or '').lower()
+    sku = (clean_sku or '').upper()
+    n = (name or '').lower()
+    c = (country or '').lower()
+
+    if b == 'premiata' or sku.startswith('PM') or 'moerun' in n or 'італія' in c or 'italy' in c or 'італія' in n:
+        return PREMIATA_ITALY_GRID
+
+    if b in ('dr-martens', 'martens') or 'martens' in n or sku.startswith('DR'):
+        return DR_MARTENS_GRID
+
+    if b == 'ugg' or 'ugg' in n or 'угг' in n or sku.startswith(('UG', 'U-')):
+        return UGG_GRID
+
+    if b in ('nike', 'jordan') or 'nike' in n or 'jordan' in n or sku.startswith(('NK', 'NJ', 'NTR', 'N-', 'J-')):
+        if gender == 'women':
+            return NIKE_WOMEN_GRID
+        elif gender == 'men':
+            return NIKE_MEN_GRID
+        return NIKE_UNISEX_GRID
+
+    if b in ('adidas', 'yeezy') or 'adidas' in n or 'yeezy' in n or sku.startswith(('A-', 'YE', 'Y-')):
+        if gender == 'women':
+            return ADIDAS_WOMEN_GRID
+        elif gender == 'men':
+            return ADIDAS_MEN_GRID
+        return ADIDAS_UNISEX_GRID
+
+    if b in ('newbalance', 'new-balance') or 'new balance' in n or sku.startswith('NB'):
+        if gender == 'women':
+            return NB_WOMEN_GRID
+        elif gender == 'men':
+            return NB_MEN_GRID
+        return NB_UNISEX_GRID
+
+    if b == 'puma' or 'puma' in n or sku.startswith('PU'):
+        return PUMA_GRID
+
+    if b == 'asics' or 'asics' in n or sku.startswith('AS'):
+        return ASICS_GRID
+
+    if b == 'salomon' or 'salomon' in n or sku.startswith('SL'):
+        return SALOMON_GRID
+
+    if b in ('balenciaga', 'dior', 'goldengoose', 'offwhite', 'prada', 'gucci', 'saintlaurent', 'alexandermcqueen') or sku.startswith(('BA', 'MQ', 'OS')):
+        return LUXURY_GRID
+
+    if gender == 'women':
+        return DEFAULT_WOMEN_GRID
+    elif gender == 'men':
+        return DEFAULT_MEN_GRID
+    return DEFAULT_UNISEX_GRID
+
+
+def build_product_size_chart(
+    items: list,
+    sorted_sizes: list,
+    desc: str,
+    gender: str,
+    brand_slug: str = '',
+    clean_sku: str = '',
+    country: str = '',
+    name: str = ''
+) -> list:
     """
     Builds the exact product-specific size chart matching EasyDrop supplier table.
     Matches the exact 3-column supplier structure (EU size | cm | stock status).
-    Uses EasyDrop standard grid (with 45=28.5 cm, 46=29.5 cm) or explicit supplier description.
+    Uses brand & supplier specific grid or explicit supplier description.
     Includes the model's full size run as defined in the supplier feed.
     """
     matches = re.findall(r'(\b[34]\d)\s*[-–=:]\s*(\d{2}(?:[.,]\d+)?)\s*(?:см|cm)?', desc or '', re.I)
@@ -846,6 +1000,8 @@ def build_product_size_chart(items: list, sorted_sizes: list, desc: str, gender:
                     explicit_map[str(sz)] = f'{cm_val:.1f}' if cm_val % 1 != 0 else f'{int(cm_val)}.0'
         except (ValueError, KeyError):
             pass
+
+    brand_grid = get_supplier_brand_grid(brand_slug, clean_sku, gender, country, name)
 
     feed_sizes = {}
     for it in (items or []):
@@ -874,6 +1030,8 @@ def build_product_size_chart(items: list, sorted_sizes: list, desc: str, gender:
         max_sz = max(int_sizes)
         if max_sz >= 44 and min_sz > 36 and min_sz <= 41:
             min_sz = 36
+        elif max_sz <= 41 and min_sz > 36:
+            min_sz = 36
         if max_sz == 45:
             max_sz = 46
         if (max_sz - min_sz) <= 12:
@@ -891,10 +1049,10 @@ def build_product_size_chart(items: list, sorted_sizes: list, desc: str, gender:
     for s in sorted_keys:
         if parse_size_key(s) >= 900:
             continue
-        cm = explicit_map.get(s) or EASYDROP_STANDARD_GRID.get(s)
+        cm = explicit_map.get(s) or brand_grid.get(s)
         if not cm:
             int_s = str(int(float(s.replace(',', '.'))))
-            cm = EASYDROP_STANDARD_GRID.get(int_s, '26.0')
+            cm = brand_grid.get(int_s) or DEFAULT_UNISEX_GRID.get(int_s, '26.0')
         is_avail = feed_sizes.get(s, s in sorted_sizes)
         chart.append({
             'size': s,
@@ -1101,7 +1259,16 @@ def main():
 
         all_descs = [it.findtext('description') or '' for it in items]
         combined_desc = ' '.join(all_descs)
-        size_chart = build_product_size_chart(items, sorted_sizes, combined_desc, gender_slug)
+        size_chart = build_product_size_chart(
+            items,
+            sorted_sizes,
+            combined_desc,
+            gender_slug,
+            brand_slug,
+            clean_sku,
+            country_str,
+            clean_name
+        )
 
         product = {
             'id': str(gid),
@@ -1157,14 +1324,20 @@ def main():
     for cp in CURATED_PRODUCTS:
         cp['oldPrice'] = int(round(cp['price'] / 0.60))
         cp_gender = cp.get('gender', 'men')
-        if cp_gender == 'women':
+        cp_brand = cp.get('brandSlug', '')
+        cp_sku = cp.get('sku', '')
+        cp_country = cp.get('country', '')
+        cp_name = cp.get('name', '')
+        cp_grid = get_supplier_brand_grid(cp_brand, cp_sku, cp_gender, cp_country, cp_name)
+
+        if cp_gender == 'women' and max([int(s) for s in cp['sizes'] if s.isdigit()] or [41]) <= 41:
             run = ['36', '37', '38', '39', '40', '41']
         else:
             run = ['36', '37', '38', '39', '40', '41', '42', '43', '44', '45', '46']
         cp['sizeChart'] = [
             {
                 'size': s,
-                'cm': EASYDROP_STANDARD_GRID.get(s, '26.0'),
+                'cm': cp_grid.get(s) or DEFAULT_UNISEX_GRID.get(s, '26.0'),
                 'available': s in cp['sizes']
             }
             for s in run
