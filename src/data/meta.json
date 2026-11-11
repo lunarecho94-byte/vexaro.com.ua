@@ -4,12 +4,12 @@
     {
       "name": "Nike",
       "slug": "nike",
-      "count": 997
+      "count": 998
     },
     {
       "name": "New Balance",
       "slug": "newbalance",
-      "count": 619
+      "count": 623
     },
     {
       "name": "Adidas",
@@ -29,12 +29,12 @@
     {
       "name": "Інші бренди",
       "slug": "other",
-      "count": 125
+      "count": 124
     },
     {
       "name": "Air Jordan",
       "slug": "jordan",
-      "count": 103
+      "count": 101
     },
     {
       "name": "Balenciaga",
@@ -74,7 +74,7 @@
     {
       "name": "Premiata",
       "slug": "premiata",
-      "count": 22
+      "count": 21
     },
     {
       "name": "Louis Vuitton",
@@ -99,7 +99,7 @@
     {
       "name": "The North Face",
       "slug": "tnf",
-      "count": 9
+      "count": 8
     },
     {
       "name": "Bottega Veneta",
@@ -178,12 +178,12 @@
     {
       "name": "Жіночі",
       "slug": "women",
-      "count": 1354
+      "count": 1361
     },
     {
       "name": "Чоловічі",
       "slug": "men",
-      "count": 992
+      "count": 985
     },
     {
       "name": "Унісекс",
@@ -195,12 +195,12 @@
     {
       "name": "Демісезон",
       "slug": "demi",
-      "count": 2523
+      "count": 2527
     },
     {
       "name": "Зима",
       "slug": "winter",
-      "count": 390
+      "count": 386
     }
   ],
   "sizes": [
@@ -220,12 +220,12 @@
     "45",
     "46",
     "47",
+    "40–41",
     "M",
     "S",
     "L",
-    "XL",
     "45/46",
-    "40–41"
+    "XL"
   ],
   "minPrice": 900,
   "maxPrice": 6400
