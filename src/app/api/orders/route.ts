@@ -3,12 +3,24 @@ import { z } from 'zod';
 import fs from 'fs';
 import path from 'path';
 import { SITE_URL } from '@/lib/config';
+import { validateUkrainianPhone } from '@/lib/phone';
 
 const orderSchema = z.object({
   customerName: z.string().min(2, 'Вкажіть ваше імʼя та прізвище'),
   firstName: z.string().optional(),
   lastName: z.string().optional(),
-  phone: z.string().min(10, 'Вкажіть дійсний номер телефону'),
+  phone: z
+    .string()
+    .min(1, 'Вкажіть номер телефону')
+    .superRefine((val, ctx) => {
+      const check = validateUkrainianPhone(val);
+      if (!check.isValid) {
+        ctx.addIssue({
+          code: z.ZodIssueCode.custom,
+          message: check.error || 'Вкажіть коректний мобільний номер телефону',
+        });
+      }
+    }),
   city: z.string().min(2, 'Вкажіть місто доставки'),
   warehouse: z.string().min(1, 'Вкажіть відділення або поштомат Нової Пошти'),
   comment: z.string().optional(),
@@ -52,11 +64,14 @@ async function sendTelegramNotification(order: any) {
     return;
   }
 
-  const cleanDigits = order.phone.replace(/\D/g, '');
+  const phoneValidation = validateUkrainianPhone(order.phone);
+  const cleanDigits = phoneValidation.normalized || order.phone.replace(/\D/g, '');
   const normalizedPhone = cleanDigits.startsWith('38') ? cleanDigits : '38' + cleanDigits;
   const phoneCallLink = `tel:+${normalizedPhone}`;
   const tgLink = `https://t.me/+${normalizedPhone}`;
   const viberLink = `viber://chat?number=%2B${normalizedPhone}`;
+  const displayPhone = phoneValidation.formatted || order.phone;
+  const operatorText = phoneValidation.operator ? ` (${phoneValidation.operator})` : '';
 
   const esc = (s: unknown) =>
     String(s ?? '')
@@ -76,7 +91,7 @@ async function sendTelegramNotification(order: any) {
   const text =
     `🔥 <b>НОВЕ ЗАМОВЛЕННЯ #${order.id}</b>\n\n` +
     `👤 <b>Клієнт:</b> ${esc(order.customerName)}\n` +
-    `📞 <b>Телефон:</b> <a href="${phoneCallLink}">${esc(order.phone)}</a>\n` +
+    `📞 <b>Телефон:</b> <a href="${phoneCallLink}">${esc(displayPhone)}</a>${esc(operatorText)}\n` +
     `💬 <b>Швидкий зв'язок:</b> <a href="${tgLink}">Telegram</a> • <a href="${viberLink}">Viber</a>\n` +
     (order.dontCall
       ? `🔕 <b>Дзвінок:</b> <b>НЕ ТЕЛЕФОНУВАТИ</b> (відправляти без підтвердження)\n`

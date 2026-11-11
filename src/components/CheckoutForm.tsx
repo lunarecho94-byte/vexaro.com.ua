@@ -1,12 +1,18 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo, useRef } from 'react';
 import { useRouter } from 'next/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useCartStore } from '@/lib/cart-store';
 import { Truck, ShieldCheck, ShoppingBag, Loader2, ArrowLeft } from 'lucide-react';
 import { NovaPoshtaDeliverySelect } from '@/components/NovaPoshtaDeliverySelect';
+import {
+  extractNationalDigits,
+  formatUkrainianPhone,
+  validateUkrainianPhone,
+  UKRAINIAN_OPERATORS,
+} from '@/lib/phone';
 
 export function CheckoutForm() {
   const router = useRouter();
@@ -16,6 +22,8 @@ export function CheckoutForm() {
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
   const [phone, setPhone] = useState('');
+  const [phoneTouched, setPhoneTouched] = useState(false);
+  const phoneInputRef = useRef<HTMLInputElement>(null);
   const [city, setCity] = useState('');
   const [warehouse, setWarehouse] = useState('');
   const [comment, setComment] = useState('');
@@ -24,40 +32,25 @@ export function CheckoutForm() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [errorMsg, setErrorMsg] = useState('');
 
+  const phoneValidation = useMemo(() => {
+    return validateUkrainianPhone(phone);
+  }, [phone]);
+
   useEffect(() => {
     setMounted(true);
   }, []);
 
   // Format Ukrainian phone mask +38 (0XX) XXX-XX-XX
   const handlePhoneChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    let input = e.target.value.replace(/\D/g, '');
-    if (input.startsWith('380')) {
-      input = input.substring(2);
-    } else if (input.startsWith('80')) {
-      input = input.substring(1);
-    } else if (!input.startsWith('0') && input.length > 0) {
-      input = '0' + input;
+    const rawVal = e.target.value;
+    const cleanOnly = rawVal.replace(/\D/g, '');
+    if (!cleanOnly) {
+      setPhone('');
+      return;
     }
-
-    if (input.length > 10) {
-      input = input.substring(0, 10);
-    }
-
-    let formatted = '+38 ';
-    if (input.length > 0) {
-      formatted += '(' + input.substring(0, 3);
-    }
-    if (input.length >= 4) {
-      formatted += ') ' + input.substring(3, 6);
-    }
-    if (input.length >= 7) {
-      formatted += '-' + input.substring(6, 8);
-    }
-    if (input.length >= 9) {
-      formatted += '-' + input.substring(8, 10);
-    }
-
-    setPhone(input.length === 0 ? '' : formatted);
+    const digits = extractNationalDigits(rawVal);
+    const formatted = formatUkrainianPhone(digits);
+    setPhone(formatted);
   };
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -74,9 +67,11 @@ export function CheckoutForm() {
       return;
     }
 
-    const cleanDigits = phone.replace(/\D/g, '');
-    if (cleanDigits.length < 10) {
-      setErrorMsg('Вкажіть коректний номер телефону (наприклад: +38 097 123-45-67)');
+    const phoneCheck = validateUkrainianPhone(phone);
+    if (!phoneCheck.isValid) {
+      setPhoneTouched(true);
+      setErrorMsg(phoneCheck.error || 'Вкажіть коректний мобільний номер телефону');
+      phoneInputRef.current?.focus();
       return;
     }
 
@@ -103,7 +98,7 @@ export function CheckoutForm() {
         customerName: fullName,
         firstName: firstName.trim(),
         lastName: lastName.trim(),
-        phone: phone.trim(),
+        phone: phoneCheck.formatted || phone.trim(),
         city: city.trim(),
         warehouse: warehouse.trim(),
         comment: comment.trim() || undefined,
@@ -129,6 +124,12 @@ export function CheckoutForm() {
       const data = await res.json();
 
       if (!res.ok || !data.success) {
+        if (data.errors?.phone) {
+          const pErr = Array.isArray(data.errors.phone) ? data.errors.phone[0] : data.errors.phone;
+          setPhoneTouched(true);
+          phoneInputRef.current?.focus();
+          throw new Error(pErr);
+        }
         throw new Error(data.message || 'Не вдалося створити замовлення');
       }
 
@@ -227,18 +228,52 @@ export function CheckoutForm() {
             </div>
 
             <div>
-              <label className="text-xs font-semibold text-muted block mb-1.5">
-                Номер телефону <span className="text-rose-500">*</span>
-              </label>
-              <input
-                type="tel"
-                required
-                inputMode="tel"
-                value={phone}
-                onChange={handlePhoneChange}
-                placeholder="+38 (097) 123-45-67"
-                className="w-full h-11 rounded-lg border border-border bg-background px-3.5 text-sm font-mono text-foreground placeholder:text-muted focus:border-primary focus:outline-none"
-              />
+              <div className="flex items-center justify-between mb-1.5">
+                <label className="text-xs font-semibold text-muted block">
+                  Номер телефону <span className="text-rose-500">*</span>
+                </label>
+                {phoneValidation.isValid && phoneValidation.operator && (
+                  <span className="text-[11px] font-semibold text-emerald-600 dark:text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded-full flex items-center gap-1">
+                    <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+                    {phoneValidation.operator}
+                  </span>
+                )}
+              </div>
+              <div className="relative">
+                <input
+                  ref={phoneInputRef}
+                  type="tel"
+                  required
+                  inputMode="tel"
+                  value={phone}
+                  onChange={handlePhoneChange}
+                  onBlur={() => setPhoneTouched(true)}
+                  placeholder="+38 (097) 123-45-67"
+                  className={`w-full h-11 rounded-lg border bg-background px-3.5 text-sm font-mono text-foreground placeholder:text-muted focus:outline-none transition-colors ${
+                    phone && phoneValidation.isValid
+                      ? 'border-emerald-500 focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500'
+                      : phoneTouched && phone && !phoneValidation.isValid
+                      ? 'border-rose-500 focus:border-rose-500 focus:ring-1 focus:ring-rose-500'
+                      : 'border-border focus:border-primary'
+                  }`}
+                />
+              </div>
+
+              {/* Status / helper message below the input */}
+              {phone && phoneValidation.isValid ? (
+                <p className="text-xs text-emerald-600 dark:text-emerald-400 mt-1.5 flex items-center gap-1.5 font-medium">
+                  <span className="text-sm leading-none">✓</span> Номер підтверджено ({phoneValidation.operator})
+                </p>
+              ) : phone && (phoneTouched || phone.replace(/\D/g, '').length >= 12 || (phone.replace(/\D/g, '').length >= 5 && !UKRAINIAN_OPERATORS[extractNationalDigits(phone).substring(0, 3)])) && !phoneValidation.isValid ? (
+                <p className="text-xs text-rose-500 mt-1.5 flex items-start gap-1.5 font-medium leading-snug">
+                  <span className="text-sm leading-none shrink-0">⚠️</span>
+                  <span>{phoneValidation.error}</span>
+                </p>
+              ) : (
+                <p className="text-[11px] text-muted mt-1 leading-normal">
+                  Для надсилання ТТН та сповіщень Нової Пошти (Київстар, Vodafone, lifecell)
+                </p>
+              )}
             </div>
 
             {/* Option: Можна мені не телефонувати */}
