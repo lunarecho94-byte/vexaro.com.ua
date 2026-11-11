@@ -2201,6 +2201,7 @@
       "41",
       "43",
       "44",
+      "45",
       "46"
     ],
     "sizeChart": [
@@ -2252,7 +2253,7 @@
       {
         "size": "45",
         "cm": "29.0",
-        "available": false
+        "available": true
       },
       {
         "size": "46",
@@ -2292,7 +2293,6 @@
     "sizes": [
       "41",
       "42",
-      "43",
       "44",
       "45"
     ],
@@ -2335,7 +2335,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": true
+        "available": false
       },
       {
         "size": "44",
@@ -3615,7 +3615,6 @@
     "material": "Замша , Натуральный мех",
     "country": "Китай",
     "sizes": [
-      "40",
       "41",
       "42",
       "44",
@@ -3645,7 +3644,7 @@
       {
         "size": "40",
         "cm": "25.5",
-        "available": true
+        "available": false
       },
       {
         "size": "41",
@@ -4072,9 +4071,9 @@
     "genderName": "Жіночі",
     "season": "winter",
     "seasonName": "Зима",
-    "price": 4400,
-    "oldPrice": 7333,
-    "costPrice": 3900,
+    "price": 4000,
+    "oldPrice": 6667,
+    "costPrice": 3500,
     "sku": "1725",
     "material": "Натуральна замша, натуральне хутро",
     "country": "В'єтнам",
@@ -4151,7 +4150,7 @@
     "description": "Модель: UGG ULTRA MINI PLATFORM | CHOCOLATE premium. Артикул: 1725. Матеріал: Натуральна замша, натуральне хутро. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
     "seo": {
       "title": "UGG ULTRA MINI PLATFORM | CHOCOLATE premium (арт. 1725) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте UGG ULTRA MINI PLATFORM | CHOCOLATE premium (арт. 1725) за 4400 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+      "description": "Замовляйте UGG ULTRA MINI PLATFORM | CHOCOLATE premium (арт. 1725) за 4000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -4166,9 +4165,9 @@
     "genderName": "Жіночі",
     "season": "winter",
     "seasonName": "Зима",
-    "price": 4400,
-    "oldPrice": 7333,
-    "costPrice": 3900,
+    "price": 3700,
+    "oldPrice": 6167,
+    "costPrice": 3200,
     "sku": "1724",
     "material": "Натуральна замша, натуральне хутро",
     "country": "В'єтнам",
@@ -4245,7 +4244,7 @@
     "description": "Модель: UGG ULTRA MINI PLATFORM | ANTILOPE premium. Артикул: 1724. Матеріал: Натуральна замша, натуральне хутро. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
     "seo": {
       "title": "UGG ULTRA MINI PLATFORM | ANTILOPE premium (арт. 1724) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте UGG ULTRA MINI PLATFORM | ANTILOPE premium (арт. 1724) за 4400 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+      "description": "Замовляйте UGG ULTRA MINI PLATFORM | ANTILOPE premium (арт. 1724) за 3700 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -4636,9 +4635,9 @@
     "genderName": "Жіночі",
     "season": "winter",
     "seasonName": "Зима",
-    "price": 3900,
-    "oldPrice": 6500,
-    "costPrice": 3400,
+    "price": 3800,
+    "oldPrice": 6333,
+    "costPrice": 3300,
     "sku": "0805",
     "material": "Натуральна замша, натуральне хутро",
     "country": "В'єтнам",
@@ -4715,7 +4714,7 @@
     "description": "Модель: UGG ULTRA MINI | CHESTNUT premium. Артикул: 0805. Матеріал: Натуральна замша, натуральне хутро. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
     "seo": {
       "title": "UGG ULTRA MINI | CHESTNUT premium (арт. 0805) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте UGG ULTRA MINI | CHESTNUT premium (арт. 0805) за 3900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+      "description": "Замовляйте UGG ULTRA MINI | CHESTNUT premium (арт. 0805) за 3800 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -5766,7 +5765,6 @@
     "material": "Шкіра",
     "country": "-",
     "sizes": [
-      "41",
       "42",
       "43",
       "44"
@@ -5800,7 +5798,7 @@
       {
         "size": "41",
         "cm": "26.0",
-        "available": true
+        "available": false
       },
       {
         "size": "42",
@@ -14983,6 +14981,97 @@
     }
   },
   {
+    "id": "254063",
+    "slug": "new-balance-9060-khutro-nb514",
+    "name": "New Balance 9060 ХУТРО",
+    "brand": "New Balance",
+    "brandSlug": "newbalance",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "men",
+    "genderName": "Чоловічі",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 2900,
+    "oldPrice": 4833,
+    "costPrice": 2400,
+    "sku": "NB514",
+    "material": "Замша, хутро гума, піна, прошиті",
+    "country": "В'єтнам",
+    "sizes": [
+      "41",
+      "44",
+      "46"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": false
+      },
+      {
+        "size": "39",
+        "cm": "24.5",
+        "available": false
+      },
+      {
+        "size": "40",
+        "cm": "25.0",
+        "available": false
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": true
+      },
+      {
+        "size": "45",
+        "cm": "29.0",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "30.0",
+        "available": true
+      }
+    ],
+    "inStock": true,
+    "isHit": true,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/44e97d14-bfe8-4a5a-8133-7d1548986eda.jpg"
+    ],
+    "description": "Модель: New Balance 9060 ХУТРО. Артикул: NB514. Матеріал: Замша, хутро гума, піна, прошиті. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "New Balance 9060 ХУТРО (арт. NB514) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте New Balance 9060 ХУТРО (арт. NB514) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
     "id": "254060",
     "slug": "lacoste-elite-active-t-lc07",
     "name": "Lacoste ELITE ACTIVE T",
@@ -16324,8 +16413,7 @@
       "42",
       "43",
       "44",
-      "45",
-      "46"
+      "45"
     ],
     "sizeChart": [
       {
@@ -16381,7 +16469,7 @@
       {
         "size": "46",
         "cm": "29.5",
-        "available": true
+        "available": false
       }
     ],
     "inStock": true,
@@ -21126,7 +21214,6 @@
     "sizes": [
       "41",
       "42",
-      "43",
       "44",
       "45"
     ],
@@ -21169,7 +21256,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": true
+        "available": false
       },
       {
         "size": "44",
@@ -21218,7 +21305,6 @@
     "country": "В'єтнам",
     "sizes": [
       "41",
-      "42",
       "43",
       "44",
       "45"
@@ -21257,7 +21343,7 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": true
+        "available": false
       },
       {
         "size": "43",
@@ -21403,6 +21489,7 @@
     "material": "Замша, вологостійкий текстиль, термоутеплювач, гума, піна, прошиті",
     "country": "В'єтнам",
     "sizes": [
+      "42",
       "43",
       "44",
       "46"
@@ -21441,7 +21528,7 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": false
+        "available": true
       },
       {
         "size": "43",
@@ -34336,6 +34423,7 @@
     "material": "Текстиль",
     "country": "В'єтнам",
     "sizes": [
+      "41",
       "42",
       "43",
       "44",
@@ -34370,7 +34458,7 @@
       {
         "size": "41",
         "cm": "26.0",
-        "available": false
+        "available": true
       },
       {
         "size": "42",
@@ -34618,9 +34706,7 @@
       "40",
       "41",
       "42",
-      "43",
-      "44",
-      "45"
+      "44"
     ],
     "sizeChart": [
       {
@@ -34661,7 +34747,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": true
+        "available": false
       },
       {
         "size": "44",
@@ -34671,7 +34757,7 @@
       {
         "size": "45",
         "cm": "28.5",
-        "available": true
+        "available": false
       },
       {
         "size": "46",
@@ -35352,97 +35438,6 @@
     }
   },
   {
-    "id": "248744",
-    "slug": "fiyi-v2-termo-ntr781",
-    "name": "FIYI V2 (термо)",
-    "brand": "Інші бренди",
-    "brandSlug": "other",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 2900,
-    "oldPrice": 4833,
-    "costPrice": 2400,
-    "sku": "NTR781",
-    "material": "Шкіра, вологостійкий текстиль, термоутеплювач, гума, піна, прошиті",
-    "country": "В'єтнам",
-    "sizes": [
-      "41",
-      "44",
-      "45"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": true
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": true
-      },
-      {
-        "size": "46",
-        "cm": "30.0",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/c22bbe2e-e621-4072-bc10-3328b207c53f.jpg"
-    ],
-    "description": "Модель: FIYI V2 (термо). Артикул: NTR781. Матеріал: Шкіра, вологостійкий текстиль, термоутеплювач, гума, піна, прошиті. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "FIYI V2 (термо) (арт. NTR781) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте FIYI V2 (термо) (арт. NTR781) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "248741",
     "slug": "fiyi-v2-termo-ntr780",
     "name": "FIYI V2 (термо)",
@@ -35462,6 +35457,7 @@
     "country": "В'єтнам",
     "sizes": [
       "41",
+      "42",
       "43",
       "44",
       "45",
@@ -35501,7 +35497,7 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": false
+        "available": true
       },
       {
         "size": "43",
@@ -49161,6 +49157,7 @@
     "material": "Текстиль / комбінований",
     "country": "-",
     "sizes": [
+      "36",
       "37",
       "38",
       "39",
@@ -49173,7 +49170,7 @@
       {
         "size": "36",
         "cm": "23.0",
-        "available": false
+        "available": true
       },
       {
         "size": "37",
@@ -54102,7 +54099,6 @@
     "country": "В'єтнам",
     "sizes": [
       "36",
-      "37",
       "38",
       "39",
       "40"
@@ -54116,7 +54112,7 @@
       {
         "size": "37",
         "cm": "23.0",
-        "available": true
+        "available": false
       },
       {
         "size": "38",
@@ -54452,97 +54448,6 @@
     "seo": {
       "title": "Asics Gel NYC Black Gore-Tex (арт. 3002) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Asics Gel NYC Black Gore-Tex (арт. 3002) за 2800 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "243482",
-    "slug": "salomon-speed-cross-pro-gore-tex-thinsulate-black-white-2996",
-    "name": "Salomon Speed Cross Pro Gore-Tex Thinsulate Black White",
-    "brand": "Salomon",
-    "brandSlug": "salomon",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 3000,
-    "oldPrice": 5000,
-    "costPrice": 2500,
-    "sku": "2996",
-    "material": "Кожа , Текстиль",
-    "country": "В'єтнам",
-    "sizes": [
-      "41",
-      "44",
-      "46"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.0",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.0",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": true
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": true
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/d4f8ae95-ae50-4989-a594-5dc951f68545.jpeg"
-    ],
-    "description": "Модель: Salomon Speed Cross Pro Gore-Tex Thinsulate Black White. Артикул: 2996. Матеріал: Кожа , Текстиль. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Salomon Speed Cross Pro Gore-Tex Thinsulate Black White (арт. 2996) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Salomon Speed Cross Pro Gore-Tex Thinsulate Black White (арт. 2996) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -65472,7 +65377,8 @@
       "36",
       "37",
       "38",
-      "39"
+      "39",
+      "40"
     ],
     "sizeChart": [
       {
@@ -65498,7 +65404,7 @@
       {
         "size": "40",
         "cm": "25.0",
-        "available": false
+        "available": true
       },
       {
         "size": "41",
@@ -79922,6 +79828,7 @@
       "40",
       "41",
       "42",
+      "43",
       "45"
     ],
     "sizeChart": [
@@ -79963,7 +79870,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": false
+        "available": true
       },
       {
         "size": "44",
@@ -128309,7 +128216,6 @@
       "37",
       "38",
       "39",
-      "40",
       "43",
       "45"
     ],
@@ -128337,7 +128243,7 @@
       {
         "size": "40",
         "cm": "25.0",
-        "available": true
+        "available": false
       },
       {
         "size": "41",
@@ -128406,6 +128312,8 @@
       "39",
       "40",
       "41",
+      "42",
+      "43",
       "44",
       "45"
     ],
@@ -128443,12 +128351,12 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": false
+        "available": true
       },
       {
         "size": "43",
         "cm": "27.5",
-        "available": false
+        "available": true
       },
       {
         "size": "44",
@@ -130164,6 +130072,97 @@
     "seo": {
       "title": "UGG CI Ultra Mini Weather Hybrid Khaki Yellow (арт. 1908) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте UGG CI Ultra Mini Weather Hybrid Khaki Yellow (арт. 1908) за 4500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "201137",
+    "slug": "ugg-ci-ultra-mini-weather-hybrid-full-black-1907",
+    "name": "UGG CI Ultra Mini Weather Hybrid Full Black",
+    "brand": "UGG",
+    "brandSlug": "ugg",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 4800,
+    "oldPrice": 8000,
+    "costPrice": 4300,
+    "sku": "1907",
+    "material": "Замша, хутро, EVA",
+    "country": "В'єтнам",
+    "sizes": [
+      "36",
+      "39",
+      "41"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "23.0",
+        "available": true
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "24.5",
+        "available": false
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": false
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "28.5",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": true,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/2947548e-f06b-4832-84be-c5ba43fd2207.jpeg"
+    ],
+    "description": "Модель: UGG CI Ultra Mini Weather Hybrid Full Black. Артикул: 1907. Матеріал: Замша, хутро, EVA. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "UGG CI Ultra Mini Weather Hybrid Full Black (арт. 1907) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте UGG CI Ultra Mini Weather Hybrid Full Black (арт. 1907) за 4800 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -133442,97 +133441,6 @@
     }
   },
   {
-    "id": "199671",
-    "slug": "ugg-lowmel-sneaker-black-2393",
-    "name": "Ugg Lowmel Sneaker Black",
-    "brand": "UGG",
-    "brandSlug": "ugg",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 4500,
-    "oldPrice": 7500,
-    "costPrice": 4000,
-    "sku": "2393",
-    "material": "Замша , Натуральный мех",
-    "country": "Китай",
-    "sizes": [
-      "36",
-      "39",
-      "40"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "23.0",
-        "available": true
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": true
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": true
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/45c40927-22f8-4077-b62b-c353b70f95b9.jpeg"
-    ],
-    "description": "Модель: Ugg Lowmel Sneaker Black. Артикул: 2393. Матеріал: Замша , Натуральный мех. Сезон: Зима. Виробництво: Китай. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Ugg Lowmel Sneaker Black (арт. 2393) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Ugg Lowmel Sneaker Black (арт. 2393) за 4500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "199670",
     "slug": "ugg-lowmel-sneaker-chestnut-2394",
     "name": "UGG Lowmel Sneaker Chestnut",
@@ -136452,6 +136360,7 @@
     "sizes": [
       "36",
       "37",
+      "40",
       "41"
     ],
     "sizeChart": [
@@ -136478,7 +136387,7 @@
       {
         "size": "40",
         "cm": "25.5",
-        "available": false
+        "available": true
       },
       {
         "size": "41",
@@ -138286,97 +138195,6 @@
     }
   },
   {
-    "id": "197786",
-    "slug": "christian-dior-walk-n-dior-white-gold-premium-9-1448",
-    "name": "CHRISTIAN DIOR | WALK’n DIOR WHITE / GOLD premium (9",
-    "brand": "Dior",
-    "brandSlug": "dior",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 4000,
-    "oldPrice": 6667,
-    "costPrice": 3500,
-    "sku": "1448",
-    "material": "Текстиль, хутро",
-    "country": "Італія",
-    "sizes": [
-      "37",
-      "38",
-      "39"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": true
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": true
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": true
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/81fe97e0-e516-49ef-b6f8-028d1aba4a54.jpeg"
-    ],
-    "description": "Модель: CHRISTIAN DIOR | WALK’n DIOR WHITE / GOLD premium (9. Артикул: 1448. Матеріал: Текстиль, хутро. Сезон: Зима. Виробництво: Італія. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "CHRISTIAN DIOR | WALK’n DIOR WHITE / GOLD premium (9 (арт. 1448) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте CHRISTIAN DIOR | WALK’n DIOR WHITE / GOLD premium (9 (арт. 1448) за 4000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "197638",
     "slug": "adidas-yeezy-350-v2-828",
     "name": "Adidas Yeezy 350 V2",
@@ -140069,7 +139887,6 @@
     "sizes": [
       "38",
       "39",
-      "40",
       "41"
     ],
     "sizeChart": [
@@ -140096,7 +139913,7 @@
       {
         "size": "40",
         "cm": "25.5",
-        "available": true
+        "available": false
       },
       {
         "size": "41",
@@ -151493,8 +151310,7 @@
       "41",
       "42",
       "43",
-      "44",
-      "45"
+      "44"
     ],
     "sizeChart": [
       {
@@ -151545,7 +151361,7 @@
       {
         "size": "45",
         "cm": "29.0",
-        "available": true
+        "available": false
       },
       {
         "size": "46",
@@ -152959,97 +152775,6 @@
     "seo": {
       "title": "NEW BALANCE 2000 | BLACK / SILVER (4 (арт. 1366) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте NEW BALANCE 2000 | BLACK / SILVER (4 (арт. 1366) за 2299 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "187657",
-    "slug": "adidas-adi2000-white-blue-2326",
-    "name": "Adidas Adi2000 White Blue",
-    "brand": "Adidas",
-    "brandSlug": "adidas",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 1599,
-    "oldPrice": 2665,
-    "costPrice": 1099,
-    "sku": "2326",
-    "material": "Замша",
-    "country": "В'єтнам",
-    "sizes": [
-      "36",
-      "38",
-      "41"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": true
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": true
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "25.5",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/c15196bf-021f-4a6b-91cb-4f0b08e5b4de.jpeg"
-    ],
-    "description": "Модель: Adidas Adi2000 White Blue. Артикул: 2326. Матеріал: Замша. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Adidas Adi2000 White Blue (арт. 2326) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Adidas Adi2000 White Blue (арт. 2326) за 1599 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -156970,7 +156695,6 @@
       "37",
       "38",
       "39",
-      "40",
       "41",
       "43",
       "44",
@@ -157000,7 +156724,7 @@
       {
         "size": "40",
         "cm": "25.5",
-        "available": true
+        "available": false
       },
       {
         "size": "41",
@@ -157443,6 +157167,7 @@
       "37",
       "38",
       "39",
+      "40",
       "41"
     ],
     "sizeChart": [
@@ -157469,7 +157194,7 @@
       {
         "size": "40",
         "cm": "25.5",
-        "available": false
+        "available": true
       },
       {
         "size": "41",
@@ -159582,8 +159307,7 @@
     "sizes": [
       "37",
       "39",
-      "40",
-      "41"
+      "40"
     ],
     "sizeChart": [
       {
@@ -159614,7 +159338,7 @@
       {
         "size": "41",
         "cm": "26.0",
-        "available": true
+        "available": false
       },
       {
         "size": "42",
@@ -162471,7 +162195,6 @@
     "sizes": [
       "36",
       "37",
-      "40",
       "42",
       "45"
     ],
@@ -162499,7 +162222,7 @@
       {
         "size": "40",
         "cm": "25.0",
-        "available": true
+        "available": false
       },
       {
         "size": "41",
@@ -188986,7 +188709,7 @@
     "sizes": [
       "36",
       "37",
-      "39"
+      "38"
     ],
     "sizeChart": [
       {
@@ -189002,12 +188725,12 @@
       {
         "size": "38",
         "cm": "24.0",
-        "available": false
+        "available": true
       },
       {
         "size": "39",
         "cm": "24.5",
-        "available": true
+        "available": false
       },
       {
         "size": "40",
@@ -198040,7 +197763,6 @@
       "38",
       "40",
       "41",
-      "43",
       "44"
     ],
     "sizeChart": [
@@ -198082,7 +197804,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": true
+        "available": false
       },
       {
         "size": "44",
@@ -205027,6 +204749,7 @@
       "38",
       "39",
       "41",
+      "42",
       "44",
       "45"
     ],
@@ -205064,7 +204787,7 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": false
+        "available": true
       },
       {
         "size": "43",
@@ -207672,6 +207395,7 @@
     "country": "-",
     "sizes": [
       "36",
+      "39",
       "40",
       "41",
       "42"
@@ -207695,7 +207419,7 @@
       {
         "size": "39",
         "cm": "24.5",
-        "available": false
+        "available": true
       },
       {
         "size": "40",
@@ -209323,6 +209047,97 @@
     }
   },
   {
+    "id": "129390",
+    "slug": "ugg-classic-mini-dipper-black-1458",
+    "name": "UGG Classic Mini Dipper Black",
+    "brand": "UGG",
+    "brandSlug": "ugg",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 4400,
+    "oldPrice": 7333,
+    "costPrice": 3900,
+    "sku": "1458",
+    "material": "Замша, хутро",
+    "country": "В'єтнам",
+    "sizes": [
+      "38",
+      "40",
+      "41"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "23.0",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "24.5",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": false
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "28.5",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": true,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/4694fcf7-d96b-4b8d-ae88-f289982ff135.jpeg"
+    ],
+    "description": "Модель: UGG Classic Mini Dipper Black. Артикул: 1458. Матеріал: Замша, хутро. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "UGG Classic Mini Dipper Black (арт. 1458) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте UGG Classic Mini Dipper Black (арт. 1458) за 4400 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
     "id": "129133",
     "slug": "ugg-classic-mini-dipper-chestnut-1456",
     "name": "UGG Classic Mini Dipper Chestnut",
@@ -209435,6 +209250,7 @@
     "material": "Замша, овчина",
     "country": "В'єтнам",
     "sizes": [
+      "37",
       "38",
       "39",
       "40",
@@ -209449,7 +209265,7 @@
       {
         "size": "37",
         "cm": "23.5",
-        "available": false
+        "available": true
       },
       {
         "size": "38",
@@ -213591,9 +213407,9 @@
     "genderName": "Жіночі",
     "season": "winter",
     "seasonName": "Зима",
-    "price": 3000,
-    "oldPrice": 5000,
-    "costPrice": 2500,
+    "price": 1999,
+    "oldPrice": 3332,
+    "costPrice": 1499,
     "sku": "1028",
     "material": "Натуральна замша, натуральне хутро",
     "country": "Китай",
@@ -213667,7 +213483,7 @@
     "description": "Модель: UGG CHELSEA PLATFORM GINGER. Артикул: 1028. Матеріал: Натуральна замша, натуральне хутро. Сезон: Зима. Виробництво: Китай. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
     "seo": {
       "title": "UGG CHELSEA PLATFORM GINGER (арт. 1028) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте UGG CHELSEA PLATFORM GINGER (арт. 1028) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+      "description": "Замовляйте UGG CHELSEA PLATFORM GINGER (арт. 1028) за 1999 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -214503,102 +214319,6 @@
     "seo": {
       "title": "UGG Sweater Letter Boots Chestnut (арт. 1429) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте UGG Sweater Letter Boots Chestnut (арт. 1429) за 4500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "123578",
-    "slug": "nike-acg-terra-antarktik-juniper-fog-1149",
-    "name": "Nike ACG Terra Antarktik Juniper Fog",
-    "brand": "Nike",
-    "brandSlug": "nike",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 3300,
-    "oldPrice": 5500,
-    "costPrice": 2800,
-    "sku": "1149",
-    "material": "текстиль , резина",
-    "country": "В'єтнам",
-    "sizes": [
-      "41",
-      "42",
-      "44"
-    ],
-    "sizeChart": [
-      {
-        "size": "35",
-        "cm": "22.0",
-        "available": false
-      },
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": true
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": true
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "30.0",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/b853f804-fe59-4ad4-a0e6-f746867694ae.jpg"
-    ],
-    "description": "Модель: Nike ACG Terra Antarktik Juniper Fog. Артикул: 1149. Матеріал: текстиль , резина. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Nike ACG Terra Antarktik Juniper Fog (арт. 1149) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Nike ACG Terra Antarktik Juniper Fog (арт. 1149) за 3300 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -216754,6 +216474,97 @@
     "seo": {
       "title": "UGG Neumel Platform Chukka Chestnut (арт. 1412) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте UGG Neumel Platform Chukka Chestnut (арт. 1412) за 4400 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "121894",
+    "slug": "ugg-neumel-platform-chukka-black-1411",
+    "name": "UGG Neumel Platform Chukka Black",
+    "brand": "UGG",
+    "brandSlug": "ugg",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 4800,
+    "oldPrice": 8000,
+    "costPrice": 4300,
+    "sku": "1411",
+    "material": "Замша, овчина",
+    "country": "В'єтнам",
+    "sizes": [
+      "37",
+      "39",
+      "40"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "23.0",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": true
+      },
+      {
+        "size": "38",
+        "cm": "24.5",
+        "available": false
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": false
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "28.5",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": true,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/644a3543-8c33-4822-89c0-2f288e4ce71b.jpeg"
+    ],
+    "description": "Модель: UGG Neumel Platform Chukka Black. Артикул: 1411. Матеріал: Замша, овчина. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "UGG Neumel Platform Chukka Black (арт. 1411) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте UGG Neumel Platform Chukka Black (арт. 1411) за 4800 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -240324,8 +240135,7 @@
     "sizes": [
       "40",
       "41",
-      "42",
-      "43"
+      "42"
     ],
     "sizeChart": [
       {
@@ -240366,7 +240176,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": true
+        "available": false
       },
       {
         "size": "44",
@@ -245297,7 +245107,6 @@
       "36",
       "37",
       "38",
-      "39",
       "40",
       "41",
       "42",
@@ -245323,7 +245132,7 @@
       {
         "size": "39",
         "cm": "24.5",
-        "available": true
+        "available": false
       },
       {
         "size": "40",
@@ -248143,6 +247952,97 @@
     }
   },
   {
+    "id": "67490",
+    "slug": "ugg-neumel-chelsea-black-platform-1100",
+    "name": "Ugg Neumel Chelsea Black Platform",
+    "brand": "UGG",
+    "brandSlug": "ugg",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 4800,
+    "oldPrice": 8000,
+    "costPrice": 4300,
+    "sku": "1100",
+    "material": "Замша, овчина",
+    "country": "В'єтнам",
+    "sizes": [
+      "36",
+      "39",
+      "40"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "23.0",
+        "available": true
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "24.5",
+        "available": false
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": false
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "28.5",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": true,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/68a71b9b-31c2-4e40-9724-60d9a18bc6da.jpeg"
+    ],
+    "description": "Модель: Ugg Neumel Chelsea Black Platform. Артикул: 1100. Матеріал: Замша, овчина. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Ugg Neumel Chelsea Black Platform (арт. 1100) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Ugg Neumel Chelsea Black Platform (арт. 1100) за 4800 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
     "id": "67489",
     "slug": "ugg-neumel-chelsea-chestnut-platform-1099",
     "name": "Ugg Neumel Chelsea Chestnut Platform",
@@ -248162,6 +248062,7 @@
     "country": "В'єтнам",
     "sizes": [
       "38",
+      "39",
       "40",
       "41"
     ],
@@ -248184,7 +248085,7 @@
       {
         "size": "39",
         "cm": "25.0",
-        "available": false
+        "available": true
       },
       {
         "size": "40",
@@ -253716,7 +253617,6 @@
       "38",
       "41",
       "42",
-      "43",
       "44",
       "45"
     ],
@@ -253759,7 +253659,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": true
+        "available": false
       },
       {
         "size": "44",
@@ -256584,7 +256484,6 @@
     "country": "В'єтнам",
     "sizes": [
       "41",
-      "42",
       "44",
       "45"
     ],
@@ -256622,7 +256521,7 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": true
+        "available": false
       },
       {
         "size": "43",
@@ -256771,8 +256670,7 @@
       "40",
       "41",
       "42",
-      "43",
-      "45"
+      "43"
     ],
     "sizeChart": [
       {
@@ -256823,7 +256721,7 @@
       {
         "size": "45",
         "cm": "29.0",
-        "available": true
+        "available": false
       },
       {
         "size": "46",
@@ -267071,97 +266969,6 @@
     }
   },
   {
-    "id": "13613",
-    "slug": "nike-air-jordan-retro-4-black-nj031",
-    "name": "Nike Air Jordan Retro 4 Black",
-    "brand": "Nike",
-    "brandSlug": "nike",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 2600,
-    "oldPrice": 4333,
-    "costPrice": 2100,
-    "sku": "NJ031",
-    "material": "Кожа",
-    "country": "В'єтнам",
-    "sizes": [
-      "42",
-      "44",
-      "45"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": true
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": true
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": true
-      },
-      {
-        "size": "46",
-        "cm": "30.0",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/itemimage/8292243b-0f65-40bc-a275-9c01de062477.jpeg"
-    ],
-    "description": "Модель: Nike Air Jordan Retro 4 Black. Артикул: NJ031. Матеріал: Кожа. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Nike Air Jordan Retro 4 Black (арт. NJ031) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Nike Air Jordan Retro 4 Black (арт. NJ031) за 2600 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "13551",
     "slug": "nike-air-force-1-shadow-brown-0018",
     "name": "Nike Air Force 1 Shadow Brown",
@@ -271346,6 +271153,98 @@
         "available": false
       }
     ]
+  },
+  {
+    "id": "809",
+    "slug": "nike-af1-shadow-white-premium-n0034",
+    "name": "NIKE AF1 SHADOW WHITE PREMIUM",
+    "brand": "Nike",
+    "brandSlug": "nike",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 2600,
+    "oldPrice": 4333,
+    "costPrice": 2100,
+    "sku": "N0034",
+    "material": "Кожа",
+    "country": "В'єтнам",
+    "sizes": [
+      "38",
+      "39",
+      "40"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "23.0",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "24.5",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.0",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": false
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "28.5",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/6e2268e5-5d0f-42d7-99da-13e786f93df0.jpeg",
+      "https://easydrop.one/media/uploads/images/base/d1b9debd-b12c-4135-beec-d332b6a008a5.jpeg"
+    ],
+    "description": "Модель: NIKE AF1 SHADOW WHITE PREMIUM. Артикул: N0034. Матеріал: Кожа. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "NIKE AF1 SHADOW WHITE PREMIUM (арт. N0034) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте NIKE AF1 SHADOW WHITE PREMIUM (арт. N0034) за 2600 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
   },
   {
     "id": "40",
