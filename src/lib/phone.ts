@@ -58,37 +58,45 @@ const DUMMY_SEQUENCES = new Set([
  * Очищає ввід до 10 національних цифр (0XXXXXXXXX)
  */
 export function extractNationalDigits(raw: string): string {
-  let digits = (raw || '').replace(/\D/g, '');
-  if (digits.startsWith('380')) {
-    digits = digits.substring(2);
-  } else if (digits.startsWith('80')) {
-    digits = digits.substring(1);
-  } else if (digits.length === 9 && !digits.startsWith('0')) {
-    digits = '0' + digits;
+  let clean = (raw || '').replace(/\D/g, '');
+  if (!clean || clean === '38' || clean === '3' || clean === '380') {
+    return '';
   }
-  if (digits.length > 10) {
-    digits = digits.substring(0, 10);
+  if (clean.startsWith('380')) {
+    clean = clean.substring(2);
+  } else if (clean.startsWith('80')) {
+    clean = clean.substring(1);
+  } else if (clean.length > 0 && !clean.startsWith('0')) {
+    clean = '0' + clean;
   }
-  return digits;
+  if (clean.length > 10) {
+    clean = clean.substring(0, 10);
+  }
+  return clean;
 }
 
 /**
- * Форматує цифри у вигляд +38 (0XX) XXX-XX-XX
+ * Форматує цифри у вигляд +380 (XX) XXX-XX-XX
  */
 export function formatUkrainianPhone(digits: string): string {
   if (!digits) return '';
-  let formatted = '+38 ';
-  if (digits.length > 0) {
-    formatted += '(' + digits.substring(0, Math.min(3, digits.length));
+  if (digits === '0') return '+380 (';
+  const rest = digits.startsWith('0') ? digits.substring(1) : digits; // 9 цифр
+  let formatted = '+380 ';
+  if (rest.length > 0) {
+    formatted += '(' + rest.substring(0, Math.min(2, rest.length));
   }
-  if (digits.length >= 4) {
-    formatted += ') ' + digits.substring(3, Math.min(6, digits.length));
+  if (rest.length >= 2) {
+    formatted += ')';
   }
-  if (digits.length >= 7) {
-    formatted += '-' + digits.substring(6, Math.min(8, digits.length));
+  if (rest.length > 2) {
+    formatted += ' ' + rest.substring(2, Math.min(5, rest.length));
   }
-  if (digits.length >= 9) {
-    formatted += '-' + digits.substring(8, Math.min(10, digits.length));
+  if (rest.length > 5) {
+    formatted += '-' + rest.substring(5, Math.min(7, rest.length));
+  }
+  if (rest.length > 7) {
+    formatted += '-' + rest.substring(7, Math.min(9, rest.length));
   }
   return formatted;
 }
@@ -99,7 +107,7 @@ export interface PhoneValidationResult {
   operator?: string;
   normalized?: string; // 10 цифр: "0971234568"
   international?: string; // "+380971234568"
-  formatted?: string; // "+38 (097) 123-45-68"
+  formatted?: string; // "+380 (97) 123-45-68"
 }
 
 function digitsRemainingWord(count: number): string {

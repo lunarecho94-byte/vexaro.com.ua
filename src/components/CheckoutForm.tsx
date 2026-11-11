@@ -40,11 +40,11 @@ export function CheckoutForm() {
     setMounted(true);
   }, []);
 
-  // Format Ukrainian phone mask +38 (0XX) XXX-XX-XX
+  // Format Ukrainian phone mask +380 (XX) XXX-XX-XX
   const handlePhoneChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const rawVal = e.target.value;
     const cleanOnly = rawVal.replace(/\D/g, '');
-    if (!cleanOnly) {
+    if (!cleanOnly || cleanOnly === '38' || cleanOnly === '3' || cleanOnly === '380') {
       setPhone('');
       return;
     }
@@ -247,8 +247,18 @@ export function CheckoutForm() {
                   inputMode="tel"
                   value={phone}
                   onChange={handlePhoneChange}
-                  onBlur={() => setPhoneTouched(true)}
-                  placeholder="+38 (097) 123-45-67"
+                  onFocus={() => {
+                    if (!phone) {
+                      setPhone('+380 (');
+                    }
+                  }}
+                  onBlur={() => {
+                    setPhoneTouched(true);
+                    if (phone === '+380 (' || phone === '+380 ' || phone === '+380') {
+                      setPhone('');
+                    }
+                  }}
+                  placeholder="+380 (97) 123-45-67"
                   className={`w-full h-11 rounded-lg border bg-background px-3.5 text-sm font-mono text-foreground placeholder:text-muted focus:outline-none transition-colors ${
                     phone && phoneValidation.isValid
                       ? 'border-emerald-500 focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500'
