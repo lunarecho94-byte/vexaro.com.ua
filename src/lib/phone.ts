@@ -1,7 +1,6 @@
 /**
  * Валідація та форматування українських номерів телефонів.
- * Дозволяє лише дійсні мобільні номери українських операторів (Київстар, Vodafone, lifecell, тощо)
- * та блокує неповні номери, неіснуючі коди операторів і тестові/фейкові набори цифр.
+ * Формат маски: +380 (XX) XXX-XX-XX
  */
 
 export const UKRAINIAN_OPERATORS: Record<string, string> = {
@@ -55,50 +54,56 @@ const DUMMY_SEQUENCES = new Set([
 ]);
 
 /**
- * Очищає ввід до 10 національних цифр (0XXXXXXXXX)
+ * Витягує 9 цифр українського номера (без префікса 380 або початкового 0).
+ * Запобігає появі випадкових цифр при видаленні префікса (+380, +38, +3).
  */
-export function extractNationalDigits(raw: string): string {
-  let clean = (raw || '').replace(/\D/g, '');
-  if (!clean || clean === '38' || clean === '3' || clean === '380') {
+export function extractPhoneDigits(input: string): string {
+  if (!input) return '';
+  let digits = input.replace(/\D/g, '');
+  // Якщо залишився лише префікс або його частина (+380, +38, +3) -> вважаємо поле повністю очищеним
+  if (!digits || digits === '3' || digits === '38' || digits === '380') {
     return '';
   }
-  if (clean.startsWith('380')) {
-    clean = clean.substring(2);
-  } else if (clean.startsWith('80')) {
-    clean = clean.substring(1);
-  } else if (clean.length > 0 && !clean.startsWith('0')) {
-    clean = '0' + clean;
+  if (digits.startsWith('380')) {
+    digits = digits.substring(3);
+  } else if (digits.startsWith('80')) {
+    digits = digits.substring(2);
+  } else if (digits.startsWith('0')) {
+    digits = digits.substring(1);
   }
-  if (clean.length > 10) {
-    clean = clean.substring(0, 10);
-  }
-  return clean;
+  return digits.substring(0, 9);
 }
 
 /**
- * Форматує цифри у вигляд +380 (XX) XXX-XX-XX
+ * Зворотна сумісність: 10 національних цифр (0XXXXXXXXX)
  */
-export function formatUkrainianPhone(digits: string): string {
+export function extractNationalDigits(raw: string): string {
+  const digits = extractPhoneDigits(raw);
+  return digits ? '0' + digits : '';
+}
+
+/**
+ * Форматує 9 цифр у вигляд +380 (XX) XXX-XX-XX.
+ * Не залишає висячих дужок або дефісів при видаленні цифр назад.
+ */
+export function formatUkrainianPhone(digitsOrRaw: string): string {
+  const digits =
+    digitsOrRaw && digitsOrRaw.length === 9 && !digitsOrRaw.startsWith('+') && !digitsOrRaw.startsWith('0')
+      ? digitsOrRaw
+      : extractPhoneDigits(digitsOrRaw);
+
   if (!digits) return '';
-  if (digits === '0') return '+380 (';
-  const rest = digits.startsWith('0') ? digits.substring(1) : digits; // 9 цифр
-  let formatted = '+380 ';
-  if (rest.length > 0) {
-    formatted += '(' + rest.substring(0, Math.min(2, rest.length));
+
+  let res = '+380 (';
+  if (digits.length <= 2) {
+    return res + digits;
   }
-  if (rest.length >= 2) {
-    formatted += ')';
-  }
-  if (rest.length > 2) {
-    formatted += ' ' + rest.substring(2, Math.min(5, rest.length));
-  }
-  if (rest.length > 5) {
-    formatted += '-' + rest.substring(5, Math.min(7, rest.length));
-  }
-  if (rest.length > 7) {
-    formatted += '-' + rest.substring(7, Math.min(9, rest.length));
-  }
-  return formatted;
+  res += digits.substring(0, 2) + ') ' + digits.substring(2, Math.min(5, digits.length));
+  if (digits.length <= 5) return res;
+  res += '-' + digits.substring(5, Math.min(7, digits.length));
+  if (digits.length <= 7) return res;
+  res += '-' + digits.substring(7, Math.min(9, digits.length));
+  return res;
 }
 
 export interface PhoneValidationResult {
@@ -118,7 +123,7 @@ function digitsRemainingWord(count: number): string {
 
 /**
  * Повна перевірка номера телефону:
- * 1. Наявність та довжина (рівно 10 цифр з початковим 0).
+ * 1. Наявність рівно 9 цифр після +380 (10 цифр у національному форматі 0XX...).
  * 2. Дійсний код українського мобільного оператора.
  * 3. Захист від однакових цифр або шаблонних послідовностей.
  */
@@ -127,25 +132,17 @@ export function validateUkrainianPhone(raw: string): PhoneValidationResult {
     return { isValid: false, error: 'Вкажіть номер телефону' };
   }
 
-  const digits = extractNationalDigits(raw);
+  const digits = extractPhoneDigits(raw);
 
-  if (digits.length < 10) {
-    const missing = 10 - digits.length;
+  if (digits.length < 9) {
+    const missing = 9 - digits.length;
     return {
       isValid: false,
       error: `Введіть повний номер телефону (ще ${missing} ${digitsRemainingWord(missing)})`,
     };
   }
 
-  if (digits.length > 10) {
-    return { isValid: false, error: 'Номер телефону містить забагато цифр' };
-  }
-
-  if (!digits.startsWith('0')) {
-    return { isValid: false, error: 'Номер телефону повинен починатися з 0' };
-  }
-
-  const code = digits.substring(0, 3);
+  const code = '0' + digits.substring(0, 2);
   const operator = UKRAINIAN_OPERATORS[code];
   if (!operator) {
     return {
@@ -154,9 +151,8 @@ export function validateUkrainianPhone(raw: string): PhoneValidationResult {
     };
   }
 
-  const subscriber = digits.substring(3); // 7 цифр після коду
+  const subscriber = digits.substring(2); // 7 цифр
 
-  // Перевірка на 6 або більше однакових цифр підряд
   if (/^(\d)\1{5,}$/.test(subscriber)) {
     return {
       isValid: false,
@@ -164,7 +160,6 @@ export function validateUkrainianPhone(raw: string): PhoneValidationResult {
     };
   }
 
-  // Перевірка на тестові/шаблонні послідовності
   if (DUMMY_SEQUENCES.has(subscriber)) {
     return {
       isValid: false,
@@ -172,12 +167,11 @@ export function validateUkrainianPhone(raw: string): PhoneValidationResult {
     };
   }
 
-  // Перевірка на занадто малу кількість унікальних цифр (наприклад, 0909090909)
   const uniqueDigits = new Set(digits.split(''));
   if (uniqueDigits.size <= 2) {
     return {
       isValid: false,
-      error: 'Введіть коректний номер телефону',
+      error: 'Введіть реальний номер телефону',
     };
   }
 
@@ -185,8 +179,8 @@ export function validateUkrainianPhone(raw: string): PhoneValidationResult {
   return {
     isValid: true,
     operator,
-    normalized: digits,
-    international: `+38${digits}`,
+    normalized: '0' + digits,
+    international: `+380${digits}`,
     formatted,
   };
 }

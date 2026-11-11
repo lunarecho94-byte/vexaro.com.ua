@@ -8,6 +8,7 @@ import { useCartStore } from '@/lib/cart-store';
 import { Truck, ShieldCheck, ShoppingBag, Loader2, ArrowLeft } from 'lucide-react';
 import { NovaPoshtaDeliverySelect } from '@/components/NovaPoshtaDeliverySelect';
 import {
+  extractPhoneDigits,
   extractNationalDigits,
   formatUkrainianPhone,
   validateUkrainianPhone,
@@ -43,12 +44,11 @@ export function CheckoutForm() {
   // Format Ukrainian phone mask +380 (XX) XXX-XX-XX
   const handlePhoneChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const rawVal = e.target.value;
-    const cleanOnly = rawVal.replace(/\D/g, '');
-    if (!cleanOnly || cleanOnly === '38' || cleanOnly === '3' || cleanOnly === '380') {
+    const digits = extractPhoneDigits(rawVal);
+    if (!digits) {
       setPhone('');
       return;
     }
-    const digits = extractNationalDigits(rawVal);
     const formatted = formatUkrainianPhone(digits);
     setPhone(formatted);
   };
@@ -247,14 +247,9 @@ export function CheckoutForm() {
                   inputMode="tel"
                   value={phone}
                   onChange={handlePhoneChange}
-                  onFocus={() => {
-                    if (!phone) {
-                      setPhone('+380 (');
-                    }
-                  }}
                   onBlur={() => {
                     setPhoneTouched(true);
-                    if (phone === '+380 (' || phone === '+380 ' || phone === '+380') {
+                    if (!extractPhoneDigits(phone)) {
                       setPhone('');
                     }
                   }}
@@ -274,7 +269,7 @@ export function CheckoutForm() {
                 <p className="text-xs text-emerald-600 dark:text-emerald-400 mt-1.5 flex items-center gap-1.5 font-medium">
                   <span className="text-sm leading-none">✓</span> Номер підтверджено ({phoneValidation.operator})
                 </p>
-              ) : phone && (phoneTouched || phone.replace(/\D/g, '').length >= 12 || (phone.replace(/\D/g, '').length >= 5 && !UKRAINIAN_OPERATORS[extractNationalDigits(phone).substring(0, 3)])) && !phoneValidation.isValid ? (
+              ) : phone && (phoneTouched || extractPhoneDigits(phone).length >= 9 || (extractPhoneDigits(phone).length >= 2 && !UKRAINIAN_OPERATORS['0' + extractPhoneDigits(phone).substring(0, 2)])) && !phoneValidation.isValid ? (
                 <p className="text-xs text-rose-500 mt-1.5 flex items-start gap-1.5 font-medium leading-snug">
                   <span className="text-sm leading-none shrink-0">⚠️</span>
                   <span>{phoneValidation.error}</span>
