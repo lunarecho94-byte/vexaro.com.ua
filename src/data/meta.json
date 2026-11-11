@@ -1,5 +1,5 @@
 {
-  "total": 2912,
+  "total": 2911,
   "brands": [
     {
       "name": "Nike",
@@ -44,7 +44,7 @@
     {
       "name": "Salomon",
       "slug": "salomon",
-      "count": 55
+      "count": 54
     },
     {
       "name": "On Cloud",
@@ -171,7 +171,7 @@
     {
       "name": "Взуття",
       "slug": "shoes",
-      "count": 2912
+      "count": 2911
     }
   ],
   "genders": [
@@ -183,7 +183,7 @@
     {
       "name": "Чоловічі",
       "slug": "men",
-      "count": 982
+      "count": 981
     },
     {
       "name": "Унісекс",
@@ -195,7 +195,7 @@
     {
       "name": "Демісезон",
       "slug": "demi",
-      "count": 2526
+      "count": 2525
     },
     {
       "name": "Зима",
@@ -220,12 +220,12 @@
     "45",
     "46",
     "47",
+    "L",
     "40–41",
     "XL",
-    "L",
+    "45/46",
     "M",
-    "S",
-    "45/46"
+    "S"
   ],
   "minPrice": 900,
   "maxPrice": 6400
