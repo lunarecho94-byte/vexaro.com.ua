@@ -9025,6 +9025,97 @@
     }
   },
   {
+    "id": "255949",
+    "slug": "new-balance-9060-termo-nb516",
+    "name": "New Balance 9060 (термо)",
+    "brand": "New Balance",
+    "brandSlug": "newbalance",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "men",
+    "genderName": "Чоловічі",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 2700,
+    "oldPrice": 4500,
+    "costPrice": 2200,
+    "sku": "NB516",
+    "material": "Шкіра, замша, вологостійкий текстиль, термоутеплювач, гума, піна, прошиті",
+    "country": "В'єтнам",
+    "sizes": [
+      "42",
+      "43",
+      "44"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": false
+      },
+      {
+        "size": "39",
+        "cm": "24.5",
+        "available": false
+      },
+      {
+        "size": "40",
+        "cm": "25.0",
+        "available": false
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": false
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": true
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": true
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": true
+      },
+      {
+        "size": "45",
+        "cm": "29.0",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "30.0",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": true,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/e9b31a1f-f5a8-44cc-8b68-39b74f4bb7bf.jpg"
+    ],
+    "description": "Модель: New Balance 9060 (термо). Артикул: NB516. Матеріал: Шкіра, замша, вологостійкий текстиль, термоутеплювач, гума, піна, прошиті. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "New Balance 9060 (термо) (арт. NB516) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте New Balance 9060 (термо) (арт. NB516) за 2700 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
     "id": "255888",
     "slug": "nike-dunk-low-white-green-ib4417-100-2095",
     "name": "Nike Dunk Low White/Green IB4417-100",
@@ -9419,6 +9510,7 @@
     "material": "Замша",
     "country": "В'єтнам",
     "sizes": [
+      "41",
       "42",
       "43",
       "44",
@@ -9453,7 +9545,7 @@
       {
         "size": "41",
         "cm": "26.0",
-        "available": false
+        "available": true
       },
       {
         "size": "42",
@@ -22339,6 +22431,8 @@
     "sizes": [
       "36",
       "37",
+      "38",
+      "39",
       "40"
     ],
     "sizeChart": [
@@ -22355,12 +22449,12 @@
       {
         "size": "38",
         "cm": "24.5",
-        "available": false
+        "available": true
       },
       {
         "size": "39",
         "cm": "25.0",
-        "available": false
+        "available": true
       },
       {
         "size": "40",
@@ -38977,6 +39071,97 @@
     "seo": {
       "title": "New Balance 9060 Beige Leopard (арт. 2847) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте New Balance 9060 Beige Leopard (арт. 2847) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "248388",
+    "slug": "moncler-trailgrip-gore-tex-black-white-3006",
+    "name": "Moncler Trailgrip Gore-Tex Black White",
+    "brand": "Інші бренди",
+    "brandSlug": "other",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "men",
+    "genderName": "Чоловічі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 4000,
+    "oldPrice": 6667,
+    "costPrice": 3500,
+    "sku": "3006",
+    "material": "Кожа , Текстиль",
+    "country": "В'єтнам",
+    "sizes": [
+      "42",
+      "43",
+      "44"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": false
+      },
+      {
+        "size": "39",
+        "cm": "24.5",
+        "available": false
+      },
+      {
+        "size": "40",
+        "cm": "25.0",
+        "available": false
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": false
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": true
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": true
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": true
+      },
+      {
+        "size": "45",
+        "cm": "29.0",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/5bf2ab93-5779-44a6-8ff8-edcc9dc0b484.jpeg"
+    ],
+    "description": "Модель: Moncler Trailgrip Gore-Tex Black White. Артикул: 3006. Матеріал: Кожа , Текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Moncler Trailgrip Gore-Tex Black White (арт. 3006) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Moncler Trailgrip Gore-Tex Black White (арт. 3006) за 4000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -58208,6 +58393,97 @@
     "seo": {
       "title": "New Balance 9060 (термо) (арт. NB486) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте New Balance 9060 (термо) (арт. NB486) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "242089",
+    "slug": "new-balance-9060-termo-nb484",
+    "name": "New Balance 9060 (термо)",
+    "brand": "New Balance",
+    "brandSlug": "newbalance",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "unisex",
+    "genderName": "Унісекс",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 2900,
+    "oldPrice": 4833,
+    "costPrice": 2400,
+    "sku": "NB484",
+    "material": "Замша, шкіра, вологостійкий текстиль, термоутеплювач, гума, піна, прошиті",
+    "country": "В'єтнам",
+    "sizes": [
+      "37",
+      "44",
+      "45"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": true
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": false
+      },
+      {
+        "size": "39",
+        "cm": "24.5",
+        "available": false
+      },
+      {
+        "size": "40",
+        "cm": "25.0",
+        "available": false
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": false
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": true
+      },
+      {
+        "size": "45",
+        "cm": "29.0",
+        "available": true
+      },
+      {
+        "size": "46",
+        "cm": "30.0",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": true,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/f3c847bd-56cb-48f7-976e-acd35478798e.jpg"
+    ],
+    "description": "Модель: New Balance 9060 (термо). Артикул: NB484. Матеріал: Замша, шкіра, вологостійкий текстиль, термоутеплювач, гума, піна, прошиті. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "New Balance 9060 (термо) (арт. NB484) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте New Balance 9060 (термо) (арт. NB484) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -80588,6 +80864,7 @@
     "sizes": [
       "37",
       "38",
+      "39",
       "40"
     ],
     "sizeChart": [
@@ -80609,7 +80886,7 @@
       {
         "size": "39",
         "cm": "25.0",
-        "available": false
+        "available": true
       },
       {
         "size": "40",
@@ -85367,6 +85644,7 @@
     "material": "Замша , Текстиль",
     "country": "В'єтнам",
     "sizes": [
+      "36",
       "37",
       "38",
       "39",
@@ -85376,7 +85654,7 @@
       {
         "size": "36",
         "cm": "22.5",
-        "available": false
+        "available": true
       },
       {
         "size": "37",
@@ -88433,6 +88711,7 @@
     "country": "В'єтнам",
     "sizes": [
       "38",
+      "39",
       "40",
       "41",
       "42",
@@ -88459,7 +88738,7 @@
       {
         "size": "39",
         "cm": "25.0",
-        "available": false
+        "available": true
       },
       {
         "size": "40",
@@ -134035,6 +134314,97 @@
     }
   },
   {
+    "id": "199869",
+    "slug": "ugg-classic-dipper-boot-mid-black-2403",
+    "name": "UGG Classic Dipper Boot Mid Black",
+    "brand": "UGG",
+    "brandSlug": "ugg",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 4400,
+    "oldPrice": 7333,
+    "costPrice": 3900,
+    "sku": "2403",
+    "material": "Замша , Натуральный мех",
+    "country": "Китай",
+    "sizes": [
+      "38",
+      "39",
+      "40"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "23.0",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "24.5",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": false
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "28.5",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": true,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/f9818327-43fb-4201-8f72-136f942c989a.jpeg"
+    ],
+    "description": "Модель: UGG Classic Dipper Boot Mid Black. Артикул: 2403. Матеріал: Замша , Натуральный мех. Сезон: Зима. Виробництво: Китай. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "UGG Classic Dipper Boot Mid Black (арт. 2403) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте UGG Classic Dipper Boot Mid Black (арт. 2403) за 4400 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
     "id": "199868",
     "slug": "ugg-classic-dipper-boot-chestnut-2386",
     "name": "UGG Classic Dipper Boot Chestnut",
@@ -143900,6 +144270,97 @@
     }
   },
   {
+    "id": "193567",
+    "slug": "salomon-xa-pro-street-thinsulate-gore-tex-black-2417",
+    "name": "Salomon XA Pro Street Thinsulate Gore-Tex Black",
+    "brand": "Salomon",
+    "brandSlug": "salomon",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "men",
+    "genderName": "Чоловічі",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 2900,
+    "oldPrice": 4833,
+    "costPrice": 2400,
+    "sku": "2417",
+    "material": "Кожа , Замша , Текстиль",
+    "country": "В'єтнам",
+    "sizes": [
+      "41",
+      "43",
+      "44"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.0",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.0",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "39",
+        "cm": "24.5",
+        "available": false
+      },
+      {
+        "size": "40",
+        "cm": "25.0",
+        "available": false
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": true
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": true
+      },
+      {
+        "size": "45",
+        "cm": "28.5",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/582b97b3-e5f2-4543-b093-527de8aa7752.jpeg"
+    ],
+    "description": "Модель: Salomon XA Pro Street Thinsulate Gore-Tex Black. Артикул: 2417. Матеріал: Кожа , Замша , Текстиль. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Salomon XA Pro Street Thinsulate Gore-Tex Black (арт. 2417) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Salomon XA Pro Street Thinsulate Gore-Tex Black (арт. 2417) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
     "id": "193566",
     "slug": "salomon-xa-pro-street-thinsulate-gore-tex-khaki-1935",
     "name": "Salomon XA Pro Street Thinsulate Gore-Tex Khaki",
@@ -149951,6 +150412,7 @@
     "material": "Шкіра, хутро",
     "country": "Китай",
     "sizes": [
+      "37",
       "39",
       "40",
       "41"
@@ -149964,7 +150426,7 @@
       {
         "size": "37",
         "cm": "23.5",
-        "available": false
+        "available": true
       },
       {
         "size": "38",
@@ -162967,7 +163429,6 @@
     "sizes": [
       "36",
       "37",
-      "39",
       "42",
       "45"
     ],
@@ -162990,7 +163451,7 @@
       {
         "size": "39",
         "cm": "24.5",
-        "available": true
+        "available": false
       },
       {
         "size": "40",
@@ -163047,8 +163508,8 @@
     "brandSlug": "nike",
     "category": "Взуття",
     "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
+    "gender": "unisex",
+    "genderName": "Унісекс",
     "season": "demi",
     "seasonName": "Демісезон",
     "price": 3000,
@@ -163060,8 +163521,7 @@
     "sizes": [
       "36",
       "37",
-      "38",
-      "39"
+      "44"
     ],
     "sizeChart": [
       {
@@ -163077,12 +163537,12 @@
       {
         "size": "38",
         "cm": "24.0",
-        "available": true
+        "available": false
       },
       {
         "size": "39",
         "cm": "24.5",
-        "available": true
+        "available": false
       },
       {
         "size": "40",
@@ -163107,16 +163567,16 @@
       {
         "size": "44",
         "cm": "28.0",
-        "available": false
+        "available": true
       },
       {
         "size": "45",
-        "cm": "28.5",
+        "cm": "29.0",
         "available": false
       },
       {
         "size": "46",
-        "cm": "29.5",
+        "cm": "30.0",
         "available": false
       }
     ],
@@ -182116,8 +182576,7 @@
     "sizes": [
       "36",
       "37",
-      "38",
-      "39"
+      "38"
     ],
     "sizeChart": [
       {
@@ -182138,7 +182597,7 @@
       {
         "size": "39",
         "cm": "24.5",
-        "available": true
+        "available": false
       },
       {
         "size": "40",
@@ -191608,8 +192067,8 @@
     "brandSlug": "nike",
     "category": "Взуття",
     "categorySlug": "shoes",
-    "gender": "unisex",
-    "genderName": "Унісекс",
+    "gender": "women",
+    "genderName": "Жіночі",
     "season": "demi",
     "seasonName": "Демісезон",
     "price": 2500,
@@ -191622,8 +192081,8 @@
       "36",
       "37",
       "38",
-      "40",
-      "44"
+      "39",
+      "40"
     ],
     "sizeChart": [
       {
@@ -191644,7 +192103,7 @@
       {
         "size": "39",
         "cm": "24.5",
-        "available": false
+        "available": true
       },
       {
         "size": "40",
@@ -191669,16 +192128,16 @@
       {
         "size": "44",
         "cm": "28.0",
-        "available": true
+        "available": false
       },
       {
         "size": "45",
-        "cm": "29.0",
+        "cm": "28.5",
         "available": false
       },
       {
         "size": "46",
-        "cm": "30.0",
+        "cm": "29.5",
         "available": false
       }
     ],
@@ -229213,97 +229672,6 @@
     }
   },
   {
-    "id": "105620",
-    "slug": "nike-zoom-vomero-5-sail-light-n00174",
-    "name": "Nike Zoom Vomero 5 “Sail Light”",
-    "brand": "Nike",
-    "brandSlug": "nike",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 2600,
-    "oldPrice": 4333,
-    "costPrice": 2100,
-    "sku": "N00174",
-    "material": "Шкіра, текстиль",
-    "country": "-",
-    "sizes": [
-      "36",
-      "38",
-      "39"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "23.0",
-        "available": true
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": true
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": true
-      },
-      {
-        "size": "40",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/e6b04e9d-23c1-4636-997b-0473747f5a7a.jpeg"
-    ],
-    "description": "Модель: Nike Zoom Vomero 5 “Sail Light”. Артикул: N00174. Матеріал: Шкіра, текстиль. Сезон: Демісезон. Виробництво: -. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Nike Zoom Vomero 5 “Sail Light” (арт. N00174) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Nike Zoom Vomero 5 “Sail Light” (арт. N00174) за 2600 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "105546",
     "slug": "nike-zoom-vomero-5-n00175",
     "name": "Nike Zoom Vomero 5",
@@ -244848,98 +245216,6 @@
     }
   },
   {
-    "id": "82823",
-    "slug": "nike-zoom-vomero-5-white-n00165",
-    "name": "Nike Zoom Vomero 5 White",
-    "brand": "Nike",
-    "brandSlug": "nike",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 2400,
-    "oldPrice": 4000,
-    "costPrice": 1900,
-    "sku": "N00165",
-    "material": "Шкіра, текстиль",
-    "country": "-",
-    "sizes": [
-      "37",
-      "38",
-      "40"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "23.0",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": true
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": true
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.0",
-        "available": true
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/c06ac0c2-c984-48de-abc7-70530d385c38.jpeg",
-      "https://easydrop.one/media/uploads/images/base/a8f7cf68-7616-425b-9ea9-279b12b2fbdf.jpeg"
-    ],
-    "description": "Модель: Nike Zoom Vomero 5 White. Артикул: N00165. Матеріал: Шкіра, текстиль. Сезон: Демісезон. Виробництво: -. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Nike Zoom Vomero 5 White (арт. N00165) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Nike Zoom Vomero 5 White (арт. N00165) за 2400 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "82821",
     "slug": "nike-p-6000-n00164",
     "name": "Nike P-6000",
@@ -246341,6 +246617,97 @@
     "seo": {
       "title": "Nike ACG Mountain Fly Gore-Tex All Black (арт. NK092) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Nike ACG Mountain Fly Gore-Tex All Black (арт. NK092) за 3300 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "75542",
+    "slug": "ugg-mini-black-zip-suede-0817",
+    "name": "UGG MINI BLACK ZIP SUEDE",
+    "brand": "UGG",
+    "brandSlug": "ugg",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 1599,
+    "oldPrice": 2665,
+    "costPrice": 1099,
+    "sku": "0817",
+    "material": "Натуральна замша, екохутро, пропитка",
+    "country": "Китай",
+    "sizes": [
+      "38",
+      "39",
+      "40"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "23.0",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "24.5",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": false
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "28.5",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": true,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/610b40c3-f874-4bd8-9d93-cb31368841ff.jpeg"
+    ],
+    "description": "Модель: UGG MINI BLACK ZIP SUEDE. Артикул: 0817. Матеріал: Натуральна замша, екохутро, пропитка. Сезон: Зима. Виробництво: Китай. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "UGG MINI BLACK ZIP SUEDE (арт. 0817) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте UGG MINI BLACK ZIP SUEDE (арт. 0817) за 1599 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -268038,6 +268405,97 @@
     }
   },
   {
+    "id": "13613",
+    "slug": "nike-air-jordan-retro-4-black-nj031",
+    "name": "Nike Air Jordan Retro 4 Black",
+    "brand": "Nike",
+    "brandSlug": "nike",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "men",
+    "genderName": "Чоловічі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 2600,
+    "oldPrice": 4333,
+    "costPrice": 2100,
+    "sku": "NJ031",
+    "material": "Кожа",
+    "country": "В'єтнам",
+    "sizes": [
+      "42",
+      "44",
+      "45"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": false
+      },
+      {
+        "size": "39",
+        "cm": "24.5",
+        "available": false
+      },
+      {
+        "size": "40",
+        "cm": "25.0",
+        "available": false
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": false
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": true
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": true
+      },
+      {
+        "size": "45",
+        "cm": "29.0",
+        "available": true
+      },
+      {
+        "size": "46",
+        "cm": "30.0",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/itemimage/8292243b-0f65-40bc-a275-9c01de062477.jpeg"
+    ],
+    "description": "Модель: Nike Air Jordan Retro 4 Black. Артикул: NJ031. Матеріал: Кожа. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Nike Air Jordan Retro 4 Black (арт. NJ031) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Nike Air Jordan Retro 4 Black (арт. NJ031) за 2600 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
     "id": "13551",
     "slug": "nike-air-force-1-shadow-brown-0018",
     "name": "Nike Air Force 1 Shadow Brown",
@@ -271886,6 +272344,7 @@
     "material": "Шкіра",
     "country": "В'єтнам",
     "sizes": [
+      "36",
       "37",
       "38",
       "39",
@@ -271896,7 +272355,7 @@
       {
         "size": "36",
         "cm": "23.0",
-        "available": false
+        "available": true
       },
       {
         "size": "37",
