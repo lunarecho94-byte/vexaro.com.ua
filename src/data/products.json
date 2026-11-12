@@ -1,5 +1,101 @@
 [
   {
+    "id": "252868",
+    "slug": "premiata-moerun-khutro-black-ks2868",
+    "name": "Premiata MOERUN ХУТРО Black",
+    "brand": "Premiata",
+    "brandSlug": "premiata",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "men",
+    "genderName": "Чоловічі",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 3400,
+    "oldPrice": 5667,
+    "costPrice": 2800,
+    "sku": "KS 2868",
+    "material": "Натуральна замша, натуральне хутро, текстиль",
+    "country": "Італія",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "inStock": true,
+    "images": [
+      "/images/products/ks2868/img-1.jpg",
+      "/images/products/ks2868/img-2.jpg",
+      "/images/products/ks2868/img-3.jpg",
+      "/images/products/ks2868/img-4.jpg"
+    ],
+    "description": "Чоловічі зимові кросівки Premiata MOERUN ХУТРО у класичному чорному забарвленні Black (артикул: KS 2868). Верх виготовлений із комбінації преміальної натуральної замші та міцного текстилю, всередині — тепле натуральне хутро для максимального комфорту та захисту від морозів. Фірмова легка підошва Premiata з амортизацією та оригінальними принтами гарантує зручність на кожен день. Виробництво: Італія. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Premiata MOERUN ХУТРО Black (арт. KS 2868) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте зимові кросівки Premiata MOERUN ХУТРО Black (арт. KS 2868) за 3400 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    },
+    "isHit": true,
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": false
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": false
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": false
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": true
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": true
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": true
+      },
+      {
+        "size": "45",
+        "cm": "28.5",
+        "available": true
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ]
+  },
+  {
     "id": "257841",
     "slug": "premiata-moerun-khutro-pm09",
     "name": "Premiata MOERUN ХУТРО",

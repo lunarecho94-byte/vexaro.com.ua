@@ -236,7 +236,7 @@ COLOR_WORDS = {
 EXCLUDED_SKUS = {'16006', '16005', '16004', '16003', 'NB143', '0068', '2688', 'R343', 'SL015', '258739'}
 
 # Pinned products permanently pinned at top by store owner request (supports 'id:...' or SKU)
-PINNED_KEYS = ['PM09', 'PM10', 'PM11', 'PM12', 'A6201']
+PINNED_KEYS = ['KS 2868', 'KS2868', '2868', 'PM09', 'PM10', 'PM11', 'PM12', 'A6201']
 
 # Specific size exclusions per product SKU requested by store owner
 EXCLUDED_SIZES_BY_SKU = {}
@@ -477,6 +477,47 @@ CURATED_PRODUCTS = [
             'description': 'Замовляйте зимові кросівки Premiata MOERUN ХУТРО (арт. A6201) за 3400 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж).'
         },
         'isHit': False
+    },
+    {
+        'id': '252868',
+        'slug': 'premiata-moerun-khutro-black-ks2868',
+        'name': 'Premiata MOERUN ХУТРО Black',
+        'brand': 'Premiata',
+        'brandSlug': 'premiata',
+        'category': 'Взуття',
+        'categorySlug': 'shoes',
+        'gender': 'men',
+        'genderName': 'Чоловічі',
+        'season': 'winter',
+        'seasonName': 'Зима',
+        'price': 3400,
+        'oldPrice': 5667,
+        'costPrice': 2800,
+        'sku': 'KS 2868',
+        'material': 'Натуральна замша, натуральне хутро, текстиль',
+        'country': 'Італія',
+        'sizes': ['41', '42', '43', '44', '45'],
+        'inStock': True,
+        'images': [
+            '/images/products/ks2868/img-1.jpg',
+            '/images/products/ks2868/img-2.jpg',
+            '/images/products/ks2868/img-3.jpg',
+            '/images/products/ks2868/img-4.jpg',
+        ],
+        'description': (
+            'Чоловічі зимові кросівки Premiata MOERUN ХУТРО у класичному чорному забарвленні '
+            'Black (артикул: KS 2868). Верх виготовлений із комбінації преміальної натуральної замші '
+            'та міцного текстилю, всередині — тепле натуральне хутро для максимального комфорту та '
+            'захисту від морозів. Фірмова легка підошва Premiata з амортизацією та оригінальними принтами '
+            'гарантує зручність на кожен день. Виробництво: Італія. Доставка Новою Поштою по Україні '
+            'протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. '
+            'Гарантія обміну або повернення — 14 днів.'
+        ),
+        'seo': {
+            'title': 'Premiata MOERUN ХУТРО Black (арт. KS 2868) — купити в інтернет-магазині VEXARO',
+            'description': 'Замовляйте зимові кросівки Premiata MOERUN ХУТРО Black (арт. KS 2868) за 3400 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж).'
+        },
+        'isHit': True
     }
 ]
 
@@ -1434,7 +1475,12 @@ def main():
         if key.startswith('id:'):
             return str(p.get('id', '')).strip() == key[3:].strip()
         target = key[4:].upper() if key.startswith('sku:') else key.upper()
-        return str(p.get('sku', '')).strip().upper() == target or str(p.get('id', '')).strip() == target
+        sku_clean = str(p.get('sku', '')).strip().upper()
+        return (
+            sku_clean == target
+            or sku_clean.replace(' ', '') == target.replace(' ', '')
+            or str(p.get('id', '')).strip() == target
+        )
 
     def get_pin_rank(p):
         for idx, key in enumerate(PINNED_KEYS):

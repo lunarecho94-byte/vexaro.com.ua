@@ -1,5 +1,5 @@
 {
-  "total": 2928,
+  "total": 2929,
   "brands": [
     {
       "name": "Nike",
@@ -74,7 +74,7 @@
     {
       "name": "Premiata",
       "slug": "premiata",
-      "count": 21
+      "count": 22
     },
     {
       "name": "Louis Vuitton",
@@ -171,7 +171,7 @@
     {
       "name": "Взуття",
       "slug": "shoes",
-      "count": 2928
+      "count": 2929
     }
   ],
   "genders": [
@@ -183,7 +183,7 @@
     {
       "name": "Чоловічі",
       "slug": "men",
-      "count": 991
+      "count": 992
     },
     {
       "name": "Унісекс",
@@ -200,7 +200,7 @@
     {
       "name": "Зима",
       "slug": "winter",
-      "count": 384
+      "count": 385
     }
   ],
   "sizes": [
@@ -220,12 +220,12 @@
     "45",
     "46",
     "47",
+    "L",
     "M",
     "XL",
-    "S",
-    "L",
     "40–41",
-    "45/46"
+    "45/46",
+    "S"
   ],
   "minPrice": 900,
   "maxPrice": 6400
