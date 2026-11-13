@@ -592,6 +592,45 @@ CURATED_PRODUCTS = [
             'description': 'Замовляйте зимові кросівки Adidas Campus 00s Green (хутро) (арт. KS 2227) за 2200 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж).'
         },
         'isHit': True
+    },
+    {
+        'id': '152204',
+        'slug': 'adidas-campus-00s-black-white-khutro-ks2204',
+        'name': 'Adidas Campus 00s Black White (хутро)',
+        'brand': 'Adidas',
+        'brandSlug': 'adidas',
+        'category': 'Взуття',
+        'categorySlug': 'shoes',
+        'gender': 'unisex',
+        'genderName': 'Унісекс',
+        'season': 'winter',
+        'seasonName': 'Зима',
+        'price': 2200,
+        'oldPrice': 3667,
+        'costPrice': 1700,
+        'sku': 'KS 2204',
+        'material': 'Натуральна замша, хутро',
+        'country': "В'єтнам",
+        'sizes': ['36', '37', '38', '39', '40', '41'],
+        'inStock': True,
+        'images': [
+            '/images/products/ks2204/img-1.jpg',
+            '/images/products/ks2204/img-2.jpg',
+            '/images/products/ks2204/img-3.jpg',
+            'https://easydrop.one/media/uploads/images/itemimage_15608/9d956b84-aa4a-4d6b-938d-efac8ca34091.webp'
+        ],
+        'description': (
+            'Зимові кросівки Adidas Campus 00s Black White (хутро) у класичному чорно-білому забарвленні '
+            '(артикул: KS 2204). Верх виготовлений із преміальної натуральної замші глибокого чорного кольору '
+            'з культовими білими смужками, всередині — щільне тепле хутро для надійного захисту від холоду. '
+            'Масивний силует нульових 00s із широкими шнурками та зносостійкою білою підошвою. Доставка Новою Поштою по Україні '
+            'протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.'
+        ),
+        'seo': {
+            'title': 'Adidas Campus 00s Black White (хутро) (арт. KS 2204) — купити в інтернет-магазині VEXARO',
+            'description': 'Замовляйте зимові кросівки Adidas Campus 00s Black White (хутро) (арт. KS 2204) за 2200 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж).'
+        },
+        'isHit': True
     }
 ]
 
