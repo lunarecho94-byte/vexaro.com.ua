@@ -195297,6 +195297,8 @@
     "country": "В'єтнам",
     "sizes": [
       "41",
+      "42",
+      "43",
       "44"
     ],
     "inStock": true,
@@ -195344,12 +195346,12 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": false
+        "available": true
       },
       {
         "size": "43",
         "cm": "27.5",
-        "available": false
+        "available": true
       },
       {
         "size": "44",
