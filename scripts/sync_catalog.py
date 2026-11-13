@@ -537,7 +537,7 @@ CURATED_PRODUCTS = [
         'sku': 'AS-045',
         'material': 'Натуральна замша, хутро',
         'country': "В'єтнам",
-        'sizes': ['36', '37', '38', '39', '40', '41'],
+        'sizes': ['41', '42', '44', '45'],
         'inStock': True,
         'images': [
             '/images/products/as045/img-1.jpg',
@@ -574,7 +574,7 @@ CURATED_PRODUCTS = [
         'sku': 'KS 2227',
         'material': 'Натуральна замша, хутро',
         'country': "В'єтнам",
-        'sizes': ['36', '37', '38', '39', '40', '41'],
+        'sizes': ['41', '44'],
         'inStock': True,
         'images': [
             '/images/products/ks2227/img-1.jpg',
@@ -611,7 +611,7 @@ CURATED_PRODUCTS = [
         'sku': 'KS 2204',
         'material': 'Натуральна замша, хутро',
         'country': "В'єтнам",
-        'sizes': ['36', '37', '38', '39', '40', '41'],
+        'sizes': ['41', '44', '45'],
         'inStock': True,
         'images': [
             '/images/products/ks2204/img-1.jpg',
@@ -650,7 +650,7 @@ CURATED_PRODUCTS = [
         'sku': 'AD-186',
         'material': 'Натуральна замша, хутро',
         'country': "В'єтнам",
-        'sizes': ['36', '37', '38', '39', '40', '41'],
+        'sizes': ['44', '45'],
         'inStock': True,
         'images': [
             '/images/products/ad186/img-1.jpg',
@@ -687,7 +687,7 @@ CURATED_PRODUCTS = [
         'sku': '0705V',
         'material': 'Натуральна замша, хутро',
         'country': "В'єтнам",
-        'sizes': ['36', '37', '38', '39', '40', '41'],
+        'sizes': ['37', '38', '39'],
         'inStock': True,
         'images': [
             '/images/products/0705v/img-1.jpg',
@@ -726,7 +726,7 @@ CURATED_PRODUCTS = [
         'sku': 'R338',
         'material': 'Натуральна шкіра, хутро',
         'country': "В'єтнам",
-        'sizes': ['36', '37', '38', '39', '40', '41'],
+        'sizes': ['37', '38', '39', '40', '41'],
         'inStock': True,
         'images': [
             '/images/products/r338/img-1.jpg',
@@ -763,7 +763,7 @@ CURATED_PRODUCTS = [
         'sku': 'R339',
         'material': 'Натуральна шкіра, хутро',
         'country': "В'єтнам",
-        'sizes': ['36', '37', '38', '39', '40', '41'],
+        'sizes': ['37', '38', '39', '40', '41'],
         'inStock': True,
         'images': [
             '/images/products/r339/img-1.jpg',
@@ -800,7 +800,7 @@ CURATED_PRODUCTS = [
         'sku': '5174',
         'material': 'Натуральна замша, хутро',
         'country': "В'єтнам",
-        'sizes': ['36', '37', '38', '39', '40', '41'],
+        'sizes': ['37', '38', '40', '41'],
         'inStock': True,
         'images': [
             '/images/products/5174/img-1.jpg',
@@ -875,7 +875,7 @@ CURATED_PRODUCTS = [
         'sku': '5187',
         'material': 'Натуральна замша, хутро',
         'country': "В'єтнам",
-        'sizes': ['36', '37', '38', '39', '40', '41'],
+        'sizes': ['36', '37', '38', '39', '41'],
         'inStock': True,
         'images': [
             '/images/products/5187/img-1.jpg',

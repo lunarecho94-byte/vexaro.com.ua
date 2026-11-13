@@ -579,12 +579,9 @@
     "material": "Натуральна замша, хутро",
     "country": "В'єтнам",
     "sizes": [
-      "36",
       "37",
       "38",
-      "39",
-      "40",
-      "41"
+      "39"
     ],
     "inStock": true,
     "images": [
@@ -602,7 +599,7 @@
       {
         "size": "36",
         "cm": "22.5",
-        "available": true
+        "available": false
       },
       {
         "size": "37",
@@ -622,12 +619,12 @@
       {
         "size": "40",
         "cm": "25.0",
-        "available": true
+        "available": false
       },
       {
         "size": "41",
         "cm": "26.0",
-        "available": true
+        "available": false
       }
     ]
   },
@@ -650,12 +647,10 @@
     "material": "Натуральна замша, хутро",
     "country": "В'єтнам",
     "sizes": [
-      "36",
-      "37",
-      "38",
-      "39",
-      "40",
-      "41"
+      "41",
+      "42",
+      "44",
+      "45"
     ],
     "inStock": true,
     "images": [
@@ -672,32 +667,57 @@
       {
         "size": "36",
         "cm": "22.5",
-        "available": true
+        "available": false
       },
       {
         "size": "37",
         "cm": "23.5",
-        "available": true
+        "available": false
       },
       {
         "size": "38",
         "cm": "24.0",
-        "available": true
+        "available": false
       },
       {
         "size": "39",
         "cm": "24.5",
-        "available": true
+        "available": false
       },
       {
         "size": "40",
         "cm": "25.0",
-        "available": true
+        "available": false
       },
       {
         "size": "41",
         "cm": "26.0",
         "available": true
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": true
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": true
+      },
+      {
+        "size": "45",
+        "cm": "28.5",
+        "available": true
+      },
+      {
+        "size": "46",
+        "cm": "29.0",
+        "available": false
       }
     ]
   },
@@ -8495,7 +8515,6 @@
       "37",
       "38",
       "39",
-      "40",
       "41"
     ],
     "inStock": true,
@@ -8533,7 +8552,7 @@
       {
         "size": "40",
         "cm": "25.0",
-        "available": true
+        "available": false
       },
       {
         "size": "41",
@@ -8561,10 +8580,8 @@
     "material": "Натуральна замша, хутро",
     "country": "В'єтнам",
     "sizes": [
-      "36",
       "37",
       "38",
-      "39",
       "40",
       "41"
     ],
@@ -8583,7 +8600,7 @@
       {
         "size": "36",
         "cm": "22.5",
-        "available": true
+        "available": false
       },
       {
         "size": "37",
@@ -8598,7 +8615,7 @@
       {
         "size": "39",
         "cm": "24.5",
-        "available": true
+        "available": false
       },
       {
         "size": "40",
@@ -164595,12 +164612,8 @@
     "material": "Натуральна замша, хутро",
     "country": "В'єтнам",
     "sizes": [
-      "36",
-      "37",
-      "38",
-      "39",
-      "40",
-      "41"
+      "44",
+      "45"
     ],
     "inStock": true,
     "images": [
@@ -164617,32 +164630,57 @@
       {
         "size": "36",
         "cm": "22.5",
-        "available": true
+        "available": false
       },
       {
         "size": "37",
         "cm": "23.5",
-        "available": true
+        "available": false
       },
       {
         "size": "38",
         "cm": "24.0",
-        "available": true
+        "available": false
       },
       {
         "size": "39",
         "cm": "24.5",
-        "available": true
+        "available": false
       },
       {
         "size": "40",
         "cm": "25.0",
-        "available": true
+        "available": false
       },
       {
         "size": "41",
         "cm": "26.0",
+        "available": false
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
         "available": true
+      },
+      {
+        "size": "45",
+        "cm": "28.5",
+        "available": true
+      },
+      {
+        "size": "46",
+        "cm": "29.0",
+        "available": false
       }
     ]
   },
@@ -195257,12 +195295,8 @@
     "material": "Натуральна замша, хутро",
     "country": "В'єтнам",
     "sizes": [
-      "36",
-      "37",
-      "38",
-      "39",
-      "40",
-      "41"
+      "41",
+      "44"
     ],
     "inStock": true,
     "images": [
@@ -195279,32 +195313,57 @@
       {
         "size": "36",
         "cm": "22.5",
-        "available": true
+        "available": false
       },
       {
         "size": "37",
         "cm": "23.5",
-        "available": true
+        "available": false
       },
       {
         "size": "38",
         "cm": "24.0",
-        "available": true
+        "available": false
       },
       {
         "size": "39",
         "cm": "24.5",
-        "available": true
+        "available": false
       },
       {
         "size": "40",
         "cm": "25.0",
-        "available": true
+        "available": false
       },
       {
         "size": "41",
         "cm": "26.0",
         "available": true
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": true
+      },
+      {
+        "size": "45",
+        "cm": "28.5",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.0",
+        "available": false
       }
     ]
   },
@@ -195327,12 +195386,9 @@
     "material": "Натуральна замша, хутро",
     "country": "В'єтнам",
     "sizes": [
-      "36",
-      "37",
-      "38",
-      "39",
-      "40",
-      "41"
+      "41",
+      "44",
+      "45"
     ],
     "inStock": true,
     "images": [
@@ -195351,32 +195407,57 @@
       {
         "size": "36",
         "cm": "22.5",
-        "available": true
+        "available": false
       },
       {
         "size": "37",
         "cm": "23.5",
-        "available": true
+        "available": false
       },
       {
         "size": "38",
         "cm": "24.0",
-        "available": true
+        "available": false
       },
       {
         "size": "39",
         "cm": "24.5",
-        "available": true
+        "available": false
       },
       {
         "size": "40",
         "cm": "25.0",
-        "available": true
+        "available": false
       },
       {
         "size": "41",
         "cm": "26.0",
         "available": true
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": true
+      },
+      {
+        "size": "45",
+        "cm": "28.5",
+        "available": true
+      },
+      {
+        "size": "46",
+        "cm": "29.0",
+        "available": false
       }
     ]
   },
@@ -217226,7 +217307,6 @@
     "material": "Натуральна шкіра, хутро",
     "country": "В'єтнам",
     "sizes": [
-      "36",
       "37",
       "38",
       "39",
@@ -217248,7 +217328,7 @@
       {
         "size": "36",
         "cm": "22.5",
-        "available": true
+        "available": false
       },
       {
         "size": "37",
@@ -217296,7 +217376,6 @@
     "material": "Натуральна шкіра, хутро",
     "country": "В'єтнам",
     "sizes": [
-      "36",
       "37",
       "38",
       "39",
@@ -217318,7 +217397,7 @@
       {
         "size": "36",
         "cm": "22.5",
-        "available": true
+        "available": false
       },
       {
         "size": "37",
