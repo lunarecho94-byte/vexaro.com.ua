@@ -1,5 +1,5 @@
 {
-  "total": 2933,
+  "total": 2934,
   "brands": [
     {
       "name": "Nike",
@@ -14,7 +14,7 @@
     {
       "name": "Adidas",
       "slug": "adidas",
-      "count": 274
+      "count": 275
     },
     {
       "name": "UGG",
@@ -171,7 +171,7 @@
     {
       "name": "Взуття",
       "slug": "shoes",
-      "count": 2933
+      "count": 2934
     }
   ],
   "genders": [
@@ -188,7 +188,7 @@
     {
       "name": "Унісекс",
       "slug": "unisex",
-      "count": 586
+      "count": 587
     }
   ],
   "seasons": [
@@ -200,7 +200,7 @@
     {
       "name": "Зима",
       "slug": "winter",
-      "count": 387
+      "count": 388
     }
   ],
   "sizes": [
@@ -221,11 +221,11 @@
     "46",
     "47",
     "45/46",
-    "XL",
-    "40–41",
     "S",
     "L",
-    "M"
+    "40–41",
+    "M",
+    "XL"
   ],
   "minPrice": 900,
   "maxPrice": 6400
