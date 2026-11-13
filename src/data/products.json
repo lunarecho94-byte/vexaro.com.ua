@@ -6383,97 +6383,6 @@
     }
   },
   {
-    "id": "257236",
-    "slug": "nike-acg-zegama-hike-grey-termo-3064",
-    "name": "Nike ACG Zegama HIKE Grey Termo",
-    "brand": "Nike",
-    "brandSlug": "nike",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 3300,
-    "oldPrice": 5500,
-    "costPrice": 2800,
-    "sku": "3064",
-    "material": "Текстиль , Прорезиненные вставки",
-    "country": "В'єтнам",
-    "sizes": [
-      "41",
-      "43",
-      "44"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": true
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": true
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "30.0",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/99494c50-9548-4833-b490-00ac29bdfb71.jpeg"
-    ],
-    "description": "Модель: Nike ACG Zegama HIKE Grey Termo. Артикул: 3064. Матеріал: Текстиль , Прорезиненные вставки. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Nike ACG Zegama HIKE Grey Termo (арт. 3064) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Nike ACG Zegama HIKE Grey Termo (арт. 3064) за 3300 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "257235",
     "slug": "nike-air-max-90-black-purple-3061",
     "name": "Nike Air Max 90 Black Purple",
@@ -17605,7 +17514,6 @@
       "40",
       "41",
       "42",
-      "43",
       "44",
       "45"
     ],
@@ -17648,7 +17556,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": true
+        "available": false
       },
       {
         "size": "44",
@@ -28915,97 +28823,6 @@
     }
   },
   {
-    "id": "250339",
-    "slug": "the-north-face-hoka-kaha-2-frost-moc-gtx-3021",
-    "name": "The North Face Hoka Kaha 2 Frost Moc GTX",
-    "brand": "The North Face",
-    "brandSlug": "tnf",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 3400,
-    "oldPrice": 5667,
-    "costPrice": 2900,
-    "sku": "3021",
-    "material": "Текстиль",
-    "country": "В'єтнам",
-    "sizes": [
-      "42",
-      "43",
-      "44"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": true
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": true
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": true
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/69a03276-4e6d-45c8-a376-a515513f0377.jpeg"
-    ],
-    "description": "Модель: The North Face Hoka Kaha 2 Frost Moc GTX. Артикул: 3021. Матеріал: Текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "The North Face Hoka Kaha 2 Frost Moc GTX (арт. 3021) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте The North Face Hoka Kaha 2 Frost Moc GTX (арт. 3021) за 3400 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "250326",
     "slug": "nike-air-force-1-low-gore-tex-n00362",
     "name": "Nike Air Force 1 Low Gore-Tex",
@@ -29400,7 +29217,6 @@
     "country": "В'єтнам",
     "sizes": [
       "41",
-      "43",
       "44",
       "46"
     ],
@@ -29443,7 +29259,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": true
+        "available": false
       },
       {
         "size": "44",
@@ -56681,8 +56497,7 @@
       "41",
       "43",
       "44",
-      "45",
-      "46"
+      "45"
     ],
     "sizeChart": [
       {
@@ -56738,7 +56553,7 @@
       {
         "size": "46",
         "cm": "29.5",
-        "available": true
+        "available": false
       }
     ],
     "inStock": true,
@@ -72210,97 +72025,6 @@
     "seo": {
       "title": "Adidas Yeezy 500 Stone (термо) (арт. BrYE045) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Adidas Yeezy 500 Stone (термо) (арт. BrYE045) за 1700 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "232726",
-    "slug": "nike-zoom-vomero-5-ntr750",
-    "name": "Nike ZOOM VOMERO 5",
-    "brand": "Nike",
-    "brandSlug": "nike",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 2450,
-    "oldPrice": 4083,
-    "costPrice": 1950,
-    "sku": "NTR750",
-    "material": "Шкіра, текстиль, піна, гума",
-    "country": "В'єтнам",
-    "sizes": [
-      "41",
-      "42",
-      "43"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": true
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": true
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "30.0",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/824493fe-de15-410c-a3cc-6d91900cdf37.jpeg"
-    ],
-    "description": "Модель: Nike ZOOM VOMERO 5. Артикул: NTR750. Матеріал: Шкіра, текстиль, піна, гума. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Nike ZOOM VOMERO 5 (арт. NTR750) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Nike ZOOM VOMERO 5 (арт. NTR750) за 2450 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -129795,7 +129519,6 @@
       "39",
       "40",
       "41",
-      "42",
       "45"
     ],
     "sizeChart": [
@@ -129832,7 +129555,7 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": true
+        "available": false
       },
       {
         "size": "43",
@@ -134667,7 +134390,6 @@
     "sizes": [
       "36",
       "37",
-      "38",
       "40"
     ],
     "sizeChart": [
@@ -134684,7 +134406,7 @@
       {
         "size": "38",
         "cm": "24.5",
-        "available": true
+        "available": false
       },
       {
         "size": "39",
@@ -163480,8 +163202,7 @@
     "sizes": [
       "36",
       "37",
-      "38",
-      "39"
+      "38"
     ],
     "sizeChart": [
       {
@@ -163502,7 +163223,7 @@
       {
         "size": "39",
         "cm": "24.5",
-        "available": true
+        "available": false
       },
       {
         "size": "40",
@@ -166658,7 +166379,6 @@
       "40",
       "41",
       "42",
-      "43",
       "44",
       "45"
     ],
@@ -166701,7 +166421,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": true
+        "available": false
       },
       {
         "size": "44",
@@ -191382,7 +191102,6 @@
     "sizes": [
       "40",
       "41",
-      "42",
       "45"
     ],
     "sizeChart": [
@@ -191419,7 +191138,7 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": true
+        "available": false
       },
       {
         "size": "43",
@@ -205213,8 +204932,7 @@
     "sizes": [
       "41",
       "42",
-      "43",
-      "44"
+      "43"
     ],
     "sizeChart": [
       {
@@ -205260,7 +204978,7 @@
       {
         "size": "44",
         "cm": "28.0",
-        "available": true
+        "available": false
       },
       {
         "size": "45",
@@ -229396,97 +229114,6 @@
     }
   },
   {
-    "id": "106426",
-    "slug": "new-balance-9060-brown-haki-1687",
-    "name": "New Balance 9060 Brown\\Haki",
-    "brand": "New Balance",
-    "brandSlug": "newbalance",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 2700,
-    "oldPrice": 4500,
-    "costPrice": 2200,
-    "sku": "1687",
-    "material": "Замша , Сетка , кожа",
-    "country": "В'єтнам",
-    "sizes": [
-      "40",
-      "41",
-      "42"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.0",
-        "available": true
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": true
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "30.0",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/99e6e857-0f96-4a03-bf32-4f94e838a795.jpeg"
-    ],
-    "description": "Модель: New Balance 9060 Brown\\Haki. Артикул: 1687. Матеріал: Замша , Сетка , кожа. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "New Balance 9060 Brown\\Haki (арт. 1687) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте New Balance 9060 Brown\\Haki (арт. 1687) за 2700 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "106425",
     "slug": "nike-air-max-tn-terrascape-plus-all-black-1717",
     "name": "Nike Air Max TN Terrascape Plus All Black",
@@ -244003,97 +243630,6 @@
     }
   },
   {
-    "id": "85583",
-    "slug": "nike-air-max-90-x-cordura-black-1579",
-    "name": "Nike Air Max 90 x Cordura Black",
-    "brand": "Nike",
-    "brandSlug": "nike",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 2850,
-    "oldPrice": 4750,
-    "costPrice": 2350,
-    "sku": "1579",
-    "material": "Кожа , Текстиль",
-    "country": "В'єтнам",
-    "sizes": [
-      "42",
-      "44",
-      "45"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": true
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": true
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": true
-      },
-      {
-        "size": "46",
-        "cm": "30.0",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/4f5392c5-da81-4800-a593-d784cf7b7838.jpeg"
-    ],
-    "description": "Модель: Nike Air Max 90 x Cordura Black. Артикул: 1579. Матеріал: Кожа , Текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Nike Air Max 90 x Cordura Black (арт. 1579) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Nike Air Max 90 x Cordura Black (арт. 1579) за 2850 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "85581",
     "slug": "nike-air-max-90-black-grey-green-1578",
     "name": "Nike Air Max 90 Black Grey Green",
@@ -248665,97 +248201,6 @@
     }
   },
   {
-    "id": "69270",
-    "slug": "ugg-mini-zip-black-lacquer-1115",
-    "name": "Ugg Mini ZIP Black Lacquer",
-    "brand": "UGG",
-    "brandSlug": "ugg",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 1900,
-    "oldPrice": 3167,
-    "costPrice": 1400,
-    "sku": "1115",
-    "material": "Замша, овчина",
-    "country": "Китай",
-    "sizes": [
-      "36",
-      "37",
-      "39"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "23.0",
-        "available": true
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": true
-      },
-      {
-        "size": "38",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": true
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/3fed70b1-7990-4304-b317-6a632914c315.jpeg"
-    ],
-    "description": "Модель: Ugg Mini ZIP Black Lacquer. Артикул: 1115. Матеріал: Замша, овчина. Сезон: Зима. Виробництво: Китай. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Ugg Mini ZIP Black Lacquer (арт. 1115) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Ugg Mini ZIP Black Lacquer (арт. 1115) за 1900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "69191",
     "slug": "adidas-forum-bonega-beige-if4829-1109",
     "name": "Adidas Forum Bonega Beige IF4829",
@@ -249583,97 +249028,6 @@
     "seo": {
       "title": "New Balance 9060 Quartz Grey (арт. NB0061) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте New Balance 9060 Quartz Grey (арт. NB0061) за 2800 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "67497",
-    "slug": "ugg-mini-platform-chestnut-1103",
-    "name": "Ugg Mini Platform Chestnut",
-    "brand": "UGG",
-    "brandSlug": "ugg",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 4000,
-    "oldPrice": 6667,
-    "costPrice": 3500,
-    "sku": "1103",
-    "material": "Замша, овчина",
-    "country": "В'єтнам",
-    "sizes": [
-      "36",
-      "39",
-      "40"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "23.0",
-        "available": true
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": true
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": true
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/daa00a8a-a96f-45f1-a86b-bf1c0fe9d905.jpeg"
-    ],
-    "description": "Модель: Ugg Mini Platform Chestnut. Артикул: 1103. Матеріал: Замша, овчина. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Ugg Mini Platform Chestnut (арт. 1103) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Ugg Mini Platform Chestnut (арт. 1103) за 4000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -271596,8 +270950,8 @@
     "brandSlug": "newbalance",
     "category": "Взуття",
     "categorySlug": "shoes",
-    "gender": "unisex",
-    "genderName": "Унісекс",
+    "gender": "women",
+    "genderName": "Жіночі",
     "season": "demi",
     "seasonName": "Демісезон",
     "price": 2450,
@@ -271612,8 +270966,7 @@
       "38",
       "39",
       "40",
-      "41",
-      "42"
+      "41"
     ],
     "sizeChart": [
       {
@@ -271643,13 +270996,13 @@
       },
       {
         "size": "41",
-        "cm": "26.0",
+        "cm": "25.5",
         "available": true
       },
       {
         "size": "42",
-        "cm": "26.5",
-        "available": true
+        "cm": "26.0",
+        "available": false
       },
       {
         "size": "43",
@@ -271663,12 +271016,12 @@
       },
       {
         "size": "45",
-        "cm": "29.0",
+        "cm": "28.5",
         "available": false
       },
       {
         "size": "46",
-        "cm": "30.0",
+        "cm": "29.5",
         "available": false
       }
     ],

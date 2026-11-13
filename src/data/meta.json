@@ -1,15 +1,15 @@
 {
-  "total": 2935,
+  "total": 2928,
   "brands": [
     {
       "name": "Nike",
       "slug": "nike",
-      "count": 1001
+      "count": 998
     },
     {
       "name": "New Balance",
       "slug": "newbalance",
-      "count": 636
+      "count": 635
     },
     {
       "name": "Adidas",
@@ -19,7 +19,7 @@
     {
       "name": "UGG",
       "slug": "ugg",
-      "count": 206
+      "count": 204
     },
     {
       "name": "Asics",
@@ -99,7 +99,7 @@
     {
       "name": "The North Face",
       "slug": "tnf",
-      "count": 9
+      "count": 8
     },
     {
       "name": "Miu Miu",
@@ -171,36 +171,36 @@
     {
       "name": "Взуття",
       "slug": "shoes",
-      "count": 2935
+      "count": 2928
     }
   ],
   "genders": [
     {
       "name": "Жіночі",
       "slug": "women",
-      "count": 1362
+      "count": 1361
     },
     {
       "name": "Чоловічі",
       "slug": "men",
-      "count": 985
+      "count": 980
     },
     {
       "name": "Унісекс",
       "slug": "unisex",
-      "count": 588
+      "count": 587
     }
   ],
   "seasons": [
     {
       "name": "Демісезон",
       "slug": "demi",
-      "count": 2546
+      "count": 2541
     },
     {
       "name": "Зима",
       "slug": "winter",
-      "count": 389
+      "count": 387
     }
   ],
   "sizes": [
@@ -220,11 +220,11 @@
     "45",
     "46",
     "47",
-    "L",
-    "M",
-    "40–41",
-    "XL",
     "45/46",
+    "XL",
+    "40–41",
+    "M",
+    "L",
     "S"
   ],
   "minPrice": 900,
