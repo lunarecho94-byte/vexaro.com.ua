@@ -518,6 +518,43 @@ CURATED_PRODUCTS = [
             'description': 'Замовляйте зимові кросівки Premiata MOERUN ХУТРО Black (арт. KS 2868) за 3400 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж).'
         },
         'isHit': True
+    },
+    {
+        'id': '269045',
+        'slug': 'adidas-campus-grey-khutro-as045',
+        'name': 'Adidas Campus Grey (хутро)',
+        'brand': 'Adidas',
+        'brandSlug': 'adidas',
+        'category': 'Взуття',
+        'categorySlug': 'shoes',
+        'gender': 'unisex',
+        'genderName': 'Унісекс',
+        'season': 'winter',
+        'seasonName': 'Зима',
+        'price': 2200,
+        'oldPrice': 3667,
+        'costPrice': 1700,
+        'sku': 'AS-045',
+        'material': 'Натуральна замша, хутро',
+        'country': "В'єтнам",
+        'sizes': ['36', '37', '38', '39', '40', '41'],
+        'inStock': True,
+        'images': [
+            '/images/products/as045/img-1.jpg',
+            'https://easydrop.one/media/uploads/images/itemimage_26940/7f5c5625-8ce9-44e4-ba41-2ae185f7e8c2.webp'
+        ],
+        'description': (
+            'Зимові кросівки Adidas Campus Grey (хутро) у практичному сірому забарвленні '
+            '(артикул: AS-045). Верх виконаний із натуральної замші високої якості, всередині — '
+            'щільне тепле хутро для комфорту в морозну погоду. Класичний силует 00s із масивними шнурками '
+            'та зносостійкою гумовою підошвою. Доставка Новою Поштою по Україні протягом 1–2 днів. '
+            'Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.'
+        ),
+        'seo': {
+            'title': 'Adidas Campus Grey (хутро) (арт. AS-045) — купити в інтернет-магазині VEXARO',
+            'description': 'Замовляйте зимові кросівки Adidas Campus Grey (хутро) (арт. AS-045) за 2200 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж).'
+        },
+        'isHit': False
     }
 ]
 
@@ -1421,7 +1458,7 @@ def main():
         cp_name = cp.get('name', '')
         cp_grid = get_supplier_brand_grid(cp_brand, cp_sku, cp_gender, cp_country, cp_name)
 
-        if cp_gender == 'women' and max([int(s) for s in cp['sizes'] if s.isdigit()] or [41]) <= 41:
+        if max([int(s) for s in cp['sizes'] if s.isdigit()] or [41]) <= 41:
             run = ['36', '37', '38', '39', '40', '41']
         else:
             run = ['36', '37', '38', '39', '40', '41', '42', '43', '44', '45', '46']
