@@ -531,8 +531,8 @@ CURATED_PRODUCTS = [
         'genderName': 'Унісекс',
         'season': 'winter',
         'seasonName': 'Зима',
-        'price': 2200,
-        'oldPrice': 3667,
+        'price': 2500,
+        'oldPrice': 4167,
         'costPrice': 1700,
         'sku': 'AS-045',
         'material': 'Натуральна замша, хутро',
@@ -552,7 +552,7 @@ CURATED_PRODUCTS = [
         ),
         'seo': {
             'title': 'Adidas Campus Grey (хутро) (арт. AS-045) — купити в інтернет-магазині VEXARO',
-            'description': 'Замовляйте зимові кросівки Adidas Campus Grey (хутро) (арт. AS-045) за 2200 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж).'
+            'description': 'Замовляйте зимові кросівки Adidas Campus Grey (хутро) (арт. AS-045) за 2500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж).'
         },
         'isHit': False
     },
@@ -568,8 +568,8 @@ CURATED_PRODUCTS = [
         'genderName': 'Унісекс',
         'season': 'winter',
         'seasonName': 'Зима',
-        'price': 2200,
-        'oldPrice': 3667,
+        'price': 2500,
+        'oldPrice': 4167,
         'costPrice': 1700,
         'sku': 'KS 2227',
         'material': 'Натуральна замша, хутро',
@@ -589,7 +589,7 @@ CURATED_PRODUCTS = [
         ),
         'seo': {
             'title': 'Adidas Campus 00s Green (хутро) (арт. KS 2227) — купити в інтернет-магазині VEXARO',
-            'description': 'Замовляйте зимові кросівки Adidas Campus 00s Green (хутро) (арт. KS 2227) за 2200 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж).'
+            'description': 'Замовляйте зимові кросівки Adidas Campus 00s Green (хутро) (арт. KS 2227) за 2500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж).'
         },
         'isHit': True
     },
@@ -605,8 +605,8 @@ CURATED_PRODUCTS = [
         'genderName': 'Унісекс',
         'season': 'winter',
         'seasonName': 'Зима',
-        'price': 2200,
-        'oldPrice': 3667,
+        'price': 2500,
+        'oldPrice': 4167,
         'costPrice': 1700,
         'sku': 'KS 2204',
         'material': 'Натуральна замша, хутро',
@@ -628,7 +628,7 @@ CURATED_PRODUCTS = [
         ),
         'seo': {
             'title': 'Adidas Campus 00s Black White (хутро) (арт. KS 2204) — купити в інтернет-магазині VEXARO',
-            'description': 'Замовляйте зимові кросівки Adidas Campus 00s Black White (хутро) (арт. KS 2204) за 2200 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж).'
+            'description': 'Замовляйте зимові кросівки Adidas Campus 00s Black White (хутро) (арт. KS 2204) за 2500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж).'
         },
         'isHit': True
     },
@@ -644,8 +644,8 @@ CURATED_PRODUCTS = [
         'genderName': 'Унісекс',
         'season': 'winter',
         'seasonName': 'Зима',
-        'price': 2200,
-        'oldPrice': 3667,
+        'price': 2500,
+        'oldPrice': 4167,
         'costPrice': 1700,
         'sku': 'AD-186',
         'material': 'Натуральна замша, хутро',
@@ -665,7 +665,7 @@ CURATED_PRODUCTS = [
         ),
         'seo': {
             'title': 'Adidas Campus 00s Core Black Gum (хутро) (арт. AD-186) — купити в інтернет-магазині VEXARO',
-            'description': 'Замовляйте зимові кросівки Adidas Campus 00s Core Black Gum (хутро) (арт. AD-186) за 2200 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж).'
+            'description': 'Замовляйте зимові кросівки Adidas Campus 00s Core Black Gum (хутро) (арт. AD-186) за 2500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж).'
         },
         'isHit': True
     },
@@ -681,8 +681,8 @@ CURATED_PRODUCTS = [
         'genderName': 'Унісекс',
         'season': 'winter',
         'seasonName': 'Зима',
-        'price': 2200,
-        'oldPrice': 3667,
+        'price': 2500,
+        'oldPrice': 4167,
         'costPrice': 1700,
         'sku': '0705V',
         'material': 'Натуральна замша, хутро',
@@ -704,7 +704,7 @@ CURATED_PRODUCTS = [
         ),
         'seo': {
             'title': 'Adidas Campus 00s Grey White Gum (хутро) (арт. 0705V) — купити в інтернет-магазині VEXARO',
-            'description': 'Замовляйте зимові кросівки Adidas Campus 00s Grey White Gum (хутро) (арт. 0705V) за 2200 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж).'
+            'description': 'Замовляйте зимові кросівки Adidas Campus 00s Grey White Gum (хутро) (арт. 0705V) за 2500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж).'
         },
         'isHit': True
     },
@@ -720,8 +720,8 @@ CURATED_PRODUCTS = [
         'genderName': 'Унісекс',
         'season': 'winter',
         'seasonName': 'Зима',
-        'price': 2200,
-        'oldPrice': 3667,
+        'price': 2500,
+        'oldPrice': 4167,
         'costPrice': 1700,
         'sku': 'R338',
         'material': 'Натуральна шкіра, хутро',
@@ -741,7 +741,7 @@ CURATED_PRODUCTS = [
         ),
         'seo': {
             'title': 'Adidas Campus 00s White Grey (хутро) (арт. R338) — купити в інтернет-магазині VEXARO',
-            'description': 'Замовляйте зимові кросівки Adidas Campus 00s White Grey (хутро) (арт. R338) за 2200 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж).'
+            'description': 'Замовляйте зимові кросівки Adidas Campus 00s White Grey (хутро) (арт. R338) за 2500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж).'
         },
         'isHit': True
     },
@@ -757,8 +757,8 @@ CURATED_PRODUCTS = [
         'genderName': 'Унісекс',
         'season': 'winter',
         'seasonName': 'Зима',
-        'price': 2200,
-        'oldPrice': 3667,
+        'price': 2500,
+        'oldPrice': 4167,
         'costPrice': 1700,
         'sku': 'R339',
         'material': 'Натуральна шкіра, хутро',
@@ -778,7 +778,7 @@ CURATED_PRODUCTS = [
         ),
         'seo': {
             'title': 'Adidas Campus 00s White Black (хутро) (арт. R339) — купити в інтернет-магазині VEXARO',
-            'description': 'Замовляйте зимові кросівки Adidas Campus 00s White Black (хутро) (арт. R339) за 2200 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж).'
+            'description': 'Замовляйте зимові кросівки Adidas Campus 00s White Black (хутро) (арт. R339) за 2500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж).'
         },
         'isHit': True
     },
@@ -794,8 +794,8 @@ CURATED_PRODUCTS = [
         'genderName': 'Унісекс',
         'season': 'winter',
         'seasonName': 'Зима',
-        'price': 2200,
-        'oldPrice': 3667,
+        'price': 2500,
+        'oldPrice': 4167,
         'costPrice': 1700,
         'sku': '5174',
         'material': 'Натуральна замша, хутро',
@@ -815,7 +815,7 @@ CURATED_PRODUCTS = [
         ),
         'seo': {
             'title': 'Adidas Campus 00s Beige Black (хутро) (арт. 5174) — купити в інтернет-магазині VEXARO',
-            'description': 'Замовляйте зимові кросівки Adidas Campus 00s Beige Black (хутро) (арт. 5174) за 2200 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж).'
+            'description': 'Замовляйте зимові кросівки Adidas Campus 00s Beige Black (хутро) (арт. 5174) за 2500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж).'
         },
         'isHit': True
     },
@@ -831,8 +831,8 @@ CURATED_PRODUCTS = [
         'genderName': 'Унісекс',
         'season': 'winter',
         'seasonName': 'Зима',
-        'price': 2200,
-        'oldPrice': 3667,
+        'price': 2500,
+        'oldPrice': 4167,
         'costPrice': 1700,
         'sku': '5188',
         'material': 'Натуральна замша, хутро',
@@ -853,7 +853,7 @@ CURATED_PRODUCTS = [
         ),
         'seo': {
             'title': 'Adidas Campus 00s Grey White (хутро) (арт. 5188) — купити в інтернет-магазині VEXARO',
-            'description': 'Замовляйте зимові кросівки Adidas Campus 00s Grey White (хутро) (арт. 5188) за 2200 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж).'
+            'description': 'Замовляйте зимові кросівки Adidas Campus 00s Grey White (хутро) (арт. 5188) за 2500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж).'
         },
         'isHit': True
     },
@@ -869,8 +869,8 @@ CURATED_PRODUCTS = [
         'genderName': 'Унісекс',
         'season': 'winter',
         'seasonName': 'Зима',
-        'price': 2200,
-        'oldPrice': 3667,
+        'price': 2500,
+        'oldPrice': 4167,
         'costPrice': 1700,
         'sku': '5187',
         'material': 'Натуральна замша, хутро',
@@ -890,7 +890,7 @@ CURATED_PRODUCTS = [
         ),
         'seo': {
             'title': 'Adidas Campus 00s Grey Black (хутро) (арт. 5187) — купити в інтернет-магазині VEXARO',
-            'description': 'Замовляйте зимові кросівки Adidas Campus 00s Grey Black (хутро) (арт. 5187) за 2200 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж).'
+            'description': 'Замовляйте зимові кросівки Adidas Campus 00s Grey Black (хутро) (арт. 5187) за 2500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж).'
         },
         'isHit': True
     },
@@ -906,8 +906,8 @@ CURATED_PRODUCTS = [
         'genderName': 'Унісекс',
         'season': 'winter',
         'seasonName': 'Зима',
-        'price': 2200,
-        'oldPrice': 3667,
+        'price': 2500,
+        'oldPrice': 4167,
         'costPrice': 1700,
         'sku': '5193',
         'material': 'Натуральна замша, хутро',
@@ -930,7 +930,7 @@ CURATED_PRODUCTS = [
         ),
         'seo': {
             'title': 'Adidas Campus 00s Grey White (хутро) (арт. 5193) — купити в інтернет-магазині VEXARO',
-            'description': 'Замовляйте зимові кросівки Adidas Campus 00s Grey White (хутро) (арт. 5193) за 2200 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж).'
+            'description': 'Замовляйте зимові кросівки Adidas Campus 00s Grey White (хутро) (арт. 5193) за 2500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж).'
         },
         'isHit': True
     }
