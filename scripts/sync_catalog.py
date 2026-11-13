@@ -631,6 +631,43 @@ CURATED_PRODUCTS = [
             'description': 'Замовляйте зимові кросівки Adidas Campus 00s Black White (хутро) (арт. KS 2204) за 2200 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж).'
         },
         'isHit': True
+    },
+    {
+        'id': '182186',
+        'slug': 'adidas-campus-00s-core-black-gum-khutro-ad186',
+        'name': 'Adidas Campus 00s Core Black Gum (хутро)',
+        'brand': 'Adidas',
+        'brandSlug': 'adidas',
+        'category': 'Взуття',
+        'categorySlug': 'shoes',
+        'gender': 'unisex',
+        'genderName': 'Унісекс',
+        'season': 'winter',
+        'seasonName': 'Зима',
+        'price': 2200,
+        'oldPrice': 3667,
+        'costPrice': 1700,
+        'sku': 'AD-186',
+        'material': 'Натуральна замша, хутро',
+        'country': "В'єтнам",
+        'sizes': ['36', '37', '38', '39', '40', '41'],
+        'inStock': True,
+        'images': [
+            '/images/products/ad186/img-1.jpg',
+            'https://easydrop.one/media/uploads/images/itemimage_18225/3a3ba61d-6375-4a1a-87b0-f154717e6442.webp'
+        ],
+        'description': (
+            'Зимові кросівки Adidas Campus 00s Core Black Gum (хутро) у трендовому забарвленні '
+            '(артикул: AD-186). Верх виконаний із якісної натуральної замші глибокого чорного кольору '
+            'з широкими білими смужками, всередині — щільне тепле світле хутро для максимального комфорту в морозну погоду. '
+            'Вінтажна кремова підошва з чіпким гумовим протектором кольору Gum. Доставка Новою Поштою по Україні '
+            'протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.'
+        ),
+        'seo': {
+            'title': 'Adidas Campus 00s Core Black Gum (хутро) (арт. AD-186) — купити в інтернет-магазині VEXARO',
+            'description': 'Замовляйте зимові кросівки Adidas Campus 00s Core Black Gum (хутро) (арт. AD-186) за 2200 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж).'
+        },
+        'isHit': True
     }
 ]
 
