@@ -221,24 +221,24 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
   return (
     <>
       <div className="sticky top-14 sm:top-16 z-30 mb-6 -mx-4 px-4 sm:-mx-6 sm:px-6 bg-background/95 backdrop-blur-md py-2.5 sm:py-3 border-b border-border shadow-xs transition-all">
-        {/* Clean Top Bar: Only Filter Button & Sorting */}
-        <div className="flex items-center justify-between gap-3">
+        {/* Clean Top Bar: Filter Button & Sorting & Reset */}
+        <div className="flex items-center justify-between gap-2 sm:gap-3 w-full">
           {/* Left Side: Filter Trigger Button & Count */}
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-2 sm:gap-3 shrink-0">
             <button
               type="button"
               onClick={openDrawer}
-              className={`flex h-10 items-center gap-2.5 rounded-xl border px-4 text-xs font-bold transition-all active:scale-95 ${
+              className={`flex h-10 items-center gap-2 rounded-xl border px-3 sm:px-4 text-xs font-bold transition-all active:scale-95 shrink-0 ${
                 activeCount > 0
                   ? 'border-primary bg-primary text-white shadow-md shadow-primary/25 hover:bg-primary-hover'
                   : 'border-border bg-surface text-foreground shadow-xs hover:border-primary/60 hover:bg-surface-raised'
               }`}
               aria-label="Відкрити фільтри"
             >
-              <SlidersHorizontal className="h-4 w-4" />
+              <SlidersHorizontal className="h-4 w-4 shrink-0" />
               <span>Фільтри</span>
               {activeCount > 0 && (
-                <span className="flex h-5 min-w-5 items-center justify-center rounded-full bg-white px-1.5 text-[11px] font-black text-primary">
+                <span className="flex h-5 min-w-5 shrink-0 items-center justify-center rounded-full bg-white px-1.5 text-[11px] font-black text-primary">
                   {activeCount}
                 </span>
               )}
@@ -250,13 +250,13 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
           </div>
 
           {/* Right Side: Sorting & Reset */}
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-1.5 sm:gap-2 min-w-0 justify-end">
             {/* Sorting Dropdown */}
-            <div className="relative">
+            <div className={`relative min-w-0 ${activeCount > 0 ? 'max-w-[145px] xs:max-w-[170px]' : 'max-w-[175px] xs:max-w-[210px]'} sm:max-w-none`}>
               <select
                 value={selectedSort}
                 onChange={(e) => commitFilters({ sort: e.target.value })}
-                className="h-10 appearance-none rounded-xl border border-border bg-surface pl-3.5 pr-8 text-xs font-medium text-foreground shadow-xs focus:border-primary focus:outline-none cursor-pointer hover:border-border/80"
+                className="h-10 w-full appearance-none rounded-xl border border-border bg-surface pl-3 pr-7 sm:pl-3.5 sm:pr-8 text-xs font-medium text-foreground shadow-xs focus:border-primary focus:outline-none cursor-pointer hover:border-border/80 truncate"
                 aria-label="Сортування товарів"
               >
                 <option value="newest">Нові поставки</option>
@@ -264,7 +264,7 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
                 <option value="price_asc">Від дешевих до дорогих</option>
                 <option value="price_desc">Від дорогих до дешевих</option>
               </select>
-              <ChevronDown className="pointer-events-none absolute right-2.5 top-3 h-4 w-4 text-muted" />
+              <ChevronDown className="pointer-events-none absolute right-2 sm:right-2.5 top-3 h-4 w-4 text-muted shrink-0" />
             </div>
 
             {/* Reset button if active */}
@@ -272,7 +272,7 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
               <button
                 type="button"
                 onClick={resetAll}
-                className="flex h-10 w-10 items-center justify-center rounded-xl border border-border bg-surface text-muted shadow-xs hover:text-red-500 hover:border-red-200 transition-colors"
+                className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl border border-border bg-surface text-muted shadow-xs hover:text-red-500 hover:border-red-200 active:scale-95 transition-all"
                 title="Скинути всі фільтри"
                 aria-label="Скинути всі фільтри"
               >
@@ -285,7 +285,7 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
         {/* Active Filter Badges */}
         {activeCount > 0 && (
           <div className="mt-2.5 flex items-center gap-1.5 overflow-x-auto scrollbar-none whitespace-nowrap text-xs pb-0.5 pt-0.5 border-t border-border/60">
-            <span className="text-muted text-[11px] font-bold uppercase tracking-wider mr-1">
+            <span className="text-muted text-[11px] font-bold uppercase tracking-wider mr-1 shrink-0">
               Обрано ({activeCount}):
             </span>
 
@@ -439,7 +439,7 @@ export function CatalogFilters({ meta, currentSort = 'newest' }: CatalogFiltersP
             <button
               type="button"
               onClick={resetAll}
-              className="text-[11px] font-semibold text-muted hover:text-red-500 transition-colors ml-2 underline underline-offset-2"
+              className="text-[11px] font-semibold text-muted hover:text-red-500 transition-colors ml-2 underline underline-offset-2 shrink-0"
             >
               Скинути все
             </button>
