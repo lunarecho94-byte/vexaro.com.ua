@@ -562,6 +562,77 @@
     ]
   },
   {
+    "id": "933705",
+    "slug": "adidas-campus-00s-grey-white-gum-khutro-0705v",
+    "name": "Adidas Campus 00s Grey White Gum (хутро)",
+    "brand": "Adidas",
+    "brandSlug": "adidas",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "unisex",
+    "genderName": "Унісекс",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 2200,
+    "oldPrice": 3667,
+    "costPrice": 1700,
+    "sku": "0705V",
+    "material": "Натуральна замша, хутро",
+    "country": "В'єтнам",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "inStock": true,
+    "images": [
+      "/images/products/0705v/img-1.jpg",
+      "/images/products/0705v/img-2.jpg",
+      "https://easydrop.one/media/uploads/images/itemimage_933/258bb211-ebe8-4975-ab47-bbe0df73123c.webp"
+    ],
+    "description": "Зимові кросівки Adidas Campus 00s Grey White Gum (хутро) у трендовому сірому забарвленні (артикул: 0705V). Верх виконаний із преміальної натуральної замші світло-сірого кольору з контрастними білими шкіряними смужками, всередині — щільне тепле світле хутро для комфорту та збереження тепла в холодні дні. Масивний силует 00s із широкими білими шнурками, вінтажною підошвою та зносостійким гумовим протектором кольору Gum. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Adidas Campus 00s Grey White Gum (хутро) (арт. 0705V) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте зимові кросівки Adidas Campus 00s Grey White Gum (хутро) (арт. 0705V) за 2200 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    },
+    "isHit": true,
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": true
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": true
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "24.5",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.0",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      }
+    ]
+  },
+  {
     "id": "269045",
     "slug": "adidas-campus-grey-khutro-as045",
     "name": "Adidas Campus Grey (хутро)",
