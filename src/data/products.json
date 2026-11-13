@@ -114,8 +114,7 @@
     "material": "Шкіра, замша, хутро, текстиль, піна, гума",
     "country": "Італія",
     "sizes": [
-      "41",
-      "44"
+      "41"
     ],
     "sizeChart": [
       {
@@ -161,7 +160,7 @@
       {
         "size": "44",
         "cm": "28.0",
-        "available": true
+        "available": false
       },
       {
         "size": "45",
@@ -1342,8 +1341,7 @@
       "40",
       "41",
       "42",
-      "43",
-      "44"
+      "43"
     ],
     "sizeChart": [
       {
@@ -1389,7 +1387,7 @@
       {
         "size": "44",
         "cm": "28.0",
-        "available": true
+        "available": false
       },
       {
         "size": "45",
@@ -6430,7 +6428,8 @@
       "41",
       "42",
       "43",
-      "44"
+      "44",
+      "45"
     ],
     "sizeChart": [
       {
@@ -6481,7 +6480,7 @@
       {
         "size": "45",
         "cm": "28.5",
-        "available": false
+        "available": true
       },
       {
         "size": "46",
@@ -6688,6 +6687,97 @@
     "seo": {
       "title": "Nike Sb Dunk Low Black Fur (арт. NK181) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Nike Sb Dunk Low Black Fur (арт. NK181) за 3100 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "256702",
+    "slug": "nike-sb-dunk-low-black-white-fur-nk180",
+    "name": "Nike Sb Dunk Low Black/White Fur",
+    "brand": "Nike",
+    "brandSlug": "nike",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "men",
+    "genderName": "Чоловічі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 3100,
+    "oldPrice": 5167,
+    "costPrice": 2600,
+    "sku": "NK180",
+    "material": "Шкіра",
+    "country": "-",
+    "sizes": [
+      "43",
+      "44",
+      "45"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": false
+      },
+      {
+        "size": "39",
+        "cm": "24.5",
+        "available": false
+      },
+      {
+        "size": "40",
+        "cm": "25.0",
+        "available": false
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": false
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": true
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": true
+      },
+      {
+        "size": "45",
+        "cm": "29.0",
+        "available": true
+      },
+      {
+        "size": "46",
+        "cm": "30.0",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/0f4d6f1c-ce6a-4eba-a534-fb965f567f11.jpeg"
+    ],
+    "description": "Модель: Nike Sb Dunk Low Black/White Fur. Артикул: NK180. Матеріал: Шкіра. Сезон: Демісезон. Виробництво: -. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Nike Sb Dunk Low Black/White Fur (арт. NK180) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Nike Sb Dunk Low Black/White Fur (арт. NK180) за 3100 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -7062,97 +7152,6 @@
     "seo": {
       "title": "Nike P-6000 ХУТРО (арт. NTR827) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Nike P-6000 ХУТРО (арт. NTR827) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "256505",
-    "slug": "nike-p-6000-khutro-ntr826",
-    "name": "Nike P-6000 ХУТРО",
-    "brand": "Nike",
-    "brandSlug": "nike",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 3000,
-    "oldPrice": 5000,
-    "costPrice": 2500,
-    "sku": "NTR826",
-    "material": "Шкіра, замша, вологостійкий текстиль, термоутеплювач, гума, піна, прошиті",
-    "country": "В'єтнам",
-    "sizes": [
-      "41",
-      "42",
-      "46"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": true
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "30.0",
-        "available": true
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/b47d180c-5536-4a46-b0b5-38b473c92f4f.jpeg"
-    ],
-    "description": "Модель: Nike P-6000 ХУТРО. Артикул: NTR826. Матеріал: Шкіра, замша, вологостійкий текстиль, термоутеплювач, гума, піна, прошиті. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Nike P-6000 ХУТРО (арт. NTR826) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Nike P-6000 ХУТРО (арт. NTR826) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -9789,6 +9788,7 @@
     "sizes": [
       "41",
       "42",
+      "43",
       "44"
     ],
     "sizeChart": [
@@ -9830,7 +9830,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": false
+        "available": true
       },
       {
         "size": "44",
@@ -21211,7 +21211,6 @@
       "38",
       "39",
       "40",
-      "41",
       "43",
       "44"
     ],
@@ -21244,7 +21243,7 @@
       {
         "size": "41",
         "cm": "26.0",
-        "available": true
+        "available": false
       },
       {
         "size": "42",
@@ -23734,6 +23733,7 @@
     "country": "В'єтнам",
     "sizes": [
       "41",
+      "42",
       "43",
       "45"
     ],
@@ -23771,7 +23771,7 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": false
+        "available": true
       },
       {
         "size": "43",
@@ -24308,6 +24308,7 @@
     "sizes": [
       "36",
       "38",
+      "40",
       "41"
     ],
     "sizeChart": [
@@ -24334,7 +24335,7 @@
       {
         "size": "40",
         "cm": "25.0",
-        "available": false
+        "available": true
       },
       {
         "size": "41",
@@ -32163,7 +32164,6 @@
     "sizes": [
       "41",
       "42",
-      "43",
       "45"
     ],
     "sizeChart": [
@@ -32205,7 +32205,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": true
+        "available": false
       },
       {
         "size": "44",
@@ -33668,8 +33668,7 @@
       "41",
       "42",
       "43",
-      "44",
-      "45"
+      "44"
     ],
     "sizeChart": [
       {
@@ -33720,7 +33719,7 @@
       {
         "size": "45",
         "cm": "29.0",
-        "available": true
+        "available": false
       },
       {
         "size": "46",
@@ -38880,6 +38879,97 @@
     "seo": {
       "title": "New Balance 9060 Beige Leopard (арт. 2847) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте New Balance 9060 Beige Leopard (арт. 2847) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "248388",
+    "slug": "moncler-trailgrip-gore-tex-black-white-3006",
+    "name": "Moncler Trailgrip Gore-Tex Black White",
+    "brand": "Інші бренди",
+    "brandSlug": "other",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "men",
+    "genderName": "Чоловічі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 4000,
+    "oldPrice": 6667,
+    "costPrice": 3500,
+    "sku": "3006",
+    "material": "Кожа , Текстиль",
+    "country": "В'єтнам",
+    "sizes": [
+      "42",
+      "43",
+      "44"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": false
+      },
+      {
+        "size": "39",
+        "cm": "24.5",
+        "available": false
+      },
+      {
+        "size": "40",
+        "cm": "25.0",
+        "available": false
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": false
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": true
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": true
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": true
+      },
+      {
+        "size": "45",
+        "cm": "29.0",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/5bf2ab93-5779-44a6-8ff8-edcc9dc0b484.jpeg"
+    ],
+    "description": "Модель: Moncler Trailgrip Gore-Tex Black White. Артикул: 3006. Матеріал: Кожа , Текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Moncler Trailgrip Gore-Tex Black White (арт. 3006) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Moncler Trailgrip Gore-Tex Black White (арт. 3006) за 4000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -46343,7 +46433,6 @@
     "sizes": [
       "42",
       "43",
-      "44",
       "45"
     ],
     "sizeChart": [
@@ -46390,7 +46479,7 @@
       {
         "size": "44",
         "cm": "28.0",
-        "available": true
+        "available": false
       },
       {
         "size": "45",
@@ -55131,7 +55220,6 @@
     "country": "В'єтнам",
     "sizes": [
       "41",
-      "43",
       "44",
       "46"
     ],
@@ -55174,7 +55262,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": true
+        "available": false
       },
       {
         "size": "44",
@@ -55568,97 +55656,6 @@
     "seo": {
       "title": "Salomon XA Pro Street Thinsulate Gore-Tex Grey (арт. 2990) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Salomon XA Pro Street Thinsulate Gore-Tex Grey (арт. 2990) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "243469",
-    "slug": "salomon-xa-pro-street-thinsulate-gore-tex-brown-2991",
-    "name": "Salomon XA Pro Street Thinsulate Gore-Tex Brown",
-    "brand": "Salomon",
-    "brandSlug": "salomon",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 3000,
-    "oldPrice": 5000,
-    "costPrice": 2500,
-    "sku": "2991",
-    "material": "Кожа , Замша , Текстиль",
-    "country": "В'єтнам",
-    "sizes": [
-      "43",
-      "44",
-      "45"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.0",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.0",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": true
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": true
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": true
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/5fa61b30-00f6-435b-ab3b-b16efabdcc90.jpeg"
-    ],
-    "description": "Модель: Salomon XA Pro Street Thinsulate Gore-Tex Brown. Артикул: 2991. Матеріал: Кожа , Замша , Текстиль. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Salomon XA Pro Street Thinsulate Gore-Tex Brown (арт. 2991) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Salomon XA Pro Street Thinsulate Gore-Tex Brown (арт. 2991) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -59699,7 +59696,8 @@
     "sizes": [
       "36",
       "37",
-      "38"
+      "38",
+      "40"
     ],
     "sizeChart": [
       {
@@ -59725,7 +59723,7 @@
       {
         "size": "40",
         "cm": "25.0",
-        "available": false
+        "available": true
       },
       {
         "size": "41",
@@ -70852,6 +70850,7 @@
     "material": "Шкіра\\текстиль",
     "country": "В'єтнам",
     "sizes": [
+      "36",
       "37",
       "38",
       "39",
@@ -70861,7 +70860,7 @@
       {
         "size": "36",
         "cm": "22.5",
-        "available": false
+        "available": true
       },
       {
         "size": "37",
@@ -78240,7 +78239,6 @@
     "material": "Шкіра",
     "country": "В'єтнам",
     "sizes": [
-      "42",
       "43",
       "44",
       "45"
@@ -78279,7 +78277,7 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": true
+        "available": false
       },
       {
         "size": "43",
@@ -84608,6 +84606,7 @@
     "sizes": [
       "41",
       "43",
+      "44",
       "45"
     ],
     "sizeChart": [
@@ -84654,7 +84653,7 @@
       {
         "size": "44",
         "cm": "28.0",
-        "available": false
+        "available": true
       },
       {
         "size": "45",
@@ -86380,6 +86379,7 @@
     "material": "Текстиль",
     "country": "В'єтнам",
     "sizes": [
+      "40",
       "41",
       "42",
       "43",
@@ -86410,7 +86410,7 @@
       {
         "size": "40",
         "cm": "25.0",
-        "available": false
+        "available": true
       },
       {
         "size": "41",
@@ -89074,6 +89074,97 @@
     "seo": {
       "title": "Nike Air Max 90 Black (арт. NK155) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Nike Air Max 90 Black (арт. NK155) за 2500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "225885",
+    "slug": "new-balance-2000-black-pink-grey-nb119",
+    "name": "New Balance 2000 Black/Pink/Grey",
+    "brand": "New Balance",
+    "brandSlug": "newbalance",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 3000,
+    "oldPrice": 5000,
+    "costPrice": 2500,
+    "sku": "NB119",
+    "material": "Текстиль",
+    "country": "В'єтнам",
+    "sizes": [
+      "36",
+      "38",
+      "40"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": true
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "24.5",
+        "available": false
+      },
+      {
+        "size": "40",
+        "cm": "25.0",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "25.5",
+        "available": false
+      },
+      {
+        "size": "42",
+        "cm": "26.0",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "28.5",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/c7b37646-5231-4f11-b822-4ce567303ef2.jpeg"
+    ],
+    "description": "Модель: New Balance 2000 Black/Pink/Grey. Артикул: NB119. Матеріал: Текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "New Balance 2000 Black/Pink/Grey (арт. NB119) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте New Balance 2000 Black/Pink/Grey (арт. NB119) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -105984,8 +106075,8 @@
   },
   {
     "id": "214738",
-    "slug": "nike-sb-dunk-brown-pink-premium-10-1525",
-    "name": "NIKE SB DUNK | BROWN / PINK premium (10",
+    "slug": "nike-sb-dunk-brown-pink-premium-7-1525",
+    "name": "NIKE SB DUNK | BROWN / PINK premium (7",
     "brand": "Nike",
     "brandSlug": "nike",
     "category": "Взуття",
@@ -106068,10 +106159,10 @@
     "images": [
       "https://easydrop.one/media/uploads/images/base/af9b6ce1-e3c0-40db-b74e-f5b8a299e699.jpeg"
     ],
-    "description": "Модель: NIKE SB DUNK | BROWN / PINK premium (10. Артикул: 1525. Матеріал: Шкіра, текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "description": "Модель: NIKE SB DUNK | BROWN / PINK premium (7. Артикул: 1525. Матеріал: Шкіра, текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
     "seo": {
-      "title": "NIKE SB DUNK | BROWN / PINK premium (10 (арт. 1525) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте NIKE SB DUNK | BROWN / PINK premium (10 (арт. 1525) за 2500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+      "title": "NIKE SB DUNK | BROWN / PINK premium (7 (арт. 1525) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте NIKE SB DUNK | BROWN / PINK premium (7 (арт. 1525) за 2500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -108519,6 +108610,7 @@
       "37",
       "38",
       "40",
+      "41",
       "44"
     ],
     "sizeChart": [
@@ -108550,7 +108642,7 @@
       {
         "size": "41",
         "cm": "26.0",
-        "available": false
+        "available": true
       },
       {
         "size": "42",
@@ -111501,7 +111593,6 @@
       "40",
       "41",
       "42",
-      "43",
       "44",
       "45"
     ],
@@ -111544,7 +111635,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": true
+        "available": false
       },
       {
         "size": "44",
@@ -120070,7 +120161,6 @@
       "38",
       "39",
       "40",
-      "41",
       "42",
       "43",
       "44",
@@ -120105,7 +120195,7 @@
       {
         "size": "41",
         "cm": "26.0",
-        "available": true
+        "available": false
       },
       {
         "size": "42",
@@ -135724,7 +135814,6 @@
     "country": "Італія",
     "sizes": [
       "37",
-      "38",
       "39",
       "40"
     ],
@@ -135742,7 +135831,7 @@
       {
         "size": "38",
         "cm": "24.0",
-        "available": true
+        "available": false
       },
       {
         "size": "39",
@@ -138326,6 +138415,7 @@
     "country": "В'єтнам",
     "sizes": [
       "36",
+      "41",
       "42",
       "43",
       "44",
@@ -138360,7 +138450,7 @@
       {
         "size": "41",
         "cm": "26.0",
-        "available": false
+        "available": true
       },
       {
         "size": "42",
@@ -143909,7 +143999,6 @@
     "country": "В'єтнам",
     "sizes": [
       "41",
-      "42",
       "43",
       "44",
       "45",
@@ -143949,7 +144038,7 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": true
+        "available": false
       },
       {
         "size": "43",
@@ -161822,8 +161911,7 @@
     "sizes": [
       "37",
       "38",
-      "44",
-      "45"
+      "44"
     ],
     "sizeChart": [
       {
@@ -161874,7 +161962,7 @@
       {
         "size": "45",
         "cm": "29.0",
-        "available": true
+        "available": false
       },
       {
         "size": "46",
@@ -191316,6 +191404,7 @@
     "material": "Замша/сітка",
     "country": "В'єтнам",
     "sizes": [
+      "36",
       "37",
       "38",
       "42",
@@ -191327,7 +191416,7 @@
       {
         "size": "36",
         "cm": "22.5",
-        "available": false
+        "available": true
       },
       {
         "size": "37",
@@ -197922,6 +198011,100 @@
     }
   },
   {
+    "id": "150241",
+    "slug": "new-balance-9060-brown-nb0070",
+    "name": "New Balance 9060 Brown",
+    "brand": "New Balance",
+    "brandSlug": "newbalance",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "unisex",
+    "genderName": "Унісекс",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 2800,
+    "oldPrice": 4667,
+    "costPrice": 2300,
+    "sku": "NB0070",
+    "material": "Текстиль / комбінований",
+    "country": "-",
+    "sizes": [
+      "37",
+      "38",
+      "39",
+      "43"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": true
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "24.5",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.0",
+        "available": false
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": false
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": true
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "29.0",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "30.0",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": true,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/9a90994f-2b20-4e9b-97c2-f68fbfa84ac5.jpeg",
+      "https://easydrop.one/media/uploads/images/base/6d7308dc-69c0-4f5a-a8dd-bd3922043f20.jpeg",
+      "https://easydrop.one/media/uploads/images/base/3657bad0-5601-4124-aaa7-503e404b2271.jpeg"
+    ],
+    "description": "Модель: New Balance 9060 Brown. Артикул: NB0070. Матеріал: Текстиль / комбінований. Сезон: Демісезон. Виробництво: -. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "New Balance 9060 Brown (арт. NB0070) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте New Balance 9060 Brown (арт. NB0070) за 2800 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
     "id": "150171",
     "slug": "air-jordan-retro-3-craft-white-premium-7-1137",
     "name": "AIR JORDAN RETRO 3 | “CRAFT WHITE” premium (7",
@@ -198701,7 +198884,8 @@
       "38",
       "39",
       "40",
-      "41"
+      "41",
+      "43"
     ],
     "sizeChart": [
       {
@@ -198742,7 +198926,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": false
+        "available": true
       },
       {
         "size": "44",
@@ -204309,8 +204493,7 @@
       "41",
       "42",
       "43",
-      "44",
-      "45"
+      "44"
     ],
     "sizeChart": [
       {
@@ -204361,7 +204544,7 @@
       {
         "size": "45",
         "cm": "29.0",
-        "available": true
+        "available": false
       },
       {
         "size": "46",
@@ -205599,7 +205782,7 @@
       "37",
       "38",
       "39",
-      "45"
+      "44"
     ],
     "sizeChart": [
       {
@@ -205645,12 +205828,12 @@
       {
         "size": "44",
         "cm": "28.0",
-        "available": false
+        "available": true
       },
       {
         "size": "45",
         "cm": "28.5",
-        "available": true
+        "available": false
       },
       {
         "size": "46",
@@ -205941,97 +206124,6 @@
     "seo": {
       "title": "Nike Air Max Plus TN ‘White Black Orange’ CN0142-015 (арт. 1471) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Nike Air Max Plus TN ‘White Black Orange’ CN0142-015 (арт. 1471) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "132419",
-    "slug": "new-balance-1906a-silver-grey-black-1932",
-    "name": "New Balance 1906A Silver Grey Black",
-    "brand": "New Balance",
-    "brandSlug": "newbalance",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 2600,
-    "oldPrice": 4333,
-    "costPrice": 2100,
-    "sku": "1932",
-    "material": "Кожа , Текстиль",
-    "country": "В'єтнам",
-    "sizes": [
-      "40",
-      "41",
-      "42"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.0",
-        "available": true
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": true
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "30.0",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/1ed52fa1-5146-4673-a9fa-6b751fcbf2b1.jpeg"
-    ],
-    "description": "Модель: New Balance 1906A Silver Grey Black. Артикул: 1932. Матеріал: Кожа , Текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "New Balance 1906A Silver Grey Black (арт. 1932) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте New Balance 1906A Silver Grey Black (арт. 1932) за 2600 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -207479,7 +207571,6 @@
     "material": "Кожа , Текстиль.",
     "country": "В'єтнам",
     "sizes": [
-      "41",
       "42",
       "43",
       "44"
@@ -207513,7 +207604,7 @@
       {
         "size": "41",
         "cm": "26.0",
-        "available": true
+        "available": false
       },
       {
         "size": "42",
@@ -210950,7 +211041,8 @@
     "sizes": [
       "40",
       "41",
-      "42"
+      "42",
+      "44"
     ],
     "sizeChart": [
       {
@@ -210996,7 +211088,7 @@
       {
         "size": "44",
         "cm": "28.0",
-        "available": false
+        "available": true
       },
       {
         "size": "45",
@@ -220367,8 +220459,8 @@
     "country": "-",
     "sizes": [
       "36",
-      "37",
       "38",
+      "41",
       "43"
     ],
     "sizeChart": [
@@ -220380,7 +220472,7 @@
       {
         "size": "37",
         "cm": "23.5",
-        "available": true
+        "available": false
       },
       {
         "size": "38",
@@ -220400,7 +220492,7 @@
       {
         "size": "41",
         "cm": "26.0",
-        "available": false
+        "available": true
       },
       {
         "size": "42",
@@ -229667,7 +229759,6 @@
     "country": "В'єтнам",
     "sizes": [
       "37",
-      "38",
       "40",
       "41",
       "42",
@@ -229688,7 +229779,7 @@
       {
         "size": "38",
         "cm": "23.5",
-        "available": true
+        "available": false
       },
       {
         "size": "39",
@@ -245688,7 +245779,6 @@
       "39",
       "41",
       "42",
-      "44",
       "45"
     ],
     "sizeChart": [
@@ -245735,7 +245825,7 @@
       {
         "size": "44",
         "cm": "28.0",
-        "available": true
+        "available": false
       },
       {
         "size": "45",
@@ -246064,6 +246154,7 @@
       "39",
       "40",
       "41",
+      "42",
       "43"
     ],
     "sizeChart": [
@@ -246100,7 +246191,7 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": false
+        "available": true
       },
       {
         "size": "43",
@@ -246155,6 +246246,7 @@
     "sizes": [
       "37",
       "38",
+      "39",
       "40",
       "41",
       "42",
@@ -246180,7 +246272,7 @@
       {
         "size": "39",
         "cm": "24.5",
-        "available": false
+        "available": true
       },
       {
         "size": "40",
@@ -246794,8 +246886,8 @@
     "brandSlug": "ugg",
     "category": "Взуття",
     "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
+    "gender": "unisex",
+    "genderName": "Унісекс",
     "season": "winter",
     "seasonName": "Зима",
     "price": 1600,
@@ -246810,7 +246902,8 @@
       "38",
       "39",
       "40",
-      "41"
+      "41",
+      "43"
     ],
     "sizeChart": [
       {
@@ -246851,7 +246944,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": false
+        "available": true
       },
       {
         "size": "44",
@@ -248562,7 +248655,6 @@
     "sizes": [
       "37",
       "38",
-      "41",
       "44"
     ],
     "sizeChart": [
@@ -248594,7 +248686,7 @@
       {
         "size": "41",
         "cm": "26.0",
-        "available": true
+        "available": false
       },
       {
         "size": "42",
@@ -249576,7 +249668,6 @@
     "country": "Китай",
     "sizes": [
       "38",
-      "39",
       "40",
       "41"
     ],
@@ -249599,7 +249690,7 @@
       {
         "size": "39",
         "cm": "25.0",
-        "available": true
+        "available": false
       },
       {
         "size": "40",
@@ -254300,7 +254391,6 @@
       "36",
       "37",
       "38",
-      "41",
       "42",
       "44",
       "45"
@@ -254334,7 +254424,7 @@
       {
         "size": "41",
         "cm": "26.0",
-        "available": true
+        "available": false
       },
       {
         "size": "42",
@@ -260202,6 +260292,97 @@
     }
   },
   {
+    "id": "27873",
+    "slug": "ugg-classic-mini-ii-zip-boot-rozprodazh-ug081",
+    "name": "Ugg classic mini II Zip Boot РОЗПРОДАЖ",
+    "brand": "UGG",
+    "brandSlug": "ugg",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 1450,
+    "oldPrice": 2417,
+    "costPrice": 950,
+    "sku": "UG081",
+    "material": "Шкіра/Овчина",
+    "country": "-",
+    "sizes": [
+      "36",
+      "37",
+      "39"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "23.0",
+        "available": true
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": true
+      },
+      {
+        "size": "38",
+        "cm": "24.5",
+        "available": false
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": false
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": false
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "28.5",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": true,
+    "images": [
+      "https://easydrop.one/media/uploads/images/item_876/164fbb78-324a-43d2-9b99-05b66f10900e.webp"
+    ],
+    "description": "Модель: Ugg classic mini II Zip Boot РОЗПРОДАЖ. Артикул: UG081. Матеріал: Шкіра/Овчина. Сезон: Зима. Виробництво: -. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Ugg classic mini II Zip Boot РОЗПРОДАЖ (арт. UG081) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Ugg classic mini II Zip Boot РОЗПРОДАЖ (арт. UG081) за 1450 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
     "id": "27872",
     "slug": "ugg-classic-mini-mokko-suede-ug073",
     "name": "Ugg Classic Mini Mokko Suede",
@@ -260779,6 +260960,7 @@
     "sizes": [
       "36",
       "37",
+      "38",
       "39",
       "40",
       "41"
@@ -260797,7 +260979,7 @@
       {
         "size": "38",
         "cm": "24.5",
-        "available": false
+        "available": true
       },
       {
         "size": "39",
@@ -261862,6 +262044,97 @@
     }
   },
   {
+    "id": "26960",
+    "slug": "ugg-ultra-mini-smooth-leather-rozprodazh-ug069",
+    "name": "Ugg Ultra Mini Smooth Leather РОЗПРОДАЖ",
+    "brand": "UGG",
+    "brandSlug": "ugg",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 900,
+    "oldPrice": 1500,
+    "costPrice": 400,
+    "sku": "UG069",
+    "material": "Текстиль/эко кожа",
+    "country": "Китай",
+    "sizes": [
+      "39",
+      "40",
+      "41"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "23.0",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "24.5",
+        "available": false
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "28.5",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": true,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/026c370f-a184-4fb4-b627-cf26cc92ae54.webp"
+    ],
+    "description": "Модель: Ugg Ultra Mini Smooth Leather РОЗПРОДАЖ. Артикул: UG069. Матеріал: Текстиль/эко кожа. Сезон: Зима. Виробництво: Китай. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Ugg Ultra Mini Smooth Leather РОЗПРОДАЖ (арт. UG069) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Ugg Ultra Mini Smooth Leather РОЗПРОДАЖ (арт. UG069) за 900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
     "id": "26906",
     "slug": "new-balance-550-black-nb008",
     "name": "New Balance 550 Black",
@@ -262134,6 +262407,98 @@
     "seo": {
       "title": "Valentino Garavani Black (арт. Vl005) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Valentino Garavani Black (арт. Vl005) за 2000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "26875",
+    "slug": "new-balance-530-green-nb007",
+    "name": "New Balance 530 Green",
+    "brand": "New Balance",
+    "brandSlug": "newbalance",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 2450,
+    "oldPrice": 4083,
+    "costPrice": 1950,
+    "sku": "NB007",
+    "material": "Текстиль",
+    "country": "В'єтнам",
+    "sizes": [
+      "36",
+      "37",
+      "40"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": true
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": true
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": false
+      },
+      {
+        "size": "39",
+        "cm": "24.5",
+        "available": false
+      },
+      {
+        "size": "40",
+        "cm": "25.0",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "25.5",
+        "available": false
+      },
+      {
+        "size": "42",
+        "cm": "26.0",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "28.5",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/be97e637-8357-4797-972f-c525d83a1ef7.jpeg",
+      "https://easydrop.one/media/uploads/images/base/226ed990-2227-47c3-a875-60bce046e628.jpeg"
+    ],
+    "description": "Модель: New Balance 530 Green. Артикул: NB007. Матеріал: Текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "New Balance 530 Green (арт. NB007) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте New Balance 530 Green (арт. NB007) за 2450 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -270949,6 +271314,7 @@
       "37",
       "39",
       "41",
+      "42",
       "45"
     ],
     "sizeChart": [
@@ -270985,7 +271351,7 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": false
+        "available": true
       },
       {
         "size": "43",
