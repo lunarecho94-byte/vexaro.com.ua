@@ -650,7 +650,7 @@ CURATED_PRODUCTS = [
         'sku': 'AD-186',
         'material': 'Натуральна замша, хутро',
         'country': "В'єтнам",
-        'sizes': ['44', '45'],
+        'sizes': ['42', '44', '45'],
         'inStock': True,
         'images': [
             '/images/products/ad186/img-1.jpg',
