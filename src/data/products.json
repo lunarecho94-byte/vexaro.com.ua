@@ -8331,6 +8331,76 @@
     }
   },
   {
+    "id": "256188",
+    "slug": "adidas-campus-00s-grey-white-khutro-5188",
+    "name": "Adidas Campus 00s Grey White (хутро)",
+    "brand": "Adidas",
+    "brandSlug": "adidas",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "unisex",
+    "genderName": "Унісекс",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 2200,
+    "oldPrice": 3667,
+    "costPrice": 1700,
+    "sku": "5188",
+    "material": "Натуральна замша, хутро",
+    "country": "В'єтнам",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "inStock": true,
+    "images": [
+      "/images/products/5188/img-1.jpg",
+      "https://easydrop.one/media/uploads/images/itemimage_25644/911a8893-214a-4f2e-8d42-f23095019f9e.webp"
+    ],
+    "description": "Зимові кросівки Adidas Campus 00s Grey White (хутро) у класичному універсальному сірому забарвленні з білими фірмовими смужками (артикул: 5188). Верх моделі виконаний із преміальної натуральної замші, всередині — густе тепле біле хутро, що надійно зберігає тепло в морозну зимову погоду. Культовий масивний силует нульових із широкими шнурками, контрастним білим задником та зносостійкою гумовою підошвою. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Adidas Campus 00s Grey White (хутро) (арт. 5188) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте зимові кросівки Adidas Campus 00s Grey White (хутро) (арт. 5188) за 2200 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    },
+    "isHit": true,
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": true
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": true
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "24.5",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.0",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      }
+    ]
+  },
+  {
     "id": "256174",
     "slug": "adidas-campus-00s-beige-black-khutro-5174",
     "name": "Adidas Campus 00s Beige Black (хутро)",
