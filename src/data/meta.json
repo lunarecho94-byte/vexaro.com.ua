@@ -1,5 +1,5 @@
 {
-  "total": 2923,
+  "total": 2921,
   "brands": [
     {
       "name": "Nike",
@@ -44,7 +44,7 @@
     {
       "name": "Salomon",
       "slug": "salomon",
-      "count": 55
+      "count": 54
     },
     {
       "name": "On Cloud",
@@ -102,13 +102,13 @@
       "count": 9
     },
     {
-      "name": "Bottega Veneta",
-      "slug": "bottega",
-      "count": 7
-    },
-    {
       "name": "Miu Miu",
       "slug": "miumiu",
+      "count": 6
+    },
+    {
+      "name": "Bottega Veneta",
+      "slug": "bottega",
       "count": 6
     },
     {
@@ -171,19 +171,19 @@
     {
       "name": "Взуття",
       "slug": "shoes",
-      "count": 2923
+      "count": 2921
     }
   ],
   "genders": [
     {
       "name": "Жіночі",
       "slug": "women",
-      "count": 1360
+      "count": 1359
     },
     {
       "name": "Чоловічі",
       "slug": "men",
-      "count": 988
+      "count": 987
     },
     {
       "name": "Унісекс",
@@ -200,7 +200,7 @@
     {
       "name": "Зима",
       "slug": "winter",
-      "count": 380
+      "count": 378
     }
   ],
   "sizes": [
@@ -220,12 +220,12 @@
     "45",
     "46",
     "47",
+    "L",
+    "XL",
     "M",
     "45/46",
     "40–41",
-    "S",
-    "L",
-    "XL"
+    "S"
   ],
   "minPrice": 900,
   "maxPrice": 6400

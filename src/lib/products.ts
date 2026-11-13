@@ -13,6 +13,20 @@ const productById = new Map<string, Product>();
 const EXCLUDED_TAPKI_REGEX =
   /\b(slides?|slippers?|clogs?|mules?|sandals?|flip.?flops?|adimule|tazz|tasman|funkette|disquette|tazzlita|lanah|goldenstar|crocs|thongs?|sabot|adilette|chypre|dway|tippi|birkenstock)\b|triomphe.*mule|summer charms|тапк|тапочк|шльоп|шлеп|сланц|сланец|босоніж|босонож|вьетнамк|в'єтнамк|сабо|пантоф|лофер|loafer/i;
 
+const EXCLUDED_SKUS = new Set([
+  '16006',
+  '16005',
+  '16004',
+  '16003',
+  'NB143',
+  '0068',
+  '2688',
+  'R343',
+  'SL015',
+  '258739',
+  '2263',
+]);
+
 const FEMALE_REGEX =
   /\b(pink|rose|pearl|glitter|sparkle|strawberry|бантик|пудр|розов|ніжн|fuchsia|magenta|lilac|бузков|лаванд|lavender|violet|women|жіноч|floral|heart|pastel|sakura|платформ|platform|mary jane|каблук|балетк)\b/i;
 
@@ -101,7 +115,12 @@ function ensureLoaded() {
   const metaRaw = fs.readFileSync(path.join(dataDir, 'meta.json'), 'utf-8');
 
   const rawProducts = JSON.parse(prodsRaw) as Product[];
-  allProducts = rawProducts.filter((p) => !EXCLUDED_TAPKI_REGEX.test(p.name));
+  allProducts = rawProducts.filter(
+    (p) =>
+      !EXCLUDED_TAPKI_REGEX.test(p.name) &&
+      !EXCLUDED_SKUS.has((p.sku || '').trim().toUpperCase()) &&
+      !EXCLUDED_SKUS.has((p.id || '').trim())
+  );
   catalogMeta = JSON.parse(metaRaw) as CatalogMeta;
 
   for (const p of allProducts) {

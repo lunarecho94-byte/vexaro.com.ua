@@ -233,7 +233,7 @@ COLOR_WORDS = {
 }
 
 # Explicitly excluded items (all slippers, slides, clogs, mules, sandals, etc. per store owner request)
-EXCLUDED_SKUS = {'16006', '16005', '16004', '16003', 'NB143', '0068', '2688', 'R343', 'SL015', '258739'}
+EXCLUDED_SKUS = {'16006', '16005', '16004', '16003', 'NB143', '0068', '2688', 'R343', 'SL015', '258739', '2263'}
 
 # Pinned products permanently pinned at top by store owner request (supports 'id:...' or SKU)
 PINNED_KEYS = ['KS 2868', 'KS2868', '2868', 'PM09', 'PM10', 'PM11', 'PM12', 'A6201']
@@ -1270,7 +1270,12 @@ def main():
             continue
 
         clean_sku = str(art).strip()
-        if clean_sku.upper() in {s.upper() for s in EXCLUDED_SKUS} or EXCLUDED_NAME_PATTERNS.search(name):
+        clean_gid = str(gid).strip()
+        if (
+            clean_sku.upper() in {s.upper() for s in EXCLUDED_SKUS}
+            or clean_gid in EXCLUDED_SKUS
+            or EXCLUDED_NAME_PATTERNS.search(name)
+        ):
             continue
 
         orig_size_count = len(sorted_sizes)
