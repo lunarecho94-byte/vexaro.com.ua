@@ -611,7 +611,7 @@ CURATED_PRODUCTS = [
         'sku': 'KS 2204',
         'material': 'Натуральна замша, хутро',
         'country': "В'єтнам",
-        'sizes': ['41', '44', '45'],
+        'sizes': ['41', '42', '43', '44', '45'],
         'inStock': True,
         'images': [
             '/images/products/ks2204/img-1.jpg',
