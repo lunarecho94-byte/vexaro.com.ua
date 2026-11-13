@@ -25,6 +25,7 @@ const EXCLUDED_SKUS = new Set([
   'SL015',
   '258739',
   '2263',
+  '2169',
 ]);
 
 const FEMALE_REGEX =
