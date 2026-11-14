@@ -236,7 +236,7 @@ COLOR_WORDS = {
 EXCLUDED_SKUS = {'16006', '16005', '16004', '16003', 'NB143', '0068', '2688', 'R343', 'SL015', '258739', '2263', '2169'}
 
 # Pinned products permanently pinned at top by store owner request (supports 'id:...' or SKU)
-PINNED_KEYS = ['KS 2868', 'KS2868', '2868', 'PM09', 'PM10', 'PM11', 'PM12', 'A6201']
+PINNED_KEYS = ['PM10', 'PM11', 'PM12', 'A6201']
 
 # Specific size exclusions per product SKU requested by store owner
 EXCLUDED_SIZES_BY_SKU = {}
@@ -1698,14 +1698,8 @@ def main():
             ex_sizes = EXCLUDED_SIZES_BY_SKU[clean_sku.upper()]
             sorted_sizes = [s for s in sorted_sizes if s not in ex_sizes]
 
-        # STRICT RULE: AT LEAST 3 SIZES IN STOCK (avoid single dead stock), unless pinned or owner-managed
-        is_pinned = any(
-            (k[3:].strip() == str(gid).strip()) if k.startswith('id:')
-            else (clean_sku.upper() == (k[4:].upper() if k.startswith('sku:') else k.upper()))
-            for k in PINNED_KEYS
-        )
-        is_managed = is_pinned or (clean_sku.upper() in EXCLUDED_SIZES_BY_SKU)
-        if (len(sorted_sizes) < 3 and not is_managed) or len(sorted_sizes) == 0:
+        # STRICT RULE: AT LEAST 3 SIZES IN STOCK (avoid single dead stock)
+        if len(sorted_sizes) < 3 or len(sorted_sizes) == 0:
             continue
 
         clean_name = clean_product_title(name, brand_slug, brand_title, cname)
@@ -1826,8 +1820,10 @@ def main():
         for s in sorted_sizes:
             size_set.add(s)
 
-    # Inject curated products permanently requested by store owner
+    # Inject curated products permanently requested by store owner (strictly >= 3 sizes)
     for cp in CURATED_PRODUCTS:
+        if len([s for s in cp.get('sizes', []) if s]) < 3:
+            continue
         cp['oldPrice'] = int(round(cp['price'] / 0.60))
         cp_gender = cp.get('gender', 'men')
         cp_brand = cp.get('brandSlug', '')
@@ -1850,26 +1846,37 @@ def main():
         ]
         products = [p for p in products if p['id'] != cp['id']]
         products.append(cp)
-        for s in cp['sizes']:
-            size_set.add(s)
-        bslug = cp['brandSlug']
-        brand_map[bslug] = {
-            'name': cp['brand'],
-            'slug': bslug,
-            'count': brand_map.get(bslug, {}).get('count', 0) + 1
-        }
-        sslug = cp['season']
-        season_map[sslug] = {
-            'name': cp['seasonName'],
-            'slug': sslug,
-            'count': season_map.get(sslug, {}).get('count', 0) + 1
-        }
-        gslug = cp['gender']
-        gender_map[gslug] = {
-            'name': cp['genderName'],
-            'slug': gslug,
-            'count': gender_map.get(gslug, {}).get('count', 0) + 1
-        }
+
+    # STRICT FILTER: REMOVE ANY PRODUCT WITH FEWER THAN 3 AVAILABLE SIZES IN SIZECHART
+    products = [
+        p for p in products
+        if sum(1 for s in p.get('sizeChart', []) if s.get('available')) >= 3
+    ]
+
+    brand_map = defaultdict(lambda: {'name': '', 'slug': '', 'count': 0})
+    season_map = defaultdict(lambda: {'name': '', 'slug': '', 'count': 0})
+    gender_map = defaultdict(lambda: {'name': '', 'slug': '', 'count': 0})
+    size_set = set()
+
+    for p in products:
+        bslug = p['brandSlug']
+        brand_map[bslug]['name'] = p['brand']
+        brand_map[bslug]['slug'] = bslug
+        brand_map[bslug]['count'] += 1
+
+        sslug = p['season']
+        season_map[sslug]['name'] = p['seasonName']
+        season_map[sslug]['slug'] = sslug
+        season_map[sslug]['count'] += 1
+
+        gslug = p['gender']
+        gender_map[gslug]['name'] = p['genderName']
+        gender_map[gslug]['slug'] = gslug
+        gender_map[gslug]['count'] += 1
+
+        for s in p.get('sizeChart', []):
+            if s.get('available'):
+                size_set.add(s['size'])
 
     def sort_key_sizes(x):
         try:
