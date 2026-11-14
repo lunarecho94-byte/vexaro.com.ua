@@ -538,8 +538,10 @@ CURATED_PRODUCTS = [
         'sizes': ['41', '42', '44', '45'],
         'inStock': True,
         'images': [
-            '/images/products/as045/img-1.jpg',
-            'https://easydrop.one/media/uploads/images/itemimage_26940/7f5c5625-8ce9-44e4-ba41-2ae185f7e8c2.webp'
+            '/images/products/adidas-campus-grey-khutro-as045/img-1.jpg',
+            '/images/products/adidas-campus-grey-khutro-as045/img-2.jpg',
+            '/images/products/adidas-campus-grey-khutro-as045/img-3.jpg',
+            '/images/products/adidas-campus-grey-khutro-as045/img-4.jpg',
         ],
         'description': (
             'Зимові кросівки Adidas Campus Grey (хутро) у практичному сірому забарвленні '
