@@ -462,8 +462,6 @@ CURATED_PRODUCTS = [
             '/images/products/premiata-moerun-khutro-a6201/img-2.jpg',
             '/images/products/premiata-moerun-khutro-a6201/img-3.jpg',
             '/images/products/premiata-moerun-khutro-a6201/img-4.jpg',
-            '/images/products/premiata-moerun-khutro-a6201/img-5.jpg',
-            '/images/products/premiata-moerun-khutro-a6201/img-6.jpg',
         ],
         'description': (
             'Чоловічі зимові кросівки Premiata MOERUN ХУТРО у стильному коричневому забарвленні '
