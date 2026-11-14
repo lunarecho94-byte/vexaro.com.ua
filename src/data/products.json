@@ -133909,6 +133909,100 @@
     }
   },
   {
+    "id": "199889",
+    "slug": "nike-sb-dunk-burgundy-croc-4920",
+    "name": "Nike SB Dunk Burgundy Croc",
+    "brand": "Nike",
+    "brandSlug": "nike",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 2700,
+    "oldPrice": 4500,
+    "costPrice": 2200,
+    "sku": "4920",
+    "material": "шкіра",
+    "country": "В'єтнам",
+    "sizes": [
+      "38",
+      "39",
+      "40"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "23.0",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "24.5",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.0",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": false
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "28.5",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/f9489d65-f111-4a8d-8c05-992e2f8960d5.jpg",
+      "https://easydrop.one/media/uploads/images/base/7cb936ea-25eb-4c84-8729-6e2d7f7339b9.jpg",
+      "https://easydrop.one/media/uploads/images/base/015244c0-8153-495e-9005-0f38fee2723e.jpg",
+      "https://easydrop.one/media/uploads/images/base/b40b061b-e295-40f4-b609-d9cf6cddbe4c.jpg"
+    ],
+    "description": "Модель: Nike SB Dunk Burgundy Croc. Артикул: 4920. Матеріал: шкіра. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Nike SB Dunk Burgundy Croc (арт. 4920) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Nike SB Dunk Burgundy Croc (арт. 4920) за 2700 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
     "id": "199876",
     "slug": "ugg-lowmel-sneaker-high-black-2404",
     "name": "UGG Lowmel Sneaker High Black",
@@ -157589,6 +157683,100 @@
     "seo": {
       "title": "UGG Lowmel Sneaker Leather Black (арт. U880) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте UGG Lowmel Sneaker Leather Black (арт. U880) за 4700 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "185520",
+    "slug": "ugg-lowmel-sneaker-grey-u830",
+    "name": "UGG Lowmel Sneaker Grey",
+    "brand": "UGG",
+    "brandSlug": "ugg",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 4700,
+    "oldPrice": 7833,
+    "costPrice": 4200,
+    "sku": "U830",
+    "material": "замша,текстиль",
+    "country": "Китай",
+    "sizes": [
+      "37",
+      "38",
+      "39"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "23.0",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": true
+      },
+      {
+        "size": "38",
+        "cm": "24.5",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": false
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": false
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "28.5",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": true,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/5ae05939-7d92-4629-a932-d9ed53541fa5.jpg",
+      "https://easydrop.one/media/uploads/images/base/2812804b-d5b7-4033-ba07-ff03754b01e7.jpg",
+      "https://easydrop.one/media/uploads/images/base/f4967f15-3fdf-40dd-84d0-72af2c37fb90.jpg",
+      "https://easydrop.one/media/uploads/images/base/bace1063-771d-4c2e-b77a-746a822584b5.jpg"
+    ],
+    "description": "Модель: UGG Lowmel Sneaker Grey. Артикул: U830. Матеріал: замша,текстиль. Сезон: Зима. Виробництво: Китай. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "UGG Lowmel Sneaker Grey (арт. U830) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте UGG Lowmel Sneaker Grey (арт. U830) за 4700 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
