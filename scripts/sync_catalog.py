@@ -1731,11 +1731,14 @@ def main():
             slug = f"{slug}-{gid}"
         slug_set.add(slug)
 
-        # Check if high-quality local images exist for this slug
+        # Check if high-quality local images exist for this slug or clean_sku
         local_prod_dir = os.path.join(PUBLIC_DIR, 'images', 'products', slug)
-        if os.path.isdir(local_prod_dir):
-            local_files = sorted(os.listdir(local_prod_dir))
-            local_imgs = [f'/images/products/{slug}/{fn}' for fn in local_files if fn.endswith(('.jpg', '.jpeg', '.webp', '.png'))]
+        sku_prod_dir = os.path.join(PUBLIC_DIR, 'images', 'products', clean_sku.lower().replace(' ', ''))
+        chosen_dir = local_prod_dir if os.path.isdir(local_prod_dir) else (sku_prod_dir if os.path.isdir(sku_prod_dir) else None)
+        if chosen_dir:
+            dir_slug = os.path.basename(chosen_dir)
+            local_files = sorted(os.listdir(chosen_dir))
+            local_imgs = [f'/images/products/{dir_slug}/{fn}' for fn in local_files if fn.endswith(('.jpg', '.jpeg', '.webp', '.png'))]
             if local_imgs:
                 imgs = local_imgs
 
