@@ -122,42 +122,34 @@ export async function GET(req: NextRequest) {
       rawData = await fetchNovaPoshta(fallbackProps);
     }
 
-    let warehouses: WarehouseItem[] = rawData.map((w: any) => {
-      const isPostomat =
-        w.CategoryOfWarehouse === 'Postomat' ||
-        w.Description?.toLowerCase().includes('поштомат') ||
-        w.TypeOfWarehouse === 'f9316480-5f2d-425d-bc2c-ac7cd29decf0';
+    let warehouses: WarehouseItem[] = rawData
+      .map((w: any) => {
+        const isPostomat =
+          w.CategoryOfWarehouse === 'Postomat' ||
+          w.Description?.toLowerCase().includes('поштомат') ||
+          w.Description?.toLowerCase().includes('почтомат') ||
+          w.TypeOfWarehouse === 'f9316480-5f2d-425d-bc2c-ac7cd29decf0';
 
-      return {
-        ref: w.Ref,
-        number: w.Number || '',
-        description: w.Description || '',
-        shortAddress: w.ShortAddress || w.Description || '',
-        type: isPostomat ? 'postomat' : 'branch',
-        maxWeight: Number(w.TotalMaxWeightAllowed || w.PlaceMaxWeightAllowed || 0),
-      };
-    });
-
-    if (typeFilter === 'branch') {
-      warehouses = warehouses.filter((w) => w.type === 'branch');
-    } else if (typeFilter === 'postomat') {
-      warehouses = warehouses.filter((w) => w.type === 'postomat');
-    }
+        return {
+          ref: w.Ref,
+          number: w.Number || '',
+          description: w.Description || '',
+          shortAddress: w.ShortAddress || w.Description || '',
+          type: (isPostomat ? 'postomat' : 'branch') as 'branch' | 'postomat',
+          maxWeight: Number(w.TotalMaxWeightAllowed || w.PlaceMaxWeightAllowed || 0),
+        };
+      })
+      .filter((w) => w.type === 'branch'); // Strictly physical branches only, exclude postomats
 
     // Sort order:
     // If numeric search: exact number match comes first!
-    // Otherwise: Branches first (sorted by branch number integer 1..N), then Postomats (sorted by number).
+    // Otherwise: Branches sorted by number integer 1..N.
     warehouses.sort((a, b) => {
       if (isNumericSearch) {
         const aExact = a.number === cleanedSearch;
         const bExact = b.number === cleanedSearch;
         if (aExact && !bExact) return -1;
         if (!aExact && bExact) return 1;
-      }
-
-      // Group branches before postomats if 'all' filter
-      if (typeFilter === 'all' && a.type !== b.type) {
-        return a.type === 'branch' ? -1 : 1;
       }
 
       const numA = parseInt(a.number, 10);

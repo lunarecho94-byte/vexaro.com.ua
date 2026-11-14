@@ -62,7 +62,6 @@ export function NovaPoshtaDeliverySelect({
   const [allCityWarehouses, setAllCityWarehouses] = useState<WarehouseItem[]>([]);
   const [isWarehouseLoading, setIsWarehouseLoading] = useState(false);
   const [isWarehouseDropdownOpen, setIsWarehouseDropdownOpen] = useState(false);
-  const [warehouseTypeFilter, setWarehouseTypeFilter] = useState<'all' | 'branch' | 'postomat'>('all');
 
   const cityDropdownRef = useRef<HTMLDivElement>(null);
   const warehouseDropdownRef = useRef<HTMLDivElement>(null);
@@ -183,6 +182,7 @@ export function NovaPoshtaDeliverySelect({
   }, [warehouseSearch, selectedCityRef, city, manualMode]);
 
   // Smart client-side filtering across all city warehouses (+ server matches)
+  // Strictly branches only: parcel lockers (postomats) are excluded per store policy
   const displayedWarehouses = useMemo(() => {
     let list = allCityWarehouses;
     if (serverMatches.length > 0) {
@@ -190,12 +190,8 @@ export function NovaPoshtaDeliverySelect({
       list = [...list, ...serverMatches.filter((w) => !seen.has(w.ref))];
     }
 
-    // Filter by type
-    if (warehouseTypeFilter === 'branch') {
-      list = list.filter((w) => w.type === 'branch');
-    } else if (warehouseTypeFilter === 'postomat') {
-      list = list.filter((w) => w.type === 'postomat');
-    }
+    // Exclude postomats: physical branches only
+    list = list.filter((w) => w.type === 'branch');
 
     const query = warehouseSearch.trim();
     if (!query) return list;
@@ -230,16 +226,7 @@ export function NovaPoshtaDeliverySelect({
         }
         return 0;
       });
-  }, [allCityWarehouses, serverMatches, warehouseSearch, warehouseTypeFilter]);
-
-  const branchCount = useMemo(
-    () => allCityWarehouses.filter((w) => w.type === 'branch').length,
-    [allCityWarehouses]
-  );
-  const postomatCount = useMemo(
-    () => allCityWarehouses.filter((w) => w.type === 'postomat').length,
-    [allCityWarehouses]
-  );
+  }, [allCityWarehouses, serverMatches, warehouseSearch]);
 
   const handleSelectCity = (cityItem: CityItem | typeof POPULAR_QUICK_CITIES[0]) => {
     const name = cityItem.name;
@@ -298,7 +285,7 @@ export function NovaPoshtaDeliverySelect({
 
         <div>
           <label className="block text-xs font-semibold text-foreground mb-1.5">
-            Відділення або поштомат Нової Пошти <span className="text-rose-500">*</span>
+            Відділення Нової Пошти <span className="text-rose-500">*</span>
           </label>
           <input
             type="text"
@@ -308,6 +295,9 @@ export function NovaPoshtaDeliverySelect({
             placeholder="наприклад: Відділення №25 (вул. Ряшівська, 13)"
             className="w-full h-11 rounded-lg border border-border bg-surface px-3.5 text-xs text-foreground placeholder:text-muted focus:border-primary focus:outline-none transition-colors"
           />
+          <p className="mt-1 text-[11px] text-muted">
+            Доставка взуття здійснюється у відділення Нової Пошти для огляду та примірки перед оплатою.
+          </p>
         </div>
       </div>
     );
@@ -433,18 +423,18 @@ export function NovaPoshtaDeliverySelect({
         )}
       </div>
 
-      {/* 2. WAREHOUSE / POSTOMAT SELECTION */}
+      {/* 2. WAREHOUSE SELECTION (STRICTLY PHYSICAL BRANCHES) */}
       <div className="relative" ref={warehouseDropdownRef}>
         <div className="flex items-center justify-between mb-1.5">
           <label className="text-xs font-semibold text-foreground flex items-center gap-1.5">
             <Building2 className="h-3.5 w-3.5 text-primary" />
-            <span>Відділення або поштомат</span>
+            <span>Відділення Нової Пошти</span>
             <span className="text-rose-500">*</span>
           </label>
           {currentCityName && (
             <span className="text-[11px] text-muted">
               {allCityWarehouses.length > 0
-                ? `${allCityWarehouses.length} пунктів у м. ${currentCityName}`
+                ? `${allCityWarehouses.length} відділень у м. ${currentCityName}`
                 : isWarehouseLoading
                 ? 'Завантаження списку...'
                 : ''}
@@ -456,14 +446,10 @@ export function NovaPoshtaDeliverySelect({
         {warehouse && !isWarehouseDropdownOpen ? (
           <div className="flex items-center justify-between rounded-lg border border-primary/40 bg-primary/5 p-3 text-xs">
             <div className="flex items-start gap-2.5 pr-2">
-              {warehouse.toLowerCase().includes('поштомат') ? (
-                <Package className="h-4 w-4 text-primary shrink-0 mt-0.5" />
-              ) : (
-                <Building2 className="h-4 w-4 text-primary shrink-0 mt-0.5" />
-              )}
+              <Building2 className="h-4 w-4 text-primary shrink-0 mt-0.5" />
               <div>
                 <div className="font-bold text-foreground leading-snug">{warehouse}</div>
-                <div className="text-[11px] text-muted mt-0.5">Нова Пошта • м. {currentCityName}</div>
+                <div className="text-[11px] text-muted mt-0.5">Відділення Нової Пошти • м. {currentCityName}</div>
               </div>
             </div>
             <button
@@ -517,46 +503,18 @@ export function NovaPoshtaDeliverySelect({
           </div>
         )}
 
-        {/* Warehouse Dropdown List with Filter Tabs */}
+        {/* Warehouse Dropdown List (Strictly physical branches) */}
         {isWarehouseDropdownOpen && currentCityName && (
           <div className="absolute z-30 mt-1 max-h-72 w-full flex flex-col overflow-hidden rounded-xl border border-border bg-surface-raised shadow-2xl">
-            {/* Filter Tabs: All, Branch, Postomat */}
-            <div className="flex border-b border-border bg-surface p-1.5 gap-1 shrink-0">
-              <button
-                type="button"
-                onClick={() => setWarehouseTypeFilter('all')}
-                className={`flex-1 rounded-md py-1.5 text-[11px] font-semibold transition-colors ${
-                  warehouseTypeFilter === 'all'
-                    ? 'bg-primary text-white font-bold shadow-xs'
-                    : 'text-muted hover:text-foreground'
-                }`}
-              >
-                Всі {allCityWarehouses.length > 0 ? `(${allCityWarehouses.length})` : ''}
-              </button>
-              <button
-                type="button"
-                onClick={() => setWarehouseTypeFilter('branch')}
-                className={`flex-1 rounded-md py-1.5 text-[11px] font-semibold transition-colors flex items-center justify-center gap-1 ${
-                  warehouseTypeFilter === 'branch'
-                    ? 'bg-primary text-white font-bold shadow-xs'
-                    : 'text-muted hover:text-foreground'
-                }`}
-              >
-                <Building2 className="h-3 w-3" />
-                <span>Відділення{branchCount > 0 ? ` (${branchCount})` : ''}</span>
-              </button>
-              <button
-                type="button"
-                onClick={() => setWarehouseTypeFilter('postomat')}
-                className={`flex-1 rounded-md py-1.5 text-[11px] font-semibold transition-colors flex items-center justify-center gap-1 ${
-                  warehouseTypeFilter === 'postomat'
-                    ? 'bg-primary text-white font-bold shadow-xs'
-                    : 'text-muted hover:text-foreground'
-                }`}
-              >
-                <Package className="h-3 w-3" />
-                <span>Поштомати{postomatCount > 0 ? ` (${postomatCount})` : ''}</span>
-              </button>
+            {/* Header info: Physical branches only */}
+            <div className="flex items-center justify-between border-b border-border bg-surface px-3 py-2 text-[11px] font-semibold text-muted shrink-0">
+              <span className="flex items-center gap-1.5 text-foreground">
+                <Building2 className="h-3.5 w-3.5 text-primary" />
+                <span>Відділення Нової Пошти ({displayedWarehouses.length})</span>
+              </span>
+              <span className="text-[10px] text-primary bg-primary/10 px-2 py-0.5 rounded-full font-medium">
+                Огляд та примірка
+              </span>
             </div>
 
             {/* Warehouse List */}
@@ -564,7 +522,7 @@ export function NovaPoshtaDeliverySelect({
               {isWarehouseLoading && allCityWarehouses.length === 0 ? (
                 <div className="flex items-center justify-center p-6 text-xs text-muted gap-2">
                   <Loader2 className="h-4 w-4 animate-spin text-primary" />
-                  <span>Завантаження всіх пунктів Нової Пошти...</span>
+                  <span>Завантаження відділень Нової Пошти...</span>
                 </div>
               ) : displayedWarehouses.length === 0 ? (
                 <div className="p-4 text-center text-xs text-muted">
@@ -588,11 +546,7 @@ export function NovaPoshtaDeliverySelect({
                     onClick={() => handleSelectWarehouse(wh)}
                     className="w-full flex items-start gap-2.5 p-2.5 text-left rounded-lg hover:bg-surface transition-colors border-b border-border/30 last:border-0"
                   >
-                    {wh.type === 'postomat' ? (
-                      <Package className="h-4 w-4 text-amber-400 shrink-0 mt-0.5" />
-                    ) : (
-                      <Building2 className="h-4 w-4 text-primary shrink-0 mt-0.5" />
-                    )}
+                    <Building2 className="h-4 w-4 text-primary shrink-0 mt-0.5" />
                     <div className="flex-1 min-w-0">
                       <div className="text-xs font-semibold text-foreground line-clamp-1">
                         {wh.description}

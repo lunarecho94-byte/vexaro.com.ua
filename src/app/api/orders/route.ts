@@ -22,7 +22,13 @@ const orderSchema = z.object({
       }
     }),
   city: z.string().min(2, 'Вкажіть місто доставки'),
-  warehouse: z.string().min(1, 'Вкажіть відділення або поштомат Нової Пошти'),
+  warehouse: z
+    .string()
+    .min(1, 'Вкажіть номер відділення Нової Пошти')
+    .refine(
+      (val) => !val.toLowerCase().includes('поштомат') && !val.toLowerCase().includes('почтомат'),
+      'Доставка взуття здійснюється виключно у відділення Нової Пошти (для огляду та примірки)'
+    ),
   comment: z.string().optional(),
   dontCall: z.boolean().optional(),
   items: z.array(

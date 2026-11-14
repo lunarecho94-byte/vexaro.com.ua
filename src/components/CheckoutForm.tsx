@@ -81,7 +81,12 @@ export function CheckoutForm() {
     }
 
     if (!warehouse.trim()) {
-      setErrorMsg('Вкажіть номер відділення або поштомату Нової Пошти');
+      setErrorMsg('Вкажіть номер відділення Нової Пошти');
+      return;
+    }
+
+    if (warehouse.toLowerCase().includes('поштомат') || warehouse.toLowerCase().includes('почтомат')) {
+      setErrorMsg('Доставка здійснюється виключно у відділення Нової Пошти (для огляду та примірки)');
       return;
     }
 
