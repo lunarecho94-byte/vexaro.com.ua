@@ -451,11 +451,11 @@ CURATED_PRODUCTS = [
         'seasonName': 'Зима',
         'price': 3400,
         'oldPrice': 5667,
-        'costPrice': 2800,
+        'costPrice': 2700,
         'sku': 'A6201',
         'material': 'Натуральна замша, натуральне хутро',
         'country': 'Італія',
-        'sizes': ['41', '42', '43', '44', '45'],
+        'sizes': ['42', '43', '44', '45'],
         'inStock': True,
         'images': [
             '/images/products/premiata-moerun-khutro-a6201/img-1.jpg',
