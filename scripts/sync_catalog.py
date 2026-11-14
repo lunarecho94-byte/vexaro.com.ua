@@ -427,8 +427,10 @@ CURATED_PRODUCTS = [
         'sizes': ['37', '38', '39', '40', '41', '42', '43', '44', '45'],
         'inStock': True,
         'images': [
-            'https://easydrop.one/media/uploads/images/base/417cfcf2-867e-4ce5-8327-12c9a58ef86d.png',
-            'https://easydrop.one/media/uploads/images/base/c300b787-9f78-446c-b623-64d336c65168.jpeg'
+            '/images/products/nike-jordan-4-white-cement-khutro-2113/img-1.jpg',
+            '/images/products/nike-jordan-4-white-cement-khutro-2113/img-2.jpg',
+            '/images/products/nike-jordan-4-white-cement-khutro-2113/img-3.jpg',
+            '/images/products/nike-jordan-4-white-cement-khutro-2113/img-4.jpg'
         ],
         'description': "Модель: Nike Jordan 4 White Cement ХУТРО. Артикул: 2113. Матеріал: Шкіра, хутро. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
         'seo': {
@@ -1829,6 +1831,17 @@ def main():
         if len([s for s in cp.get('sizes', []) if s]) < 3:
             continue
         cp['oldPrice'] = int(round(cp['price'] / 0.60))
+
+        # Check if high-quality local images exist for this curated product
+        local_cp_dir = os.path.join(PUBLIC_DIR, 'images', 'products', cp.get('slug', ''))
+        sku_cp_dir = os.path.join(PUBLIC_DIR, 'images', 'products', str(cp.get('sku', '')).lower().replace(' ', ''))
+        chosen_cp_dir = local_cp_dir if os.path.isdir(local_cp_dir) else (sku_cp_dir if os.path.isdir(sku_cp_dir) else None)
+        if chosen_cp_dir:
+            dir_slug = os.path.basename(chosen_cp_dir)
+            local_files = sorted(os.listdir(chosen_cp_dir))
+            local_imgs = [f'/images/products/{dir_slug}/{fn}' for fn in local_files if fn.endswith(('.jpg', '.jpeg', '.webp', '.png'))]
+            if local_imgs:
+                cp['images'] = local_imgs
         cp_gender = cp.get('gender', 'men')
         cp_brand = cp.get('brandSlug', '')
         cp_sku = cp.get('sku', '')
