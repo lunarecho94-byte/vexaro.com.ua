@@ -492,11 +492,11 @@ CURATED_PRODUCTS = [
         'seasonName': 'Зима',
         'price': 3400,
         'oldPrice': 5667,
-        'costPrice': 2800,
+        'costPrice': 2690,
         'sku': 'KS 2868',
         'material': 'Натуральна замша, натуральне хутро, текстиль',
         'country': 'Італія',
-        'sizes': ['41', '42', '43', '44', '45'],
+        'sizes': ['41', '44'],
         'inStock': True,
         'images': [
             '/images/products/ks2868/img-1.jpg',
