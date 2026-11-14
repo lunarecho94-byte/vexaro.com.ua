@@ -688,9 +688,10 @@ CURATED_PRODUCTS = [
         'sizes': ['37', '38', '39'],
         'inStock': True,
         'images': [
-            '/images/products/0705v/img-1.jpg',
-            '/images/products/0705v/img-2.jpg',
-            'https://easydrop.one/media/uploads/images/itemimage_933/258bb211-ebe8-4975-ab47-bbe0df73123c.webp'
+            '/images/products/adidas-campus-00s-grey-white-gum-khutro-0705v/img-1.jpg',
+            '/images/products/adidas-campus-00s-grey-white-gum-khutro-0705v/img-2.jpg',
+            '/images/products/adidas-campus-00s-grey-white-gum-khutro-0705v/img-3.jpg',
+            '/images/products/adidas-campus-00s-grey-white-gum-khutro-0705v/img-4.jpg',
         ],
         'description': (
             'Зимові кросівки Adidas Campus 00s Grey White Gum (хутро) у трендовому сірому забарвленні '
