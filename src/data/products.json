@@ -449,6 +449,7 @@
       "/images/products/ugg-lowmel-sneakers-moss-green-premium-1691/img-3.jpg",
       "/images/products/ugg-lowmel-sneakers-moss-green-premium-1691/img-4.jpg",
       "/images/products/ugg-lowmel-sneakers-light-bronze-premium-1692/img-1.jpg",
+      "/images/products/ugg-lowmel-sneaker-pumice-ug0019/img-1.jpg",
       "/images/products/ugg-lowmel-sneakers-olive-grey-premium-1684/img-1.jpg",
       "/images/products/ugg-lowmel-sneakers-leopard-premium-1687/img-1.jpg",
       "https://easydrop.one/media/uploads/images/base/789a0d38-8867-4394-8b9e-ff15511f3173.jpeg",
@@ -627,6 +628,82 @@
         ],
         "inStock": true,
         "slug": "ugg-lowmel-sneakers-light-bronze-premium-1692"
+      },
+      {
+        "id": "252592",
+        "sku": "UG0019",
+        "color": "PUMICE",
+        "colorSlug": "pumice",
+        "price": 4700,
+        "oldPrice": 7833,
+        "costPrice": 4200,
+        "sizes": [
+          "36",
+          "37",
+          "40"
+        ],
+        "sizeChart": [
+          {
+            "size": "36",
+            "cm": "23.0",
+            "available": true
+          },
+          {
+            "size": "37",
+            "cm": "23.5",
+            "available": true
+          },
+          {
+            "size": "38",
+            "cm": "24.5",
+            "available": false
+          },
+          {
+            "size": "39",
+            "cm": "25.0",
+            "available": false
+          },
+          {
+            "size": "40",
+            "cm": "25.5",
+            "available": true
+          },
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": false
+          },
+          {
+            "size": "42",
+            "cm": "26.5",
+            "available": false
+          },
+          {
+            "size": "43",
+            "cm": "27.5",
+            "available": false
+          },
+          {
+            "size": "44",
+            "cm": "28.0",
+            "available": false
+          },
+          {
+            "size": "45",
+            "cm": "28.5",
+            "available": false
+          },
+          {
+            "size": "46",
+            "cm": "29.5",
+            "available": false
+          }
+        ],
+        "images": [
+          "/images/products/ugg-lowmel-sneaker-pumice-ug0019/img-1.jpg"
+        ],
+        "inStock": true,
+        "slug": "ugg-lowmel-sneaker-pumice-ug0019"
       },
       {
         "id": "252315",
@@ -24493,97 +24570,6 @@
     "seo": {
       "title": "New Balance 1906R Cordura ХУТРО (арт. NB506) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте New Balance 1906R Cordura ХУТРО (арт. NB506) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "252592",
-    "slug": "ugg-lowmel-sneaker-pumice-ug0019",
-    "name": "UGG Lowmel Sneaker Pumice",
-    "brand": "UGG",
-    "brandSlug": "ugg",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 4700,
-    "oldPrice": 7833,
-    "costPrice": 4200,
-    "sku": "UG0019",
-    "material": "Замша, текстиль",
-    "country": "-",
-    "sizes": [
-      "36",
-      "37",
-      "40"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "23.0",
-        "available": true
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": true
-      },
-      {
-        "size": "38",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": true
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/aeb3f2af-2cd4-4768-b584-ed739196a348.jpeg"
-    ],
-    "description": "Модель: UGG Lowmel Sneaker Pumice. Артикул: UG0019. Матеріал: Замша, текстиль. Сезон: Зима. Виробництво: -. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "UGG Lowmel Sneaker Pumice (арт. UG0019) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте UGG Lowmel Sneaker Pumice (арт. UG0019) за 4700 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {

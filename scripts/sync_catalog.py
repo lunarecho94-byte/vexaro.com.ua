@@ -1943,8 +1943,19 @@ def main():
     other_products = []
     for p in products:
         pname = p.get('name', '')
+        sku_clean = str(p.get('sku', '')).strip().upper()
+        pid = str(p.get('id', '')).strip()
+
+        is_lowmel_var = False
+        color_part = None
         if 'lowmel' in pname.lower() and '|' in pname:
-            color_part = pname.split('|')[1].replace('premium', '').strip()
+            is_lowmel_var = True
+            color_part = pname.split('|')[1].replace('premium', '').strip().upper()
+        elif sku_clean == 'UG0019' or pid == '252592' or ('lowmel' in pname.lower() and 'pumice' in pname.lower()):
+            is_lowmel_var = True
+            color_part = 'PUMICE'
+
+        if is_lowmel_var and color_part:
             color_slug = re.sub(r'[^a-z0-9]+', '-', color_part.lower()).strip('-')
             lowmel_variations.append({
                 'id': str(p.get('id', '')),
