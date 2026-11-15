@@ -238,6 +238,7 @@ EXCLUDED_SKUS = {'16006', '16005', '16004', '16003', 'NB143', '0068', '2688', 'R
 # Pinned products permanently pinned at top by store owner request (supports 'id:...' or SKU)
 PINNED_FILE = os.path.join(SRC_DATA_DIR, 'pinned.json')
 PINNED_KEYS = [
+    '5187',      # Adidas Campus 00s Grey Black (хутро) - newest studio photos
     '5188',      # Adidas Campus 00s Grey White (хутро) - newest studio photos
     '0801',      # UGG ULTRA MINI PLATFORM BLACK SUEDE (most recent delivery)
     '2112',      # Nike Jordan 4 Black Cat ХУТРО
@@ -264,7 +265,6 @@ PINNED_KEYS = [
     'A6201',     # Premiata MOERUN ХУТРО
     'AS-045',    # Adidas Campus Grey (хутро)
     '0705V',     # Adidas Campus 00s Grey White Gum (хутро)
-    '5187',      # Adidas Campus 00s Grey Black (хутро)
     '5174',      # Adidas Campus 00s Beige Black (хутро)
 ]
 if os.path.exists(PINNED_FILE):
@@ -932,8 +932,10 @@ CURATED_PRODUCTS = [
         'sizes': ['36', '37', '38', '39', '41'],
         'inStock': True,
         'images': [
-            '/images/products/5187/img-1.jpg',
-            'https://easydrop.one/media/uploads/images/itemimage_25644/680e88fb-f265-493d-a5a9-f22b04fb081d.webp'
+            '/images/products/adidas-campus-00s-grey-black-khutro-5187/img-1.jpg',
+            '/images/products/adidas-campus-00s-grey-black-khutro-5187/img-2.jpg',
+            '/images/products/adidas-campus-00s-grey-black-khutro-5187/img-3.jpg',
+            '/images/products/adidas-campus-00s-grey-black-khutro-5187/img-4.jpg'
         ],
         'description': (
             'Зимові кросівки Adidas Campus 00s Grey Black (хутро) у стильному контрастному сіро-чорному забарвленні '
