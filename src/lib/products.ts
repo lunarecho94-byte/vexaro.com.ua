@@ -70,6 +70,66 @@ const EXCLUDED_SKUS = new Set([
   '256193',
 ]);
 
+const BRAND_ALIASES: Record<string, string[]> = {
+  nike: ['найк', 'найки', 'nike'],
+  adidas: ['адідас', 'адидас', 'adidas'],
+  ugg: ['угг', 'угги', 'уггі', 'ugg'],
+  'new balance': ['нью беланс', 'нью беленс', 'нью баланс', 'ньюбаланс', 'нб', 'new balance', 'nb'],
+  premiata: ['преміата', 'премиата', 'premiata'],
+  asics: ['асікс', 'асикс', 'asics'],
+  salomon: ['саломон', 'salomon'],
+  puma: ['пума', 'puma'],
+  vans: ['ванс', 'ванси', 'vans'],
+  'air jordan': ['джордан', 'джордани', 'jordan', 'air jordan'],
+};
+
+export function normalizeHomoglyphs(str: string): string {
+  return str
+    .toLowerCase()
+    .replace(/а/g, 'a')
+    .replace(/е/g, 'e')
+    .replace(/с/g, 'c')
+    .replace(/о/g, 'o')
+    .replace(/р/g, 'p')
+    .replace(/х/g, 'x')
+    .replace(/і/g, 'i');
+}
+
+export function getProductSearchText(p: Product): string {
+  const parts: string[] = [
+    p.name,
+    p.brand,
+    p.brandSlug,
+    p.sku || '',
+    p.id || '',
+    p.genderName || '',
+    p.gender || '',
+    p.seasonName || '',
+    p.season || '',
+    p.material || '',
+    ...(p.sizes || []),
+  ];
+
+  const brandKey = (p.brandSlug || p.brand || '').toLowerCase();
+  for (const [key, aliases] of Object.entries(BRAND_ALIASES)) {
+    if (brandKey.includes(key) || p.name.toLowerCase().includes(key)) {
+      parts.push(...aliases);
+    }
+  }
+
+  if (p.variations && p.variations.length > 0) {
+    for (const v of p.variations) {
+      if (v.color) parts.push(v.color);
+      if (v.colorSlug) parts.push(v.colorSlug);
+      if (v.sku) parts.push(v.sku);
+    }
+  }
+
+  const raw = parts.join(' ').toLowerCase();
+  const normalized = normalizeHomoglyphs(raw);
+  return `${raw} ${normalized}`;
+}
+
 const FEMALE_REGEX =
   /\b(pink|rose|pearl|glitter|sparkle|strawberry|бантик|пудр|розов|ніжн|fuchsia|magenta|lilac|бузков|лаванд|lavender|violet|women|жіноч|floral|heart|pastel|sakura|платформ|platform|mary jane|каблук|балетк)\b/i;
 
@@ -441,28 +501,25 @@ export async function getProducts(params: CatalogQueryParams = {}): Promise<Cata
     filtered = filtered.filter((p) => p.price <= params.maxPrice!);
   }
 
-  if (params.search && params.search.trim()) {
-    const q = params.search.trim().toLowerCase();
-    const qNorm = q.replace(/а/g, 'a').replace(/е/g, 'e').replace(/с/g, 'c').replace(/о/g, 'o').replace(/р/g, 'p').replace(/х/g, 'x');
+  // Order-independent multi-word search
+  const isSearchActive = Boolean(params.search && params.search.trim());
+  const rawSearch = params.search ? params.search.trim() : '';
+  const searchTokens = isSearchActive
+    ? rawSearch
+        .toLowerCase()
+        .split(/[\s,+/|]+/)
+        .map((t) => t.trim())
+        .filter((t) => t.length > 0)
+    : [];
+
+  if (isSearchActive && searchTokens.length > 0) {
     filtered = filtered.filter((p) => {
-      const sku = p.sku.toLowerCase();
-      const skuNorm = sku.replace(/а/g, 'a').replace(/е/g, 'e').replace(/с/g, 'c').replace(/о/g, 'o').replace(/р/g, 'p').replace(/х/g, 'x');
-      const matchesVariation = Boolean(
-        p.variations &&
-          p.variations.some(
-            (v) =>
-              v.color.toLowerCase().includes(q) ||
-              v.sku.toLowerCase().includes(q) ||
-              v.sku.toLowerCase().replace(/а/g, 'a').replace(/е/g, 'e').replace(/с/g, 'c').replace(/о/g, 'o').replace(/р/g, 'p').replace(/х/g, 'x').includes(qNorm)
-          )
-      );
-      return (
-        p.name.toLowerCase().includes(q) ||
-        sku.includes(q) ||
-        skuNorm.includes(qNorm) ||
-        p.brand.toLowerCase().includes(q) ||
-        matchesVariation
-      );
+      const text = getProductSearchText(p);
+      // All tokens must be present in the product's searchable text (in any order)
+      return searchTokens.every((token) => {
+        const normToken = normalizeHomoglyphs(token);
+        return text.includes(token) || text.includes(normToken);
+      });
     });
   }
 
@@ -509,14 +566,71 @@ export async function getProducts(params: CatalogQueryParams = {}): Promise<Cata
     return hasStudio ? 5000 : 0;
   };
 
+  const getSearchRelevance = (p: Product): number => {
+    if (!isSearchActive) return 0;
+    let score = 0;
+    const qLower = rawSearch.toLowerCase();
+    const nameLower = p.name.toLowerCase();
+    const skuLower = (p.sku || '').toLowerCase();
+    const brandLower = (p.brand || '').toLowerCase();
+
+    // Exact full query phrase match in product name (+500)
+    if (nameLower.includes(qLower)) {
+      score += 500;
+    }
+
+    // Exact SKU match (+1000)
+    if (skuLower === qLower || searchTokens.includes(skuLower)) {
+      score += 1000;
+    } else if (skuLower.includes(qLower)) {
+      score += 400;
+    }
+
+    // Variation SKU match (+800)
+    if (
+      p.variations &&
+      p.variations.some(
+        (v) =>
+          (v.sku || '').toLowerCase() === qLower ||
+          searchTokens.includes((v.sku || '').toLowerCase())
+      )
+    ) {
+      score += 800;
+    }
+
+    // Exact brand match (+200)
+    if (brandLower === qLower || searchTokens.includes(brandLower)) {
+      score += 200;
+    }
+
+    // Individual token matches in title (+100 per word)
+    for (const t of searchTokens) {
+      if (nameLower.includes(t)) {
+        score += 100;
+      }
+    }
+
+    // Bonus for studio photography (+50)
+    if (p.images && p.images.some((img) => img.startsWith('/images/products/'))) {
+      score += 50;
+    }
+
+    return score;
+  };
+
   // Sorting:
   if (params.sort === 'price_asc') {
     filtered = [...filtered].sort((a, b) => a.price - b.price);
   } else if (params.sort === 'price_desc') {
     filtered = [...filtered].sort((a, b) => b.price - a.price);
   } else if (params.sort === 'popular') {
-    // 'popular' -> pinned items first, then prioritize top iconic models, then newest
+    // 'popular' -> search relevance first (if searching), then pinned items, prioritize top iconic models, then newest
     filtered = [...filtered].sort((a, b) => {
+      if (isSearchActive) {
+        const sA = getSearchRelevance(a);
+        const sB = getSearchRelevance(b);
+        if (sB !== sA) return sB - sA;
+      }
       const pinA = getPinRank(a);
       const pinB = getPinRank(b);
       if (pinB !== pinA) return pinB - pinA;
@@ -526,8 +640,13 @@ export async function getProducts(params: CatalogQueryParams = {}): Promise<Cata
       return (Number(b.id) || 0) - (Number(a.id) || 0);
     });
   } else {
-    // 'newest' (default) -> pinned items first, then newest arrivals by ID descending
+    // 'newest' (default) -> search relevance first (if searching), then pinned items, then newest arrivals by ID descending
     filtered = [...filtered].sort((a, b) => {
+      if (isSearchActive) {
+        const sA = getSearchRelevance(a);
+        const sB = getSearchRelevance(b);
+        if (sB !== sA) return sB - sA;
+      }
       const pinA = getPinRank(a);
       const pinB = getPinRank(b);
       if (pinB !== pinA) return pinB - pinA;
