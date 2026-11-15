@@ -238,6 +238,7 @@ EXCLUDED_SKUS = {'16006', '16005', '16004', '16003', 'NB143', '0068', '2688', 'R
 # Pinned products permanently pinned at top by store owner request (supports 'id:...' or SKU)
 PINNED_FILE = os.path.join(SRC_DATA_DIR, 'pinned.json')
 PINNED_KEYS = [
+    '1692',      # UGG LOWMEL SNEAKERS (Light Bronze) - newest studio photos
     'А5689',     # Nike Air Max Plus Tn Black Teal Yellow - newest studio photos
     '1705',      # UGG ULTRA MINI CHOCOLATE BROWN SUEDE - newest studio photos
     '5174',      # Adidas Campus 00s Beige Black (хутро) - newest studio photos
@@ -1959,6 +1960,8 @@ def main():
             other_products.append(p)
 
     if lowmel_variations:
+        # Sort Light Bronze (SKU 1692) first as the primary photoshoot color
+        lowmel_variations.sort(key=lambda v: 0 if v.get('sku') == '1692' else 1)
         all_lowmel_sizes = sorted(
             list(set(s for v in lowmel_variations for s in v['sizes'])),
             key=lambda s: float(s.replace(',', '.')) if s.replace(',', '.').replace('.', '', 1).isdigit() else 999
@@ -1994,7 +1997,7 @@ def main():
             ],
             'inStock': True,
             'isHit': True,
-            'images': [v['images'][0] for v in lowmel_variations if v.get('images')],
+            'images': lowmel_variations[0]['images'] + [v['images'][0] for v in lowmel_variations[1:] if v.get('images')],
             'description': (
                 'Жіночі зимові кросівки UGG LOWMEL SNEAKERS у преміальному виконанні. '
                 'Модель поєднує фірмовий комфорт UGG з силуетом міських кросівок: верх із якісної натуральної замші, '
@@ -2061,11 +2064,14 @@ def main():
             return str(p.get('id', '')).strip() == key[3:].strip()
         target = key[4:].upper() if key.startswith('sku:') else key.upper()
         sku_clean = str(p.get('sku', '')).strip().upper()
-        return (
+        matched = (
             sku_clean == target
             or sku_clean.replace(' ', '') == target.replace(' ', '')
             or str(p.get('id', '')).strip() == target
         )
+        if matched and target == '1692' and str(p.get('id', '')) != '253608':
+            return False
+        return matched
 
     def get_pin_rank(p):
         for idx, key in enumerate(PINNED_KEYS):

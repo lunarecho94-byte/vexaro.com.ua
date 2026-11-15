@@ -11,6 +11,7 @@ const productBySlug = new Map<string, Product>();
 const productById = new Map<string, Product>();
 
 const DEFAULT_PINNED_KEYS: string[] = [
+  '1692',      // UGG LOWMEL SNEAKERS (Light Bronze) - newest studio photos
   'А5689',     // Nike Air Max Plus Tn Black Teal Yellow - newest studio photos
   '1705',      // UGG ULTRA MINI CHOCOLATE BROWN SUEDE - newest studio photos
   '5174',      // Adidas Campus 00s Beige Black (хутро) - newest studio photos
@@ -487,11 +488,15 @@ export async function getProducts(params: CatalogQueryParams = {}): Promise<Cata
     }
     const target = (key.startsWith('sku:') ? key.slice(4) : key).trim().toUpperCase();
     const sku = (p.sku || '').trim().toUpperCase();
-    return (
+    const matched = (
       sku === target ||
       sku.replace(/\s+/g, '') === target.replace(/\s+/g, '') ||
       (p.id || '').trim() === target
     );
+    if (matched && target === '1692' && p.id !== '253608') {
+      return false;
+    }
+    return matched;
   };
   const getPinRank = (p: Product) => {
     const idx = pinnedKeys.findIndex((k) => matchPin(k, p));
