@@ -103,6 +103,7 @@ const EXCLUDED_SKUS = new Set([
   'U950',
   '143187',
   '136690',
+  '129394',
 ]);
 
 const BRAND_ALIASES: Record<string, string[]> = {
@@ -259,7 +260,7 @@ function ensureLoaded() {
       !EXCLUDED_SKUS.has((p.sku || '').trim().toUpperCase()) &&
       !EXCLUDED_SKUS.has((p.id || '').trim()) &&
       !(
-        ['2071', '2072', '1892', '1782', '1704', '1700', '1476'].includes((p.sku || '').trim().toUpperCase()) &&
+        ['2071', '2072', '1892', '1782', '1704', '1700', '1476', '1459'].includes((p.sku || '').trim().toUpperCase()) &&
         (p.name || '').toLowerCase().includes('ugg')
       )
   );
