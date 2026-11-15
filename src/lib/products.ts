@@ -86,6 +86,7 @@ const EXCLUDED_SKUS = new Set([
   '199672',
   '2394',
   '199670',
+  '198587',
 ]);
 
 const BRAND_ALIASES: Record<string, string[]> = {
@@ -242,7 +243,7 @@ function ensureLoaded() {
       !EXCLUDED_SKUS.has((p.sku || '').trim().toUpperCase()) &&
       !EXCLUDED_SKUS.has((p.id || '').trim()) &&
       !(
-        ['2071', '2072'].includes((p.sku || '').trim().toUpperCase()) &&
+        ['2071', '2072', '1892'].includes((p.sku || '').trim().toUpperCase()) &&
         (p.name || '').toLowerCase().includes('ugg')
       )
   );
