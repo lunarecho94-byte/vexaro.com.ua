@@ -5462,6 +5462,235 @@
     }
   },
   {
+    "id": "198807",
+    "slug": "ugg-mini-dipper-puffer",
+    "name": "UGG MINI DIPPER PUFFER",
+    "brand": "UGG",
+    "brandSlug": "ugg",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 3299,
+    "oldPrice": 5498,
+    "minPrice": 3299,
+    "maxPrice": 3299,
+    "costPrice": 2799,
+    "sku": "1466",
+    "material": "Натуральна замша, овчина",
+    "country": "В'єтнам",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": true
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": true
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      }
+    ],
+    "inStock": true,
+    "isHit": true,
+    "images": [
+      "/images/products/ugg-mini-dipper-puffer-chestnut-premium-1466/img-1.jpg",
+      "/images/products/ugg-mini-dipper-puffer-sand-premium-1467/img-1.jpg"
+    ],
+    "description": "Жіночі зимові уггі UGG MINI DIPPER PUFFER у преміальному виконанні. Оригінальна гібридна модель, що поєднує фірмовий стиль класичних угг та дутих черевиків: верх із якісної натуральної замші з дутою халявою (puffer) для максимального збереження тепла та комфорту, а всередині — густе тепле натуральне хутро (овчина). Потовщена легка підошва на платформі візуально подовжує силует та надійно захищає від холоду. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "UGG MINI DIPPER PUFFER — купити зимові дуті уггі в інтернет-магазині VEXARO",
+      "description": "Замовляйте зимові уггі на платформі UGG MINI DIPPER PUFFER у різних кольорах за 3 299 ₴. Натуральна замша та тепле хутро. Доставка Новою Поштою 1–2 дні, накладений платіж."
+    },
+    "variations": [
+      {
+        "id": "198807",
+        "sku": "1466",
+        "color": "CHESTNUT",
+        "colorSlug": "chestnut",
+        "price": 3299,
+        "oldPrice": 5498,
+        "costPrice": 2799,
+        "sizes": [
+          "36",
+          "37",
+          "38",
+          "39",
+          "40",
+          "41"
+        ],
+        "sizeChart": [
+          {
+            "size": "36",
+            "cm": "23.0",
+            "available": true
+          },
+          {
+            "size": "37",
+            "cm": "23.5",
+            "available": true
+          },
+          {
+            "size": "38",
+            "cm": "24.5",
+            "available": true
+          },
+          {
+            "size": "39",
+            "cm": "25.0",
+            "available": true
+          },
+          {
+            "size": "40",
+            "cm": "25.5",
+            "available": true
+          },
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": true
+          },
+          {
+            "size": "42",
+            "cm": "26.5",
+            "available": false
+          },
+          {
+            "size": "43",
+            "cm": "27.5",
+            "available": false
+          },
+          {
+            "size": "44",
+            "cm": "28.0",
+            "available": false
+          },
+          {
+            "size": "45",
+            "cm": "28.5",
+            "available": false
+          },
+          {
+            "size": "46",
+            "cm": "29.5",
+            "available": false
+          }
+        ],
+        "images": [
+          "/images/products/ugg-mini-dipper-puffer-chestnut-premium-1466/img-1.jpg"
+        ],
+        "inStock": true,
+        "slug": "ugg-mini-dipper-puffer-chestnut-premium-1466"
+      },
+      {
+        "id": "198822",
+        "sku": "1467",
+        "color": "SAND",
+        "colorSlug": "sand",
+        "price": 3299,
+        "oldPrice": 5498,
+        "costPrice": 2799,
+        "sizes": [
+          "38",
+          "39",
+          "40"
+        ],
+        "sizeChart": [
+          {
+            "size": "36",
+            "cm": "23.0",
+            "available": false
+          },
+          {
+            "size": "37",
+            "cm": "23.5",
+            "available": false
+          },
+          {
+            "size": "38",
+            "cm": "24.5",
+            "available": true
+          },
+          {
+            "size": "39",
+            "cm": "25.0",
+            "available": true
+          },
+          {
+            "size": "40",
+            "cm": "25.5",
+            "available": true
+          },
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": false
+          },
+          {
+            "size": "42",
+            "cm": "26.5",
+            "available": false
+          },
+          {
+            "size": "43",
+            "cm": "27.5",
+            "available": false
+          },
+          {
+            "size": "44",
+            "cm": "28.0",
+            "available": false
+          },
+          {
+            "size": "45",
+            "cm": "28.5",
+            "available": false
+          },
+          {
+            "size": "46",
+            "cm": "29.5",
+            "available": false
+          }
+        ],
+        "images": [
+          "/images/products/ugg-mini-dipper-puffer-sand-premium-1467/img-1.jpg"
+        ],
+        "inStock": true,
+        "slug": "ugg-mini-dipper-puffer-sand-premium-1467"
+      }
+    ]
+  },
+  {
     "id": "184856",
     "slug": "new-balance-1906r-sapphire-blue-m1906rdn-1692",
     "name": "New Balance 1906R Sapphire Blue M1906RDN",
@@ -136224,235 +136453,6 @@
       "title": "GOLDEN GOOSE | SUPERSTAR BROWN SUEDE FUR premium (арт. 1468) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте GOLDEN GOOSE | SUPERSTAR BROWN SUEDE FUR premium (арт. 1468) за 5100 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
-  },
-  {
-    "id": "198807",
-    "slug": "ugg-mini-dipper-puffer",
-    "name": "UGG MINI DIPPER PUFFER",
-    "brand": "UGG",
-    "brandSlug": "ugg",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 3299,
-    "oldPrice": 5498,
-    "minPrice": 3299,
-    "maxPrice": 3299,
-    "costPrice": 2799,
-    "sku": "1466",
-    "material": "Натуральна замша, овчина",
-    "country": "В'єтнам",
-    "sizes": [
-      "36",
-      "37",
-      "38",
-      "39",
-      "40",
-      "41"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": true
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": true
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": true
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": true
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": true
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/28580cfe-3deb-4320-8871-16ae165fe933.jpeg",
-      "https://easydrop.one/media/uploads/images/base/d6fa348a-0fe7-4c7f-9105-05b47ebad311.jpeg"
-    ],
-    "description": "Жіночі зимові уггі UGG MINI DIPPER PUFFER у преміальному виконанні. Оригінальна гібридна модель, що поєднує фірмовий стиль класичних угг та дутих черевиків: верх із якісної натуральної замші з дутою халявою (puffer) для максимального збереження тепла та комфорту, а всередині — густе тепле натуральне хутро (овчина). Потовщена легка підошва на платформі візуально подовжує силует та надійно захищає від холоду. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "UGG MINI DIPPER PUFFER — купити зимові дуті уггі в інтернет-магазині VEXARO",
-      "description": "Замовляйте зимові уггі на платформі UGG MINI DIPPER PUFFER у різних кольорах за 3 299 ₴. Натуральна замша та тепле хутро. Доставка Новою Поштою 1–2 дні, накладений платіж."
-    },
-    "variations": [
-      {
-        "id": "198807",
-        "sku": "1466",
-        "color": "CHESTNUT",
-        "colorSlug": "chestnut",
-        "price": 3299,
-        "oldPrice": 5498,
-        "costPrice": 2799,
-        "sizes": [
-          "36",
-          "37",
-          "38",
-          "39",
-          "40",
-          "41"
-        ],
-        "sizeChart": [
-          {
-            "size": "36",
-            "cm": "23.0",
-            "available": true
-          },
-          {
-            "size": "37",
-            "cm": "23.5",
-            "available": true
-          },
-          {
-            "size": "38",
-            "cm": "24.5",
-            "available": true
-          },
-          {
-            "size": "39",
-            "cm": "25.0",
-            "available": true
-          },
-          {
-            "size": "40",
-            "cm": "25.5",
-            "available": true
-          },
-          {
-            "size": "41",
-            "cm": "26.0",
-            "available": true
-          },
-          {
-            "size": "42",
-            "cm": "26.5",
-            "available": false
-          },
-          {
-            "size": "43",
-            "cm": "27.5",
-            "available": false
-          },
-          {
-            "size": "44",
-            "cm": "28.0",
-            "available": false
-          },
-          {
-            "size": "45",
-            "cm": "28.5",
-            "available": false
-          },
-          {
-            "size": "46",
-            "cm": "29.5",
-            "available": false
-          }
-        ],
-        "images": [
-          "https://easydrop.one/media/uploads/images/base/28580cfe-3deb-4320-8871-16ae165fe933.jpeg"
-        ],
-        "inStock": true,
-        "slug": "ugg-mini-dipper-puffer-chestnut-premium-1466"
-      },
-      {
-        "id": "198822",
-        "sku": "1467",
-        "color": "SAND",
-        "colorSlug": "sand",
-        "price": 3299,
-        "oldPrice": 5498,
-        "costPrice": 2799,
-        "sizes": [
-          "38",
-          "39",
-          "40"
-        ],
-        "sizeChart": [
-          {
-            "size": "36",
-            "cm": "23.0",
-            "available": false
-          },
-          {
-            "size": "37",
-            "cm": "23.5",
-            "available": false
-          },
-          {
-            "size": "38",
-            "cm": "24.5",
-            "available": true
-          },
-          {
-            "size": "39",
-            "cm": "25.0",
-            "available": true
-          },
-          {
-            "size": "40",
-            "cm": "25.5",
-            "available": true
-          },
-          {
-            "size": "41",
-            "cm": "26.0",
-            "available": false
-          },
-          {
-            "size": "42",
-            "cm": "26.5",
-            "available": false
-          },
-          {
-            "size": "43",
-            "cm": "27.5",
-            "available": false
-          },
-          {
-            "size": "44",
-            "cm": "28.0",
-            "available": false
-          },
-          {
-            "size": "45",
-            "cm": "28.5",
-            "available": false
-          },
-          {
-            "size": "46",
-            "cm": "29.5",
-            "available": false
-          }
-        ],
-        "images": [
-          "https://easydrop.one/media/uploads/images/base/d6fa348a-0fe7-4c7f-9105-05b47ebad311.jpeg"
-        ],
-        "inStock": true,
-        "slug": "ugg-mini-dipper-puffer-sand-premium-1467"
-      }
-    ]
   },
   {
     "id": "198584",
