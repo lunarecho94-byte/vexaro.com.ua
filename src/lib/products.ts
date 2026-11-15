@@ -71,6 +71,7 @@ const EXCLUDED_SKUS = new Set([
   'UG0020',
   '252588',
   '253417',
+  '253416',
 ]);
 
 const BRAND_ALIASES: Record<string, string[]> = {
@@ -226,7 +227,10 @@ function ensureLoaded() {
       !EXCLUDED_TAPKI_REGEX.test(p.name) &&
       !EXCLUDED_SKUS.has((p.sku || '').trim().toUpperCase()) &&
       !EXCLUDED_SKUS.has((p.id || '').trim()) &&
-      !((p.sku || '').trim().toUpperCase() === '2072' && (p.name || '').toLowerCase().includes('ugg'))
+      !(
+        ['2071', '2072'].includes((p.sku || '').trim().toUpperCase()) &&
+        (p.name || '').toLowerCase().includes('ugg')
+      )
   );
   catalogMeta = JSON.parse(metaRaw) as CatalogMeta;
 
