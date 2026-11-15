@@ -11,6 +11,7 @@ const productBySlug = new Map<string, Product>();
 const productById = new Map<string, Product>();
 
 const DEFAULT_PINNED_KEYS: string[] = [
+  'А5689',     // Nike Air Max Plus Tn Black Teal Yellow - newest studio photos
   '1705',      // UGG ULTRA MINI CHOCOLATE BROWN SUEDE - newest studio photos
   '5174',      // Adidas Campus 00s Beige Black (хутро) - newest studio photos
   '5187',      // Adidas Campus 00s Grey Black (хутро) - newest studio photos

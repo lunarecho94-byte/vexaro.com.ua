@@ -238,6 +238,7 @@ EXCLUDED_SKUS = {'16006', '16005', '16004', '16003', 'NB143', '0068', '2688', 'R
 # Pinned products permanently pinned at top by store owner request (supports 'id:...' or SKU)
 PINNED_FILE = os.path.join(SRC_DATA_DIR, 'pinned.json')
 PINNED_KEYS = [
+    'А5689',     # Nike Air Max Plus Tn Black Teal Yellow - newest studio photos
     '1705',      # UGG ULTRA MINI CHOCOLATE BROWN SUEDE - newest studio photos
     '5174',      # Adidas Campus 00s Beige Black (хутро) - newest studio photos
     '5187',      # Adidas Campus 00s Grey Black (хутро) - newest studio photos
@@ -322,12 +323,10 @@ CURATED_PRODUCTS = [
         'sizes': ['40', '41', '42', '43', '44', '45'],
         'inStock': True,
         'images': [
-            '/images/products/nike-air-max-plus-tn-black-teal-yellow/img-2.jpg',
-            '/images/products/nike-air-max-plus-tn-black-teal-yellow/img-4.jpg',
-            '/images/products/nike-air-max-plus-tn-black-teal-yellow/img-3.jpg',
-            '/images/products/nike-air-max-plus-tn-black-teal-yellow/img-5.jpg',
-            '/images/products/nike-air-max-plus-tn-black-teal-yellow/img-1.jpg',
-            '/images/products/nike-air-max-plus-tn-black-teal-yellow/img-6.jpg',
+            '/images/products/nike-air-max-plus-tn-black-teal-yellow-a5689/img-1.jpg',
+            '/images/products/nike-air-max-plus-tn-black-teal-yellow-a5689/img-2.jpg',
+            '/images/products/nike-air-max-plus-tn-black-teal-yellow-a5689/img-3.jpg',
+            '/images/products/nike-air-max-plus-tn-black-teal-yellow-a5689/img-4.jpg',
         ],
         'description': (
             'Легендарні чоловічі кросівки Nike Air Max Plus Tn у рідкісному контрастному забарвленні '
