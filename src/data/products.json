@@ -456,6 +456,7 @@
       "https://easydrop.one/media/uploads/images/base/789a0d38-8867-4394-8b9e-ff15511f3173.jpeg",
       "/images/products/ugg-lowmel-sneakers-black-leather-premium-1464/img-1.jpg",
       "/images/products/ugg-lowmel-sneakers-pink-premium-1686/img-1.jpg",
+      "/images/products/ugg-lowmel-sneakers-rocky-oak-premium-1450/img-1.jpg",
       "/images/products/ugg-lowmel-sneakers-white-pink-premium-1683/img-1.jpg",
       "/images/products/ugg-lowmel-sneakers-chestnut-premium-1096/img-1.jpg",
       "/images/products/ugg-lowmel-sneakers-burnt-cedar-premium-1685/img-1.jpg",
@@ -1177,6 +1178,85 @@
         ],
         "inStock": true,
         "slug": "ugg-lowmel-sneakers-pink-premium-1686"
+      },
+      {
+        "id": "197913",
+        "sku": "1450",
+        "color": "ROCKY OAK",
+        "colorSlug": "rocky-oak",
+        "price": 4300,
+        "oldPrice": 7167,
+        "costPrice": 3800,
+        "sizes": [
+          "36",
+          "37",
+          "38",
+          "39",
+          "40",
+          "41"
+        ],
+        "sizeChart": [
+          {
+            "size": "36",
+            "cm": "23.0",
+            "available": true
+          },
+          {
+            "size": "37",
+            "cm": "23.5",
+            "available": true
+          },
+          {
+            "size": "38",
+            "cm": "24.5",
+            "available": true
+          },
+          {
+            "size": "39",
+            "cm": "25.0",
+            "available": true
+          },
+          {
+            "size": "40",
+            "cm": "25.5",
+            "available": true
+          },
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": true
+          },
+          {
+            "size": "42",
+            "cm": "26.5",
+            "available": false
+          },
+          {
+            "size": "43",
+            "cm": "27.5",
+            "available": false
+          },
+          {
+            "size": "44",
+            "cm": "28.0",
+            "available": false
+          },
+          {
+            "size": "45",
+            "cm": "28.5",
+            "available": false
+          },
+          {
+            "size": "46",
+            "cm": "29.5",
+            "available": false
+          }
+        ],
+        "images": [
+          "/images/products/ugg-lowmel-sneakers-rocky-oak-premium-1450/img-1.jpg"
+        ],
+        "inStock": true,
+        "slug": "ugg-lowmel-sneakers-rocky-oak-premium-1450"
       },
       {
         "id": "252314",
@@ -137915,100 +137995,6 @@
     "seo": {
       "title": "New Balance 1906R | Cordura (арт. NB109) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте New Balance 1906R | Cordura (арт. NB109) за 2400 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "197913",
-    "slug": "ugg-lowmel-sneakers-rocky-oak-premium-1450",
-    "name": "UGG LOWMEL SNEAKERS ROCKY OAK premium",
-    "brand": "UGG",
-    "brandSlug": "ugg",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 4300,
-    "oldPrice": 7167,
-    "costPrice": 3800,
-    "sku": "1450",
-    "material": "Натуральна замша та хутро",
-    "country": "В'єтнам",
-    "sizes": [
-      "36",
-      "37",
-      "38",
-      "39",
-      "40",
-      "41"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "23.0",
-        "available": true
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": true
-      },
-      {
-        "size": "38",
-        "cm": "24.5",
-        "available": true
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": true
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": true
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/9f88a66d-fafe-40a2-a987-65884af44328.jpeg"
-    ],
-    "description": "Модель: UGG LOWMEL SNEAKERS ROCKY OAK premium. Артикул: 1450. Матеріал: Натуральна замша та хутро. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "UGG LOWMEL SNEAKERS ROCKY OAK premium (арт. 1450) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте UGG LOWMEL SNEAKERS ROCKY OAK premium (арт. 1450) за 4300 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
