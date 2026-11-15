@@ -22737,7 +22737,6 @@
     "sizes": [
       "36",
       "37",
-      "38",
       "40",
       "41"
     ],
@@ -22755,7 +22754,7 @@
       {
         "size": "38",
         "cm": "24.5",
-        "available": true
+        "available": false
       },
       {
         "size": "39",
@@ -38548,8 +38547,7 @@
       "36",
       "37",
       "38",
-      "42",
-      "43"
+      "42"
     ],
     "sizeChart": [
       {
@@ -38590,7 +38588,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": true
+        "available": false
       },
       {
         "size": "44",
@@ -55772,97 +55770,6 @@
     "seo": {
       "title": "Salomon XA Pro Street Thinsulate Gore-Tex Grey (арт. 2990) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Salomon XA Pro Street Thinsulate Gore-Tex Grey (арт. 2990) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "243469",
-    "slug": "salomon-xa-pro-street-thinsulate-gore-tex-brown-2991",
-    "name": "Salomon XA Pro Street Thinsulate Gore-Tex Brown",
-    "brand": "Salomon",
-    "brandSlug": "salomon",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 3000,
-    "oldPrice": 5000,
-    "costPrice": 2500,
-    "sku": "2991",
-    "material": "Кожа , Замша , Текстиль",
-    "country": "В'єтнам",
-    "sizes": [
-      "43",
-      "44",
-      "45"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.0",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.0",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": true
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": true
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": true
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/5fa61b30-00f6-435b-ab3b-b16efabdcc90.jpeg"
-    ],
-    "description": "Модель: Salomon XA Pro Street Thinsulate Gore-Tex Brown. Артикул: 2991. Матеріал: Кожа , Замша , Текстиль. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Salomon XA Pro Street Thinsulate Gore-Tex Brown (арт. 2991) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Salomon XA Pro Street Thinsulate Gore-Tex Brown (арт. 2991) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -128941,8 +128848,6 @@
       "38",
       "39",
       "42",
-      "43",
-      "44",
       "45"
     ],
     "sizeChart": [
@@ -128984,12 +128889,12 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": true
+        "available": false
       },
       {
         "size": "44",
         "cm": "28.0",
-        "available": true
+        "available": false
       },
       {
         "size": "45",
@@ -208312,7 +208217,6 @@
     "sizes": [
       "40",
       "41",
-      "42",
       "43",
       "44",
       "45"
@@ -208351,7 +208255,7 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": true
+        "available": false
       },
       {
         "size": "43",
@@ -218601,7 +218505,6 @@
       "38",
       "39",
       "41",
-      "42",
       "44",
       "45"
     ],
@@ -218639,7 +218542,7 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": true
+        "available": false
       },
       {
         "size": "43",
@@ -241866,7 +241769,6 @@
     "material": "Текстиль",
     "country": "В'єтнам",
     "sizes": [
-      "40",
       "43",
       "44",
       "45"
@@ -241895,7 +241797,7 @@
       {
         "size": "40",
         "cm": "25.0",
-        "available": true
+        "available": false
       },
       {
         "size": "41",
@@ -242529,7 +242431,6 @@
     "sizes": [
       "40",
       "41",
-      "43",
       "44",
       "45"
     ],
@@ -242572,7 +242473,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": true
+        "available": false
       },
       {
         "size": "44",
@@ -260851,97 +260752,6 @@
     "seo": {
       "title": "Ugg Neumel Grey РОЗПРОДАЖ (арт. UG068) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Ugg Neumel Grey РОЗПРОДАЖ (арт. UG068) за 900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "26960",
-    "slug": "ugg-ultra-mini-smooth-leather-rozprodazh-ug069",
-    "name": "Ugg Ultra Mini Smooth Leather РОЗПРОДАЖ",
-    "brand": "UGG",
-    "brandSlug": "ugg",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 900,
-    "oldPrice": 1500,
-    "costPrice": 400,
-    "sku": "UG069",
-    "material": "Текстиль/эко кожа",
-    "country": "Китай",
-    "sizes": [
-      "39",
-      "40",
-      "41"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "23.0",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": true
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": true
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/026c370f-a184-4fb4-b627-cf26cc92ae54.webp"
-    ],
-    "description": "Модель: Ugg Ultra Mini Smooth Leather РОЗПРОДАЖ. Артикул: UG069. Матеріал: Текстиль/эко кожа. Сезон: Зима. Виробництво: Китай. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Ugg Ultra Mini Smooth Leather РОЗПРОДАЖ (арт. UG069) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Ugg Ultra Mini Smooth Leather РОЗПРОДАЖ (арт. UG069) за 900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
