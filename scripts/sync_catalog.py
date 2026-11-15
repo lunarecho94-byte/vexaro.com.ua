@@ -1934,6 +1934,84 @@ def main():
         if sum(1 for s in p.get('sizeChart', []) if s.get('available')) >= 3
     ]
 
+    # Group UGG LOWMEL SNEAKERS variations into a single parent product
+    lowmel_variations = []
+    other_products = []
+    for p in products:
+        pname = p.get('name', '')
+        if 'lowmel' in pname.lower() and '|' in pname:
+            color_part = pname.split('|')[1].replace('premium', '').strip()
+            color_slug = re.sub(r'[^a-z0-9]+', '-', color_part.lower()).strip('-')
+            lowmel_variations.append({
+                'id': str(p.get('id', '')),
+                'sku': str(p.get('sku', '')),
+                'color': color_part,
+                'colorSlug': color_slug or 'default',
+                'price': p.get('price', 4300),
+                'oldPrice': p.get('oldPrice'),
+                'costPrice': p.get('costPrice'),
+                'sizes': p.get('sizes', []),
+                'sizeChart': p.get('sizeChart', []),
+                'images': p.get('images', []),
+                'inStock': p.get('inStock', True),
+                'slug': p.get('slug', '')
+            })
+        else:
+            other_products.append(p)
+
+    if lowmel_variations:
+        all_lowmel_sizes = sorted(
+            list(set(s for v in lowmel_variations for s in v['sizes'])),
+            key=lambda s: float(s.replace(',', '.')) if s.replace(',', '.').replace('.', '', 1).isdigit() else 999
+        )
+        min_p = min(v['price'] for v in lowmel_variations)
+        max_p = max(v['price'] for v in lowmel_variations)
+        old_p = int(round(min_p / 0.60))
+
+        parent_lowmel = {
+            'id': '253608',
+            'slug': 'ugg-lowmel-sneakers',
+            'name': 'UGG LOWMEL SNEAKERS',
+            'brand': 'UGG',
+            'brandSlug': 'ugg',
+            'category': 'Взуття',
+            'categorySlug': 'shoes',
+            'gender': 'women',
+            'genderName': 'Жіночі',
+            'season': 'winter',
+            'seasonName': 'Зима',
+            'price': min_p,
+            'oldPrice': old_p,
+            'minPrice': min_p,
+            'maxPrice': max_p,
+            'costPrice': 3500,
+            'sku': '1692',
+            'material': 'Натуральна замша, натуральне хутро',
+            'country': "В'єтнам",
+            'sizes': all_lowmel_sizes,
+            'sizeChart': [
+                {'size': s, 'cm': DEFAULT_WOMEN_GRID.get(s, '24.0'), 'available': True}
+                for s in all_lowmel_sizes
+            ],
+            'inStock': True,
+            'isHit': True,
+            'images': [v['images'][0] for v in lowmel_variations if v.get('images')],
+            'description': (
+                'Жіночі зимові кросівки UGG LOWMEL SNEAKERS у преміальному виконанні. '
+                'Модель поєднує фірмовий комфорт UGG з силуетом міських кросівок: верх із якісної натуральної замші, '
+                'всередині — густе тепле натуральне хутро (овчина) для надійного захисту від зимових морозів. '
+                'Потовщена амортизуюча підошва, масивні акцентні шнурки та широкий вибір забарвлень під будь-який гардероб. '
+                'Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. '
+                'Гарантія обміну або повернення — 14 днів.'
+            ),
+            'seo': {
+                'title': 'UGG LOWMEL SNEAKERS — купити зимові кросівки в інтернет-магазині VEXARO',
+                'description': 'Замовляйте зимові кросівки UGG LOWMEL SNEAKERS у різних кольорах від 4 300 ₴. Натуральна замша та хутро. Доставка Новою Поштою 1–2 дні, накладений платіж.'
+            },
+            'variations': lowmel_variations
+        }
+        products = [parent_lowmel] + other_products
+
     brand_map = defaultdict(lambda: {'name': '', 'slug': '', 'count': 0})
     season_map = defaultdict(lambda: {'name': '', 'slug': '', 'count': 0})
     gender_map = defaultdict(lambda: {'name': '', 'slug': '', 'count': 0})

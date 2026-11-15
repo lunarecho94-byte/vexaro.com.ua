@@ -3,7 +3,7 @@
 import React, { useState, useRef } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { Product } from '@/types/product';
+import { Product, ProductVariation } from '@/types/product';
 import { FavoriteButton } from '@/components/FavoriteButton';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { isHitProduct } from '@/lib/product-badges';
@@ -16,15 +16,25 @@ interface ProductCardProps {
 export function ProductCard({ product, priority = false }: ProductCardProps) {
   const [imageIndex, setImageIndex] = useState(0);
   const [hasError, setHasError] = useState(false);
+  const [hoveredVariation, setHoveredVariation] = useState<ProductVariation | null>(null);
 
   // Touch swipe support for mobile
   const touchStartXRef = useRef<number | null>(null);
   const touchStartYRef = useRef<number | null>(null);
   const isSwipingRef = useRef(false);
 
-  const imagesList = (product.images && product.images.length > 0 ? product.images : []).filter(
-    (img) => img && !img.includes('empty_item_square')
-  );
+  const currentVariation = hoveredVariation || null;
+  const targetSlug = currentVariation?.slug || product.slug;
+  const currentSku = currentVariation ? currentVariation.sku : product.sku;
+
+  const imagesList = (
+    currentVariation && currentVariation.images && currentVariation.images.length > 0
+      ? currentVariation.images
+      : product.images && product.images.length > 0
+      ? product.images
+      : []
+  ).filter((img) => img && !img.includes('empty_item_square'));
+
   const totalImages = imagesList.length;
   const currentImage =
     !hasError && imagesList[imageIndex] ? imagesList[imageIndex] : '/images/shoe-placeholder.svg';
@@ -103,7 +113,7 @@ export function ProductCard({ product, priority = false }: ProductCardProps) {
       className="group relative flex flex-col justify-between overflow-hidden rounded-2xl border border-border bg-surface hover:border-primary/50 hover:shadow-md transition-all"
     >
       <Link
-        href={`/product/${product.slug}`}
+        href={`/product/${targetSlug}`}
         onClick={handleCardClick}
         className="flex flex-col flex-1"
       >
@@ -209,12 +219,50 @@ export function ProductCard({ product, priority = false }: ProductCardProps) {
           <div>
             <div className="flex items-center justify-between text-xs text-muted mb-1">
               <span className="font-semibold uppercase tracking-wider">{product.brand}</span>
-              <span className="font-mono text-[11px]">арт. {product.sku}</span>
+              <span className="font-mono text-[11px]">арт. {currentSku}</span>
             </div>
 
             <h3 className="line-clamp-2 text-sm font-semibold text-foreground group-hover:text-primary transition-colors leading-snug">
               {product.name}
             </h3>
+
+            {/* Color variations indicators if model has variations */}
+            {product.variations && product.variations.length > 0 && (
+              <div className="mt-2 flex items-center gap-1.5 flex-wrap">
+                <div className="flex items-center -space-x-1">
+                  {product.variations.slice(0, 6).map((v) => {
+                    const isHovered = currentVariation?.id === v.id;
+                    const thumbImg = v.images[0] || '/images/shoe-placeholder.svg';
+                    return (
+                      <span
+                        key={v.id}
+                        onMouseEnter={() => setHoveredVariation(v)}
+                        onClick={(e) => {
+                          e.preventDefault();
+                          e.stopPropagation();
+                          setHoveredVariation(v);
+                        }}
+                        title={`${v.color} — ${v.price.toLocaleString('uk-UA')} ₴`}
+                        className={`relative inline-block h-4 w-4 rounded-full border border-white shadow-xs overflow-hidden cursor-pointer transition-transform ${
+                          isHovered ? 'scale-125 z-10 ring-2 ring-primary ring-offset-1' : 'hover:scale-110 hover:z-10'
+                        }`}
+                      >
+                        <Image
+                          src={thumbImg}
+                          alt={v.color}
+                          fill
+                          sizes="16px"
+                          className="object-cover"
+                        />
+                      </span>
+                    );
+                  })}
+                </div>
+                <span className="text-[10px] font-semibold text-primary">
+                  {product.variations.length} кольорів
+                </span>
+              </div>
+            )}
           </div>
 
           <div className="mt-3">
@@ -240,11 +288,19 @@ export function ProductCard({ product, priority = false }: ProductCardProps) {
             {/* Price block */}
             <div className="flex items-baseline gap-2">
               <span className="text-base font-extrabold text-foreground whitespace-nowrap">
-                {product.price.toLocaleString('uk-UA')}&nbsp;₴
+                {currentVariation
+                  ? `${currentVariation.price.toLocaleString('uk-UA')} ₴`
+                  : product.minPrice && product.maxPrice && product.minPrice !== product.maxPrice
+                  ? `від ${product.minPrice.toLocaleString('uk-UA')} ₴`
+                  : `${product.price.toLocaleString('uk-UA')} ₴`}
               </span>
-              {product.oldPrice && (
+              {(currentVariation ? currentVariation.oldPrice : product.oldPrice) && (
                 <span className="text-xs text-red-500 line-through decoration-red-500 font-semibold whitespace-nowrap">
-                  {product.oldPrice.toLocaleString('uk-UA')}&nbsp;₴
+                  {(currentVariation
+                    ? currentVariation.oldPrice!
+                    : product.oldPrice!
+                  ).toLocaleString('uk-UA')}
+                  &nbsp;₴
                 </span>
               )}
             </div>

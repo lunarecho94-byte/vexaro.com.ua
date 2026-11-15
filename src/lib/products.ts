@@ -1,6 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-import { Product, CatalogMeta, CatalogQueryParams, CatalogResponse } from '@/types/product';
+import { Product, ProductVariation, CatalogMeta, CatalogQueryParams, CatalogResponse } from '@/types/product';
 import { isHitProduct } from './product-badges';
 
 export { isHitProduct };
@@ -175,6 +175,28 @@ function ensureLoaded() {
   for (const p of allProducts) {
     productBySlug.set(p.slug, p);
     productById.set(p.id, p);
+
+    if (p.variations && p.variations.length > 0) {
+      for (const v of p.variations) {
+        const variantProduct: Product = {
+          ...p,
+          sku: v.sku,
+          price: v.price,
+          oldPrice: v.oldPrice,
+          images: v.images && v.images.length > 0 ? v.images : p.images,
+          sizes: v.sizes && v.sizes.length > 0 ? v.sizes : p.sizes,
+          sizeChart: v.sizeChart || p.sizeChart,
+          activeVariation: v,
+        };
+        if (v.slug) {
+          productBySlug.set(v.slug, variantProduct);
+        }
+        if (v.id) {
+          productById.set(v.id, variantProduct);
+        }
+      }
+    }
+
     if (p.id === '254776') {
       productBySlug.set('nike-air-max-plus-tn-black-teal-yellow-dh4776-001', p);
     }
@@ -298,7 +320,18 @@ export async function getCatalogMeta(): Promise<CatalogMeta> {
 
 export async function getAllSlugs(): Promise<string[]> {
   ensureLoaded();
-  return allProducts!.map((p) => p.slug);
+  const slugs: string[] = [];
+  for (const p of allProducts!) {
+    slugs.push(p.slug);
+    if (p.variations) {
+      for (const v of p.variations) {
+        if (v.slug && !slugs.includes(v.slug)) {
+          slugs.push(v.slug);
+        }
+      }
+    }
+  }
+  return slugs;
 }
 
 export async function getProductBySlug(slug: string): Promise<Product | null> {
@@ -408,11 +441,21 @@ export async function getProducts(params: CatalogQueryParams = {}): Promise<Cata
     filtered = filtered.filter((p) => {
       const sku = p.sku.toLowerCase();
       const skuNorm = sku.replace(/а/g, 'a').replace(/е/g, 'e').replace(/с/g, 'c').replace(/о/g, 'o').replace(/р/g, 'p').replace(/х/g, 'x');
+      const matchesVariation = Boolean(
+        p.variations &&
+          p.variations.some(
+            (v) =>
+              v.color.toLowerCase().includes(q) ||
+              v.sku.toLowerCase().includes(q) ||
+              v.sku.toLowerCase().replace(/а/g, 'a').replace(/е/g, 'e').replace(/с/g, 'c').replace(/о/g, 'o').replace(/р/g, 'p').replace(/х/g, 'x').includes(qNorm)
+          )
+      );
       return (
         p.name.toLowerCase().includes(q) ||
         sku.includes(q) ||
         skuNorm.includes(qNorm) ||
-        p.brand.toLowerCase().includes(q)
+        p.brand.toLowerCase().includes(q) ||
+        matchesVariation
       );
     });
   }

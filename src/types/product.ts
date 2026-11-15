@@ -7,6 +7,21 @@ export interface SizeChartItem {
   available?: boolean;
 }
 
+export interface ProductVariation {
+  id: string;
+  sku: string;
+  color: string;
+  colorSlug: string;
+  price: number;
+  oldPrice?: number;
+  costPrice?: number;
+  sizes: string[];
+  sizeChart?: SizeChartItem[];
+  images: string[];
+  inStock: boolean;
+  slug: string;
+}
+
 export interface Product {
   id: string;
   slug: string;
@@ -21,6 +36,8 @@ export interface Product {
   seasonName: string;
   price: number;
   oldPrice?: number;
+  minPrice?: number;
+  maxPrice?: number;
   costPrice: number;
   sku: string;
   material: string;
@@ -35,6 +52,8 @@ export interface Product {
     description: string;
   };
   isHit?: boolean;
+  variations?: ProductVariation[];
+  activeVariation?: ProductVariation;
 }
 
 export interface FilterItem {
