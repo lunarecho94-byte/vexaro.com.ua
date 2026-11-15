@@ -233,7 +233,7 @@ COLOR_WORDS = {
 }
 
 # Explicitly excluded items (all slippers, slides, clogs, mules, sandals, etc. per store owner request)
-EXCLUDED_SKUS = {'16006', '16005', '16004', '16003', 'NB143', '0068', '2688', 'R343', 'SL015', '258739', '2263', '2169'}
+EXCLUDED_SKUS = {'16006', '16005', '16004', '16003', 'NB143', '0068', '2688', 'R343', 'SL015', '258739', '2263', '2169', '5193', '256193'}
 
 # Pinned products permanently pinned at top by store owner request (supports 'id:...' or SKU)
 PINNED_FILE = os.path.join(SRC_DATA_DIR, 'pinned.json')
@@ -263,7 +263,6 @@ PINNED_KEYS = [
     'A6201',     # Premiata MOERUN ХУТРО
     'AS-045',    # Adidas Campus Grey (хутро)
     '0705V',     # Adidas Campus 00s Grey White Gum (хутро)
-    '5193',      # Adidas Campus 00s Grey White (хутро)
     '5188',      # Adidas Campus 00s Grey White (хутро)
     '5187',      # Adidas Campus 00s Grey Black (хутро)
     '5174',      # Adidas Campus 00s Beige Black (хутро)
@@ -944,46 +943,6 @@ CURATED_PRODUCTS = [
         'seo': {
             'title': 'Adidas Campus 00s Grey Black (хутро) (арт. 5187) — купити в інтернет-магазині VEXARO',
             'description': 'Замовляйте зимові кросівки Adidas Campus 00s Grey Black (хутро) (арт. 5187) за 2500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж).'
-        },
-        'isHit': True
-    },
-    {
-        'id': '256193',
-        'slug': 'adidas-campus-00s-grey-white-khutro-5193',
-        'name': 'Adidas Campus 00s Grey White (хутро)',
-        'brand': 'Adidas',
-        'brandSlug': 'adidas',
-        'category': 'Взуття',
-        'categorySlug': 'shoes',
-        'gender': 'unisex',
-        'genderName': 'Унісекс',
-        'season': 'winter',
-        'seasonName': 'Зима',
-        'price': 2500,
-        'oldPrice': 4167,
-        'costPrice': 1700,
-        'sku': '5193',
-        'material': 'Натуральна замша, хутро',
-        'country': "В'єтнам",
-        'sizes': ['36', '37', '38', '39', '40', '41'],
-        'inStock': True,
-        'images': [
-            '/images/products/5193/img-1.jpg',
-            '/images/products/5193/img-2.jpg',
-            'https://easydrop.one/media/uploads/images/itemimage_25644/6f91a7d6-c564-4a9c-bc82-796970ef4cc6.webp',
-            'https://easydrop.one/media/uploads/images/itemimage_25644/7dfc0735-887e-4919-b7c2-9a22605ee765.webp'
-        ],
-        'description': (
-            'Зимові кросівки Adidas Campus 00s Grey White (хутро) у класичному замшевому сірому забарвленні '
-            'з білими смужками та широкими шнурками (артикул: 5193). Верх моделі виконаний із преміальної натуральної замші, '
-            'всередині — густе тепле хутро для надійного збереження тепла під час морозів. '
-            'Автентичний силует нульових із масивною підошвою, зносостійким гумовим протектором та контрастними білими деталями. '
-            'Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. '
-            'Гарантія обміну або повернення — 14 днів.'
-        ),
-        'seo': {
-            'title': 'Adidas Campus 00s Grey White (хутро) (арт. 5193) — купити в інтернет-магазині VEXARO',
-            'description': 'Замовляйте зимові кросівки Adidas Campus 00s Grey White (хутро) (арт. 5193) за 2500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж).'
         },
         'isHit': True
     }

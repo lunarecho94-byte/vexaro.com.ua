@@ -36,7 +36,6 @@ const DEFAULT_PINNED_KEYS: string[] = [
   'A6201',     // Premiata MOERUN ХУТРО
   'AS-045',    // Adidas Campus Grey (хутро)
   '0705V',     // Adidas Campus 00s Grey White Gum (хутро)
-  '5193',      // Adidas Campus 00s Grey White (хутро)
   '5188',      // Adidas Campus 00s Grey White (хутро)
   '5187',      // Adidas Campus 00s Grey Black (хутро)
   '5174',      // Adidas Campus 00s Beige Black (хутро)
@@ -60,6 +59,8 @@ const EXCLUDED_SKUS = new Set([
   '258739',
   '2263',
   '2169',
+  '5193',
+  '256193',
 ]);
 
 const FEMALE_REGEX =
