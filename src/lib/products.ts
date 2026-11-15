@@ -11,6 +11,7 @@ const productBySlug = new Map<string, Product>();
 const productById = new Map<string, Product>();
 
 const DEFAULT_PINNED_KEYS: string[] = [
+  '1691',      // UGG LOWMEL SNEAKERS (Moss Green) - newest studio photos
   '1692',      // UGG LOWMEL SNEAKERS (Light Bronze) - newest studio photos
   'А5689',     // Nike Air Max Plus Tn Black Teal Yellow - newest studio photos
   '1705',      // UGG ULTRA MINI CHOCOLATE BROWN SUEDE - newest studio photos
@@ -493,7 +494,7 @@ export async function getProducts(params: CatalogQueryParams = {}): Promise<Cata
       sku.replace(/\s+/g, '') === target.replace(/\s+/g, '') ||
       (p.id || '').trim() === target
     );
-    if (matched && target === '1692' && p.id !== '253608') {
+    if (matched && (target === '1691' || target === '1692') && p.id !== '253608') {
       return false;
     }
     return matched;

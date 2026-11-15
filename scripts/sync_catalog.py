@@ -238,6 +238,7 @@ EXCLUDED_SKUS = {'16006', '16005', '16004', '16003', 'NB143', '0068', '2688', 'R
 # Pinned products permanently pinned at top by store owner request (supports 'id:...' or SKU)
 PINNED_FILE = os.path.join(SRC_DATA_DIR, 'pinned.json')
 PINNED_KEYS = [
+    '1691',      # UGG LOWMEL SNEAKERS (Moss Green) - newest studio photos
     '1692',      # UGG LOWMEL SNEAKERS (Light Bronze) - newest studio photos
     'А5689',     # Nike Air Max Plus Tn Black Teal Yellow - newest studio photos
     '1705',      # UGG ULTRA MINI CHOCOLATE BROWN SUEDE - newest studio photos
@@ -1960,8 +1961,8 @@ def main():
             other_products.append(p)
 
     if lowmel_variations:
-        # Sort Light Bronze (SKU 1692) first as the primary photoshoot color
-        lowmel_variations.sort(key=lambda v: 0 if v.get('sku') == '1692' else 1)
+        # Sort newest photoshoot colors first: Moss Green (1691), Light Bronze (1692)
+        lowmel_variations.sort(key=lambda v: 0 if v.get('sku') == '1691' else (1 if v.get('sku') == '1692' else 2))
         all_lowmel_sizes = sorted(
             list(set(s for v in lowmel_variations for s in v['sizes'])),
             key=lambda s: float(s.replace(',', '.')) if s.replace(',', '.').replace('.', '', 1).isdigit() else 999
@@ -1987,7 +1988,7 @@ def main():
             'minPrice': min_p,
             'maxPrice': max_p,
             'costPrice': 3500,
-            'sku': '1692',
+            'sku': '1691',
             'material': 'Натуральна замша, натуральне хутро',
             'country': "В'єтнам",
             'sizes': all_lowmel_sizes,
@@ -2069,7 +2070,7 @@ def main():
             or sku_clean.replace(' ', '') == target.replace(' ', '')
             or str(p.get('id', '')).strip() == target
         )
-        if matched and target == '1692' and str(p.get('id', '')) != '253608':
+        if matched and target in ('1691', '1692') and str(p.get('id', '')) != '253608':
             return False
         return matched
 

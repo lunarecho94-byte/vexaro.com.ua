@@ -16,7 +16,7 @@
     "minPrice": 4300,
     "maxPrice": 4700,
     "costPrice": 3500,
-    "sku": "1692",
+    "sku": "1691",
     "material": "Натуральна замша, натуральне хутро",
     "country": "В'єтнам",
     "sizes": [
@@ -62,15 +62,15 @@
     "inStock": true,
     "isHit": true,
     "images": [
+      "/images/products/ugg-lowmel-sneakers-moss-green-premium-1691/img-1.jpg",
+      "/images/products/ugg-lowmel-sneakers-moss-green-premium-1691/img-2.jpg",
+      "/images/products/ugg-lowmel-sneakers-moss-green-premium-1691/img-3.jpg",
+      "/images/products/ugg-lowmel-sneakers-moss-green-premium-1691/img-4.jpg",
       "/images/products/ugg-lowmel-sneakers-light-bronze-premium-1692/img-1.jpg",
-      "/images/products/ugg-lowmel-sneakers-light-bronze-premium-1692/img-2.jpg",
-      "/images/products/ugg-lowmel-sneakers-light-bronze-premium-1692/img-3.jpg",
-      "/images/products/ugg-lowmel-sneakers-light-bronze-premium-1692/img-4.jpg",
       "/images/products/ugg-lowmel-sneakers-olive-grey-premium-1684/img-1.jpg",
       "/images/products/ugg-lowmel-sneakers-leopard-premium-1687/img-1.jpg",
       "https://easydrop.one/media/uploads/images/base/789a0d38-8867-4394-8b9e-ff15511f3173.jpeg",
       "/images/products/ugg-lowmel-sneakers-pink-premium-1686/img-1.jpg",
-      "/images/products/ugg-lowmel-sneakers-moss-green-premium-1691/img-1.jpg",
       "/images/products/ugg-lowmel-sneakers-white-pink-premium-1683/img-1.jpg",
       "/images/products/ugg-lowmel-sneakers-chestnut-premium-1096/img-1.jpg",
       "/images/products/ugg-lowmel-sneakers-burnt-cedar-premium-1685/img-1.jpg",
@@ -82,6 +82,88 @@
       "description": "Замовляйте зимові кросівки UGG LOWMEL SNEAKERS у різних кольорах від 4 300 ₴. Натуральна замша та хутро. Доставка Новою Поштою 1–2 дні, накладений платіж."
     },
     "variations": [
+      {
+        "id": "253607",
+        "sku": "1691",
+        "color": "MOSS GREEN",
+        "colorSlug": "moss-green",
+        "price": 4300,
+        "oldPrice": 7167,
+        "costPrice": 3800,
+        "sizes": [
+          "36",
+          "37",
+          "38",
+          "39",
+          "40",
+          "41"
+        ],
+        "sizeChart": [
+          {
+            "size": "36",
+            "cm": "23.0",
+            "available": true
+          },
+          {
+            "size": "37",
+            "cm": "23.5",
+            "available": true
+          },
+          {
+            "size": "38",
+            "cm": "24.5",
+            "available": true
+          },
+          {
+            "size": "39",
+            "cm": "25.0",
+            "available": true
+          },
+          {
+            "size": "40",
+            "cm": "25.5",
+            "available": true
+          },
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": true
+          },
+          {
+            "size": "42",
+            "cm": "26.5",
+            "available": false
+          },
+          {
+            "size": "43",
+            "cm": "27.5",
+            "available": false
+          },
+          {
+            "size": "44",
+            "cm": "28.0",
+            "available": false
+          },
+          {
+            "size": "45",
+            "cm": "28.5",
+            "available": false
+          },
+          {
+            "size": "46",
+            "cm": "29.5",
+            "available": false
+          }
+        ],
+        "images": [
+          "/images/products/ugg-lowmel-sneakers-moss-green-premium-1691/img-1.jpg",
+          "/images/products/ugg-lowmel-sneakers-moss-green-premium-1691/img-2.jpg",
+          "/images/products/ugg-lowmel-sneakers-moss-green-premium-1691/img-3.jpg",
+          "/images/products/ugg-lowmel-sneakers-moss-green-premium-1691/img-4.jpg"
+        ],
+        "inStock": true,
+        "slug": "ugg-lowmel-sneakers-moss-green-premium-1691"
+      },
       {
         "id": "253608",
         "sku": "1692",
@@ -479,85 +561,6 @@
         ],
         "inStock": true,
         "slug": "ugg-lowmel-sneakers-pink-premium-1686"
-      },
-      {
-        "id": "253607",
-        "sku": "1691",
-        "color": "MOSS GREEN",
-        "colorSlug": "moss-green",
-        "price": 4300,
-        "oldPrice": 7167,
-        "costPrice": 3800,
-        "sizes": [
-          "36",
-          "37",
-          "38",
-          "39",
-          "40",
-          "41"
-        ],
-        "sizeChart": [
-          {
-            "size": "36",
-            "cm": "23.0",
-            "available": true
-          },
-          {
-            "size": "37",
-            "cm": "23.5",
-            "available": true
-          },
-          {
-            "size": "38",
-            "cm": "24.5",
-            "available": true
-          },
-          {
-            "size": "39",
-            "cm": "25.0",
-            "available": true
-          },
-          {
-            "size": "40",
-            "cm": "25.5",
-            "available": true
-          },
-          {
-            "size": "41",
-            "cm": "26.0",
-            "available": true
-          },
-          {
-            "size": "42",
-            "cm": "26.5",
-            "available": false
-          },
-          {
-            "size": "43",
-            "cm": "27.5",
-            "available": false
-          },
-          {
-            "size": "44",
-            "cm": "28.0",
-            "available": false
-          },
-          {
-            "size": "45",
-            "cm": "28.5",
-            "available": false
-          },
-          {
-            "size": "46",
-            "cm": "29.5",
-            "available": false
-          }
-        ],
-        "images": [
-          "/images/products/ugg-lowmel-sneakers-moss-green-premium-1691/img-1.jpg"
-        ],
-        "inStock": true,
-        "slug": "ugg-lowmel-sneakers-moss-green-premium-1691"
       },
       {
         "id": "252314",
@@ -5157,6 +5160,103 @@
     "seo": {
       "title": "New Balance 1906R Sapphire Blue M1906RDN (арт. 1692) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте New Balance 1906R Sapphire Blue M1906RDN (арт. 1692) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "184855",
+    "slug": "new-balance-1906r-metallic-m1906rcb-1691",
+    "name": "New Balance 1906R Metallic M1906RCB",
+    "brand": "New Balance",
+    "brandSlug": "newbalance",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 2700,
+    "oldPrice": 4500,
+    "costPrice": 2200,
+    "sku": "1691",
+    "material": "Шкіра, текстиль",
+    "country": "В'єтнам",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": true
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": true
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "24.5",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.0",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "25.5",
+        "available": true
+      },
+      {
+        "size": "42",
+        "cm": "26.0",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "28.5",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": true,
+    "images": [
+      "/images/products/1691/img-1.jpg",
+      "/images/products/1691/img-2.jpg",
+      "/images/products/1691/img-3.jpg",
+      "/images/products/1691/img-4.jpg"
+    ],
+    "description": "Модель: New Balance 1906R Metallic M1906RCB. Артикул: 1691. Матеріал: Шкіра, текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "New Balance 1906R Metallic M1906RCB (арт. 1691) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте New Balance 1906R Metallic M1906RCB (арт. 1691) за 2700 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -159142,100 +159242,6 @@
     "seo": {
       "title": "NIKE SB DUNK | BLACK / WHITE «CHERRY CHARMS» (10 (арт. 1344) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте NIKE SB DUNK | BLACK / WHITE «CHERRY CHARMS» (10 (арт. 1344) за 2800 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "184855",
-    "slug": "new-balance-1906r-metallic-m1906rcb-1691",
-    "name": "New Balance 1906R Metallic M1906RCB",
-    "brand": "New Balance",
-    "brandSlug": "newbalance",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 2700,
-    "oldPrice": 4500,
-    "costPrice": 2200,
-    "sku": "1691",
-    "material": "Шкіра, текстиль",
-    "country": "В'єтнам",
-    "sizes": [
-      "36",
-      "37",
-      "38",
-      "39",
-      "40",
-      "41"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": true
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": true
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": true
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": true
-      },
-      {
-        "size": "40",
-        "cm": "25.0",
-        "available": true
-      },
-      {
-        "size": "41",
-        "cm": "25.5",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/487f2ace-9fcc-4130-939e-b3945436449b.jpeg"
-    ],
-    "description": "Модель: New Balance 1906R Metallic M1906RCB. Артикул: 1691. Матеріал: Шкіра, текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "New Balance 1906R Metallic M1906RCB (арт. 1691) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте New Balance 1906R Metallic M1906RCB (арт. 1691) за 2700 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
