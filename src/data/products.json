@@ -6493,6 +6493,324 @@
     }
   },
   {
+    "id": "10258",
+    "slug": "ugg-bailey-button-triplet-ii",
+    "name": "UGG Bailey Button Triplet II",
+    "brand": "UGG",
+    "brandSlug": "ugg",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 1400,
+    "oldPrice": 2667,
+    "minPrice": 1400,
+    "maxPrice": 1600,
+    "costPrice": 900,
+    "sku": "UG030",
+    "material": "Натуральна замша, тепле хутро",
+    "country": "Австралія",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": true
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": true
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      }
+    ],
+    "inStock": true,
+    "isHit": true,
+    "images": [
+      "/images/products/ug030/img-1.webp",
+      "/images/products/ug020/img-1.webp",
+      "/images/products/ug017/img-1.webp"
+    ],
+    "description": "Високі жіночі зимові уггі UGG Bailey Button Triplet II з трьома фірмовими дерев'яними ґудзиками та еластичними петельками. Модель виготовлена з якісної натуральної замші з густим теплим хутром усередині, що гарантує надійний захист від морозів та максимальний затишок. Легка амортизуюча підошва Treadlite забезпечує впевнене зчеплення та комфорт при щоденному носінні. Халяву можна носити застебнутою або відкочувати хутром назовні. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "UGG Bailey Button Triplet II — купити високі жіночі уггі з ґудзиками в інтернет-магазині VEXARO",
+      "description": "Замовляйте високі зимові уггі UGG Bailey Button Triplet II у різних кольорах (Dark Shade, High Caramel, Brown Umber) від 1 400 ₴. Доставка Новою Поштою 1–2 дні, примірка та оплата при отриманні."
+    },
+    "variations": [
+      {
+        "id": "10258",
+        "sku": "UG030",
+        "color": "Dark Shade",
+        "colorSlug": "dark-shade",
+        "price": 1400,
+        "oldPrice": 2333,
+        "costPrice": 900,
+        "sizes": [
+          "39",
+          "40",
+          "41"
+        ],
+        "sizeChart": [
+          {
+            "size": "35",
+            "cm": "22.5",
+            "available": false
+          },
+          {
+            "size": "36",
+            "cm": "23.0",
+            "available": false
+          },
+          {
+            "size": "37",
+            "cm": "23.5",
+            "available": false
+          },
+          {
+            "size": "38",
+            "cm": "24.5",
+            "available": false
+          },
+          {
+            "size": "39",
+            "cm": "25.0",
+            "available": true
+          },
+          {
+            "size": "40",
+            "cm": "25.5",
+            "available": true
+          },
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": true
+          },
+          {
+            "size": "42",
+            "cm": "26.5",
+            "available": false
+          },
+          {
+            "size": "43",
+            "cm": "27.5",
+            "available": false
+          },
+          {
+            "size": "44",
+            "cm": "28.0",
+            "available": false
+          },
+          {
+            "size": "45",
+            "cm": "28.5",
+            "available": false
+          },
+          {
+            "size": "46",
+            "cm": "29.5",
+            "available": false
+          }
+        ],
+        "images": [
+          "/images/products/ug030/img-1.webp"
+        ],
+        "inStock": true,
+        "slug": "ugg-bailey-button-triplet-ii-dark-shade-ug030"
+      },
+      {
+        "id": "10152",
+        "sku": "UG020",
+        "color": "High Caramel",
+        "colorSlug": "high-caramel",
+        "price": 1600,
+        "oldPrice": 2667,
+        "costPrice": 1100,
+        "sizes": [
+          "37",
+          "38",
+          "40"
+        ],
+        "sizeChart": [
+          {
+            "size": "35",
+            "cm": "22.5",
+            "available": false
+          },
+          {
+            "size": "36",
+            "cm": "23.0",
+            "available": false
+          },
+          {
+            "size": "37",
+            "cm": "23.5",
+            "available": true
+          },
+          {
+            "size": "38",
+            "cm": "24.5",
+            "available": true
+          },
+          {
+            "size": "39",
+            "cm": "25.0",
+            "available": false
+          },
+          {
+            "size": "40",
+            "cm": "25.5",
+            "available": true
+          },
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": false
+          },
+          {
+            "size": "42",
+            "cm": "26.5",
+            "available": false
+          },
+          {
+            "size": "43",
+            "cm": "27.5",
+            "available": false
+          },
+          {
+            "size": "44",
+            "cm": "28.0",
+            "available": false
+          },
+          {
+            "size": "45",
+            "cm": "28.5",
+            "available": false
+          },
+          {
+            "size": "46",
+            "cm": "29.5",
+            "available": false
+          }
+        ],
+        "images": [
+          "/images/products/ug020/img-1.webp"
+        ],
+        "inStock": true,
+        "slug": "ugg-bailey-button-triplet-ii-high-caramel-ug020"
+      },
+      {
+        "id": "10148",
+        "sku": "UG017",
+        "color": "Brown Umber",
+        "colorSlug": "brown-umber",
+        "price": 1600,
+        "oldPrice": 2667,
+        "costPrice": 1100,
+        "sizes": [
+          "36",
+          "37",
+          "39"
+        ],
+        "sizeChart": [
+          {
+            "size": "35",
+            "cm": "22.5",
+            "available": false
+          },
+          {
+            "size": "36",
+            "cm": "23.0",
+            "available": true
+          },
+          {
+            "size": "37",
+            "cm": "23.5",
+            "available": true
+          },
+          {
+            "size": "38",
+            "cm": "24.5",
+            "available": false
+          },
+          {
+            "size": "39",
+            "cm": "25.0",
+            "available": true
+          },
+          {
+            "size": "40",
+            "cm": "25.5",
+            "available": false
+          },
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": false
+          },
+          {
+            "size": "42",
+            "cm": "26.5",
+            "available": false
+          },
+          {
+            "size": "43",
+            "cm": "27.5",
+            "available": false
+          },
+          {
+            "size": "44",
+            "cm": "28.0",
+            "available": false
+          },
+          {
+            "size": "45",
+            "cm": "28.5",
+            "available": false
+          },
+          {
+            "size": "46",
+            "cm": "29.5",
+            "available": false
+          }
+        ],
+        "images": [
+          "/images/products/ug017/img-1.webp"
+        ],
+        "inStock": true,
+        "slug": "ugg-bailey-button-triplet-ii-brown-umber-ug017"
+      }
+    ]
+  },
+  {
     "id": "257837",
     "slug": "new-balance-9060-termo-nb518",
     "name": "New Balance 9060 (термо)",
@@ -265784,102 +266102,6 @@
     }
   },
   {
-    "id": "10258",
-    "slug": "ugg-bailey-button-triplet-ii-dark-shade-ug030",
-    "name": "UGG Bailey Button Triplet II Dark Shade",
-    "brand": "UGG",
-    "brandSlug": "ugg",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 1400,
-    "oldPrice": 2333,
-    "costPrice": 900,
-    "sku": "UG030",
-    "material": "Замша/ Штучне хутро",
-    "country": "Австралия",
-    "sizes": [
-      "39",
-      "40",
-      "41"
-    ],
-    "sizeChart": [
-      {
-        "size": "35",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "36",
-        "cm": "23.0",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": true
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": true
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/item_876/614f19aa-c983-4b7c-a4b3-d0e98eb2b885.webp"
-    ],
-    "description": "Модель: UGG Bailey Button Triplet II Dark Shade. Артикул: UG030. Матеріал: Замша/ Штучне хутро. Сезон: Зима. Виробництво: Австралия. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "UGG Bailey Button Triplet II Dark Shade (арт. UG030) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте UGG Bailey Button Triplet II Dark Shade (арт. UG030) за 1400 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "10217",
     "slug": "ugg-mini-chain-black-leather-0390",
     "name": "Ugg Mini Chain Black Leather",
@@ -266243,198 +266465,6 @@
     "seo": {
       "title": "Ugg Classic Mini Black Leather (арт. 0366) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Ugg Classic Mini Black Leather (арт. 0366) за 3400 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "10152",
-    "slug": "ugg-bailey-button-triplet-ii-high-caramel-ug020",
-    "name": "UGG Bailey Button Triplet II High Caramel",
-    "brand": "UGG",
-    "brandSlug": "ugg",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 1600,
-    "oldPrice": 2667,
-    "costPrice": 1100,
-    "sku": "UG020",
-    "material": "Замша/Штучне хутро",
-    "country": "Австралия",
-    "sizes": [
-      "37",
-      "38",
-      "40"
-    ],
-    "sizeChart": [
-      {
-        "size": "35",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "36",
-        "cm": "23.0",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": true
-      },
-      {
-        "size": "38",
-        "cm": "24.5",
-        "available": true
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": true
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/item_876/138510c5-1456-490d-98c6-b709cdeb435a.webp"
-    ],
-    "description": "Модель: UGG Bailey Button Triplet II High Caramel. Артикул: UG020. Матеріал: Замша/Штучне хутро. Сезон: Зима. Виробництво: Австралия. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "UGG Bailey Button Triplet II High Caramel (арт. UG020) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте UGG Bailey Button Triplet II High Caramel (арт. UG020) за 1600 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "10148",
-    "slug": "ugg-bailey-button-triplet-ii-brown-umber-ug017",
-    "name": "UGG Bailey Button Triplet II Brown Umber",
-    "brand": "UGG",
-    "brandSlug": "ugg",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 1600,
-    "oldPrice": 2667,
-    "costPrice": 1100,
-    "sku": "UG017",
-    "material": "Замша/Штучне хутро",
-    "country": "Австралия",
-    "sizes": [
-      "36",
-      "37",
-      "39"
-    ],
-    "sizeChart": [
-      {
-        "size": "35",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "36",
-        "cm": "23.0",
-        "available": true
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": true
-      },
-      {
-        "size": "38",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": true
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/item_876/f37c7d37-32fd-44dc-9b8e-c869458a3a74.webp"
-    ],
-    "description": "Модель: UGG Bailey Button Triplet II Brown Umber. Артикул: UG017. Матеріал: Замша/Штучне хутро. Сезон: Зима. Виробництво: Австралия. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "UGG Bailey Button Triplet II Brown Umber (арт. UG017) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте UGG Bailey Button Triplet II Brown Umber (арт. UG017) за 1600 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {

@@ -2212,6 +2212,107 @@ def main():
         }
         products = [parent_weather_hybrid] + other_products_3
 
+    # Group UGG Bailey Button Triplet II variations into a single parent product
+    bailey_triplet_variations = []
+    other_products_4 = []
+    triplet_color_map = {
+        'UG030': 'Dark Shade',
+        'UG020': 'High Caramel',
+        'UG017': 'Brown Umber'
+    }
+    for p in products:
+        pname = p.get('name', '')
+        sku = str(p.get('sku', '')).strip().upper()
+        is_triplet = False
+        color_part = None
+        if 'bailey button triplet' in pname.lower() or sku in triplet_color_map:
+            is_triplet = True
+            color_part = triplet_color_map.get(sku)
+            if not color_part:
+                cleaned = re.sub(r'(?i)ugg\s+bailey\s+button\s+triplet\s+ii\s*', '', pname)
+                cleaned = re.sub(r'(?i)\(распродажа\)', '', cleaned).strip()
+                color_part = ' '.join(w.capitalize() for w in cleaned.split())
+
+        if is_triplet and color_part:
+            color_slug = re.sub(r'[^a-z0-9]+', '-', color_part.lower()).strip('-')
+            var_imgs = p.get('images', [])
+            local_sku_dir = os.path.join(PUBLIC_DIR, 'images', 'products', sku.lower())
+            if os.path.isdir(local_sku_dir):
+                local_files = sorted(os.listdir(local_sku_dir))
+                local_list = [f'/images/products/{sku.lower()}/{fn}' for fn in local_files if fn.endswith(('.jpg', '.jpeg', '.webp', '.png'))]
+                if local_list:
+                    var_imgs = local_list
+            bailey_triplet_variations.append({
+                'id': str(p.get('id', '')),
+                'sku': str(p.get('sku', '')),
+                'color': color_part,
+                'colorSlug': color_slug or 'default',
+                'price': p.get('price', 1600),
+                'oldPrice': p.get('oldPrice'),
+                'costPrice': p.get('costPrice'),
+                'sizes': p.get('sizes', []),
+                'sizeChart': p.get('sizeChart', []),
+                'images': var_imgs,
+                'inStock': p.get('inStock', True),
+                'slug': p.get('slug', '')
+            })
+        else:
+            other_products_4.append(p)
+
+    if bailey_triplet_variations:
+        preferred_order = {'Dark Shade': 0, 'High Caramel': 1, 'Brown Umber': 2}
+        bailey_triplet_variations.sort(key=lambda v: preferred_order.get(v.get('color'), 99))
+        all_triplet_sizes = sorted(
+            list(set(s for v in bailey_triplet_variations for s in v['sizes'])),
+            key=lambda s: float(s.replace(',', '.')) if s.replace(',', '.').replace('.', '', 1).isdigit() else 999
+        )
+        min_p = min(v['price'] for v in bailey_triplet_variations)
+        max_p = max(v['price'] for v in bailey_triplet_variations)
+        old_p = max(v.get('oldPrice') or int(round(v['price'] / 0.60)) for v in bailey_triplet_variations)
+
+        parent_bailey_triplet = {
+            'id': bailey_triplet_variations[0]['id'],
+            'slug': 'ugg-bailey-button-triplet-ii',
+            'name': 'UGG Bailey Button Triplet II',
+            'brand': 'UGG',
+            'brandSlug': 'ugg',
+            'category': 'Взуття',
+            'categorySlug': 'shoes',
+            'gender': 'women',
+            'genderName': 'Жіночі',
+            'season': 'winter',
+            'seasonName': 'Зима',
+            'price': min_p,
+            'oldPrice': old_p,
+            'minPrice': min_p,
+            'maxPrice': max_p,
+            'costPrice': 900,
+            'sku': 'UG030',
+            'material': 'Натуральна замша, тепле хутро',
+            'country': 'Австралія',
+            'sizes': all_triplet_sizes,
+            'sizeChart': [
+                {'size': s, 'cm': DEFAULT_WOMEN_GRID.get(s, '24.0'), 'available': True}
+                for s in all_triplet_sizes
+            ],
+            'inStock': True,
+            'isHit': True,
+            'images': bailey_triplet_variations[0]['images'] + [v['images'][0] for v in bailey_triplet_variations[1:] if v.get('images')],
+            'description': (
+                "Високі жіночі зимові уггі UGG Bailey Button Triplet II з трьома фірмовими дерев'яними ґудзиками та еластичними петельками. "
+                "Модель виготовлена з якісної натуральної замші з густим теплим хутром усередині, що гарантує надійний захист від морозів та максимальний затишок. "
+                "Легка амортизуюча підошва Treadlite забезпечує впевнене зчеплення та комфорт при щоденному носінні. Халяву можна носити застебнутою або відкочувати хутром назовні. "
+                "Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. "
+                "Гарантія обміну або повернення — 14 днів."
+            ),
+            'seo': {
+                'title': 'UGG Bailey Button Triplet II — купити високі жіночі уггі з ґудзиками в інтернет-магазині VEXARO',
+                'description': 'Замовляйте високі зимові уггі UGG Bailey Button Triplet II у різних кольорах (Dark Shade, High Caramel, Brown Umber) від 1 400 ₴. Доставка Новою Поштою 1–2 дні, примірка та оплата при отриманні.'
+            },
+            'variations': bailey_triplet_variations
+        }
+        products = [parent_bailey_triplet] + other_products_4
+
     brand_map = defaultdict(lambda: {'name': '', 'slug': '', 'count': 0})
     season_map = defaultdict(lambda: {'name': '', 'slug': '', 'count': 0})
     gender_map = defaultdict(lambda: {'name': '', 'slug': '', 'count': 0})
