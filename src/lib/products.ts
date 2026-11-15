@@ -11,6 +11,10 @@ const productBySlug = new Map<string, Product>();
 const productById = new Map<string, Product>();
 
 const DEFAULT_PINNED_KEYS: string[] = [
+  'A6201',     // Premiata MOERUN ХУТРО Brown - pinned by user
+  'PM12',      // Premiata MOERUN ХУТРО Khaki - pinned by user
+  'PM11',      // Premiata MOERUN ХУТРО Anthracite - pinned by user
+  'PM10',      // Premiata MOERUN ХУТРО Black - pinned by user
   '1691',      // UGG LOWMEL SNEAKERS (Moss Green) - newest studio photos
   '1692',      // UGG LOWMEL SNEAKERS (Light Bronze) - newest studio photos
   'А5689',     // Nike Air Max Plus Tn Black Teal Yellow - newest studio photos
@@ -40,7 +44,6 @@ const DEFAULT_PINNED_KEYS: string[] = [
   'NB148',     // New Balance 9060 Beige Cordura
   'NK185',     // Nike Sb Dunk Low Grey
   'AC033',     // Asics Gel-Pickax Clay Grey Mink
-  'A6201',     // Premiata MOERUN ХУТРО
   'AS-045',    // Adidas Campus Grey (хутро)
   '0705V',     // Adidas Campus 00s Grey White Gum (хутро)
 ];
