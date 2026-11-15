@@ -89,7 +89,7 @@ KNOWN_BRANDS = [
     ('salomon', 'Salomon', [r'salomon', r'solomon', r'xt-6', r'xt-4', r'acs pro']),
     ('ugg', 'UGG', [r'\bugg\b', r'угг']),
     ('puma', 'Puma', [r'puma']),
-    ('vans', 'Vans', [r'\bvans\b']),
+    ('vans', 'Vans', [r'\bvans\b', r'sk8', r'knu skool']),
     ('drmartens', 'Dr. Martens', [r'martens', r'мартенс']),
     ('stoneisland', 'Stone Island', [r'stone island', r'\bsi\b']),
     ('tnf', 'The North Face', [r'north face', r'\btnf\b']),
@@ -240,6 +240,15 @@ PINNED_KEYS = []
 
 # Specific size exclusions per product SKU requested by store owner
 EXCLUDED_SIZES_BY_SKU = {}
+
+# Custom product title and brand overrides by SKU
+CUSTOM_PRODUCT_OVERRIDES = {
+    'VN04': {
+        'name': 'Vans Sk8-Hi MTE Gore-Tex',
+        'brand': 'Vans',
+        'brandSlug': 'vans'
+    }
+}
 
 EXCLUDED_NAME_PATTERNS = re.compile(
     r'\b(slides?|slippers?|clogs?|mules?|sandals?|'
@@ -1710,6 +1719,14 @@ def main():
         clean_name = clean_product_title(name, brand_slug, brand_title, cname)
         if not clean_name:
             continue
+
+        if clean_sku.upper() in CUSTOM_PRODUCT_OVERRIDES:
+            ov = CUSTOM_PRODUCT_OVERRIDES[clean_sku.upper()]
+            if 'name' in ov:
+                clean_name = ov['name']
+            if 'brand' in ov:
+                brand_title = ov['brand']
+                brand_slug = ov['brandSlug']
 
         season_slug, season_title = determine_season(clean_name, cat_slug, mat, desc, cname, brand_slug)
 
