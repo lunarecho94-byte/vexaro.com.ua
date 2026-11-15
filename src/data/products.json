@@ -941,100 +941,6 @@
     }
   },
   {
-    "id": "259185",
-    "slug": "asics-gel-pickax-grey-black-ac034",
-    "name": "Asics Gel-Pickax Grey Black",
-    "brand": "Asics",
-    "brandSlug": "asics",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 3100,
-    "oldPrice": 5167,
-    "costPrice": 2600,
-    "sku": "AC034",
-    "material": "Шкіра",
-    "country": "-",
-    "sizes": [
-      "40",
-      "41",
-      "42"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": true
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": true
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.0",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "/images/products/asics-gel-pickax-grey-black-ac034/img-1.jpg",
-      "/images/products/asics-gel-pickax-grey-black-ac034/img-2.jpg",
-      "/images/products/asics-gel-pickax-grey-black-ac034/img-3.jpg",
-      "/images/products/asics-gel-pickax-grey-black-ac034/img-4.jpg"
-    ],
-    "description": "Модель: Asics Gel-Pickax Grey Black. Артикул: AC034. Матеріал: Шкіра. Сезон: Демісезон. Виробництво: -. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Asics Gel-Pickax Grey Black (арт. AC034) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Asics Gel-Pickax Grey Black (арт. AC034) за 3100 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "259184",
     "slug": "asics-gel-pickax-clay-grey-mink-ac033",
     "name": "Asics Gel-Pickax Clay Grey Mink",
@@ -2120,8 +2026,7 @@
       "41",
       "42",
       "43",
-      "44",
-      "45"
+      "44"
     ],
     "sizeChart": [
       {
@@ -2172,7 +2077,7 @@
       {
         "size": "45",
         "cm": "29.0",
-        "available": true
+        "available": false
       },
       {
         "size": "46",
@@ -2416,8 +2321,7 @@
       "41",
       "42",
       "43",
-      "44",
-      "45"
+      "44"
     ],
     "sizeChart": [
       {
@@ -2468,7 +2372,7 @@
       {
         "size": "45",
         "cm": "28.5",
-        "available": true
+        "available": false
       },
       {
         "size": "46",
@@ -2608,7 +2512,8 @@
       "41",
       "42",
       "43",
-      "44"
+      "44",
+      "45"
     ],
     "sizeChart": [
       {
@@ -2659,7 +2564,7 @@
       {
         "size": "45",
         "cm": "28.5",
-        "available": false
+        "available": true
       },
       {
         "size": "46",
@@ -3449,7 +3354,6 @@
       "41",
       "43",
       "44",
-      "45",
       "46"
     ],
     "sizeChart": [
@@ -3501,7 +3405,7 @@
       {
         "size": "45",
         "cm": "29.0",
-        "available": true
+        "available": false
       },
       {
         "size": "46",
@@ -4585,9 +4489,9 @@
     "material": "Замша , Натуральный мех",
     "country": "Китай",
     "sizes": [
-      "40",
       "41",
       "42",
+      "43",
       "44",
       "45"
     ],
@@ -4615,7 +4519,7 @@
       {
         "size": "40",
         "cm": "25.5",
-        "available": true
+        "available": false
       },
       {
         "size": "41",
@@ -4630,7 +4534,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": false
+        "available": true
       },
       {
         "size": "44",
@@ -6255,6 +6159,97 @@
     }
   },
   {
+    "id": "257236",
+    "slug": "nike-acg-zegama-hike-grey-termo-3064",
+    "name": "Nike ACG Zegama HIKE Grey Termo",
+    "brand": "Nike",
+    "brandSlug": "nike",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "men",
+    "genderName": "Чоловічі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 3300,
+    "oldPrice": 5500,
+    "costPrice": 2800,
+    "sku": "3064",
+    "material": "Текстиль , Прорезиненные вставки",
+    "country": "В'єтнам",
+    "sizes": [
+      "41",
+      "43",
+      "44"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": false
+      },
+      {
+        "size": "39",
+        "cm": "24.5",
+        "available": false
+      },
+      {
+        "size": "40",
+        "cm": "25.0",
+        "available": false
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": true
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": true
+      },
+      {
+        "size": "45",
+        "cm": "29.0",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "30.0",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/99494c50-9548-4833-b490-00ac29bdfb71.jpeg"
+    ],
+    "description": "Модель: Nike ACG Zegama HIKE Grey Termo. Артикул: 3064. Матеріал: Текстиль , Прорезиненные вставки. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Nike ACG Zegama HIKE Grey Termo (арт. 3064) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Nike ACG Zegama HIKE Grey Termo (арт. 3064) за 3300 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
     "id": "257235",
     "slug": "nike-air-max-90-black-purple-3061",
     "name": "Nike Air Max 90 Black Purple",
@@ -7394,7 +7389,6 @@
     "material": "Замша/Текстиль",
     "country": "-",
     "sizes": [
-      "37",
       "38",
       "39",
       "40",
@@ -7413,7 +7407,7 @@
       {
         "size": "37",
         "cm": "23.5",
-        "available": true
+        "available": false
       },
       {
         "size": "38",
@@ -7682,7 +7676,6 @@
     "sizes": [
       "40",
       "41",
-      "42",
       "43",
       "44",
       "45"
@@ -7721,7 +7714,7 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": true
+        "available": false
       },
       {
         "size": "43",
@@ -8427,6 +8420,7 @@
       "40",
       "41",
       "42",
+      "43",
       "44",
       "45"
     ],
@@ -8469,7 +8463,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": false
+        "available": true
       },
       {
         "size": "44",
@@ -8981,6 +8975,7 @@
     "country": "В'єтнам",
     "sizes": [
       "41",
+      "42",
       "43",
       "44",
       "46"
@@ -9019,7 +9014,7 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": false
+        "available": true
       },
       {
         "size": "43",
@@ -10096,8 +10091,7 @@
       "41",
       "42",
       "43",
-      "44",
-      "45"
+      "44"
     ],
     "sizeChart": [
       {
@@ -10148,7 +10142,7 @@
       {
         "size": "45",
         "cm": "28.5",
-        "available": true
+        "available": false
       },
       {
         "size": "46",
@@ -17289,7 +17283,8 @@
       "41",
       "42",
       "44",
-      "45"
+      "45",
+      "46"
     ],
     "sizeChart": [
       {
@@ -17345,7 +17340,7 @@
       {
         "size": "46",
         "cm": "29.5",
-        "available": false
+        "available": true
       }
     ],
     "inStock": true,
@@ -18971,6 +18966,7 @@
     "material": "Вологостійкий текстиль, термоутеплювач, гума, піна, прошиті",
     "country": "В'єтнам",
     "sizes": [
+      "43",
       "44",
       "45",
       "46"
@@ -19014,7 +19010,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": false
+        "available": true
       },
       {
         "size": "44",
@@ -20580,7 +20576,6 @@
     "sizes": [
       "36",
       "37",
-      "38",
       "39",
       "40"
     ],
@@ -20598,7 +20593,7 @@
       {
         "size": "38",
         "cm": "24.5",
-        "available": true
+        "available": false
       },
       {
         "size": "39",
@@ -21331,7 +21326,6 @@
       "36",
       "37",
       "38",
-      "39",
       "40",
       "43",
       "44"
@@ -21355,7 +21349,7 @@
       {
         "size": "39",
         "cm": "24.5",
-        "available": true
+        "available": false
       },
       {
         "size": "40",
@@ -21998,7 +21992,6 @@
     "sizes": [
       "41",
       "42",
-      "43",
       "44",
       "46"
     ],
@@ -22041,7 +22034,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": true
+        "available": false
       },
       {
         "size": "44",
@@ -22090,7 +22083,6 @@
     "country": "В'єтнам",
     "sizes": [
       "41",
-      "42",
       "44",
       "45"
     ],
@@ -22128,7 +22120,7 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": true
+        "available": false
       },
       {
         "size": "43",
@@ -22182,6 +22174,7 @@
     "country": "В'єтнам",
     "sizes": [
       "41",
+      "42",
       "43",
       "44",
       "45"
@@ -22220,7 +22213,7 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": false
+        "available": true
       },
       {
         "size": "43",
@@ -22276,8 +22269,7 @@
       "41",
       "43",
       "44",
-      "45",
-      "46"
+      "45"
     ],
     "sizeChart": [
       {
@@ -22333,7 +22325,7 @@
       {
         "size": "46",
         "cm": "30.0",
-        "available": true
+        "available": false
       }
     ],
     "inStock": true,
@@ -22806,6 +22798,97 @@
     "seo": {
       "title": "UGG Lowmel Love '25 Jasmine Tropical Pink (арт. UG0015) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте UGG Lowmel Love '25 Jasmine Tropical Pink (арт. UG0015) за 4200 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "252446",
+    "slug": "nike-p-6000-termo-ntr808",
+    "name": "Nike P-6000 (термо)",
+    "brand": "Nike",
+    "brandSlug": "nike",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "men",
+    "genderName": "Чоловічі",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 2850,
+    "oldPrice": 4750,
+    "costPrice": 2350,
+    "sku": "NTR808",
+    "material": "Шкіра, вологостійкий текстиль, термоутеплювач, гума, піна, прошиті",
+    "country": "В'єтнам",
+    "sizes": [
+      "41",
+      "43",
+      "45"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": false
+      },
+      {
+        "size": "39",
+        "cm": "24.5",
+        "available": false
+      },
+      {
+        "size": "40",
+        "cm": "25.0",
+        "available": false
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": true
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "29.0",
+        "available": true
+      },
+      {
+        "size": "46",
+        "cm": "30.0",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/a621dfa3-9621-41ad-b5fb-e912d71ef170.jpg"
+    ],
+    "description": "Модель: Nike P-6000 (термо). Артикул: NTR808. Матеріал: Шкіра, вологостійкий текстиль, термоутеплювач, гума, піна, прошиті. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Nike P-6000 (термо) (арт. NTR808) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Nike P-6000 (термо) (арт. NTR808) за 2850 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -23481,7 +23564,6 @@
     "sizes": [
       "36",
       "38",
-      "39",
       "40"
     ],
     "sizeChart": [
@@ -23503,7 +23585,7 @@
       {
         "size": "39",
         "cm": "25.0",
-        "available": true
+        "available": false
       },
       {
         "size": "40",
@@ -25915,6 +25997,7 @@
     "country": "В'єтнам",
     "sizes": [
       "36",
+      "37",
       "38",
       "39",
       "40"
@@ -25928,7 +26011,7 @@
       {
         "size": "37",
         "cm": "23.5",
-        "available": false
+        "available": true
       },
       {
         "size": "38",
@@ -27588,7 +27671,8 @@
       "41",
       "42",
       "43",
-      "44"
+      "44",
+      "45"
     ],
     "sizeChart": [
       {
@@ -27639,7 +27723,7 @@
       {
         "size": "45",
         "cm": "29.0",
-        "available": false
+        "available": true
       },
       {
         "size": "46",
@@ -27747,97 +27831,6 @@
     "seo": {
       "title": "Nike P-6000 (термо) (арт. NTR793) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Nike P-6000 (термо) (арт. NTR793) за 2800 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "250420",
-    "slug": "nike-p-6000-termo-ntr792",
-    "name": "Nike P-6000 (термо)",
-    "brand": "Nike",
-    "brandSlug": "nike",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 2800,
-    "oldPrice": 4667,
-    "costPrice": 2300,
-    "sku": "NTR792",
-    "material": "Шкіра, вологостійкий текстиль, термоутеплювач, гума, піна, прошиті",
-    "country": "В'єтнам",
-    "sizes": [
-      "43",
-      "44",
-      "45"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": true
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": true
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": true
-      },
-      {
-        "size": "46",
-        "cm": "30.0",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/92f423f5-a769-448f-9a76-ff99711163b6.jpg"
-    ],
-    "description": "Модель: Nike P-6000 (термо). Артикул: NTR792. Матеріал: Шкіра, вологостійкий текстиль, термоутеплювач, гума, піна, прошиті. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Nike P-6000 (термо) (арт. NTR792) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Nike P-6000 (термо) (арт. NTR792) за 2800 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -28684,8 +28677,8 @@
     }
   },
   {
-    "id": "250339",
-    "slug": "the-north-face-hoka-kaha-2-frost-moc-gtx-3021",
+    "id": "250338",
+    "slug": "the-north-face-hoka-kaha-2-frost-moc-gtx-3020",
     "name": "The North Face Hoka Kaha 2 Frost Moc GTX",
     "brand": "The North Face",
     "brandSlug": "tnf",
@@ -28698,13 +28691,13 @@
     "price": 3400,
     "oldPrice": 5667,
     "costPrice": 2900,
-    "sku": "3021",
+    "sku": "3020",
     "material": "Текстиль",
     "country": "В'єтнам",
     "sizes": [
+      "40",
       "41",
-      "42",
-      "43"
+      "42"
     ],
     "sizeChart": [
       {
@@ -28730,7 +28723,7 @@
       {
         "size": "40",
         "cm": "25.0",
-        "available": false
+        "available": true
       },
       {
         "size": "41",
@@ -28745,7 +28738,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": true
+        "available": false
       },
       {
         "size": "44",
@@ -28766,12 +28759,12 @@
     "inStock": true,
     "isHit": false,
     "images": [
-      "https://easydrop.one/media/uploads/images/base/69a03276-4e6d-45c8-a376-a515513f0377.jpeg"
+      "https://easydrop.one/media/uploads/images/base/40604eed-2c83-4ec3-af66-f8fea8dd9ba1.jpeg"
     ],
-    "description": "Модель: The North Face Hoka Kaha 2 Frost Moc GTX. Артикул: 3021. Матеріал: Текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "description": "Модель: The North Face Hoka Kaha 2 Frost Moc GTX. Артикул: 3020. Матеріал: Текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
     "seo": {
-      "title": "The North Face Hoka Kaha 2 Frost Moc GTX (арт. 3021) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте The North Face Hoka Kaha 2 Frost Moc GTX (арт. 3021) за 3400 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+      "title": "The North Face Hoka Kaha 2 Frost Moc GTX (арт. 3020) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте The North Face Hoka Kaha 2 Frost Moc GTX (арт. 3020) за 3400 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -29819,8 +29812,7 @@
       "41",
       "42",
       "43",
-      "44",
-      "45"
+      "44"
     ],
     "sizeChart": [
       {
@@ -29871,7 +29863,7 @@
       {
         "size": "45",
         "cm": "29.0",
-        "available": true
+        "available": false
       },
       {
         "size": "46",
@@ -30292,8 +30284,10 @@
     "country": "В'єтнам",
     "sizes": [
       "36",
+      "37",
       "38",
       "39",
+      "40",
       "41",
       "42",
       "43",
@@ -30309,7 +30303,7 @@
       {
         "size": "37",
         "cm": "23.5",
-        "available": false
+        "available": true
       },
       {
         "size": "38",
@@ -30324,7 +30318,7 @@
       {
         "size": "40",
         "cm": "25.0",
-        "available": false
+        "available": true
       },
       {
         "size": "41",
@@ -34433,7 +34427,6 @@
     "sizes": [
       "37",
       "38",
-      "40",
       "41",
       "42",
       "43",
@@ -34464,7 +34457,7 @@
       {
         "size": "40",
         "cm": "25.0",
-        "available": true
+        "available": false
       },
       {
         "size": "41",
@@ -36410,7 +36403,6 @@
     "country": "В'єтнам",
     "sizes": [
       "41",
-      "42",
       "43",
       "44",
       "45",
@@ -36450,7 +36442,7 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": true
+        "available": false
       },
       {
         "size": "43",
@@ -45327,8 +45319,7 @@
       "42",
       "43",
       "44",
-      "45",
-      "46"
+      "45"
     ],
     "sizeChart": [
       {
@@ -45384,7 +45375,7 @@
       {
         "size": "46",
         "cm": "30.0",
-        "available": true
+        "available": false
       }
     ],
     "inStock": true,
@@ -46454,6 +46445,7 @@
     "material": "Кожа , замша",
     "country": "В'єтнам",
     "sizes": [
+      "41",
       "42",
       "43",
       "45"
@@ -46487,7 +46479,7 @@
       {
         "size": "41",
         "cm": "26.0",
-        "available": false
+        "available": true
       },
       {
         "size": "42",
@@ -46545,6 +46537,7 @@
     "material": "Текстиль",
     "country": "В'єтнам",
     "sizes": [
+      "40",
       "41",
       "43",
       "44",
@@ -46574,7 +46567,7 @@
       {
         "size": "40",
         "cm": "25.0",
-        "available": false
+        "available": true
       },
       {
         "size": "41",
@@ -55224,9 +55217,9 @@
     }
   },
   {
-    "id": "243483",
-    "slug": "salomon-speed-cross-pro-gore-tex-thinsulate-black-orange-2997",
-    "name": "Salomon Speed Cross Pro Gore-Tex Thinsulate Black Orange",
+    "id": "243482",
+    "slug": "salomon-speed-cross-pro-gore-tex-thinsulate-black-white-2996",
+    "name": "Salomon Speed Cross Pro Gore-Tex Thinsulate Black White",
     "brand": "Salomon",
     "brandSlug": "salomon",
     "category": "Взуття",
@@ -55238,7 +55231,7 @@
     "price": 3000,
     "oldPrice": 5000,
     "costPrice": 2500,
-    "sku": "2997",
+    "sku": "2996",
     "material": "Кожа , Текстиль",
     "country": "В'єтнам",
     "sizes": [
@@ -55306,12 +55299,12 @@
     "inStock": true,
     "isHit": false,
     "images": [
-      "https://easydrop.one/media/uploads/images/base/11fcaa03-fc8c-4f51-b47a-07626cb22e76.jpeg"
+      "https://easydrop.one/media/uploads/images/base/d4f8ae95-ae50-4989-a594-5dc951f68545.jpeg"
     ],
-    "description": "Модель: Salomon Speed Cross Pro Gore-Tex Thinsulate Black Orange. Артикул: 2997. Матеріал: Кожа , Текстиль. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "description": "Модель: Salomon Speed Cross Pro Gore-Tex Thinsulate Black White. Артикул: 2996. Матеріал: Кожа , Текстиль. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
     "seo": {
-      "title": "Salomon Speed Cross Pro Gore-Tex Thinsulate Black Orange (арт. 2997) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Salomon Speed Cross Pro Gore-Tex Thinsulate Black Orange (арт. 2997) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+      "title": "Salomon Speed Cross Pro Gore-Tex Thinsulate Black White (арт. 2996) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Salomon Speed Cross Pro Gore-Tex Thinsulate Black White (арт. 2996) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -55702,6 +55695,7 @@
     "sizes": [
       "41",
       "44",
+      "45",
       "46"
     ],
     "sizeChart": [
@@ -55753,7 +55747,7 @@
       {
         "size": "45",
         "cm": "28.5",
-        "available": false
+        "available": true
       },
       {
         "size": "46",
@@ -61838,6 +61832,97 @@
     "seo": {
       "title": "Nike P-6000 Grey Black Suede (арт. 2712) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Nike P-6000 Grey Black Suede (арт. 2712) за 2700 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "241232",
+    "slug": "salomon-xa-pro-3d-amphid-black-orange-2986",
+    "name": "Salomon XA PRO 3D Amphid Black Orange",
+    "brand": "Salomon",
+    "brandSlug": "salomon",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "men",
+    "genderName": "Чоловічі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 3000,
+    "oldPrice": 5000,
+    "costPrice": 2500,
+    "sku": "2986",
+    "material": "Кожа , Текстиль",
+    "country": "В'єтнам",
+    "sizes": [
+      "41",
+      "42",
+      "44"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.0",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.0",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "39",
+        "cm": "24.5",
+        "available": false
+      },
+      {
+        "size": "40",
+        "cm": "25.0",
+        "available": false
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": true
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": true
+      },
+      {
+        "size": "45",
+        "cm": "28.5",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/35f1300b-2c2b-499e-b087-0fc904df1449.jpeg"
+    ],
+    "description": "Модель: Salomon XA PRO 3D Amphid Black Orange. Артикул: 2986. Матеріал: Кожа , Текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Salomon XA PRO 3D Amphid Black Orange (арт. 2986) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Salomon XA PRO 3D Amphid Black Orange (арт. 2986) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -74886,6 +74971,97 @@
     }
   },
   {
+    "id": "230616",
+    "slug": "louis-vuitton-skate-trainer-black-swarovski-monogram-premium-1974",
+    "name": "Louis Vuitton Skate Trainer Black Swarovski Monogram PREMIUM",
+    "brand": "Louis Vuitton",
+    "brandSlug": "louisvuitton",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "men",
+    "genderName": "Чоловічі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 4400,
+    "oldPrice": 7333,
+    "costPrice": 3900,
+    "sku": "1974",
+    "material": "Текстиль",
+    "country": "Італія",
+    "sizes": [
+      "43",
+      "44",
+      "45"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": false
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": false
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": false
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": false
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": true
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": true
+      },
+      {
+        "size": "45",
+        "cm": "28.5",
+        "available": true
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/47455d8c-640c-4e32-9a12-a66ce9dc1e27.jpeg"
+    ],
+    "description": "Модель: Louis Vuitton Skate Trainer Black Swarovski Monogram PREMIUM. Артикул: 1974. Матеріал: Текстиль. Сезон: Демісезон. Виробництво: Італія. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Louis Vuitton Skate Trainer Black Swarovski Monogram PREMIUM (арт. 1974) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Louis Vuitton Skate Trainer Black Swarovski Monogram PREMIUM (арт. 1974) за 4400 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
     "id": "230614",
     "slug": "louis-vuitton-skate-trainer-black-crystal-monogram-premium-1973",
     "name": "Louis Vuitton Skate Trainer Black Crystal Monogram PREMIUM",
@@ -81798,6 +81974,100 @@
     }
   },
   {
+    "id": "227946",
+    "slug": "puma-park-lifestyle-brown-406826-02-1977",
+    "name": "Puma Park Lifestyle Brown 406826-02",
+    "brand": "Puma",
+    "brandSlug": "puma",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 3000,
+    "oldPrice": 5000,
+    "costPrice": 2500,
+    "sku": "1977",
+    "material": "Замша",
+    "country": "В'єтнам",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": true
+      },
+      {
+        "size": "37",
+        "cm": "23.0",
+        "available": true
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "24.5",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "29.0",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/37f4a4cd-8cb6-4686-a2d1-dddb9e63178a.jpeg"
+    ],
+    "description": "Модель: Puma Park Lifestyle Brown 406826-02. Артикул: 1977. Матеріал: Замша. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Puma Park Lifestyle Brown 406826-02 (арт. 1977) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Puma Park Lifestyle Brown 406826-02 (арт. 1977) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
     "id": "227863",
     "slug": "adidas-samba-og-rhinestone-black-830",
     "name": "Adidas Samba OG Rhinestone Black",
@@ -83121,9 +83391,9 @@
     }
   },
   {
-    "id": "227713",
-    "slug": "puma-x-lamelo-lafrance-black-white-1967",
-    "name": "Puma x LaMelo LaFrance Black White",
+    "id": "227717",
+    "slug": "puma-x-lamelo-lafrance-black-1968",
+    "name": "Puma x LaMelo LaFrance Black",
     "brand": "Puma",
     "brandSlug": "puma",
     "category": "Взуття",
@@ -83132,10 +83402,10 @@
     "genderName": "Жіночі",
     "season": "demi",
     "seasonName": "Демісезон",
-    "price": 3300,
-    "oldPrice": 5500,
-    "costPrice": 2800,
-    "sku": "1967",
+    "price": 3500,
+    "oldPrice": 5833,
+    "costPrice": 3000,
+    "sku": "1968",
     "material": "Текстиль",
     "country": "В'єтнам",
     "sizes": [
@@ -83143,7 +83413,8 @@
       "37",
       "38",
       "39",
-      "40"
+      "40",
+      "41"
     ],
     "sizeChart": [
       {
@@ -83174,7 +83445,101 @@
       {
         "size": "41",
         "cm": "26.0",
+        "available": true
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
         "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "29.0",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/521a1deb-cf9e-4c63-8a7e-eba8edb658d2.jpeg"
+    ],
+    "description": "Модель: Puma x LaMelo LaFrance Black. Артикул: 1968. Матеріал: Текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Puma x LaMelo LaFrance Black (арт. 1968) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Puma x LaMelo LaFrance Black (арт. 1968) за 3500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "227713",
+    "slug": "puma-x-lamelo-lafrance-black-white-1967",
+    "name": "Puma x LaMelo LaFrance Black White",
+    "brand": "Puma",
+    "brandSlug": "puma",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 3300,
+    "oldPrice": 5500,
+    "costPrice": 2800,
+    "sku": "1967",
+    "material": "Текстиль",
+    "country": "В'єтнам",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": true
+      },
+      {
+        "size": "37",
+        "cm": "23.0",
+        "available": true
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "24.5",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
       },
       {
         "size": "42",
@@ -86413,7 +86778,6 @@
     "country": "В'єтнам",
     "sizes": [
       "38",
-      "39",
       "40",
       "41",
       "42",
@@ -86439,7 +86803,7 @@
       {
         "size": "39",
         "cm": "24.5",
-        "available": true
+        "available": false
       },
       {
         "size": "40",
@@ -98403,7 +98767,6 @@
       "37",
       "38",
       "39",
-      "43",
       "44",
       "45"
     ],
@@ -98446,7 +98809,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": true
+        "available": false
       },
       {
         "size": "44",
@@ -107634,7 +107997,6 @@
       "39",
       "40",
       "42",
-      "44",
       "45"
     ],
     "sizeChart": [
@@ -107681,7 +108043,7 @@
       {
         "size": "44",
         "cm": "28.0",
-        "available": true
+        "available": false
       },
       {
         "size": "45",
@@ -115376,6 +115738,7 @@
     "material": "Кожа",
     "country": "В'єтнам",
     "sizes": [
+      "41",
       "42",
       "44",
       "45"
@@ -115409,7 +115772,7 @@
       {
         "size": "41",
         "cm": "26.0",
-        "available": false
+        "available": true
       },
       {
         "size": "42",
@@ -117711,8 +118074,6 @@
     "material": "Кожа , замша",
     "country": "В'єтнам",
     "sizes": [
-      "38",
-      "40",
       "41",
       "42",
       "43",
@@ -117734,7 +118095,7 @@
       {
         "size": "38",
         "cm": "24.0",
-        "available": true
+        "available": false
       },
       {
         "size": "39",
@@ -117744,7 +118105,7 @@
       {
         "size": "40",
         "cm": "25.0",
-        "available": true
+        "available": false
       },
       {
         "size": "41",
@@ -118159,6 +118520,97 @@
     "seo": {
       "title": "Nike Initiator (арт. NTR765) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Nike Initiator (арт. NTR765) за 2700 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "207931",
+    "slug": "air-jordan-retro-13-triple-black-2519",
+    "name": "Air Jordan Retro 13 Triple Black",
+    "brand": "Air Jordan",
+    "brandSlug": "jordan",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "men",
+    "genderName": "Чоловічі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 2900,
+    "oldPrice": 4833,
+    "costPrice": 2400,
+    "sku": "2519",
+    "material": "Кожа , замша",
+    "country": "В'єтнам",
+    "sizes": [
+      "41",
+      "44",
+      "45"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": false
+      },
+      {
+        "size": "39",
+        "cm": "24.5",
+        "available": false
+      },
+      {
+        "size": "40",
+        "cm": "25.0",
+        "available": false
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": true
+      },
+      {
+        "size": "45",
+        "cm": "29.0",
+        "available": true
+      },
+      {
+        "size": "46",
+        "cm": "30.0",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/d5c1b07d-cbcc-43a1-b98e-2ed465b65502.jpeg"
+    ],
+    "description": "Модель: Air Jordan Retro 13 Triple Black. Артикул: 2519. Матеріал: Кожа , замша. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Air Jordan Retro 13 Triple Black (арт. 2519) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Air Jordan Retro 13 Triple Black (арт. 2519) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -122459,6 +122911,7 @@
     "material": "Шкіра",
     "country": "В'єтнам",
     "sizes": [
+      "42",
       "43",
       "44",
       "45"
@@ -122497,7 +122950,7 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": false
+        "available": true
       },
       {
         "size": "43",
@@ -128943,6 +129396,7 @@
       "39",
       "40",
       "41",
+      "42",
       "45"
     ],
     "sizeChart": [
@@ -128979,7 +129433,7 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": false
+        "available": true
       },
       {
         "size": "43",
@@ -130538,6 +130992,7 @@
     "sizes": [
       "36",
       "37",
+      "38",
       "39",
       "41"
     ],
@@ -130555,7 +131010,7 @@
       {
         "size": "38",
         "cm": "24.5",
-        "available": false
+        "available": true
       },
       {
         "size": "39",
@@ -130699,6 +131154,98 @@
     "seo": {
       "title": "UGG CI Ultra Mini Weather Hybrid Khaki Yellow (арт. 1908) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте UGG CI Ultra Mini Weather Hybrid Khaki Yellow (арт. 1908) за 4500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "201137",
+    "slug": "ugg-ci-ultra-mini-weather-hybrid-full-black-1907",
+    "name": "UGG CI Ultra Mini Weather Hybrid Full Black",
+    "brand": "UGG",
+    "brandSlug": "ugg",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 4800,
+    "oldPrice": 8000,
+    "costPrice": 4300,
+    "sku": "1907",
+    "material": "Замша, хутро, EVA",
+    "country": "В'єтнам",
+    "sizes": [
+      "36",
+      "39",
+      "40",
+      "41"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "23.0",
+        "available": true
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "24.5",
+        "available": false
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "28.5",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": true,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/2947548e-f06b-4832-84be-c5ba43fd2207.jpeg"
+    ],
+    "description": "Модель: UGG CI Ultra Mini Weather Hybrid Full Black. Артикул: 1907. Матеріал: Замша, хутро, EVA. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "UGG CI Ultra Mini Weather Hybrid Full Black (арт. 1907) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте UGG CI Ultra Mini Weather Hybrid Full Black (арт. 1907) за 4800 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -133809,6 +134356,7 @@
     "country": "Китай",
     "sizes": [
       "36",
+      "38",
       "39",
       "40",
       "44"
@@ -133827,7 +134375,7 @@
       {
         "size": "38",
         "cm": "24.5",
-        "available": false
+        "available": true
       },
       {
         "size": "39",
@@ -135214,6 +135762,7 @@
     "country": "Італія",
     "sizes": [
       "38",
+      "39",
       "40",
       "41"
     ],
@@ -135236,7 +135785,7 @@
       {
         "size": "39",
         "cm": "25.0",
-        "available": false
+        "available": true
       },
       {
         "size": "40",
@@ -136775,6 +137324,97 @@
     }
   },
   {
+    "id": "198580",
+    "slug": "ugg-classic-micro-rocky-oak-1888",
+    "name": "UGG Classic Micro Rocky Oak",
+    "brand": "UGG",
+    "brandSlug": "ugg",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 3400,
+    "oldPrice": 5667,
+    "costPrice": 2900,
+    "sku": "1888",
+    "material": "Замша, хутро",
+    "country": "В'єтнам",
+    "sizes": [
+      "36",
+      "38",
+      "41"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "23.0",
+        "available": true
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "24.5",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": false
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": false
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "28.5",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": true,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/e6da0d32-0db4-456f-8e5f-bb28ee6bb681.jpeg"
+    ],
+    "description": "Модель: UGG Classic Micro Rocky Oak. Артикул: 1888. Матеріал: Замша, хутро. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "UGG Classic Micro Rocky Oak (арт. 1888) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте UGG Classic Micro Rocky Oak (арт. 1888) за 3400 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
     "id": "198551",
     "slug": "ugg-classic-micro-chestnut-1887",
     "name": "UGG Classic Micro Chestnut",
@@ -137415,6 +138055,100 @@
     "seo": {
       "title": "Nike Dunk Low Retro SE Grey FJ4188-001 (арт. 1881) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Nike Dunk Low Retro SE Grey FJ4188-001 (арт. 1881) за 2800 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "198280",
+    "slug": "nike-dunk-low-next-nature-gym-red-white-dn1431-101-1880",
+    "name": "Nike Dunk Low Next Nature Gym Red/White DN1431-101",
+    "brand": "Nike",
+    "brandSlug": "nike",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 2900,
+    "oldPrice": 4833,
+    "costPrice": 2400,
+    "sku": "1880",
+    "material": "Шкіра",
+    "country": "В'єтнам",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "23.0",
+        "available": true
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": true
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "24.5",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.0",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "28.5",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/f94ccd24-1d51-494a-9316-8e866fefe7dc.jpeg"
+    ],
+    "description": "Модель: Nike Dunk Low Next Nature Gym Red/White DN1431-101. Артикул: 1880. Матеріал: Шкіра. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Nike Dunk Low Next Nature Gym Red/White DN1431-101 (арт. 1880) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Nike Dunk Low Next Nature Gym Red/White DN1431-101 (арт. 1880) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -140042,7 +140776,6 @@
     "material": "Натуральна замша, натуральне хутро",
     "country": "Китай",
     "sizes": [
-      "36",
       "37",
       "38",
       "39",
@@ -140053,7 +140786,7 @@
       {
         "size": "36",
         "cm": "23.0",
-        "available": true
+        "available": false
       },
       {
         "size": "37",
@@ -143291,98 +144024,6 @@
     }
   },
   {
-    "id": "193567",
-    "slug": "salomon-xa-pro-street-thinsulate-gore-tex-black-2417",
-    "name": "Salomon XA Pro Street Thinsulate Gore-Tex Black",
-    "brand": "Salomon",
-    "brandSlug": "salomon",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 2900,
-    "oldPrice": 4833,
-    "costPrice": 2400,
-    "sku": "2417",
-    "material": "Кожа , Замша , Текстиль",
-    "country": "В'єтнам",
-    "sizes": [
-      "41",
-      "44",
-      "45",
-      "46"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.0",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.0",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": true
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": true
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": true
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/582b97b3-e5f2-4543-b093-527de8aa7752.jpeg"
-    ],
-    "description": "Модель: Salomon XA Pro Street Thinsulate Gore-Tex Black. Артикул: 2417. Матеріал: Кожа , Замша , Текстиль. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Salomon XA Pro Street Thinsulate Gore-Tex Black (арт. 2417) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Salomon XA Pro Street Thinsulate Gore-Tex Black (арт. 2417) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "193566",
     "slug": "salomon-xa-pro-street-thinsulate-gore-tex-khaki-1935",
     "name": "Salomon XA Pro Street Thinsulate Gore-Tex Khaki",
@@ -143402,6 +144043,7 @@
     "country": "В'єтнам",
     "sizes": [
       "41",
+      "42",
       "43",
       "44",
       "45",
@@ -143441,7 +144083,7 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": false
+        "available": true
       },
       {
         "size": "43",
@@ -143841,6 +144483,97 @@
     "seo": {
       "title": "UGG Neumel Hybrid Chestnut Beige (арт. 1841) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте UGG Neumel Hybrid Chestnut Beige (арт. 1841) за 5000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "193085",
+    "slug": "ugg-neumel-hybrid-black-1840",
+    "name": "UGG Neumel Hybrid Black",
+    "brand": "UGG",
+    "brandSlug": "ugg",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "men",
+    "genderName": "Чоловічі",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 5000,
+    "oldPrice": 8333,
+    "costPrice": 4500,
+    "sku": "1840",
+    "material": "Замша, хутро, EVA",
+    "country": "В'єтнам",
+    "sizes": [
+      "42",
+      "43",
+      "44"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "23.0",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "24.5",
+        "available": false
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": false
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": false
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": false
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": true
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": true
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": true
+      },
+      {
+        "size": "45",
+        "cm": "28.5",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": true,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/cfc4978e-ac89-4ed7-a3dc-b68f9f61a414.jpeg"
+    ],
+    "description": "Модель: UGG Neumel Hybrid Black. Артикул: 1840. Матеріал: Замша, хутро, EVA. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "UGG Neumel Hybrid Black (арт. 1840) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте UGG Neumel Hybrid Black (арт. 1840) за 5000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -148046,7 +148779,6 @@
     "material": "Кожа",
     "country": "В'єтнам",
     "sizes": [
-      "40",
       "41",
       "42",
       "43",
@@ -148077,7 +148809,7 @@
       {
         "size": "40",
         "cm": "25.0",
-        "available": true
+        "available": false
       },
       {
         "size": "41",
@@ -148607,7 +149339,6 @@
       "41",
       "42",
       "43",
-      "44",
       "45"
     ],
     "sizeChart": [
@@ -148654,7 +149385,7 @@
       {
         "size": "44",
         "cm": "28.0",
-        "available": true
+        "available": false
       },
       {
         "size": "45",
@@ -155615,6 +156346,104 @@
     }
   },
   {
+    "id": "186819",
+    "slug": "new-balance-530-black-mr530pb-1721",
+    "name": "New Balance 530 Black MR530PB",
+    "brand": "New Balance",
+    "brandSlug": "newbalance",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "unisex",
+    "genderName": "Унісекс",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 2900,
+    "oldPrice": 4833,
+    "costPrice": 2400,
+    "sku": "1721",
+    "material": "Шкіра, текстиль",
+    "country": "В'єтнам",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": true
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": true
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "24.5",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.0",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": true
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": true
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": true
+      },
+      {
+        "size": "45",
+        "cm": "29.0",
+        "available": true
+      },
+      {
+        "size": "46",
+        "cm": "30.0",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/d93568bd-cddb-4006-b7ac-fd562e606a7f.jpeg"
+    ],
+    "description": "Модель: New Balance 530 Black MR530PB. Артикул: 1721. Матеріал: Шкіра, текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "New Balance 530 Black MR530PB (арт. 1721) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте New Balance 530 Black MR530PB (арт. 1721) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
     "id": "186533",
     "slug": "balenciaga-track-premium-ba0045",
     "name": "Balenciaga Track Premium",
@@ -156454,97 +157283,6 @@
     "seo": {
       "title": "ASICS GEL 1130 « WHITE BIRCH » (6 (арт. 1352) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте ASICS GEL 1130 « WHITE BIRCH » (6 (арт. 1352) за 2299 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "185646",
-    "slug": "nike-acg-air-zoom-gaiadome-gtx-white-nk142",
-    "name": "Nike ACG Air Zoom Gaiadome GTX White",
-    "brand": "Nike",
-    "brandSlug": "nike",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 3500,
-    "oldPrice": 5833,
-    "costPrice": 3000,
-    "sku": "NK142",
-    "material": "Текстиль",
-    "country": "В'єтнам",
-    "sizes": [
-      "36",
-      "37",
-      "38"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": true
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": true
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": true
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "30.0",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/567fe6bc-8eed-48a6-8eed-f27f8b4a7cd3.jpeg"
-    ],
-    "description": "Модель: Nike ACG Air Zoom Gaiadome GTX White. Артикул: NK142. Матеріал: Текстиль. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Nike ACG Air Zoom Gaiadome GTX White (арт. NK142) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Nike ACG Air Zoom Gaiadome GTX White (арт. NK142) за 3500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -163852,7 +164590,6 @@
     "country": "В'єтнам",
     "sizes": [
       "41",
-      "42",
       "43",
       "44",
       "45"
@@ -163891,7 +164628,7 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": true
+        "available": false
       },
       {
         "size": "43",
@@ -182888,6 +183625,7 @@
     "sizes": [
       "38",
       "39",
+      "41",
       "43",
       "44",
       "45"
@@ -182921,7 +183659,7 @@
       {
         "size": "41",
         "cm": "26.0",
-        "available": false
+        "available": true
       },
       {
         "size": "42",
@@ -183421,6 +184159,97 @@
     "seo": {
       "title": "Nike Air More Uptempo White Pink Rush Fuchsia FN6976-100 (арт. 1585) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Nike Air More Uptempo White Pink Rush Fuchsia FN6976-100 (арт. 1585) за 2600 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "160060",
+    "slug": "nike-air-more-uptempo-96-beige-dv7230-100-1584",
+    "name": "Nike Air More Uptempo 96 Beige DV7230-100",
+    "brand": "Nike",
+    "brandSlug": "nike",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 2700,
+    "oldPrice": 4500,
+    "costPrice": 2200,
+    "sku": "1584",
+    "material": "Шкіра",
+    "country": "В'єтнам",
+    "sizes": [
+      "36",
+      "37",
+      "40"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "23.0",
+        "available": true
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": true
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": false
+      },
+      {
+        "size": "39",
+        "cm": "24.5",
+        "available": false
+      },
+      {
+        "size": "40",
+        "cm": "25.0",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": false
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "28.5",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/d5b52e0d-e170-4187-be84-2e61d52eb56c.jpeg"
+    ],
+    "description": "Модель: Nike Air More Uptempo 96 Beige DV7230-100. Артикул: 1584. Матеріал: Шкіра. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Nike Air More Uptempo 96 Beige DV7230-100 (арт. 1584) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Nike Air More Uptempo 96 Beige DV7230-100 (арт. 1584) за 2700 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -185664,6 +186493,97 @@
     "seo": {
       "title": "Nike Air Max Pulse Roam Black Grey (арт. 2158) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Nike Air Max Pulse Roam Black Grey (арт. 2158) за 2950 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "158501",
+    "slug": "nike-zoom-vomero-roam-black-2118",
+    "name": "Nike Zoom Vomero Roam Black",
+    "brand": "Nike",
+    "brandSlug": "nike",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "men",
+    "genderName": "Чоловічі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 2800,
+    "oldPrice": 4667,
+    "costPrice": 2300,
+    "sku": "2118",
+    "material": "Текстиль",
+    "country": "В'єтнам",
+    "sizes": [
+      "41",
+      "42",
+      "45"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": false
+      },
+      {
+        "size": "39",
+        "cm": "24.5",
+        "available": false
+      },
+      {
+        "size": "40",
+        "cm": "25.0",
+        "available": false
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": true
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "29.0",
+        "available": true
+      },
+      {
+        "size": "46",
+        "cm": "30.0",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/1af0e805-d49a-4fdc-8dd8-239c854529b7.jpeg"
+    ],
+    "description": "Модель: Nike Zoom Vomero Roam Black. Артикул: 2118. Матеріал: Текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Nike Zoom Vomero Roam Black (арт. 2118) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Nike Zoom Vomero Roam Black (арт. 2118) за 2800 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -188951,7 +189871,8 @@
     "sizes": [
       "36",
       "37",
-      "38"
+      "38",
+      "39"
     ],
     "sizeChart": [
       {
@@ -188972,7 +189893,7 @@
       {
         "size": "39",
         "cm": "24.5",
-        "available": false
+        "available": true
       },
       {
         "size": "40",
@@ -190713,8 +191634,7 @@
       "38",
       "42",
       "43",
-      "44",
-      "45"
+      "44"
     ],
     "sizeChart": [
       {
@@ -190765,7 +191685,7 @@
       {
         "size": "45",
         "cm": "29.0",
-        "available": true
+        "available": false
       },
       {
         "size": "46",
@@ -201480,8 +202400,7 @@
       "38",
       "39",
       "40",
-      "44",
-      "45"
+      "44"
     ],
     "sizeChart": [
       {
@@ -201532,7 +202451,7 @@
       {
         "size": "45",
         "cm": "28.5",
-        "available": true
+        "available": false
       },
       {
         "size": "46",
@@ -201573,17 +202492,15 @@
     "material": "замша,текстиль",
     "country": "В'єтнам",
     "sizes": [
-      "36",
       "37",
       "38",
-      "39",
-      "41"
+      "39"
     ],
     "sizeChart": [
       {
         "size": "36",
         "cm": "23.0",
-        "available": true
+        "available": false
       },
       {
         "size": "37",
@@ -201608,7 +202525,7 @@
       {
         "size": "41",
         "cm": "26.0",
-        "available": true
+        "available": false
       },
       {
         "size": "42",
@@ -201672,6 +202589,7 @@
       "36",
       "37",
       "38",
+      "39",
       "40",
       "41"
     ],
@@ -201694,7 +202612,7 @@
       {
         "size": "39",
         "cm": "24.5",
-        "available": false
+        "available": true
       },
       {
         "size": "40",
@@ -203713,8 +204631,7 @@
     "sizes": [
       "41",
       "42",
-      "43",
-      "45"
+      "43"
     ],
     "sizeChart": [
       {
@@ -203765,7 +204682,7 @@
       {
         "size": "45",
         "cm": "29.0",
-        "available": true
+        "available": false
       },
       {
         "size": "46",
@@ -204911,7 +205828,10 @@
       "37",
       "38",
       "39",
-      "44"
+      "40",
+      "43",
+      "44",
+      "45"
     ],
     "sizeChart": [
       {
@@ -204937,7 +205857,7 @@
       {
         "size": "40",
         "cm": "25.5",
-        "available": false
+        "available": true
       },
       {
         "size": "41",
@@ -204952,7 +205872,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": false
+        "available": true
       },
       {
         "size": "44",
@@ -204962,7 +205882,7 @@
       {
         "size": "45",
         "cm": "28.5",
-        "available": false
+        "available": true
       },
       {
         "size": "46",
@@ -206292,97 +207212,6 @@
     "seo": {
       "title": "Asics Gel-Kahana 8 Black White Gore-Tex (арт. AC007) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Asics Gel-Kahana 8 Black White Gore-Tex (арт. AC007) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "131911",
-    "slug": "asics-gel-kahana-8-gore-tex-beige-white-black-ac006",
-    "name": "Asics Gel-Kahana 8 GORE-TEX Beige White Black",
-    "brand": "Asics",
-    "brandSlug": "asics",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 3000,
-    "oldPrice": 5000,
-    "costPrice": 2500,
-    "sku": "AC006",
-    "material": "Шкіра",
-    "country": "В'єтнам",
-    "sizes": [
-      "43",
-      "44",
-      "45"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": true
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": true
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": true
-      },
-      {
-        "size": "46",
-        "cm": "29.0",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/2561b85c-6e76-4a77-9716-fde4624bbbee.jpg"
-    ],
-    "description": "Модель: Asics Gel-Kahana 8 GORE-TEX Beige White Black. Артикул: AC006. Матеріал: Шкіра. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Asics Gel-Kahana 8 GORE-TEX Beige White Black (арт. AC006) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Asics Gel-Kahana 8 GORE-TEX Beige White Black (арт. AC006) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -208962,6 +209791,7 @@
       "40",
       "41",
       "42",
+      "43",
       "45"
     ],
     "sizeChart": [
@@ -209003,7 +209833,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": false
+        "available": true
       },
       {
         "size": "44",
@@ -209147,7 +209977,8 @@
       "37",
       "38",
       "39",
-      "40"
+      "40",
+      "41"
     ],
     "sizeChart": [
       {
@@ -209178,7 +210009,7 @@
       {
         "size": "41",
         "cm": "26.0",
-        "available": false
+        "available": true
       },
       {
         "size": "42",
@@ -209215,6 +210046,98 @@
     "seo": {
       "title": "UGG Lowmel Sneaker Beige (арт. 1459) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте UGG Lowmel Sneaker Beige (арт. 1459) за 4700 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "129390",
+    "slug": "ugg-classic-mini-dipper-black-1458",
+    "name": "UGG Classic Mini Dipper Black",
+    "brand": "UGG",
+    "brandSlug": "ugg",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 4400,
+    "oldPrice": 7333,
+    "costPrice": 3900,
+    "sku": "1458",
+    "material": "Замша, хутро",
+    "country": "В'єтнам",
+    "sizes": [
+      "36",
+      "39",
+      "40",
+      "41"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "23.0",
+        "available": true
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "24.5",
+        "available": false
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "28.5",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": true,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/4694fcf7-d96b-4b8d-ae88-f289982ff135.jpeg"
+    ],
+    "description": "Модель: UGG Classic Mini Dipper Black. Артикул: 1458. Матеріал: Замша, хутро. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "UGG Classic Mini Dipper Black (арт. 1458) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте UGG Classic Mini Dipper Black (арт. 1458) за 4400 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -210723,7 +211646,6 @@
       "36",
       "37",
       "38",
-      "39",
       "40",
       "41"
     ],
@@ -210746,7 +211668,7 @@
       {
         "size": "39",
         "cm": "25.0",
-        "available": true
+        "available": false
       },
       {
         "size": "40",
@@ -213031,7 +213953,6 @@
     "material": "Натуральна замша, натуральне хутро",
     "country": "Китай",
     "sizes": [
-      "36",
       "38",
       "39",
       "40",
@@ -213041,7 +213962,7 @@
       {
         "size": "36",
         "cm": "23.0",
-        "available": true
+        "available": false
       },
       {
         "size": "37",
@@ -215347,7 +216268,6 @@
     "sizes": [
       "36",
       "37",
-      "38",
       "39",
       "43"
     ],
@@ -215365,7 +216285,7 @@
       {
         "size": "38",
         "cm": "24.0",
-        "available": true
+        "available": false
       },
       {
         "size": "39",
@@ -220551,6 +221471,7 @@
     "country": "В'єтнам",
     "sizes": [
       "36",
+      "37",
       "38",
       "39",
       "41",
@@ -220567,7 +221488,7 @@
       {
         "size": "37",
         "cm": "23.5",
-        "available": false
+        "available": true
       },
       {
         "size": "38",
@@ -223170,6 +224091,7 @@
     "country": "В'єтнам",
     "sizes": [
       "37",
+      "38",
       "41",
       "42",
       "43",
@@ -223189,7 +224111,7 @@
       {
         "size": "38",
         "cm": "24.0",
-        "available": false
+        "available": true
       },
       {
         "size": "39",
@@ -228716,6 +229638,97 @@
     "seo": {
       "title": "Salomon XT-6 Black (арт. SL002) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Salomon XT-6 Black (арт. SL002) за 3200 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "105198",
+    "slug": "adidas-atmos-x-superstar-denim-pack-grey-1294",
+    "name": "Adidas Atmos x Superstar Denim Pack - Grey",
+    "brand": "Adidas",
+    "brandSlug": "adidas",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 1900,
+    "oldPrice": 3167,
+    "costPrice": 1400,
+    "sku": "1294",
+    "material": "Текстиль",
+    "country": "Китай",
+    "sizes": [
+      "36",
+      "37",
+      "38"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": true
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": true
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "24.5",
+        "available": false
+      },
+      {
+        "size": "40",
+        "cm": "25.0",
+        "available": false
+      },
+      {
+        "size": "41",
+        "cm": "25.5",
+        "available": false
+      },
+      {
+        "size": "42",
+        "cm": "26.0",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "28.5",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/31146655-bfff-46ba-8d48-ac7dc395d4c5.jpeg"
+    ],
+    "description": "Модель: Adidas Atmos x Superstar Denim Pack - Grey. Артикул: 1294. Матеріал: Текстиль. Сезон: Демісезон. Виробництво: Китай. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Adidas Atmos x Superstar Denim Pack - Grey (арт. 1294) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Adidas Atmos x Superstar Denim Pack - Grey (арт. 1294) за 1900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -242056,9 +243069,7 @@
       "36",
       "38",
       "39",
-      "40",
       "41",
-      "42",
       "43",
       "45"
     ],
@@ -242086,7 +243097,7 @@
       {
         "size": "40",
         "cm": "25.0",
-        "available": true
+        "available": false
       },
       {
         "size": "41",
@@ -242096,7 +243107,7 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": true
+        "available": false
       },
       {
         "size": "43",
@@ -242128,6 +243139,97 @@
     "seo": {
       "title": "New Balance 574 Classic Blue (арт. 1414) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте New Balance 574 Classic Blue (арт. 1414) за 2600 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "85583",
+    "slug": "nike-air-max-90-x-cordura-black-1579",
+    "name": "Nike Air Max 90 x Cordura Black",
+    "brand": "Nike",
+    "brandSlug": "nike",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "men",
+    "genderName": "Чоловічі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 2850,
+    "oldPrice": 4750,
+    "costPrice": 2350,
+    "sku": "1579",
+    "material": "Кожа , Текстиль",
+    "country": "В'єтнам",
+    "sizes": [
+      "42",
+      "44",
+      "45"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": false
+      },
+      {
+        "size": "39",
+        "cm": "24.5",
+        "available": false
+      },
+      {
+        "size": "40",
+        "cm": "25.0",
+        "available": false
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": false
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": true
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": true
+      },
+      {
+        "size": "45",
+        "cm": "29.0",
+        "available": true
+      },
+      {
+        "size": "46",
+        "cm": "30.0",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/4f5392c5-da81-4800-a593-d784cf7b7838.jpeg"
+    ],
+    "description": "Модель: Nike Air Max 90 x Cordura Black. Артикул: 1579. Матеріал: Кожа , Текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Nike Air Max 90 x Cordura Black (арт. 1579) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Nike Air Max 90 x Cordura Black (арт. 1579) за 2850 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -245047,8 +246149,7 @@
       "38",
       "39",
       "40",
-      "41",
-      "42"
+      "41"
     ],
     "sizeChart": [
       {
@@ -245084,7 +246185,7 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": true
+        "available": false
       },
       {
         "size": "43",
@@ -246516,97 +247617,6 @@
     }
   },
   {
-    "id": "69608",
-    "slug": "vans-knu-skool-black-white-premium-va003",
-    "name": "Vans Knu Skool Black/White Premium",
-    "brand": "Vans",
-    "brandSlug": "vans",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "unisex",
-    "genderName": "Унісекс",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 2500,
-    "oldPrice": 4167,
-    "costPrice": 2000,
-    "sku": "VA003",
-    "material": "Текстиль",
-    "country": "Китай",
-    "sizes": [
-      "39",
-      "41",
-      "44"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": true
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": true
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/4a7e77aa-7890-4e2e-8aca-bc0f56144754.jpeg"
-    ],
-    "description": "Модель: Vans Knu Skool Black/White Premium. Артикул: VA003. Матеріал: Текстиль. Сезон: Демісезон. Виробництво: Китай. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Vans Knu Skool Black/White Premium (арт. VA003) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Vans Knu Skool Black/White Premium (арт. VA003) за 2500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "69275",
     "slug": "ugg-bailey-bow-ii-boot-black-leather-1118",
     "name": "Ugg Bailey Bow II Boot Black Leather",
@@ -246696,6 +247706,97 @@
     "seo": {
       "title": "Ugg Bailey Bow II Boot Black Leather (арт. 1118) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Ugg Bailey Bow II Boot Black Leather (арт. 1118) за 2200 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "69270",
+    "slug": "ugg-mini-zip-black-lacquer-1115",
+    "name": "Ugg Mini ZIP Black Lacquer",
+    "brand": "UGG",
+    "brandSlug": "ugg",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 1900,
+    "oldPrice": 3167,
+    "costPrice": 1400,
+    "sku": "1115",
+    "material": "Замша, овчина",
+    "country": "Китай",
+    "sizes": [
+      "36",
+      "38",
+      "39"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "23.0",
+        "available": true
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "24.5",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": false
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": false
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "28.5",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": true,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/3fed70b1-7990-4304-b317-6a632914c315.jpeg"
+    ],
+    "description": "Модель: Ugg Mini ZIP Black Lacquer. Артикул: 1115. Матеріал: Замша, овчина. Сезон: Зима. Виробництво: Китай. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Ugg Mini ZIP Black Lacquer (арт. 1115) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Ugg Mini ZIP Black Lacquer (арт. 1115) за 1900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -247640,6 +248741,7 @@
     "material": "Замша, овчина",
     "country": "В'єтнам",
     "sizes": [
+      "37",
       "38",
       "39",
       "40",
@@ -247654,7 +248756,7 @@
       {
         "size": "37",
         "cm": "23.5",
-        "available": false
+        "available": true
       },
       {
         "size": "38",
@@ -248469,7 +249571,6 @@
     "material": "Шкіра, хутро, пропитка",
     "country": "В'єтнам",
     "sizes": [
-      "37",
       "38",
       "40",
       "41"
@@ -248483,7 +249584,7 @@
       {
         "size": "37",
         "cm": "23.5",
-        "available": true
+        "available": false
       },
       {
         "size": "38",
@@ -252636,7 +253737,6 @@
     "country": "-",
     "sizes": [
       "37",
-      "38",
       "42",
       "44"
     ],
@@ -252654,7 +253754,7 @@
       {
         "size": "38",
         "cm": "24.0",
-        "available": true
+        "available": false
       },
       {
         "size": "39",
@@ -255036,16 +256136,19 @@
     "genderName": "Жіночі",
     "season": "demi",
     "seasonName": "Демісезон",
-    "price": 2800,
-    "oldPrice": 4667,
-    "costPrice": 2300,
+    "price": 2900,
+    "oldPrice": 4833,
+    "costPrice": 2400,
     "sku": "0957",
     "material": "Шкіра, замша",
     "country": "В'єтнам",
     "sizes": [
       "36",
+      "37",
       "38",
-      "40"
+      "39",
+      "40",
+      "41"
     ],
     "sizeChart": [
       {
@@ -255056,7 +256159,7 @@
       {
         "size": "37",
         "cm": "23.5",
-        "available": false
+        "available": true
       },
       {
         "size": "38",
@@ -255066,7 +256169,7 @@
       {
         "size": "39",
         "cm": "24.5",
-        "available": false
+        "available": true
       },
       {
         "size": "40",
@@ -255076,7 +256179,7 @@
       {
         "size": "41",
         "cm": "26.0",
-        "available": false
+        "available": true
       },
       {
         "size": "42",
@@ -255112,7 +256215,7 @@
     "description": "Модель: Nike Blazer Low 77 Vintage. Артикул: 0957. Матеріал: Шкіра, замша. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
     "seo": {
       "title": "Nike Blazer Low 77 Vintage (арт. 0957) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Nike Blazer Low 77 Vintage (арт. 0957) за 2800 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+      "description": "Замовляйте Nike Blazer Low 77 Vintage (арт. 0957) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -256153,7 +257256,6 @@
     "country": "В'єтнам",
     "sizes": [
       "38",
-      "39",
       "41",
       "42",
       "43"
@@ -256177,7 +257279,7 @@
       {
         "size": "39",
         "cm": "24.5",
-        "available": true
+        "available": false
       },
       {
         "size": "40",
@@ -259673,7 +260775,6 @@
       "37",
       "38",
       "39",
-      "40",
       "41"
     ],
     "sizeChart": [
@@ -259700,7 +260801,7 @@
       {
         "size": "40",
         "cm": "25.5",
-        "available": true
+        "available": false
       },
       {
         "size": "41",
