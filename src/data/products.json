@@ -1,5 +1,218 @@
 [
   {
+    "id": "256174",
+    "slug": "adidas-campus-00s-beige-black-khutro-5174",
+    "name": "Adidas Campus 00s Beige Black (хутро)",
+    "brand": "Adidas",
+    "brandSlug": "adidas",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "unisex",
+    "genderName": "Унісекс",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 2500,
+    "oldPrice": 4167,
+    "costPrice": 1700,
+    "sku": "5174",
+    "material": "Натуральна замша, хутро",
+    "country": "В'єтнам",
+    "sizes": [
+      "37",
+      "38",
+      "40",
+      "41"
+    ],
+    "inStock": true,
+    "images": [
+      "/images/products/adidas-campus-00s-beige-black-khutro-5174/img-1.jpg",
+      "/images/products/adidas-campus-00s-beige-black-khutro-5174/img-2.jpg",
+      "/images/products/adidas-campus-00s-beige-black-khutro-5174/img-3.jpg",
+      "/images/products/adidas-campus-00s-beige-black-khutro-5174/img-4.jpg"
+    ],
+    "description": "Зимові кросівки Adidas Campus 00s Beige Black (хутро) у стильному бежевому забарвленні з контрастними чорними смужками (артикул: 5174). Верх виготовлений із якісної натуральної замші пісочно-бежевого кольору, всередині — щільне тепле світле хутро для максимального комфорту в морозну погоду. Фірмовий масивний силует 00s із широкими шнурками та надійною підошвою з Gum-протектором. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Adidas Campus 00s Beige Black (хутро) (арт. 5174) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте зимові кросівки Adidas Campus 00s Beige Black (хутро) (арт. 5174) за 2500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    },
+    "isHit": true,
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": true
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "24.5",
+        "available": false
+      },
+      {
+        "size": "40",
+        "cm": "25.0",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "256187",
+    "slug": "adidas-campus-00s-grey-black-khutro-5187",
+    "name": "Adidas Campus 00s Grey Black (хутро)",
+    "brand": "Adidas",
+    "brandSlug": "adidas",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "unisex",
+    "genderName": "Унісекс",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 2500,
+    "oldPrice": 4167,
+    "costPrice": 1700,
+    "sku": "5187",
+    "material": "Натуральна замша, хутро",
+    "country": "В'єтнам",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "41"
+    ],
+    "inStock": true,
+    "images": [
+      "/images/products/adidas-campus-00s-grey-black-khutro-5187/img-1.jpg",
+      "/images/products/adidas-campus-00s-grey-black-khutro-5187/img-2.jpg",
+      "/images/products/adidas-campus-00s-grey-black-khutro-5187/img-3.jpg",
+      "/images/products/adidas-campus-00s-grey-black-khutro-5187/img-4.jpg"
+    ],
+    "description": "Зимові кросівки Adidas Campus 00s Grey Black (хутро) у стильному контрастному сіро-чорному забарвленні (артикул: 5187). Верх виконаний із натуральної замші благородного сірого кольору з чорними шкіряними смужками та чорною масивною підошвою. Всередині — густе тепле біле хутро для максимального захисту від холоду взимку. Культовий силует 00s із широкими чорними шнурками та комфортною посадкою на кожен день. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Adidas Campus 00s Grey Black (хутро) (арт. 5187) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте зимові кросівки Adidas Campus 00s Grey Black (хутро) (арт. 5187) за 2500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    },
+    "isHit": true,
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": true
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": true
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "24.5",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.0",
+        "available": false
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "256188",
+    "slug": "adidas-campus-00s-grey-white-khutro-5188",
+    "name": "Adidas Campus 00s Grey White (хутро)",
+    "brand": "Adidas",
+    "brandSlug": "adidas",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "unisex",
+    "genderName": "Унісекс",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 2500,
+    "oldPrice": 4167,
+    "costPrice": 1700,
+    "sku": "5188",
+    "material": "Натуральна замша, хутро",
+    "country": "В'єтнам",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "inStock": true,
+    "images": [
+      "/images/products/adidas-campus-00s-grey-white-khutro-5188/img-1.jpg",
+      "/images/products/adidas-campus-00s-grey-white-khutro-5188/img-2.jpg",
+      "/images/products/adidas-campus-00s-grey-white-khutro-5188/img-3.jpg",
+      "/images/products/adidas-campus-00s-grey-white-khutro-5188/img-4.jpg"
+    ],
+    "description": "Зимові кросівки Adidas Campus 00s Grey White (хутро) у класичному універсальному сірому забарвленні з білими фірмовими смужками (артикул: 5188). Верх моделі виконаний із преміальної натуральної замші, всередині — густе тепле біле хутро, що надійно зберігає тепло в морозну зимову погоду. Культовий масивний силует нульових із широкими шнурками, контрастним білим задником та зносостійкою гумовою підошвою. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Adidas Campus 00s Grey White (хутро) (арт. 5188) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте зимові кросівки Adidas Campus 00s Grey White (хутро) (арт. 5188) за 2500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    },
+    "isHit": true,
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": true
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": true
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "24.5",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.0",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      }
+    ]
+  },
+  {
     "id": "257838",
     "slug": "ugg-ultra-mini-platform-black-suede-premium-0801",
     "name": "UGG ULTRA MINI PLATFORM | BLACK SUEDE premium",
@@ -2391,216 +2604,6 @@
         "size": "41",
         "cm": "26.0",
         "available": false
-      }
-    ]
-  },
-  {
-    "id": "256188",
-    "slug": "adidas-campus-00s-grey-white-khutro-5188",
-    "name": "Adidas Campus 00s Grey White (хутро)",
-    "brand": "Adidas",
-    "brandSlug": "adidas",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "unisex",
-    "genderName": "Унісекс",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 2500,
-    "oldPrice": 4167,
-    "costPrice": 1700,
-    "sku": "5188",
-    "material": "Натуральна замша, хутро",
-    "country": "В'єтнам",
-    "sizes": [
-      "36",
-      "37",
-      "38",
-      "39",
-      "40",
-      "41"
-    ],
-    "inStock": true,
-    "images": [
-      "/images/products/adidas-campus-00s-grey-white-khutro-5188/img-1.jpg",
-      "/images/products/adidas-campus-00s-grey-white-khutro-5188/img-2.jpg",
-      "/images/products/adidas-campus-00s-grey-white-khutro-5188/img-3.jpg",
-      "/images/products/adidas-campus-00s-grey-white-khutro-5188/img-4.jpg"
-    ],
-    "description": "Зимові кросівки Adidas Campus 00s Grey White (хутро) у класичному універсальному сірому забарвленні з білими фірмовими смужками (артикул: 5188). Верх моделі виконаний із преміальної натуральної замші, всередині — густе тепле біле хутро, що надійно зберігає тепло в морозну зимову погоду. Культовий масивний силует нульових із широкими шнурками, контрастним білим задником та зносостійкою гумовою підошвою. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Adidas Campus 00s Grey White (хутро) (арт. 5188) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте зимові кросівки Adidas Campus 00s Grey White (хутро) (арт. 5188) за 2500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    },
-    "isHit": true,
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": true
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": true
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": true
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": true
-      },
-      {
-        "size": "40",
-        "cm": "25.0",
-        "available": true
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      }
-    ]
-  },
-  {
-    "id": "256187",
-    "slug": "adidas-campus-00s-grey-black-khutro-5187",
-    "name": "Adidas Campus 00s Grey Black (хутро)",
-    "brand": "Adidas",
-    "brandSlug": "adidas",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "unisex",
-    "genderName": "Унісекс",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 2500,
-    "oldPrice": 4167,
-    "costPrice": 1700,
-    "sku": "5187",
-    "material": "Натуральна замша, хутро",
-    "country": "В'єтнам",
-    "sizes": [
-      "36",
-      "37",
-      "38",
-      "39",
-      "41"
-    ],
-    "inStock": true,
-    "images": [
-      "/images/products/adidas-campus-00s-grey-black-khutro-5187/img-1.jpg",
-      "/images/products/adidas-campus-00s-grey-black-khutro-5187/img-2.jpg",
-      "/images/products/adidas-campus-00s-grey-black-khutro-5187/img-3.jpg",
-      "/images/products/adidas-campus-00s-grey-black-khutro-5187/img-4.jpg"
-    ],
-    "description": "Зимові кросівки Adidas Campus 00s Grey Black (хутро) у стильному контрастному сіро-чорному забарвленні (артикул: 5187). Верх виконаний із натуральної замші благородного сірого кольору з чорними шкіряними смужками та чорною масивною підошвою. Всередині — густе тепле біле хутро для максимального захисту від холоду взимку. Культовий силует 00s із широкими чорними шнурками та комфортною посадкою на кожен день. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Adidas Campus 00s Grey Black (хутро) (арт. 5187) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте зимові кросівки Adidas Campus 00s Grey Black (хутро) (арт. 5187) за 2500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    },
-    "isHit": true,
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": true
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": true
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": true
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": true
-      },
-      {
-        "size": "40",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      }
-    ]
-  },
-  {
-    "id": "256174",
-    "slug": "adidas-campus-00s-beige-black-khutro-5174",
-    "name": "Adidas Campus 00s Beige Black (хутро)",
-    "brand": "Adidas",
-    "brandSlug": "adidas",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "unisex",
-    "genderName": "Унісекс",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 2500,
-    "oldPrice": 4167,
-    "costPrice": 1700,
-    "sku": "5174",
-    "material": "Натуральна замша, хутро",
-    "country": "В'єтнам",
-    "sizes": [
-      "37",
-      "38",
-      "40",
-      "41"
-    ],
-    "inStock": true,
-    "images": [
-      "/images/products/5174/img-1.jpg"
-    ],
-    "description": "Зимові кросівки Adidas Campus 00s Beige Black (хутро) у стильному бежевому забарвленні з контрастними чорними смужками (артикул: 5174). Верх виготовлений із якісної натуральної замші пісочно-бежевого кольору, всередині — щільне тепле світле хутро для максимального комфорту в морозну погоду. Фірмовий масивний силует 00s із широкими шнурками та надійною підошвою з Gum-протектором. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Adidas Campus 00s Beige Black (хутро) (арт. 5174) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте зимові кросівки Adidas Campus 00s Beige Black (хутро) (арт. 5174) за 2500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    },
-    "isHit": true,
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": true
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": true
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.0",
-        "available": true
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
       }
     ]
   },
