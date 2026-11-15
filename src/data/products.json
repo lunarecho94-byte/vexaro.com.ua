@@ -451,6 +451,7 @@
       "/images/products/ugg-lowmel-sneakers-light-bronze-premium-1692/img-1.jpg",
       "/images/products/ugg-lowmel-sneaker-pumice-ug0019/img-1.jpg",
       "/images/products/ugg-lowmel-sneaker-black-2393/img-1.jpg",
+      "/images/products/ugg-lowmel-sneaker-beige-u970/img-1.jpg",
       "/images/products/ugg-lowmel-sneakers-olive-grey-premium-1684/img-1.jpg",
       "/images/products/ugg-lowmel-sneakers-leopard-premium-1687/img-1.jpg",
       "https://easydrop.one/media/uploads/images/base/789a0d38-8867-4394-8b9e-ff15511f3173.jpeg",
@@ -783,6 +784,85 @@
         ],
         "inStock": true,
         "slug": "ugg-lowmel-sneaker-black-2393"
+      },
+      {
+        "id": "143619",
+        "sku": "U970",
+        "color": "BEIGE",
+        "colorSlug": "beige",
+        "price": 4700,
+        "oldPrice": 7833,
+        "costPrice": 4200,
+        "sizes": [
+          "37",
+          "38",
+          "39"
+        ],
+        "sizeChart": [
+          {
+            "size": "36",
+            "cm": "23.0",
+            "available": false
+          },
+          {
+            "size": "37",
+            "cm": "23.5",
+            "available": true
+          },
+          {
+            "size": "38",
+            "cm": "24.5",
+            "available": true
+          },
+          {
+            "size": "39",
+            "cm": "25.0",
+            "available": true
+          },
+          {
+            "size": "40",
+            "cm": "25.5",
+            "available": false
+          },
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": false
+          },
+          {
+            "size": "42",
+            "cm": "26.5",
+            "available": false
+          },
+          {
+            "size": "43",
+            "cm": "27.5",
+            "available": false
+          },
+          {
+            "size": "44",
+            "cm": "28.0",
+            "available": false
+          },
+          {
+            "size": "45",
+            "cm": "28.5",
+            "available": false
+          },
+          {
+            "size": "46",
+            "cm": "29.5",
+            "available": false
+          }
+        ],
+        "images": [
+          "/images/products/ugg-lowmel-sneaker-beige-u970/img-1.jpg",
+          "/images/products/ugg-lowmel-sneaker-beige-u970/img-2.jpg",
+          "/images/products/ugg-lowmel-sneaker-beige-u970/img-3.jpg",
+          "/images/products/ugg-lowmel-sneaker-beige-u970/img-4.jpg"
+        ],
+        "inStock": true,
+        "slug": "ugg-lowmel-sneaker-beige-u970"
       },
       {
         "id": "252315",
@@ -200336,100 +200416,6 @@
     "seo": {
       "title": "UGG Funkarra Platform Black (арт. 1492) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте UGG Funkarra Platform Black (арт. 1492) за 4500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "143619",
-    "slug": "ugg-lowmel-sneaker-beige-u970",
-    "name": "UGG Lowmel Sneaker Beige",
-    "brand": "UGG",
-    "brandSlug": "ugg",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 4700,
-    "oldPrice": 7833,
-    "costPrice": 4200,
-    "sku": "U970",
-    "material": "замша,текстиль",
-    "country": "В'єтнам",
-    "sizes": [
-      "37",
-      "38",
-      "39"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "23.0",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": true
-      },
-      {
-        "size": "38",
-        "cm": "24.5",
-        "available": true
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": true
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/7309e032-7ee7-4920-b18f-045173625b55.jpg",
-      "https://easydrop.one/media/uploads/images/base/a30e9771-8f08-48d4-8dd5-8d70b6c0c731.jpg",
-      "https://easydrop.one/media/uploads/images/base/1bfb04d6-d993-4cf4-9e2e-8da6b39ed694.jpg",
-      "https://easydrop.one/media/uploads/images/base/eb837478-2d31-445f-a9b8-70754040b9ff.jpg"
-    ],
-    "description": "Модель: UGG Lowmel Sneaker Beige. Артикул: U970. Матеріал: замша,текстиль. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "UGG Lowmel Sneaker Beige (арт. U970) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте UGG Lowmel Sneaker Beige (арт. U970) за 4700 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
