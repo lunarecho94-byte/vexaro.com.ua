@@ -160,6 +160,26 @@ def format_caption(prod):
     )
     return caption
 
+def check_recent_channel_for_product(prod):
+    """Verifies whether product was posted in the latest channel messages."""
+    url = f"https://t.me/s/{CHANNEL_ID.lstrip('@')}"
+    try:
+        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+        html = urllib.request.urlopen(req, timeout=10).read().decode('utf-8')
+        msgs = re.findall(r'data-post=\"[^\"]+/([0-9]+)\".*?js-message_text\" dir=\"auto\">(.*?)</div>', html, re.S)
+        prod_sku = normalize_sku(prod.get('sku'))
+        prod_name = normalize_name(prod.get('name'))
+        for mid, text in msgs[-15:]:
+            m_sku = re.search(r'Артикул:</b>\s*<code>(.*?)</code>', text)
+            if m_sku and normalize_sku(m_sku.group(1)) == prod_sku:
+                return True
+            m_name = re.search(r'НОВИНКА&#33;\s*(.*?)(?:</b>|\n)', text)
+            if m_name and normalize_name(m_name.group(1)) == prod_name:
+                return True
+    except Exception as e:
+        log(f"Channel verification notice: {e}")
+    return False
+
 def send_product(prod):
     images = prod.get('images', [])
     if not images:
@@ -203,10 +223,10 @@ def send_product(prod):
 
     api_url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendPhoto"
     
-    # SINGLE-SHOT ATTEMPT: No blind retries on read timeout to prevent duplicate channel posts!
+    # SINGLE-SHOT ATTEMPT: Increased timeout to 75s + verification on read timeout
     try:
         req = urllib.request.Request(api_url, data=payload, headers={'Content-Type': f'multipart/form-data; boundary={boundary}'})
-        with urllib.request.urlopen(req, timeout=30) as resp:
+        with urllib.request.urlopen(req, timeout=75) as resp:
             res = json.loads(resp.read().decode('utf-8'))
             return res.get('ok', False)
     except urllib.error.HTTPError as e:
@@ -222,7 +242,12 @@ def send_product(prod):
             log(f"HTTP Error {e.code} for {prod.get('name')}: {err_body}")
         return False
     except Exception as e:
-        log(f"Error posting {prod.get('name')}: {e}")
+        log(f"Exception posting {prod.get('name')}: {e}")
+        # Telegram might have received the message and posted it despite timeout
+        time.sleep(3.0)
+        if check_recent_channel_for_product(prod):
+            log(f"Verified {prod.get('name')} was successfully posted to Telegram despite network exception!")
+            return True
         return False
 
 def sync_new_products(limit=3):
@@ -258,6 +283,10 @@ def sync_new_products(limit=3):
     for idx, p in enumerate(to_post, 1):
         sku = p.get('sku')
         name = p.get('name')
+        if check_recent_channel_for_product(p):
+            log(f"[{idx}/{len(to_post)}] Skipping {name} (art. {sku}): already present in recent channel posts!")
+            record_posted(p, history)
+            continue
         log(f"[{idx}/{len(to_post)}] Publishing {name} (art. {sku})...")
         ok = send_product(p)
         if ok:

@@ -236,7 +236,46 @@ COLOR_WORDS = {
 EXCLUDED_SKUS = {'16006', '16005', '16004', '16003', 'NB143', '0068', '2688', 'R343', 'SL015', '258739', '2263', '2169'}
 
 # Pinned products permanently pinned at top by store owner request (supports 'id:...' or SKU)
-PINNED_KEYS = []
+PINNED_FILE = os.path.join(SRC_DATA_DIR, 'pinned.json')
+PINNED_KEYS = [
+    '0801',      # UGG ULTRA MINI PLATFORM BLACK SUEDE (most recent delivery)
+    '2112',      # Nike Jordan 4 Black Cat ХУТРО
+    '2113',      # Nike Jordan 4 White Cement ХУТРО
+    'TN02',      # The North Face Glenclyffe Low Gore-Tex Black
+    'VN04',      # Vans Sk8-Hi MTE Gore-Tex
+    'S1270',     # Salomon XT-6 Black Gore-Tex
+    'S1470',     # Salomon XT-6 Beige Gore-Tex
+    'NK0420',    # Nike Pegasus Zebra Print
+    'U0699',     # UGG Heritage Utility Sneaker
+    'NB527',     # New Balance 530 (термо)
+    'NB526',     # New Balance 530 (термо)
+    'NB525',     # New Balance 530 (термо)
+    'NB524',     # New Balance 530 (термо)
+    'NB523',     # New Balance 9060 (термо)
+    'NB522',     # New Balance 9060 (термо)
+    'NB521',     # New Balance 9060 (термо)
+    'NB520',     # New Balance 9060 (термо)
+    'NB519',     # New Balance 9060 (термо)
+    'NB149',     # New Balance 9060 Grey Cordura V2
+    'NB148',     # New Balance 9060 Beige Cordura
+    'NK185',     # Nike Sb Dunk Low Grey
+    'AC033',     # Asics Gel-Pickax Clay Grey Mink
+    'A6201',     # Premiata MOERUN ХУТРО
+    'AS-045',    # Adidas Campus Grey (хутро)
+    '0705V',     # Adidas Campus 00s Grey White Gum (хутро)
+    '5193',      # Adidas Campus 00s Grey White (хутро)
+    '5188',      # Adidas Campus 00s Grey White (хутро)
+    '5187',      # Adidas Campus 00s Grey Black (хутро)
+    '5174',      # Adidas Campus 00s Beige Black (хутро)
+]
+if os.path.exists(PINNED_FILE):
+    try:
+        with open(PINNED_FILE, 'r', encoding='utf-8') as pf:
+            loaded_pins = json.load(pf)
+            if isinstance(loaded_pins, list) and loaded_pins:
+                PINNED_KEYS = loaded_pins
+    except Exception as e:
+        print(f"Warning: could not load {PINNED_FILE}: {e}")
 
 # Specific size exclusions per product SKU requested by store owner
 EXCLUDED_SIZES_BY_SKU = {}
@@ -1948,10 +1987,12 @@ def main():
     def get_pin_rank(p):
         for idx, key in enumerate(PINNED_KEYS):
             if match_pin(key, p):
-                return len(PINNED_KEYS) - idx
-        return 0
+                return 10000 + (len(PINNED_KEYS) - idx)
+        images = p.get('images', [])
+        has_studio = any(img.startswith('/images/products/') for img in images)
+        return 5000 if has_studio else 0
 
-    # Sort: pinned products first (in order), then newest arrivals by product ID descending
+    # Sort: pinned products first (in order), then studio photography, then newest arrivals by product ID descending
     def sort_key(p):
         rank = get_pin_rank(p)
         pid = int(p['id']) if str(p.get('id', '')).isdigit() else 0

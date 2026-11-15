@@ -10,6 +10,40 @@ let catalogMeta: CatalogMeta | null = null;
 const productBySlug = new Map<string, Product>();
 const productById = new Map<string, Product>();
 
+const DEFAULT_PINNED_KEYS: string[] = [
+  '0801',      // UGG ULTRA MINI PLATFORM BLACK SUEDE (most recent delivery)
+  '2112',      // Nike Jordan 4 Black Cat ХУТРО
+  '2113',      // Nike Jordan 4 White Cement ХУТРО
+  'TN02',      // The North Face Glenclyffe Low Gore-Tex Black
+  'VN04',      // Vans Sk8-Hi MTE Gore-Tex
+  'S1270',     // Salomon XT-6 Black Gore-Tex
+  'S1470',     // Salomon XT-6 Beige Gore-Tex
+  'NK0420',    // Nike Pegasus Zebra Print
+  'U0699',     // UGG Heritage Utility Sneaker
+  'NB527',     // New Balance 530 (термо)
+  'NB526',     // New Balance 530 (термо)
+  'NB525',     // New Balance 530 (термо)
+  'NB524',     // New Balance 530 (термо)
+  'NB523',     // New Balance 9060 (термо)
+  'NB522',     // New Balance 9060 (термо)
+  'NB521',     // New Balance 9060 (термо)
+  'NB520',     // New Balance 9060 (термо)
+  'NB519',     // New Balance 9060 (термо)
+  'NB149',     // New Balance 9060 Grey Cordura V2
+  'NB148',     // New Balance 9060 Beige Cordura
+  'NK185',     // Nike Sb Dunk Low Grey
+  'AC033',     // Asics Gel-Pickax Clay Grey Mink
+  'A6201',     // Premiata MOERUN ХУТРО
+  'AS-045',    // Adidas Campus Grey (хутро)
+  '0705V',     // Adidas Campus 00s Grey White Gum (хутро)
+  '5193',      // Adidas Campus 00s Grey White (хутро)
+  '5188',      // Adidas Campus 00s Grey White (хутро)
+  '5187',      // Adidas Campus 00s Grey Black (хутро)
+  '5174',      // Adidas Campus 00s Beige Black (хутро)
+];
+
+let pinnedKeys: string[] = DEFAULT_PINNED_KEYS;
+
 const EXCLUDED_TAPKI_REGEX =
   /\b(slides?|slippers?|clogs?|mules?|sandals?|flip.?flops?|adimule|tazz|tasman|funkette|disquette|tazzlita|lanah|goldenstar|crocs|thongs?|sabot|adilette|chypre|dway|tippi|birkenstock)\b|triomphe.*mule|summer charms|тапк|тапочк|шльоп|шлеп|сланц|сланец|босоніж|босонож|вьетнамк|в'єтнамк|сабо|пантоф|лофер|loafer/i;
 
@@ -123,6 +157,18 @@ function ensureLoaded() {
       !EXCLUDED_SKUS.has((p.id || '').trim())
   );
   catalogMeta = JSON.parse(metaRaw) as CatalogMeta;
+
+  try {
+    const pinnedPath = path.join(dataDir, 'pinned.json');
+    if (fs.existsSync(pinnedPath)) {
+      const parsed = JSON.parse(fs.readFileSync(pinnedPath, 'utf-8'));
+      if (Array.isArray(parsed) && parsed.length > 0) {
+        pinnedKeys = parsed;
+      }
+    }
+  } catch {
+    pinnedKeys = DEFAULT_PINNED_KEYS;
+  }
 
   for (const p of allProducts) {
     productBySlug.set(p.slug, p);
@@ -388,8 +434,7 @@ export async function getProducts(params: CatalogQueryParams = {}): Promise<Cata
     }
   }
 
-  // Pinned products permanently pinned at top by store owner request (supports 'id:...' or SKU)
-  const PINNED_KEYS: string[] = [];
+  // Match pinned products or new deliveries permanently prioritized at top
   const matchPin = (key: string, p: Product) => {
     if (key.startsWith('id:')) {
       return (p.id || '').trim() === key.slice(3).trim();
@@ -403,8 +448,10 @@ export async function getProducts(params: CatalogQueryParams = {}): Promise<Cata
     );
   };
   const getPinRank = (p: Product) => {
-    const idx = PINNED_KEYS.findIndex((k) => matchPin(k, p));
-    return idx >= 0 ? PINNED_KEYS.length - idx : 0;
+    const idx = pinnedKeys.findIndex((k) => matchPin(k, p));
+    if (idx >= 0) return 10000 + (pinnedKeys.length - idx);
+    const hasStudio = p.images && p.images.some((img) => img.startsWith('/images/products/'));
+    return hasStudio ? 5000 : 0;
   };
 
   // Sorting:
