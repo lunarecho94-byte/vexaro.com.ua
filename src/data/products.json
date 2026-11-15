@@ -130615,101 +130615,8 @@
   },
   {
     "id": "201143",
-    "slug": "ugg-ci-ultra-mini-weather-hybrid-chestnut-white-1909",
-    "name": "UGG CI Ultra Mini Weather Hybrid Chestnut White",
-    "brand": "UGG",
-    "brandSlug": "ugg",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 4800,
-    "oldPrice": 8000,
-    "costPrice": 4300,
-    "sku": "1909",
-    "material": "Замша, хутро, EVA",
-    "country": "В'єтнам",
-    "sizes": [
-      "36",
-      "37",
-      "38",
-      "39",
-      "41"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "23.0",
-        "available": true
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": true
-      },
-      {
-        "size": "38",
-        "cm": "24.5",
-        "available": true
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": true
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/59cc0696-4e05-4ab5-887b-6cee8d62babd.jpeg"
-    ],
-    "description": "Модель: UGG CI Ultra Mini Weather Hybrid Chestnut White. Артикул: 1909. Матеріал: Замша, хутро, EVA. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "UGG CI Ultra Mini Weather Hybrid Chestnut White (арт. 1909) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте UGG CI Ultra Mini Weather Hybrid Chestnut White (арт. 1909) за 4800 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "201138",
-    "slug": "ugg-ci-ultra-mini-weather-hybrid-khaki-yellow-1908",
-    "name": "UGG CI Ultra Mini Weather Hybrid Khaki Yellow",
+    "slug": "ugg-ci-ultra-mini-weather-hybrid",
+    "name": "UGG CI Ultra Mini Weather Hybrid",
     "brand": "UGG",
     "brandSlug": "ugg",
     "category": "Взуття",
@@ -130719,105 +130626,17 @@
     "season": "winter",
     "seasonName": "Зима",
     "price": 4500,
-    "oldPrice": 7500,
+    "oldPrice": 8000,
+    "minPrice": 4500,
+    "maxPrice": 4800,
     "costPrice": 4000,
-    "sku": "1908",
-    "material": "Замша, хутро, EVA",
+    "sku": "1909",
+    "material": "Натуральна замша, силіконова калоша, натуральне хутро",
     "country": "В'єтнам",
     "sizes": [
       "36",
       "37",
       "38",
-      "40"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "23.0",
-        "available": true
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": true
-      },
-      {
-        "size": "38",
-        "cm": "24.5",
-        "available": true
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": true
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/76e2fdd3-2074-4179-ba66-c85d2bc75150.jpeg"
-    ],
-    "description": "Модель: UGG CI Ultra Mini Weather Hybrid Khaki Yellow. Артикул: 1908. Матеріал: Замша, хутро, EVA. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "UGG CI Ultra Mini Weather Hybrid Khaki Yellow (арт. 1908) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте UGG CI Ultra Mini Weather Hybrid Khaki Yellow (арт. 1908) за 4500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "201137",
-    "slug": "ugg-ci-ultra-mini-weather-hybrid-full-black-1907",
-    "name": "UGG CI Ultra Mini Weather Hybrid Full Black",
-    "brand": "UGG",
-    "brandSlug": "ugg",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 4800,
-    "oldPrice": 8000,
-    "costPrice": 4300,
-    "sku": "1907",
-    "material": "Замша, хутро, EVA",
-    "country": "В'єтнам",
-    "sizes": [
-      "36",
       "39",
       "40",
       "41"
@@ -130825,18 +130644,18 @@
     "sizeChart": [
       {
         "size": "36",
-        "cm": "23.0",
+        "cm": "22.5",
         "available": true
       },
       {
         "size": "37",
         "cm": "23.5",
-        "available": false
+        "available": true
       },
       {
         "size": "38",
-        "cm": "24.5",
-        "available": false
+        "cm": "24.0",
+        "available": true
       },
       {
         "size": "39",
@@ -130852,136 +130671,410 @@
         "size": "41",
         "cm": "26.0",
         "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
       }
     ],
     "inStock": true,
     "isHit": true,
     "images": [
-      "https://easydrop.one/media/uploads/images/base/2947548e-f06b-4832-84be-c5ba43fd2207.jpeg"
+      "https://easydrop.one/media/uploads/images/base/59cc0696-4e05-4ab5-887b-6cee8d62babd.jpeg",
+      "https://easydrop.one/media/uploads/images/base/84e5522e-e4d8-42dc-ae63-2978f0c2b527.jpeg",
+      "https://easydrop.one/media/uploads/images/base/2947548e-f06b-4832-84be-c5ba43fd2207.jpeg",
+      "https://easydrop.one/media/uploads/images/base/76e2fdd3-2074-4179-ba66-c85d2bc75150.jpeg",
+      "https://easydrop.one/media/uploads/images/base/e19ec62d-58d2-46d0-9280-55b834491f1b.jpeg"
     ],
-    "description": "Модель: UGG CI Ultra Mini Weather Hybrid Full Black. Артикул: 1907. Матеріал: Замша, хутро, EVA. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "description": "Жіночі зимові уггі UGG CI Ultra Mini Weather Hybrid у преміальному виконанні. Оновлена версія культових Ultra Mini, створена для будь-якої негоди: водонепроникна силіконова калоша, верх із якісної натуральної водовідштовхувальної замші та густе тепле натуральне хутро (овчина) всередині. Знімна силіконова галоша забезпечує надійний захист від бруду, снігу та сльоти, а рельєфна підошва гарантує відмінне зчеплення з поверхнею в зимовий період. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
     "seo": {
-      "title": "UGG CI Ultra Mini Weather Hybrid Full Black (арт. 1907) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте UGG CI Ultra Mini Weather Hybrid Full Black (арт. 1907) за 4800 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "201135",
-    "slug": "ugg-ci-ultra-mini-weather-hybrid-sand-yellow-1906",
-    "name": "UGG CI Ultra Mini Weather Hybrid Sand Yellow",
-    "brand": "UGG",
-    "brandSlug": "ugg",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 4500,
-    "oldPrice": 7500,
-    "costPrice": 4000,
-    "sku": "1906",
-    "material": "Замша, хутро, EVA",
-    "country": "В'єтнам",
-    "sizes": [
-      "36",
-      "37",
-      "38",
-      "39",
-      "40"
-    ],
-    "sizeChart": [
+      "title": "UGG CI Ultra Mini Weather Hybrid — купити зимові уггі в інтернет-магазині VEXARO",
+      "description": "Замовляйте водонепроникні зимові уггі UGG CI Ultra Mini Weather Hybrid у різних кольорах від 4 500 ₴. Натуральна замша, силіконовий захист, тепле хутро. Доставка 1–2 дні, накладений платіж."
+    },
+    "variations": [
       {
-        "size": "36",
-        "cm": "23.0",
-        "available": true
+        "id": "201143",
+        "sku": "1909",
+        "color": "CHESTNUT WHITE",
+        "colorSlug": "chestnut-white",
+        "price": 4800,
+        "oldPrice": 8000,
+        "costPrice": 4300,
+        "sizes": [
+          "36",
+          "37",
+          "38",
+          "39",
+          "41"
+        ],
+        "sizeChart": [
+          {
+            "size": "36",
+            "cm": "23.0",
+            "available": true
+          },
+          {
+            "size": "37",
+            "cm": "23.5",
+            "available": true
+          },
+          {
+            "size": "38",
+            "cm": "24.5",
+            "available": true
+          },
+          {
+            "size": "39",
+            "cm": "25.0",
+            "available": true
+          },
+          {
+            "size": "40",
+            "cm": "25.5",
+            "available": false
+          },
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": true
+          },
+          {
+            "size": "42",
+            "cm": "26.5",
+            "available": false
+          },
+          {
+            "size": "43",
+            "cm": "27.5",
+            "available": false
+          },
+          {
+            "size": "44",
+            "cm": "28.0",
+            "available": false
+          },
+          {
+            "size": "45",
+            "cm": "28.5",
+            "available": false
+          },
+          {
+            "size": "46",
+            "cm": "29.5",
+            "available": false
+          }
+        ],
+        "images": [
+          "https://easydrop.one/media/uploads/images/base/59cc0696-4e05-4ab5-887b-6cee8d62babd.jpeg"
+        ],
+        "inStock": true,
+        "slug": "ugg-ci-ultra-mini-weather-hybrid-chestnut-white-1909"
       },
       {
-        "size": "37",
-        "cm": "23.5",
-        "available": true
+        "id": "201135",
+        "sku": "1906",
+        "color": "SAND YELLOW",
+        "colorSlug": "sand-yellow",
+        "price": 4500,
+        "oldPrice": 7500,
+        "costPrice": 4000,
+        "sizes": [
+          "36",
+          "37",
+          "38",
+          "39",
+          "40"
+        ],
+        "sizeChart": [
+          {
+            "size": "36",
+            "cm": "23.0",
+            "available": true
+          },
+          {
+            "size": "37",
+            "cm": "23.5",
+            "available": true
+          },
+          {
+            "size": "38",
+            "cm": "24.5",
+            "available": true
+          },
+          {
+            "size": "39",
+            "cm": "25.0",
+            "available": true
+          },
+          {
+            "size": "40",
+            "cm": "25.5",
+            "available": true
+          },
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": false
+          },
+          {
+            "size": "42",
+            "cm": "26.5",
+            "available": false
+          },
+          {
+            "size": "43",
+            "cm": "27.5",
+            "available": false
+          },
+          {
+            "size": "44",
+            "cm": "28.0",
+            "available": false
+          },
+          {
+            "size": "45",
+            "cm": "28.5",
+            "available": false
+          },
+          {
+            "size": "46",
+            "cm": "29.5",
+            "available": false
+          }
+        ],
+        "images": [
+          "https://easydrop.one/media/uploads/images/base/84e5522e-e4d8-42dc-ae63-2978f0c2b527.jpeg"
+        ],
+        "inStock": true,
+        "slug": "ugg-ci-ultra-mini-weather-hybrid-sand-yellow-1906"
       },
       {
-        "size": "38",
-        "cm": "24.5",
-        "available": true
+        "id": "201137",
+        "sku": "1907",
+        "color": "FULL BLACK",
+        "colorSlug": "full-black",
+        "price": 4800,
+        "oldPrice": 8000,
+        "costPrice": 4300,
+        "sizes": [
+          "36",
+          "39",
+          "40",
+          "41"
+        ],
+        "sizeChart": [
+          {
+            "size": "36",
+            "cm": "23.0",
+            "available": true
+          },
+          {
+            "size": "37",
+            "cm": "23.5",
+            "available": false
+          },
+          {
+            "size": "38",
+            "cm": "24.5",
+            "available": false
+          },
+          {
+            "size": "39",
+            "cm": "25.0",
+            "available": true
+          },
+          {
+            "size": "40",
+            "cm": "25.5",
+            "available": true
+          },
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": true
+          },
+          {
+            "size": "42",
+            "cm": "26.5",
+            "available": false
+          },
+          {
+            "size": "43",
+            "cm": "27.5",
+            "available": false
+          },
+          {
+            "size": "44",
+            "cm": "28.0",
+            "available": false
+          },
+          {
+            "size": "45",
+            "cm": "28.5",
+            "available": false
+          },
+          {
+            "size": "46",
+            "cm": "29.5",
+            "available": false
+          }
+        ],
+        "images": [
+          "https://easydrop.one/media/uploads/images/base/2947548e-f06b-4832-84be-c5ba43fd2207.jpeg"
+        ],
+        "inStock": true,
+        "slug": "ugg-ci-ultra-mini-weather-hybrid-full-black-1907"
       },
       {
-        "size": "39",
-        "cm": "25.0",
-        "available": true
+        "id": "201138",
+        "sku": "1908",
+        "color": "KHAKI YELLOW",
+        "colorSlug": "khaki-yellow",
+        "price": 4500,
+        "oldPrice": 7500,
+        "costPrice": 4000,
+        "sizes": [
+          "36",
+          "37",
+          "38",
+          "40"
+        ],
+        "sizeChart": [
+          {
+            "size": "36",
+            "cm": "23.0",
+            "available": true
+          },
+          {
+            "size": "37",
+            "cm": "23.5",
+            "available": true
+          },
+          {
+            "size": "38",
+            "cm": "24.5",
+            "available": true
+          },
+          {
+            "size": "39",
+            "cm": "25.0",
+            "available": false
+          },
+          {
+            "size": "40",
+            "cm": "25.5",
+            "available": true
+          },
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": false
+          },
+          {
+            "size": "42",
+            "cm": "26.5",
+            "available": false
+          },
+          {
+            "size": "43",
+            "cm": "27.5",
+            "available": false
+          },
+          {
+            "size": "44",
+            "cm": "28.0",
+            "available": false
+          },
+          {
+            "size": "45",
+            "cm": "28.5",
+            "available": false
+          },
+          {
+            "size": "46",
+            "cm": "29.5",
+            "available": false
+          }
+        ],
+        "images": [
+          "https://easydrop.one/media/uploads/images/base/76e2fdd3-2074-4179-ba66-c85d2bc75150.jpeg"
+        ],
+        "inStock": true,
+        "slug": "ugg-ci-ultra-mini-weather-hybrid-khaki-yellow-1908"
       },
       {
-        "size": "40",
-        "cm": "25.5",
-        "available": true
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
+        "id": "198614",
+        "sku": "1891",
+        "color": "CHESTNUT BLUE",
+        "colorSlug": "chestnut-blue",
+        "price": 4500,
+        "oldPrice": 7500,
+        "costPrice": 4000,
+        "sizes": [
+          "36",
+          "37",
+          "39"
+        ],
+        "sizeChart": [
+          {
+            "size": "36",
+            "cm": "23.0",
+            "available": true
+          },
+          {
+            "size": "37",
+            "cm": "23.5",
+            "available": true
+          },
+          {
+            "size": "38",
+            "cm": "24.5",
+            "available": false
+          },
+          {
+            "size": "39",
+            "cm": "25.0",
+            "available": true
+          },
+          {
+            "size": "40",
+            "cm": "25.5",
+            "available": false
+          },
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": false
+          },
+          {
+            "size": "42",
+            "cm": "26.5",
+            "available": false
+          },
+          {
+            "size": "43",
+            "cm": "27.5",
+            "available": false
+          },
+          {
+            "size": "44",
+            "cm": "28.0",
+            "available": false
+          },
+          {
+            "size": "45",
+            "cm": "28.5",
+            "available": false
+          },
+          {
+            "size": "46",
+            "cm": "29.5",
+            "available": false
+          }
+        ],
+        "images": [
+          "https://easydrop.one/media/uploads/images/base/e19ec62d-58d2-46d0-9280-55b834491f1b.jpeg"
+        ],
+        "inStock": true,
+        "slug": "ugg-ci-ultra-mini-weather-hybrid-chestnut-blue-1891"
       }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/84e5522e-e4d8-42dc-ae63-2978f0c2b527.jpeg"
-    ],
-    "description": "Модель: UGG CI Ultra Mini Weather Hybrid Sand Yellow. Артикул: 1906. Матеріал: Замша, хутро, EVA. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "UGG CI Ultra Mini Weather Hybrid Sand Yellow (арт. 1906) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте UGG CI Ultra Mini Weather Hybrid Sand Yellow (арт. 1906) за 4500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
+    ]
   },
   {
     "id": "201126",
@@ -136133,100 +136226,9 @@
     }
   },
   {
-    "id": "198822",
-    "slug": "ugg-mini-dipper-puffer-sand-premium-1467",
-    "name": "UGG MINI DIPPER PUFFER SAND premium",
-    "brand": "UGG",
-    "brandSlug": "ugg",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 3299,
-    "oldPrice": 5498,
-    "costPrice": 2799,
-    "sku": "1467",
-    "material": "Натуральна замша, овчина",
-    "country": "В'єтнам",
-    "sizes": [
-      "38",
-      "39",
-      "40"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "23.0",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.5",
-        "available": true
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": true
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": true
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/d6fa348a-0fe7-4c7f-9105-05b47ebad311.jpeg"
-    ],
-    "description": "Модель: UGG MINI DIPPER PUFFER SAND premium. Артикул: 1467. Матеріал: Натуральна замша, овчина. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "UGG MINI DIPPER PUFFER SAND premium (арт. 1467) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте UGG MINI DIPPER PUFFER SAND premium (арт. 1467) за 3299 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "198807",
-    "slug": "ugg-mini-dipper-puffer-chestnut-premium-1466",
-    "name": "UGG MINI DIPPER PUFFER CHESTNUT premium",
+    "slug": "ugg-mini-dipper-puffer",
+    "name": "UGG MINI DIPPER PUFFER",
     "brand": "UGG",
     "brandSlug": "ugg",
     "category": "Взуття",
@@ -136237,6 +136239,8 @@
     "seasonName": "Зима",
     "price": 3299,
     "oldPrice": 5498,
+    "minPrice": 3299,
+    "maxPrice": 3299,
     "costPrice": 2799,
     "sku": "1466",
     "material": "Натуральна замша, овчина",
@@ -136252,7 +136256,7 @@
     "sizeChart": [
       {
         "size": "36",
-        "cm": "23.0",
+        "cm": "22.5",
         "available": true
       },
       {
@@ -136262,7 +136266,7 @@
       },
       {
         "size": "38",
-        "cm": "24.5",
+        "cm": "24.0",
         "available": true
       },
       {
@@ -136279,134 +136283,176 @@
         "size": "41",
         "cm": "26.0",
         "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
       }
     ],
     "inStock": true,
     "isHit": true,
     "images": [
-      "https://easydrop.one/media/uploads/images/base/28580cfe-3deb-4320-8871-16ae165fe933.jpeg"
+      "https://easydrop.one/media/uploads/images/base/28580cfe-3deb-4320-8871-16ae165fe933.jpeg",
+      "https://easydrop.one/media/uploads/images/base/d6fa348a-0fe7-4c7f-9105-05b47ebad311.jpeg"
     ],
-    "description": "Модель: UGG MINI DIPPER PUFFER CHESTNUT premium. Артикул: 1466. Матеріал: Натуральна замша, овчина. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "description": "Жіночі зимові уггі UGG MINI DIPPER PUFFER у преміальному виконанні. Оригінальна гібридна модель, що поєднує фірмовий стиль класичних угг та дутих черевиків: верх із якісної натуральної замші з дутою халявою (puffer) для максимального збереження тепла та комфорту, а всередині — густе тепле натуральне хутро (овчина). Потовщена легка підошва на платформі візуально подовжує силует та надійно захищає від холоду. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
     "seo": {
-      "title": "UGG MINI DIPPER PUFFER CHESTNUT premium (арт. 1466) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте UGG MINI DIPPER PUFFER CHESTNUT premium (арт. 1466) за 3299 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "198614",
-    "slug": "ugg-ci-ultra-mini-weather-hybrid-chestnut-blue-1891",
-    "name": "UGG CI Ultra Mini Weather Hybrid Chestnut Blue",
-    "brand": "UGG",
-    "brandSlug": "ugg",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 4500,
-    "oldPrice": 7500,
-    "costPrice": 4000,
-    "sku": "1891",
-    "material": "Замша, хутро, EVA",
-    "country": "В'єтнам",
-    "sizes": [
-      "36",
-      "37",
-      "39"
-    ],
-    "sizeChart": [
+      "title": "UGG MINI DIPPER PUFFER — купити зимові дуті уггі в інтернет-магазині VEXARO",
+      "description": "Замовляйте зимові уггі на платформі UGG MINI DIPPER PUFFER у різних кольорах за 3 299 ₴. Натуральна замша та тепле хутро. Доставка Новою Поштою 1–2 дні, накладений платіж."
+    },
+    "variations": [
       {
-        "size": "36",
-        "cm": "23.0",
-        "available": true
+        "id": "198807",
+        "sku": "1466",
+        "color": "CHESTNUT",
+        "colorSlug": "chestnut",
+        "price": 3299,
+        "oldPrice": 5498,
+        "costPrice": 2799,
+        "sizes": [
+          "36",
+          "37",
+          "38",
+          "39",
+          "40",
+          "41"
+        ],
+        "sizeChart": [
+          {
+            "size": "36",
+            "cm": "23.0",
+            "available": true
+          },
+          {
+            "size": "37",
+            "cm": "23.5",
+            "available": true
+          },
+          {
+            "size": "38",
+            "cm": "24.5",
+            "available": true
+          },
+          {
+            "size": "39",
+            "cm": "25.0",
+            "available": true
+          },
+          {
+            "size": "40",
+            "cm": "25.5",
+            "available": true
+          },
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": true
+          },
+          {
+            "size": "42",
+            "cm": "26.5",
+            "available": false
+          },
+          {
+            "size": "43",
+            "cm": "27.5",
+            "available": false
+          },
+          {
+            "size": "44",
+            "cm": "28.0",
+            "available": false
+          },
+          {
+            "size": "45",
+            "cm": "28.5",
+            "available": false
+          },
+          {
+            "size": "46",
+            "cm": "29.5",
+            "available": false
+          }
+        ],
+        "images": [
+          "https://easydrop.one/media/uploads/images/base/28580cfe-3deb-4320-8871-16ae165fe933.jpeg"
+        ],
+        "inStock": true,
+        "slug": "ugg-mini-dipper-puffer-chestnut-premium-1466"
       },
       {
-        "size": "37",
-        "cm": "23.5",
-        "available": true
-      },
-      {
-        "size": "38",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": true
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
+        "id": "198822",
+        "sku": "1467",
+        "color": "SAND",
+        "colorSlug": "sand",
+        "price": 3299,
+        "oldPrice": 5498,
+        "costPrice": 2799,
+        "sizes": [
+          "38",
+          "39",
+          "40"
+        ],
+        "sizeChart": [
+          {
+            "size": "36",
+            "cm": "23.0",
+            "available": false
+          },
+          {
+            "size": "37",
+            "cm": "23.5",
+            "available": false
+          },
+          {
+            "size": "38",
+            "cm": "24.5",
+            "available": true
+          },
+          {
+            "size": "39",
+            "cm": "25.0",
+            "available": true
+          },
+          {
+            "size": "40",
+            "cm": "25.5",
+            "available": true
+          },
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": false
+          },
+          {
+            "size": "42",
+            "cm": "26.5",
+            "available": false
+          },
+          {
+            "size": "43",
+            "cm": "27.5",
+            "available": false
+          },
+          {
+            "size": "44",
+            "cm": "28.0",
+            "available": false
+          },
+          {
+            "size": "45",
+            "cm": "28.5",
+            "available": false
+          },
+          {
+            "size": "46",
+            "cm": "29.5",
+            "available": false
+          }
+        ],
+        "images": [
+          "https://easydrop.one/media/uploads/images/base/d6fa348a-0fe7-4c7f-9105-05b47ebad311.jpeg"
+        ],
+        "inStock": true,
+        "slug": "ugg-mini-dipper-puffer-sand-premium-1467"
       }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/e19ec62d-58d2-46d0-9280-55b834491f1b.jpeg"
-    ],
-    "description": "Модель: UGG CI Ultra Mini Weather Hybrid Chestnut Blue. Артикул: 1891. Матеріал: Замша, хутро, EVA. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "UGG CI Ultra Mini Weather Hybrid Chestnut Blue (арт. 1891) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте UGG CI Ultra Mini Weather Hybrid Chestnut Blue (арт. 1891) за 4500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
+    ]
   },
   {
     "id": "198584",

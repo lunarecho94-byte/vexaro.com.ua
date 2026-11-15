@@ -2042,6 +2042,176 @@ def main():
         }
         products = [parent_lowmel] + other_products
 
+    # Group UGG MINI DIPPER PUFFER variations into a single parent product
+    dipper_puffer_variations = []
+    other_products_2 = []
+    for p in products:
+        pname = p.get('name', '')
+        is_dp_var = False
+        color_part = None
+        if 'mini dipper puffer' in pname.lower():
+            is_dp_var = True
+            color_part = re.sub(r'(?i)ugg\s+mini\s+dipper\s+puffer\s*', '', pname).replace('premium', '').replace('PREMIUM', '').strip().upper()
+
+        if is_dp_var and color_part:
+            color_slug = re.sub(r'[^a-z0-9]+', '-', color_part.lower()).strip('-')
+            dipper_puffer_variations.append({
+                'id': str(p.get('id', '')),
+                'sku': str(p.get('sku', '')),
+                'color': color_part,
+                'colorSlug': color_slug or 'default',
+                'price': p.get('price', 3299),
+                'oldPrice': p.get('oldPrice'),
+                'costPrice': p.get('costPrice'),
+                'sizes': p.get('sizes', []),
+                'sizeChart': p.get('sizeChart', []),
+                'images': p.get('images', []),
+                'inStock': p.get('inStock', True),
+                'slug': p.get('slug', '')
+            })
+        else:
+            other_products_2.append(p)
+
+    if dipper_puffer_variations:
+        dipper_puffer_variations.sort(key=lambda v: 0 if v.get('color') == 'CHESTNUT' else 1)
+        all_dp_sizes = sorted(
+            list(set(s for v in dipper_puffer_variations for s in v['sizes'])),
+            key=lambda s: float(s.replace(',', '.')) if s.replace(',', '.').replace('.', '', 1).isdigit() else 999
+        )
+        min_p = min(v['price'] for v in dipper_puffer_variations)
+        max_p = max(v['price'] for v in dipper_puffer_variations)
+        old_p = max(v.get('oldPrice') or int(round(v['price'] / 0.60)) for v in dipper_puffer_variations)
+
+        parent_dipper_puffer = {
+            'id': '198807',
+            'slug': 'ugg-mini-dipper-puffer',
+            'name': 'UGG MINI DIPPER PUFFER',
+            'brand': 'UGG',
+            'brandSlug': 'ugg',
+            'category': 'Взуття',
+            'categorySlug': 'shoes',
+            'gender': 'women',
+            'genderName': 'Жіночі',
+            'season': 'winter',
+            'seasonName': 'Зима',
+            'price': min_p,
+            'oldPrice': old_p,
+            'minPrice': min_p,
+            'maxPrice': max_p,
+            'costPrice': 2799,
+            'sku': '1466',
+            'material': 'Натуральна замша, овчина',
+            'country': "В'єтнам",
+            'sizes': all_dp_sizes,
+            'sizeChart': [
+                {'size': s, 'cm': DEFAULT_WOMEN_GRID.get(s, '24.0'), 'available': True}
+                for s in all_dp_sizes
+            ],
+            'inStock': True,
+            'isHit': True,
+            'images': dipper_puffer_variations[0]['images'] + [v['images'][0] for v in dipper_puffer_variations[1:] if v.get('images')],
+            'description': (
+                'Жіночі зимові уггі UGG MINI DIPPER PUFFER у преміальному виконанні. '
+                'Оригінальна гібридна модель, що поєднує фірмовий стиль класичних угг та дутих черевиків: '
+                'верх із якісної натуральної замші з дутою халявою (puffer) для максимального збереження тепла та комфорту, '
+                'а всередині — густе тепле натуральне хутро (овчина). '
+                'Потовщена легка підошва на платформі візуально подовжує силует та надійно захищає від холоду. '
+                'Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. '
+                'Гарантія обміну або повернення — 14 днів.'
+            ),
+            'seo': {
+                'title': 'UGG MINI DIPPER PUFFER — купити зимові дуті уггі в інтернет-магазині VEXARO',
+                'description': 'Замовляйте зимові уггі на платформі UGG MINI DIPPER PUFFER у різних кольорах за 3 299 ₴. Натуральна замша та тепле хутро. Доставка Новою Поштою 1–2 дні, накладений платіж.'
+            },
+            'variations': dipper_puffer_variations
+        }
+        products = [parent_dipper_puffer] + other_products_2
+
+    # Group UGG CI Ultra Mini Weather Hybrid variations into a single parent product
+    weather_hybrid_variations = []
+    other_products_3 = []
+    for p in products:
+        pname = p.get('name', '')
+        is_wh_var = False
+        color_part = None
+        if 'ultra mini weather hybrid' in pname.lower():
+            is_wh_var = True
+            color_part = re.sub(r'(?i)ugg\s+ci\s+ultra\s+mini\s+weather\s+hybrid\s*', '', pname).strip().upper()
+
+        if is_wh_var and color_part:
+            color_slug = re.sub(r'[^a-z0-9]+', '-', color_part.lower()).strip('-')
+            weather_hybrid_variations.append({
+                'id': str(p.get('id', '')),
+                'sku': str(p.get('sku', '')),
+                'color': color_part,
+                'colorSlug': color_slug or 'default',
+                'price': p.get('price', 4500),
+                'oldPrice': p.get('oldPrice'),
+                'costPrice': p.get('costPrice'),
+                'sizes': p.get('sizes', []),
+                'sizeChart': p.get('sizeChart', []),
+                'images': p.get('images', []),
+                'inStock': p.get('inStock', True),
+                'slug': p.get('slug', '')
+            })
+        else:
+            other_products_3.append(p)
+
+    if weather_hybrid_variations:
+        weather_hybrid_variations.sort(key=lambda v: 0 if v.get('color') == 'CHESTNUT WHITE' else 1)
+        all_wh_sizes = sorted(
+            list(set(s for v in weather_hybrid_variations for s in v['sizes'])),
+            key=lambda s: float(s.replace(',', '.')) if s.replace(',', '.').replace('.', '', 1).isdigit() else 999
+        )
+        min_p = min(v['price'] for v in weather_hybrid_variations)
+        max_p = max(v['price'] for v in weather_hybrid_variations)
+        old_p = max(v.get('oldPrice') or int(round(v['price'] / 0.60)) for v in weather_hybrid_variations)
+
+        parent_weather_hybrid = {
+            'id': '201143',
+            'slug': 'ugg-ci-ultra-mini-weather-hybrid',
+            'name': 'UGG CI Ultra Mini Weather Hybrid',
+            'brand': 'UGG',
+            'brandSlug': 'ugg',
+            'category': 'Взуття',
+            'categorySlug': 'shoes',
+            'gender': 'women',
+            'genderName': 'Жіночі',
+            'season': 'winter',
+            'seasonName': 'Зима',
+            'price': min_p,
+            'oldPrice': old_p,
+            'minPrice': min_p,
+            'maxPrice': max_p,
+            'costPrice': 4000,
+            'sku': '1909',
+            'material': 'Натуральна замша, силіконова калоша, натуральне хутро',
+            'country': "В'єтнам",
+            'sizes': all_wh_sizes,
+            'sizeChart': [
+                {'size': s, 'cm': DEFAULT_WOMEN_GRID.get(s, '24.0'), 'available': True}
+                for s in all_wh_sizes
+            ],
+            'inStock': True,
+            'isHit': True,
+            'images': weather_hybrid_variations[0]['images'] + [v['images'][0] for v in weather_hybrid_variations[1:] if v.get('images')],
+            'description': (
+                'Жіночі зимові уггі UGG CI Ultra Mini Weather Hybrid у преміальному виконанні. '
+                'Оновлена версія культових Ultra Mini, створена для будь-якої негоди: водонепроникна силіконова калоша, '
+                'верх із якісної натуральної водовідштовхувальної замші та густе тепле натуральне хутро (овчина) всередині. '
+                'Знімна силіконова галоша забезпечує надійний захист від бруду, снігу та сльоти, а рельєфна підошва '
+                'гарантує відмінне зчеплення з поверхнею в зимовий період. '
+                'Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. '
+                'Гарантія обміну або повернення — 14 днів.'
+            ),
+            'seo': {
+                'title': 'UGG CI Ultra Mini Weather Hybrid — купити зимові уггі в інтернет-магазині VEXARO',
+                'description': 'Замовляйте водонепроникні зимові уггі UGG CI Ultra Mini Weather Hybrid у різних кольорах від 4 500 ₴. Натуральна замша, силіконовий захист, тепле хутро. Доставка 1–2 дні, накладений платіж.'
+            },
+            'variations': weather_hybrid_variations
+        }
+        products = [parent_weather_hybrid] + other_products_3
+
     brand_map = defaultdict(lambda: {'name': '', 'slug': '', 'count': 0})
     season_map = defaultdict(lambda: {'name': '', 'slug': '', 'count': 0})
     gender_map = defaultdict(lambda: {'name': '', 'slug': '', 'count': 0})
