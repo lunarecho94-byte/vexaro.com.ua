@@ -72,6 +72,8 @@ const EXCLUDED_SKUS = new Set([
   '252588',
   '253417',
   '253416',
+  'UG0016',
+  '249465',
 ]);
 
 const BRAND_ALIASES: Record<string, string[]> = {
