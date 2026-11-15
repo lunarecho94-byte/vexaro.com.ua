@@ -238,6 +238,7 @@ EXCLUDED_SKUS = {'16006', '16005', '16004', '16003', 'NB143', '0068', '2688', 'R
 # Pinned products permanently pinned at top by store owner request (supports 'id:...' or SKU)
 PINNED_FILE = os.path.join(SRC_DATA_DIR, 'pinned.json')
 PINNED_KEYS = [
+    '1705',      # UGG ULTRA MINI CHOCOLATE BROWN SUEDE - newest studio photos
     '5174',      # Adidas Campus 00s Beige Black (хутро) - newest studio photos
     '5187',      # Adidas Campus 00s Grey Black (хутро) - newest studio photos
     '5188',      # Adidas Campus 00s Grey White (хутро) - newest studio photos
@@ -949,6 +950,46 @@ CURATED_PRODUCTS = [
         'seo': {
             'title': 'Adidas Campus 00s Grey Black (хутро) (арт. 5187) — купити в інтернет-магазині VEXARO',
             'description': 'Замовляйте зимові кросівки Adidas Campus 00s Grey Black (хутро) (арт. 5187) за 2500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж).'
+        },
+        'isHit': True
+    },
+    {
+        'id': '254817',
+        'slug': 'ugg-ultra-mini-chocolate-brown-suede-1705',
+        'name': 'UGG ULTRA MINI CHOCOLATE BROWN SUEDE',
+        'brand': 'UGG',
+        'brandSlug': 'ugg',
+        'category': 'Взуття',
+        'categorySlug': 'shoes',
+        'gender': 'women',
+        'genderName': 'Жіночі',
+        'season': 'winter',
+        'seasonName': 'Зима',
+        'price': 3000,
+        'oldPrice': 5000,
+        'costPrice': 2500,
+        'sku': '1705',
+        'material': 'Натуральна замша та хутро',
+        'country': 'Китай',
+        'sizes': ['36', '37', '38', '39', '40'],
+        'inStock': True,
+        'images': [
+            '/images/products/ugg-ultra-mini-chocolate-brown-suede-1705/img-1.jpg',
+            '/images/products/ugg-ultra-mini-chocolate-brown-suede-1705/img-2.jpg',
+            '/images/products/ugg-ultra-mini-chocolate-brown-suede-1705/img-3.jpg',
+            '/images/products/ugg-ultra-mini-chocolate-brown-suede-1705/img-4.jpg'
+        ],
+        'description': (
+            'Жіночі зимові уггі UGG ULTRA MINI CHOCOLATE BROWN SUEDE у насиченому шоколадно-коричневому забарвленні '
+            '(артикул: 1705). Верх виконаний із якісної натуральної замші з водовідштовхувальним ефектом, '
+            'всередині — густе тепле натуральне хутро (овчина) для максимального комфорту в зимові холоди. '
+            'Потовщена підошва-платформа надійно захищає від промерзання та забезпечує м’яку амортизацію при ходьбі. '
+            'Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. '
+            'Гарантія обміну або повернення — 14 днів.'
+        ),
+        'seo': {
+            'title': 'UGG ULTRA MINI CHOCOLATE BROWN SUEDE (арт. 1705) — купити в інтернет-магазині VEXARO',
+            'description': 'Замовляйте UGG ULTRA MINI CHOCOLATE BROWN SUEDE (арт. 1705) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж).'
         },
         'isHit': True
     }

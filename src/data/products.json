@@ -1,5 +1,76 @@
 [
   {
+    "id": "254817",
+    "slug": "ugg-ultra-mini-chocolate-brown-suede-1705",
+    "name": "UGG ULTRA MINI CHOCOLATE BROWN SUEDE",
+    "brand": "UGG",
+    "brandSlug": "ugg",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 3000,
+    "oldPrice": 5000,
+    "costPrice": 2500,
+    "sku": "1705",
+    "material": "Натуральна замша та хутро",
+    "country": "Китай",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "inStock": true,
+    "images": [
+      "/images/products/ugg-ultra-mini-chocolate-brown-suede-1705/img-1.jpg",
+      "/images/products/ugg-ultra-mini-chocolate-brown-suede-1705/img-2.jpg",
+      "/images/products/ugg-ultra-mini-chocolate-brown-suede-1705/img-3.jpg",
+      "/images/products/ugg-ultra-mini-chocolate-brown-suede-1705/img-4.jpg"
+    ],
+    "description": "Жіночі зимові уггі UGG ULTRA MINI CHOCOLATE BROWN SUEDE у насиченому шоколадно-коричневому забарвленні (артикул: 1705). Верх виконаний із якісної натуральної замші з водовідштовхувальним ефектом, всередині — густе тепле натуральне хутро (овчина) для максимального комфорту в зимові холоди. Потовщена підошва-платформа надійно захищає від промерзання та забезпечує м’яку амортизацію при ходьбі. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "UGG ULTRA MINI CHOCOLATE BROWN SUEDE (арт. 1705) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте UGG ULTRA MINI CHOCOLATE BROWN SUEDE (арт. 1705) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    },
+    "isHit": true,
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "23.0",
+        "available": true
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": true
+      },
+      {
+        "size": "38",
+        "cm": "24.5",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": false
+      }
+    ]
+  },
+  {
     "id": "256174",
     "slug": "adidas-campus-00s-beige-black-khutro-5174",
     "name": "Adidas Campus 00s Beige Black (хутро)",
@@ -2892,99 +2963,6 @@
     "seo": {
       "title": "Premiata MOERUN ХУТРО (арт. PM10) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Premiata MOERUN ХУТРО (арт. PM10) за 3400 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "254817",
-    "slug": "ugg-ultra-mini-chocolate-brown-suede-1705",
-    "name": "UGG ULTRA MINI CHOCOLATE BROWN SUEDE",
-    "brand": "UGG",
-    "brandSlug": "ugg",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 3000,
-    "oldPrice": 5000,
-    "costPrice": 2500,
-    "sku": "1705",
-    "material": "Натуральна замша та хутро",
-    "country": "Китай",
-    "sizes": [
-      "36",
-      "37",
-      "38",
-      "39",
-      "40"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "23.0",
-        "available": true
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": true
-      },
-      {
-        "size": "38",
-        "cm": "24.5",
-        "available": true
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": true
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": true
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "/images/products/ugg-ultra-mini-chocolate-brown-suede-1705/img-1.jpg"
-    ],
-    "description": "Модель: UGG ULTRA MINI CHOCOLATE BROWN SUEDE. Артикул: 1705. Матеріал: Натуральна замша та хутро. Сезон: Зима. Виробництво: Китай. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "UGG ULTRA MINI CHOCOLATE BROWN SUEDE (арт. 1705) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте UGG ULTRA MINI CHOCOLATE BROWN SUEDE (арт. 1705) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {

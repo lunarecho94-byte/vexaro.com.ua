@@ -11,6 +11,7 @@ const productBySlug = new Map<string, Product>();
 const productById = new Map<string, Product>();
 
 const DEFAULT_PINNED_KEYS: string[] = [
+  '1705',      // UGG ULTRA MINI CHOCOLATE BROWN SUEDE - newest studio photos
   '5174',      // Adidas Campus 00s Beige Black (хутро) - newest studio photos
   '5187',      // Adidas Campus 00s Grey Black (хутро) - newest studio photos
   '5188',      // Adidas Campus 00s Grey White (хутро) - newest studio photos
