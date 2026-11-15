@@ -1958,6 +1958,9 @@ def main():
         elif sku_clean == '2393' or pid == '199671':
             is_lowmel_var = True
             color_part = 'BLACK'
+        elif pid == '198800' or (sku_clean == '1464' and 'ugg' in pname.lower()):
+            is_lowmel_var = True
+            color_part = 'BLACK LEATHER'
 
         if is_lowmel_var and color_part:
             color_slug = re.sub(r'[^a-z0-9]+', '-', color_part.lower()).strip('-')
