@@ -2313,6 +2313,116 @@ def main():
         }
         products = [parent_bailey_triplet] + other_products_4
 
+    # Group Ugg Classic Micro variations into a single parent product
+    classic_micro_variations = []
+    other_products_5 = []
+    micro_color_map = {
+        '2062': 'Chocolate',
+        '1890': 'Sand',
+        '1889': 'Black',
+        '1888': 'Rocky Oak',
+        '1887': 'Chestnut'
+    }
+    local_micro_img_map = {
+        '2062': '/images/products/ugg-classic-micro-chocolate/img-1.jpg',
+        '1890': '/images/products/ugg-classic-micro-sand/img-1.jpg',
+        '1889': '/images/products/ugg-classic-micro-black/img-1.jpg',
+        '1888': '/images/products/ugg-classic-micro-rocky-oak/img-1.jpg',
+        '1887': '/images/products/ugg-classic-micro-chestnut/img-1.jpg',
+    }
+
+    for p in products:
+        pname = p.get('name', '')
+        sku = str(p.get('sku', '')).strip().upper()
+        is_micro = False
+        color_part = None
+        if 'classic micro' in pname.lower():
+            is_micro = True
+            color_part = micro_color_map.get(sku)
+            if not color_part:
+                cleaned = re.sub(r'(?i)ugg\s+classic\s+micro\s*', '', pname).strip()
+                color_part = ' '.join(w.capitalize() for w in cleaned.split())
+
+        if is_micro and color_part:
+            color_slug = re.sub(r'[^a-z0-9]+', '-', color_part.lower()).strip('-')
+            var_imgs = p.get('images', [])
+            if sku in local_micro_img_map:
+                loc_path = os.path.join(PUBLIC_DIR, local_micro_img_map[sku].lstrip('/'))
+                if os.path.exists(loc_path):
+                    var_imgs = [local_micro_img_map[sku]]
+
+            classic_micro_variations.append({
+                'id': str(p.get('id', '')),
+                'sku': str(p.get('sku', '')),
+                'color': color_part,
+                'colorSlug': color_slug or 'default',
+                'price': p.get('price', 3400),
+                'oldPrice': p.get('oldPrice'),
+                'costPrice': p.get('costPrice'),
+                'sizes': p.get('sizes', []),
+                'sizeChart': p.get('sizeChart', []),
+                'images': var_imgs,
+                'inStock': p.get('inStock', True),
+                'slug': p.get('slug', '')
+            })
+        else:
+            other_products_5.append(p)
+
+    if classic_micro_variations:
+        preferred_order = {'Chocolate': 0, 'Sand': 1, 'Black': 2, 'Rocky Oak': 3, 'Chestnut': 4}
+        classic_micro_variations.sort(key=lambda v: preferred_order.get(v.get('color'), 99))
+        all_micro_sizes = sorted(
+            list(set(s for v in classic_micro_variations for s in v['sizes'])),
+            key=lambda s: float(s.replace(',', '.')) if s.replace(',', '.').replace('.', '', 1).isdigit() else 999
+        )
+        min_p = min(v['price'] for v in classic_micro_variations)
+        max_p = max(v['price'] for v in classic_micro_variations)
+        old_p = max(v.get('oldPrice') or int(round(v['price'] / 0.60)) for v in classic_micro_variations)
+
+        parent_classic_micro = {
+            'id': classic_micro_variations[0]['id'],
+            'slug': 'ugg-classic-micro',
+            'name': 'Ugg Classic Micro',
+            'brand': 'UGG',
+            'brandSlug': 'ugg',
+            'category': 'Взуття',
+            'categorySlug': 'shoes',
+            'gender': 'women',
+            'genderName': 'Жіночі',
+            'season': 'winter',
+            'seasonName': 'Зима',
+            'price': min_p,
+            'oldPrice': old_p,
+            'minPrice': min_p,
+            'maxPrice': max_p,
+            'costPrice': 2900,
+            'sku': '2062',
+            'material': 'Натуральна замша, овчина',
+            'country': "В'єтнам",
+            'sizes': all_micro_sizes,
+            'sizeChart': [
+                {'size': s, 'cm': DEFAULT_WOMEN_GRID.get(s, '24.0'), 'available': True}
+                for s in all_micro_sizes
+            ],
+            'inStock': True,
+            'isHit': True,
+            'images': classic_micro_variations[0]['images'] + [v['images'][0] for v in classic_micro_variations[1:] if v.get('images')],
+            'description': (
+                "Жіночі зимові уггі Ugg Classic Micro — найзручніша та найлаконічніша ультракоротка модель для щоденного комфорту. "
+                "Виготовлені з високоякісної натуральної водовідштовхувальної замші з густим теплим хутром (овчиною) всередині, "
+                "що підтримує ідеальний мікроклімат у холодну погоду. Легка та гнучка підошва EVA з фірмовим протектором забезпечує відмінну амортизацію "
+                "та надійне зчеплення з поверхнею. Завдяки заниженому силуету Micro вони ідеально поєднуються з будь-яким повсякденним гардеробом. "
+                "Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. "
+                "Гарантія обміну або повернення — 14 днів."
+            ),
+            'seo': {
+                'title': 'Ugg Classic Micro — купити ультракороткі жіночі зимові уггі в інтернет-магазині VEXARO',
+                'description': 'Замовляйте жіночі ультракороткі зимові уггі Ugg Classic Micro у різних кольорах (Chocolate, Sand, Black, Rocky Oak, Chestnut) від 3 400 ₴. Натуральна замша, тепле хутро. Доставка 1–2 дні, накладений платіж.'
+            },
+            'variations': classic_micro_variations
+        }
+        products = [parent_classic_micro] + other_products_5
+
     brand_map = defaultdict(lambda: {'name': '', 'slug': '', 'count': 0})
     season_map = defaultdict(lambda: {'name': '', 'slug': '', 'count': 0})
     gender_map = defaultdict(lambda: {'name': '', 'slug': '', 'count': 0})
