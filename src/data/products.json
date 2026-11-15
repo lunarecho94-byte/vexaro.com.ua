@@ -6887,6 +6887,227 @@
     ]
   },
   {
+    "id": "198543",
+    "slug": "ugg-bea-mary-jane",
+    "name": "UGG Bea Mary Jane",
+    "brand": "UGG",
+    "brandSlug": "ugg",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 3500,
+    "oldPrice": 5833,
+    "minPrice": 3500,
+    "maxPrice": 3500,
+    "costPrice": 3000,
+    "sku": "1886",
+    "material": "Натуральна замша, тепле хутро",
+    "country": "В'єтнам",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": true
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": true
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": true
+      }
+    ],
+    "inStock": true,
+    "isHit": true,
+    "images": [
+      "/images/products/ugg-bea-mary-jane-sand/img-1.jpg",
+      "/images/products/ugg-bea-mary-jane-chestnut/img-1.jpg"
+    ],
+    "description": "Жіночі зимові туфлі UGG Bea Mary Jane — стильне та ультрамодне переосмислення класичного силуету Mary Jane у фірмовому виконанні бренду UGG. Модель виконана з преміальної натуральної замші з фірмовим ремінцем на підйомі та густим теплим натуральним хутром усередині для максимального затишку. Легка потовщена підошва забезпечує комфортну амортизацію та надійне зчеплення при щоденному носінні. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "UGG Bea Mary Jane — купити жіночі зимові туфлі з хутром в інтернет-магазині VEXARO",
+      "description": "Замовляйте стильні жіночі туфлі UGG Bea Mary Jane у кольорах Sand та Chestnut за 3 500 ₴. Натуральна замша, тепле хутро. Доставка Новою Поштою 1–2 дні, оплата при отриманні."
+    },
+    "variations": [
+      {
+        "id": "198543",
+        "sku": "1886",
+        "color": "Sand",
+        "colorSlug": "sand",
+        "price": 3500,
+        "oldPrice": 5833,
+        "costPrice": 3000,
+        "sizes": [
+          "36",
+          "37",
+          "38"
+        ],
+        "sizeChart": [
+          {
+            "size": "36",
+            "cm": "23.0",
+            "available": true
+          },
+          {
+            "size": "37",
+            "cm": "23.5",
+            "available": true
+          },
+          {
+            "size": "38",
+            "cm": "24.5",
+            "available": true
+          },
+          {
+            "size": "39",
+            "cm": "25.0",
+            "available": false
+          },
+          {
+            "size": "40",
+            "cm": "25.5",
+            "available": false
+          },
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": false
+          },
+          {
+            "size": "42",
+            "cm": "26.5",
+            "available": false
+          },
+          {
+            "size": "43",
+            "cm": "27.5",
+            "available": false
+          },
+          {
+            "size": "44",
+            "cm": "28.0",
+            "available": false
+          },
+          {
+            "size": "45",
+            "cm": "28.5",
+            "available": false
+          },
+          {
+            "size": "46",
+            "cm": "29.5",
+            "available": false
+          }
+        ],
+        "images": [
+          "/images/products/ugg-bea-mary-jane-sand/img-1.jpg"
+        ],
+        "inStock": true,
+        "slug": "ugg-bea-mary-jane-sand-1886"
+      },
+      {
+        "id": "198527",
+        "sku": "1885",
+        "color": "Chestnut",
+        "colorSlug": "chestnut",
+        "price": 3500,
+        "oldPrice": 5833,
+        "costPrice": 3000,
+        "sizes": [
+          "36",
+          "37",
+          "39",
+          "40"
+        ],
+        "sizeChart": [
+          {
+            "size": "36",
+            "cm": "23.0",
+            "available": true
+          },
+          {
+            "size": "37",
+            "cm": "23.5",
+            "available": true
+          },
+          {
+            "size": "38",
+            "cm": "24.5",
+            "available": false
+          },
+          {
+            "size": "39",
+            "cm": "25.0",
+            "available": true
+          },
+          {
+            "size": "40",
+            "cm": "25.5",
+            "available": true
+          },
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": false
+          },
+          {
+            "size": "42",
+            "cm": "26.5",
+            "available": false
+          },
+          {
+            "size": "43",
+            "cm": "27.5",
+            "available": false
+          },
+          {
+            "size": "44",
+            "cm": "28.0",
+            "available": false
+          },
+          {
+            "size": "45",
+            "cm": "28.5",
+            "available": false
+          },
+          {
+            "size": "46",
+            "cm": "29.5",
+            "available": false
+          }
+        ],
+        "images": [
+          "/images/products/ugg-bea-mary-jane-chestnut/img-1.jpg"
+        ],
+        "inStock": true,
+        "slug": "ugg-bea-mary-jane-chestnut-1885"
+      }
+    ]
+  },
+  {
     "id": "184856",
     "slug": "new-balance-1906r-sapphire-blue-m1906rdn-1692",
     "name": "New Balance 1906R Sapphire Blue M1906RDN",
@@ -137601,189 +137822,6 @@
     }
   },
   {
-    "id": "198543",
-    "slug": "ugg-bea-mary-jane-sand-1886",
-    "name": "UGG Bea Mary Jane Sand",
-    "brand": "UGG",
-    "brandSlug": "ugg",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 3500,
-    "oldPrice": 5833,
-    "costPrice": 3000,
-    "sku": "1886",
-    "material": "Замша, хутро",
-    "country": "В'єтнам",
-    "sizes": [
-      "36",
-      "37",
-      "38"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "23.0",
-        "available": true
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": true
-      },
-      {
-        "size": "38",
-        "cm": "24.5",
-        "available": true
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/9f4c0140-b965-4dad-91ad-014cea4ad6eb.jpeg"
-    ],
-    "description": "Модель: UGG Bea Mary Jane Sand. Артикул: 1886. Матеріал: Замша, хутро. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "UGG Bea Mary Jane Sand (арт. 1886) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте UGG Bea Mary Jane Sand (арт. 1886) за 3500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "198527",
-    "slug": "ugg-bea-mary-jane-chestnut-1885",
-    "name": "UGG Bea Mary Jane Chestnut",
-    "brand": "UGG",
-    "brandSlug": "ugg",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 3500,
-    "oldPrice": 5833,
-    "costPrice": 3000,
-    "sku": "1885",
-    "material": "Замша, хутро",
-    "country": "В'єтнам",
-    "sizes": [
-      "36",
-      "37",
-      "39",
-      "40"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "23.0",
-        "available": true
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": true
-      },
-      {
-        "size": "38",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": true
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": true
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/6d107fca-f14d-4f7d-a72b-7c132c3e90e2.jpeg"
-    ],
-    "description": "Модель: UGG Bea Mary Jane Chestnut. Артикул: 1885. Матеріал: Замша, хутро. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "UGG Bea Mary Jane Chestnut (арт. 1885) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте UGG Bea Mary Jane Chestnut (арт. 1885) за 3500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "198427",
     "slug": "nike-sb-dunk-low-white-black-nk146",
     "name": "Nike SB Dunk Low White Black",
@@ -151059,100 +151097,6 @@
     "seo": {
       "title": "Nike ACG Gaiadome Gore-Tex (арт. N00269) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Nike ACG Gaiadome Gore-Tex (арт. N00269) за 3400 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "189211",
-    "slug": "ugg-bea-mary-jane-beige-u0290",
-    "name": "UGG Bea Mary Jane Beige",
-    "brand": "UGG",
-    "brandSlug": "ugg",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 2400,
-    "oldPrice": 4000,
-    "costPrice": 1900,
-    "sku": "U0290",
-    "material": "Замша, натуральне хутро",
-    "country": "Китай",
-    "sizes": [
-      "38",
-      "39",
-      "40"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "23.0",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.5",
-        "available": true
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": true
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": true
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/ca68c5e3-5297-4262-a03e-c5beedb65d3d.jpg",
-      "https://easydrop.one/media/uploads/images/base/2e07fdde-7cfc-47d5-9ae9-a08aa6063833.jpeg",
-      "https://easydrop.one/media/uploads/images/base/b7412a0a-0037-4670-938a-fdd263149620.jpeg",
-      "https://easydrop.one/media/uploads/images/base/20a8aef9-911c-48ad-bd6d-6a75e58c3a9a.jpeg"
-    ],
-    "description": "Модель: UGG Bea Mary Jane Beige. Артикул: U0290. Матеріал: Замша, натуральне хутро. Сезон: Зима. Виробництво: Китай. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "UGG Bea Mary Jane Beige (арт. U0290) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте UGG Bea Mary Jane Beige (арт. U0290) за 2400 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {

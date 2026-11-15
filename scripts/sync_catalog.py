@@ -233,7 +233,7 @@ COLOR_WORDS = {
 }
 
 # Explicitly excluded items (all slippers, slides, clogs, mules, sandals, etc. per store owner request)
-EXCLUDED_SKUS = {'16006', '16005', '16004', '16003', 'NB143', '0068', '2688', 'R343', 'SL015', '258739', '2263', '2169', '5193', '256193', 'UG0020', '252588', '253417', '253416', 'UG0016', '249465', '2579', '208607', 'U930', '203123', '1918', '201924', '2395', '201383', '2397', '199672', '2394', '199670', '198587', 'UG0017', '252589', 'U880', '185521', '189534', 'U920', '185523', 'U830', '185520', '185202', '185186', 'U960', '143621', 'U950', '143187', '136690', '129394', '121895'}
+EXCLUDED_SKUS = {'16006', '16005', '16004', '16003', 'NB143', '0068', '2688', 'R343', 'SL015', '258739', '2263', '2169', '5193', '256193', 'UG0020', '252588', '253417', '253416', 'UG0016', '249465', '2579', '208607', 'U930', '203123', '1918', '201924', '2395', '201383', '2397', '199672', '2394', '199670', '198587', 'UG0017', '252589', 'U880', '185521', '189534', 'U920', '185523', 'U830', '185520', '185202', '185186', 'U960', '143621', 'U950', '143187', '136690', '129394', '121895', 'U0290', '189211'}
 
 # Pinned products permanently pinned at top by store owner request (supports 'id:...' or SKU)
 PINNED_FILE = os.path.join(SRC_DATA_DIR, 'pinned.json')
@@ -2474,6 +2474,119 @@ def main():
             'variations': classic_micro_variations
         }
         products = [parent_classic_micro] + other_products_5
+
+    # Group UGG Bea Mary Jane variations into a single parent product
+    bea_mary_jane_variations = []
+    other_products_6 = []
+    mary_jane_color_map = {
+        '1886': 'Sand',
+        '1885': 'Chestnut',
+    }
+    local_mary_jane_img_map = {
+        '1886': '/images/products/ugg-bea-mary-jane-sand/img-1.jpg',
+        '1885': '/images/products/ugg-bea-mary-jane-chestnut/img-1.jpg',
+    }
+
+    for p in products:
+        pname = p.get('name', '')
+        sku = str(p.get('sku', '')).strip().upper()
+        pid = str(p.get('id', '')).strip()
+
+        # Explicitly ignore / delete U0290 / 189211
+        if sku == 'U0290' or pid == '189211' or 'u0290' in str(p.get('slug', '')).lower():
+            continue
+
+        is_mj = False
+        color_part = None
+        if 'bea mary jane' in pname.lower():
+            if sku in mary_jane_color_map:
+                is_mj = True
+                color_part = mary_jane_color_map[sku]
+            elif 'sand' in pname.lower():
+                is_mj = True
+                color_part = 'Sand'
+            elif 'chestnut' in pname.lower():
+                is_mj = True
+                color_part = 'Chestnut'
+
+        if is_mj and color_part:
+            color_slug = re.sub(r'[^a-z0-9]+', '-', color_part.lower()).strip('-')
+            var_imgs = p.get('images', [])
+            if sku in local_mary_jane_img_map:
+                loc_path = os.path.join(PUBLIC_DIR, local_mary_jane_img_map[sku].lstrip('/'))
+                if os.path.exists(loc_path):
+                    var_imgs = [local_mary_jane_img_map[sku]]
+
+            bea_mary_jane_variations.append({
+                'id': str(p.get('id', '')),
+                'sku': str(p.get('sku', '')),
+                'color': color_part,
+                'colorSlug': color_slug or 'default',
+                'price': p.get('price', 3500),
+                'oldPrice': p.get('oldPrice', 5833),
+                'costPrice': p.get('costPrice'),
+                'sizes': p.get('sizes', []),
+                'sizeChart': p.get('sizeChart', []),
+                'images': var_imgs,
+                'inStock': p.get('inStock', True),
+                'slug': p.get('slug', '')
+            })
+        else:
+            other_products_6.append(p)
+
+    if bea_mary_jane_variations:
+        preferred_order = {'Sand': 0, 'Chestnut': 1}
+        bea_mary_jane_variations.sort(key=lambda v: preferred_order.get(v.get('color'), 99))
+        all_mj_sizes = sorted(
+            list(set(s for v in bea_mary_jane_variations for s in v['sizes'])),
+            key=lambda s: float(s.replace(',', '.')) if s.replace(',', '.').replace('.', '', 1).isdigit() else 999
+        )
+        min_p = min(v['price'] for v in bea_mary_jane_variations)
+        max_p = max(v['price'] for v in bea_mary_jane_variations)
+        old_p = max(v.get('oldPrice') or int(round(v['price'] / 0.60)) for v in bea_mary_jane_variations)
+
+        parent_bea_mary_jane = {
+            'id': bea_mary_jane_variations[0]['id'],
+            'slug': 'ugg-bea-mary-jane',
+            'name': 'UGG Bea Mary Jane',
+            'brand': 'UGG',
+            'brandSlug': 'ugg',
+            'category': 'Взуття',
+            'categorySlug': 'shoes',
+            'gender': 'women',
+            'genderName': 'Жіночі',
+            'season': 'winter',
+            'seasonName': 'Зима',
+            'price': min_p,
+            'oldPrice': old_p,
+            'minPrice': min_p,
+            'maxPrice': max_p,
+            'costPrice': 3000,
+            'sku': '1886',
+            'material': 'Натуральна замша, тепле хутро',
+            'country': "В'єтнам",
+            'sizes': all_mj_sizes,
+            'sizeChart': [
+                {'size': s, 'cm': DEFAULT_WOMEN_GRID.get(s, '24.0'), 'available': True}
+                for s in all_mj_sizes
+            ],
+            'inStock': True,
+            'isHit': True,
+            'images': bea_mary_jane_variations[0]['images'] + [v['images'][0] for v in bea_mary_jane_variations[1:] if v.get('images')],
+            'description': (
+                "Жіночі зимові туфлі UGG Bea Mary Jane — стильне та ультрамодне переосмислення класичного силуету Mary Jane у фірмовому виконанні бренду UGG. "
+                "Модель виконана з преміальної натуральної замші з фірмовим ремінцем на підйомі та густим теплим натуральним хутром усередині для максимального затишку. "
+                "Легка потовщена підошва забезпечує комфортну амортизацію та надійне зчеплення при щоденному носінні. "
+                "Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. "
+                "Гарантія обміну або повернення — 14 днів."
+            ),
+            'seo': {
+                'title': 'UGG Bea Mary Jane — купити жіночі зимові туфлі з хутром в інтернет-магазині VEXARO',
+                'description': 'Замовляйте стильні жіночі туфлі UGG Bea Mary Jane у кольорах Sand та Chestnut за 3 500 ₴. Натуральна замша, тепле хутро. Доставка Новою Поштою 1–2 дні, оплата при отриманні.'
+            },
+            'variations': bea_mary_jane_variations
+        }
+        products = [parent_bea_mary_jane] + other_products_6
 
     brand_map = defaultdict(lambda: {'name': '', 'slug': '', 'count': 0})
     season_map = defaultdict(lambda: {'name': '', 'slug': '', 'count': 0})
