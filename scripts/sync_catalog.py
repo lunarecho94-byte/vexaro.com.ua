@@ -1752,7 +1752,7 @@ def main():
         if (
             clean_sku.upper() in {s.upper() for s in EXCLUDED_SKUS}
             or clean_gid in EXCLUDED_SKUS
-            or (clean_sku.upper() in ('2071', '2072', '1892', '1782', '1704', '1700', '1476', '1459') and 'ugg' in name.lower())
+            or (clean_sku.upper() in ('2071', '2072', '1892', '1782', '1704', '1700', '1476', '1459', '1776') and 'ugg' in name.lower())
             or EXCLUDED_NAME_PATTERNS.search(name)
         ):
             continue
@@ -1942,6 +1942,18 @@ def main():
     # Group UGG LOWMEL SNEAKERS variations into a single parent product
     lowmel_variations = []
     other_products = []
+    local_lowmel_img_map = {
+        'UG0015': '/images/products/ugg-lowmel-jasmine-tropical-pink/img-1.jpg',
+        '2405': '/images/products/ugg-lowmel-high-chestnut/img-1.jpg',
+        '2404': '/images/products/ugg-lowmel-high-black/img-1.jpg',
+        'UG129': '/images/products/ugg-lowmel-jasmine/img-1.jpg',
+        '1781': '/images/products/ugg-lowmel-jasmine-fur/img-1.jpg',
+        '1780': '/images/products/ugg-lowmel-black-fur/img-1.jpg',
+        '1779': '/images/products/ugg-lowmel-mustard-seed-fur/img-1.jpg',
+        '1778': '/images/products/ugg-lowmel-chestnut-fur/img-1.jpg',
+        '1777': '/images/products/ugg-lowmel-grey-fur/img-1.jpg',
+    }
+
     for p in products:
         pname = p.get('name', '')
         sku_clean = str(p.get('sku', '')).strip().upper()
@@ -1967,9 +1979,49 @@ def main():
         elif pid == '143619' or (sku_clean == 'U970' and 'ugg' in pname.lower()):
             is_lowmel_var = True
             color_part = 'BEIGE'
+        elif sku_clean == 'UG0015' or pid == '252584':
+            is_lowmel_var = True
+            color_part = "LOVE '25 JASMINE"
+        elif sku_clean == '2405' or pid == '200251':
+            is_lowmel_var = True
+            color_part = "HIGH CHESTNUT"
+        elif sku_clean == '2404' or pid == '199876':
+            is_lowmel_var = True
+            color_part = "HIGH BLACK"
+        elif sku_clean == 'UG129' or pid == '198077':
+            is_lowmel_var = True
+            color_part = "JASMINE"
+        elif sku_clean == '1781' or pid == '189528':
+            is_lowmel_var = True
+            color_part = "JASMINE FUR"
+        elif sku_clean == '1780' or pid == '189527':
+            is_lowmel_var = True
+            color_part = "BLACK FUR"
+        elif sku_clean == '1779' or pid == '189525':
+            is_lowmel_var = True
+            color_part = "MUSTARD SEED FUR"
+        elif sku_clean == '1778' or pid == '189523':
+            is_lowmel_var = True
+            color_part = "CHESTNUT FUR"
+        elif sku_clean == '1777' or pid == '189522':
+            is_lowmel_var = True
+            color_part = "GREY FUR"
+        elif 'lowmel' in pname.lower():
+            is_lowmel_var = True
+            cleaned = re.sub(r'(?i)ugg\s+(?:lo\s+)?lowmel\s+(?:sneakers?|love\s*\'?25)?\s*', '', pname)
+            cleaned = cleaned.replace('(premium)', '').replace('premium', '').strip().upper()
+            color_part = cleaned
 
         if is_lowmel_var and color_part:
+            if any(v['color'] == color_part for v in lowmel_variations):
+                continue
             color_slug = re.sub(r'[^a-z0-9]+', '-', color_part.lower()).strip('-')
+            var_imgs = p.get('images', [])
+            if sku_clean in local_lowmel_img_map:
+                loc_path = os.path.join(PUBLIC_DIR, local_lowmel_img_map[sku_clean].lstrip('/'))
+                if os.path.exists(loc_path):
+                    var_imgs = [local_lowmel_img_map[sku_clean]]
+
             lowmel_variations.append({
                 'id': str(p.get('id', '')),
                 'sku': str(p.get('sku', '')),
@@ -1980,7 +2032,7 @@ def main():
                 'costPrice': p.get('costPrice'),
                 'sizes': p.get('sizes', []),
                 'sizeChart': p.get('sizeChart', []),
-                'images': p.get('images', []),
+                'images': var_imgs,
                 'inStock': p.get('inStock', True),
                 'slug': p.get('slug', '')
             })
@@ -1996,7 +2048,7 @@ def main():
         )
         min_p = min(v['price'] for v in lowmel_variations)
         max_p = max(v['price'] for v in lowmel_variations)
-        old_p = int(round(min_p / 0.60))
+        old_p = max(v.get('oldPrice') or int(round(v['price'] / 0.60)) for v in lowmel_variations)
 
         parent_lowmel = {
             'id': '253608',
@@ -2036,7 +2088,7 @@ def main():
             ),
             'seo': {
                 'title': 'UGG LOWMEL SNEAKERS — купити зимові кросівки в інтернет-магазині VEXARO',
-                'description': 'Замовляйте зимові кросівки UGG LOWMEL SNEAKERS у різних кольорах від 4 300 ₴. Натуральна замша та хутро. Доставка Новою Поштою 1–2 дні, накладений платіж.'
+                'description': f'Замовляйте зимові кросівки UGG LOWMEL SNEAKERS у різних кольорах від {min_p} ₴. Натуральна замша та хутро. Доставка Новою Поштою 1–2 дні, накладений платіж.'
             },
             'variations': lowmel_variations
         }
