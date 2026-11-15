@@ -1,148 +1,5 @@
 [
   {
-    "id": "256187",
-    "slug": "adidas-campus-00s-grey-black-khutro-5187",
-    "name": "Adidas Campus 00s Grey Black (хутро)",
-    "brand": "Adidas",
-    "brandSlug": "adidas",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "unisex",
-    "genderName": "Унісекс",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 2500,
-    "oldPrice": 4167,
-    "costPrice": 1700,
-    "sku": "5187",
-    "material": "Натуральна замша, хутро",
-    "country": "В'єтнам",
-    "sizes": [
-      "36",
-      "37",
-      "38",
-      "39",
-      "41"
-    ],
-    "inStock": true,
-    "images": [
-      "/images/products/adidas-campus-00s-grey-black-khutro-5187/img-1.jpg",
-      "/images/products/adidas-campus-00s-grey-black-khutro-5187/img-2.jpg",
-      "/images/products/adidas-campus-00s-grey-black-khutro-5187/img-3.jpg",
-      "/images/products/adidas-campus-00s-grey-black-khutro-5187/img-4.jpg"
-    ],
-    "description": "Зимові кросівки Adidas Campus 00s Grey Black (хутро) у стильному контрастному сіро-чорному забарвленні (артикул: 5187). Верх виконаний із натуральної замші благородного сірого кольору з чорними шкіряними смужками та чорною масивною підошвою. Всередині — густе тепле біле хутро для максимального захисту від холоду взимку. Культовий силует 00s із широкими чорними шнурками та комфортною посадкою на кожен день. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Adidas Campus 00s Grey Black (хутро) (арт. 5187) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте зимові кросівки Adidas Campus 00s Grey Black (хутро) (арт. 5187) за 2500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    },
-    "isHit": true,
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": true
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": true
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": true
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": true
-      },
-      {
-        "size": "40",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      }
-    ]
-  },
-  {
-    "id": "256188",
-    "slug": "adidas-campus-00s-grey-white-khutro-5188",
-    "name": "Adidas Campus 00s Grey White (хутро)",
-    "brand": "Adidas",
-    "brandSlug": "adidas",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "unisex",
-    "genderName": "Унісекс",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 2500,
-    "oldPrice": 4167,
-    "costPrice": 1700,
-    "sku": "5188",
-    "material": "Натуральна замша, хутро",
-    "country": "В'єтнам",
-    "sizes": [
-      "36",
-      "37",
-      "38",
-      "39",
-      "40",
-      "41"
-    ],
-    "inStock": true,
-    "images": [
-      "/images/products/adidas-campus-00s-grey-white-khutro-5188/img-1.jpg",
-      "/images/products/adidas-campus-00s-grey-white-khutro-5188/img-2.jpg",
-      "/images/products/adidas-campus-00s-grey-white-khutro-5188/img-3.jpg",
-      "/images/products/adidas-campus-00s-grey-white-khutro-5188/img-4.jpg"
-    ],
-    "description": "Зимові кросівки Adidas Campus 00s Grey White (хутро) у класичному універсальному сірому забарвленні з білими фірмовими смужками (артикул: 5188). Верх моделі виконаний із преміальної натуральної замші, всередині — густе тепле біле хутро, що надійно зберігає тепло в морозну зимову погоду. Культовий масивний силует нульових із широкими шнурками, контрастним білим задником та зносостійкою гумовою підошвою. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Adidas Campus 00s Grey White (хутро) (арт. 5188) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте зимові кросівки Adidas Campus 00s Grey White (хутро) (арт. 5188) за 2500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    },
-    "isHit": true,
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": true
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": true
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": true
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": true
-      },
-      {
-        "size": "40",
-        "cm": "25.0",
-        "available": true
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      }
-    ]
-  },
-  {
     "id": "257838",
     "slug": "ugg-ultra-mini-platform-black-suede-premium-0801",
     "name": "UGG ULTRA MINI PLATFORM | BLACK SUEDE premium",
@@ -1524,7 +1381,6 @@
     "material": "Шкіра, замша, вологостійкий текстиль, термоутеплювач, гума, піна, прошиті",
     "country": "В'єтнам",
     "sizes": [
-      "41",
       "42",
       "43",
       "44",
@@ -1559,7 +1415,7 @@
       {
         "size": "41",
         "cm": "26.0",
-        "available": true
+        "available": false
       },
       {
         "size": "42",
@@ -2535,6 +2391,149 @@
         "size": "41",
         "cm": "26.0",
         "available": false
+      }
+    ]
+  },
+  {
+    "id": "256188",
+    "slug": "adidas-campus-00s-grey-white-khutro-5188",
+    "name": "Adidas Campus 00s Grey White (хутро)",
+    "brand": "Adidas",
+    "brandSlug": "adidas",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "unisex",
+    "genderName": "Унісекс",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 2500,
+    "oldPrice": 4167,
+    "costPrice": 1700,
+    "sku": "5188",
+    "material": "Натуральна замша, хутро",
+    "country": "В'єтнам",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "inStock": true,
+    "images": [
+      "/images/products/adidas-campus-00s-grey-white-khutro-5188/img-1.jpg",
+      "/images/products/adidas-campus-00s-grey-white-khutro-5188/img-2.jpg",
+      "/images/products/adidas-campus-00s-grey-white-khutro-5188/img-3.jpg",
+      "/images/products/adidas-campus-00s-grey-white-khutro-5188/img-4.jpg"
+    ],
+    "description": "Зимові кросівки Adidas Campus 00s Grey White (хутро) у класичному універсальному сірому забарвленні з білими фірмовими смужками (артикул: 5188). Верх моделі виконаний із преміальної натуральної замші, всередині — густе тепле біле хутро, що надійно зберігає тепло в морозну зимову погоду. Культовий масивний силует нульових із широкими шнурками, контрастним білим задником та зносостійкою гумовою підошвою. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Adidas Campus 00s Grey White (хутро) (арт. 5188) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте зимові кросівки Adidas Campus 00s Grey White (хутро) (арт. 5188) за 2500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    },
+    "isHit": true,
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": true
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": true
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "24.5",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.0",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "256187",
+    "slug": "adidas-campus-00s-grey-black-khutro-5187",
+    "name": "Adidas Campus 00s Grey Black (хутро)",
+    "brand": "Adidas",
+    "brandSlug": "adidas",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "unisex",
+    "genderName": "Унісекс",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 2500,
+    "oldPrice": 4167,
+    "costPrice": 1700,
+    "sku": "5187",
+    "material": "Натуральна замша, хутро",
+    "country": "В'єтнам",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "41"
+    ],
+    "inStock": true,
+    "images": [
+      "/images/products/adidas-campus-00s-grey-black-khutro-5187/img-1.jpg",
+      "/images/products/adidas-campus-00s-grey-black-khutro-5187/img-2.jpg",
+      "/images/products/adidas-campus-00s-grey-black-khutro-5187/img-3.jpg",
+      "/images/products/adidas-campus-00s-grey-black-khutro-5187/img-4.jpg"
+    ],
+    "description": "Зимові кросівки Adidas Campus 00s Grey Black (хутро) у стильному контрастному сіро-чорному забарвленні (артикул: 5187). Верх виконаний із натуральної замші благородного сірого кольору з чорними шкіряними смужками та чорною масивною підошвою. Всередині — густе тепле біле хутро для максимального захисту від холоду взимку. Культовий силует 00s із широкими чорними шнурками та комфортною посадкою на кожен день. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Adidas Campus 00s Grey Black (хутро) (арт. 5187) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте зимові кросівки Adidas Campus 00s Grey Black (хутро) (арт. 5187) за 2500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    },
+    "isHit": true,
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": true
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": true
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "24.5",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.0",
+        "available": false
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
       }
     ]
   },
@@ -4320,8 +4319,7 @@
       "39",
       "40",
       "41",
-      "42",
-      "43"
+      "42"
     ],
     "sizeChart": [
       {
@@ -4362,7 +4360,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": true
+        "available": false
       },
       {
         "size": "44",
@@ -7380,7 +7378,6 @@
     "sizes": [
       "41",
       "42",
-      "43",
       "44",
       "45"
     ],
@@ -7423,7 +7420,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": true
+        "available": false
       },
       {
         "size": "44",
@@ -10072,97 +10069,6 @@
     "seo": {
       "title": "Nike P-6000 ХУТРО (арт. NTR825) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Nike P-6000 ХУТРО (арт. NTR825) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "256503",
-    "slug": "nike-p-6000-khutro-ntr824",
-    "name": "Nike P-6000 ХУТРО",
-    "brand": "Nike",
-    "brandSlug": "nike",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 3000,
-    "oldPrice": 5000,
-    "costPrice": 2500,
-    "sku": "NTR824",
-    "material": "Шкіра, вологостійкий текстиль, термоутеплювач, гума, піна, прошиті",
-    "country": "В'єтнам",
-    "sizes": [
-      "41",
-      "43",
-      "44"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": true
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": true
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "30.0",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/87df3c06-83b6-4290-9550-2777ee33927d.jpeg"
-    ],
-    "description": "Модель: Nike P-6000 ХУТРО. Артикул: NTR824. Матеріал: Шкіра, вологостійкий текстиль, термоутеплювач, гума, піна, прошиті. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Nike P-6000 ХУТРО (арт. NTR824) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Nike P-6000 ХУТРО (арт. NTR824) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -14815,7 +14721,6 @@
     "country": "В'єтнам",
     "sizes": [
       "41",
-      "43",
       "44",
       "46"
     ],
@@ -14858,7 +14763,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": true
+        "available": false
       },
       {
         "size": "44",
@@ -21484,7 +21389,6 @@
       "41",
       "43",
       "44",
-      "45",
       "46"
     ],
     "sizeChart": [
@@ -21536,7 +21440,7 @@
       {
         "size": "45",
         "cm": "28.5",
-        "available": true
+        "available": false
       },
       {
         "size": "46",
@@ -23381,7 +23285,6 @@
       "38",
       "39",
       "40",
-      "41",
       "43"
     ],
     "sizeChart": [
@@ -23413,7 +23316,7 @@
       {
         "size": "41",
         "cm": "26.0",
-        "available": true
+        "available": false
       },
       {
         "size": "42",
@@ -30355,97 +30258,6 @@
     }
   },
   {
-    "id": "250221",
-    "slug": "glenclyffe-low-gore-tex-tnf12",
-    "name": "Glenclyffe low Gore-Tex",
-    "brand": "Інші бренди",
-    "brandSlug": "other",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 2900,
-    "oldPrice": 4833,
-    "costPrice": 2400,
-    "sku": "TNF12",
-    "material": "Вологостійкий текстиль, термоутеплювач, гума, піна, прошиті",
-    "country": "В'єтнам",
-    "sizes": [
-      "41",
-      "44",
-      "46"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": true
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": true
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/0c9d2c1e-0883-4955-9a27-8e8604843a66.jpg"
-    ],
-    "description": "Модель: Glenclyffe low Gore-Tex. Артикул: TNF12. Матеріал: Вологостійкий текстиль, термоутеплювач, гума, піна, прошиті. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Glenclyffe low Gore-Tex (арт. TNF12) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Glenclyffe low Gore-Tex (арт. TNF12) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "249983",
     "slug": "nike-v2k-termo-ntr791",
     "name": "Nike V2K (термо)",
@@ -31685,7 +31497,6 @@
     "country": "В'єтнам",
     "sizes": [
       "36",
-      "37",
       "38",
       "39",
       "40",
@@ -31700,7 +31511,7 @@
       {
         "size": "37",
         "cm": "23.5",
-        "available": true
+        "available": false
       },
       {
         "size": "38",
@@ -33754,8 +33565,7 @@
       "37",
       "38",
       "41",
-      "42",
-      "43"
+      "42"
     ],
     "sizeChart": [
       {
@@ -33796,7 +33606,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": true
+        "available": false
       },
       {
         "size": "44",
@@ -34034,8 +33844,7 @@
     "sizes": [
       "41",
       "42",
-      "44",
-      "45"
+      "44"
     ],
     "sizeChart": [
       {
@@ -34086,7 +33895,7 @@
       {
         "size": "45",
         "cm": "29.0",
-        "available": true
+        "available": false
       },
       {
         "size": "46",
@@ -55575,97 +55384,6 @@
     "seo": {
       "title": "Asics Gel NYC Black Gore-Tex (арт. 3002) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Asics Gel NYC Black Gore-Tex (арт. 3002) за 2800 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "243482",
-    "slug": "salomon-speed-cross-pro-gore-tex-thinsulate-black-white-2996",
-    "name": "Salomon Speed Cross Pro Gore-Tex Thinsulate Black White",
-    "brand": "Salomon",
-    "brandSlug": "salomon",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 3000,
-    "oldPrice": 5000,
-    "costPrice": 2500,
-    "sku": "2996",
-    "material": "Кожа , Текстиль",
-    "country": "В'єтнам",
-    "sizes": [
-      "41",
-      "43",
-      "46"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.0",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.0",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": true
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": true
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/d4f8ae95-ae50-4989-a594-5dc951f68545.jpeg"
-    ],
-    "description": "Модель: Salomon Speed Cross Pro Gore-Tex Thinsulate Black White. Артикул: 2996. Матеріал: Кожа , Текстиль. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Salomon Speed Cross Pro Gore-Tex Thinsulate Black White (арт. 2996) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Salomon Speed Cross Pro Gore-Tex Thinsulate Black White (арт. 2996) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -79737,8 +79455,7 @@
       "40",
       "41",
       "42",
-      "43",
-      "45"
+      "43"
     ],
     "sizeChart": [
       {
@@ -79789,7 +79506,7 @@
       {
         "size": "45",
         "cm": "28.5",
-        "available": true
+        "available": false
       },
       {
         "size": "46",
@@ -118431,7 +118148,6 @@
     "material": "Кожа , замша",
     "country": "В'єтнам",
     "sizes": [
-      "41",
       "42",
       "43",
       "44",
@@ -118467,7 +118183,7 @@
       {
         "size": "41",
         "cm": "26.0",
-        "available": true
+        "available": false
       },
       {
         "size": "42",
@@ -129565,7 +129281,6 @@
     "sizes": [
       "38",
       "39",
-      "42",
       "45"
     ],
     "sizeChart": [
@@ -129602,7 +129317,7 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": true
+        "available": false
       },
       {
         "size": "43",
@@ -133785,7 +133500,6 @@
     "material": "Замша , Натуральный мех",
     "country": "Китай",
     "sizes": [
-      "37",
       "38",
       "39",
       "40",
@@ -133800,7 +133514,7 @@
       {
         "size": "37",
         "cm": "23.5",
-        "available": true
+        "available": false
       },
       {
         "size": "38",
@@ -134623,7 +134337,6 @@
     "country": "Китай",
     "sizes": [
       "36",
-      "38",
       "39",
       "40"
     ],
@@ -134641,7 +134354,7 @@
       {
         "size": "38",
         "cm": "24.5",
-        "available": true
+        "available": false
       },
       {
         "size": "39",
@@ -149601,7 +149314,6 @@
     "material": "Кожа , Текстиль",
     "country": "В'єтнам",
     "sizes": [
-      "41",
       "42",
       "44",
       "45"
@@ -149635,7 +149347,7 @@
       {
         "size": "41",
         "cm": "26.0",
-        "available": true
+        "available": false
       },
       {
         "size": "42",
@@ -153771,8 +153483,7 @@
     "sizes": [
       "40",
       "41",
-      "43",
-      "45"
+      "43"
     ],
     "sizeChart": [
       {
@@ -153823,7 +153534,7 @@
       {
         "size": "45",
         "cm": "28.5",
-        "available": true
+        "available": false
       },
       {
         "size": "46",
@@ -192919,7 +192630,6 @@
     "sizes": [
       "36",
       "37",
-      "38",
       "39",
       "42",
       "43",
@@ -192940,7 +192650,7 @@
       {
         "size": "38",
         "cm": "24.0",
-        "available": true
+        "available": false
       },
       {
         "size": "39",
@@ -193114,8 +192824,7 @@
       "38",
       "40",
       "41",
-      "42",
-      "44"
+      "42"
     ],
     "sizeChart": [
       {
@@ -193161,7 +192870,7 @@
       {
         "size": "44",
         "cm": "28.0",
-        "available": true
+        "available": false
       },
       {
         "size": "45",
@@ -204590,97 +204299,6 @@
     }
   },
   {
-    "id": "137926",
-    "slug": "nike-acg-air-zoom-gaiadone-gtx-gore-tex-1875",
-    "name": "Nike ACG Air Zoom Gaiadone Gtx Gore-Tex",
-    "brand": "Nike",
-    "brandSlug": "nike",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 3700,
-    "oldPrice": 6167,
-    "costPrice": 3200,
-    "sku": "1875",
-    "material": "Текстиль , Прорезиненные вставки",
-    "country": "В'єтнам",
-    "sizes": [
-      "41",
-      "42",
-      "43"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": true
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": true
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "30.0",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/74440ccd-1f4b-46ee-b8f7-30fc44e530f4.jpeg"
-    ],
-    "description": "Модель: Nike ACG Air Zoom Gaiadone Gtx Gore-Tex. Артикул: 1875. Матеріал: Текстиль , Прорезиненные вставки. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Nike ACG Air Zoom Gaiadone Gtx Gore-Tex (арт. 1875) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Nike ACG Air Zoom Gaiadone Gtx Gore-Tex (арт. 1875) за 3700 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "137925",
     "slug": "nike-acg-air-zoom-gaiadone-gtx-gore-tex-1874",
     "name": "Nike ACG Air Zoom Gaiadone Gtx Gore-Tex",
@@ -205810,8 +205428,7 @@
       "40",
       "41",
       "43",
-      "44",
-      "45"
+      "44"
     ],
     "sizeChart": [
       {
@@ -205862,7 +205479,7 @@
       {
         "size": "45",
         "cm": "28.5",
-        "available": true
+        "available": false
       },
       {
         "size": "46",
@@ -206916,97 +206533,6 @@
     "seo": {
       "title": "Nike Pegasus Trail 4 Gore Tex Premium (арт. N00219) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Nike Pegasus Trail 4 Gore Tex Premium (арт. N00219) за 2700 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "132131",
-    "slug": "nike-dunk-high-grey-n00218",
-    "name": "Nike Dunk High Grey",
-    "brand": "Nike",
-    "brandSlug": "nike",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "unisex",
-    "genderName": "Унісекс",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 2800,
-    "oldPrice": 4667,
-    "costPrice": 2300,
-    "sku": "N00218",
-    "material": "Шкіра",
-    "country": "-",
-    "sizes": [
-      "36",
-      "37",
-      "42"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "23.0",
-        "available": true
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": true
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": true
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "30.0",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/a8df3120-0de0-4834-be76-ebd8ada64755.jpeg"
-    ],
-    "description": "Модель: Nike Dunk High Grey. Артикул: N00218. Матеріал: Шкіра. Сезон: Демісезон. Виробництво: -. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Nike Dunk High Grey (арт. N00218) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Nike Dunk High Grey (арт. N00218) за 2800 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -209771,7 +209297,6 @@
       "40",
       "41",
       "42",
-      "43",
       "45"
     ],
     "sizeChart": [
@@ -209813,7 +209338,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": true
+        "available": false
       },
       {
         "size": "44",
@@ -209863,7 +209388,6 @@
     "sizes": [
       "41",
       "42",
-      "43",
       "44"
     ],
     "sizeChart": [
@@ -209905,7 +209429,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": true
+        "available": false
       },
       {
         "size": "44",
@@ -216442,8 +215966,7 @@
       "40",
       "41",
       "42",
-      "44",
-      "45"
+      "44"
     ],
     "sizeChart": [
       {
@@ -216494,7 +216017,7 @@
       {
         "size": "45",
         "cm": "29.0",
-        "available": true
+        "available": false
       },
       {
         "size": "46",
