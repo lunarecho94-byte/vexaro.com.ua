@@ -2538,6 +2538,103 @@
     }
   },
   {
+    "id": "250416",
+    "slug": "nike-sb-dunk-white-burgundy-10-1681",
+    "name": "NIKE SB DUNK | “WHITE / BURGUNDY” (10",
+    "brand": "Nike",
+    "brandSlug": "nike",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "unisex",
+    "genderName": "Унісекс",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 3100,
+    "oldPrice": 5167,
+    "costPrice": 2600,
+    "sku": "1681",
+    "material": "Шкіра",
+    "country": "В'єтнам",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "41",
+      "42",
+      "43"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "23.0",
+        "available": true
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": true
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "24.5",
+        "available": false
+      },
+      {
+        "size": "40",
+        "cm": "25.0",
+        "available": false
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": true
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": true
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "29.0",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "30.0",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "/images/products/nike-sb-dunk-white-burgundy-10-1681/img-1.jpg",
+      "/images/products/nike-sb-dunk-white-burgundy-10-1681/img-2.jpg",
+      "/images/products/nike-sb-dunk-white-burgundy-10-1681/img-3.jpg",
+      "/images/products/nike-sb-dunk-white-burgundy-10-1681/img-4.jpg"
+    ],
+    "description": "Модель: NIKE SB DUNK | “WHITE / BURGUNDY” (10. Артикул: 1681. Матеріал: Шкіра. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "NIKE SB DUNK | “WHITE / BURGUNDY” (10 (арт. 1681) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте NIKE SB DUNK | “WHITE / BURGUNDY” (10 (арт. 1681) за 3100 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
     "id": "254776",
     "slug": "nike-air-max-plus-tn-black-teal-yellow-a5689",
     "name": "Nike Air Max Plus Tn Black Teal Yellow",
@@ -5787,100 +5884,6 @@
         "slug": "ugg-classic-micro-chestnut-1887"
       }
     ]
-  },
-  {
-    "id": "250416",
-    "slug": "nike-sb-dunk-white-burgundy-10-1681",
-    "name": "NIKE SB DUNK | “WHITE / BURGUNDY” (10",
-    "brand": "Nike",
-    "brandSlug": "nike",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "unisex",
-    "genderName": "Унісекс",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 3100,
-    "oldPrice": 5167,
-    "costPrice": 2600,
-    "sku": "1681",
-    "material": "Шкіра",
-    "country": "В'єтнам",
-    "sizes": [
-      "36",
-      "37",
-      "38",
-      "41",
-      "42",
-      "43"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "23.0",
-        "available": true
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": true
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": true
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": true
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": true
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "30.0",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "/images/products/nike-sb-dunk-white-burgundy-10-1681/img-1.jpg"
-    ],
-    "description": "Модель: NIKE SB DUNK | “WHITE / BURGUNDY” (10. Артикул: 1681. Матеріал: Шкіра. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "NIKE SB DUNK | “WHITE / BURGUNDY” (10 (арт. 1681) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте NIKE SB DUNK | “WHITE / BURGUNDY” (10 (арт. 1681) за 3100 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
   },
   {
     "id": "249443",

@@ -255,6 +255,7 @@ PINNED_KEYS = [
     '1674',      # New Balance 9060 Dark Grey Lime Cordura - newest studio photos
     '1677',      # New Balance 1906R Graphite Metallic Primaloft - newest studio photos
     '1680',      # Nike SB Dunk White Lace Pack - newest studio photos
+    '1681',      # Nike SB Dunk White Burgundy - newest studio photos
     'А5689',     # Nike Air Max Plus Tn Black Teal Yellow - newest studio photos
     '1705',      # UGG ULTRA MINI CHOCOLATE BROWN SUEDE - newest studio photos
     '5174',      # Adidas Campus 00s Beige Black (хутро) - newest studio photos
