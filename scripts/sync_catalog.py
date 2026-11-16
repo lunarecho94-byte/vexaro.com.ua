@@ -245,6 +245,7 @@ PINNED_KEYS = [
     '1691',      # UGG LOWMEL SNEAKERS (Moss Green) - newest studio photos
     '1692',      # UGG LOWMEL SNEAKERS (Light Bronze) - newest studio photos
     '1096',      # UGG LOWMEL SNEAKERS (Chestnut) - newest studio photos
+    '1450',      # UGG LOWMEL SNEAKERS (Rocky Oak) - newest studio photos
     'А5689',     # Nike Air Max Plus Tn Black Teal Yellow - newest studio photos
     '1705',      # UGG ULTRA MINI CHOCOLATE BROWN SUEDE - newest studio photos
     '5174',      # Adidas Campus 00s Beige Black (хутро) - newest studio photos
@@ -2058,8 +2059,8 @@ def main():
 
     parents_lowmel = []
     if lowmel_variations:
-        # Sort newest photoshoot colors first: Moss Green (1691), Light Bronze (1692), Chestnut (1096)
-        lowmel_variations.sort(key=lambda v: 0 if v.get('sku') == '1691' else (1 if v.get('sku') == '1692' else (2 if v.get('sku') == '1096' else 3)))
+        # Sort newest photoshoot colors first: Moss Green (1691), Light Bronze (1692), Chestnut (1096), Rocky Oak (1450)
+        lowmel_variations.sort(key=lambda v: 0 if v.get('sku') == '1691' else (1 if v.get('sku') == '1692' else (2 if v.get('sku') == '1096' else (3 if v.get('sku') == '1450' else 4))))
         all_lowmel_sizes = sorted(
             list(set(s for v in lowmel_variations for s in v['sizes'])),
             key=lambda s: float(s.replace(',', '.')) if s.replace(',', '.').replace('.', '', 1).isdigit() else 999
@@ -4038,7 +4039,7 @@ def main():
             or sku_clean.replace(' ', '') == target.replace(' ', '')
             or str(p.get('id', '')).strip() == target
         )
-        if matched and target in ('1691', '1692', '1096') and str(p.get('id', '')) != '253608':
+        if matched and target in ('1691', '1692', '1096', '1450') and str(p.get('id', '')) != '253608':
             return False
         return matched
 
