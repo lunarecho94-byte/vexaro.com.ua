@@ -2874,7 +2874,13 @@ def main():
             var_imgs = p.get('images', [])
             if sku in local_mary_jane_img_map:
                 loc_path = os.path.join(PUBLIC_DIR, local_mary_jane_img_map[sku].lstrip('/'))
-                if os.path.exists(loc_path):
+                loc_dir = os.path.dirname(loc_path)
+                if os.path.isdir(loc_dir):
+                    local_files = sorted(os.listdir(loc_dir))
+                    local_list = [f"/{os.path.dirname(local_mary_jane_img_map[sku].lstrip('/'))}/{f}" for f in local_files if f.endswith(('.jpg', '.jpeg', '.webp', '.png'))]
+                    if local_list:
+                        var_imgs = local_list
+                elif os.path.exists(loc_path):
                     var_imgs = [local_mary_jane_img_map[sku]]
 
             bea_mary_jane_variations.append({
@@ -2895,7 +2901,7 @@ def main():
             other_products_6.append(p)
 
     if bea_mary_jane_variations:
-        preferred_order = {'Sand': 0, 'Chestnut': 1}
+        preferred_order = {'Chestnut': 0, 'Sand': 1}
         bea_mary_jane_variations.sort(key=lambda v: preferred_order.get(v.get('color'), 99))
         all_mj_sizes = sorted(
             list(set(s for v in bea_mary_jane_variations for s in v['sizes'])),
