@@ -454,8 +454,8 @@
       "/images/products/ugg-lowmel-sneakers-olive-grey-premium-1684/img-1.jpg",
       "/images/products/ugg-lowmel-sneakers-burnt-cedar-premium-1685/img-1.jpg",
       "/images/products/ugg-lowmel-sneakers-pink-premium-1686/img-1.jpg",
-      "/images/products/ugg-lowmel-sneaker-black-2393/img-1.jpg",
       "/images/products/ugg-lowmel-sneakers-leopard-premium-1687/img-1.jpg",
+      "/images/products/ugg-lowmel-sneaker-black-2393/img-1.jpg",
       "https://easydrop.one/media/uploads/images/base/789a0d38-8867-4394-8b9e-ff15511f3173.jpeg"
     ],
     "description": "Жіночі зимові кросівки UGG LOWMEL SNEAKERS у преміальному виконанні. Модель поєднує фірмовий комфорт UGG з силуетом міських кросівок: верх із якісної натуральної замші, всередині — густе тепле натуральне хутро (овчина) для надійного захисту від зимових морозів. Потовщена амортизуюча підошва, масивні акцентні шнурки та широкий вибір забарвлень під будь-який гардероб. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
@@ -1199,6 +1199,88 @@
         "slug": "ugg-lowmel-sneakers-pink-premium-1686"
       },
       {
+        "id": "253412",
+        "sku": "1687",
+        "color": "LEOPARD",
+        "colorSlug": "leopard",
+        "price": 4700,
+        "oldPrice": 7833,
+        "costPrice": 4200,
+        "sizes": [
+          "36",
+          "37",
+          "38",
+          "39",
+          "40",
+          "41"
+        ],
+        "sizeChart": [
+          {
+            "size": "36",
+            "cm": "23.0",
+            "available": true
+          },
+          {
+            "size": "37",
+            "cm": "23.5",
+            "available": true
+          },
+          {
+            "size": "38",
+            "cm": "24.5",
+            "available": true
+          },
+          {
+            "size": "39",
+            "cm": "25.0",
+            "available": true
+          },
+          {
+            "size": "40",
+            "cm": "25.5",
+            "available": true
+          },
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": true
+          },
+          {
+            "size": "42",
+            "cm": "26.5",
+            "available": false
+          },
+          {
+            "size": "43",
+            "cm": "27.5",
+            "available": false
+          },
+          {
+            "size": "44",
+            "cm": "28.0",
+            "available": false
+          },
+          {
+            "size": "45",
+            "cm": "28.5",
+            "available": false
+          },
+          {
+            "size": "46",
+            "cm": "29.5",
+            "available": false
+          }
+        ],
+        "images": [
+          "/images/products/ugg-lowmel-sneakers-leopard-premium-1687/img-1.jpg",
+          "/images/products/ugg-lowmel-sneakers-leopard-premium-1687/img-2.jpg",
+          "/images/products/ugg-lowmel-sneakers-leopard-premium-1687/img-3.jpg",
+          "/images/products/ugg-lowmel-sneakers-leopard-premium-1687/img-4.jpg"
+        ],
+        "inStock": true,
+        "slug": "ugg-lowmel-sneakers-leopard-premium-1687"
+      },
+      {
         "id": "199671",
         "sku": "2393",
         "color": "BLACK",
@@ -1273,85 +1355,6 @@
         ],
         "inStock": true,
         "slug": "ugg-lowmel-sneaker-black-2393"
-      },
-      {
-        "id": "253412",
-        "sku": "1687",
-        "color": "LEOPARD",
-        "colorSlug": "leopard",
-        "price": 4700,
-        "oldPrice": 7833,
-        "costPrice": 4200,
-        "sizes": [
-          "36",
-          "37",
-          "38",
-          "39",
-          "40",
-          "41"
-        ],
-        "sizeChart": [
-          {
-            "size": "36",
-            "cm": "23.0",
-            "available": true
-          },
-          {
-            "size": "37",
-            "cm": "23.5",
-            "available": true
-          },
-          {
-            "size": "38",
-            "cm": "24.5",
-            "available": true
-          },
-          {
-            "size": "39",
-            "cm": "25.0",
-            "available": true
-          },
-          {
-            "size": "40",
-            "cm": "25.5",
-            "available": true
-          },
-          {
-            "size": "41",
-            "cm": "26.0",
-            "available": true
-          },
-          {
-            "size": "42",
-            "cm": "26.5",
-            "available": false
-          },
-          {
-            "size": "43",
-            "cm": "27.5",
-            "available": false
-          },
-          {
-            "size": "44",
-            "cm": "28.0",
-            "available": false
-          },
-          {
-            "size": "45",
-            "cm": "28.5",
-            "available": false
-          },
-          {
-            "size": "46",
-            "cm": "29.5",
-            "available": false
-          }
-        ],
-        "images": [
-          "/images/products/ugg-lowmel-sneakers-leopard-premium-1687/img-1.jpg"
-        ],
-        "inStock": true,
-        "slug": "ugg-lowmel-sneakers-leopard-premium-1687"
       },
       {
         "id": "255611",
@@ -3026,6 +3029,101 @@
     "seo": {
       "title": "Asics Gel 1130 Silver White (арт. 1686) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Asics Gel 1130 Silver White (арт. 1686) за 2500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "184845",
+    "slug": "new-balance-1906r-x-footpatrol-m1906rfp-1687",
+    "name": "New Balance 1906R x Footpatrol M1906RFP",
+    "brand": "New Balance",
+    "brandSlug": "newbalance",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "men",
+    "genderName": "Чоловічі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 3000,
+    "oldPrice": 5000,
+    "costPrice": 2500,
+    "sku": "1687",
+    "material": "Шкіра, текстиль",
+    "country": "В'єтнам",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": false
+      },
+      {
+        "size": "39",
+        "cm": "24.5",
+        "available": false
+      },
+      {
+        "size": "40",
+        "cm": "25.0",
+        "available": false
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": true
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": true
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": true
+      },
+      {
+        "size": "45",
+        "cm": "29.0",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "30.0",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": true,
+    "images": [
+      "/images/products/1687/img-1.jpg",
+      "/images/products/1687/img-2.jpg",
+      "/images/products/1687/img-3.jpg",
+      "/images/products/1687/img-4.jpg"
+    ],
+    "description": "Модель: New Balance 1906R x Footpatrol M1906RFP. Артикул: 1687. Матеріал: Шкіра, текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "New Balance 1906R x Footpatrol M1906RFP (арт. 1687) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте New Balance 1906R x Footpatrol M1906RFP (арт. 1687) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -159179,98 +159277,6 @@
     "seo": {
       "title": "New Balance 1906A Sea Salt Astro Dust M1906AB (арт. 1688) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте New Balance 1906A Sea Salt Astro Dust M1906AB (арт. 1688) за 2500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "184845",
-    "slug": "new-balance-1906r-x-footpatrol-m1906rfp-1687",
-    "name": "New Balance 1906R x Footpatrol M1906RFP",
-    "brand": "New Balance",
-    "brandSlug": "newbalance",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 3000,
-    "oldPrice": 5000,
-    "costPrice": 2500,
-    "sku": "1687",
-    "material": "Шкіра, текстиль",
-    "country": "В'єтнам",
-    "sizes": [
-      "41",
-      "42",
-      "43",
-      "44"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": true
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": true
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": true
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "30.0",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/9f62d63b-51bd-4d44-bdb9-9575aaa9c582.jpeg"
-    ],
-    "description": "Модель: New Balance 1906R x Footpatrol M1906RFP. Артикул: 1687. Матеріал: Шкіра, текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "New Balance 1906R x Footpatrol M1906RFP (арт. 1687) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте New Balance 1906R x Footpatrol M1906RFP (арт. 1687) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {

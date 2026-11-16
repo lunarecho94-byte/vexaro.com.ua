@@ -260,6 +260,7 @@ PINNED_KEYS = [
     '1684',      # UGG LOWMEL SNEAKERS Olive Grey - newest studio photos
     '1685',      # UGG LOWMEL SNEAKERS Burnt Cedar - newest studio photos
     '1686',      # UGG LOWMEL SNEAKERS Pink - newest studio photos
+    '1687',      # UGG LOWMEL SNEAKERS Leopard - newest studio photos
     'А5689',     # Nike Air Max Plus Tn Black Teal Yellow - newest studio photos
     '1705',      # UGG ULTRA MINI CHOCOLATE BROWN SUEDE - newest studio photos
     '5174',      # Adidas Campus 00s Beige Black (хутро) - newest studio photos
@@ -2073,8 +2074,8 @@ def main():
 
     parents_lowmel = []
     if lowmel_variations:
-        # Sort newest photoshoot colors first: Moss Green (1691), Light Bronze (1692), Chestnut (1096), Rocky Oak (1450), Black Leather (1464), White/Pink (1683), Olive Grey (1684), Burnt Cedar (1685), Pink (1686)
-        lowmel_variations.sort(key=lambda v: 0 if v.get('sku') == '1691' else (1 if v.get('sku') == '1692' else (2 if v.get('sku') == '1096' else (3 if v.get('sku') == '1450' else (4 if v.get('sku') == '1464' else (5 if v.get('sku') == '1683' else (6 if v.get('sku') == '1684' else (7 if v.get('sku') == '1685' else (8 if v.get('sku') == '1686' else 9)))))))))
+        # Sort newest photoshoot colors first: Moss Green (1691), Light Bronze (1692), Chestnut (1096), Rocky Oak (1450), Black Leather (1464), White/Pink (1683), Olive Grey (1684), Burnt Cedar (1685), Pink (1686), Leopard (1687)
+        lowmel_variations.sort(key=lambda v: 0 if v.get('sku') == '1691' else (1 if v.get('sku') == '1692' else (2 if v.get('sku') == '1096' else (3 if v.get('sku') == '1450' else (4 if v.get('sku') == '1464' else (5 if v.get('sku') == '1683' else (6 if v.get('sku') == '1684' else (7 if v.get('sku') == '1685' else (8 if v.get('sku') == '1686' else (9 if v.get('sku') == '1687' else 10))))))))))
         all_lowmel_sizes = sorted(
             list(set(s for v in lowmel_variations for s in v['sizes'])),
             key=lambda s: float(s.replace(',', '.')) if s.replace(',', '.').replace('.', '', 1).isdigit() else 999
