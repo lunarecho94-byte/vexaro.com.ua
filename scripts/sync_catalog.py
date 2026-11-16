@@ -1946,18 +1946,17 @@ def main():
         'UG0015': '/images/products/ugg-lowmel-jasmine-tropical-pink/img-1.jpg',
         '2405': '/images/products/ugg-lowmel-high-chestnut/img-1.jpg',
         '2404': '/images/products/ugg-lowmel-high-black/img-1.jpg',
-        'UG129': '/images/products/ugg-lowmel-jasmine/img-1.jpg',
-        '1781': '/images/products/ugg-lowmel-jasmine-fur/img-1.jpg',
-        '1780': '/images/products/ugg-lowmel-black-fur/img-1.jpg',
-        '1779': '/images/products/ugg-lowmel-mustard-seed-fur/img-1.jpg',
-        '1778': '/images/products/ugg-lowmel-chestnut-fur/img-1.jpg',
-        '1777': '/images/products/ugg-lowmel-grey-fur/img-1.jpg',
     }
 
     for p in products:
         pname = p.get('name', '')
         sku_clean = str(p.get('sku', '')).strip().upper()
         pid = str(p.get('id', '')).strip()
+
+        # Lo Lowmel models are grouped separately into parent_lo_lowmel
+        if pid in ('198077', '189528', '189527', '189525', '189523', '189522') or 'lo lowmel' in pname.lower():
+            other_products.append(p)
+            continue
 
         is_lowmel_var = False
         color_part = None
@@ -1988,27 +1987,9 @@ def main():
         elif sku_clean == '2404' or pid == '199876':
             is_lowmel_var = True
             color_part = "HIGH BLACK"
-        elif sku_clean == 'UG129' or pid == '198077':
-            is_lowmel_var = True
-            color_part = "JASMINE"
-        elif sku_clean == '1781' or pid == '189528':
-            is_lowmel_var = True
-            color_part = "JASMINE FUR"
-        elif sku_clean == '1780' or pid == '189527':
-            is_lowmel_var = True
-            color_part = "BLACK FUR"
-        elif sku_clean == '1779' or pid == '189525':
-            is_lowmel_var = True
-            color_part = "MUSTARD SEED FUR"
-        elif sku_clean == '1778' or pid == '189523':
-            is_lowmel_var = True
-            color_part = "CHESTNUT FUR"
-        elif sku_clean == '1777' or pid == '189522':
-            is_lowmel_var = True
-            color_part = "GREY FUR"
         elif 'lowmel' in pname.lower():
             is_lowmel_var = True
-            cleaned = re.sub(r'(?i)ugg\s+(?:lo\s+)?lowmel\s+(?:sneakers?|love\s*\'?25)?\s*', '', pname)
+            cleaned = re.sub(r'(?i)ugg\s+lowmel\s+(?:sneakers?|love\s*\'?25)?\s*', '', pname)
             cleaned = cleaned.replace('(premium)', '').replace('premium', '').strip().upper()
             color_part = cleaned
 
@@ -2093,6 +2074,116 @@ def main():
             'variations': lowmel_variations
         }
         products = [parent_lowmel] + other_products
+
+    # Group UGG Lo Lowmel variations into a single parent product
+    lo_lowmel_variations = []
+    other_products_lo = []
+    lo_lowmel_cfg = {
+        '198077': {'sku': 'UG129', 'color': 'Jasmine', 'colorSlug': 'jasmine', 'price': 3900, 'oldPrice': 6500, 'img': '/images/products/ugg-lowmel-jasmine/img-1.jpg'},
+        '189528': {'sku': '1781', 'color': 'Jasmine FUR', 'colorSlug': 'jasmine-fur', 'price': 4800, 'oldPrice': 8000, 'img': '/images/products/ugg-lowmel-jasmine-fur/img-1.jpg'},
+        '189527': {'sku': '1780', 'color': 'Black Fur', 'colorSlug': 'black-fur', 'price': 4800, 'oldPrice': 8000, 'img': '/images/products/ugg-lowmel-black-fur/img-1.jpg'},
+        '189525': {'sku': '1779', 'color': 'Mustard Seed FUR', 'colorSlug': 'mustard-seed-fur', 'price': 4800, 'oldPrice': 8000, 'img': '/images/products/ugg-lowmel-mustard-seed-fur/img-1.jpg'},
+        '189523': {'sku': '1778', 'color': 'Chestnut FUR', 'colorSlug': 'chestnut-fur', 'price': 4800, 'oldPrice': 8000, 'img': '/images/products/ugg-lowmel-chestnut-fur/img-1.jpg'},
+        '189522': {'sku': '1777', 'color': 'Grey FUR', 'colorSlug': 'grey-fur', 'price': 4800, 'oldPrice': 8000, 'img': '/images/products/ugg-lowmel-grey-fur/img-1.jpg'},
+    }
+    sku_to_pid_lo = {v['sku']: k for k, v in lo_lowmel_cfg.items()}
+
+    for p in products:
+        pname = p.get('name', '')
+        sku_clean = str(p.get('sku', '')).strip().upper()
+        pid = str(p.get('id', '')).strip()
+
+        matched = None
+        if pid in lo_lowmel_cfg:
+            matched = lo_lowmel_cfg[pid]
+        elif 'ugg' in pname.lower() and sku_clean in sku_to_pid_lo:
+            matched = lo_lowmel_cfg[sku_to_pid_lo[sku_clean]]
+        elif 'lo lowmel' in pname.lower():
+            for k_id, cfg in lo_lowmel_cfg.items():
+                if cfg['color'].lower() in pname.lower() or cfg['sku'].lower() in pname.lower():
+                    matched = cfg
+                    break
+
+        if matched:
+            if any(v['sku'] == matched['sku'] for v in lo_lowmel_variations):
+                continue
+
+            var_imgs = p.get('images', [])
+            loc_path = os.path.join(PUBLIC_DIR, matched['img'].lstrip('/'))
+            if os.path.exists(loc_path):
+                var_imgs = [matched['img']]
+
+            lo_lowmel_variations.append({
+                'id': str(p.get('id', '')),
+                'sku': matched['sku'],
+                'color': matched['color'],
+                'colorSlug': matched['colorSlug'],
+                'price': matched['price'],
+                'oldPrice': matched['oldPrice'],
+                'costPrice': p.get('costPrice', 3100),
+                'sizes': p.get('sizes', []),
+                'sizeChart': p.get('sizeChart', []),
+                'images': var_imgs,
+                'inStock': p.get('inStock', True),
+                'slug': p.get('slug', '')
+            })
+        else:
+            other_products_lo.append(p)
+
+    if lo_lowmel_variations:
+        preferred_order_lo = {'UG129': 0, '1781': 1, '1780': 2, '1779': 3, '1778': 4, '1777': 5}
+        lo_lowmel_variations.sort(key=lambda v: preferred_order_lo.get(v.get('sku'), 99))
+        all_lo_sizes = sorted(
+            list(set(s for v in lo_lowmel_variations for s in v['sizes'])),
+            key=lambda s: float(s.replace(',', '.')) if s.replace(',', '.').replace('.', '', 1).isdigit() else 999
+        )
+        min_p = min(v['price'] for v in lo_lowmel_variations)
+        max_p = max(v['price'] for v in lo_lowmel_variations)
+        old_p = max(v.get('oldPrice') or int(round(v['price'] / 0.60)) for v in lo_lowmel_variations)
+
+        parent_lo_lowmel = {
+            'id': '198077',
+            'slug': 'ugg-lo-lowmel',
+            'name': 'UGG Lo Lowmel',
+            'brand': 'UGG',
+            'brandSlug': 'ugg',
+            'category': 'Взуття',
+            'categorySlug': 'shoes',
+            'gender': 'women',
+            'genderName': 'Жіночі',
+            'season': 'winter',
+            'seasonName': 'Зима',
+            'price': min_p,
+            'oldPrice': old_p,
+            'minPrice': min_p,
+            'maxPrice': max_p,
+            'costPrice': 3100,
+            'sku': 'UG129',
+            'material': 'Натуральна замша, натуральне хутро',
+            'country': "В'єтнам",
+            'sizes': all_lo_sizes,
+            'sizeChart': [
+                {'size': s, 'cm': DEFAULT_WOMEN_GRID.get(s, '24.0'), 'available': True}
+                for s in all_lo_sizes
+            ],
+            'inStock': True,
+            'isHit': True,
+            'images': lo_lowmel_variations[0]['images'] + [v['images'][0] for v in lo_lowmel_variations[1:] if v.get('images')],
+            'description': (
+                'Жіночі зимові кросівки UGG Lo Lowmel у преміальному заниженому силуеті з фірмовим теплим хутром. '
+                'Модель поєднує культовий комфорт лінійки Lowmel зі зручною низькою посадкою: преміальний верх із натуральної замші, '
+                'всередині — густе затишне натуральне хутро (овчина) для надійного тепла у холодну пору року. '
+                'Потовщена легка підошва забезпечує мʼяку амортизацію та впевнене зчеплення з поверхнею, а фірмова шнурівка додає стильного акценту. '
+                'Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. '
+                'Гарантія обміну або повернення — 14 днів.'
+            ),
+            'seo': {
+                'title': 'UGG Lo Lowmel — купити жіночі зимові кросівки з хутром в інтернет-магазині VEXARO',
+                'description': f'Замовляйте жіночі зимові кросівки UGG Lo Lowmel у кольорах Jasmine, Jasmine FUR, Black Fur, Mustard Seed FUR, Chestnut FUR, Grey FUR від {min_p} ₴. Натуральна замша та овчина. Доставка 1–2 дні, накладений платіж.'
+            },
+            'variations': lo_lowmel_variations
+        }
+        products = [parent_lo_lowmel] + other_products_lo
 
     # Group UGG MINI DIPPER PUFFER variations into a single parent product
     dipper_puffer_variations = []

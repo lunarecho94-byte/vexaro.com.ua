@@ -393,10 +393,10 @@
     "genderName": "Жіночі",
     "season": "winter",
     "seasonName": "Зима",
-    "price": 2099,
-    "oldPrice": 8000,
-    "minPrice": 2099,
-    "maxPrice": 4800,
+    "price": 3500,
+    "oldPrice": 7833,
+    "minPrice": 3500,
+    "maxPrice": 4700,
     "costPrice": 3500,
     "sku": "1691",
     "material": "Натуральна замша, натуральне хутро",
@@ -407,11 +407,7 @@
       "38",
       "39",
       "40",
-      "41",
-      "42",
-      "43",
-      "44",
-      "45"
+      "41"
     ],
     "sizeChart": [
       {
@@ -443,26 +439,6 @@
         "size": "41",
         "cm": "26.0",
         "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": true
-      },
-      {
-        "size": "43",
-        "cm": "24.0",
-        "available": true
-      },
-      {
-        "size": "44",
-        "cm": "24.0",
-        "available": true
-      },
-      {
-        "size": "45",
-        "cm": "24.0",
-        "available": true
       }
     ],
     "inStock": true,
@@ -475,16 +451,10 @@
       "/images/products/ugg-lowmel-sneakers-light-bronze-premium-1692/img-1.jpg",
       "/images/products/ugg-lowmel-jasmine-tropical-pink/img-1.jpg",
       "/images/products/ugg-lowmel-sneaker-pumice-ug0019/img-1.jpg",
-      "/images/products/ugg-lowmel-jasmine/img-1.jpg",
-      "/images/products/ugg-lowmel-jasmine-fur/img-1.jpg",
       "/images/products/ugg-lowmel-high-black/img-1.jpg",
       "/images/products/ugg-lowmel-high-chestnut/img-1.jpg",
       "/images/products/ugg-lowmel-sneaker-black-2393/img-1.jpg",
-      "/images/products/ugg-lowmel-black-fur/img-1.jpg",
       "/images/products/ugg-lowmel-sneaker-beige-u970/img-1.jpg",
-      "/images/products/ugg-lowmel-chestnut-fur/img-1.jpg",
-      "/images/products/ugg-lowmel-mustard-seed-fur/img-1.jpg",
-      "/images/products/ugg-lowmel-grey-fur/img-1.jpg",
       "/images/products/ugg-lowmel-sneakers-olive-grey-premium-1684/img-1.jpg",
       "/images/products/ugg-lowmel-sneakers-leopard-premium-1687/img-1.jpg",
       "https://easydrop.one/media/uploads/images/base/789a0d38-8867-4394-8b9e-ff15511f3173.jpeg",
@@ -499,7 +469,7 @@
     "description": "Жіночі зимові кросівки UGG LOWMEL SNEAKERS у преміальному виконанні. Модель поєднує фірмовий комфорт UGG з силуетом міських кросівок: верх із якісної натуральної замші, всередині — густе тепле натуральне хутро (овчина) для надійного захисту від зимових морозів. Потовщена амортизуюча підошва, масивні акцентні шнурки та широкий вибір забарвлень під будь-який гардероб. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
     "seo": {
       "title": "UGG LOWMEL SNEAKERS — купити зимові кросівки в інтернет-магазині VEXARO",
-      "description": "Замовляйте зимові кросівки UGG LOWMEL SNEAKERS у різних кольорах від 2099 ₴. Натуральна замша та хутро. Доставка Новою Поштою 1–2 дні, накладений платіж."
+      "description": "Замовляйте зимові кросівки UGG LOWMEL SNEAKERS у різних кольорах від 3500 ₴. Натуральна замша та хутро. Доставка Новою Поштою 1–2 дні, накладений платіж."
     },
     "variations": [
       {
@@ -820,166 +790,6 @@
         "slug": "ugg-lowmel-sneaker-pumice-ug0019"
       },
       {
-        "id": "198077",
-        "sku": "UG129",
-        "color": "JASMINE",
-        "colorSlug": "jasmine",
-        "price": 3900,
-        "oldPrice": 6500,
-        "costPrice": 3400,
-        "sizes": [
-          "36",
-          "37",
-          "38",
-          "39",
-          "40",
-          "41",
-          "42",
-          "43",
-          "44",
-          "45"
-        ],
-        "sizeChart": [
-          {
-            "size": "36",
-            "cm": "23.0",
-            "available": true
-          },
-          {
-            "size": "37",
-            "cm": "23.5",
-            "available": true
-          },
-          {
-            "size": "38",
-            "cm": "24.5",
-            "available": true
-          },
-          {
-            "size": "39",
-            "cm": "25.0",
-            "available": true
-          },
-          {
-            "size": "40",
-            "cm": "25.5",
-            "available": true
-          },
-          {
-            "size": "41",
-            "cm": "26.0",
-            "available": true
-          },
-          {
-            "size": "42",
-            "cm": "26.5",
-            "available": true
-          },
-          {
-            "size": "43",
-            "cm": "27.5",
-            "available": true
-          },
-          {
-            "size": "44",
-            "cm": "28.0",
-            "available": true
-          },
-          {
-            "size": "45",
-            "cm": "28.5",
-            "available": true
-          },
-          {
-            "size": "46",
-            "cm": "29.5",
-            "available": false
-          }
-        ],
-        "images": [
-          "/images/products/ugg-lowmel-jasmine/img-1.jpg"
-        ],
-        "inStock": true,
-        "slug": "ugg-lo-lowmel-sneaker-jasmine-ug129"
-      },
-      {
-        "id": "110116",
-        "sku": "1781",
-        "color": "JASMINE FUR",
-        "colorSlug": "jasmine-fur",
-        "price": 2300,
-        "oldPrice": 3833,
-        "costPrice": 1800,
-        "sizes": [
-          "37",
-          "38",
-          "41",
-          "45"
-        ],
-        "sizeChart": [
-          {
-            "size": "36",
-            "cm": "22.5",
-            "available": false
-          },
-          {
-            "size": "37",
-            "cm": "23.5",
-            "available": true
-          },
-          {
-            "size": "38",
-            "cm": "24.0",
-            "available": true
-          },
-          {
-            "size": "39",
-            "cm": "24.5",
-            "available": false
-          },
-          {
-            "size": "40",
-            "cm": "25.5",
-            "available": false
-          },
-          {
-            "size": "41",
-            "cm": "26.0",
-            "available": true
-          },
-          {
-            "size": "42",
-            "cm": "26.5",
-            "available": false
-          },
-          {
-            "size": "43",
-            "cm": "27.5",
-            "available": false
-          },
-          {
-            "size": "44",
-            "cm": "28.0",
-            "available": false
-          },
-          {
-            "size": "45",
-            "cm": "28.5",
-            "available": true
-          },
-          {
-            "size": "46",
-            "cm": "29.0",
-            "available": false
-          }
-        ],
-        "images": [
-          "/images/products/ugg-lowmel-jasmine-fur/img-1.jpg"
-        ],
-        "inStock": true,
-        "slug": "asics-gel-venture-6-white-blue-1781"
-      },
-      {
         "id": "199876",
         "sku": "2404",
         "color": "HIGH BLACK",
@@ -1208,84 +1018,6 @@
         "slug": "ugg-lowmel-sneaker-black-2393"
       },
       {
-        "id": "130285",
-        "sku": "1780",
-        "color": "BLACK FUR",
-        "colorSlug": "black-fur",
-        "price": 2099,
-        "oldPrice": 3498,
-        "costPrice": 1599,
-        "sizes": [
-          "40",
-          "41",
-          "42",
-          "44",
-          "45"
-        ],
-        "sizeChart": [
-          {
-            "size": "36",
-            "cm": "22.5",
-            "available": false
-          },
-          {
-            "size": "37",
-            "cm": "23.5",
-            "available": false
-          },
-          {
-            "size": "38",
-            "cm": "24.0",
-            "available": false
-          },
-          {
-            "size": "39",
-            "cm": "24.5",
-            "available": false
-          },
-          {
-            "size": "40",
-            "cm": "25.0",
-            "available": true
-          },
-          {
-            "size": "41",
-            "cm": "26.0",
-            "available": true
-          },
-          {
-            "size": "42",
-            "cm": "26.5",
-            "available": true
-          },
-          {
-            "size": "43",
-            "cm": "27.5",
-            "available": false
-          },
-          {
-            "size": "44",
-            "cm": "28.0",
-            "available": true
-          },
-          {
-            "size": "45",
-            "cm": "29.0",
-            "available": true
-          },
-          {
-            "size": "46",
-            "cm": "30.0",
-            "available": false
-          }
-        ],
-        "images": [
-          "/images/products/ugg-lowmel-black-fur/img-1.jpg"
-        ],
-        "inStock": true,
-        "slug": "new-balance-1906n-castlerock-black-yellow-1780"
-      },
-      {
         "id": "143619",
         "sku": "U970",
         "color": "BEIGE",
@@ -1363,240 +1095,6 @@
         ],
         "inStock": true,
         "slug": "ugg-lowmel-sneaker-beige-u970"
-      },
-      {
-        "id": "189523",
-        "sku": "1778",
-        "color": "CHESTNUT FUR",
-        "colorSlug": "chestnut-fur",
-        "price": 4800,
-        "oldPrice": 8000,
-        "costPrice": 4300,
-        "sizes": [
-          "36",
-          "37",
-          "38",
-          "39",
-          "40",
-          "41"
-        ],
-        "sizeChart": [
-          {
-            "size": "36",
-            "cm": "23.0",
-            "available": true
-          },
-          {
-            "size": "37",
-            "cm": "23.5",
-            "available": true
-          },
-          {
-            "size": "38",
-            "cm": "24.5",
-            "available": true
-          },
-          {
-            "size": "39",
-            "cm": "25.0",
-            "available": true
-          },
-          {
-            "size": "40",
-            "cm": "25.5",
-            "available": true
-          },
-          {
-            "size": "41",
-            "cm": "26.0",
-            "available": true
-          },
-          {
-            "size": "42",
-            "cm": "26.5",
-            "available": false
-          },
-          {
-            "size": "43",
-            "cm": "27.5",
-            "available": false
-          },
-          {
-            "size": "44",
-            "cm": "28.0",
-            "available": false
-          },
-          {
-            "size": "45",
-            "cm": "28.5",
-            "available": false
-          },
-          {
-            "size": "46",
-            "cm": "29.5",
-            "available": false
-          }
-        ],
-        "images": [
-          "/images/products/ugg-lowmel-chestnut-fur/img-1.jpg"
-        ],
-        "inStock": true,
-        "slug": "ugg-lo-lowmel-sneaker-chestnut-fur-1778"
-      },
-      {
-        "id": "189525",
-        "sku": "1779",
-        "color": "MUSTARD SEED FUR",
-        "colorSlug": "mustard-seed-fur",
-        "price": 4800,
-        "oldPrice": 8000,
-        "costPrice": 4300,
-        "sizes": [
-          "36",
-          "37",
-          "38",
-          "39",
-          "40",
-          "41"
-        ],
-        "sizeChart": [
-          {
-            "size": "36",
-            "cm": "23.0",
-            "available": true
-          },
-          {
-            "size": "37",
-            "cm": "23.5",
-            "available": true
-          },
-          {
-            "size": "38",
-            "cm": "24.5",
-            "available": true
-          },
-          {
-            "size": "39",
-            "cm": "25.0",
-            "available": true
-          },
-          {
-            "size": "40",
-            "cm": "25.5",
-            "available": true
-          },
-          {
-            "size": "41",
-            "cm": "26.0",
-            "available": true
-          },
-          {
-            "size": "42",
-            "cm": "26.5",
-            "available": false
-          },
-          {
-            "size": "43",
-            "cm": "27.5",
-            "available": false
-          },
-          {
-            "size": "44",
-            "cm": "28.0",
-            "available": false
-          },
-          {
-            "size": "45",
-            "cm": "28.5",
-            "available": false
-          },
-          {
-            "size": "46",
-            "cm": "29.5",
-            "available": false
-          }
-        ],
-        "images": [
-          "/images/products/ugg-lowmel-mustard-seed-fur/img-1.jpg"
-        ],
-        "inStock": true,
-        "slug": "ugg-lo-lowmel-sneaker-mustard-seed-fur-1779"
-      },
-      {
-        "id": "189522",
-        "sku": "1777",
-        "color": "GREY FUR",
-        "colorSlug": "grey-fur",
-        "price": 4800,
-        "oldPrice": 8000,
-        "costPrice": 4300,
-        "sizes": [
-          "36",
-          "39",
-          "40"
-        ],
-        "sizeChart": [
-          {
-            "size": "36",
-            "cm": "23.0",
-            "available": true
-          },
-          {
-            "size": "37",
-            "cm": "23.5",
-            "available": false
-          },
-          {
-            "size": "38",
-            "cm": "24.5",
-            "available": false
-          },
-          {
-            "size": "39",
-            "cm": "25.0",
-            "available": true
-          },
-          {
-            "size": "40",
-            "cm": "25.5",
-            "available": true
-          },
-          {
-            "size": "41",
-            "cm": "26.0",
-            "available": false
-          },
-          {
-            "size": "42",
-            "cm": "26.5",
-            "available": false
-          },
-          {
-            "size": "43",
-            "cm": "27.5",
-            "available": false
-          },
-          {
-            "size": "44",
-            "cm": "28.0",
-            "available": false
-          },
-          {
-            "size": "45",
-            "cm": "28.5",
-            "available": false
-          },
-          {
-            "size": "46",
-            "cm": "29.5",
-            "available": false
-          }
-        ],
-        "images": [
-          "/images/products/ugg-lowmel-grey-fur/img-1.jpg"
-        ],
-        "inStock": true,
-        "slug": "ugg-lo-lowmel-sneaker-grey-fur-1777"
       },
       {
         "id": "252315",
@@ -7104,6 +6602,581 @@
         ],
         "inStock": true,
         "slug": "ugg-bea-mary-jane-chestnut-1885"
+      }
+    ]
+  },
+  {
+    "id": "198077",
+    "slug": "ugg-lo-lowmel",
+    "name": "UGG Lo Lowmel",
+    "brand": "UGG",
+    "brandSlug": "ugg",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 3900,
+    "oldPrice": 8000,
+    "minPrice": 3900,
+    "maxPrice": 4800,
+    "costPrice": 3100,
+    "sku": "UG129",
+    "material": "Натуральна замша, натуральне хутро",
+    "country": "В'єтнам",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": true
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": true
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": true
+      },
+      {
+        "size": "43",
+        "cm": "24.0",
+        "available": true
+      },
+      {
+        "size": "44",
+        "cm": "24.0",
+        "available": true
+      },
+      {
+        "size": "45",
+        "cm": "24.0",
+        "available": true
+      }
+    ],
+    "inStock": true,
+    "isHit": true,
+    "images": [
+      "/images/products/ugg-lowmel-jasmine/img-1.jpg",
+      "/images/products/ugg-lowmel-jasmine-fur/img-1.jpg",
+      "/images/products/ugg-lowmel-black-fur/img-1.jpg",
+      "/images/products/ugg-lowmel-mustard-seed-fur/img-1.jpg",
+      "/images/products/ugg-lowmel-chestnut-fur/img-1.jpg",
+      "/images/products/ugg-lowmel-grey-fur/img-1.jpg"
+    ],
+    "description": "Жіночі зимові кросівки UGG Lo Lowmel у преміальному заниженому силуеті з фірмовим теплим хутром. Модель поєднує культовий комфорт лінійки Lowmel зі зручною низькою посадкою: преміальний верх із натуральної замші, всередині — густе затишне натуральне хутро (овчина) для надійного тепла у холодну пору року. Потовщена легка підошва забезпечує мʼяку амортизацію та впевнене зчеплення з поверхнею, а фірмова шнурівка додає стильного акценту. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "UGG Lo Lowmel — купити жіночі зимові кросівки з хутром в інтернет-магазині VEXARO",
+      "description": "Замовляйте жіночі зимові кросівки UGG Lo Lowmel у кольорах Jasmine, Jasmine FUR, Black Fur, Mustard Seed FUR, Chestnut FUR, Grey FUR від 3900 ₴. Натуральна замша та овчина. Доставка 1–2 дні, накладений платіж."
+    },
+    "variations": [
+      {
+        "id": "198077",
+        "sku": "UG129",
+        "color": "Jasmine",
+        "colorSlug": "jasmine",
+        "price": 3900,
+        "oldPrice": 6500,
+        "costPrice": 3400,
+        "sizes": [
+          "36",
+          "37",
+          "38",
+          "39",
+          "40",
+          "41",
+          "42",
+          "43",
+          "44",
+          "45"
+        ],
+        "sizeChart": [
+          {
+            "size": "36",
+            "cm": "23.0",
+            "available": true
+          },
+          {
+            "size": "37",
+            "cm": "23.5",
+            "available": true
+          },
+          {
+            "size": "38",
+            "cm": "24.5",
+            "available": true
+          },
+          {
+            "size": "39",
+            "cm": "25.0",
+            "available": true
+          },
+          {
+            "size": "40",
+            "cm": "25.5",
+            "available": true
+          },
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": true
+          },
+          {
+            "size": "42",
+            "cm": "26.5",
+            "available": true
+          },
+          {
+            "size": "43",
+            "cm": "27.5",
+            "available": true
+          },
+          {
+            "size": "44",
+            "cm": "28.0",
+            "available": true
+          },
+          {
+            "size": "45",
+            "cm": "28.5",
+            "available": true
+          },
+          {
+            "size": "46",
+            "cm": "29.5",
+            "available": false
+          }
+        ],
+        "images": [
+          "/images/products/ugg-lowmel-jasmine/img-1.jpg"
+        ],
+        "inStock": true,
+        "slug": "ugg-lo-lowmel-sneaker-jasmine-ug129"
+      },
+      {
+        "id": "189528",
+        "sku": "1781",
+        "color": "Jasmine FUR",
+        "colorSlug": "jasmine-fur",
+        "price": 4800,
+        "oldPrice": 8000,
+        "costPrice": 4300,
+        "sizes": [
+          "37",
+          "38",
+          "39",
+          "40",
+          "41"
+        ],
+        "sizeChart": [
+          {
+            "size": "36",
+            "cm": "23.0",
+            "available": false
+          },
+          {
+            "size": "37",
+            "cm": "23.5",
+            "available": true
+          },
+          {
+            "size": "38",
+            "cm": "24.5",
+            "available": true
+          },
+          {
+            "size": "39",
+            "cm": "25.0",
+            "available": true
+          },
+          {
+            "size": "40",
+            "cm": "25.5",
+            "available": true
+          },
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": true
+          },
+          {
+            "size": "42",
+            "cm": "26.5",
+            "available": false
+          },
+          {
+            "size": "43",
+            "cm": "27.5",
+            "available": false
+          },
+          {
+            "size": "44",
+            "cm": "28.0",
+            "available": false
+          },
+          {
+            "size": "45",
+            "cm": "28.5",
+            "available": false
+          },
+          {
+            "size": "46",
+            "cm": "29.5",
+            "available": false
+          }
+        ],
+        "images": [
+          "/images/products/ugg-lowmel-jasmine-fur/img-1.jpg"
+        ],
+        "inStock": true,
+        "slug": "ugg-lo-lowmel-sneaker-jasmine-fur-1781"
+      },
+      {
+        "id": "189527",
+        "sku": "1780",
+        "color": "Black Fur",
+        "colorSlug": "black-fur",
+        "price": 4800,
+        "oldPrice": 8000,
+        "costPrice": 4300,
+        "sizes": [
+          "36",
+          "37",
+          "38",
+          "39",
+          "40"
+        ],
+        "sizeChart": [
+          {
+            "size": "36",
+            "cm": "23.0",
+            "available": true
+          },
+          {
+            "size": "37",
+            "cm": "23.5",
+            "available": true
+          },
+          {
+            "size": "38",
+            "cm": "24.5",
+            "available": true
+          },
+          {
+            "size": "39",
+            "cm": "25.0",
+            "available": true
+          },
+          {
+            "size": "40",
+            "cm": "25.5",
+            "available": true
+          },
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": false
+          },
+          {
+            "size": "42",
+            "cm": "26.5",
+            "available": false
+          },
+          {
+            "size": "43",
+            "cm": "27.5",
+            "available": false
+          },
+          {
+            "size": "44",
+            "cm": "28.0",
+            "available": false
+          },
+          {
+            "size": "45",
+            "cm": "28.5",
+            "available": false
+          },
+          {
+            "size": "46",
+            "cm": "29.5",
+            "available": false
+          }
+        ],
+        "images": [
+          "/images/products/ugg-lowmel-black-fur/img-1.jpg"
+        ],
+        "inStock": true,
+        "slug": "ugg-lo-lowmel-sneaker-black-fur-1780"
+      },
+      {
+        "id": "189525",
+        "sku": "1779",
+        "color": "Mustard Seed FUR",
+        "colorSlug": "mustard-seed-fur",
+        "price": 4800,
+        "oldPrice": 8000,
+        "costPrice": 4300,
+        "sizes": [
+          "36",
+          "37",
+          "38",
+          "39",
+          "40",
+          "41"
+        ],
+        "sizeChart": [
+          {
+            "size": "36",
+            "cm": "23.0",
+            "available": true
+          },
+          {
+            "size": "37",
+            "cm": "23.5",
+            "available": true
+          },
+          {
+            "size": "38",
+            "cm": "24.5",
+            "available": true
+          },
+          {
+            "size": "39",
+            "cm": "25.0",
+            "available": true
+          },
+          {
+            "size": "40",
+            "cm": "25.5",
+            "available": true
+          },
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": true
+          },
+          {
+            "size": "42",
+            "cm": "26.5",
+            "available": false
+          },
+          {
+            "size": "43",
+            "cm": "27.5",
+            "available": false
+          },
+          {
+            "size": "44",
+            "cm": "28.0",
+            "available": false
+          },
+          {
+            "size": "45",
+            "cm": "28.5",
+            "available": false
+          },
+          {
+            "size": "46",
+            "cm": "29.5",
+            "available": false
+          }
+        ],
+        "images": [
+          "/images/products/ugg-lowmel-mustard-seed-fur/img-1.jpg"
+        ],
+        "inStock": true,
+        "slug": "ugg-lo-lowmel-sneaker-mustard-seed-fur-1779"
+      },
+      {
+        "id": "189523",
+        "sku": "1778",
+        "color": "Chestnut FUR",
+        "colorSlug": "chestnut-fur",
+        "price": 4800,
+        "oldPrice": 8000,
+        "costPrice": 4300,
+        "sizes": [
+          "36",
+          "37",
+          "38",
+          "39",
+          "40",
+          "41"
+        ],
+        "sizeChart": [
+          {
+            "size": "36",
+            "cm": "23.0",
+            "available": true
+          },
+          {
+            "size": "37",
+            "cm": "23.5",
+            "available": true
+          },
+          {
+            "size": "38",
+            "cm": "24.5",
+            "available": true
+          },
+          {
+            "size": "39",
+            "cm": "25.0",
+            "available": true
+          },
+          {
+            "size": "40",
+            "cm": "25.5",
+            "available": true
+          },
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": true
+          },
+          {
+            "size": "42",
+            "cm": "26.5",
+            "available": false
+          },
+          {
+            "size": "43",
+            "cm": "27.5",
+            "available": false
+          },
+          {
+            "size": "44",
+            "cm": "28.0",
+            "available": false
+          },
+          {
+            "size": "45",
+            "cm": "28.5",
+            "available": false
+          },
+          {
+            "size": "46",
+            "cm": "29.5",
+            "available": false
+          }
+        ],
+        "images": [
+          "/images/products/ugg-lowmel-chestnut-fur/img-1.jpg"
+        ],
+        "inStock": true,
+        "slug": "ugg-lo-lowmel-sneaker-chestnut-fur-1778"
+      },
+      {
+        "id": "189522",
+        "sku": "1777",
+        "color": "Grey FUR",
+        "colorSlug": "grey-fur",
+        "price": 4800,
+        "oldPrice": 8000,
+        "costPrice": 4300,
+        "sizes": [
+          "36",
+          "39",
+          "40"
+        ],
+        "sizeChart": [
+          {
+            "size": "36",
+            "cm": "23.0",
+            "available": true
+          },
+          {
+            "size": "37",
+            "cm": "23.5",
+            "available": false
+          },
+          {
+            "size": "38",
+            "cm": "24.5",
+            "available": false
+          },
+          {
+            "size": "39",
+            "cm": "25.0",
+            "available": true
+          },
+          {
+            "size": "40",
+            "cm": "25.5",
+            "available": true
+          },
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": false
+          },
+          {
+            "size": "42",
+            "cm": "26.5",
+            "available": false
+          },
+          {
+            "size": "43",
+            "cm": "27.5",
+            "available": false
+          },
+          {
+            "size": "44",
+            "cm": "28.0",
+            "available": false
+          },
+          {
+            "size": "45",
+            "cm": "28.5",
+            "available": false
+          },
+          {
+            "size": "46",
+            "cm": "29.5",
+            "available": false
+          }
+        ],
+        "images": [
+          "/images/products/ugg-lowmel-grey-fur/img-1.jpg"
+        ],
+        "inStock": true,
+        "slug": "ugg-lo-lowmel-sneaker-grey-fur-1777"
       }
     ]
   },
@@ -206898,6 +206971,99 @@
     }
   },
   {
+    "id": "130285",
+    "slug": "new-balance-1906n-castlerock-black-yellow-1780",
+    "name": "New Balance 1906N Castlerock Black Yellow",
+    "brand": "New Balance",
+    "brandSlug": "newbalance",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "men",
+    "genderName": "Чоловічі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 2099,
+    "oldPrice": 3498,
+    "costPrice": 1599,
+    "sku": "1780",
+    "material": "Кожа , Текстиль",
+    "country": "В'єтнам",
+    "sizes": [
+      "40",
+      "41",
+      "42",
+      "44",
+      "45"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": false
+      },
+      {
+        "size": "39",
+        "cm": "24.5",
+        "available": false
+      },
+      {
+        "size": "40",
+        "cm": "25.0",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": true
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": true
+      },
+      {
+        "size": "45",
+        "cm": "29.0",
+        "available": true
+      },
+      {
+        "size": "46",
+        "cm": "30.0",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": true,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/7079ea42-552f-4605-beae-e71d70e3f668.jpeg"
+    ],
+    "description": "Модель: New Balance 1906N Castlerock Black Yellow. Артикул: 1780. Матеріал: Кожа , Текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "New Balance 1906N Castlerock Black Yellow (арт. 1780) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте New Balance 1906N Castlerock Black Yellow (арт. 1780) за 2099 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
     "id": "130118",
     "slug": "adidas-maxxwavy-magic-earth-strata-black-orange-1854",
     "name": "Adidas Maxxwavy Magic Earth Strata Black Orange",
@@ -223107,6 +223273,98 @@
     "seo": {
       "title": "Nike React Vision Black (арт. 1790) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Nike React Vision Black (арт. 1790) за 2500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "110116",
+    "slug": "asics-gel-venture-6-white-blue-1781",
+    "name": "Asics Gel-Venture 6 White Blue",
+    "brand": "Asics",
+    "brandSlug": "asics",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "unisex",
+    "genderName": "Унісекс",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 2300,
+    "oldPrice": 3833,
+    "costPrice": 1800,
+    "sku": "1781",
+    "material": "Кожа , Сетка",
+    "country": "В'єтнам",
+    "sizes": [
+      "37",
+      "38",
+      "41",
+      "45"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": true
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "24.5",
+        "available": false
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": false
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "28.5",
+        "available": true
+      },
+      {
+        "size": "46",
+        "cm": "29.0",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/7c23b20f-c4b1-4f0f-8242-72930bf38bf2.jpeg"
+    ],
+    "description": "Модель: Asics Gel-Venture 6 White Blue. Артикул: 1781. Матеріал: Кожа , Сетка. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Asics Gel-Venture 6 White Blue (арт. 1781) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Asics Gel-Venture 6 White Blue (арт. 1781) за 2300 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
