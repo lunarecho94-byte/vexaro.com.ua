@@ -233,7 +233,7 @@ COLOR_WORDS = {
 }
 
 # Explicitly excluded items (all slippers, slides, clogs, mules, sandals, etc. per store owner request)
-EXCLUDED_SKUS = {'16006', '16005', '16004', '16003', 'NB143', '0068', '2688', 'R343', 'SL015', '258739', '2263', '2169', '5193', '256193', 'UG0020', '252588', '253417', '253416', 'UG0016', '249465', '2579', '208607', 'U930', '203123', '1918', '201924', '2395', '201383', '2397', '199672', '2394', '199670', '198587', 'UG0017', '252589', 'U880', '185521', '189534', 'U920', '185523', 'U830', '185520', '185202', '185186', 'U960', '143621', 'U950', '143187', '136690', '129394', '121895', 'U0290', '189211', '3091', '1101'}
+EXCLUDED_SKUS = {'16006', '16005', '16004', '16003', 'NB143', '0068', '2688', 'R343', 'SL015', '258739', '2263', '2169', '5193', '256193', 'UG0020', '252588', '253417', '253416', 'UG0016', '249465', '2579', '208607', 'U930', '203123', '1918', '201924', '2395', '201383', '2397', '199672', '2394', '199670', '198587', 'UG0017', '252589', 'U880', '185521', '189534', 'U920', '185523', 'U830', '185520', '185202', '185186', 'U960', '143621', 'U950', '143187', '136690', '129394', '121895', 'U0290', '189211', '3091', '1101', 'UG0015', '252584'}
 
 # Pinned products permanently pinned at top by store owner request (supports 'id:...' or SKU)
 PINNED_FILE = os.path.join(SRC_DATA_DIR, 'pinned.json')
@@ -1944,7 +1944,6 @@ def main():
     lowmel_high_variations = []
     other_products = []
     local_lowmel_img_map = {
-        'UG0015': '/images/products/ugg-lowmel-jasmine-tropical-pink/img-1.jpg',
         '2405': '/images/products/ugg-lowmel-high-chestnut/img-1.jpg',
         '2404': '/images/products/ugg-lowmel-high-black/img-1.jpg',
     }
@@ -1953,6 +1952,10 @@ def main():
         pname = p.get('name', '')
         sku_clean = str(p.get('sku', '')).strip().upper()
         pid = str(p.get('id', '')).strip()
+
+        # UG0015 (Love '25 Jasmine Tropical Pink) is permanently excluded
+        if sku_clean == 'UG0015' or pid == '252584' or 'jasmine tropical pink' in pname.lower():
+            continue
 
         # Lo Lowmel models are grouped separately into parent_lo_lowmel (including UG0019 Pumice)
         if pid in ('198077', '189528', '189527', '189525', '189523', '189522', '252592') or sku_clean == 'UG0019' or 'lo lowmel' in pname.lower() or ('lowmel' in pname.lower() and 'pumice' in pname.lower()):
@@ -2019,9 +2022,6 @@ def main():
         elif pid == '143619' or (sku_clean == 'U970' and 'ugg' in pname.lower()):
             is_lowmel_var = True
             color_part = 'BEIGE'
-        elif sku_clean == 'UG0015' or pid == '252584':
-            is_lowmel_var = True
-            color_part = "LOVE '25 JASMINE"
         elif 'lowmel' in pname.lower():
             is_lowmel_var = True
             cleaned = re.sub(r'(?i)ugg\s+lowmel\s+(?:sneakers?|love\s*\'?25)?\s*', '', pname)
