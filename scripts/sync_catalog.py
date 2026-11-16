@@ -3614,6 +3614,147 @@ def main():
         }
         products = [parent_funkarra] + other_products_13
 
+    # Group UGG TEDDY variations into a single parent product
+    teddy_variations = []
+    other_products_14 = []
+    teddy_cfg = {
+        '132063': {
+            'sku': '1065',
+            'color': 'Dark Chocolate',
+            'colorSlug': 'dark-chocolate',
+            'price': 1999,
+            'oldPrice': 3332,
+            'local_dir': 'ugg-teddy-dark-chocolate',
+            'order': 0,
+        },
+        '126147': {
+            'sku': '1036',
+            'color': 'Ginger',
+            'colorSlug': 'ginger',
+            'price': 2600,
+            'oldPrice': 4333,
+            'local_dir': 'ugg-teddy-ginger',
+            'order': 1,
+        },
+        '126142': {
+            'sku': '1035',
+            'color': 'Cream',
+            'colorSlug': 'cream',
+            'price': 1999,
+            'oldPrice': 3332,
+            'local_dir': 'ugg-teddy-cream',
+            'order': 2,
+        },
+        '126140': {
+            'sku': '1034',
+            'color': 'Black',
+            'colorSlug': 'black',
+            'price': 1999,
+            'oldPrice': 3332,
+            'local_dir': 'ugg-teddy-black',
+            'order': 3,
+        },
+    }
+    sku_to_pid_teddy = {v['sku']: k for k, v in teddy_cfg.items()}
+
+    for p in products:
+        pname = p.get('name', '')
+        sku_clean = str(p.get('sku', '')).strip().upper()
+        pid = str(p.get('id', '')).strip()
+
+        matched = None
+        if pid in teddy_cfg:
+            matched = teddy_cfg[pid]
+        elif 'ugg' in pname.lower() and 'teddy' in pname.lower() and sku_clean in sku_to_pid_teddy:
+            matched = teddy_cfg[sku_to_pid_teddy[sku_clean]]
+        elif 'ugg' in pname.lower() and 'teddy' in pname.lower():
+            for k_id, cfg in teddy_cfg.items():
+                if cfg['color'].lower() in pname.lower() or cfg['sku'].lower() in pname.lower():
+                    matched = cfg
+                    break
+
+        if matched:
+            if any(v['sku'] == matched['sku'] for v in teddy_variations):
+                continue
+
+            var_imgs = p.get('images', [])
+            loc_path = os.path.join(PUBLIC_DIR, 'images', 'products', matched['local_dir'], 'img-1.jpg')
+            if os.path.exists(loc_path):
+                var_imgs = [f"/images/products/{matched['local_dir']}/img-1.jpg"]
+
+            teddy_variations.append({
+                'id': str(p.get('id', '')),
+                'sku': matched['sku'],
+                'color': matched['color'],
+                'colorSlug': matched['colorSlug'],
+                'price': matched['price'],
+                'oldPrice': matched['oldPrice'],
+                'costPrice': p.get('costPrice', 1400),
+                'sizes': p.get('sizes', []),
+                'sizeChart': p.get('sizeChart', []),
+                'images': var_imgs,
+                'inStock': p.get('inStock', True),
+                'slug': p.get('slug', '')
+            })
+        else:
+            other_products_14.append(p)
+
+    if teddy_variations:
+        preferred_order_td = {'1065': 0, '1036': 1, '1035': 2, '1034': 3}
+        teddy_variations.sort(key=lambda v: preferred_order_td.get(v.get('sku'), 99))
+        all_td_sizes = sorted(
+            list(set(s for v in teddy_variations for s in v['sizes'])),
+            key=lambda s: float(s.replace(',', '.')) if s.replace(',', '.').replace('.', '', 1).isdigit() else 999
+        )
+        min_p = min(v['price'] for v in teddy_variations)
+        max_p = max(v['price'] for v in teddy_variations)
+        old_p = max(v.get('oldPrice') or int(round(v['price'] / 0.60)) for v in teddy_variations)
+
+        parent_teddy = {
+            'id': '132063',
+            'slug': 'ugg-teddy',
+            'name': 'UGG TEDDY',
+            'brand': 'UGG',
+            'brandSlug': 'ugg',
+            'category': 'Взуття',
+            'categorySlug': 'shoes',
+            'gender': 'women',
+            'genderName': 'Жіночі',
+            'season': 'winter',
+            'seasonName': 'Зима',
+            'price': min_p,
+            'oldPrice': old_p,
+            'minPrice': min_p,
+            'maxPrice': max_p,
+            'costPrice': 1400,
+            'sku': '1065',
+            'material': 'Натуральна замша, натуральне хутро (овчина), плюшеве оздоблення Teddy, платформа EVA',
+            'country': "В'єтнам",
+            'sizes': all_td_sizes,
+            'sizeChart': [
+                {'size': s, 'cm': UGG_GRID.get(s, DEFAULT_WOMEN_GRID.get(s, '24.0')), 'available': True}
+                for s in all_td_sizes
+            ],
+            'inStock': True,
+            'isHit': True,
+            'images': teddy_variations[0]['images'] + [v['images'][0] for v in teddy_variations[1:] if v.get('images')],
+            'description': (
+                'Жіночі зимові уггі на платформі UGG TEDDY у трендовому затишному дизайні. '
+                'Культовий силует із м’яким плюшевим оздобленням Teddy поєднує вишуканий зимовий стиль та неперевершений комфорт: '
+                'верх із високоякісної натуральної замші, а всередині — щільне тепле натуральне хутро (овчина) '
+                'для надійного захисту від зимової прохолоди. '
+                'Легка амортизуюча підошва-платформа EVA ефективно ізолює стопу від холодної поверхні та дарує легкість при щоденному носінні. '
+                'Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. '
+                'Гарантія обміну або повернення — 14 днів.'
+            ),
+            'seo': {
+                'title': 'UGG TEDDY — купити жіночі зимові уггі на платформі в інтернет-магазині VEXARO',
+                'description': f'Замовляйте жіночі зимові уггі UGG TEDDY у кольорах Dark Chocolate, Ginger, Cream та Black за ціною від {min_p} ₴. Натуральна замша, овчина, платформа. Доставка Новою Поштою 1–2 дні, накладений платіж.'
+            },
+            'variations': teddy_variations
+        }
+        products = [parent_teddy] + other_products_14
+
     brand_map = defaultdict(lambda: {'name': '', 'slug': '', 'count': 0})
     season_map = defaultdict(lambda: {'name': '', 'slug': '', 'count': 0})
     gender_map = defaultdict(lambda: {'name': '', 'slug': '', 'count': 0})

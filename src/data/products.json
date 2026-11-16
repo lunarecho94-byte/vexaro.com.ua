@@ -9951,6 +9951,383 @@
     ]
   },
   {
+    "id": "132063",
+    "slug": "ugg-teddy",
+    "name": "UGG TEDDY",
+    "brand": "UGG",
+    "brandSlug": "ugg",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 1999,
+    "oldPrice": 4333,
+    "minPrice": 1999,
+    "maxPrice": 2600,
+    "costPrice": 1400,
+    "sku": "1065",
+    "material": "Натуральна замша, натуральне хутро (овчина), плюшеве оздоблення Teddy, платформа EVA",
+    "country": "В'єтнам",
+    "sizes": [
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "sizeChart": [
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": true
+      },
+      {
+        "size": "38",
+        "cm": "24.5",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      }
+    ],
+    "inStock": true,
+    "isHit": true,
+    "images": [
+      "/images/products/ugg-teddy-dark-chocolate/img-1.jpg",
+      "/images/products/ugg-teddy-ginger/img-1.jpg",
+      "/images/products/ugg-teddy-cream/img-1.jpg",
+      "/images/products/ugg-teddy-black/img-1.jpg"
+    ],
+    "description": "Жіночі зимові уггі на платформі UGG TEDDY у трендовому затишному дизайні. Культовий силует із м’яким плюшевим оздобленням Teddy поєднує вишуканий зимовий стиль та неперевершений комфорт: верх із високоякісної натуральної замші, а всередині — щільне тепле натуральне хутро (овчина) для надійного захисту від зимової прохолоди. Легка амортизуюча підошва-платформа EVA ефективно ізолює стопу від холодної поверхні та дарує легкість при щоденному носінні. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "UGG TEDDY — купити жіночі зимові уггі на платформі в інтернет-магазині VEXARO",
+      "description": "Замовляйте жіночі зимові уггі UGG TEDDY у кольорах Dark Chocolate, Ginger, Cream та Black за ціною від 1999 ₴. Натуральна замша, овчина, платформа. Доставка Новою Поштою 1–2 дні, накладений платіж."
+    },
+    "variations": [
+      {
+        "id": "132063",
+        "sku": "1065",
+        "color": "Dark Chocolate",
+        "colorSlug": "dark-chocolate",
+        "price": 1999,
+        "oldPrice": 3332,
+        "costPrice": 1499,
+        "sizes": [
+          "38",
+          "40",
+          "41"
+        ],
+        "sizeChart": [
+          {
+            "size": "36",
+            "cm": "23.0",
+            "available": false
+          },
+          {
+            "size": "37",
+            "cm": "23.5",
+            "available": false
+          },
+          {
+            "size": "38",
+            "cm": "24.5",
+            "available": true
+          },
+          {
+            "size": "39",
+            "cm": "25.0",
+            "available": false
+          },
+          {
+            "size": "40",
+            "cm": "25.5",
+            "available": true
+          },
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": true
+          },
+          {
+            "size": "42",
+            "cm": "26.5",
+            "available": false
+          },
+          {
+            "size": "43",
+            "cm": "27.5",
+            "available": false
+          },
+          {
+            "size": "44",
+            "cm": "28.0",
+            "available": false
+          },
+          {
+            "size": "45",
+            "cm": "28.5",
+            "available": false
+          },
+          {
+            "size": "46",
+            "cm": "29.5",
+            "available": false
+          }
+        ],
+        "images": [
+          "/images/products/ugg-teddy-dark-chocolate/img-1.jpg"
+        ],
+        "inStock": true,
+        "slug": "ugg-mini-platform-teddy-dark-chocolate-1065"
+      },
+      {
+        "id": "126147",
+        "sku": "1036",
+        "color": "Ginger",
+        "colorSlug": "ginger",
+        "price": 2600,
+        "oldPrice": 4333,
+        "costPrice": 2100,
+        "sizes": [
+          "37",
+          "38",
+          "39",
+          "40",
+          "41"
+        ],
+        "sizeChart": [
+          {
+            "size": "36",
+            "cm": "23.0",
+            "available": false
+          },
+          {
+            "size": "37",
+            "cm": "23.5",
+            "available": true
+          },
+          {
+            "size": "38",
+            "cm": "24.5",
+            "available": true
+          },
+          {
+            "size": "39",
+            "cm": "25.0",
+            "available": true
+          },
+          {
+            "size": "40",
+            "cm": "25.5",
+            "available": true
+          },
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": true
+          },
+          {
+            "size": "42",
+            "cm": "26.5",
+            "available": false
+          },
+          {
+            "size": "43",
+            "cm": "27.5",
+            "available": false
+          },
+          {
+            "size": "44",
+            "cm": "28.0",
+            "available": false
+          },
+          {
+            "size": "45",
+            "cm": "28.5",
+            "available": false
+          },
+          {
+            "size": "46",
+            "cm": "29.5",
+            "available": false
+          }
+        ],
+        "images": [
+          "/images/products/ugg-teddy-ginger/img-1.jpg"
+        ],
+        "inStock": true,
+        "slug": "ugg-ultra-mini-platform-teddy-ginger-1036"
+      },
+      {
+        "id": "126142",
+        "sku": "1035",
+        "color": "Cream",
+        "colorSlug": "cream",
+        "price": 1999,
+        "oldPrice": 3332,
+        "costPrice": 1499,
+        "sizes": [
+          "37",
+          "38",
+          "40",
+          "41"
+        ],
+        "sizeChart": [
+          {
+            "size": "36",
+            "cm": "23.0",
+            "available": false
+          },
+          {
+            "size": "37",
+            "cm": "23.5",
+            "available": true
+          },
+          {
+            "size": "38",
+            "cm": "24.5",
+            "available": true
+          },
+          {
+            "size": "39",
+            "cm": "25.0",
+            "available": false
+          },
+          {
+            "size": "40",
+            "cm": "25.5",
+            "available": true
+          },
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": true
+          },
+          {
+            "size": "42",
+            "cm": "26.5",
+            "available": false
+          },
+          {
+            "size": "43",
+            "cm": "27.5",
+            "available": false
+          },
+          {
+            "size": "44",
+            "cm": "28.0",
+            "available": false
+          },
+          {
+            "size": "45",
+            "cm": "28.5",
+            "available": false
+          },
+          {
+            "size": "46",
+            "cm": "29.5",
+            "available": false
+          }
+        ],
+        "images": [
+          "/images/products/ugg-teddy-cream/img-1.jpg"
+        ],
+        "inStock": true,
+        "slug": "ugg-ultra-mini-platform-teddy-cream-1035"
+      },
+      {
+        "id": "126140",
+        "sku": "1034",
+        "color": "Black",
+        "colorSlug": "black",
+        "price": 1999,
+        "oldPrice": 3332,
+        "costPrice": 1499,
+        "sizes": [
+          "38",
+          "40",
+          "41"
+        ],
+        "sizeChart": [
+          {
+            "size": "36",
+            "cm": "23.0",
+            "available": false
+          },
+          {
+            "size": "37",
+            "cm": "23.5",
+            "available": false
+          },
+          {
+            "size": "38",
+            "cm": "24.5",
+            "available": true
+          },
+          {
+            "size": "39",
+            "cm": "25.0",
+            "available": false
+          },
+          {
+            "size": "40",
+            "cm": "25.5",
+            "available": true
+          },
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": true
+          },
+          {
+            "size": "42",
+            "cm": "26.5",
+            "available": false
+          },
+          {
+            "size": "43",
+            "cm": "27.5",
+            "available": false
+          },
+          {
+            "size": "44",
+            "cm": "28.0",
+            "available": false
+          },
+          {
+            "size": "45",
+            "cm": "28.5",
+            "available": false
+          },
+          {
+            "size": "46",
+            "cm": "29.5",
+            "available": false
+          }
+        ],
+        "images": [
+          "/images/products/ugg-teddy-black/img-1.jpg"
+        ],
+        "inStock": true,
+        "slug": "ugg-ultra-mini-platform-teddy-black-1034"
+      }
+    ]
+  },
+  {
     "id": "122339",
     "slug": "adidas-campus-00s-white-black-khutro-r339",
     "name": "Adidas Campus 00s White Black (хутро)",
@@ -204950,97 +205327,6 @@
     }
   },
   {
-    "id": "132063",
-    "slug": "ugg-mini-platform-teddy-dark-chocolate-1065",
-    "name": "UGG MINI PLATFORM TEDDY DARK CHOCOLATE",
-    "brand": "UGG",
-    "brandSlug": "ugg",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 1999,
-    "oldPrice": 3332,
-    "costPrice": 1499,
-    "sku": "1065",
-    "material": "Натуральна замша, натуральне хутро",
-    "country": "Китай",
-    "sizes": [
-      "38",
-      "40",
-      "41"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "23.0",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.5",
-        "available": true
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": true
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/510eebb0-19ba-4db4-86c0-2107d47cce0b.jpeg"
-    ],
-    "description": "Модель: UGG MINI PLATFORM TEDDY DARK CHOCOLATE. Артикул: 1065. Матеріал: Натуральна замша, натуральне хутро. Сезон: Зима. Виробництво: Китай. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "UGG MINI PLATFORM TEDDY DARK CHOCOLATE (арт. 1065) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте UGG MINI PLATFORM TEDDY DARK CHOCOLATE (арт. 1065) за 1999 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "131912",
     "slug": "asics-gel-kahana-8-black-white-gore-tex-ac007",
     "name": "Asics Gel-Kahana 8 Black White Gore-Tex",
@@ -210843,282 +211129,6 @@
     "seo": {
       "title": "Nike P-6000 (арт. N00208) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Nike P-6000 (арт. N00208) за 2400 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "126147",
-    "slug": "ugg-ultra-mini-platform-teddy-ginger-1036",
-    "name": "UGG ULTRA MINI PLATFORM TEDDY GINGER",
-    "brand": "UGG",
-    "brandSlug": "ugg",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 2600,
-    "oldPrice": 4333,
-    "costPrice": 2100,
-    "sku": "1036",
-    "material": "Натуральна замша, натуральне хутро",
-    "country": "Китай",
-    "sizes": [
-      "37",
-      "38",
-      "39",
-      "40",
-      "41"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "23.0",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": true
-      },
-      {
-        "size": "38",
-        "cm": "24.5",
-        "available": true
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": true
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": true
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/44612746-a857-4619-895a-44a6a7b03f5c.jpeg"
-    ],
-    "description": "Модель: UGG ULTRA MINI PLATFORM TEDDY GINGER. Артикул: 1036. Матеріал: Натуральна замша, натуральне хутро. Сезон: Зима. Виробництво: Китай. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "UGG ULTRA MINI PLATFORM TEDDY GINGER (арт. 1036) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте UGG ULTRA MINI PLATFORM TEDDY GINGER (арт. 1036) за 2600 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "126142",
-    "slug": "ugg-ultra-mini-platform-teddy-cream-1035",
-    "name": "UGG ULTRA MINI PLATFORM TEDDY CREAM",
-    "brand": "UGG",
-    "brandSlug": "ugg",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 1999,
-    "oldPrice": 3332,
-    "costPrice": 1499,
-    "sku": "1035",
-    "material": "Натуральна замша, натуральне хутро",
-    "country": "Китай",
-    "sizes": [
-      "37",
-      "38",
-      "40",
-      "41"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "23.0",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": true
-      },
-      {
-        "size": "38",
-        "cm": "24.5",
-        "available": true
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": true
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/0ba0bb08-aac3-46bd-a77d-2d23f6794ffd.jpeg"
-    ],
-    "description": "Модель: UGG ULTRA MINI PLATFORM TEDDY CREAM. Артикул: 1035. Матеріал: Натуральна замша, натуральне хутро. Сезон: Зима. Виробництво: Китай. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "UGG ULTRA MINI PLATFORM TEDDY CREAM (арт. 1035) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте UGG ULTRA MINI PLATFORM TEDDY CREAM (арт. 1035) за 1999 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "126140",
-    "slug": "ugg-ultra-mini-platform-teddy-black-1034",
-    "name": "UGG ULTRA MINI PLATFORM TEDDY BLACK",
-    "brand": "UGG",
-    "brandSlug": "ugg",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 1999,
-    "oldPrice": 3332,
-    "costPrice": 1499,
-    "sku": "1034",
-    "material": "Натуральна замша, натуральне хутро",
-    "country": "Китай",
-    "sizes": [
-      "38",
-      "40",
-      "41"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "23.0",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.5",
-        "available": true
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": true
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/dc0f80af-3cde-4561-bc4b-65af473c9281.jpeg"
-    ],
-    "description": "Модель: UGG ULTRA MINI PLATFORM TEDDY BLACK. Артикул: 1034. Матеріал: Натуральна замша, натуральне хутро. Сезон: Зима. Виробництво: Китай. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "UGG ULTRA MINI PLATFORM TEDDY BLACK (арт. 1034) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте UGG ULTRA MINI PLATFORM TEDDY BLACK (арт. 1034) за 1999 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
