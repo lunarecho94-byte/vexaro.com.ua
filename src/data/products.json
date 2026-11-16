@@ -706,8 +706,8 @@
       "/images/products/ugg-lowmel-sneakers-burnt-cedar-premium-1685/img-1.jpg",
       "/images/products/ugg-lowmel-sneakers-pink-premium-1686/img-1.jpg",
       "/images/products/ugg-lowmel-sneakers-leopard-premium-1687/img-1.jpg",
-      "/images/products/ugg-lowmel-sneaker-black-2393/img-1.jpg",
-      "https://easydrop.one/media/uploads/images/base/789a0d38-8867-4394-8b9e-ff15511f3173.jpeg"
+      "/images/products/ugg-lowmel-sneakers-meadow-premium-1712/img-1.jpg",
+      "/images/products/ugg-lowmel-sneaker-black-2393/img-1.jpg"
     ],
     "description": "Жіночі зимові кросівки UGG LOWMEL SNEAKERS у преміальному виконанні. Модель поєднує фірмовий комфорт UGG з силуетом міських кросівок: верх із якісної натуральної замші, всередині — густе тепле натуральне хутро (овчина) для надійного захисту від зимових морозів. Потовщена амортизуюча підошва, масивні акцентні шнурки та широкий вибір забарвлень під будь-який гардероб. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
     "seo": {
@@ -1531,6 +1531,88 @@
         "slug": "ugg-lowmel-sneakers-leopard-premium-1687"
       },
       {
+        "id": "255611",
+        "sku": "1712",
+        "color": "MEADOW",
+        "colorSlug": "meadow",
+        "price": 4300,
+        "oldPrice": 7167,
+        "costPrice": 3800,
+        "sizes": [
+          "36",
+          "37",
+          "38",
+          "39",
+          "40",
+          "41"
+        ],
+        "sizeChart": [
+          {
+            "size": "36",
+            "cm": "23.0",
+            "available": true
+          },
+          {
+            "size": "37",
+            "cm": "23.5",
+            "available": true
+          },
+          {
+            "size": "38",
+            "cm": "24.5",
+            "available": true
+          },
+          {
+            "size": "39",
+            "cm": "25.0",
+            "available": true
+          },
+          {
+            "size": "40",
+            "cm": "25.5",
+            "available": true
+          },
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": true
+          },
+          {
+            "size": "42",
+            "cm": "26.5",
+            "available": false
+          },
+          {
+            "size": "43",
+            "cm": "27.5",
+            "available": false
+          },
+          {
+            "size": "44",
+            "cm": "28.0",
+            "available": false
+          },
+          {
+            "size": "45",
+            "cm": "28.5",
+            "available": false
+          },
+          {
+            "size": "46",
+            "cm": "29.5",
+            "available": false
+          }
+        ],
+        "images": [
+          "/images/products/ugg-lowmel-sneakers-meadow-premium-1712/img-1.jpg",
+          "/images/products/ugg-lowmel-sneakers-meadow-premium-1712/img-2.jpg",
+          "/images/products/ugg-lowmel-sneakers-meadow-premium-1712/img-3.jpg",
+          "/images/products/ugg-lowmel-sneakers-meadow-premium-1712/img-4.jpg"
+        ],
+        "inStock": true,
+        "slug": "ugg-lowmel-sneakers-meadow-premium-1712"
+      },
+      {
         "id": "199671",
         "sku": "2393",
         "color": "BLACK",
@@ -1605,85 +1687,6 @@
         ],
         "inStock": true,
         "slug": "ugg-lowmel-sneaker-black-2393"
-      },
-      {
-        "id": "255611",
-        "sku": "1712",
-        "color": "MEADOW",
-        "colorSlug": "meadow",
-        "price": 4300,
-        "oldPrice": 7167,
-        "costPrice": 3800,
-        "sizes": [
-          "36",
-          "37",
-          "38",
-          "39",
-          "40",
-          "41"
-        ],
-        "sizeChart": [
-          {
-            "size": "36",
-            "cm": "23.0",
-            "available": true
-          },
-          {
-            "size": "37",
-            "cm": "23.5",
-            "available": true
-          },
-          {
-            "size": "38",
-            "cm": "24.5",
-            "available": true
-          },
-          {
-            "size": "39",
-            "cm": "25.0",
-            "available": true
-          },
-          {
-            "size": "40",
-            "cm": "25.5",
-            "available": true
-          },
-          {
-            "size": "41",
-            "cm": "26.0",
-            "available": true
-          },
-          {
-            "size": "42",
-            "cm": "26.5",
-            "available": false
-          },
-          {
-            "size": "43",
-            "cm": "27.5",
-            "available": false
-          },
-          {
-            "size": "44",
-            "cm": "28.0",
-            "available": false
-          },
-          {
-            "size": "45",
-            "cm": "28.5",
-            "available": false
-          },
-          {
-            "size": "46",
-            "cm": "29.5",
-            "available": false
-          }
-        ],
-        "images": [
-          "https://easydrop.one/media/uploads/images/base/789a0d38-8867-4394-8b9e-ff15511f3173.jpeg"
-        ],
-        "inStock": true,
-        "slug": "ugg-lowmel-sneakers-meadow-premium-1712"
       }
     ]
   },
