@@ -2973,6 +2973,129 @@ def main():
         }
         products = [parent_tazelle] + other_products_8
 
+    # Group UGG Classic Mini Lace-Up variations into a single parent product
+    lace_up_variations = []
+    other_products_9 = []
+    lace_up_cfg = {
+        '194712': {
+            'sku': 'U0580',
+            'color': 'Beige',
+            'colorSlug': 'beige',
+            'price': 5000,
+            'oldPrice': 8333,
+            'local_dir': 'ugg-classic-mini-lace-up-beige',
+            'order': 0,
+        },
+        '194711': {
+            'sku': 'U0565',
+            'color': 'Black',
+            'colorSlug': 'black',
+            'price': 5000,
+            'oldPrice': 8333,
+            'local_dir': 'ugg-classic-mini-lace-up-black',
+            'order': 1,
+        },
+    }
+    sku_to_pid_lace_up = {v['sku']: k for k, v in lace_up_cfg.items()}
+
+    for p in products:
+        pname = p.get('name', '')
+        sku_clean = str(p.get('sku', '')).strip().upper()
+        pid = str(p.get('id', '')).strip()
+
+        matched = None
+        if pid in lace_up_cfg:
+            matched = lace_up_cfg[pid]
+        elif 'ugg' in pname.lower() and ('lace-up' in pname.lower() or 'lace up' in pname.lower()) and sku_clean in sku_to_pid_lace_up:
+            matched = lace_up_cfg[sku_to_pid_lace_up[sku_clean]]
+        elif 'classic mini lace-up' in pname.lower() or 'classic mini lace up' in pname.lower():
+            for k_id, cfg in lace_up_cfg.items():
+                if cfg['color'].lower() in pname.lower() or cfg['sku'].lower() in pname.lower():
+                    matched = cfg
+                    break
+
+        if matched:
+            if any(v['sku'] == matched['sku'] for v in lace_up_variations):
+                continue
+
+            var_imgs = p.get('images', [])
+            loc_path = os.path.join(PUBLIC_DIR, 'images', 'products', matched['local_dir'], 'img-1.jpg')
+            if os.path.exists(loc_path):
+                var_imgs = [f"/images/products/{matched['local_dir']}/img-1.jpg"]
+
+            lace_up_variations.append({
+                'id': str(p.get('id', '')),
+                'sku': matched['sku'],
+                'color': matched['color'],
+                'colorSlug': matched['colorSlug'],
+                'price': matched['price'],
+                'oldPrice': matched['oldPrice'],
+                'costPrice': p.get('costPrice', 3500),
+                'sizes': p.get('sizes', []),
+                'sizeChart': p.get('sizeChart', []),
+                'images': var_imgs,
+                'inStock': p.get('inStock', True),
+                'slug': p.get('slug', '')
+            })
+        else:
+            other_products_9.append(p)
+
+    if lace_up_variations:
+        preferred_order_lu = {'U0580': 0, 'U0565': 1}
+        lace_up_variations.sort(key=lambda v: preferred_order_lu.get(v.get('sku'), 99))
+        all_lu_sizes = sorted(
+            list(set(s for v in lace_up_variations for s in v['sizes'])),
+            key=lambda s: float(s.replace(',', '.')) if s.replace(',', '.').replace('.', '', 1).isdigit() else 999
+        )
+        min_p = min(v['price'] for v in lace_up_variations)
+        max_p = max(v['price'] for v in lace_up_variations)
+        old_p = max(v.get('oldPrice') or int(round(v['price'] / 0.60)) for v in lace_up_variations)
+
+        parent_lace_up = {
+            'id': '194712',
+            'slug': 'ugg-classic-mini-lace-up',
+            'name': 'UGG Classic Mini Lace-Up',
+            'brand': 'UGG',
+            'brandSlug': 'ugg',
+            'category': 'Взуття',
+            'categorySlug': 'shoes',
+            'gender': 'men',
+            'genderName': 'Чоловічі',
+            'season': 'winter',
+            'seasonName': 'Зима',
+            'price': min_p,
+            'oldPrice': old_p,
+            'minPrice': min_p,
+            'maxPrice': max_p,
+            'costPrice': 3500,
+            'sku': 'U0580',
+            'material': 'Натуральна замша, натуральне хутро (овчина)',
+            'country': "В'єтнам",
+            'sizes': all_lu_sizes,
+            'sizeChart': [
+                {'size': s, 'cm': UGG_GRID.get(s, DEFAULT_MEN_GRID.get(s, '27.0')), 'available': True}
+                for s in all_lu_sizes
+            ],
+            'inStock': True,
+            'isHit': True,
+            'images': lace_up_variations[0]['images'] + [v['images'][0] for v in lace_up_variations[1:] if v.get('images')],
+            'description': (
+                'Чоловічі зимові уггі на шнурівці UGG Classic Mini Lace-Up у преміальному виконанні. '
+                'Культовий низький силует Classic Mini, доповнений практичною шнурівкою для ідеальної фіксації по стопі: '
+                'верх із високоякісної натуральної водовідштовхувальної замші, всередині — густе тепле натуральне хутро (овчина) '
+                'для надійного захисту від зимових морозів. '
+                'Легка амортизуюча підошва Treadlite забезпечує відмінне зчеплення зі слизькими поверхнями та комфорт при щоденному носінні. '
+                'Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. '
+                'Гарантія обміну або повернення — 14 днів.'
+            ),
+            'seo': {
+                'title': 'UGG Classic Mini Lace-Up — купити чоловічі зимові уггі на шнурівці в інтернет-магазині VEXARO',
+                'description': f'Замовляйте чоловічі зимові уггі на шнурівці UGG Classic Mini Lace-Up у кольорах Beige та Black за {min_p} ₴. Натуральна замша та овчина. Доставка Новою Поштою 1–2 дні, накладений платіж.'
+            },
+            'variations': lace_up_variations
+        }
+        products = [parent_lace_up] + other_products_9
+
     brand_map = defaultdict(lambda: {'name': '', 'slug': '', 'count': 0})
     season_map = defaultdict(lambda: {'name': '', 'slug': '', 'count': 0})
     gender_map = defaultdict(lambda: {'name': '', 'slug': '', 'count': 0})
