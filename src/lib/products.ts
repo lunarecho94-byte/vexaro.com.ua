@@ -480,6 +480,34 @@ export function getProductPriority(product: { id: string; name: string; brandSlu
   return 0;
 }
 
+export function getAvailableColorsCount(p: Product): number {
+  if (p.variations && p.variations.length > 0) {
+    const active = p.variations.filter(
+      (v) => v.inStock !== false && (!v.sizes || v.sizes.length > 0)
+    );
+    return active.length > 0 ? active.length : p.variations.length;
+  }
+  return p.inStock !== false ? 1 : 0;
+}
+
+export function isUggFilterActive(params: CatalogQueryParams, filtered: Product[]): boolean {
+  if (params.brand) {
+    const brands = params.brand.toLowerCase().split(',').map((b) => b.trim());
+    if (brands.includes('ugg')) return true;
+  }
+  if (params.category) {
+    const cats = params.category.toLowerCase().split(',').map((c) => c.trim());
+    if (cats.includes('ugg')) return true;
+  }
+  if (params.bestseller && params.bestseller.toLowerCase().trim() === 'ugg') {
+    return true;
+  }
+  if (filtered.length > 0 && filtered.every((p) => p.brandSlug.toLowerCase() === 'ugg')) {
+    return true;
+  }
+  return false;
+}
+
 export async function getProducts(params: CatalogQueryParams = {}): Promise<CatalogResponse> {
   ensureLoaded();
   const page = Math.max(1, Number(params.page) || 1);
@@ -663,17 +691,24 @@ export async function getProducts(params: CatalogQueryParams = {}): Promise<Cata
   };
 
   // Sorting:
+  const isUggActive = isUggFilterActive(params, filtered);
+
   if (params.sort === 'price_asc') {
     filtered = [...filtered].sort((a, b) => a.price - b.price);
   } else if (params.sort === 'price_desc') {
     filtered = [...filtered].sort((a, b) => b.price - a.price);
   } else if (params.sort === 'popular') {
-    // 'popular' -> search relevance first (if searching), then pinned items, prioritize top iconic models, then newest
+    // 'popular' -> search relevance first (if searching), UGG colors count (if UGG active), pinned items, top iconic models, then newest
     filtered = [...filtered].sort((a, b) => {
       if (isSearchActive) {
         const sA = getSearchRelevance(a);
         const sB = getSearchRelevance(b);
         if (sB !== sA) return sB - sA;
+      }
+      if (isUggActive) {
+        const cA = getAvailableColorsCount(a);
+        const cB = getAvailableColorsCount(b);
+        if (cB !== cA) return cB - cA;
       }
       const pinA = getPinRank(a);
       const pinB = getPinRank(b);
@@ -684,12 +719,17 @@ export async function getProducts(params: CatalogQueryParams = {}): Promise<Cata
       return (Number(b.id) || 0) - (Number(a.id) || 0);
     });
   } else {
-    // 'newest' (default) -> search relevance first (if searching), then pinned items, then newest arrivals by ID descending
+    // 'newest' (default) -> search relevance first (if searching), UGG colors count (if UGG active), pinned items, then newest arrivals by ID descending
     filtered = [...filtered].sort((a, b) => {
       if (isSearchActive) {
         const sA = getSearchRelevance(a);
         const sB = getSearchRelevance(b);
         if (sB !== sA) return sB - sA;
+      }
+      if (isUggActive) {
+        const cA = getAvailableColorsCount(a);
+        const cB = getAvailableColorsCount(b);
+        if (cB !== cA) return cB - cA;
       }
       const pinA = getPinRank(a);
       const pinB = getPinRank(b);
