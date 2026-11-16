@@ -8106,6 +8106,230 @@
     ]
   },
   {
+    "id": "194712",
+    "slug": "ugg-classic-mini-lace-up",
+    "name": "UGG Classic Mini Lace-Up",
+    "brand": "UGG",
+    "brandSlug": "ugg",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "men",
+    "genderName": "Чоловічі",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 5000,
+    "oldPrice": 8333,
+    "minPrice": 5000,
+    "maxPrice": 5000,
+    "costPrice": 3500,
+    "sku": "U0580",
+    "material": "Натуральна замша, натуральне хутро (овчина)",
+    "country": "В'єтнам",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "sizeChart": [
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": true
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": true
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": true
+      },
+      {
+        "size": "45",
+        "cm": "29.0",
+        "available": true
+      }
+    ],
+    "inStock": true,
+    "isHit": true,
+    "images": [
+      "/images/products/ugg-classic-mini-lace-up-beige/img-1.jpg",
+      "/images/products/ugg-classic-mini-lace-up-black/img-1.jpg"
+    ],
+    "description": "Чоловічі зимові уггі на шнурівці UGG Classic Mini Lace-Up у преміальному виконанні. Культовий низький силует Classic Mini, доповнений практичною шнурівкою для ідеальної фіксації по стопі: верх із високоякісної натуральної водовідштовхувальної замші, всередині — густе тепле натуральне хутро (овчина) для надійного захисту від зимових морозів. Легка амортизуюча підошва Treadlite забезпечує відмінне зчеплення зі слизькими поверхнями та комфорт при щоденному носінні. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "UGG Classic Mini Lace-Up — купити чоловічі зимові уггі на шнурівці в інтернет-магазині VEXARO",
+      "description": "Замовляйте чоловічі зимові уггі на шнурівці UGG Classic Mini Lace-Up у кольорах Beige та Black за 5000 ₴. Натуральна замша та овчина. Доставка Новою Поштою 1–2 дні, накладений платіж."
+    },
+    "variations": [
+      {
+        "id": "194712",
+        "sku": "U0580",
+        "color": "Beige",
+        "colorSlug": "beige",
+        "price": 5000,
+        "oldPrice": 8333,
+        "costPrice": 4500,
+        "sizes": [
+          "41",
+          "42",
+          "43",
+          "44",
+          "45"
+        ],
+        "sizeChart": [
+          {
+            "size": "36",
+            "cm": "23.0",
+            "available": false
+          },
+          {
+            "size": "37",
+            "cm": "23.5",
+            "available": false
+          },
+          {
+            "size": "38",
+            "cm": "24.5",
+            "available": false
+          },
+          {
+            "size": "39",
+            "cm": "25.0",
+            "available": false
+          },
+          {
+            "size": "40",
+            "cm": "25.5",
+            "available": false
+          },
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": true
+          },
+          {
+            "size": "42",
+            "cm": "26.5",
+            "available": true
+          },
+          {
+            "size": "43",
+            "cm": "27.5",
+            "available": true
+          },
+          {
+            "size": "44",
+            "cm": "28.0",
+            "available": true
+          },
+          {
+            "size": "45",
+            "cm": "28.5",
+            "available": true
+          },
+          {
+            "size": "46",
+            "cm": "29.5",
+            "available": false
+          }
+        ],
+        "images": [
+          "/images/products/ugg-classic-mini-lace-up-beige/img-1.jpg"
+        ],
+        "inStock": true,
+        "slug": "ugg-classic-mini-lace-up-beige-u0580"
+      },
+      {
+        "id": "194711",
+        "sku": "U0565",
+        "color": "Black",
+        "colorSlug": "black",
+        "price": 5000,
+        "oldPrice": 8333,
+        "costPrice": 4500,
+        "sizes": [
+          "41",
+          "42",
+          "43",
+          "44",
+          "45"
+        ],
+        "sizeChart": [
+          {
+            "size": "36",
+            "cm": "23.0",
+            "available": false
+          },
+          {
+            "size": "37",
+            "cm": "23.5",
+            "available": false
+          },
+          {
+            "size": "38",
+            "cm": "24.5",
+            "available": false
+          },
+          {
+            "size": "39",
+            "cm": "25.0",
+            "available": false
+          },
+          {
+            "size": "40",
+            "cm": "25.5",
+            "available": false
+          },
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": true
+          },
+          {
+            "size": "42",
+            "cm": "26.5",
+            "available": true
+          },
+          {
+            "size": "43",
+            "cm": "27.5",
+            "available": true
+          },
+          {
+            "size": "44",
+            "cm": "28.0",
+            "available": true
+          },
+          {
+            "size": "45",
+            "cm": "28.5",
+            "available": true
+          },
+          {
+            "size": "46",
+            "cm": "29.5",
+            "available": false
+          }
+        ],
+        "images": [
+          "/images/products/ugg-classic-mini-lace-up-black/img-1.jpg"
+        ],
+        "inStock": true,
+        "slug": "ugg-classic-mini-lace-up-black-u0565"
+      }
+    ]
+  },
+  {
     "id": "184856",
     "slug": "new-balance-1906r-sapphire-blue-m1906rdn-1692",
     "name": "New Balance 1906R Sapphire Blue M1906RDN",
@@ -141885,192 +142109,6 @@
     "seo": {
       "title": "AIR JORDAN RETRO 1 | SAIL / TAN premium (1 (арт. 1407) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте AIR JORDAN RETRO 1 | SAIL / TAN premium (1 (арт. 1407) за 3100 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "194712",
-    "slug": "ugg-classic-mini-lace-up-beige-u0580",
-    "name": "UGG Classic Mini Lace-Up Beige",
-    "brand": "UGG",
-    "brandSlug": "ugg",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 5000,
-    "oldPrice": 8333,
-    "costPrice": 4500,
-    "sku": "U0580",
-    "material": "Замша,хутро",
-    "country": "В'єтнам",
-    "sizes": [
-      "41",
-      "42",
-      "43",
-      "44",
-      "45"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "23.0",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": true
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": true
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": true
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": true
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/df8e6433-d914-41a4-b043-5dc6a06415b4.jpg"
-    ],
-    "description": "Модель: UGG Classic Mini Lace-Up Beige. Артикул: U0580. Матеріал: Замша,хутро. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "UGG Classic Mini Lace-Up Beige (арт. U0580) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте UGG Classic Mini Lace-Up Beige (арт. U0580) за 5000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "194711",
-    "slug": "ugg-classic-mini-lace-up-black-u0565",
-    "name": "UGG Classic Mini Lace-Up Black",
-    "brand": "UGG",
-    "brandSlug": "ugg",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 5000,
-    "oldPrice": 8333,
-    "costPrice": 4500,
-    "sku": "U0565",
-    "material": "Замша,хутро",
-    "country": "В'єтнам",
-    "sizes": [
-      "41",
-      "42",
-      "43",
-      "44",
-      "45"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "23.0",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": true
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": true
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": true
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": true
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/d9394635-a8d7-4f52-83da-800b9a73a994.jpg"
-    ],
-    "description": "Модель: UGG Classic Mini Lace-Up Black. Артикул: U0565. Матеріал: Замша,хутро. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "UGG Classic Mini Lace-Up Black (арт. U0565) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте UGG Classic Mini Lace-Up Black (арт. U0565) за 5000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {

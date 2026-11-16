@@ -1,5 +1,5 @@
 {
-  "total": 2846,
+  "total": 2845,
   "brands": [
     {
       "name": "Nike",
@@ -24,7 +24,7 @@
     {
       "name": "UGG",
       "slug": "ugg",
-      "count": 139
+      "count": 138
     },
     {
       "name": "Інші бренди",
@@ -171,7 +171,7 @@
     {
       "name": "Взуття",
       "slug": "shoes",
-      "count": 2846
+      "count": 2845
     }
   ],
   "genders": [
@@ -183,7 +183,7 @@
     {
       "name": "Чоловічі",
       "slug": "men",
-      "count": 967
+      "count": 966
     },
     {
       "name": "Унісекс",
@@ -200,7 +200,7 @@
     {
       "name": "Зима",
       "slug": "winter",
-      "count": 311
+      "count": 310
     }
   ],
   "sizes": [
