@@ -7181,6 +7181,622 @@
     ]
   },
   {
+    "id": "195975",
+    "slug": "ugg-chelsea",
+    "name": "UGG CHELSEA",
+    "brand": "UGG",
+    "brandSlug": "ugg",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 1999,
+    "oldPrice": 8000,
+    "minPrice": 1999,
+    "maxPrice": 4800,
+    "costPrice": 1500,
+    "sku": "1415",
+    "material": "Натуральна замша, натуральна шкіра, овчина",
+    "country": "В'єтнам",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": true
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": true
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      }
+    ],
+    "inStock": true,
+    "isHit": true,
+    "images": [
+      "/images/products/ugg-chelsea-mini-platform-grey/img-1.jpg",
+      "/images/products/ugg-chelsea-mini-platform-chestnut/img-1.jpg",
+      "/images/products/ugg-chelsea-black-leather/img-1.jpg",
+      "/images/products/ugg-chelsea-platform-cream/img-1.jpg",
+      "/images/products/ugg-chelsea-platform-ginger/img-1.jpg",
+      "/images/products/ugg-neumel-chelsea-chocolate-brown/img-1.jpg",
+      "/images/products/ugg-neumel-chelsea-beige/img-1.jpg"
+    ],
+    "description": "Жіночі зимові черевики UGG CHELSEA у фірмовому силуеті челсі з еластичними бічними вставками та теплою підкладкою з натурального хутра. Лінійка поєднує класичні шкіряні та замшеві моделі на платформі, а також версії Neumel Chelsea. Верх із високоякісної замші та шкіри, густе затишне хутро (овчина) всередині, потовщена легка підошва для надійного захисту від зимового холоду та максимального комфорту при щоденному носінні. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "UGG CHELSEA — купити жіночі зимові черевики челсі в інтернет-магазині VEXARO",
+      "description": "Замовляйте зимові черевики UGG CHELSEA у різних кольорах та модифікаціях від 1999 ₴. Натуральна замша, шкіра та тепле хутро. Доставка Новою Поштою 1–2 дні, накладений платіж."
+    },
+    "variations": [
+      {
+        "id": "195975",
+        "sku": "1415",
+        "color": "Mini Platform Grey",
+        "colorSlug": "mini-platform-grey",
+        "price": 4000,
+        "oldPrice": 6667,
+        "costPrice": 3500,
+        "sizes": [
+          "38",
+          "39",
+          "41"
+        ],
+        "sizeChart": [
+          {
+            "size": "36",
+            "cm": "23.0",
+            "available": false
+          },
+          {
+            "size": "37",
+            "cm": "23.5",
+            "available": false
+          },
+          {
+            "size": "38",
+            "cm": "24.5",
+            "available": true
+          },
+          {
+            "size": "39",
+            "cm": "25.0",
+            "available": true
+          },
+          {
+            "size": "40",
+            "cm": "25.5",
+            "available": false
+          },
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": true
+          },
+          {
+            "size": "42",
+            "cm": "26.5",
+            "available": false
+          },
+          {
+            "size": "43",
+            "cm": "27.5",
+            "available": false
+          },
+          {
+            "size": "44",
+            "cm": "28.0",
+            "available": false
+          },
+          {
+            "size": "45",
+            "cm": "28.5",
+            "available": false
+          },
+          {
+            "size": "46",
+            "cm": "29.5",
+            "available": false
+          }
+        ],
+        "images": [
+          "/images/products/ugg-chelsea-mini-platform-grey/img-1.jpg"
+        ],
+        "inStock": true,
+        "slug": "ugg-chelsea-mini-platform-grey-premium-5-1415"
+      },
+      {
+        "id": "195974",
+        "sku": "1073",
+        "color": "Mini Platform Chestnut",
+        "colorSlug": "mini-platform-chestnut",
+        "price": 2799,
+        "oldPrice": 4665,
+        "costPrice": 2299,
+        "sizes": [
+          "38",
+          "40",
+          "41"
+        ],
+        "sizeChart": [
+          {
+            "size": "36",
+            "cm": "23.0",
+            "available": false
+          },
+          {
+            "size": "37",
+            "cm": "23.5",
+            "available": false
+          },
+          {
+            "size": "38",
+            "cm": "24.5",
+            "available": true
+          },
+          {
+            "size": "39",
+            "cm": "25.0",
+            "available": false
+          },
+          {
+            "size": "40",
+            "cm": "25.5",
+            "available": true
+          },
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": true
+          },
+          {
+            "size": "42",
+            "cm": "26.5",
+            "available": false
+          },
+          {
+            "size": "43",
+            "cm": "27.5",
+            "available": false
+          },
+          {
+            "size": "44",
+            "cm": "28.0",
+            "available": false
+          },
+          {
+            "size": "45",
+            "cm": "28.5",
+            "available": false
+          },
+          {
+            "size": "46",
+            "cm": "29.5",
+            "available": false
+          }
+        ],
+        "images": [
+          "/images/products/ugg-chelsea-mini-platform-chestnut/img-1.jpg"
+        ],
+        "inStock": true,
+        "slug": "ugg-chelsea-mini-platform-chestnut-premium-5-1073"
+      },
+      {
+        "id": "190451",
+        "sku": "1373",
+        "color": "Black Leather",
+        "colorSlug": "black-leather",
+        "price": 3000,
+        "oldPrice": 5000,
+        "costPrice": 2500,
+        "sizes": [
+          "39",
+          "40",
+          "41"
+        ],
+        "sizeChart": [
+          {
+            "size": "36",
+            "cm": "23.0",
+            "available": false
+          },
+          {
+            "size": "37",
+            "cm": "23.5",
+            "available": false
+          },
+          {
+            "size": "38",
+            "cm": "24.5",
+            "available": false
+          },
+          {
+            "size": "39",
+            "cm": "25.0",
+            "available": true
+          },
+          {
+            "size": "40",
+            "cm": "25.5",
+            "available": true
+          },
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": true
+          },
+          {
+            "size": "42",
+            "cm": "26.5",
+            "available": false
+          },
+          {
+            "size": "43",
+            "cm": "27.5",
+            "available": false
+          },
+          {
+            "size": "44",
+            "cm": "28.0",
+            "available": false
+          },
+          {
+            "size": "45",
+            "cm": "28.5",
+            "available": false
+          },
+          {
+            "size": "46",
+            "cm": "29.5",
+            "available": false
+          }
+        ],
+        "images": [
+          "/images/products/ugg-chelsea-black-leather/img-1.jpg"
+        ],
+        "inStock": true,
+        "slug": "ugg-chelsea-black-leather-1373"
+      },
+      {
+        "id": "125596",
+        "sku": "1029",
+        "color": "Platform Cream",
+        "colorSlug": "platform-cream",
+        "price": 1999,
+        "oldPrice": 3332,
+        "costPrice": 1499,
+        "sizes": [
+          "37",
+          "38",
+          "40",
+          "41"
+        ],
+        "sizeChart": [
+          {
+            "size": "36",
+            "cm": "23.0",
+            "available": false
+          },
+          {
+            "size": "37",
+            "cm": "23.5",
+            "available": true
+          },
+          {
+            "size": "38",
+            "cm": "24.5",
+            "available": true
+          },
+          {
+            "size": "39",
+            "cm": "25.0",
+            "available": false
+          },
+          {
+            "size": "40",
+            "cm": "25.5",
+            "available": true
+          },
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": true
+          },
+          {
+            "size": "42",
+            "cm": "26.5",
+            "available": false
+          },
+          {
+            "size": "43",
+            "cm": "27.5",
+            "available": false
+          },
+          {
+            "size": "44",
+            "cm": "28.0",
+            "available": false
+          },
+          {
+            "size": "45",
+            "cm": "28.5",
+            "available": false
+          },
+          {
+            "size": "46",
+            "cm": "29.5",
+            "available": false
+          }
+        ],
+        "images": [
+          "/images/products/ugg-chelsea-platform-cream/img-1.jpg"
+        ],
+        "inStock": true,
+        "slug": "ugg-chelsea-platform-cream-1029"
+      },
+      {
+        "id": "125595",
+        "sku": "1028",
+        "color": "Platform Ginger",
+        "colorSlug": "platform-ginger",
+        "price": 1999,
+        "oldPrice": 3332,
+        "costPrice": 1499,
+        "sizes": [
+          "38",
+          "40",
+          "41"
+        ],
+        "sizeChart": [
+          {
+            "size": "36",
+            "cm": "23.0",
+            "available": false
+          },
+          {
+            "size": "37",
+            "cm": "23.5",
+            "available": false
+          },
+          {
+            "size": "38",
+            "cm": "24.5",
+            "available": true
+          },
+          {
+            "size": "39",
+            "cm": "25.0",
+            "available": false
+          },
+          {
+            "size": "40",
+            "cm": "25.5",
+            "available": true
+          },
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": true
+          },
+          {
+            "size": "42",
+            "cm": "26.5",
+            "available": false
+          },
+          {
+            "size": "43",
+            "cm": "27.5",
+            "available": false
+          },
+          {
+            "size": "44",
+            "cm": "28.0",
+            "available": false
+          },
+          {
+            "size": "45",
+            "cm": "28.5",
+            "available": false
+          },
+          {
+            "size": "46",
+            "cm": "29.5",
+            "available": false
+          }
+        ],
+        "images": [
+          "/images/products/ugg-chelsea-platform-ginger/img-1.jpg"
+        ],
+        "inStock": true,
+        "slug": "ugg-chelsea-platform-ginger-1028"
+      },
+      {
+        "id": "257285",
+        "sku": "3093",
+        "color": "Neumel Chocolate Brown",
+        "colorSlug": "neumel-chocolate-brown",
+        "price": 4800,
+        "oldPrice": 8000,
+        "costPrice": 4300,
+        "sizes": [
+          "36",
+          "37",
+          "38",
+          "39",
+          "40"
+        ],
+        "sizeChart": [
+          {
+            "size": "36",
+            "cm": "23.0",
+            "available": true
+          },
+          {
+            "size": "37",
+            "cm": "23.5",
+            "available": true
+          },
+          {
+            "size": "38",
+            "cm": "24.5",
+            "available": true
+          },
+          {
+            "size": "39",
+            "cm": "25.0",
+            "available": true
+          },
+          {
+            "size": "40",
+            "cm": "25.5",
+            "available": true
+          },
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": false
+          },
+          {
+            "size": "42",
+            "cm": "26.5",
+            "available": false
+          },
+          {
+            "size": "43",
+            "cm": "27.5",
+            "available": false
+          },
+          {
+            "size": "44",
+            "cm": "28.0",
+            "available": false
+          },
+          {
+            "size": "45",
+            "cm": "28.5",
+            "available": false
+          },
+          {
+            "size": "46",
+            "cm": "29.5",
+            "available": false
+          }
+        ],
+        "images": [
+          "/images/products/ugg-neumel-chelsea-chocolate-brown/img-1.jpg"
+        ],
+        "inStock": true,
+        "slug": "ugg-neumel-chelsea-platform-chocolate-brown-3093"
+      },
+      {
+        "id": "201126",
+        "sku": "2401",
+        "color": "Neumel Beige",
+        "colorSlug": "neumel-beige",
+        "price": 3600,
+        "oldPrice": 6000,
+        "costPrice": 3100,
+        "sizes": [
+          "36",
+          "37",
+          "38",
+          "40",
+          "41"
+        ],
+        "sizeChart": [
+          {
+            "size": "36",
+            "cm": "23.0",
+            "available": true
+          },
+          {
+            "size": "37",
+            "cm": "23.5",
+            "available": true
+          },
+          {
+            "size": "38",
+            "cm": "24.5",
+            "available": true
+          },
+          {
+            "size": "39",
+            "cm": "25.0",
+            "available": false
+          },
+          {
+            "size": "40",
+            "cm": "25.5",
+            "available": true
+          },
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": true
+          },
+          {
+            "size": "42",
+            "cm": "26.5",
+            "available": false
+          },
+          {
+            "size": "43",
+            "cm": "27.5",
+            "available": false
+          },
+          {
+            "size": "44",
+            "cm": "28.0",
+            "available": false
+          },
+          {
+            "size": "45",
+            "cm": "28.5",
+            "available": false
+          },
+          {
+            "size": "46",
+            "cm": "29.5",
+            "available": false
+          }
+        ],
+        "images": [
+          "/images/products/ugg-neumel-chelsea-beige/img-1.jpg"
+        ],
+        "inStock": true,
+        "slug": "ugg-neumel-chelsea-platform-beige-2401"
+      }
+    ]
+  },
+  {
     "id": "184856",
     "slug": "new-balance-1906r-sapphire-blue-m1906rdn-1692",
     "name": "New Balance 1906R Sapphire Blue M1906RDN",
@@ -11207,99 +11823,6 @@
     "seo": {
       "title": "UGG ULTRA MINI | CHESTNUT premium (арт. 0805) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте UGG ULTRA MINI | CHESTNUT premium (арт. 0805) за 3800 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "257285",
-    "slug": "ugg-neumel-chelsea-platform-chocolate-brown-3093",
-    "name": "UGG Neumel Chelsea Platform Chocolate Brown",
-    "brand": "UGG",
-    "brandSlug": "ugg",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 4800,
-    "oldPrice": 8000,
-    "costPrice": 4300,
-    "sku": "3093",
-    "material": "Замша , Натуральный мех",
-    "country": "Китай",
-    "sizes": [
-      "36",
-      "37",
-      "38",
-      "39",
-      "40"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "23.0",
-        "available": true
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": true
-      },
-      {
-        "size": "38",
-        "cm": "24.5",
-        "available": true
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": true
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": true
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/7208d787-7bf8-4b18-bb97-216ef2e7fc95.jpeg"
-    ],
-    "description": "Модель: UGG Neumel Chelsea Platform Chocolate Brown. Артикул: 3093. Матеріал: Замша , Натуральный мех. Сезон: Зима. Виробництво: Китай. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "UGG Neumel Chelsea Platform Chocolate Brown (арт. 3093) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте UGG Neumel Chelsea Platform Chocolate Brown (арт. 3093) за 4800 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -132928,99 +133451,6 @@
     ]
   },
   {
-    "id": "201126",
-    "slug": "ugg-neumel-chelsea-platform-beige-2401",
-    "name": "Ugg Neumel Chelsea Platform Beige",
-    "brand": "UGG",
-    "brandSlug": "ugg",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 3600,
-    "oldPrice": 6000,
-    "costPrice": 3100,
-    "sku": "2401",
-    "material": "Замша , Натуральный мех",
-    "country": "Китай",
-    "sizes": [
-      "36",
-      "37",
-      "38",
-      "40",
-      "41"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "23.0",
-        "available": true
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": true
-      },
-      {
-        "size": "38",
-        "cm": "24.5",
-        "available": true
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": true
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/95e351a2-45d3-4d5b-92a0-7b813a599571.jpeg"
-    ],
-    "description": "Модель: Ugg Neumel Chelsea Platform Beige. Артикул: 2401. Матеріал: Замша , Натуральный мех. Сезон: Зима. Виробництво: Китай. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Ugg Neumel Chelsea Platform Beige (арт. 2401) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Ugg Neumel Chelsea Platform Beige (арт. 2401) за 3600 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "200655",
     "slug": "nike-initiator-premium-n00256",
     "name": "Nike Initiator Premium",
@@ -140586,188 +141016,6 @@
     "seo": {
       "title": "UGG ULTRA MINI SAND premium (арт. 0808) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте UGG ULTRA MINI SAND premium (арт. 0808) за 3900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "195975",
-    "slug": "ugg-chelsea-mini-platform-grey-premium-5-1415",
-    "name": "UGG CHELSEA MINI PLATFORM GREY premium (5",
-    "brand": "UGG",
-    "brandSlug": "ugg",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 4000,
-    "oldPrice": 6667,
-    "costPrice": 3500,
-    "sku": "1415",
-    "material": "Натуральна замша, натуральне хутро",
-    "country": "Китай",
-    "sizes": [
-      "38",
-      "39",
-      "41"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "23.0",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.5",
-        "available": true
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": true
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/1d4cef6e-59a6-4e37-9c87-9c92d1698898.jpeg"
-    ],
-    "description": "Модель: UGG CHELSEA MINI PLATFORM GREY premium (5. Артикул: 1415. Матеріал: Натуральна замша, натуральне хутро. Сезон: Зима. Виробництво: Китай. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "UGG CHELSEA MINI PLATFORM GREY premium (5 (арт. 1415) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте UGG CHELSEA MINI PLATFORM GREY premium (5 (арт. 1415) за 4000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "195974",
-    "slug": "ugg-chelsea-mini-platform-chestnut-premium-5-1073",
-    "name": "UGG CHELSEA MINI PLATFORM CHESTNUT premium (5",
-    "brand": "UGG",
-    "brandSlug": "ugg",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 2799,
-    "oldPrice": 4665,
-    "costPrice": 2299,
-    "sku": "1073",
-    "material": "Натуральна замша, натуральне хутро",
-    "country": "Китай",
-    "sizes": [
-      "38",
-      "40",
-      "41"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "23.0",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.5",
-        "available": true
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": true
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/3f26854e-07a2-486d-9ba0-e3751a7d94c3.jpeg"
-    ],
-    "description": "Модель: UGG CHELSEA MINI PLATFORM CHESTNUT premium (5. Артикул: 1073. Матеріал: Натуральна замша, натуральне хутро. Сезон: Зима. Виробництво: Китай. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "UGG CHELSEA MINI PLATFORM CHESTNUT premium (5 (арт. 1073) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте UGG CHELSEA MINI PLATFORM CHESTNUT premium (5 (арт. 1073) за 2799 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -150156,97 +150404,6 @@
     "seo": {
       "title": "Nike Shox Tl Orange AV3595-004 (арт. 1794) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Nike Shox Tl Orange AV3595-004 (арт. 1794) за 2800 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "190451",
-    "slug": "ugg-chelsea-black-leather-1373",
-    "name": "UGG CHELSEA BLACK LEATHER",
-    "brand": "UGG",
-    "brandSlug": "ugg",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 3000,
-    "oldPrice": 5000,
-    "costPrice": 2500,
-    "sku": "1373",
-    "material": "Шкіра, хутро",
-    "country": "Китай",
-    "sizes": [
-      "39",
-      "40",
-      "41"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "23.0",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": true
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": true
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/6691a417-6cb9-4021-b78c-96a63eb7bd4b.jpeg"
-    ],
-    "description": "Модель: UGG CHELSEA BLACK LEATHER. Артикул: 1373. Матеріал: Шкіра, хутро. Сезон: Зима. Виробництво: Китай. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "UGG CHELSEA BLACK LEATHER (арт. 1373) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте UGG CHELSEA BLACK LEATHER (арт. 1373) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -211685,189 +211842,6 @@
     "seo": {
       "title": "UGG ULTRA MINI PLATFORM GINGER SUEDE (арт. 0739) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте UGG ULTRA MINI PLATFORM GINGER SUEDE (арт. 0739) за 1999 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "125596",
-    "slug": "ugg-chelsea-platform-cream-1029",
-    "name": "UGG CHELSEA PLATFORM CREAM",
-    "brand": "UGG",
-    "brandSlug": "ugg",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 1999,
-    "oldPrice": 3332,
-    "costPrice": 1499,
-    "sku": "1029",
-    "material": "Натуральна замша, натуральне хутро",
-    "country": "Китай",
-    "sizes": [
-      "37",
-      "38",
-      "40",
-      "41"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "23.0",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": true
-      },
-      {
-        "size": "38",
-        "cm": "24.5",
-        "available": true
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": true
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/a3188036-109e-438b-b5c0-da26afd1a072.jpeg"
-    ],
-    "description": "Модель: UGG CHELSEA PLATFORM CREAM. Артикул: 1029. Матеріал: Натуральна замша, натуральне хутро. Сезон: Зима. Виробництво: Китай. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "UGG CHELSEA PLATFORM CREAM (арт. 1029) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте UGG CHELSEA PLATFORM CREAM (арт. 1029) за 1999 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "125595",
-    "slug": "ugg-chelsea-platform-ginger-1028",
-    "name": "UGG CHELSEA PLATFORM GINGER",
-    "brand": "UGG",
-    "brandSlug": "ugg",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 1999,
-    "oldPrice": 3332,
-    "costPrice": 1499,
-    "sku": "1028",
-    "material": "Натуральна замша, натуральне хутро",
-    "country": "Китай",
-    "sizes": [
-      "38",
-      "40",
-      "41"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "23.0",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.5",
-        "available": true
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": true
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/0b65253d-8613-4354-9037-789280ae2586.jpeg"
-    ],
-    "description": "Модель: UGG CHELSEA PLATFORM GINGER. Артикул: 1028. Матеріал: Натуральна замша, натуральне хутро. Сезон: Зима. Виробництво: Китай. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "UGG CHELSEA PLATFORM GINGER (арт. 1028) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте UGG CHELSEA PLATFORM GINGER (арт. 1028) за 1999 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {

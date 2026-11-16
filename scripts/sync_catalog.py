@@ -2679,6 +2679,168 @@ def main():
         }
         products = [parent_bea_mary_jane] + other_products_6
 
+    # Group UGG CHELSEA variations into a single parent product
+    chelsea_variations = []
+    other_products_7 = []
+    chelsea_cfg = {
+        '195975': {
+            'sku': '1415',
+            'color': 'Mini Platform Grey',
+            'colorSlug': 'mini-platform-grey',
+            'price': 4000,
+            'oldPrice': 6667,
+            'local_dir': 'ugg-chelsea-mini-platform-grey',
+            'order': 0,
+        },
+        '195974': {
+            'sku': '1073',
+            'color': 'Mini Platform Chestnut',
+            'colorSlug': 'mini-platform-chestnut',
+            'price': 2799,
+            'oldPrice': 4665,
+            'local_dir': 'ugg-chelsea-mini-platform-chestnut',
+            'order': 1,
+        },
+        '190451': {
+            'sku': '1373',
+            'color': 'Black Leather',
+            'colorSlug': 'black-leather',
+            'price': 3000,
+            'oldPrice': 5000,
+            'local_dir': 'ugg-chelsea-black-leather',
+            'order': 2,
+        },
+        '125596': {
+            'sku': '1029',
+            'color': 'Platform Cream',
+            'colorSlug': 'platform-cream',
+            'price': 1999,
+            'oldPrice': 3332,
+            'local_dir': 'ugg-chelsea-platform-cream',
+            'order': 3,
+        },
+        '125595': {
+            'sku': '1028',
+            'color': 'Platform Ginger',
+            'colorSlug': 'platform-ginger',
+            'price': 1999,
+            'oldPrice': 3332,
+            'local_dir': 'ugg-chelsea-platform-ginger',
+            'order': 4,
+        },
+        '257285': {
+            'sku': '3093',
+            'color': 'Neumel Chocolate Brown',
+            'colorSlug': 'neumel-chocolate-brown',
+            'price': 4800,
+            'oldPrice': 8000,
+            'local_dir': 'ugg-neumel-chelsea-chocolate-brown',
+            'order': 5,
+        },
+        '201126': {
+            'sku': '2401',
+            'color': 'Neumel Beige',
+            'colorSlug': 'neumel-beige',
+            'price': 3600,
+            'oldPrice': 6000,
+            'local_dir': 'ugg-neumel-chelsea-beige',
+            'order': 6,
+        },
+    }
+    sku_to_pid_chelsea = {v['sku']: k for k, v in chelsea_cfg.items()}
+
+    for p in products:
+        pname = p.get('name', '')
+        sku_clean = str(p.get('sku', '')).strip().upper()
+        pid = str(p.get('id', '')).strip()
+
+        matched = None
+        if pid in chelsea_cfg:
+            matched = chelsea_cfg[pid]
+        elif 'ugg' in pname.lower() and 'chelsea' in pname.lower() and sku_clean in sku_to_pid_chelsea:
+            matched = chelsea_cfg[sku_to_pid_chelsea[sku_clean]]
+
+        if matched:
+            if any(v['sku'] == matched['sku'] for v in chelsea_variations):
+                continue
+
+            var_imgs = p.get('images', [])
+            loc_path = os.path.join(PUBLIC_DIR, 'images', 'products', matched['local_dir'], 'img-1.jpg')
+            if os.path.exists(loc_path):
+                var_imgs = [f"/images/products/{matched['local_dir']}/img-1.jpg"]
+
+            chelsea_variations.append({
+                'id': str(p.get('id', '')),
+                'sku': matched['sku'],
+                'color': matched['color'],
+                'colorSlug': matched['colorSlug'],
+                'price': matched['price'],
+                'oldPrice': matched['oldPrice'],
+                'costPrice': p.get('costPrice', 1500),
+                'sizes': p.get('sizes', []),
+                'sizeChart': p.get('sizeChart', []),
+                'images': var_imgs,
+                'inStock': p.get('inStock', True),
+                'slug': p.get('slug', '')
+            })
+        else:
+            other_products_7.append(p)
+
+    if chelsea_variations:
+        preferred_order_ch = {'1415': 0, '1073': 1, '1373': 2, '1029': 3, '1028': 4, '3093': 5, '2401': 6}
+        chelsea_variations.sort(key=lambda v: preferred_order_ch.get(v.get('sku'), 99))
+        all_ch_sizes = sorted(
+            list(set(s for v in chelsea_variations for s in v['sizes'])),
+            key=lambda s: float(s.replace(',', '.')) if s.replace(',', '.').replace('.', '', 1).isdigit() else 999
+        )
+        min_p = min(v['price'] for v in chelsea_variations)
+        max_p = max(v['price'] for v in chelsea_variations)
+        old_p = max(v.get('oldPrice') or int(round(v['price'] / 0.60)) for v in chelsea_variations)
+
+        parent_chelsea = {
+            'id': '195975',
+            'slug': 'ugg-chelsea',
+            'name': 'UGG CHELSEA',
+            'brand': 'UGG',
+            'brandSlug': 'ugg',
+            'category': 'Взуття',
+            'categorySlug': 'shoes',
+            'gender': 'women',
+            'genderName': 'Жіночі',
+            'season': 'winter',
+            'seasonName': 'Зима',
+            'price': min_p,
+            'oldPrice': old_p,
+            'minPrice': min_p,
+            'maxPrice': max_p,
+            'costPrice': 1500,
+            'sku': '1415',
+            'material': 'Натуральна замша, натуральна шкіра, овчина',
+            'country': "В'єтнам",
+            'sizes': all_ch_sizes,
+            'sizeChart': [
+                {'size': s, 'cm': DEFAULT_WOMEN_GRID.get(s, '24.0'), 'available': True}
+                for s in all_ch_sizes
+            ],
+            'inStock': True,
+            'isHit': True,
+            'images': chelsea_variations[0]['images'] + [v['images'][0] for v in chelsea_variations[1:] if v.get('images')],
+            'description': (
+                'Жіночі зимові черевики UGG CHELSEA у фірмовому силуеті челсі з еластичними бічними вставками та теплою підкладкою з натурального хутра. '
+                'Лінійка поєднує класичні шкіряні та замшеві моделі на платформі, а також версії Neumel Chelsea. '
+                'Верх із високоякісної замші та шкіри, густе затишне хутро (овчина) всередині, потовщена легка підошва для надійного захисту '
+                'від зимового холоду та максимального комфорту при щоденному носінні. '
+                'Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. '
+                'Гарантія обміну або повернення — 14 днів.'
+            ),
+            'seo': {
+                'title': 'UGG CHELSEA — купити жіночі зимові черевики челсі в інтернет-магазині VEXARO',
+                'description': f'Замовляйте зимові черевики UGG CHELSEA у різних кольорах та модифікаціях від {min_p} ₴. Натуральна замша, шкіра та тепле хутро. Доставка Новою Поштою 1–2 дні, накладений платіж.'
+            },
+            'variations': chelsea_variations
+        }
+        products = [parent_chelsea] + other_products_7
+
     brand_map = defaultdict(lambda: {'name': '', 'slug': '', 'count': 0})
     season_map = defaultdict(lambda: {'name': '', 'slug': '', 'count': 0})
     gender_map = defaultdict(lambda: {'name': '', 'slug': '', 'count': 0})
