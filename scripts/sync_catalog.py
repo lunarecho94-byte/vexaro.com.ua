@@ -249,6 +249,7 @@ PINNED_KEYS = [
     '1464',      # UGG LOWMEL SNEAKERS (Black Leather) - newest studio photos
     '1466',      # UGG MINI DIPPER PUFFER (Chestnut) - newest studio photos
     '1467',      # UGG MINI DIPPER PUFFER (Sand) - newest studio photos
+    '1670',      # On Cloudrock Waterproof Ivory - newest studio photos
     'А5689',     # Nike Air Max Plus Tn Black Teal Yellow - newest studio photos
     '1705',      # UGG ULTRA MINI CHOCOLATE BROWN SUEDE - newest studio photos
     '5174',      # Adidas Campus 00s Beige Black (хутро) - newest studio photos
