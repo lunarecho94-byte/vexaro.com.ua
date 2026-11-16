@@ -2152,6 +2152,104 @@
     }
   },
   {
+    "id": "249379",
+    "slug": "new-balance-9060-dark-grey-lime-cordura-7-1674",
+    "name": "NEW BALANCE 9060 | DARK GREY / LIME CORDURA (7",
+    "brand": "New Balance",
+    "brandSlug": "newbalance",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "men",
+    "genderName": "Чоловічі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 3400,
+    "oldPrice": 5667,
+    "costPrice": 2900,
+    "sku": "1674",
+    "material": "CORDURA, замша, шкіра",
+    "country": "В'єтнам",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "43"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": true
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": true
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "24.5",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.0",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": true
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "29.0",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "30.0",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": true,
+    "images": [
+      "/images/products/new-balance-9060-dark-grey-lime-cordura-7-1674/img-1.jpg",
+      "/images/products/new-balance-9060-dark-grey-lime-cordura-7-1674/img-2.jpg",
+      "/images/products/new-balance-9060-dark-grey-lime-cordura-7-1674/img-3.jpg",
+      "/images/products/new-balance-9060-dark-grey-lime-cordura-7-1674/img-4.jpg"
+    ],
+    "description": "Модель: NEW BALANCE 9060 | DARK GREY / LIME CORDURA (7. Артикул: 1674. Матеріал: CORDURA, замша, шкіра. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "NEW BALANCE 9060 | DARK GREY / LIME CORDURA (7 (арт. 1674) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте NEW BALANCE 9060 | DARK GREY / LIME CORDURA (7 (арт. 1674) за 3400 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
     "id": "254776",
     "slug": "nike-air-max-plus-tn-black-teal-yellow-a5689",
     "name": "Nike Air Max Plus Tn Black Teal Yellow",
@@ -5778,102 +5876,6 @@
     "seo": {
       "title": "NEW BALANCE 1906R | BLACK METALLIC / PRIMALOFT (3 (арт. 1676) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте NEW BALANCE 1906R | BLACK METALLIC / PRIMALOFT (3 (арт. 1676) за 3400 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "249379",
-    "slug": "new-balance-9060-dark-grey-lime-cordura-7-1674",
-    "name": "NEW BALANCE 9060 | DARK GREY / LIME CORDURA (7",
-    "brand": "New Balance",
-    "brandSlug": "newbalance",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 3400,
-    "oldPrice": 5667,
-    "costPrice": 2900,
-    "sku": "1674",
-    "material": "CORDURA, замша, шкіра",
-    "country": "В'єтнам",
-    "sizes": [
-      "36",
-      "37",
-      "38",
-      "39",
-      "40",
-      "41",
-      "43"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": true
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": true
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": true
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": true
-      },
-      {
-        "size": "40",
-        "cm": "25.0",
-        "available": true
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": true
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "30.0",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "/images/products/new-balance-9060-dark-grey-lime-cordura-7-1674/img-1.jpg",
-      "/images/products/new-balance-9060-dark-grey-lime-cordura-7-1674/img-2.jpg"
-    ],
-    "description": "Модель: NEW BALANCE 9060 | DARK GREY / LIME CORDURA (7. Артикул: 1674. Матеріал: CORDURA, замша, шкіра. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "NEW BALANCE 9060 | DARK GREY / LIME CORDURA (7 (арт. 1674) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте NEW BALANCE 9060 | DARK GREY / LIME CORDURA (7 (арт. 1674) за 3400 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
