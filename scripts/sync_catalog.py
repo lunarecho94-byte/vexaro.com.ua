@@ -3223,6 +3223,138 @@ def main():
         }
         products = [parent_neumel_hybrid] + other_products_10
 
+    # Group UGG Astromel variations into a single parent product
+    astromel_variations = []
+    other_products_11 = []
+    astromel_cfg = {
+        '189513': {
+            'sku': '1775',
+            'color': 'Chestnut FUR',
+            'colorSlug': 'chestnut-fur',
+            'price': 5000,
+            'oldPrice': 8333,
+            'local_dir': 'ugg-astromel-chestnut-fur',
+            'order': 0,
+        },
+        '189510': {
+            'sku': '1773',
+            'color': 'Black FUR',
+            'colorSlug': 'black-fur',
+            'price': 5000,
+            'oldPrice': 8333,
+            'local_dir': 'ugg-astromel-black-fur',
+            'order': 1,
+        },
+        '189505': {
+            'sku': '1772',
+            'color': 'Jasmine FUR',
+            'colorSlug': 'jasmine-fur',
+            'price': 5000,
+            'oldPrice': 8333,
+            'local_dir': 'ugg-astromel-jasmine-fur',
+            'order': 2,
+        },
+    }
+    sku_to_pid_astromel = {v['sku']: k for k, v in astromel_cfg.items()}
+
+    for p in products:
+        pname = p.get('name', '')
+        sku_clean = str(p.get('sku', '')).strip().upper()
+        pid = str(p.get('id', '')).strip()
+
+        matched = None
+        if pid in astromel_cfg:
+            matched = astromel_cfg[pid]
+        elif 'ugg' in pname.lower() and 'astromel' in pname.lower() and sku_clean in sku_to_pid_astromel:
+            matched = astromel_cfg[sku_to_pid_astromel[sku_clean]]
+        elif 'ugg' in pname.lower() and 'astromel' in pname.lower():
+            for k_id, cfg in astromel_cfg.items():
+                if cfg['color'].lower() in pname.lower() or cfg['sku'].lower() in pname.lower():
+                    matched = cfg
+                    break
+
+        if matched:
+            if any(v['sku'] == matched['sku'] for v in astromel_variations):
+                continue
+
+            var_imgs = p.get('images', [])
+            loc_path = os.path.join(PUBLIC_DIR, 'images', 'products', matched['local_dir'], 'img-1.jpg')
+            if os.path.exists(loc_path):
+                var_imgs = [f"/images/products/{matched['local_dir']}/img-1.jpg"]
+
+            astromel_variations.append({
+                'id': str(p.get('id', '')),
+                'sku': matched['sku'],
+                'color': matched['color'],
+                'colorSlug': matched['colorSlug'],
+                'price': matched['price'],
+                'oldPrice': matched['oldPrice'],
+                'costPrice': p.get('costPrice', 3500),
+                'sizes': p.get('sizes', []),
+                'sizeChart': p.get('sizeChart', []),
+                'images': var_imgs,
+                'inStock': p.get('inStock', True),
+                'slug': p.get('slug', '')
+            })
+        else:
+            other_products_11.append(p)
+
+    if astromel_variations:
+        preferred_order_am = {'1775': 0, '1773': 1, '1772': 2}
+        astromel_variations.sort(key=lambda v: preferred_order_am.get(v.get('sku'), 99))
+        all_am_sizes = sorted(
+            list(set(s for v in astromel_variations for s in v['sizes'])),
+            key=lambda s: float(s.replace(',', '.')) if s.replace(',', '.').replace('.', '', 1).isdigit() else 999
+        )
+        min_p = min(v['price'] for v in astromel_variations)
+        max_p = max(v['price'] for v in astromel_variations)
+        old_p = max(v.get('oldPrice') or int(round(v['price'] / 0.60)) for v in astromel_variations)
+
+        parent_astromel = {
+            'id': '189513',
+            'slug': 'ugg-astromel',
+            'name': 'UGG Astromel',
+            'brand': 'UGG',
+            'brandSlug': 'ugg',
+            'category': 'Взуття',
+            'categorySlug': 'shoes',
+            'gender': 'women',
+            'genderName': 'Жіночі',
+            'season': 'winter',
+            'seasonName': 'Зима',
+            'price': min_p,
+            'oldPrice': old_p,
+            'minPrice': min_p,
+            'maxPrice': max_p,
+            'costPrice': 3500,
+            'sku': '1775',
+            'material': 'Натуральна замша, натуральне хутро (овчина)',
+            'country': "В'єтнам",
+            'sizes': all_am_sizes,
+            'sizeChart': [
+                {'size': s, 'cm': UGG_GRID.get(s, DEFAULT_WOMEN_GRID.get(s, '24.0')), 'available': True}
+                for s in all_am_sizes
+            ],
+            'inStock': True,
+            'isHit': True,
+            'images': astromel_variations[0]['images'] + [v['images'][0] for v in astromel_variations[1:] if v.get('images')],
+            'description': (
+                'Жіночі зимові черевики UGG Astromel FUR у преміальному замшевому виконанні. '
+                'Стильний сучасний силует лінійки Astromel, розроблений для максимального тепла та затишку в зимовий сезон: '
+                'верх із натуральної водовідштовхувальної замші, внутрішнє оздоблення з густого натурального хутра (овчини), '
+                'що ефективно захищає від морозів та зберігає комфортний мікроклімат. '
+                'Міцна підошва з фірмовим протектором забезпечує надійне зчеплення з поверхнею та амортизацію при ходьбі. '
+                'Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. '
+                'Гарантія обміну або повернення — 14 днів.'
+            ),
+            'seo': {
+                'title': 'UGG Astromel — купити жіночі зимові черевики UGG в інтернет-магазині VEXARO',
+                'description': f'Замовляйте жіночі зимові черевики UGG Astromel у кольорах Chestnut FUR, Black FUR та Jasmine FUR за {min_p} ₴. Натуральна замша та овчина. Доставка Новою Поштою 1–2 дні, накладений платіж.'
+            },
+            'variations': astromel_variations
+        }
+        products = [parent_astromel] + other_products_11
+
     brand_map = defaultdict(lambda: {'name': '', 'slug': '', 'count': 0})
     season_map = defaultdict(lambda: {'name': '', 'slug': '', 'count': 0})
     gender_map = defaultdict(lambda: {'name': '', 'slug': '', 'count': 0})

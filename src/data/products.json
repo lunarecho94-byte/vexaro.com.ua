@@ -8546,6 +8546,308 @@
     ]
   },
   {
+    "id": "189513",
+    "slug": "ugg-astromel",
+    "name": "UGG Astromel",
+    "brand": "UGG",
+    "brandSlug": "ugg",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 5000,
+    "oldPrice": 8333,
+    "minPrice": 5000,
+    "maxPrice": 5000,
+    "costPrice": 3500,
+    "sku": "1775",
+    "material": "Натуральна замша, натуральне хутро (овчина)",
+    "country": "В'єтнам",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "23.0",
+        "available": true
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": true
+      },
+      {
+        "size": "38",
+        "cm": "24.5",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": true
+      }
+    ],
+    "inStock": true,
+    "isHit": true,
+    "images": [
+      "/images/products/ugg-astromel-chestnut-fur/img-1.jpg",
+      "/images/products/ugg-astromel-black-fur/img-1.jpg",
+      "/images/products/ugg-astromel-jasmine-fur/img-1.jpg"
+    ],
+    "description": "Жіночі зимові черевики UGG Astromel FUR у преміальному замшевому виконанні. Стильний сучасний силует лінійки Astromel, розроблений для максимального тепла та затишку в зимовий сезон: верх із натуральної водовідштовхувальної замші, внутрішнє оздоблення з густого натурального хутра (овчини), що ефективно захищає від морозів та зберігає комфортний мікроклімат. Міцна підошва з фірмовим протектором забезпечує надійне зчеплення з поверхнею та амортизацію при ходьбі. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "UGG Astromel — купити жіночі зимові черевики UGG в інтернет-магазині VEXARO",
+      "description": "Замовляйте жіночі зимові черевики UGG Astromel у кольорах Chestnut FUR, Black FUR та Jasmine FUR за 5000 ₴. Натуральна замша та овчина. Доставка Новою Поштою 1–2 дні, накладений платіж."
+    },
+    "variations": [
+      {
+        "id": "189513",
+        "sku": "1775",
+        "color": "Chestnut FUR",
+        "colorSlug": "chestnut-fur",
+        "price": 5000,
+        "oldPrice": 8333,
+        "costPrice": 4500,
+        "sizes": [
+          "37",
+          "38",
+          "39",
+          "40"
+        ],
+        "sizeChart": [
+          {
+            "size": "36",
+            "cm": "23.0",
+            "available": false
+          },
+          {
+            "size": "37",
+            "cm": "23.5",
+            "available": true
+          },
+          {
+            "size": "38",
+            "cm": "24.5",
+            "available": true
+          },
+          {
+            "size": "39",
+            "cm": "25.0",
+            "available": true
+          },
+          {
+            "size": "40",
+            "cm": "25.5",
+            "available": true
+          },
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": false
+          },
+          {
+            "size": "42",
+            "cm": "26.5",
+            "available": false
+          },
+          {
+            "size": "43",
+            "cm": "27.5",
+            "available": false
+          },
+          {
+            "size": "44",
+            "cm": "28.0",
+            "available": false
+          },
+          {
+            "size": "45",
+            "cm": "28.5",
+            "available": false
+          },
+          {
+            "size": "46",
+            "cm": "29.5",
+            "available": false
+          }
+        ],
+        "images": [
+          "/images/products/ugg-astromel-chestnut-fur/img-1.jpg"
+        ],
+        "inStock": true,
+        "slug": "ugg-astromel-chestnut-fur-1775"
+      },
+      {
+        "id": "189510",
+        "sku": "1773",
+        "color": "Black FUR",
+        "colorSlug": "black-fur",
+        "price": 5000,
+        "oldPrice": 8333,
+        "costPrice": 4500,
+        "sizes": [
+          "36",
+          "37",
+          "38",
+          "39",
+          "40"
+        ],
+        "sizeChart": [
+          {
+            "size": "36",
+            "cm": "23.0",
+            "available": true
+          },
+          {
+            "size": "37",
+            "cm": "23.5",
+            "available": true
+          },
+          {
+            "size": "38",
+            "cm": "24.5",
+            "available": true
+          },
+          {
+            "size": "39",
+            "cm": "25.0",
+            "available": true
+          },
+          {
+            "size": "40",
+            "cm": "25.5",
+            "available": true
+          },
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": false
+          },
+          {
+            "size": "42",
+            "cm": "26.5",
+            "available": false
+          },
+          {
+            "size": "43",
+            "cm": "27.5",
+            "available": false
+          },
+          {
+            "size": "44",
+            "cm": "28.0",
+            "available": false
+          },
+          {
+            "size": "45",
+            "cm": "28.5",
+            "available": false
+          },
+          {
+            "size": "46",
+            "cm": "29.5",
+            "available": false
+          }
+        ],
+        "images": [
+          "/images/products/ugg-astromel-black-fur/img-1.jpg"
+        ],
+        "inStock": true,
+        "slug": "ugg-astromel-black-fur-1773"
+      },
+      {
+        "id": "189505",
+        "sku": "1772",
+        "color": "Jasmine FUR",
+        "colorSlug": "jasmine-fur",
+        "price": 5000,
+        "oldPrice": 8333,
+        "costPrice": 4500,
+        "sizes": [
+          "36",
+          "37",
+          "38",
+          "39",
+          "40"
+        ],
+        "sizeChart": [
+          {
+            "size": "36",
+            "cm": "23.0",
+            "available": true
+          },
+          {
+            "size": "37",
+            "cm": "23.5",
+            "available": true
+          },
+          {
+            "size": "38",
+            "cm": "24.5",
+            "available": true
+          },
+          {
+            "size": "39",
+            "cm": "25.0",
+            "available": true
+          },
+          {
+            "size": "40",
+            "cm": "25.5",
+            "available": true
+          },
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": false
+          },
+          {
+            "size": "42",
+            "cm": "26.5",
+            "available": false
+          },
+          {
+            "size": "43",
+            "cm": "27.5",
+            "available": false
+          },
+          {
+            "size": "44",
+            "cm": "28.0",
+            "available": false
+          },
+          {
+            "size": "45",
+            "cm": "28.5",
+            "available": false
+          },
+          {
+            "size": "46",
+            "cm": "29.5",
+            "available": false
+          }
+        ],
+        "images": [
+          "/images/products/ugg-astromel-jasmine-fur/img-1.jpg"
+        ],
+        "inStock": true,
+        "slug": "ugg-astromel-jasmine-fur-1772"
+      }
+    ]
+  },
+  {
     "id": "184856",
     "slug": "new-balance-1906r-sapphire-blue-m1906rdn-1692",
     "name": "New Balance 1906R Sapphire Blue M1906RDN",
@@ -150691,284 +150993,6 @@
     "seo": {
       "title": "MIU MIU Winter Boot Sand (арт. 1783) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте MIU MIU Winter Boot Sand (арт. 1783) за 4500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "189513",
-    "slug": "ugg-astromel-chestnut-fur-1775",
-    "name": "UGG Astromel Chestnut FUR",
-    "brand": "UGG",
-    "brandSlug": "ugg",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 5000,
-    "oldPrice": 8333,
-    "costPrice": 4500,
-    "sku": "1775",
-    "material": "Замша, хутро",
-    "country": "В'єтнам",
-    "sizes": [
-      "37",
-      "38",
-      "39",
-      "40"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "23.0",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": true
-      },
-      {
-        "size": "38",
-        "cm": "24.5",
-        "available": true
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": true
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": true
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/132785c7-22d9-476d-844f-4d1f789d9427.jpeg"
-    ],
-    "description": "Модель: UGG Astromel Chestnut FUR. Артикул: 1775. Матеріал: Замша, хутро. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "UGG Astromel Chestnut FUR (арт. 1775) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте UGG Astromel Chestnut FUR (арт. 1775) за 5000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "189510",
-    "slug": "ugg-astromel-black-fur-1773",
-    "name": "UGG Astromel Black FUR",
-    "brand": "UGG",
-    "brandSlug": "ugg",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 5000,
-    "oldPrice": 8333,
-    "costPrice": 4500,
-    "sku": "1773",
-    "material": "Замша, хутро",
-    "country": "В'єтнам",
-    "sizes": [
-      "36",
-      "37",
-      "38",
-      "39",
-      "40"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "23.0",
-        "available": true
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": true
-      },
-      {
-        "size": "38",
-        "cm": "24.5",
-        "available": true
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": true
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": true
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/0f6d7ea6-7b69-48c9-9d3c-77c6324f8090.jpeg"
-    ],
-    "description": "Модель: UGG Astromel Black FUR. Артикул: 1773. Матеріал: Замша, хутро. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "UGG Astromel Black FUR (арт. 1773) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте UGG Astromel Black FUR (арт. 1773) за 5000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "189505",
-    "slug": "ugg-astromel-jasmine-fur-1772",
-    "name": "UGG Astromel Jasmine FUR",
-    "brand": "UGG",
-    "brandSlug": "ugg",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 5000,
-    "oldPrice": 8333,
-    "costPrice": 4500,
-    "sku": "1772",
-    "material": "Замша, хутро",
-    "country": "В'єтнам",
-    "sizes": [
-      "36",
-      "37",
-      "38",
-      "39",
-      "40"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "23.0",
-        "available": true
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": true
-      },
-      {
-        "size": "38",
-        "cm": "24.5",
-        "available": true
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": true
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": true
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/859e695b-6a5d-4058-b74b-2b0be0649c2d.jpeg"
-    ],
-    "description": "Модель: UGG Astromel Jasmine FUR. Артикул: 1772. Матеріал: Замша, хутро. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "UGG Astromel Jasmine FUR (арт. 1772) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте UGG Astromel Jasmine FUR (арт. 1772) за 5000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
