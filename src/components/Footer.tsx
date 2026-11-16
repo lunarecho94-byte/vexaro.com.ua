@@ -69,7 +69,7 @@ export function Footer() {
               <VexaroLogo variant="footer" animated={true} />
             </Link>
             <p className="mt-3 text-xs leading-relaxed max-w-md">
-              Спеціалізований інтернет-магазин брендового та якісного взуття. Прямі поставки зі складів в Україні.
+              Спеціалізований інтернет-магазин стильного та якісного взуття. Прямі поставки зі складів в Україні.
             </p>
             <p className="mt-3 text-xs text-muted">
               Пн–Нд: 09:00 – 20:00 (без вихідних)
