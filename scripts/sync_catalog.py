@@ -233,7 +233,7 @@ COLOR_WORDS = {
 }
 
 # Explicitly excluded items (all slippers, slides, clogs, mules, sandals, etc. per store owner request)
-EXCLUDED_SKUS = {'16006', '16005', '16004', '16003', 'NB143', '0068', '2688', 'R343', 'SL015', '258739', '2263', '2169', '5193', '256193', 'UG0020', '252588', '253417', '253416', 'UG0016', '249465', '2579', '208607', 'U930', '203123', '1918', '201924', '2395', '201383', '2397', '199672', '2394', '199670', '198587', 'UG0017', '252589', 'U880', '185521', '189534', 'U920', '185523', 'U830', '185520', '185202', '185186', 'U960', '143621', 'U950', '143187', '136690', '129394', '121895', 'U0290', '189211'}
+EXCLUDED_SKUS = {'16006', '16005', '16004', '16003', 'NB143', '0068', '2688', 'R343', 'SL015', '258739', '2263', '2169', '5193', '256193', 'UG0020', '252588', '253417', '253416', 'UG0016', '249465', '2579', '208607', 'U930', '203123', '1918', '201924', '2395', '201383', '2397', '199672', '2394', '199670', '198587', 'UG0017', '252589', 'U880', '185521', '189534', 'U920', '185523', 'U830', '185520', '185202', '185186', 'U960', '143621', 'U950', '143187', '136690', '129394', '121895', 'U0290', '189211', '3091'}
 
 # Pinned products permanently pinned at top by store owner request (supports 'id:...' or SKU)
 PINNED_FILE = os.path.join(SRC_DATA_DIR, 'pinned.json')
@@ -3095,6 +3095,133 @@ def main():
             'variations': lace_up_variations
         }
         products = [parent_lace_up] + other_products_9
+
+    # Group UGG Neumel Hybrid variations into a single parent product
+    neumel_hybrid_variations = []
+    other_products_10 = []
+    neumel_hybrid_cfg = {
+        '193088': {
+            'sku': '1841',
+            'color': 'Chestnut Beige',
+            'colorSlug': 'chestnut-beige',
+            'price': 5000,
+            'oldPrice': 8333,
+            'local_dir': 'ugg-neumel-hybrid-chestnut-beige',
+            'order': 0,
+        },
+        '193085': {
+            'sku': '1840',
+            'color': 'Black',
+            'colorSlug': 'black',
+            'price': 5000,
+            'oldPrice': 8333,
+            'local_dir': 'ugg-neumel-hybrid-black',
+            'order': 1,
+        },
+    }
+    sku_to_pid_neumel = {v['sku']: k for k, v in neumel_hybrid_cfg.items()}
+
+    for p in products:
+        pname = p.get('name', '')
+        sku_clean = str(p.get('sku', '')).strip().upper()
+        pid = str(p.get('id', '')).strip()
+
+        # Strictly ignore/delete model 3091
+        if sku_clean == '3091' or pid == '257729' or ('neumel' in pname.lower() and 'hybrid' in pname.lower() and '3091' in pname):
+            continue
+
+        matched = None
+        if pid in neumel_hybrid_cfg:
+            matched = neumel_hybrid_cfg[pid]
+        elif 'ugg' in pname.lower() and 'neumel' in pname.lower() and 'hybrid' in pname.lower() and sku_clean in sku_to_pid_neumel:
+            matched = neumel_hybrid_cfg[sku_to_pid_neumel[sku_clean]]
+        elif 'ugg' in pname.lower() and 'neumel hybrid' in pname.lower():
+            for k_id, cfg in neumel_hybrid_cfg.items():
+                if cfg['color'].lower() in pname.lower() or cfg['sku'].lower() in pname.lower():
+                    matched = cfg
+                    break
+
+        if matched:
+            if any(v['sku'] == matched['sku'] for v in neumel_hybrid_variations):
+                continue
+
+            var_imgs = p.get('images', [])
+            loc_path = os.path.join(PUBLIC_DIR, 'images', 'products', matched['local_dir'], 'img-1.jpg')
+            if os.path.exists(loc_path):
+                var_imgs = [f"/images/products/{matched['local_dir']}/img-1.jpg"]
+
+            neumel_hybrid_variations.append({
+                'id': str(p.get('id', '')),
+                'sku': matched['sku'],
+                'color': matched['color'],
+                'colorSlug': matched['colorSlug'],
+                'price': matched['price'],
+                'oldPrice': matched['oldPrice'],
+                'costPrice': p.get('costPrice', 3500),
+                'sizes': p.get('sizes', []),
+                'sizeChart': p.get('sizeChart', []),
+                'images': var_imgs,
+                'inStock': p.get('inStock', True),
+                'slug': p.get('slug', '')
+            })
+        else:
+            other_products_10.append(p)
+
+    if neumel_hybrid_variations:
+        preferred_order_nh = {'1841': 0, '1840': 1}
+        neumel_hybrid_variations.sort(key=lambda v: preferred_order_nh.get(v.get('sku'), 99))
+        all_nh_sizes = sorted(
+            list(set(s for v in neumel_hybrid_variations for s in v['sizes'])),
+            key=lambda s: float(s.replace(',', '.')) if s.replace(',', '.').replace('.', '', 1).isdigit() else 999
+        )
+        min_p = min(v['price'] for v in neumel_hybrid_variations)
+        max_p = max(v['price'] for v in neumel_hybrid_variations)
+        old_p = max(v.get('oldPrice') or int(round(v['price'] / 0.60)) for v in neumel_hybrid_variations)
+
+        parent_neumel_hybrid = {
+            'id': '193088',
+            'slug': 'ugg-neumel-hybrid',
+            'name': 'UGG Neumel Hybrid',
+            'brand': 'UGG',
+            'brandSlug': 'ugg',
+            'category': 'Взуття',
+            'categorySlug': 'shoes',
+            'gender': 'men',
+            'genderName': 'Чоловічі',
+            'season': 'winter',
+            'seasonName': 'Зима',
+            'price': min_p,
+            'oldPrice': old_p,
+            'minPrice': min_p,
+            'maxPrice': max_p,
+            'costPrice': 3500,
+            'sku': '1841',
+            'material': 'Натуральна замша, натуральне хутро (овчина), підошва EVA / гума',
+            'country': "В'єтнам",
+            'sizes': all_nh_sizes,
+            'sizeChart': [
+                {'size': s, 'cm': UGG_GRID.get(s, DEFAULT_MEN_GRID.get(s, '27.0')), 'available': True}
+                for s in all_nh_sizes
+            ],
+            'inStock': True,
+            'isHit': True,
+            'images': neumel_hybrid_variations[0]['images'] + [v['images'][0] for v in neumel_hybrid_variations[1:] if v.get('images')],
+            'description': (
+                'Чоловічі зимові черевики UGG Neumel Hybrid поєднують легендарний фірмовий комфорт UGG '
+                'із підвищеною практичністю для міських та заміських умов. '
+                'Верх виготовлений із добірної натуральної замші з водовідштовхувальним просоченням, '
+                'а внутрішня частина утеплена густим натуральним хутром (овчиною), що гарантує збереження тепла навіть у сильні морози. '
+                'Посилена гібридна підошва з чіпким протектором із піни EVA та зносостійкої гуми захищає від сльоти, бруду та забезпечує надійне зчеплення на слизьких поверхнях. '
+                'Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. '
+                'Гарантія обміну або повернення — 14 днів.'
+            ),
+            'seo': {
+                'title': 'UGG Neumel Hybrid — купити чоловічі зимові черевики UGG в інтернет-магазині VEXARO',
+                'description': f'Замовляйте чоловічі зимові черевики UGG Neumel Hybrid у кольорах Chestnut Beige та Black за {min_p} ₴. Натуральна замша, овчина, гібридна підошва. Доставка Новою Поштою 1–2 дні, накладений платіж.'
+            },
+            'variations': neumel_hybrid_variations
+        }
+        products = [parent_neumel_hybrid] + other_products_10
 
     brand_map = defaultdict(lambda: {'name': '', 'slug': '', 'count': 0})
     season_map = defaultdict(lambda: {'name': '', 'slug': '', 'count': 0})

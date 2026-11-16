@@ -8330,6 +8330,222 @@
     ]
   },
   {
+    "id": "193088",
+    "slug": "ugg-neumel-hybrid",
+    "name": "UGG Neumel Hybrid",
+    "brand": "UGG",
+    "brandSlug": "ugg",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "men",
+    "genderName": "Чоловічі",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 5000,
+    "oldPrice": 8333,
+    "minPrice": 5000,
+    "maxPrice": 5000,
+    "costPrice": 3500,
+    "sku": "1841",
+    "material": "Натуральна замша, натуральне хутро (овчина), підошва EVA / гума",
+    "country": "В'єтнам",
+    "sizes": [
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "sizeChart": [
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": true
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": true
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": true
+      },
+      {
+        "size": "45",
+        "cm": "29.0",
+        "available": true
+      }
+    ],
+    "inStock": true,
+    "isHit": true,
+    "images": [
+      "/images/products/ugg-neumel-hybrid-chestnut-beige/img-1.jpg",
+      "/images/products/ugg-neumel-hybrid-black/img-1.jpg"
+    ],
+    "description": "Чоловічі зимові черевики UGG Neumel Hybrid поєднують легендарний фірмовий комфорт UGG із підвищеною практичністю для міських та заміських умов. Верх виготовлений із добірної натуральної замші з водовідштовхувальним просоченням, а внутрішня частина утеплена густим натуральним хутром (овчиною), що гарантує збереження тепла навіть у сильні морози. Посилена гібридна підошва з чіпким протектором із піни EVA та зносостійкої гуми захищає від сльоти, бруду та забезпечує надійне зчеплення на слизьких поверхнях. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "UGG Neumel Hybrid — купити чоловічі зимові черевики UGG в інтернет-магазині VEXARO",
+      "description": "Замовляйте чоловічі зимові черевики UGG Neumel Hybrid у кольорах Chestnut Beige та Black за 5000 ₴. Натуральна замша, овчина, гібридна підошва. Доставка Новою Поштою 1–2 дні, накладений платіж."
+    },
+    "variations": [
+      {
+        "id": "193088",
+        "sku": "1841",
+        "color": "Chestnut Beige",
+        "colorSlug": "chestnut-beige",
+        "price": 5000,
+        "oldPrice": 8333,
+        "costPrice": 4500,
+        "sizes": [
+          "42",
+          "43",
+          "44",
+          "45"
+        ],
+        "sizeChart": [
+          {
+            "size": "36",
+            "cm": "23.0",
+            "available": false
+          },
+          {
+            "size": "37",
+            "cm": "23.5",
+            "available": false
+          },
+          {
+            "size": "38",
+            "cm": "24.5",
+            "available": false
+          },
+          {
+            "size": "39",
+            "cm": "25.0",
+            "available": false
+          },
+          {
+            "size": "40",
+            "cm": "25.5",
+            "available": false
+          },
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": false
+          },
+          {
+            "size": "42",
+            "cm": "26.5",
+            "available": true
+          },
+          {
+            "size": "43",
+            "cm": "27.5",
+            "available": true
+          },
+          {
+            "size": "44",
+            "cm": "28.0",
+            "available": true
+          },
+          {
+            "size": "45",
+            "cm": "28.5",
+            "available": true
+          },
+          {
+            "size": "46",
+            "cm": "29.5",
+            "available": false
+          }
+        ],
+        "images": [
+          "/images/products/ugg-neumel-hybrid-chestnut-beige/img-1.jpg"
+        ],
+        "inStock": true,
+        "slug": "ugg-neumel-hybrid-chestnut-beige-1841"
+      },
+      {
+        "id": "193085",
+        "sku": "1840",
+        "color": "Black",
+        "colorSlug": "black",
+        "price": 5000,
+        "oldPrice": 8333,
+        "costPrice": 4500,
+        "sizes": [
+          "42",
+          "43",
+          "44",
+          "45"
+        ],
+        "sizeChart": [
+          {
+            "size": "36",
+            "cm": "23.0",
+            "available": false
+          },
+          {
+            "size": "37",
+            "cm": "23.5",
+            "available": false
+          },
+          {
+            "size": "38",
+            "cm": "24.5",
+            "available": false
+          },
+          {
+            "size": "39",
+            "cm": "25.0",
+            "available": false
+          },
+          {
+            "size": "40",
+            "cm": "25.5",
+            "available": false
+          },
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": false
+          },
+          {
+            "size": "42",
+            "cm": "26.5",
+            "available": true
+          },
+          {
+            "size": "43",
+            "cm": "27.5",
+            "available": true
+          },
+          {
+            "size": "44",
+            "cm": "28.0",
+            "available": true
+          },
+          {
+            "size": "45",
+            "cm": "28.5",
+            "available": true
+          },
+          {
+            "size": "46",
+            "cm": "29.5",
+            "available": false
+          }
+        ],
+        "images": [
+          "/images/products/ugg-neumel-hybrid-black/img-1.jpg"
+        ],
+        "inStock": true,
+        "slug": "ugg-neumel-hybrid-black-1840"
+      }
+    ]
+  },
+  {
     "id": "184856",
     "slug": "new-balance-1906r-sapphire-blue-m1906rdn-1692",
     "name": "New Balance 1906R Sapphire Blue M1906RDN",
@@ -11235,98 +11451,6 @@
     "seo": {
       "title": "Nike SB Dunk Pro Burgundy (арт. 3066) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Nike SB Dunk Pro Burgundy (арт. 3066) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "257729",
-    "slug": "ugg-neumel-hybrid-black-3091",
-    "name": "Ugg Neumel Hybrid Black",
-    "brand": "UGG",
-    "brandSlug": "ugg",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 5000,
-    "oldPrice": 8333,
-    "costPrice": 4500,
-    "sku": "3091",
-    "material": "Замша , Натуральный мех",
-    "country": "Китай",
-    "sizes": [
-      "41",
-      "42",
-      "44",
-      "45"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "23.0",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": true
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": true
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": true
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/54494ff6-5131-49fc-bad3-2bd70f76e513.jpeg"
-    ],
-    "description": "Модель: Ugg Neumel Hybrid Black. Артикул: 3091. Матеріал: Замша , Натуральный мех. Сезон: Зима. Виробництво: Китай. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Ugg Neumel Hybrid Black (арт. 3091) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Ugg Neumel Hybrid Black (арт. 3091) за 5000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -144720,190 +144844,6 @@
     "seo": {
       "title": "Asics Gel GT 2160 Gore-Tex Black Beige (арт. 2426) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Asics Gel GT 2160 Gore-Tex Black Beige (арт. 2426) за 2500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "193088",
-    "slug": "ugg-neumel-hybrid-chestnut-beige-1841",
-    "name": "UGG Neumel Hybrid Chestnut Beige",
-    "brand": "UGG",
-    "brandSlug": "ugg",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 5000,
-    "oldPrice": 8333,
-    "costPrice": 4500,
-    "sku": "1841",
-    "material": "Замша, хутро, EVA",
-    "country": "В'єтнам",
-    "sizes": [
-      "42",
-      "43",
-      "44",
-      "45"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "23.0",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": true
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": true
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": true
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": true
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/131b538d-510d-413f-8d84-a7caeb2f6ce6.jpeg"
-    ],
-    "description": "Модель: UGG Neumel Hybrid Chestnut Beige. Артикул: 1841. Матеріал: Замша, хутро, EVA. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "UGG Neumel Hybrid Chestnut Beige (арт. 1841) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте UGG Neumel Hybrid Chestnut Beige (арт. 1841) за 5000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "193085",
-    "slug": "ugg-neumel-hybrid-black-1840",
-    "name": "UGG Neumel Hybrid Black",
-    "brand": "UGG",
-    "brandSlug": "ugg",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 5000,
-    "oldPrice": 8333,
-    "costPrice": 4500,
-    "sku": "1840",
-    "material": "Замша, хутро, EVA",
-    "country": "В'єтнам",
-    "sizes": [
-      "42",
-      "43",
-      "44",
-      "45"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "23.0",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": true
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": true
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": true
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": true
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/cfc4978e-ac89-4ed7-a3dc-b68f9f61a414.jpeg"
-    ],
-    "description": "Модель: UGG Neumel Hybrid Black. Артикул: 1840. Матеріал: Замша, хутро, EVA. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "UGG Neumel Hybrid Black (арт. 1840) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте UGG Neumel Hybrid Black (арт. 1840) за 5000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
