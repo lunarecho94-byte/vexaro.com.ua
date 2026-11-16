@@ -1046,7 +1046,6 @@
         "costPrice": 4200,
         "sizes": [
           "37",
-          "38",
           "39",
           "41"
         ],
@@ -1064,7 +1063,7 @@
           {
             "size": "38",
             "cm": "24.5",
-            "available": true
+            "available": false
           },
           {
             "size": "39",
@@ -5563,7 +5562,6 @@
     "material": "Шкіра, замша, вологостійкий текстиль, термоутеплювач, гума, піна, прошиті",
     "country": "В'єтнам",
     "sizes": [
-      "41",
       "42",
       "43",
       "44",
@@ -5599,7 +5597,7 @@
       {
         "size": "41",
         "cm": "26.0",
-        "available": true
+        "available": false
       },
       {
         "size": "42",
@@ -7899,6 +7897,7 @@
         "costPrice": 4300,
         "sizes": [
           "36",
+          "38",
           "39",
           "40"
         ],
@@ -7916,7 +7915,7 @@
           {
             "size": "38",
             "cm": "24.5",
-            "available": false
+            "available": true
           },
           {
             "size": "39",
@@ -12803,9 +12802,7 @@
     "country": "В'єтнам",
     "sizes": [
       "41",
-      "43",
       "44",
-      "45",
       "46"
     ],
     "sizeChart": [
@@ -12847,7 +12844,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": true
+        "available": false
       },
       {
         "size": "44",
@@ -12857,7 +12854,7 @@
       {
         "size": "45",
         "cm": "29.0",
-        "available": true
+        "available": false
       },
       {
         "size": "46",
@@ -16846,7 +16843,6 @@
     "sizes": [
       "37",
       "38",
-      "39",
       "42",
       "43",
       "44",
@@ -16871,7 +16867,7 @@
       {
         "size": "39",
         "cm": "24.5",
-        "available": true
+        "available": false
       },
       {
         "size": "40",
@@ -17035,7 +17031,6 @@
     "sizes": [
       "40",
       "41",
-      "43",
       "44",
       "45"
     ],
@@ -17078,7 +17073,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": true
+        "available": false
       },
       {
         "size": "44",
@@ -30752,97 +30747,6 @@
     }
   },
   {
-    "id": "252298",
-    "slug": "balenciaga-track-3-0-all-black-1328",
-    "name": "Balenciaga Track 3.0 All Black",
-    "brand": "Balenciaga",
-    "brandSlug": "balenciaga",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 4700,
-    "oldPrice": 7833,
-    "costPrice": 4200,
-    "sku": "1328",
-    "material": "Кожа",
-    "country": "В'єтнам",
-    "sizes": [
-      "40",
-      "41",
-      "45"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "23.0",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": true
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": true
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/59093a0d-66cb-40cf-91a6-c931ff15ec32.jpeg"
-    ],
-    "description": "Модель: Balenciaga Track 3.0 All Black. Артикул: 1328. Матеріал: Кожа. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Balenciaga Track 3.0 All Black (арт. 1328) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Balenciaga Track 3.0 All Black (арт. 1328) за 4700 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "252230",
     "slug": "dior-b22-black-di031",
     "name": "Dior B22 Black",
@@ -34114,97 +34018,6 @@
     }
   },
   {
-    "id": "250513",
-    "slug": "acg-termo-ntr795",
-    "name": "ACG (термо)",
-    "brand": "Інші бренди",
-    "brandSlug": "other",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 2950,
-    "oldPrice": 4917,
-    "costPrice": 2450,
-    "sku": "NTR795",
-    "material": "Вологостійкий текстиль, термоутеплювач, гума, піна, прошиті",
-    "country": "В'єтнам",
-    "sizes": [
-      "41",
-      "44",
-      "46"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": true
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "30.0",
-        "available": true
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/917c6ab0-fb9e-475e-91b2-f01f027a94f6.jpg"
-    ],
-    "description": "Модель: ACG (термо). Артикул: NTR795. Матеріал: Вологостійкий текстиль, термоутеплювач, гума, піна, прошиті. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "ACG (термо) (арт. NTR795) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте ACG (термо) (арт. NTR795) за 2950 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "250511",
     "slug": "new-balance-9060-cordura-black-grey-nb00138",
     "name": "New Balance 9060 Cordura Black Grey",
@@ -36847,7 +36660,6 @@
       "37",
       "38",
       "39",
-      "40",
       "41",
       "42",
       "43",
@@ -36878,7 +36690,7 @@
       {
         "size": "40",
         "cm": "25.0",
-        "available": true
+        "available": false
       },
       {
         "size": "41",
@@ -39759,6 +39571,7 @@
     "sizes": [
       "38",
       "39",
+      "42",
       "43",
       "45"
     ],
@@ -39796,7 +39609,7 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": false
+        "available": true
       },
       {
         "size": "43",
@@ -42016,7 +41829,6 @@
     "country": "В'єтнам",
     "sizes": [
       "41",
-      "42",
       "43",
       "44",
       "45",
@@ -42056,7 +41868,7 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": true
+        "available": false
       },
       {
         "size": "43",
@@ -42110,7 +41922,6 @@
     "country": "В'єтнам",
     "sizes": [
       "41",
-      "43",
       "44",
       "45",
       "46"
@@ -42154,7 +41965,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": true
+        "available": false
       },
       {
         "size": "44",
@@ -48492,7 +48303,6 @@
       "41",
       "42",
       "43",
-      "44",
       "45"
     ],
     "sizeChart": [
@@ -48539,7 +48349,7 @@
       {
         "size": "44",
         "cm": "28.0",
-        "available": true
+        "available": false
       },
       {
         "size": "45",
@@ -51127,7 +50937,6 @@
       "38",
       "40",
       "41",
-      "43",
       "44",
       "45"
     ],
@@ -51170,7 +50979,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": true
+        "available": false
       },
       {
         "size": "44",
@@ -56360,97 +56169,6 @@
     "seo": {
       "title": "New Balance 9060 Termo Brown (арт. 3017) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте New Balance 9060 Termo Brown (арт. 3017) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "245867",
-    "slug": "new-balance-9060-termo-dark-grey-3016",
-    "name": "New Balance 9060 Termo Dark Grey",
-    "brand": "New Balance",
-    "brandSlug": "newbalance",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 2900,
-    "oldPrice": 4833,
-    "costPrice": 2400,
-    "sku": "3016",
-    "material": "Замша , Кожа , Текстиль",
-    "country": "В'єтнам",
-    "sizes": [
-      "42",
-      "44",
-      "45"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": true
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": true
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": true
-      },
-      {
-        "size": "46",
-        "cm": "30.0",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/57af6ad0-12e7-4f85-8742-19dfbeacbcb4.jpeg"
-    ],
-    "description": "Модель: New Balance 9060 Termo Dark Grey. Артикул: 3016. Матеріал: Замша , Кожа , Текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "New Balance 9060 Termo Dark Grey (арт. 3016) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте New Balance 9060 Termo Dark Grey (арт. 3016) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -61668,6 +61386,100 @@
     }
   },
   {
+    "id": "243308",
+    "slug": "nike-dunk-low-light-crimson-io4244-103-2019",
+    "name": "Nike Dunk Low Light Crimson IO4244-103",
+    "brand": "Nike",
+    "brandSlug": "nike",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 3100,
+    "oldPrice": 5167,
+    "costPrice": 2600,
+    "sku": "2019",
+    "material": "Замша, шкіра",
+    "country": "В'єтнам",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "23.0",
+        "available": true
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": true
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "24.5",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.0",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "28.5",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/cb8fcce8-e853-4a90-842c-33781bad79ac.jpeg"
+    ],
+    "description": "Модель: Nike Dunk Low Light Crimson IO4244-103. Артикул: 2019. Матеріал: Замша, шкіра. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Nike Dunk Low Light Crimson IO4244-103 (арт. 2019) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Nike Dunk Low Light Crimson IO4244-103 (арт. 2019) за 3100 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
     "id": "242777",
     "slug": "nyc-gore-tex-acx48",
     "name": "NYC Gore-Tex",
@@ -63461,6 +63273,97 @@
     }
   },
   {
+    "id": "242098",
+    "slug": "nike-dunk-low-next-nature-white-light-blue-n00343",
+    "name": "Nike Dunk Low Next Nature White/Light Blue",
+    "brand": "Nike",
+    "brandSlug": "nike",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 2850,
+    "oldPrice": 4750,
+    "costPrice": 2350,
+    "sku": "N00343",
+    "material": "Шкіра",
+    "country": "-",
+    "sizes": [
+      "36",
+      "38",
+      "40"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "23.0",
+        "available": true
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "24.5",
+        "available": false
+      },
+      {
+        "size": "40",
+        "cm": "25.0",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": false
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "28.5",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/3c08c054-e474-49f2-bf1d-c034dd9f2316.jpeg"
+    ],
+    "description": "Модель: Nike Dunk Low Next Nature White/Light Blue. Артикул: N00343. Матеріал: Шкіра. Сезон: Демісезон. Виробництво: -. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Nike Dunk Low Next Nature White/Light Blue (арт. N00343) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Nike Dunk Low Next Nature White/Light Blue (арт. N00343) за 2850 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
     "id": "242097",
     "slug": "nike-dunk-low-se-world-champ-n00342",
     "name": "Nike Dunk Low SE \"World Champ\"",
@@ -65022,6 +64925,97 @@
     "seo": {
       "title": "Adidas Adistar Jellyfish x Pharrell Williams Pink (арт. 2017) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Adidas Adistar Jellyfish x Pharrell Williams Pink (арт. 2017) за 4000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "241854",
+    "slug": "nike-dunk-low-embossed-black-sail-n00341",
+    "name": "Nike Dunk Low \"Embossed Black Sail\"",
+    "brand": "Nike",
+    "brandSlug": "nike",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 3000,
+    "oldPrice": 5000,
+    "costPrice": 2500,
+    "sku": "N00341",
+    "material": "Текстиль / комбінований",
+    "country": "-",
+    "sizes": [
+      "36",
+      "37",
+      "38"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "23.0",
+        "available": true
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": true
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "24.5",
+        "available": false
+      },
+      {
+        "size": "40",
+        "cm": "25.0",
+        "available": false
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": false
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "28.5",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/bbcf819a-d04d-4052-9cec-855bef36facd.jpeg"
+    ],
+    "description": "Модель: Nike Dunk Low \"Embossed Black Sail\". Артикул: N00341. Матеріал: Текстиль / комбінований. Сезон: Демісезон. Виробництво: -. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Nike Dunk Low \"Embossed Black Sail\" (арт. N00341) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Nike Dunk Low \"Embossed Black Sail\" (арт. N00341) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -69305,97 +69299,6 @@
     }
   },
   {
-    "id": "240748",
-    "slug": "nike-air-max-portal-beige-2677",
-    "name": "Nike Air Max Portal beige",
-    "brand": "Nike",
-    "brandSlug": "nike",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 2600,
-    "oldPrice": 4333,
-    "costPrice": 2100,
-    "sku": "2677",
-    "material": "Текстиль",
-    "country": "В'єтнам",
-    "sizes": [
-      "37",
-      "38",
-      "39"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "23.0",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": true
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": true
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": true
-      },
-      {
-        "size": "40",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/47b6b767-eb35-4430-b81d-6c79101309c2.jpeg"
-    ],
-    "description": "Модель: Nike Air Max Portal beige. Артикул: 2677. Матеріал: Текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Nike Air Max Portal beige (арт. 2677) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Nike Air Max Portal beige (арт. 2677) за 2600 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "240705",
     "slug": "nike-dunk-low-cave-stone-7620",
     "name": "Nike Dunk Low Cave Stone",
@@ -71462,6 +71365,97 @@
     "seo": {
       "title": "Nike Dunk Low \"Neapolitan\" (арт. N00336) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Nike Dunk Low \"Neapolitan\" (арт. N00336) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "238615",
+    "slug": "nike-dunk-low-se-wolf-brown-n00335",
+    "name": "Nike Dunk Low SE \"Wolf Brown\"",
+    "brand": "Nike",
+    "brandSlug": "nike",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 2800,
+    "oldPrice": 4667,
+    "costPrice": 2300,
+    "sku": "N00335",
+    "material": "Текстиль / комбінований",
+    "country": "-",
+    "sizes": [
+      "36",
+      "38",
+      "39"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "23.0",
+        "available": true
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "24.5",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.0",
+        "available": false
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": false
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "28.5",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/b17c7d2e-3900-44be-9ed0-0bffc5b4f98a.jpeg"
+    ],
+    "description": "Модель: Nike Dunk Low SE \"Wolf Brown\". Артикул: N00335. Матеріал: Текстиль / комбінований. Сезон: Демісезон. Виробництво: -. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Nike Dunk Low SE \"Wolf Brown\" (арт. N00335) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Nike Dunk Low SE \"Wolf Brown\" (арт. N00335) за 2800 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -81467,7 +81461,10 @@
     "sizes": [
       "36",
       "37",
-      "38"
+      "38",
+      "39",
+      "40",
+      "41"
     ],
     "sizeChart": [
       {
@@ -81488,17 +81485,17 @@
       {
         "size": "39",
         "cm": "24.5",
-        "available": false
+        "available": true
       },
       {
         "size": "40",
         "cm": "25.0",
-        "available": false
+        "available": true
       },
       {
         "size": "41",
         "cm": "26.0",
-        "available": false
+        "available": true
       },
       {
         "size": "42",
@@ -84519,97 +84516,6 @@
     }
   },
   {
-    "id": "229319",
-    "slug": "premiata-grey-black-2647",
-    "name": "Premiata Grey Black",
-    "brand": "Premiata",
-    "brandSlug": "premiata",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 3100,
-    "oldPrice": 5167,
-    "costPrice": 2600,
-    "sku": "2647",
-    "material": "Кожа , Текстиль",
-    "country": "В'єтнам",
-    "sizes": [
-      "40",
-      "41",
-      "43"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": true
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": true
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/9be3350d-a99d-4911-9faf-69ba7fb6ed7a.jpeg"
-    ],
-    "description": "Модель: Premiata Grey Black. Артикул: 2647. Матеріал: Кожа , Текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Premiata Grey Black (арт. 2647) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Premiata Grey Black (арт. 2647) за 3100 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "229318",
     "slug": "premiata-triple-black-2672",
     "name": "Premiata Triple Black",
@@ -85267,6 +85173,100 @@
     "seo": {
       "title": "Off-White Be Right Back Grey Black (арт. OF002) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Off-White Be Right Back Grey Black (арт. OF002) за 3300 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "228994",
+    "slug": "puma-suede-xl-black-white-395205-02-1990",
+    "name": "Puma Suede XL Black White 395205-02",
+    "brand": "Puma",
+    "brandSlug": "puma",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 3000,
+    "oldPrice": 5000,
+    "costPrice": 2500,
+    "sku": "1990",
+    "material": "Замша",
+    "country": "В'єтнам",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": true
+      },
+      {
+        "size": "37",
+        "cm": "23.0",
+        "available": true
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "24.5",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "29.0",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/51209b51-6d23-43ac-8bf4-4c055ec4d338.jpeg"
+    ],
+    "description": "Модель: Puma Suede XL Black White 395205-02. Артикул: 1990. Матеріал: Замша. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Puma Suede XL Black White 395205-02 (арт. 1990) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Puma Suede XL Black White 395205-02 (арт. 1990) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -88291,7 +88291,6 @@
     "country": "В'єтнам",
     "sizes": [
       "40",
-      "41",
       "43",
       "44",
       "45"
@@ -88325,7 +88324,7 @@
       {
         "size": "41",
         "cm": "26.0",
-        "available": true
+        "available": false
       },
       {
         "size": "42",
@@ -120902,7 +120901,6 @@
     "country": "В'єтнам",
     "sizes": [
       "42",
-      "43",
       "44",
       "45"
     ],
@@ -120945,7 +120943,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": true
+        "available": false
       },
       {
         "size": "44",
@@ -138382,97 +138380,6 @@
     }
   },
   {
-    "id": "199869",
-    "slug": "ugg-classic-dipper-boot-mid-black-2403",
-    "name": "UGG Classic Dipper Boot Mid Black",
-    "brand": "UGG",
-    "brandSlug": "ugg",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 4400,
-    "oldPrice": 7333,
-    "costPrice": 3900,
-    "sku": "2403",
-    "material": "Замша , Натуральный мех",
-    "country": "Китай",
-    "sizes": [
-      "37",
-      "39",
-      "40"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "23.0",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": true
-      },
-      {
-        "size": "38",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": true
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": true
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/f9818327-43fb-4201-8f72-136f942c989a.jpeg"
-    ],
-    "description": "Модель: UGG Classic Dipper Boot Mid Black. Артикул: 2403. Матеріал: Замша , Натуральный мех. Сезон: Зима. Виробництво: Китай. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "UGG Classic Dipper Boot Mid Black (арт. 2403) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте UGG Classic Dipper Boot Mid Black (арт. 2403) за 4400 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "199868",
     "slug": "ugg-classic-dipper-boot-chestnut-2386",
     "name": "UGG Classic Dipper Boot Chestnut",
@@ -138676,7 +138583,6 @@
     "country": "Китай",
     "sizes": [
       "36",
-      "37",
       "38",
       "39",
       "40",
@@ -138691,7 +138597,7 @@
       {
         "size": "37",
         "cm": "23.5",
-        "available": true
+        "available": false
       },
       {
         "size": "38",
@@ -139803,7 +139709,6 @@
       "36",
       "38",
       "41",
-      "42",
       "43",
       "44"
     ],
@@ -139841,7 +139746,7 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": true
+        "available": false
       },
       {
         "size": "43",
@@ -148257,97 +148162,6 @@
     }
   },
   {
-    "id": "192693",
-    "slug": "new-balance-9060-termo-all-black-2409",
-    "name": "New Balance 9060 Termo All Black",
-    "brand": "New Balance",
-    "brandSlug": "newbalance",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 2900,
-    "oldPrice": 4833,
-    "costPrice": 2400,
-    "sku": "2409",
-    "material": "Замша , Кожа , Текстиль",
-    "country": "В'єтнам",
-    "sizes": [
-      "42",
-      "43",
-      "44"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": true
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": true
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": true
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "30.0",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/f2657cfd-b039-4c46-8587-3ad4a4d5fd87.jpeg"
-    ],
-    "description": "Модель: New Balance 9060 Termo All Black. Артикул: 2409. Матеріал: Замша , Кожа , Текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "New Balance 9060 Termo All Black (арт. 2409) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте New Balance 9060 Termo All Black (арт. 2409) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "192690",
     "slug": "new-balance-9060-termo-black-grey-2410",
     "name": "New Balance 9060 Termo Black Grey",
@@ -148638,9 +148452,9 @@
     "genderName": "Унісекс",
     "season": "demi",
     "seasonName": "Демісезон",
-    "price": 2900,
-    "oldPrice": 4833,
-    "costPrice": 2400,
+    "price": 3200,
+    "oldPrice": 5333,
+    "costPrice": 2700,
     "sku": "1823",
     "material": "Шкіра",
     "country": "В'єтнам",
@@ -148650,7 +148464,9 @@
       "40",
       "41",
       "42",
-      "44"
+      "43",
+      "44",
+      "45"
     ],
     "sizeChart": [
       {
@@ -148691,7 +148507,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": false
+        "available": true
       },
       {
         "size": "44",
@@ -148701,7 +148517,7 @@
       {
         "size": "45",
         "cm": "29.0",
-        "available": false
+        "available": true
       },
       {
         "size": "46",
@@ -148717,7 +148533,7 @@
     "description": "Модель: Nike SB x Louis Vuitton x Glommy Bear White Black SJ2068-227. Артикул: 1823. Матеріал: Шкіра. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
     "seo": {
       "title": "Nike SB x Louis Vuitton x Glommy Bear White Black SJ2068-227 (арт. 1823) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Nike SB x Louis Vuitton x Glommy Bear White Black SJ2068-227 (арт. 1823) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+      "description": "Замовляйте Nike SB x Louis Vuitton x Glommy Bear White Black SJ2068-227 (арт. 1823) за 3200 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -153090,7 +152906,6 @@
     "sizes": [
       "41",
       "42",
-      "43",
       "44"
     ],
     "sizeChart": [
@@ -153132,7 +152947,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": true
+        "available": false
       },
       {
         "size": "44",
@@ -166575,14 +166390,18 @@
     "genderName": "Унісекс",
     "season": "demi",
     "seasonName": "Демісезон",
-    "price": 2800,
-    "oldPrice": 4667,
-    "costPrice": 2300,
+    "price": 2900,
+    "oldPrice": 4833,
+    "costPrice": 2400,
     "sku": "1649",
     "material": "Замша",
     "country": "В'єтнам",
     "sizes": [
       "36",
+      "37",
+      "38",
+      "39",
+      "40",
       "41",
       "42",
       "43",
@@ -166598,22 +166417,22 @@
       {
         "size": "37",
         "cm": "23.5",
-        "available": false
+        "available": true
       },
       {
         "size": "38",
         "cm": "24.0",
-        "available": false
+        "available": true
       },
       {
         "size": "39",
         "cm": "24.5",
-        "available": false
+        "available": true
       },
       {
         "size": "40",
         "cm": "25.0",
-        "available": false
+        "available": true
       },
       {
         "size": "41",
@@ -166654,7 +166473,7 @@
     "description": "Модель: Adidas Spezial Blue IF7087. Артикул: 1649. Матеріал: Замша. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
     "seo": {
       "title": "Adidas Spezial Blue IF7087 (арт. 1649) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Adidas Spezial Blue IF7087 (арт. 1649) за 2800 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+      "description": "Замовляйте Adidas Spezial Blue IF7087 (арт. 1649) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -192437,7 +192256,6 @@
       "40",
       "41",
       "42",
-      "43",
       "44",
       "45"
     ],
@@ -192480,7 +192298,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": true
+        "available": false
       },
       {
         "size": "44",
@@ -194934,6 +194752,100 @@
     "seo": {
       "title": "Adidas Gazelle Beige EE5539 (арт. 1517) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Adidas Gazelle Beige EE5539 (арт. 1517) за 2600 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "151386",
+    "slug": "adidas-handball-spezial-beige-ie3699-1516",
+    "name": "Adidas Handball Spezial Beige IE3699",
+    "brand": "Adidas",
+    "brandSlug": "adidas",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 2800,
+    "oldPrice": 4667,
+    "costPrice": 2300,
+    "sku": "1516",
+    "material": "Шкіра, замша",
+    "country": "В'єтнам",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": true
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": true
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "24.5",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.0",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "25.5",
+        "available": true
+      },
+      {
+        "size": "42",
+        "cm": "26.0",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "28.5",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/51cdcd90-ac2c-4d2b-b6ff-2448728308eb.jpeg"
+    ],
+    "description": "Модель: Adidas Handball Spezial Beige IE3699. Артикул: 1516. Матеріал: Шкіра, замша. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Adidas Handball Spezial Beige IE3699 (арт. 1516) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Adidas Handball Spezial Beige IE3699 (арт. 1516) за 2800 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -203902,7 +203814,6 @@
     "material": "Замша , Натуральный мех",
     "country": "Китай",
     "sizes": [
-      "37",
       "39",
       "40",
       "41"
@@ -203916,7 +203827,7 @@
       {
         "size": "37",
         "cm": "23.5",
-        "available": true
+        "available": false
       },
       {
         "size": "38",
@@ -210270,8 +210181,7 @@
       "40",
       "41",
       "42",
-      "43",
-      "45"
+      "43"
     ],
     "sizeChart": [
       {
@@ -210322,7 +210232,7 @@
       {
         "size": "45",
         "cm": "28.5",
-        "available": true
+        "available": false
       },
       {
         "size": "46",
@@ -238277,8 +238187,7 @@
     "sizes": [
       "40",
       "41",
-      "42",
-      "43"
+      "42"
     ],
     "sizeChart": [
       {
@@ -238319,7 +238228,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": true
+        "available": false
       },
       {
         "size": "44",
@@ -239980,7 +239889,6 @@
     "sizes": [
       "39",
       "43",
-      "44",
       "45"
     ],
     "sizeChart": [
@@ -240027,7 +239935,7 @@
       {
         "size": "44",
         "cm": "28.0",
-        "available": true
+        "available": false
       },
       {
         "size": "45",
@@ -242693,6 +242601,7 @@
     "sizes": [
       "36",
       "37",
+      "38",
       "39",
       "40"
     ],
@@ -242710,7 +242619,7 @@
       {
         "size": "38",
         "cm": "24.0",
-        "available": false
+        "available": true
       },
       {
         "size": "39",
@@ -244723,6 +244632,99 @@
     "seo": {
       "title": "UGG ULTRA MINI PLATFORM CHESTNUT premium (5 (арт. 0802) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте UGG ULTRA MINI PLATFORM CHESTNUT premium (5 (арт. 0802) за 2499 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "69697",
+    "slug": "adidas-handball-spezial-blue-bd7632-1129",
+    "name": "Adidas Handball Spezial Blue BD7632",
+    "brand": "Adidas",
+    "brandSlug": "adidas",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "men",
+    "genderName": "Чоловічі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 2900,
+    "oldPrice": 4833,
+    "costPrice": 2400,
+    "sku": "1129",
+    "material": "Замша",
+    "country": "В'єтнам",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": false
+      },
+      {
+        "size": "39",
+        "cm": "24.5",
+        "available": false
+      },
+      {
+        "size": "40",
+        "cm": "25.0",
+        "available": false
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": true
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": true
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": true
+      },
+      {
+        "size": "45",
+        "cm": "28.5",
+        "available": true
+      },
+      {
+        "size": "46",
+        "cm": "29.0",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/4ef2a2c9-b199-4313-a664-1647128065f2.jpeg"
+    ],
+    "description": "Модель: Adidas Handball Spezial Blue BD7632. Артикул: 1129. Матеріал: Замша. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Adidas Handball Spezial Blue BD7632 (арт. 1129) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Adidas Handball Spezial Blue BD7632 (арт. 1129) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
