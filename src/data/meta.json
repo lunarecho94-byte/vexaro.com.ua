@@ -1,5 +1,5 @@
 {
-  "total": 2834,
+  "total": 2835,
   "brands": [
     {
       "name": "Nike",
@@ -79,7 +79,7 @@
     {
       "name": "Premiata",
       "slug": "premiata",
-      "count": 19
+      "count": 20
     },
     {
       "name": "Vans",
@@ -171,14 +171,14 @@
     {
       "name": "Взуття",
       "slug": "shoes",
-      "count": 2834
+      "count": 2835
     }
   ],
   "genders": [
     {
       "name": "Жіночі",
       "slug": "women",
-      "count": 1302
+      "count": 1303
     },
     {
       "name": "Чоловічі",
@@ -200,7 +200,7 @@
     {
       "name": "Зима",
       "slug": "winter",
-      "count": 297
+      "count": 298
     }
   ],
   "sizes": [

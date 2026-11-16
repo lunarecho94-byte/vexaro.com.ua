@@ -11,6 +11,7 @@ const productBySlug = new Map<string, Product>();
 const productById = new Map<string, Product>();
 
 const DEFAULT_PINNED_KEYS: string[] = [
+  'premiata-steven', // Premiata Steven (3 кольори) - pinned by user
   'A6201',     // Premiata MOERUN ХУТРО Brown - pinned by user
   'PM12',      // Premiata MOERUN ХУТРО Khaki - pinned by user
   'PM11',      // Premiata MOERUN ХУТРО Anthracite - pinned by user
@@ -624,7 +625,9 @@ export async function getProducts(params: CatalogQueryParams = {}): Promise<Cata
     const matched = (
       sku === target ||
       sku.replace(/\s+/g, '') === target.replace(/\s+/g, '') ||
-      (p.id || '').trim() === target
+      (p.id || '').trim() === target ||
+      (p.slug || '').trim().toLowerCase() === key.trim().toLowerCase() ||
+      (p.variations && p.variations.some((v) => (v.sku || '').trim().toUpperCase() === target || (v.slug || '').trim().toLowerCase() === key.trim().toLowerCase()))
     );
     if (matched && (target === '1691' || target === '1692') && p.id !== '253608') {
       return false;

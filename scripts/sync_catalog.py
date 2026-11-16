@@ -238,6 +238,7 @@ EXCLUDED_SKUS = {'16006', '16005', '16004', '16003', 'NB143', '0068', '2688', 'R
 # Pinned products permanently pinned at top by store owner request (supports 'id:...' or SKU)
 PINNED_FILE = os.path.join(SRC_DATA_DIR, 'pinned.json')
 PINNED_KEYS = [
+    'premiata-steven', # Premiata Steven (3 кольори: Ar51737, Ar51738, Ar51739) - pinned by user
     'A6201',     # Premiata MOERUN ХУТРО Brown - pinned by user
     'PM12',      # Premiata MOERUN ХУТРО Khaki - pinned by user
     'PM11',      # Premiata MOERUN ХУТРО Anthracite - pinned by user
@@ -326,6 +327,145 @@ EXCLUDED_NAME_PATTERNS = re.compile(
 
 # Curated products permanently added by store owner request
 CURATED_PRODUCTS = [
+    {
+        'id': '259190',
+        'slug': 'premiata-steven',
+        'name': 'Premiata Steven',
+        'brand': 'Premiata',
+        'brandSlug': 'premiata',
+        'category': 'Взуття',
+        'categorySlug': 'shoes',
+        'gender': 'women',
+        'genderName': 'Жіночі',
+        'season': 'winter',
+        'seasonName': 'Зима',
+        'price': 3300,
+        'oldPrice': 5500,
+        'minPrice': 3300,
+        'maxPrice': 3300,
+        'costPrice': 2800,
+        'sku': 'Ar51737',
+        'material': 'Натуральна шкіра / замша, натуральне хутро',
+        'country': "В'єтнам",
+        'sizes': ['36', '37', '38', '39', '40'],
+        'sizeChart': [
+            {'size': '36', 'cm': '23.0', 'available': True},
+            {'size': '37', 'cm': '23.5', 'available': True},
+            {'size': '38', 'cm': '24.0', 'available': True},
+            {'size': '39', 'cm': '25.0', 'available': True},
+            {'size': '40', 'cm': '25.5', 'available': True},
+            {'size': '41', 'cm': '26.0', 'available': False},
+        ],
+        'inStock': True,
+        'isHit': True,
+        'images': [
+            '/images/products/premiata-steven-black-ar51737/img-1.jpg',
+            '/images/products/premiata-steven-black-ar51737/img-2.jpg',
+            '/images/products/premiata-steven-black-ar51737/img-3.jpg',
+            '/images/products/premiata-steven-black-ar51737/img-4.jpg',
+            '/images/products/premiata-steven-beige-ar51738/img-1.jpg',
+            '/images/products/premiata-steven-beige-ar51738/img-2.jpg',
+            '/images/products/premiata-steven-beige-ar51738/img-3.jpg',
+            '/images/products/premiata-steven-beige-ar51738/img-4.jpg',
+            '/images/products/premiata-steven-dark-chocolate-ar51739/img-1.jpg',
+            '/images/products/premiata-steven-dark-chocolate-ar51739/img-2.jpg',
+            '/images/products/premiata-steven-dark-chocolate-ar51739/img-3.jpg',
+            '/images/products/premiata-steven-dark-chocolate-ar51739/img-4.jpg',
+        ],
+        'description': (
+            'Жіночі зимові кросівки Premiata Steven у культовому силуеті з теплим натуральним хутром. '
+            'Верх виготовлений із преміальної натуральної шкіри та замші, всередині — густе тепле натуральне хутро '
+            'для надійного захисту в морозну погоду. Фірмова підошва Premiata зі штампами забезпечує відмінну амортизацію '
+            'та максимальний комфорт при щоденній ходьбі. Модель представлена у 3 стильних кольорах: Black (арт. Ar51737), '
+            'Beige (арт. Ar51738) та Dark Chocolate (арт. Ar51739). '
+            'Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. '
+            'Гарантія обміну або повернення — 14 днів.'
+        ),
+        'seo': {
+            'title': 'Premiata Steven — купити жіночі зимові кросівки з хутром в інтернет-магазині VEXARO',
+            'description': 'Замовляйте жіночі зимові кросівки Premiata Steven на натуральному хутрі за 3300 ₴. Кольори Black, Beige, Dark Chocolate. Доставка по Україні 1–2 дні, накладений платіж.'
+        },
+        'variations': [
+            {
+                'id': '259190',
+                'sku': 'Ar51737',
+                'color': 'Black',
+                'colorSlug': 'black',
+                'price': 3300,
+                'oldPrice': 5500,
+                'costPrice': 2800,
+                'sizes': ['36', '37', '38', '39', '40'],
+                'sizeChart': [
+                    {'size': '36', 'cm': '23.0', 'available': True},
+                    {'size': '37', 'cm': '23.5', 'available': True},
+                    {'size': '38', 'cm': '24.0', 'available': True},
+                    {'size': '39', 'cm': '25.0', 'available': True},
+                    {'size': '40', 'cm': '25.5', 'available': True},
+                    {'size': '41', 'cm': '26.0', 'available': False},
+                ],
+                'images': [
+                    '/images/products/premiata-steven-black-ar51737/img-1.jpg',
+                    '/images/products/premiata-steven-black-ar51737/img-2.jpg',
+                    '/images/products/premiata-steven-black-ar51737/img-3.jpg',
+                    '/images/products/premiata-steven-black-ar51737/img-4.jpg',
+                ],
+                'inStock': True,
+                'slug': 'premiata-steven-black-ar51737',
+            },
+            {
+                'id': '259191',
+                'sku': 'Ar51738',
+                'color': 'Beige',
+                'colorSlug': 'beige',
+                'price': 3300,
+                'oldPrice': 5500,
+                'costPrice': 2800,
+                'sizes': ['36', '37', '38', '39', '40'],
+                'sizeChart': [
+                    {'size': '36', 'cm': '23.0', 'available': True},
+                    {'size': '37', 'cm': '23.5', 'available': True},
+                    {'size': '38', 'cm': '24.0', 'available': True},
+                    {'size': '39', 'cm': '25.0', 'available': True},
+                    {'size': '40', 'cm': '25.5', 'available': True},
+                    {'size': '41', 'cm': '26.0', 'available': False},
+                ],
+                'images': [
+                    '/images/products/premiata-steven-beige-ar51738/img-1.jpg',
+                    '/images/products/premiata-steven-beige-ar51738/img-2.jpg',
+                    '/images/products/premiata-steven-beige-ar51738/img-3.jpg',
+                    '/images/products/premiata-steven-beige-ar51738/img-4.jpg',
+                ],
+                'inStock': True,
+                'slug': 'premiata-steven-beige-ar51738',
+            },
+            {
+                'id': '259701',
+                'sku': 'Ar51739',
+                'color': 'Dark Chocolate',
+                'colorSlug': 'dark-chocolate',
+                'price': 3300,
+                'oldPrice': 5500,
+                'costPrice': 2800,
+                'sizes': ['36', '37', '38', '39', '40'],
+                'sizeChart': [
+                    {'size': '36', 'cm': '23.0', 'available': True},
+                    {'size': '37', 'cm': '23.5', 'available': True},
+                    {'size': '38', 'cm': '24.0', 'available': True},
+                    {'size': '39', 'cm': '25.0', 'available': True},
+                    {'size': '40', 'cm': '25.5', 'available': True},
+                    {'size': '41', 'cm': '26.0', 'available': False},
+                ],
+                'images': [
+                    '/images/products/premiata-steven-dark-chocolate-ar51739/img-1.jpg',
+                    '/images/products/premiata-steven-dark-chocolate-ar51739/img-2.jpg',
+                    '/images/products/premiata-steven-dark-chocolate-ar51739/img-3.jpg',
+                    '/images/products/premiata-steven-dark-chocolate-ar51739/img-4.jpg',
+                ],
+                'inStock': True,
+                'slug': 'premiata-steven-dark-chocolate-ar51739',
+            },
+        ],
+    },
     {
         'id': '254776',
         'slug': 'nike-air-max-plus-tn-black-teal-yellow-a5689',
@@ -1920,16 +2060,17 @@ def main():
             continue
         cp['oldPrice'] = int(round(cp['price'] / 0.60))
 
-        # Check if high-quality local images exist for this curated product
-        local_cp_dir = os.path.join(PUBLIC_DIR, 'images', 'products', cp.get('slug', ''))
-        sku_cp_dir = os.path.join(PUBLIC_DIR, 'images', 'products', str(cp.get('sku', '')).lower().replace(' ', ''))
-        chosen_cp_dir = local_cp_dir if os.path.isdir(local_cp_dir) else (sku_cp_dir if os.path.isdir(sku_cp_dir) else None)
-        if chosen_cp_dir:
-            dir_slug = os.path.basename(chosen_cp_dir)
-            local_files = sorted(os.listdir(chosen_cp_dir))
-            local_imgs = [f'/images/products/{dir_slug}/{fn}' for fn in local_files if fn.endswith(('.jpg', '.jpeg', '.webp', '.png'))]
-            if local_imgs:
-                cp['images'] = local_imgs
+        # Check if high-quality local images exist for this curated product (unless already specified with variations)
+        if 'variations' not in cp:
+            local_cp_dir = os.path.join(PUBLIC_DIR, 'images', 'products', cp.get('slug', ''))
+            sku_cp_dir = os.path.join(PUBLIC_DIR, 'images', 'products', str(cp.get('sku', '')).lower().replace(' ', ''))
+            chosen_cp_dir = local_cp_dir if os.path.isdir(local_cp_dir) else (sku_cp_dir if os.path.isdir(sku_cp_dir) else None)
+            if chosen_cp_dir:
+                dir_slug = os.path.basename(chosen_cp_dir)
+                local_files = sorted(os.listdir(chosen_cp_dir))
+                local_imgs = [f'/images/products/{dir_slug}/{fn}' for fn in local_files if fn.endswith(('.jpg', '.jpeg', '.webp', '.png'))]
+                if local_imgs:
+                    cp['images'] = local_imgs
         cp_gender = cp.get('gender', 'men')
         cp_brand = cp.get('brandSlug', '')
         cp_sku = cp.get('sku', '')
@@ -1937,18 +2078,19 @@ def main():
         cp_name = cp.get('name', '')
         cp_grid = get_supplier_brand_grid(cp_brand, cp_sku, cp_gender, cp_country, cp_name)
 
-        if max([int(s) for s in cp['sizes'] if s.isdigit()] or [41]) <= 41:
-            run = ['36', '37', '38', '39', '40', '41']
-        else:
-            run = ['36', '37', '38', '39', '40', '41', '42', '43', '44', '45', '46']
-        cp['sizeChart'] = [
-            {
-                'size': s,
-                'cm': cp_grid.get(s) or DEFAULT_UNISEX_GRID.get(s, '26.0'),
-                'available': s in cp['sizes']
-            }
-            for s in run
-        ]
+        if not cp.get('sizeChart'):
+            if max([int(s) for s in cp['sizes'] if s.isdigit()] or [41]) <= 41:
+                run = ['36', '37', '38', '39', '40', '41']
+            else:
+                run = ['36', '37', '38', '39', '40', '41', '42', '43', '44', '45', '46']
+            cp['sizeChart'] = [
+                {
+                    'size': s,
+                    'cm': cp_grid.get(s) or DEFAULT_UNISEX_GRID.get(s, '26.0'),
+                    'available': s in cp['sizes']
+                }
+                for s in run
+            ]
         products = [p for p in products if p['id'] != cp['id']]
         products.append(cp)
 
@@ -4055,6 +4197,9 @@ def main():
             sku_clean == target
             or sku_clean.replace(' ', '') == target.replace(' ', '')
             or str(p.get('id', '')).strip() == target
+            or str(p.get('slug', '')).strip().lower() == key.lower()
+            or any(str(v.get('sku', '')).strip().upper() == target for v in p.get('variations', []))
+            or any(str(v.get('slug', '')).strip().lower() == key.lower() for v in p.get('variations', []))
         )
         if matched and target in ('1691', '1692', '1096', '1450', '1464') and str(p.get('id', '')) != '253608':
             return False

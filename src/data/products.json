@@ -1,5 +1,256 @@
 [
   {
+    "id": "259190",
+    "slug": "premiata-steven",
+    "name": "Premiata Steven",
+    "brand": "Premiata",
+    "brandSlug": "premiata",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 3300,
+    "oldPrice": 5500,
+    "minPrice": 3300,
+    "maxPrice": 3300,
+    "costPrice": 2800,
+    "sku": "Ar51737",
+    "material": "Натуральна шкіра / замша, натуральне хутро",
+    "country": "В'єтнам",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "23.0",
+        "available": true
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": true
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": true,
+    "images": [
+      "/images/products/premiata-steven-black-ar51737/img-1.jpg",
+      "/images/products/premiata-steven-black-ar51737/img-2.jpg",
+      "/images/products/premiata-steven-black-ar51737/img-3.jpg",
+      "/images/products/premiata-steven-black-ar51737/img-4.jpg",
+      "/images/products/premiata-steven-beige-ar51738/img-1.jpg",
+      "/images/products/premiata-steven-beige-ar51738/img-2.jpg",
+      "/images/products/premiata-steven-beige-ar51738/img-3.jpg",
+      "/images/products/premiata-steven-beige-ar51738/img-4.jpg",
+      "/images/products/premiata-steven-dark-chocolate-ar51739/img-1.jpg",
+      "/images/products/premiata-steven-dark-chocolate-ar51739/img-2.jpg",
+      "/images/products/premiata-steven-dark-chocolate-ar51739/img-3.jpg",
+      "/images/products/premiata-steven-dark-chocolate-ar51739/img-4.jpg"
+    ],
+    "description": "Жіночі зимові кросівки Premiata Steven у культовому силуеті з теплим натуральним хутром. Верх виготовлений із преміальної натуральної шкіри та замші, всередині — густе тепле натуральне хутро для надійного захисту в морозну погоду. Фірмова підошва Premiata зі штампами забезпечує відмінну амортизацію та максимальний комфорт при щоденній ходьбі. Модель представлена у 3 стильних кольорах: Black (арт. Ar51737), Beige (арт. Ar51738) та Dark Chocolate (арт. Ar51739). Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Premiata Steven — купити жіночі зимові кросівки з хутром в інтернет-магазині VEXARO",
+      "description": "Замовляйте жіночі зимові кросівки Premiata Steven на натуральному хутрі за 3300 ₴. Кольори Black, Beige, Dark Chocolate. Доставка по Україні 1–2 дні, накладений платіж."
+    },
+    "variations": [
+      {
+        "id": "259190",
+        "sku": "Ar51737",
+        "color": "Black",
+        "colorSlug": "black",
+        "price": 3300,
+        "oldPrice": 5500,
+        "costPrice": 2800,
+        "sizes": [
+          "36",
+          "37",
+          "38",
+          "39",
+          "40"
+        ],
+        "sizeChart": [
+          {
+            "size": "36",
+            "cm": "23.0",
+            "available": true
+          },
+          {
+            "size": "37",
+            "cm": "23.5",
+            "available": true
+          },
+          {
+            "size": "38",
+            "cm": "24.0",
+            "available": true
+          },
+          {
+            "size": "39",
+            "cm": "25.0",
+            "available": true
+          },
+          {
+            "size": "40",
+            "cm": "25.5",
+            "available": true
+          },
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": false
+          }
+        ],
+        "images": [
+          "/images/products/premiata-steven-black-ar51737/img-1.jpg",
+          "/images/products/premiata-steven-black-ar51737/img-2.jpg",
+          "/images/products/premiata-steven-black-ar51737/img-3.jpg",
+          "/images/products/premiata-steven-black-ar51737/img-4.jpg"
+        ],
+        "inStock": true,
+        "slug": "premiata-steven-black-ar51737"
+      },
+      {
+        "id": "259191",
+        "sku": "Ar51738",
+        "color": "Beige",
+        "colorSlug": "beige",
+        "price": 3300,
+        "oldPrice": 5500,
+        "costPrice": 2800,
+        "sizes": [
+          "36",
+          "37",
+          "38",
+          "39",
+          "40"
+        ],
+        "sizeChart": [
+          {
+            "size": "36",
+            "cm": "23.0",
+            "available": true
+          },
+          {
+            "size": "37",
+            "cm": "23.5",
+            "available": true
+          },
+          {
+            "size": "38",
+            "cm": "24.0",
+            "available": true
+          },
+          {
+            "size": "39",
+            "cm": "25.0",
+            "available": true
+          },
+          {
+            "size": "40",
+            "cm": "25.5",
+            "available": true
+          },
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": false
+          }
+        ],
+        "images": [
+          "/images/products/premiata-steven-beige-ar51738/img-1.jpg",
+          "/images/products/premiata-steven-beige-ar51738/img-2.jpg",
+          "/images/products/premiata-steven-beige-ar51738/img-3.jpg",
+          "/images/products/premiata-steven-beige-ar51738/img-4.jpg"
+        ],
+        "inStock": true,
+        "slug": "premiata-steven-beige-ar51738"
+      },
+      {
+        "id": "259701",
+        "sku": "Ar51739",
+        "color": "Dark Chocolate",
+        "colorSlug": "dark-chocolate",
+        "price": 3300,
+        "oldPrice": 5500,
+        "costPrice": 2800,
+        "sizes": [
+          "36",
+          "37",
+          "38",
+          "39",
+          "40"
+        ],
+        "sizeChart": [
+          {
+            "size": "36",
+            "cm": "23.0",
+            "available": true
+          },
+          {
+            "size": "37",
+            "cm": "23.5",
+            "available": true
+          },
+          {
+            "size": "38",
+            "cm": "24.0",
+            "available": true
+          },
+          {
+            "size": "39",
+            "cm": "25.0",
+            "available": true
+          },
+          {
+            "size": "40",
+            "cm": "25.5",
+            "available": true
+          },
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": false
+          }
+        ],
+        "images": [
+          "/images/products/premiata-steven-dark-chocolate-ar51739/img-1.jpg",
+          "/images/products/premiata-steven-dark-chocolate-ar51739/img-2.jpg",
+          "/images/products/premiata-steven-dark-chocolate-ar51739/img-3.jpg",
+          "/images/products/premiata-steven-dark-chocolate-ar51739/img-4.jpg"
+        ],
+        "inStock": true,
+        "slug": "premiata-steven-dark-chocolate-ar51739"
+      }
+    ]
+  },
+  {
     "id": "258770",
     "slug": "premiata-moerun-khutro-a6201",
     "name": "Premiata MOERUN ХУТРО",
