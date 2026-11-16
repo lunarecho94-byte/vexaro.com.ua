@@ -450,7 +450,6 @@
       "/images/products/ugg-lowmel-sneakers-moss-green-premium-1691/img-4.jpg",
       "/images/products/ugg-lowmel-sneakers-light-bronze-premium-1692/img-1.jpg",
       "/images/products/ugg-lowmel-jasmine-tropical-pink/img-1.jpg",
-      "/images/products/ugg-lowmel-sneaker-pumice-ug0019/img-1.jpg",
       "/images/products/ugg-lowmel-sneaker-black-2393/img-1.jpg",
       "/images/products/ugg-lowmel-sneaker-beige-u970/img-1.jpg",
       "/images/products/ugg-lowmel-sneakers-leopard-premium-1687/img-1.jpg",
@@ -710,82 +709,6 @@
         ],
         "inStock": true,
         "slug": "ugg-lowmel-love-25-jasmine-tropical-pink-ug0015"
-      },
-      {
-        "id": "252592",
-        "sku": "UG0019",
-        "color": "PUMICE",
-        "colorSlug": "pumice",
-        "price": 4700,
-        "oldPrice": 7833,
-        "costPrice": 4200,
-        "sizes": [
-          "36",
-          "37",
-          "40"
-        ],
-        "sizeChart": [
-          {
-            "size": "36",
-            "cm": "23.0",
-            "available": true
-          },
-          {
-            "size": "37",
-            "cm": "23.5",
-            "available": true
-          },
-          {
-            "size": "38",
-            "cm": "24.5",
-            "available": false
-          },
-          {
-            "size": "39",
-            "cm": "25.0",
-            "available": false
-          },
-          {
-            "size": "40",
-            "cm": "25.5",
-            "available": true
-          },
-          {
-            "size": "41",
-            "cm": "26.0",
-            "available": false
-          },
-          {
-            "size": "42",
-            "cm": "26.5",
-            "available": false
-          },
-          {
-            "size": "43",
-            "cm": "27.5",
-            "available": false
-          },
-          {
-            "size": "44",
-            "cm": "28.0",
-            "available": false
-          },
-          {
-            "size": "45",
-            "cm": "28.5",
-            "available": false
-          },
-          {
-            "size": "46",
-            "cm": "29.5",
-            "available": false
-          }
-        ],
-        "images": [
-          "/images/products/ugg-lowmel-sneaker-pumice-ug0019/img-1.jpg"
-        ],
-        "inStock": true,
-        "slug": "ugg-lowmel-sneaker-pumice-ug0019"
       },
       {
         "id": "199671",
@@ -6757,12 +6680,13 @@
       "/images/products/ugg-lowmel-black-fur/img-1.jpg",
       "/images/products/ugg-lowmel-mustard-seed-fur/img-1.jpg",
       "/images/products/ugg-lowmel-chestnut-fur/img-1.jpg",
-      "/images/products/ugg-lowmel-grey-fur/img-1.jpg"
+      "/images/products/ugg-lowmel-grey-fur/img-1.jpg",
+      "/images/products/ugg-lowmel-sneaker-pumice-ug0019/img-1.jpg"
     ],
     "description": "Жіночі зимові кросівки UGG Lo Lowmel у преміальному заниженому силуеті з фірмовим теплим хутром. Модель поєднує культовий комфорт лінійки Lowmel зі зручною низькою посадкою: преміальний верх із натуральної замші, всередині — густе затишне натуральне хутро (овчина) для надійного тепла у холодну пору року. Потовщена легка підошва забезпечує мʼяку амортизацію та впевнене зчеплення з поверхнею, а фірмова шнурівка додає стильного акценту. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
     "seo": {
       "title": "UGG Lo Lowmel — купити жіночі зимові кросівки з хутром в інтернет-магазині VEXARO",
-      "description": "Замовляйте жіночі зимові кросівки UGG Lo Lowmel у кольорах Jasmine, Jasmine FUR, Black Fur, Mustard Seed FUR, Chestnut FUR, Grey FUR від 3900 ₴. Натуральна замша та овчина. Доставка 1–2 дні, накладений платіж."
+      "description": "Замовляйте жіночі зимові кросівки UGG Lo Lowmel у кольорах Jasmine, Jasmine FUR, Black Fur, Mustard Seed FUR, Chestnut FUR, Grey FUR, Pumice від 3900 ₴. Натуральна замша та овчина. Доставка 1–2 дні, накладений платіж."
     },
     "variations": [
       {
@@ -7237,6 +7161,60 @@
         ],
         "inStock": true,
         "slug": "ugg-lo-lowmel-sneaker-grey-fur-1777"
+      },
+      {
+        "id": "252592",
+        "sku": "UG0019",
+        "color": "PUMICE",
+        "colorSlug": "pumice",
+        "price": 4700,
+        "oldPrice": 7833,
+        "costPrice": 4200,
+        "sizes": [
+          "36",
+          "37",
+          "38",
+          "39",
+          "40",
+          "41"
+        ],
+        "sizeChart": [
+          {
+            "size": "36",
+            "cm": "22.5",
+            "available": true
+          },
+          {
+            "size": "37",
+            "cm": "23.5",
+            "available": true
+          },
+          {
+            "size": "38",
+            "cm": "24.0",
+            "available": true
+          },
+          {
+            "size": "39",
+            "cm": "25.0",
+            "available": true
+          },
+          {
+            "size": "40",
+            "cm": "25.5",
+            "available": true
+          },
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": true
+          }
+        ],
+        "images": [
+          "/images/products/ugg-lowmel-sneaker-pumice-ug0019/img-1.jpg"
+        ],
+        "inStock": true,
+        "slug": "ugg-lowmel-sneaker-pumice-ug0019"
       }
     ]
   },
