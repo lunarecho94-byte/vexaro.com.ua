@@ -6726,7 +6726,7 @@
     }
   },
   {
-    "id": "200251",
+    "id": "199876",
     "slug": "ugg-lowmel-sneakers-high",
     "name": "UGG LOWMEL SNEAKERS HIGH",
     "brand": "UGG",
@@ -6742,7 +6742,7 @@
     "minPrice": 3500,
     "maxPrice": 4300,
     "costPrice": 3000,
-    "sku": "2405",
+    "sku": "2404",
     "material": "Натуральна замша, натуральне хутро",
     "country": "В'єтнам",
     "sizes": [
@@ -6776,8 +6776,11 @@
     "inStock": true,
     "isHit": true,
     "images": [
-      "/images/products/ugg-lowmel-high-chestnut/img-1.jpg",
-      "/images/products/ugg-lowmel-high-black/img-1.jpg"
+      "/images/products/ugg-lowmel-high-black/img-1.jpg",
+      "/images/products/ugg-lowmel-high-black/img-2.jpg",
+      "/images/products/ugg-lowmel-high-black/img-3.jpg",
+      "/images/products/ugg-lowmel-high-black/img-4.jpg",
+      "/images/products/ugg-lowmel-high-chestnut/img-1.jpg"
     ],
     "description": "Жіночі зимові високі кросівки UGG LOWMEL SNEAKERS HIGH у преміальному виконанні. Завищена версія популярного силуету Lowmel з подовженою халявою для максимального тепла та захисту від холоду взимку. Верх виготовлено з якісної натуральної замші, внутрішня підкладка — густе тепле натуральне хутро (овчина). Потовщена амортизуюча підошва, стильні широкі шнурки та неперевершений зимовий комфорт UGG. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
     "seo": {
@@ -6785,6 +6788,85 @@
       "description": "Замовляйте зимові високі кросівки UGG LOWMEL SNEAKERS HIGH у забарвленнях Chestnut та Black за ціною від 3500 ₴. Натуральна замша та овчина. Швидка доставка Новою Поштою по Україні."
     },
     "variations": [
+      {
+        "id": "199876",
+        "sku": "2404",
+        "color": "HIGH BLACK",
+        "colorSlug": "high-black",
+        "price": 3500,
+        "oldPrice": 5833,
+        "costPrice": 3000,
+        "sizes": [
+          "36",
+          "37",
+          "38"
+        ],
+        "sizeChart": [
+          {
+            "size": "36",
+            "cm": "23.0",
+            "available": true
+          },
+          {
+            "size": "37",
+            "cm": "23.5",
+            "available": true
+          },
+          {
+            "size": "38",
+            "cm": "24.5",
+            "available": true
+          },
+          {
+            "size": "39",
+            "cm": "25.0",
+            "available": false
+          },
+          {
+            "size": "40",
+            "cm": "25.5",
+            "available": false
+          },
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": false
+          },
+          {
+            "size": "42",
+            "cm": "26.5",
+            "available": false
+          },
+          {
+            "size": "43",
+            "cm": "27.5",
+            "available": false
+          },
+          {
+            "size": "44",
+            "cm": "28.0",
+            "available": false
+          },
+          {
+            "size": "45",
+            "cm": "28.5",
+            "available": false
+          },
+          {
+            "size": "46",
+            "cm": "29.5",
+            "available": false
+          }
+        ],
+        "images": [
+          "/images/products/ugg-lowmel-high-black/img-1.jpg",
+          "/images/products/ugg-lowmel-high-black/img-2.jpg",
+          "/images/products/ugg-lowmel-high-black/img-3.jpg",
+          "/images/products/ugg-lowmel-high-black/img-4.jpg"
+        ],
+        "inStock": true,
+        "slug": "ugg-lowmel-sneaker-high-black-2404"
+      },
       {
         "id": "200251",
         "sku": "2405",
@@ -6860,82 +6942,6 @@
         ],
         "inStock": true,
         "slug": "ugg-lowmel-sneaker-high-chestnut-2405"
-      },
-      {
-        "id": "199876",
-        "sku": "2404",
-        "color": "HIGH BLACK",
-        "colorSlug": "high-black",
-        "price": 3500,
-        "oldPrice": 5833,
-        "costPrice": 3000,
-        "sizes": [
-          "36",
-          "37",
-          "38"
-        ],
-        "sizeChart": [
-          {
-            "size": "36",
-            "cm": "23.0",
-            "available": true
-          },
-          {
-            "size": "37",
-            "cm": "23.5",
-            "available": true
-          },
-          {
-            "size": "38",
-            "cm": "24.5",
-            "available": true
-          },
-          {
-            "size": "39",
-            "cm": "25.0",
-            "available": false
-          },
-          {
-            "size": "40",
-            "cm": "25.5",
-            "available": false
-          },
-          {
-            "size": "41",
-            "cm": "26.0",
-            "available": false
-          },
-          {
-            "size": "42",
-            "cm": "26.5",
-            "available": false
-          },
-          {
-            "size": "43",
-            "cm": "27.5",
-            "available": false
-          },
-          {
-            "size": "44",
-            "cm": "28.0",
-            "available": false
-          },
-          {
-            "size": "45",
-            "cm": "28.5",
-            "available": false
-          },
-          {
-            "size": "46",
-            "cm": "29.5",
-            "available": false
-          }
-        ],
-        "images": [
-          "/images/products/ugg-lowmel-high-black/img-1.jpg"
-        ],
-        "inStock": true,
-        "slug": "ugg-lowmel-sneaker-high-black-2404"
       }
     ]
   },

@@ -2128,7 +2128,13 @@ def main():
         if sku_clean == '2405' or pid == '200251':
             var_imgs = p.get('images', [])
             loc_path = os.path.join(PUBLIC_DIR, 'images', 'products', 'ugg-lowmel-high-chestnut', 'img-1.jpg')
-            if os.path.exists(loc_path):
+            loc_dir = os.path.dirname(loc_path)
+            if os.path.isdir(loc_dir):
+                local_files = sorted(os.listdir(loc_dir))
+                local_list = [f'/images/products/ugg-lowmel-high-chestnut/{f}' for f in local_files if f.endswith(('.jpg', '.jpeg', '.webp', '.png'))]
+                if local_list:
+                    var_imgs = local_list
+            elif os.path.exists(loc_path):
                 var_imgs = ['/images/products/ugg-lowmel-high-chestnut/img-1.jpg']
             lowmel_high_variations.append({
                 'id': str(p.get('id', '')),
@@ -2149,7 +2155,13 @@ def main():
         if sku_clean == '2404' or pid == '199876':
             var_imgs = p.get('images', [])
             loc_path = os.path.join(PUBLIC_DIR, 'images', 'products', 'ugg-lowmel-high-black', 'img-1.jpg')
-            if os.path.exists(loc_path):
+            loc_dir = os.path.dirname(loc_path)
+            if os.path.isdir(loc_dir):
+                local_files = sorted(os.listdir(loc_dir))
+                local_list = [f'/images/products/ugg-lowmel-high-black/{f}' for f in local_files if f.endswith(('.jpg', '.jpeg', '.webp', '.png'))]
+                if local_list:
+                    var_imgs = local_list
+            elif os.path.exists(loc_path):
                 var_imgs = ['/images/products/ugg-lowmel-high-black/img-1.jpg']
             lowmel_high_variations.append({
                 'id': str(p.get('id', '')),
@@ -2280,8 +2292,8 @@ def main():
         parents_lowmel.append(parent_lowmel)
 
     if lowmel_high_variations:
-        # Sort HIGH CHESTNUT (2405) first, then HIGH BLACK (2404)
-        lowmel_high_variations.sort(key=lambda v: 0 if v.get('sku') == '2405' else 1)
+        # Sort HIGH BLACK (2404) first, then HIGH CHESTNUT (2405)
+        lowmel_high_variations.sort(key=lambda v: 0 if v.get('sku') == '2404' else 1)
         all_high_sizes = sorted(
             list(set(s for v in lowmel_high_variations for s in v['sizes'])),
             key=lambda s: float(s.replace(',', '.')) if s.replace(',', '.').replace('.', '', 1).isdigit() else 999
@@ -2291,7 +2303,7 @@ def main():
         old_p_high = max(v.get('oldPrice') or int(round(v['price'] / 0.60)) for v in lowmel_high_variations)
 
         parent_lowmel_high = {
-            'id': '200251',
+            'id': lowmel_high_variations[0]['id'],
             'slug': 'ugg-lowmel-sneakers-high',
             'name': 'UGG LOWMEL SNEAKERS HIGH',
             'brand': 'UGG',
@@ -2307,7 +2319,7 @@ def main():
             'minPrice': min_p_high,
             'maxPrice': max_p_high,
             'costPrice': 3000,
-            'sku': '2405',
+            'sku': lowmel_high_variations[0]['sku'],
             'material': 'Натуральна замша, натуральне хутро',
             'country': "В'єтнам",
             'sizes': all_high_sizes,
