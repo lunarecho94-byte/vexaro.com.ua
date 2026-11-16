@@ -7322,7 +7322,7 @@
     ]
   },
   {
-    "id": "198543",
+    "id": "198527",
     "slug": "ugg-bea-mary-jane",
     "name": "UGG Bea Mary Jane",
     "brand": "UGG",
@@ -7378,8 +7378,11 @@
     "inStock": true,
     "isHit": true,
     "images": [
-      "/images/products/ugg-bea-mary-jane-sand/img-1.jpg",
-      "/images/products/ugg-bea-mary-jane-chestnut/img-1.jpg"
+      "/images/products/ugg-bea-mary-jane-chestnut/img-1.jpg",
+      "/images/products/ugg-bea-mary-jane-chestnut/img-2.jpg",
+      "/images/products/ugg-bea-mary-jane-chestnut/img-3.jpg",
+      "/images/products/ugg-bea-mary-jane-chestnut/img-4.jpg",
+      "/images/products/ugg-bea-mary-jane-sand/img-1.jpg"
     ],
     "description": "Жіночі зимові туфлі UGG Bea Mary Jane — стильне та ультрамодне переосмислення класичного силуету Mary Jane у фірмовому виконанні бренду UGG. Модель виконана з преміальної натуральної замші з фірмовим ремінцем на підйомі та густим теплим натуральним хутром усередині для максимального затишку. Легка потовщена підошва забезпечує комфортну амортизацію та надійне зчеплення при щоденному носінні. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
     "seo": {
@@ -7387,6 +7390,86 @@
       "description": "Замовляйте стильні жіночі туфлі UGG Bea Mary Jane у кольорах Sand та Chestnut за 3 500 ₴. Натуральна замша, тепле хутро. Доставка Новою Поштою 1–2 дні, оплата при отриманні."
     },
     "variations": [
+      {
+        "id": "198527",
+        "sku": "1885",
+        "color": "Chestnut",
+        "colorSlug": "chestnut",
+        "price": 3500,
+        "oldPrice": 5833,
+        "costPrice": 3000,
+        "sizes": [
+          "36",
+          "37",
+          "39",
+          "40"
+        ],
+        "sizeChart": [
+          {
+            "size": "36",
+            "cm": "23.0",
+            "available": true
+          },
+          {
+            "size": "37",
+            "cm": "23.5",
+            "available": true
+          },
+          {
+            "size": "38",
+            "cm": "24.5",
+            "available": false
+          },
+          {
+            "size": "39",
+            "cm": "25.0",
+            "available": true
+          },
+          {
+            "size": "40",
+            "cm": "25.5",
+            "available": true
+          },
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": false
+          },
+          {
+            "size": "42",
+            "cm": "26.5",
+            "available": false
+          },
+          {
+            "size": "43",
+            "cm": "27.5",
+            "available": false
+          },
+          {
+            "size": "44",
+            "cm": "28.0",
+            "available": false
+          },
+          {
+            "size": "45",
+            "cm": "28.5",
+            "available": false
+          },
+          {
+            "size": "46",
+            "cm": "29.5",
+            "available": false
+          }
+        ],
+        "images": [
+          "/images/products/ugg-bea-mary-jane-chestnut/img-1.jpg",
+          "/images/products/ugg-bea-mary-jane-chestnut/img-2.jpg",
+          "/images/products/ugg-bea-mary-jane-chestnut/img-3.jpg",
+          "/images/products/ugg-bea-mary-jane-chestnut/img-4.jpg"
+        ],
+        "inStock": true,
+        "slug": "ugg-bea-mary-jane-chestnut-1885"
+      },
       {
         "id": "198543",
         "sku": "1886",
@@ -7462,83 +7545,6 @@
         ],
         "inStock": true,
         "slug": "ugg-bea-mary-jane-sand-1886"
-      },
-      {
-        "id": "198527",
-        "sku": "1885",
-        "color": "Chestnut",
-        "colorSlug": "chestnut",
-        "price": 3500,
-        "oldPrice": 5833,
-        "costPrice": 3000,
-        "sizes": [
-          "36",
-          "37",
-          "39",
-          "40"
-        ],
-        "sizeChart": [
-          {
-            "size": "36",
-            "cm": "23.0",
-            "available": true
-          },
-          {
-            "size": "37",
-            "cm": "23.5",
-            "available": true
-          },
-          {
-            "size": "38",
-            "cm": "24.5",
-            "available": false
-          },
-          {
-            "size": "39",
-            "cm": "25.0",
-            "available": true
-          },
-          {
-            "size": "40",
-            "cm": "25.5",
-            "available": true
-          },
-          {
-            "size": "41",
-            "cm": "26.0",
-            "available": false
-          },
-          {
-            "size": "42",
-            "cm": "26.5",
-            "available": false
-          },
-          {
-            "size": "43",
-            "cm": "27.5",
-            "available": false
-          },
-          {
-            "size": "44",
-            "cm": "28.0",
-            "available": false
-          },
-          {
-            "size": "45",
-            "cm": "28.5",
-            "available": false
-          },
-          {
-            "size": "46",
-            "cm": "29.5",
-            "available": false
-          }
-        ],
-        "images": [
-          "/images/products/ugg-bea-mary-jane-chestnut/img-1.jpg"
-        ],
-        "inStock": true,
-        "slug": "ugg-bea-mary-jane-chestnut-1885"
       }
     ]
   },
