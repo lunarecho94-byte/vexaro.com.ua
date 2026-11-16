@@ -2928,7 +2928,7 @@ def main():
             'minPrice': min_p,
             'maxPrice': max_p,
             'costPrice': 3000,
-            'sku': '1886',
+            'sku': bea_mary_jane_variations[0]['sku'],
             'material': 'Натуральна замша, тепле хутро',
             'country': "В'єтнам",
             'sizes': all_mj_sizes,

@@ -7338,7 +7338,7 @@
     "minPrice": 3500,
     "maxPrice": 3500,
     "costPrice": 3000,
-    "sku": "1886",
+    "sku": "1885",
     "material": "Натуральна замша, тепле хутро",
     "country": "В'єтнам",
     "sizes": [
@@ -7541,7 +7541,10 @@
           }
         ],
         "images": [
-          "/images/products/ugg-bea-mary-jane-sand/img-1.jpg"
+          "/images/products/ugg-bea-mary-jane-sand/img-1.jpg",
+          "/images/products/ugg-bea-mary-jane-sand/img-2.jpg",
+          "/images/products/ugg-bea-mary-jane-sand/img-3.jpg",
+          "/images/products/ugg-bea-mary-jane-sand/img-4.jpg"
         ],
         "inStock": true,
         "slug": "ugg-bea-mary-jane-sand-1886"
