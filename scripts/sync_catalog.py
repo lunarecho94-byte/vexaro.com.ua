@@ -2841,6 +2841,138 @@ def main():
         }
         products = [parent_chelsea] + other_products_7
 
+    # Group UGG TAZELLE PLATFORM variations into a single parent product
+    tazelle_variations = []
+    other_products_8 = []
+    tazelle_cfg = {
+        '195973': {
+            'sku': '1414',
+            'color': 'Sand',
+            'colorSlug': 'sand',
+            'price': 3500,
+            'oldPrice': 5833,
+            'local_dir': 'ugg-tazelle-platform-sand',
+            'order': 0,
+        },
+        '195972': {
+            'sku': '1413',
+            'color': 'Chestnut',
+            'colorSlug': 'chestnut',
+            'price': 3500,
+            'oldPrice': 5833,
+            'local_dir': 'ugg-tazelle-platform-chestnut',
+            'order': 1,
+        },
+        '195971': {
+            'sku': '1412',
+            'color': 'Black',
+            'colorSlug': 'black',
+            'price': 3500,
+            'oldPrice': 5833,
+            'local_dir': 'ugg-tazelle-platform-black',
+            'order': 2,
+        },
+    }
+    sku_to_pid_tazelle = {v['sku']: k for k, v in tazelle_cfg.items()}
+
+    for p in products:
+        pname = p.get('name', '')
+        sku_clean = str(p.get('sku', '')).strip().upper()
+        pid = str(p.get('id', '')).strip()
+
+        matched = None
+        if pid in tazelle_cfg:
+            matched = tazelle_cfg[pid]
+        elif 'ugg' in pname.lower() and 'tazelle' in pname.lower() and sku_clean in sku_to_pid_tazelle:
+            matched = tazelle_cfg[sku_to_pid_tazelle[sku_clean]]
+        elif 'tazelle' in pname.lower():
+            for k_id, cfg in tazelle_cfg.items():
+                if cfg['color'].lower() in pname.lower() or cfg['sku'].lower() in pname.lower():
+                    matched = cfg
+                    break
+
+        if matched:
+            if any(v['sku'] == matched['sku'] for v in tazelle_variations):
+                continue
+
+            var_imgs = p.get('images', [])
+            loc_path = os.path.join(PUBLIC_DIR, 'images', 'products', matched['local_dir'], 'img-1.jpg')
+            if os.path.exists(loc_path):
+                var_imgs = [f"/images/products/{matched['local_dir']}/img-1.jpg"]
+
+            tazelle_variations.append({
+                'id': str(p.get('id', '')),
+                'sku': matched['sku'],
+                'color': matched['color'],
+                'colorSlug': matched['colorSlug'],
+                'price': matched['price'],
+                'oldPrice': matched['oldPrice'],
+                'costPrice': p.get('costPrice', 2200),
+                'sizes': p.get('sizes', []),
+                'sizeChart': p.get('sizeChart', []),
+                'images': var_imgs,
+                'inStock': p.get('inStock', True),
+                'slug': p.get('slug', '')
+            })
+        else:
+            other_products_8.append(p)
+
+    if tazelle_variations:
+        preferred_order_tz = {'1414': 0, '1413': 1, '1412': 2}
+        tazelle_variations.sort(key=lambda v: preferred_order_tz.get(v.get('sku'), 99))
+        all_tz_sizes = sorted(
+            list(set(s for v in tazelle_variations for s in v['sizes'])),
+            key=lambda s: float(s.replace(',', '.')) if s.replace(',', '.').replace('.', '', 1).isdigit() else 999
+        )
+        min_p = min(v['price'] for v in tazelle_variations)
+        max_p = max(v['price'] for v in tazelle_variations)
+        old_p = max(v.get('oldPrice') or int(round(v['price'] / 0.60)) for v in tazelle_variations)
+
+        parent_tazelle = {
+            'id': '195973',
+            'slug': 'ugg-tazelle-platform',
+            'name': 'UGG TAZELLE PLATFORM',
+            'brand': 'UGG',
+            'brandSlug': 'ugg',
+            'category': 'Взуття',
+            'categorySlug': 'shoes',
+            'gender': 'women',
+            'genderName': 'Жіночі',
+            'season': 'winter',
+            'seasonName': 'Зима',
+            'price': min_p,
+            'oldPrice': old_p,
+            'minPrice': min_p,
+            'maxPrice': max_p,
+            'costPrice': 2200,
+            'sku': '1414',
+            'material': 'Натуральна замша, натуральне хутро (овчина)',
+            'country': "В'єтнам",
+            'sizes': all_tz_sizes,
+            'sizeChart': [
+                {'size': s, 'cm': DEFAULT_WOMEN_GRID.get(s, '24.0'), 'available': True}
+                for s in all_tz_sizes
+            ],
+            'inStock': True,
+            'isHit': True,
+            'images': tazelle_variations[0]['images'] + [v['images'][0] for v in tazelle_variations[1:] if v.get('images')],
+            'description': (
+                'Жіночі зимові уггі UGG TAZELLE PLATFORM у стильному ультрамодному силуеті на потовщеній платформі. '
+                'Модель поєднує комфорт фірмових угг із виразною підошвою-платформою: верх із преміальної натуральної замші, '
+                'всередині — густе тепле натуральне хутро (овчина) для надійного захисту від морозів та максимального комфорту. '
+                'Еластична вставка та фірмовий дизайн халяви забезпечують легке взування та ідеальну посадку по нозі. '
+                'Легка підошва надійно ізолює від холоду та гарантує амортизацію при кожному кроці. '
+                'Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. '
+                'Гарантія обміну або повернення — 14 днів.'
+            ),
+            'seo': {
+                'title': 'UGG TAZELLE PLATFORM — купити зимові уггі на платформі в інтернет-магазині VEXARO',
+                'description': f'Замовляйте зимові уггі UGG TAZELLE PLATFORM у кольорах Sand, Chestnut, Black за {min_p} ₴. Натуральна замша та овчина на стильній платформі. Доставка Новою Поштою 1–2 дні, накладений платіж.'
+            },
+            'variations': tazelle_variations
+        }
+        products = [parent_tazelle] + other_products_8
+
     brand_map = defaultdict(lambda: {'name': '', 'slug': '', 'count': 0})
     season_map = defaultdict(lambda: {'name': '', 'slug': '', 'count': 0})
     gender_map = defaultdict(lambda: {'name': '', 'slug': '', 'count': 0})
