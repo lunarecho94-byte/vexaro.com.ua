@@ -2760,7 +2760,13 @@ def main():
             var_imgs = p.get('images', [])
             if sku in local_micro_img_map:
                 loc_path = os.path.join(PUBLIC_DIR, local_micro_img_map[sku].lstrip('/'))
-                if os.path.exists(loc_path):
+                loc_dir = os.path.dirname(loc_path)
+                if os.path.isdir(loc_dir):
+                    local_files = sorted(os.listdir(loc_dir))
+                    local_list = [f"/{os.path.dirname(local_micro_img_map[sku].lstrip('/'))}/{f}" for f in local_files if f.endswith(('.jpg', '.jpeg', '.webp', '.png'))]
+                    if local_list:
+                        var_imgs = local_list
+                elif os.path.exists(loc_path):
                     var_imgs = [local_micro_img_map[sku]]
 
             classic_micro_variations.append({
@@ -2781,7 +2787,7 @@ def main():
             other_products_5.append(p)
 
     if classic_micro_variations:
-        preferred_order = {'Chocolate': 0, 'Sand': 1, 'Black': 2, 'Rocky Oak': 3, 'Chestnut': 4}
+        preferred_order = {'Chestnut': 0, 'Chocolate': 1, 'Sand': 2, 'Black': 3, 'Rocky Oak': 4}
         classic_micro_variations.sort(key=lambda v: preferred_order.get(v.get('color'), 99))
         all_micro_sizes = sorted(
             list(set(s for v in classic_micro_variations for s in v['sizes'])),
@@ -2808,7 +2814,7 @@ def main():
             'minPrice': min_p,
             'maxPrice': max_p,
             'costPrice': 2900,
-            'sku': '2062',
+            'sku': classic_micro_variations[0]['sku'],
             'material': 'Натуральна замша, овчина',
             'country': "В'єтнам",
             'sizes': all_micro_sizes,
