@@ -3755,6 +3755,131 @@ def main():
         }
         products = [parent_teddy] + other_products_14
 
+    # Group UGG Mini Lacquer ZIP variations into a single parent product
+    lacquer_zip_variations = []
+    other_products_15 = []
+    lacquer_zip_cfg = {
+        '73379': {
+            'sku': '1151',
+            'color': 'Light Grey',
+            'colorSlug': 'light-grey',
+            'price': 1800,
+            'oldPrice': 3000,
+            'local_dir': 'ugg-mini-lacquer-zip-light-grey',
+            'order': 0,
+        },
+        '69270': {
+            'sku': '1115',
+            'color': 'Black Lacquer',
+            'colorSlug': 'black-lacquer',
+            'price': 1900,
+            'oldPrice': 3167,
+            'local_dir': 'ugg-mini-lacquer-zip-black',
+            'order': 1,
+        },
+    }
+    sku_to_pid_lz = {v['sku']: k for k, v in lacquer_zip_cfg.items()}
+
+    for p in products:
+        pname = p.get('name', '')
+        sku_clean = str(p.get('sku', '')).strip().upper()
+        pid = str(p.get('id', '')).strip()
+
+        matched = None
+        if pid in lacquer_zip_cfg:
+            matched = lacquer_zip_cfg[pid]
+        elif 'ugg' in pname.lower() and 'zip' in pname.lower() and 'lacquer' in pname.lower() and sku_clean in sku_to_pid_lz:
+            matched = lacquer_zip_cfg[sku_to_pid_lz[sku_clean]]
+        elif 'ugg' in pname.lower() and 'mini' in pname.lower() and 'zip' in pname.lower() and 'lacquer' in pname.lower():
+            for k_id, cfg in lacquer_zip_cfg.items():
+                if cfg['color'].lower() in pname.lower() or cfg['sku'].lower() in pname.lower():
+                    matched = cfg
+                    break
+
+        if matched:
+            if any(v['sku'] == matched['sku'] for v in lacquer_zip_variations):
+                continue
+
+            var_imgs = p.get('images', [])
+            loc_dir = os.path.join(PUBLIC_DIR, 'images', 'products', matched['local_dir'])
+            if os.path.exists(loc_dir):
+                local_files = sorted([f for f in os.listdir(loc_dir) if f.endswith(('.jpg', '.jpeg', '.png'))])
+                if local_files:
+                    var_imgs = [f"/images/products/{matched['local_dir']}/{f}" for f in local_files]
+
+            lacquer_zip_variations.append({
+                'id': str(p.get('id', '')),
+                'sku': matched['sku'],
+                'color': matched['color'],
+                'colorSlug': matched['colorSlug'],
+                'price': matched['price'],
+                'oldPrice': matched['oldPrice'],
+                'costPrice': p.get('costPrice', 1250),
+                'sizes': p.get('sizes', []),
+                'sizeChart': p.get('sizeChart', []),
+                'images': var_imgs,
+                'inStock': p.get('inStock', True),
+                'slug': p.get('slug', '')
+            })
+        else:
+            other_products_15.append(p)
+
+    if lacquer_zip_variations:
+        preferred_order_lz = {'1151': 0, '1115': 1}
+        lacquer_zip_variations.sort(key=lambda v: preferred_order_lz.get(v.get('sku'), 99))
+        all_lz_sizes = sorted(
+            list(set(s for v in lacquer_zip_variations for s in v['sizes'])),
+            key=lambda s: float(s.replace(',', '.')) if s.replace(',', '.').replace('.', '', 1).isdigit() else 999
+        )
+        min_p = min(v['price'] for v in lacquer_zip_variations)
+        max_p = max(v['price'] for v in lacquer_zip_variations)
+        old_p = max(v.get('oldPrice') or int(round(v['price'] / 0.60)) for v in lacquer_zip_variations)
+
+        parent_lacquer_zip = {
+            'id': '73379',
+            'slug': 'ugg-mini-lacquer-zip',
+            'name': 'UGG Mini Lacquer ZIP',
+            'brand': 'UGG',
+            'brandSlug': 'ugg',
+            'category': 'Взуття',
+            'categorySlug': 'shoes',
+            'gender': 'women',
+            'genderName': 'Жіночі',
+            'season': 'winter',
+            'seasonName': 'Зима',
+            'price': min_p,
+            'oldPrice': old_p,
+            'minPrice': min_p,
+            'maxPrice': max_p,
+            'costPrice': 1250,
+            'sku': '1151',
+            'material': 'Натуральна замша з лаковим покриттям, натуральне хутро (овчина), бічна блискавка ZIP',
+            'country': "В'єтнам",
+            'sizes': all_lz_sizes,
+            'sizeChart': [
+                {'size': s, 'cm': UGG_GRID.get(s, DEFAULT_WOMEN_GRID.get(s, '24.0')), 'available': True}
+                for s in all_lz_sizes
+            ],
+            'inStock': True,
+            'isHit': True,
+            'images': lacquer_zip_variations[0]['images'] + [v['images'][0] for v in lacquer_zip_variations[1:] if v.get('images')],
+            'description': (
+                'Жіночі зимові уггі з бічною блискавкою UGG Mini Lacquer ZIP у стильному глянцевому виконанні. '
+                'Культовий силует Classic Mini, доповнений практичною металевою блискавкою ZIP для швидкого та комфортного взування: '
+                'верх виготовлений із високоякісної натуральної замші з вологозахисним лаковим напиленням, '
+                'всередині — густе тепле натуральне хутро (овчина) для надійного збереження тепла в морозні дні. '
+                'Легка підошва забезпечує комфортну амортизацію та надійне зчеплення зі слизькими зимовими поверхнями. '
+                'Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. '
+                'Гарантія обміну або повернення — 14 днів.'
+            ),
+            'seo': {
+                'title': 'UGG Mini Lacquer ZIP — купити жіночі зимові уггі з блискавкою в інтернет-магазині VEXARO',
+                'description': f'Замовляйте жіночі зимові уггі UGG Mini Lacquer ZIP у кольорах Light Grey та Black Lacquer за ціною від {min_p} ₴. Натуральна лакована замша, овчина, блискавка. Доставка Новою Поштою 1–2 дні, накладений платіж.'
+            },
+            'variations': lacquer_zip_variations
+        }
+        products = [parent_lacquer_zip] + other_products_15
+
     brand_map = defaultdict(lambda: {'name': '', 'slug': '', 'count': 0})
     season_map = defaultdict(lambda: {'name': '', 'slug': '', 'count': 0})
     gender_map = defaultdict(lambda: {'name': '', 'slug': '', 'count': 0})

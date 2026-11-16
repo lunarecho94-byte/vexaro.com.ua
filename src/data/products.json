@@ -10558,6 +10558,222 @@
     }
   },
   {
+    "id": "73379",
+    "slug": "ugg-mini-lacquer-zip",
+    "name": "UGG Mini Lacquer ZIP",
+    "brand": "UGG",
+    "brandSlug": "ugg",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 1800,
+    "oldPrice": 3167,
+    "minPrice": 1800,
+    "maxPrice": 1900,
+    "costPrice": 1250,
+    "sku": "1151",
+    "material": "Натуральна замша з лаковим покриттям, натуральне хутро (овчина), бічна блискавка ZIP",
+    "country": "В'єтнам",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "23.0",
+        "available": true
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": true
+      },
+      {
+        "size": "38",
+        "cm": "24.5",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": true
+      }
+    ],
+    "inStock": true,
+    "isHit": true,
+    "images": [
+      "/images/products/ugg-mini-lacquer-zip-light-grey/img-1.jpg",
+      "/images/products/ugg-mini-lacquer-zip-light-grey/img-2.jpg",
+      "/images/products/ugg-mini-lacquer-zip-black/img-1.jpg"
+    ],
+    "description": "Жіночі зимові уггі з бічною блискавкою UGG Mini Lacquer ZIP у стильному глянцевому виконанні. Культовий силует Classic Mini, доповнений практичною металевою блискавкою ZIP для швидкого та комфортного взування: верх виготовлений із високоякісної натуральної замші з вологозахисним лаковим напиленням, всередині — густе тепле натуральне хутро (овчина) для надійного збереження тепла в морозні дні. Легка підошва забезпечує комфортну амортизацію та надійне зчеплення зі слизькими зимовими поверхнями. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "UGG Mini Lacquer ZIP — купити жіночі зимові уггі з блискавкою в інтернет-магазині VEXARO",
+      "description": "Замовляйте жіночі зимові уггі UGG Mini Lacquer ZIP у кольорах Light Grey та Black Lacquer за ціною від 1800 ₴. Натуральна лакована замша, овчина, блискавка. Доставка Новою Поштою 1–2 дні, накладений платіж."
+    },
+    "variations": [
+      {
+        "id": "73379",
+        "sku": "1151",
+        "color": "Light Grey",
+        "colorSlug": "light-grey",
+        "price": 1800,
+        "oldPrice": 3000,
+        "costPrice": 1300,
+        "sizes": [
+          "36",
+          "37",
+          "38"
+        ],
+        "sizeChart": [
+          {
+            "size": "36",
+            "cm": "23.0",
+            "available": true
+          },
+          {
+            "size": "37",
+            "cm": "23.5",
+            "available": true
+          },
+          {
+            "size": "38",
+            "cm": "24.5",
+            "available": true
+          },
+          {
+            "size": "39",
+            "cm": "25.0",
+            "available": false
+          },
+          {
+            "size": "40",
+            "cm": "25.5",
+            "available": false
+          },
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": false
+          },
+          {
+            "size": "42",
+            "cm": "26.5",
+            "available": false
+          },
+          {
+            "size": "43",
+            "cm": "27.5",
+            "available": false
+          },
+          {
+            "size": "44",
+            "cm": "28.0",
+            "available": false
+          },
+          {
+            "size": "45",
+            "cm": "28.5",
+            "available": false
+          },
+          {
+            "size": "46",
+            "cm": "29.5",
+            "available": false
+          }
+        ],
+        "images": [
+          "/images/products/ugg-mini-lacquer-zip-light-grey/img-1.jpg",
+          "/images/products/ugg-mini-lacquer-zip-light-grey/img-2.jpg"
+        ],
+        "inStock": true,
+        "slug": "ugg-mini-lacquer-zip-light-grey-1151"
+      },
+      {
+        "id": "69270",
+        "sku": "1115",
+        "color": "Black Lacquer",
+        "colorSlug": "black-lacquer",
+        "price": 1900,
+        "oldPrice": 3167,
+        "costPrice": 1400,
+        "sizes": [
+          "36",
+          "38",
+          "39"
+        ],
+        "sizeChart": [
+          {
+            "size": "36",
+            "cm": "23.0",
+            "available": true
+          },
+          {
+            "size": "37",
+            "cm": "23.5",
+            "available": false
+          },
+          {
+            "size": "38",
+            "cm": "24.5",
+            "available": true
+          },
+          {
+            "size": "39",
+            "cm": "25.0",
+            "available": true
+          },
+          {
+            "size": "40",
+            "cm": "25.5",
+            "available": false
+          },
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": false
+          },
+          {
+            "size": "42",
+            "cm": "26.5",
+            "available": false
+          },
+          {
+            "size": "43",
+            "cm": "27.5",
+            "available": false
+          },
+          {
+            "size": "44",
+            "cm": "28.0",
+            "available": false
+          },
+          {
+            "size": "45",
+            "cm": "28.5",
+            "available": false
+          },
+          {
+            "size": "46",
+            "cm": "29.5",
+            "available": false
+          }
+        ],
+        "images": [
+          "/images/products/ugg-mini-lacquer-zip-black/img-1.jpg"
+        ],
+        "inStock": true,
+        "slug": "ugg-mini-zip-black-lacquer-1115"
+      }
+    ]
+  },
+  {
     "id": "10258",
     "slug": "ugg-bailey-button-triplet-ii",
     "name": "UGG Bailey Button Triplet II",
@@ -244019,98 +244235,6 @@
     }
   },
   {
-    "id": "73379",
-    "slug": "ugg-mini-lacquer-zip-light-grey-1151",
-    "name": "Ugg Mini Lacquer ZIP Light Grey",
-    "brand": "UGG",
-    "brandSlug": "ugg",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 1800,
-    "oldPrice": 3000,
-    "costPrice": 1300,
-    "sku": "1151",
-    "material": "Замша, овчина",
-    "country": "В'єтнам",
-    "sizes": [
-      "36",
-      "37",
-      "38"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "23.0",
-        "available": true
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": true
-      },
-      {
-        "size": "38",
-        "cm": "24.5",
-        "available": true
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/93d5718d-b491-4df6-b218-dbbcebaadd55.jpeg",
-      "https://easydrop.one/media/uploads/images/base/c08f9179-5858-4fb3-bef4-a254a49c371e.jpeg"
-    ],
-    "description": "Модель: Ugg Mini Lacquer ZIP Light Grey. Артикул: 1151. Матеріал: Замша, овчина. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Ugg Mini Lacquer ZIP Light Grey (арт. 1151) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Ugg Mini Lacquer ZIP Light Grey (арт. 1151) за 1800 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "73095",
     "slug": "ugg-ultra-mini-pink-suede-rozprodazh-ug097",
     "name": "Ugg Ultra Mini Pink Suede РОЗПРОДАЖ",
@@ -245036,97 +245160,6 @@
     "seo": {
       "title": "Ugg Bailey Bow II Boot Black Leather (арт. 1118) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Ugg Bailey Bow II Boot Black Leather (арт. 1118) за 2200 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "69270",
-    "slug": "ugg-mini-zip-black-lacquer-1115",
-    "name": "Ugg Mini ZIP Black Lacquer",
-    "brand": "UGG",
-    "brandSlug": "ugg",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 1900,
-    "oldPrice": 3167,
-    "costPrice": 1400,
-    "sku": "1115",
-    "material": "Замша, овчина",
-    "country": "Китай",
-    "sizes": [
-      "36",
-      "38",
-      "39"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "23.0",
-        "available": true
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.5",
-        "available": true
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": true
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/3fed70b1-7990-4304-b317-6a632914c315.jpeg"
-    ],
-    "description": "Модель: Ugg Mini ZIP Black Lacquer. Артикул: 1115. Матеріал: Замша, овчина. Сезон: Зима. Виробництво: Китай. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Ugg Mini ZIP Black Lacquer (арт. 1115) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Ugg Mini ZIP Black Lacquer (арт. 1115) за 1900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
