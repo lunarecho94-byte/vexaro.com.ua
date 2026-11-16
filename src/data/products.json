@@ -449,12 +449,12 @@
       "/images/products/ugg-lowmel-sneakers-light-bronze-premium-1692/img-1.jpg",
       "/images/products/ugg-lowmel-sneakers-chestnut-premium-1096/img-1.jpg",
       "/images/products/ugg-lowmel-sneakers-rocky-oak-premium-1450/img-1.jpg",
+      "/images/products/ugg-lowmel-sneakers-black-leather-premium-1464/img-1.jpg",
       "/images/products/ugg-lowmel-sneaker-black-2393/img-1.jpg",
       "/images/products/ugg-lowmel-sneakers-leopard-premium-1687/img-1.jpg",
       "/images/products/ugg-lowmel-sneakers-pink-premium-1686/img-1.jpg",
       "/images/products/ugg-lowmel-sneakers-white-pink-premium-1683/img-1.jpg",
       "https://easydrop.one/media/uploads/images/base/789a0d38-8867-4394-8b9e-ff15511f3173.jpeg",
-      "/images/products/ugg-lowmel-sneakers-black-leather-premium-1464/img-1.jpg",
       "/images/products/ugg-lowmel-sneakers-olive-grey-premium-1684/img-1.jpg",
       "/images/products/ugg-lowmel-sneakers-burnt-cedar-premium-1685/img-1.jpg"
     ],
@@ -789,6 +789,88 @@
         ],
         "inStock": true,
         "slug": "ugg-lowmel-sneakers-rocky-oak-premium-1450"
+      },
+      {
+        "id": "198800",
+        "sku": "1464",
+        "color": "BLACK LEATHER",
+        "colorSlug": "black-leather",
+        "price": 4300,
+        "oldPrice": 7167,
+        "costPrice": 3800,
+        "sizes": [
+          "36",
+          "37",
+          "38",
+          "39",
+          "40",
+          "41"
+        ],
+        "sizeChart": [
+          {
+            "size": "36",
+            "cm": "23.0",
+            "available": true
+          },
+          {
+            "size": "37",
+            "cm": "23.5",
+            "available": true
+          },
+          {
+            "size": "38",
+            "cm": "24.5",
+            "available": true
+          },
+          {
+            "size": "39",
+            "cm": "25.0",
+            "available": true
+          },
+          {
+            "size": "40",
+            "cm": "25.5",
+            "available": true
+          },
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": true
+          },
+          {
+            "size": "42",
+            "cm": "26.5",
+            "available": false
+          },
+          {
+            "size": "43",
+            "cm": "27.5",
+            "available": false
+          },
+          {
+            "size": "44",
+            "cm": "28.0",
+            "available": false
+          },
+          {
+            "size": "45",
+            "cm": "28.5",
+            "available": false
+          },
+          {
+            "size": "46",
+            "cm": "29.5",
+            "available": false
+          }
+        ],
+        "images": [
+          "/images/products/ugg-lowmel-sneakers-black-leather-premium-1464/img-1.jpg",
+          "/images/products/ugg-lowmel-sneakers-black-leather-premium-1464/img-2.jpg",
+          "/images/products/ugg-lowmel-sneakers-black-leather-premium-1464/img-3.jpg",
+          "/images/products/ugg-lowmel-sneakers-black-leather-premium-1464/img-4.jpg"
+        ],
+        "inStock": true,
+        "slug": "ugg-lowmel-sneakers-black-leather-premium-1464"
       },
       {
         "id": "199671",
@@ -1181,85 +1263,6 @@
         ],
         "inStock": true,
         "slug": "ugg-lowmel-sneakers-meadow-premium-1712"
-      },
-      {
-        "id": "198800",
-        "sku": "1464",
-        "color": "BLACK LEATHER",
-        "colorSlug": "black-leather",
-        "price": 4300,
-        "oldPrice": 7167,
-        "costPrice": 3800,
-        "sizes": [
-          "36",
-          "37",
-          "38",
-          "39",
-          "40",
-          "41"
-        ],
-        "sizeChart": [
-          {
-            "size": "36",
-            "cm": "23.0",
-            "available": true
-          },
-          {
-            "size": "37",
-            "cm": "23.5",
-            "available": true
-          },
-          {
-            "size": "38",
-            "cm": "24.5",
-            "available": true
-          },
-          {
-            "size": "39",
-            "cm": "25.0",
-            "available": true
-          },
-          {
-            "size": "40",
-            "cm": "25.5",
-            "available": true
-          },
-          {
-            "size": "41",
-            "cm": "26.0",
-            "available": true
-          },
-          {
-            "size": "42",
-            "cm": "26.5",
-            "available": false
-          },
-          {
-            "size": "43",
-            "cm": "27.5",
-            "available": false
-          },
-          {
-            "size": "44",
-            "cm": "28.0",
-            "available": false
-          },
-          {
-            "size": "45",
-            "cm": "28.5",
-            "available": false
-          },
-          {
-            "size": "46",
-            "cm": "29.5",
-            "available": false
-          }
-        ],
-        "images": [
-          "/images/products/ugg-lowmel-sneakers-black-leather-premium-1464/img-1.jpg"
-        ],
-        "inStock": true,
-        "slug": "ugg-lowmel-sneakers-black-leather-premium-1464"
       },
       {
         "id": "252315",
@@ -10054,6 +10057,105 @@
         "slug": "ugg-ultra-mini-platform-teddy-black-1034"
       }
     ]
+  },
+  {
+    "id": "130356",
+    "slug": "asics-gel-nyc-oyster-grey-1201a789-103-1464",
+    "name": "Asics Gel NYC Oyster Grey 1201A789-103",
+    "brand": "Asics",
+    "brandSlug": "asics",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "unisex",
+    "genderName": "Унісекс",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 3300,
+    "oldPrice": 5500,
+    "costPrice": 2800,
+    "sku": "1464",
+    "material": "Замша, текстиль",
+    "country": "В'єтнам",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": true
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": true
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "24.5",
+        "available": false
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": false
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": true
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": true
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": true
+      },
+      {
+        "size": "45",
+        "cm": "28.5",
+        "available": true
+      },
+      {
+        "size": "46",
+        "cm": "29.0",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "/images/products/1464/img-1.jpg",
+      "/images/products/1464/img-2.jpg",
+      "/images/products/1464/img-3.jpg",
+      "/images/products/1464/img-4.jpg"
+    ],
+    "description": "Модель: Asics Gel NYC Oyster Grey 1201A789-103. Артикул: 1464. Матеріал: Замша, текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Asics Gel NYC Oyster Grey 1201A789-103 (арт. 1464) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Asics Gel NYC Oyster Grey 1201A789-103 (арт. 1464) за 3300 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
   },
   {
     "id": "122339",
@@ -207011,102 +207113,6 @@
     "seo": {
       "title": "Adidas Campus 80s SFTM Clear Brown Song For The Mute ID4818 (арт. 1465) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Adidas Campus 80s SFTM Clear Brown Song For The Mute ID4818 (арт. 1465) за 2250 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "130356",
-    "slug": "asics-gel-nyc-oyster-grey-1201a789-103-1464",
-    "name": "Asics Gel NYC Oyster Grey 1201A789-103",
-    "brand": "Asics",
-    "brandSlug": "asics",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "unisex",
-    "genderName": "Унісекс",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 3300,
-    "oldPrice": 5500,
-    "costPrice": 2800,
-    "sku": "1464",
-    "material": "Замша, текстиль",
-    "country": "В'єтнам",
-    "sizes": [
-      "36",
-      "37",
-      "38",
-      "41",
-      "42",
-      "43",
-      "44",
-      "45"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": true
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": true
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": true
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": true
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": true
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": true
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": true
-      },
-      {
-        "size": "46",
-        "cm": "29.0",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/fb803f15-4d4a-4660-91c4-7a69e3929e35.jpeg"
-    ],
-    "description": "Модель: Asics Gel NYC Oyster Grey 1201A789-103. Артикул: 1464. Матеріал: Замша, текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Asics Gel NYC Oyster Grey 1201A789-103 (арт. 1464) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Asics Gel NYC Oyster Grey 1201A789-103 (арт. 1464) за 3300 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
