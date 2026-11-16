@@ -8848,6 +8848,228 @@
     ]
   },
   {
+    "id": "187005",
+    "slug": "ugg-short-platform",
+    "name": "UGG Short Platform",
+    "brand": "UGG",
+    "brandSlug": "ugg",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 4000,
+    "oldPrice": 6667,
+    "minPrice": 4000,
+    "maxPrice": 4000,
+    "costPrice": 2800,
+    "sku": "1719",
+    "material": "Натуральна замша, натуральне хутро (овчина), платформа EVA",
+    "country": "В'єтнам",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "23.0",
+        "available": true
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": true
+      },
+      {
+        "size": "38",
+        "cm": "24.5",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": true
+      }
+    ],
+    "inStock": true,
+    "isHit": true,
+    "images": [
+      "/images/products/ugg-short-platform-khaki/img-1.jpg",
+      "/images/products/ugg-short-platform-beige/img-1.jpg"
+    ],
+    "description": "Жіночі зимові уггі на високій платформі UGG Short Platform у класичному замшевому виконанні. Стильний силует Classic Short на масивній 5-сантиметровій платформі EVA, яка надійно захищає від холодної поверхні та додає виразності зимовому образу. Верх виготовлений із добірної натуральної замші з водовідштовхувальним ефектом, а всередині — щільне, тепле натуральне хутро (овчина) для ідеального теплозбереження та затишку в морозні дні. Легка підошва забезпечує комфортну амортизацію під час тривалої ходьби. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "UGG Short Platform — купити жіночі уггі на високій платформі в інтернет-магазині VEXARO",
+      "description": "Замовляйте жіночі зимові уггі на платформі UGG Short Platform у кольорах Khaki та Beige за 4000 ₴. Натуральна замша та овчина. Доставка Новою Поштою 1–2 дні, накладений платіж."
+    },
+    "variations": [
+      {
+        "id": "187005",
+        "sku": "1719",
+        "color": "Khaki",
+        "colorSlug": "khaki",
+        "price": 4000,
+        "oldPrice": 6667,
+        "costPrice": 3500,
+        "sizes": [
+          "36",
+          "37",
+          "38"
+        ],
+        "sizeChart": [
+          {
+            "size": "36",
+            "cm": "23.0",
+            "available": true
+          },
+          {
+            "size": "37",
+            "cm": "23.5",
+            "available": true
+          },
+          {
+            "size": "38",
+            "cm": "24.5",
+            "available": true
+          },
+          {
+            "size": "39",
+            "cm": "25.0",
+            "available": false
+          },
+          {
+            "size": "40",
+            "cm": "25.5",
+            "available": false
+          },
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": false
+          },
+          {
+            "size": "42",
+            "cm": "26.5",
+            "available": false
+          },
+          {
+            "size": "43",
+            "cm": "27.5",
+            "available": false
+          },
+          {
+            "size": "44",
+            "cm": "28.0",
+            "available": false
+          },
+          {
+            "size": "45",
+            "cm": "28.5",
+            "available": false
+          },
+          {
+            "size": "46",
+            "cm": "29.5",
+            "available": false
+          }
+        ],
+        "images": [
+          "/images/products/ugg-short-platform-khaki/img-1.jpg"
+        ],
+        "inStock": true,
+        "slug": "ugg-short-platform-khaki-1719"
+      },
+      {
+        "id": "185241",
+        "sku": "1716",
+        "color": "Beige",
+        "colorSlug": "beige",
+        "price": 4000,
+        "oldPrice": 6667,
+        "costPrice": 3500,
+        "sizes": [
+          "36",
+          "37",
+          "38",
+          "39",
+          "40"
+        ],
+        "sizeChart": [
+          {
+            "size": "36",
+            "cm": "23.0",
+            "available": true
+          },
+          {
+            "size": "37",
+            "cm": "23.5",
+            "available": true
+          },
+          {
+            "size": "38",
+            "cm": "24.5",
+            "available": true
+          },
+          {
+            "size": "39",
+            "cm": "25.0",
+            "available": true
+          },
+          {
+            "size": "40",
+            "cm": "25.5",
+            "available": true
+          },
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": false
+          },
+          {
+            "size": "42",
+            "cm": "26.5",
+            "available": false
+          },
+          {
+            "size": "43",
+            "cm": "27.5",
+            "available": false
+          },
+          {
+            "size": "44",
+            "cm": "28.0",
+            "available": false
+          },
+          {
+            "size": "45",
+            "cm": "28.5",
+            "available": false
+          },
+          {
+            "size": "46",
+            "cm": "29.5",
+            "available": false
+          }
+        ],
+        "images": [
+          "/images/products/ugg-short-platform-beige/img-1.jpg"
+        ],
+        "inStock": true,
+        "slug": "ugg-short-platform-beige-1716"
+      }
+    ]
+  },
+  {
     "id": "184856",
     "slug": "new-balance-1906r-sapphire-blue-m1906rdn-1692",
     "name": "New Balance 1906R Sapphire Blue M1906RDN",
@@ -155157,97 +155379,6 @@
     }
   },
   {
-    "id": "187005",
-    "slug": "ugg-short-platform-khaki-1719",
-    "name": "UGG Short Platform Khaki",
-    "brand": "UGG",
-    "brandSlug": "ugg",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 4000,
-    "oldPrice": 6667,
-    "costPrice": 3500,
-    "sku": "1719",
-    "material": "Замша, хутро",
-    "country": "В'єтнам",
-    "sizes": [
-      "36",
-      "37",
-      "38"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "23.0",
-        "available": true
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": true
-      },
-      {
-        "size": "38",
-        "cm": "24.5",
-        "available": true
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/10c33638-23b0-4c32-bd83-a2320c782bff.jpeg"
-    ],
-    "description": "Модель: UGG Short Platform Khaki. Артикул: 1719. Матеріал: Замша, хутро. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "UGG Short Platform Khaki (арт. 1719) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте UGG Short Platform Khaki (арт. 1719) за 4000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "186929",
     "slug": "adidas-bermuda-purple-ie7426-1727",
     "name": "Adidas Bermuda Purple IE7426",
@@ -156929,99 +157060,6 @@
     "seo": {
       "title": "Nike ACG Air Zoom Gaiadome GTX Beige White (арт. NK140) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Nike ACG Air Zoom Gaiadome GTX Beige White (арт. NK140) за 3400 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "185241",
-    "slug": "ugg-short-platform-beige-1716",
-    "name": "UGG Short Platform Beige",
-    "brand": "UGG",
-    "brandSlug": "ugg",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 4000,
-    "oldPrice": 6667,
-    "costPrice": 3500,
-    "sku": "1716",
-    "material": "Замша, хутро",
-    "country": "В'єтнам",
-    "sizes": [
-      "36",
-      "37",
-      "38",
-      "39",
-      "40"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "23.0",
-        "available": true
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": true
-      },
-      {
-        "size": "38",
-        "cm": "24.5",
-        "available": true
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": true
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": true
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/e8762803-7b70-4564-8701-d079f739e543.jpeg"
-    ],
-    "description": "Модель: UGG Short Platform Beige. Артикул: 1716. Матеріал: Замша, хутро. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "UGG Short Platform Beige (арт. 1716) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте UGG Short Platform Beige (арт. 1716) за 4000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {

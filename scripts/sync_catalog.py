@@ -3355,6 +3355,129 @@ def main():
         }
         products = [parent_astromel] + other_products_11
 
+    # Group UGG Short Platform variations into a single parent product
+    short_platform_variations = []
+    other_products_12 = []
+    short_platform_cfg = {
+        '187005': {
+            'sku': '1719',
+            'color': 'Khaki',
+            'colorSlug': 'khaki',
+            'price': 4000,
+            'oldPrice': 6667,
+            'local_dir': 'ugg-short-platform-khaki',
+            'order': 0,
+        },
+        '185241': {
+            'sku': '1716',
+            'color': 'Beige',
+            'colorSlug': 'beige',
+            'price': 4000,
+            'oldPrice': 6667,
+            'local_dir': 'ugg-short-platform-beige',
+            'order': 1,
+        },
+    }
+    sku_to_pid_short_platform = {v['sku']: k for k, v in short_platform_cfg.items()}
+
+    for p in products:
+        pname = p.get('name', '')
+        sku_clean = str(p.get('sku', '')).strip().upper()
+        pid = str(p.get('id', '')).strip()
+
+        matched = None
+        if pid in short_platform_cfg:
+            matched = short_platform_cfg[pid]
+        elif 'ugg' in pname.lower() and 'short platform' in pname.lower() and sku_clean in sku_to_pid_short_platform:
+            matched = short_platform_cfg[sku_to_pid_short_platform[sku_clean]]
+        elif 'ugg' in pname.lower() and 'short platform' in pname.lower():
+            for k_id, cfg in short_platform_cfg.items():
+                if cfg['color'].lower() in pname.lower() or cfg['sku'].lower() in pname.lower():
+                    matched = cfg
+                    break
+
+        if matched:
+            if any(v['sku'] == matched['sku'] for v in short_platform_variations):
+                continue
+
+            var_imgs = p.get('images', [])
+            loc_path = os.path.join(PUBLIC_DIR, 'images', 'products', matched['local_dir'], 'img-1.jpg')
+            if os.path.exists(loc_path):
+                var_imgs = [f"/images/products/{matched['local_dir']}/img-1.jpg"]
+
+            short_platform_variations.append({
+                'id': str(p.get('id', '')),
+                'sku': matched['sku'],
+                'color': matched['color'],
+                'colorSlug': matched['colorSlug'],
+                'price': matched['price'],
+                'oldPrice': matched['oldPrice'],
+                'costPrice': p.get('costPrice', 2800),
+                'sizes': p.get('sizes', []),
+                'sizeChart': p.get('sizeChart', []),
+                'images': var_imgs,
+                'inStock': p.get('inStock', True),
+                'slug': p.get('slug', '')
+            })
+        else:
+            other_products_12.append(p)
+
+    if short_platform_variations:
+        preferred_order_sp = {'1719': 0, '1716': 1}
+        short_platform_variations.sort(key=lambda v: preferred_order_sp.get(v.get('sku'), 99))
+        all_sp_sizes = sorted(
+            list(set(s for v in short_platform_variations for s in v['sizes'])),
+            key=lambda s: float(s.replace(',', '.')) if s.replace(',', '.').replace('.', '', 1).isdigit() else 999
+        )
+        min_p = min(v['price'] for v in short_platform_variations)
+        max_p = max(v['price'] for v in short_platform_variations)
+        old_p = max(v.get('oldPrice') or int(round(v['price'] / 0.60)) for v in short_platform_variations)
+
+        parent_short_platform = {
+            'id': '187005',
+            'slug': 'ugg-short-platform',
+            'name': 'UGG Short Platform',
+            'brand': 'UGG',
+            'brandSlug': 'ugg',
+            'category': 'Взуття',
+            'categorySlug': 'shoes',
+            'gender': 'women',
+            'genderName': 'Жіночі',
+            'season': 'winter',
+            'seasonName': 'Зима',
+            'price': min_p,
+            'oldPrice': old_p,
+            'minPrice': min_p,
+            'maxPrice': max_p,
+            'costPrice': 2800,
+            'sku': '1719',
+            'material': 'Натуральна замша, натуральне хутро (овчина), платформа EVA',
+            'country': "В'єтнам",
+            'sizes': all_sp_sizes,
+            'sizeChart': [
+                {'size': s, 'cm': UGG_GRID.get(s, DEFAULT_WOMEN_GRID.get(s, '24.0')), 'available': True}
+                for s in all_sp_sizes
+            ],
+            'inStock': True,
+            'isHit': True,
+            'images': short_platform_variations[0]['images'] + [v['images'][0] for v in short_platform_variations[1:] if v.get('images')],
+            'description': (
+                'Жіночі зимові уггі на високій платформі UGG Short Platform у класичному замшевому виконанні. '
+                'Стильний силует Classic Short на масивній 5-сантиметровій платформі EVA, яка надійно захищає від холодної поверхні та додає виразності зимовому образу. '
+                'Верх виготовлений із добірної натуральної замші з водовідштовхувальним ефектом, а всередині — щільне, тепле натуральне хутро (овчина) '
+                'для ідеального теплозбереження та затишку в морозні дні. '
+                'Легка підошва забезпечує комфортну амортизацію під час тривалої ходьби. '
+                'Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. '
+                'Гарантія обміну або повернення — 14 днів.'
+            ),
+            'seo': {
+                'title': 'UGG Short Platform — купити жіночі уггі на високій платформі в інтернет-магазині VEXARO',
+                'description': f'Замовляйте жіночі зимові уггі на платформі UGG Short Platform у кольорах Khaki та Beige за {min_p} ₴. Натуральна замша та овчина. Доставка Новою Поштою 1–2 дні, накладений платіж.'
+            },
+            'variations': short_platform_variations
+        }
+        products = [parent_short_platform] + other_products_12
+
     brand_map = defaultdict(lambda: {'name': '', 'slug': '', 'count': 0})
     season_map = defaultdict(lambda: {'name': '', 'slug': '', 'count': 0})
     gender_map = defaultdict(lambda: {'name': '', 'slug': '', 'count': 0})
