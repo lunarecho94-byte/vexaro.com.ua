@@ -2400,7 +2400,7 @@ def main():
             other_products_lo.append(p)
 
     if lo_lowmel_variations:
-        preferred_order_lo = {'1780': 0, 'UG129': 1, '1781': 2, '1779': 3, '1778': 4, '1777': 5, 'UG0019': 6}
+        preferred_order_lo = {'1780': 0, '1781': 1, 'UG129': 2, '1779': 3, '1778': 4, '1777': 5, 'UG0019': 6}
         lo_lowmel_variations.sort(key=lambda v: preferred_order_lo.get(v.get('sku'), 99))
         all_lo_sizes = sorted(
             list(set(s for v in lo_lowmel_variations for s in v['sizes'])),

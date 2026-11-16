@@ -7633,8 +7633,8 @@
       "/images/products/ugg-lowmel-black-fur/img-2.jpg",
       "/images/products/ugg-lowmel-black-fur/img-3.jpg",
       "/images/products/ugg-lowmel-black-fur/img-4.jpg",
-      "/images/products/ugg-lowmel-jasmine/img-1.jpg",
       "/images/products/ugg-lowmel-jasmine-fur/img-1.jpg",
+      "/images/products/ugg-lowmel-jasmine/img-1.jpg",
       "/images/products/ugg-lowmel-mustard-seed-fur/img-1.jpg",
       "/images/products/ugg-lowmel-chestnut-fur/img-1.jpg",
       "/images/products/ugg-lowmel-grey-fur/img-1.jpg",
@@ -7728,6 +7728,87 @@
         "slug": "ugg-lo-lowmel-sneaker-black-fur-1780"
       },
       {
+        "id": "189528",
+        "sku": "1781",
+        "color": "Jasmine FUR",
+        "colorSlug": "jasmine-fur",
+        "price": 4800,
+        "oldPrice": 8000,
+        "costPrice": 4300,
+        "sizes": [
+          "37",
+          "38",
+          "39",
+          "40",
+          "41"
+        ],
+        "sizeChart": [
+          {
+            "size": "36",
+            "cm": "23.0",
+            "available": false
+          },
+          {
+            "size": "37",
+            "cm": "23.5",
+            "available": true
+          },
+          {
+            "size": "38",
+            "cm": "24.5",
+            "available": true
+          },
+          {
+            "size": "39",
+            "cm": "25.0",
+            "available": true
+          },
+          {
+            "size": "40",
+            "cm": "25.5",
+            "available": true
+          },
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": true
+          },
+          {
+            "size": "42",
+            "cm": "26.5",
+            "available": false
+          },
+          {
+            "size": "43",
+            "cm": "27.5",
+            "available": false
+          },
+          {
+            "size": "44",
+            "cm": "28.0",
+            "available": false
+          },
+          {
+            "size": "45",
+            "cm": "28.5",
+            "available": false
+          },
+          {
+            "size": "46",
+            "cm": "29.5",
+            "available": false
+          }
+        ],
+        "images": [
+          "/images/products/ugg-lowmel-jasmine-fur/img-1.jpg",
+          "/images/products/ugg-lowmel-jasmine-fur/img-2.jpg",
+          "/images/products/ugg-lowmel-jasmine-fur/img-3.jpg",
+          "/images/products/ugg-lowmel-jasmine-fur/img-4.jpg"
+        ],
+        "inStock": true,
+        "slug": "ugg-lo-lowmel-sneaker-jasmine-fur-1781"
+      },
+      {
         "id": "198077",
         "sku": "UG129",
         "color": "Jasmine",
@@ -7809,84 +7890,6 @@
         ],
         "inStock": true,
         "slug": "ugg-lo-lowmel-sneaker-jasmine-ug129"
-      },
-      {
-        "id": "189528",
-        "sku": "1781",
-        "color": "Jasmine FUR",
-        "colorSlug": "jasmine-fur",
-        "price": 4800,
-        "oldPrice": 8000,
-        "costPrice": 4300,
-        "sizes": [
-          "37",
-          "38",
-          "39",
-          "40",
-          "41"
-        ],
-        "sizeChart": [
-          {
-            "size": "36",
-            "cm": "23.0",
-            "available": false
-          },
-          {
-            "size": "37",
-            "cm": "23.5",
-            "available": true
-          },
-          {
-            "size": "38",
-            "cm": "24.5",
-            "available": true
-          },
-          {
-            "size": "39",
-            "cm": "25.0",
-            "available": true
-          },
-          {
-            "size": "40",
-            "cm": "25.5",
-            "available": true
-          },
-          {
-            "size": "41",
-            "cm": "26.0",
-            "available": true
-          },
-          {
-            "size": "42",
-            "cm": "26.5",
-            "available": false
-          },
-          {
-            "size": "43",
-            "cm": "27.5",
-            "available": false
-          },
-          {
-            "size": "44",
-            "cm": "28.0",
-            "available": false
-          },
-          {
-            "size": "45",
-            "cm": "28.5",
-            "available": false
-          },
-          {
-            "size": "46",
-            "cm": "29.5",
-            "available": false
-          }
-        ],
-        "images": [
-          "/images/products/ugg-lowmel-jasmine-fur/img-1.jpg"
-        ],
-        "inStock": true,
-        "slug": "ugg-lo-lowmel-sneaker-jasmine-fur-1781"
       },
       {
         "id": "189525",
