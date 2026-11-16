@@ -2107,6 +2107,7 @@ def main():
     local_lowmel_img_map = {
         '2405': '/images/products/ugg-lowmel-high-chestnut/img-1.jpg',
         '2404': '/images/products/ugg-lowmel-high-black/img-1.jpg',
+        '2393': '/images/products/ugg-lowmel-sneaker-black-2393/img-1.jpg',
     }
 
     for p in products:
@@ -2196,7 +2197,13 @@ def main():
             var_imgs = p.get('images', [])
             if sku_clean in local_lowmel_img_map:
                 loc_path = os.path.join(PUBLIC_DIR, local_lowmel_img_map[sku_clean].lstrip('/'))
-                if os.path.exists(loc_path):
+                loc_dir = os.path.dirname(loc_path)
+                if os.path.isdir(loc_dir):
+                    local_files = sorted(os.listdir(loc_dir))
+                    local_list = [f"/{os.path.dirname(local_lowmel_img_map[sku_clean].lstrip('/'))}/{f}" for f in local_files if f.endswith(('.jpg', '.jpeg', '.webp', '.png'))]
+                    if local_list:
+                        var_imgs = local_list
+                elif os.path.exists(loc_path):
                     var_imgs = [local_lowmel_img_map[sku_clean]]
 
             lowmel_variations.append({
