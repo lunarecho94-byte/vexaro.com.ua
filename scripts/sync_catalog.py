@@ -1941,6 +1941,7 @@ def main():
 
     # Group UGG LOWMEL SNEAKERS variations into a single parent product
     lowmel_variations = []
+    lowmel_high_variations = []
     other_products = []
     local_lowmel_img_map = {
         'UG0015': '/images/products/ugg-lowmel-jasmine-tropical-pink/img-1.jpg',
@@ -1956,6 +1957,49 @@ def main():
         # Lo Lowmel models are grouped separately into parent_lo_lowmel
         if pid in ('198077', '189528', '189527', '189525', '189523', '189522') or 'lo lowmel' in pname.lower():
             other_products.append(p)
+            continue
+
+        # UGG LOWMEL SNEAKERS HIGH (2404, 2405) are grouped into separate parent_lowmel_high
+        if sku_clean == '2405' or pid == '200251':
+            var_imgs = p.get('images', [])
+            loc_path = os.path.join(PUBLIC_DIR, 'images', 'products', 'ugg-lowmel-high-chestnut', 'img-1.jpg')
+            if os.path.exists(loc_path):
+                var_imgs = ['/images/products/ugg-lowmel-high-chestnut/img-1.jpg']
+            lowmel_high_variations.append({
+                'id': str(p.get('id', '')),
+                'sku': '2405',
+                'color': 'HIGH CHESTNUT',
+                'colorSlug': 'high-chestnut',
+                'price': p.get('price', 4300),
+                'oldPrice': p.get('oldPrice'),
+                'costPrice': p.get('costPrice'),
+                'sizes': p.get('sizes', []),
+                'sizeChart': p.get('sizeChart', []),
+                'images': var_imgs,
+                'inStock': p.get('inStock', True),
+                'slug': p.get('slug', 'ugg-lowmel-sneaker-high-chestnut-2405')
+            })
+            continue
+
+        if sku_clean == '2404' or pid == '199876':
+            var_imgs = p.get('images', [])
+            loc_path = os.path.join(PUBLIC_DIR, 'images', 'products', 'ugg-lowmel-high-black', 'img-1.jpg')
+            if os.path.exists(loc_path):
+                var_imgs = ['/images/products/ugg-lowmel-high-black/img-1.jpg']
+            lowmel_high_variations.append({
+                'id': str(p.get('id', '')),
+                'sku': '2404',
+                'color': 'HIGH BLACK',
+                'colorSlug': 'high-black',
+                'price': p.get('price', 3500),
+                'oldPrice': p.get('oldPrice'),
+                'costPrice': p.get('costPrice'),
+                'sizes': p.get('sizes', []),
+                'sizeChart': p.get('sizeChart', []),
+                'images': var_imgs,
+                'inStock': p.get('inStock', True),
+                'slug': p.get('slug', 'ugg-lowmel-sneaker-high-black-2404')
+            })
             continue
 
         is_lowmel_var = False
@@ -1981,12 +2025,6 @@ def main():
         elif sku_clean == 'UG0015' or pid == '252584':
             is_lowmel_var = True
             color_part = "LOVE '25 JASMINE"
-        elif sku_clean == '2405' or pid == '200251':
-            is_lowmel_var = True
-            color_part = "HIGH CHESTNUT"
-        elif sku_clean == '2404' or pid == '199876':
-            is_lowmel_var = True
-            color_part = "HIGH BLACK"
         elif 'lowmel' in pname.lower():
             is_lowmel_var = True
             cleaned = re.sub(r'(?i)ugg\s+lowmel\s+(?:sneakers?|love\s*\'?25)?\s*', '', pname)
@@ -2020,6 +2058,7 @@ def main():
         else:
             other_products.append(p)
 
+    parents_lowmel = []
     if lowmel_variations:
         # Sort newest photoshoot colors first: Moss Green (1691), Light Bronze (1692)
         lowmel_variations.sort(key=lambda v: 0 if v.get('sku') == '1691' else (1 if v.get('sku') == '1692' else 2))
@@ -2073,7 +2112,64 @@ def main():
             },
             'variations': lowmel_variations
         }
-        products = [parent_lowmel] + other_products
+        parents_lowmel.append(parent_lowmel)
+
+    if lowmel_high_variations:
+        # Sort HIGH CHESTNUT (2405) first, then HIGH BLACK (2404)
+        lowmel_high_variations.sort(key=lambda v: 0 if v.get('sku') == '2405' else 1)
+        all_high_sizes = sorted(
+            list(set(s for v in lowmel_high_variations for s in v['sizes'])),
+            key=lambda s: float(s.replace(',', '.')) if s.replace(',', '.').replace('.', '', 1).isdigit() else 999
+        )
+        min_p_high = min(v['price'] for v in lowmel_high_variations)
+        max_p_high = max(v['price'] for v in lowmel_high_variations)
+        old_p_high = max(v.get('oldPrice') or int(round(v['price'] / 0.60)) for v in lowmel_high_variations)
+
+        parent_lowmel_high = {
+            'id': '200251',
+            'slug': 'ugg-lowmel-sneakers-high',
+            'name': 'UGG LOWMEL SNEAKERS HIGH',
+            'brand': 'UGG',
+            'brandSlug': 'ugg',
+            'category': 'Взуття',
+            'categorySlug': 'shoes',
+            'gender': 'women',
+            'genderName': 'Жіночі',
+            'season': 'winter',
+            'seasonName': 'Зима',
+            'price': min_p_high,
+            'oldPrice': old_p_high,
+            'minPrice': min_p_high,
+            'maxPrice': max_p_high,
+            'costPrice': 3000,
+            'sku': '2405',
+            'material': 'Натуральна замша, натуральне хутро',
+            'country': "В'єтнам",
+            'sizes': all_high_sizes,
+            'sizeChart': [
+                {'size': s, 'cm': DEFAULT_WOMEN_GRID.get(s, '24.0'), 'available': True}
+                for s in all_high_sizes
+            ],
+            'inStock': True,
+            'isHit': True,
+            'images': lowmel_high_variations[0]['images'] + [v['images'][0] for v in lowmel_high_variations[1:] if v.get('images')],
+            'description': (
+                'Жіночі зимові високі кросівки UGG LOWMEL SNEAKERS HIGH у преміальному виконанні. '
+                'Завищена версія популярного силуету Lowmel з подовженою халявою для максимального тепла та захисту від холоду взимку. '
+                'Верх виготовлено з якісної натуральної замші, внутрішня підкладка — густе тепле натуральне хутро (овчина). '
+                'Потовщена амортизуюча підошва, стильні широкі шнурки та неперевершений зимовий комфорт UGG. '
+                'Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. '
+                'Гарантія обміну або повернення — 14 днів.'
+            ),
+            'seo': {
+                'title': 'UGG LOWMEL SNEAKERS HIGH — купити зимові завищені кросівки в інтернет-магазині VEXARO',
+                'description': f'Замовляйте зимові високі кросівки UGG LOWMEL SNEAKERS HIGH у забарвленнях Chestnut та Black за ціною від {min_p_high} ₴. Натуральна замша та овчина. Швидка доставка Новою Поштою по Україні.'
+            },
+            'variations': lowmel_high_variations
+        }
+        parents_lowmel.append(parent_lowmel_high)
+
+    products = parents_lowmel + other_products
 
     # Group UGG Lo Lowmel variations into a single parent product
     lo_lowmel_variations = []
