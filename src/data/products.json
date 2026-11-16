@@ -9642,6 +9642,315 @@
     ]
   },
   {
+    "id": "144827",
+    "slug": "ugg-funkarra-platform",
+    "name": "UGG Funkarra Platform",
+    "brand": "UGG",
+    "brandSlug": "ugg",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 4500,
+    "oldPrice": 8167,
+    "minPrice": 4500,
+    "maxPrice": 4900,
+    "costPrice": 3500,
+    "sku": "1498",
+    "material": "Натуральна замша, натуральне хутро (овчина), платформа EVA",
+    "country": "В'єтнам",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "23.0",
+        "available": true
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": true
+      },
+      {
+        "size": "38",
+        "cm": "24.5",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      }
+    ],
+    "inStock": true,
+    "isHit": true,
+    "images": [
+      "/images/products/ugg-funkarra-platform-chocolate/img-1.jpg",
+      "/images/products/ugg-funkarra-platform-chestnut/img-1.jpg",
+      "/images/products/ugg-funkarra-platform-black/img-1.jpg"
+    ],
+    "description": "Жіночі зимові черевики UGG Funkarra Platform на високій платформі у трендовому виконанні. Сміливий масивний силует поєднує фірмовий затишок класичних угг із сучасною вуличною естетикою: верх виготовлений із високоякісної натуральної водовідштовхувальної замші, а всередині — густе, м’яке натуральне хутро (овчина) для бездоганного збереження тепла в зимовий сезон. Легка та пружна платформа EVA забезпечує надійну термоізоляцію від холодної землі та відмінну амортизацію. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "UGG Funkarra Platform — купити жіночі зимові черевики на платформі в інтернет-магазині VEXARO",
+      "description": "Замовляйте жіночі зимові черевики UGG Funkarra Platform у кольорах Chocolate, Chestnut та Black за ціною від 4500 ₴. Натуральна замша та овчина. Доставка Новою Поштою 1–2 дні, накладений платіж."
+    },
+    "variations": [
+      {
+        "id": "144827",
+        "sku": "1498",
+        "color": "Chocolate",
+        "colorSlug": "chocolate",
+        "price": 4900,
+        "oldPrice": 8167,
+        "costPrice": 4400,
+        "sizes": [
+          "36",
+          "37",
+          "38",
+          "39",
+          "40",
+          "41"
+        ],
+        "sizeChart": [
+          {
+            "size": "36",
+            "cm": "23.0",
+            "available": true
+          },
+          {
+            "size": "37",
+            "cm": "23.5",
+            "available": true
+          },
+          {
+            "size": "38",
+            "cm": "24.5",
+            "available": true
+          },
+          {
+            "size": "39",
+            "cm": "25.0",
+            "available": true
+          },
+          {
+            "size": "40",
+            "cm": "25.5",
+            "available": true
+          },
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": true
+          },
+          {
+            "size": "42",
+            "cm": "26.5",
+            "available": false
+          },
+          {
+            "size": "43",
+            "cm": "27.5",
+            "available": false
+          },
+          {
+            "size": "44",
+            "cm": "28.0",
+            "available": false
+          },
+          {
+            "size": "45",
+            "cm": "28.5",
+            "available": false
+          },
+          {
+            "size": "46",
+            "cm": "29.5",
+            "available": false
+          }
+        ],
+        "images": [
+          "/images/products/ugg-funkarra-platform-chocolate/img-1.jpg"
+        ],
+        "inStock": true,
+        "slug": "ugg-funkarra-platform-chocolate-1498"
+      },
+      {
+        "id": "143909",
+        "sku": "1493",
+        "color": "Chestnut",
+        "colorSlug": "chestnut",
+        "price": 4900,
+        "oldPrice": 8167,
+        "costPrice": 4400,
+        "sizes": [
+          "36",
+          "37",
+          "38",
+          "39",
+          "40",
+          "41"
+        ],
+        "sizeChart": [
+          {
+            "size": "36",
+            "cm": "23.0",
+            "available": true
+          },
+          {
+            "size": "37",
+            "cm": "23.5",
+            "available": true
+          },
+          {
+            "size": "38",
+            "cm": "24.5",
+            "available": true
+          },
+          {
+            "size": "39",
+            "cm": "25.0",
+            "available": true
+          },
+          {
+            "size": "40",
+            "cm": "25.5",
+            "available": true
+          },
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": true
+          },
+          {
+            "size": "42",
+            "cm": "26.5",
+            "available": false
+          },
+          {
+            "size": "43",
+            "cm": "27.5",
+            "available": false
+          },
+          {
+            "size": "44",
+            "cm": "28.0",
+            "available": false
+          },
+          {
+            "size": "45",
+            "cm": "28.5",
+            "available": false
+          },
+          {
+            "size": "46",
+            "cm": "29.5",
+            "available": false
+          }
+        ],
+        "images": [
+          "/images/products/ugg-funkarra-platform-chestnut/img-1.jpg"
+        ],
+        "inStock": true,
+        "slug": "ugg-funkarra-platform-chestnut-1143954-che-1493"
+      },
+      {
+        "id": "143907",
+        "sku": "1492",
+        "color": "Black",
+        "colorSlug": "black",
+        "price": 4500,
+        "oldPrice": 7500,
+        "costPrice": 4000,
+        "sizes": [
+          "36",
+          "37",
+          "39"
+        ],
+        "sizeChart": [
+          {
+            "size": "36",
+            "cm": "23.0",
+            "available": true
+          },
+          {
+            "size": "37",
+            "cm": "23.5",
+            "available": true
+          },
+          {
+            "size": "38",
+            "cm": "24.5",
+            "available": false
+          },
+          {
+            "size": "39",
+            "cm": "25.0",
+            "available": true
+          },
+          {
+            "size": "40",
+            "cm": "25.5",
+            "available": false
+          },
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": false
+          },
+          {
+            "size": "42",
+            "cm": "26.5",
+            "available": false
+          },
+          {
+            "size": "43",
+            "cm": "27.5",
+            "available": false
+          },
+          {
+            "size": "44",
+            "cm": "28.0",
+            "available": false
+          },
+          {
+            "size": "45",
+            "cm": "28.5",
+            "available": false
+          },
+          {
+            "size": "46",
+            "cm": "29.5",
+            "available": false
+          }
+        ],
+        "images": [
+          "/images/products/ugg-funkarra-platform-black/img-1.jpg"
+        ],
+        "inStock": true,
+        "slug": "ugg-funkarra-platform-black-1492"
+      }
+    ]
+  },
+  {
     "id": "122339",
     "slug": "adidas-campus-00s-white-black-khutro-r339",
     "name": "Adidas Campus 00s White Black (хутро)",
@@ -200460,100 +200769,6 @@
     }
   },
   {
-    "id": "144827",
-    "slug": "ugg-funkarra-platform-chocolate-1498",
-    "name": "UGG Funkarra Platform Chocolate",
-    "brand": "UGG",
-    "brandSlug": "ugg",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 4900,
-    "oldPrice": 8167,
-    "costPrice": 4400,
-    "sku": "1498",
-    "material": "Замша, хутро",
-    "country": "В'єтнам",
-    "sizes": [
-      "36",
-      "37",
-      "38",
-      "39",
-      "40",
-      "41"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "23.0",
-        "available": true
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": true
-      },
-      {
-        "size": "38",
-        "cm": "24.5",
-        "available": true
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": true
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": true
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/e271b1c4-170a-49eb-a7bb-d35a83d25249.jpeg"
-    ],
-    "description": "Модель: UGG Funkarra Platform Chocolate. Артикул: 1498. Матеріал: Замша, хутро. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "UGG Funkarra Platform Chocolate (арт. 1498) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте UGG Funkarra Platform Chocolate (арт. 1498) за 4900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "143943",
     "slug": "ugg-ultra-mini-platform-chocolate-1494",
     "name": "UGG Ultra Mini Platform Chocolate",
@@ -200645,191 +200860,6 @@
     "seo": {
       "title": "UGG Ultra Mini Platform Chocolate (арт. 1494) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте UGG Ultra Mini Platform Chocolate (арт. 1494) за 4400 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "143909",
-    "slug": "ugg-funkarra-platform-chestnut-1143954-che-1493",
-    "name": "UGG Funkarra Platform Chestnut 1143954-CHE",
-    "brand": "UGG",
-    "brandSlug": "ugg",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 4900,
-    "oldPrice": 8167,
-    "costPrice": 4400,
-    "sku": "1493",
-    "material": "Замша, хутро",
-    "country": "В'єтнам",
-    "sizes": [
-      "36",
-      "37",
-      "38",
-      "39",
-      "40",
-      "41"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "23.0",
-        "available": true
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": true
-      },
-      {
-        "size": "38",
-        "cm": "24.5",
-        "available": true
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": true
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": true
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/01e56bf0-2725-4ac2-a076-acf1501ed9db.jpeg"
-    ],
-    "description": "Модель: UGG Funkarra Platform Chestnut 1143954-CHE. Артикул: 1493. Матеріал: Замша, хутро. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "UGG Funkarra Platform Chestnut 1143954-CHE (арт. 1493) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте UGG Funkarra Platform Chestnut 1143954-CHE (арт. 1493) за 4900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "143907",
-    "slug": "ugg-funkarra-platform-black-1492",
-    "name": "UGG Funkarra Platform Black",
-    "brand": "UGG",
-    "brandSlug": "ugg",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 4500,
-    "oldPrice": 7500,
-    "costPrice": 4000,
-    "sku": "1492",
-    "material": "Замша, хутро",
-    "country": "В'єтнам",
-    "sizes": [
-      "36",
-      "37",
-      "39"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "23.0",
-        "available": true
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": true
-      },
-      {
-        "size": "38",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": true
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/10f5cdd6-363f-45c2-b0ec-0b71bb252b83.jpeg"
-    ],
-    "description": "Модель: UGG Funkarra Platform Black. Артикул: 1492. Матеріал: Замша, хутро. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "UGG Funkarra Platform Black (арт. 1492) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте UGG Funkarra Platform Black (арт. 1492) за 4500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -245917,99 +245947,6 @@
     "seo": {
       "title": "New Balance 9060 Quartz Grey (арт. NB0061) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте New Balance 9060 Quartz Grey (арт. NB0061) за 2800 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "67493",
-    "slug": "ugg-funkarra-chestnut-platform-1101",
-    "name": "Ugg Funkarra Chestnut Platform",
-    "brand": "UGG",
-    "brandSlug": "ugg",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 4500,
-    "oldPrice": 7500,
-    "costPrice": 4000,
-    "sku": "1101",
-    "material": "Замша, овчина",
-    "country": "В'єтнам",
-    "sizes": [
-      "36",
-      "37",
-      "38",
-      "39",
-      "40"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "23.0",
-        "available": true
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": true
-      },
-      {
-        "size": "38",
-        "cm": "24.5",
-        "available": true
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": true
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": true
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/a4d40f23-80f0-4ae4-b631-e3ae0a58a3f2.jpeg"
-    ],
-    "description": "Модель: Ugg Funkarra Chestnut Platform. Артикул: 1101. Матеріал: Замша, овчина. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Ugg Funkarra Chestnut Platform (арт. 1101) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Ugg Funkarra Chestnut Platform (арт. 1101) за 4500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {

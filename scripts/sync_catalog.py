@@ -233,7 +233,7 @@ COLOR_WORDS = {
 }
 
 # Explicitly excluded items (all slippers, slides, clogs, mules, sandals, etc. per store owner request)
-EXCLUDED_SKUS = {'16006', '16005', '16004', '16003', 'NB143', '0068', '2688', 'R343', 'SL015', '258739', '2263', '2169', '5193', '256193', 'UG0020', '252588', '253417', '253416', 'UG0016', '249465', '2579', '208607', 'U930', '203123', '1918', '201924', '2395', '201383', '2397', '199672', '2394', '199670', '198587', 'UG0017', '252589', 'U880', '185521', '189534', 'U920', '185523', 'U830', '185520', '185202', '185186', 'U960', '143621', 'U950', '143187', '136690', '129394', '121895', 'U0290', '189211', '3091'}
+EXCLUDED_SKUS = {'16006', '16005', '16004', '16003', 'NB143', '0068', '2688', 'R343', 'SL015', '258739', '2263', '2169', '5193', '256193', 'UG0020', '252588', '253417', '253416', 'UG0016', '249465', '2579', '208607', 'U930', '203123', '1918', '201924', '2395', '201383', '2397', '199672', '2394', '199670', '198587', 'UG0017', '252589', 'U880', '185521', '189534', 'U920', '185523', 'U830', '185520', '185202', '185186', 'U960', '143621', 'U950', '143187', '136690', '129394', '121895', 'U0290', '189211', '3091', '1101'}
 
 # Pinned products permanently pinned at top by store owner request (supports 'id:...' or SKU)
 PINNED_FILE = os.path.join(SRC_DATA_DIR, 'pinned.json')
@@ -3477,6 +3477,142 @@ def main():
             'variations': short_platform_variations
         }
         products = [parent_short_platform] + other_products_12
+
+    # Group UGG Funkarra Platform variations into a single parent product
+    funkarra_variations = []
+    other_products_13 = []
+    funkarra_cfg = {
+        '144827': {
+            'sku': '1498',
+            'color': 'Chocolate',
+            'colorSlug': 'chocolate',
+            'price': 4900,
+            'oldPrice': 8167,
+            'local_dir': 'ugg-funkarra-platform-chocolate',
+            'order': 0,
+        },
+        '143909': {
+            'sku': '1493',
+            'color': 'Chestnut',
+            'colorSlug': 'chestnut',
+            'price': 4900,
+            'oldPrice': 8167,
+            'local_dir': 'ugg-funkarra-platform-chestnut',
+            'order': 1,
+        },
+        '143907': {
+            'sku': '1492',
+            'color': 'Black',
+            'colorSlug': 'black',
+            'price': 4500,
+            'oldPrice': 7500,
+            'local_dir': 'ugg-funkarra-platform-black',
+            'order': 2,
+        },
+    }
+    sku_to_pid_funkarra = {v['sku']: k for k, v in funkarra_cfg.items()}
+
+    for p in products:
+        pname = p.get('name', '')
+        sku_clean = str(p.get('sku', '')).strip().upper()
+        pid = str(p.get('id', '')).strip()
+
+        # Strictly ignore/drop model 1101
+        if sku_clean == '1101' or pid == '67493' or ('funkarra' in pname.lower() and '1101' in pname):
+            continue
+
+        matched = None
+        if pid in funkarra_cfg:
+            matched = funkarra_cfg[pid]
+        elif 'ugg' in pname.lower() and 'funkarra' in pname.lower() and sku_clean in sku_to_pid_funkarra:
+            matched = funkarra_cfg[sku_to_pid_funkarra[sku_clean]]
+        elif 'ugg' in pname.lower() and 'funkarra' in pname.lower():
+            for k_id, cfg in funkarra_cfg.items():
+                if cfg['color'].lower() in pname.lower() or cfg['sku'].lower() in pname.lower():
+                    matched = cfg
+                    break
+
+        if matched:
+            if any(v['sku'] == matched['sku'] for v in funkarra_variations):
+                continue
+
+            var_imgs = p.get('images', [])
+            loc_path = os.path.join(PUBLIC_DIR, 'images', 'products', matched['local_dir'], 'img-1.jpg')
+            if os.path.exists(loc_path):
+                var_imgs = [f"/images/products/{matched['local_dir']}/img-1.jpg"]
+
+            funkarra_variations.append({
+                'id': str(p.get('id', '')),
+                'sku': matched['sku'],
+                'color': matched['color'],
+                'colorSlug': matched['colorSlug'],
+                'price': matched['price'],
+                'oldPrice': matched['oldPrice'],
+                'costPrice': p.get('costPrice', 3500),
+                'sizes': p.get('sizes', []),
+                'sizeChart': p.get('sizeChart', []),
+                'images': var_imgs,
+                'inStock': p.get('inStock', True),
+                'slug': p.get('slug', '')
+            })
+        else:
+            other_products_13.append(p)
+
+    if funkarra_variations:
+        preferred_order_fk = {'1498': 0, '1493': 1, '1492': 2}
+        funkarra_variations.sort(key=lambda v: preferred_order_fk.get(v.get('sku'), 99))
+        all_fk_sizes = sorted(
+            list(set(s for v in funkarra_variations for s in v['sizes'])),
+            key=lambda s: float(s.replace(',', '.')) if s.replace(',', '.').replace('.', '', 1).isdigit() else 999
+        )
+        min_p = min(v['price'] for v in funkarra_variations)
+        max_p = max(v['price'] for v in funkarra_variations)
+        old_p = max(v.get('oldPrice') or int(round(v['price'] / 0.60)) for v in funkarra_variations)
+
+        parent_funkarra = {
+            'id': '144827',
+            'slug': 'ugg-funkarra-platform',
+            'name': 'UGG Funkarra Platform',
+            'brand': 'UGG',
+            'brandSlug': 'ugg',
+            'category': 'Взуття',
+            'categorySlug': 'shoes',
+            'gender': 'women',
+            'genderName': 'Жіночі',
+            'season': 'winter',
+            'seasonName': 'Зима',
+            'price': min_p,
+            'oldPrice': old_p,
+            'minPrice': min_p,
+            'maxPrice': max_p,
+            'costPrice': 3500,
+            'sku': '1498',
+            'material': 'Натуральна замша, натуральне хутро (овчина), платформа EVA',
+            'country': "В'єтнам",
+            'sizes': all_fk_sizes,
+            'sizeChart': [
+                {'size': s, 'cm': UGG_GRID.get(s, DEFAULT_WOMEN_GRID.get(s, '24.0')), 'available': True}
+                for s in all_fk_sizes
+            ],
+            'inStock': True,
+            'isHit': True,
+            'images': funkarra_variations[0]['images'] + [v['images'][0] for v in funkarra_variations[1:] if v.get('images')],
+            'description': (
+                'Жіночі зимові черевики UGG Funkarra Platform на високій платформі у трендовому виконанні. '
+                'Сміливий масивний силует поєднує фірмовий затишок класичних угг із сучасною вуличною естетикою: '
+                'верх виготовлений із високоякісної натуральної водовідштовхувальної замші, а всередині — густе, м’яке натуральне хутро (овчина) '
+                'для бездоганного збереження тепла в зимовий сезон. '
+                'Легка та пружна платформа EVA забезпечує надійну термоізоляцію від холодної землі та відмінну амортизацію. '
+                'Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. '
+                'Гарантія обміну або повернення — 14 днів.'
+            ),
+            'seo': {
+                'title': 'UGG Funkarra Platform — купити жіночі зимові черевики на платформі в інтернет-магазині VEXARO',
+                'description': f'Замовляйте жіночі зимові черевики UGG Funkarra Platform у кольорах Chocolate, Chestnut та Black за ціною від {min_p} ₴. Натуральна замша та овчина. Доставка Новою Поштою 1–2 дні, накладений платіж.'
+            },
+            'variations': funkarra_variations
+        }
+        products = [parent_funkarra] + other_products_13
 
     brand_map = defaultdict(lambda: {'name': '', 'slug': '', 'count': 0})
     season_map = defaultdict(lambda: {'name': '', 'slug': '', 'count': 0})
