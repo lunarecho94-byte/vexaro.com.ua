@@ -452,11 +452,11 @@
       "/images/products/ugg-lowmel-sneakers-black-leather-premium-1464/img-1.jpg",
       "/images/products/ugg-lowmel-sneakers-white-pink-premium-1683/img-1.jpg",
       "/images/products/ugg-lowmel-sneakers-olive-grey-premium-1684/img-1.jpg",
+      "/images/products/ugg-lowmel-sneakers-burnt-cedar-premium-1685/img-1.jpg",
       "/images/products/ugg-lowmel-sneaker-black-2393/img-1.jpg",
       "/images/products/ugg-lowmel-sneakers-leopard-premium-1687/img-1.jpg",
       "/images/products/ugg-lowmel-sneakers-pink-premium-1686/img-1.jpg",
-      "https://easydrop.one/media/uploads/images/base/789a0d38-8867-4394-8b9e-ff15511f3173.jpeg",
-      "/images/products/ugg-lowmel-sneakers-burnt-cedar-premium-1685/img-1.jpg"
+      "https://easydrop.one/media/uploads/images/base/789a0d38-8867-4394-8b9e-ff15511f3173.jpeg"
     ],
     "description": "Жіночі зимові кросівки UGG LOWMEL SNEAKERS у преміальному виконанні. Модель поєднує фірмовий комфорт UGG з силуетом міських кросівок: верх із якісної натуральної замші, всередині — густе тепле натуральне хутро (овчина) для надійного захисту від зимових морозів. Потовщена амортизуюча підошва, масивні акцентні шнурки та широкий вибір забарвлень під будь-який гардероб. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
     "seo": {
@@ -1037,6 +1037,86 @@
         "slug": "ugg-lowmel-sneakers-olive-grey-premium-1684"
       },
       {
+        "id": "252316",
+        "sku": "1685",
+        "color": "BURNT CEDAR",
+        "colorSlug": "burnt-cedar",
+        "price": 4700,
+        "oldPrice": 7833,
+        "costPrice": 4200,
+        "sizes": [
+          "37",
+          "38",
+          "39",
+          "41"
+        ],
+        "sizeChart": [
+          {
+            "size": "36",
+            "cm": "23.0",
+            "available": false
+          },
+          {
+            "size": "37",
+            "cm": "23.5",
+            "available": true
+          },
+          {
+            "size": "38",
+            "cm": "24.5",
+            "available": true
+          },
+          {
+            "size": "39",
+            "cm": "25.0",
+            "available": true
+          },
+          {
+            "size": "40",
+            "cm": "25.5",
+            "available": false
+          },
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": true
+          },
+          {
+            "size": "42",
+            "cm": "26.5",
+            "available": false
+          },
+          {
+            "size": "43",
+            "cm": "27.5",
+            "available": false
+          },
+          {
+            "size": "44",
+            "cm": "28.0",
+            "available": false
+          },
+          {
+            "size": "45",
+            "cm": "28.5",
+            "available": false
+          },
+          {
+            "size": "46",
+            "cm": "29.5",
+            "available": false
+          }
+        ],
+        "images": [
+          "/images/products/ugg-lowmel-sneakers-burnt-cedar-premium-1685/img-1.jpg",
+          "/images/products/ugg-lowmel-sneakers-burnt-cedar-premium-1685/img-2.jpg",
+          "/images/products/ugg-lowmel-sneakers-burnt-cedar-premium-1685/img-3.jpg",
+          "/images/products/ugg-lowmel-sneakers-burnt-cedar-premium-1685/img-4.jpg"
+        ],
+        "inStock": true,
+        "slug": "ugg-lowmel-sneakers-burnt-cedar-premium-1685"
+      },
+      {
         "id": "199671",
         "sku": "2393",
         "color": "BLACK",
@@ -1348,83 +1428,6 @@
         ],
         "inStock": true,
         "slug": "ugg-lowmel-sneakers-meadow-premium-1712"
-      },
-      {
-        "id": "252316",
-        "sku": "1685",
-        "color": "BURNT CEDAR",
-        "colorSlug": "burnt-cedar",
-        "price": 4700,
-        "oldPrice": 7833,
-        "costPrice": 4200,
-        "sizes": [
-          "37",
-          "38",
-          "39",
-          "41"
-        ],
-        "sizeChart": [
-          {
-            "size": "36",
-            "cm": "23.0",
-            "available": false
-          },
-          {
-            "size": "37",
-            "cm": "23.5",
-            "available": true
-          },
-          {
-            "size": "38",
-            "cm": "24.5",
-            "available": true
-          },
-          {
-            "size": "39",
-            "cm": "25.0",
-            "available": true
-          },
-          {
-            "size": "40",
-            "cm": "25.5",
-            "available": false
-          },
-          {
-            "size": "41",
-            "cm": "26.0",
-            "available": true
-          },
-          {
-            "size": "42",
-            "cm": "26.5",
-            "available": false
-          },
-          {
-            "size": "43",
-            "cm": "27.5",
-            "available": false
-          },
-          {
-            "size": "44",
-            "cm": "28.0",
-            "available": false
-          },
-          {
-            "size": "45",
-            "cm": "28.5",
-            "available": false
-          },
-          {
-            "size": "46",
-            "cm": "29.5",
-            "available": false
-          }
-        ],
-        "images": [
-          "/images/products/ugg-lowmel-sneakers-burnt-cedar-premium-1685/img-1.jpg"
-        ],
-        "inStock": true,
-        "slug": "ugg-lowmel-sneakers-burnt-cedar-premium-1685"
       }
     ]
   },
@@ -2735,6 +2738,103 @@
     "seo": {
       "title": "Dior B23 White Grey Platform Gold Batterfly (арт. 1683) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Dior B23 White Grey Platform Gold Batterfly (арт. 1683) за 4600 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "184842",
+    "slug": "nike-shox-tl-pink-foam-hv2520-001-1685",
+    "name": "Nike Shox TL Pink Foam HV2520-001",
+    "brand": "Nike",
+    "brandSlug": "nike",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 3200,
+    "oldPrice": 5333,
+    "costPrice": 2700,
+    "sku": "1685",
+    "material": "Текстиль",
+    "country": "В'єтнам",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "23.0",
+        "available": true
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": true
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "24.5",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.0",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "28.5",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "/images/products/1685/img-1.jpg",
+      "/images/products/1685/img-2.jpg",
+      "/images/products/1685/img-3.jpg",
+      "/images/products/1685/img-4.jpg"
+    ],
+    "description": "Модель: Nike Shox TL Pink Foam HV2520-001. Артикул: 1685. Матеріал: Текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Nike Shox TL Pink Foam HV2520-001 (арт. 1685) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Nike Shox TL Pink Foam HV2520-001 (арт. 1685) за 3200 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -159071,100 +159171,6 @@
     "seo": {
       "title": "New Balance 1906A Great Plains Grey U1906AA (арт. 1686) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте New Balance 1906A Great Plains Grey U1906AA (арт. 1686) за 2700 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "184842",
-    "slug": "nike-shox-tl-pink-foam-hv2520-001-1685",
-    "name": "Nike Shox TL Pink Foam HV2520-001",
-    "brand": "Nike",
-    "brandSlug": "nike",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 3200,
-    "oldPrice": 5333,
-    "costPrice": 2700,
-    "sku": "1685",
-    "material": "Текстиль",
-    "country": "В'єтнам",
-    "sizes": [
-      "36",
-      "37",
-      "38",
-      "39",
-      "40",
-      "41"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "23.0",
-        "available": true
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": true
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": true
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": true
-      },
-      {
-        "size": "40",
-        "cm": "25.0",
-        "available": true
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/376c2590-522c-4c0a-8693-8fe202bd8c9d.jpeg"
-    ],
-    "description": "Модель: Nike Shox TL Pink Foam HV2520-001. Артикул: 1685. Матеріал: Текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Nike Shox TL Pink Foam HV2520-001 (арт. 1685) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Nike Shox TL Pink Foam HV2520-001 (арт. 1685) за 3200 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
