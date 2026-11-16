@@ -251,6 +251,7 @@ PINNED_KEYS = [
     '1467',      # UGG MINI DIPPER PUFFER (Sand) - newest studio photos
     '1670',      # On Cloudrock Waterproof Ivory - newest studio photos
     '1672',      # New Balance 9060 Slate Grey Cordura - newest studio photos
+    '1673',      # New Balance 9060 Black Grey Cordura - newest studio photos
     'А5689',     # Nike Air Max Plus Tn Black Teal Yellow - newest studio photos
     '1705',      # UGG ULTRA MINI CHOCOLATE BROWN SUEDE - newest studio photos
     '5174',      # Adidas Campus 00s Beige Black (хутро) - newest studio photos
