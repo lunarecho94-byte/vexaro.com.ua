@@ -5666,7 +5666,10 @@
     "inStock": true,
     "isHit": true,
     "images": [
-      "/images/products/new-balance-9060-slate-grey-cordura-4-1672/img-1.jpg"
+      "/images/products/new-balance-9060-slate-grey-cordura-4-1672/img-1.jpg",
+      "/images/products/new-balance-9060-slate-grey-cordura-4-1672/img-2.jpg",
+      "/images/products/new-balance-9060-slate-grey-cordura-4-1672/img-3.jpg",
+      "/images/products/new-balance-9060-slate-grey-cordura-4-1672/img-4.jpg"
     ],
     "description": "Модель: NEW BALANCE 9060 | SLATE GREY / CORDURA (4. Артикул: 1672. Матеріал: CORDURA, замша, шкіра. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
     "seo": {
@@ -9002,6 +9005,107 @@
     "seo": {
       "title": "New Balance 1906R Metallic M1906RCB (арт. 1691) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте New Balance 1906R Metallic M1906RCB (арт. 1691) за 2700 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "182883",
+    "slug": "nike-lil-yachty-x-air-force-1-low-concrete-boys-lucky-green-1672",
+    "name": "Nike Lil Yachty x Air Force 1 Low ‘Concrete Boys-Lucky Green’",
+    "brand": "Nike",
+    "brandSlug": "nike",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "men",
+    "genderName": "Чоловічі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 3000,
+    "oldPrice": 5000,
+    "costPrice": 2500,
+    "sku": "1672",
+    "material": "Лакована шкіра",
+    "country": "В'єтнам",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "44.5"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": false
+      },
+      {
+        "size": "39",
+        "cm": "24.5",
+        "available": false
+      },
+      {
+        "size": "40",
+        "cm": "25.0",
+        "available": false
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": true
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": true
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": true
+      },
+      {
+        "size": "44.5",
+        "cm": "28.0",
+        "available": true
+      },
+      {
+        "size": "45",
+        "cm": "29.0",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "30.0",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": true,
+    "images": [
+      "/images/products/1672/img-1.jpg",
+      "/images/products/1672/img-2.jpg",
+      "/images/products/1672/img-3.jpg",
+      "/images/products/1672/img-4.jpg"
+    ],
+    "description": "Модель: Nike Lil Yachty x Air Force 1 Low ‘Concrete Boys-Lucky Green’. Артикул: 1672. Матеріал: Лакована шкіра. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Nike Lil Yachty x Air Force 1 Low ‘Concrete Boys-Lucky Green’ (арт. 1672) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Nike Lil Yachty x Air Force 1 Low ‘Concrete Boys-Lucky Green’ (арт. 1672) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -161541,104 +161645,6 @@
     "seo": {
       "title": "Nike Air Force 1 Custom Blood (арт. 1673) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Nike Air Force 1 Custom Blood (арт. 1673) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "182883",
-    "slug": "nike-lil-yachty-x-air-force-1-low-concrete-boys-lucky-green-1672",
-    "name": "Nike Lil Yachty x Air Force 1 Low ‘Concrete Boys-Lucky Green’",
-    "brand": "Nike",
-    "brandSlug": "nike",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 3000,
-    "oldPrice": 5000,
-    "costPrice": 2500,
-    "sku": "1672",
-    "material": "Лакована шкіра",
-    "country": "В'єтнам",
-    "sizes": [
-      "41",
-      "42",
-      "43",
-      "44",
-      "44.5"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": true
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": true
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": true
-      },
-      {
-        "size": "44.5",
-        "cm": "28.0",
-        "available": true
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "30.0",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/fe77ac20-9b50-4e8c-9a89-2f05d2d32d78.jpeg"
-    ],
-    "description": "Модель: Nike Lil Yachty x Air Force 1 Low ‘Concrete Boys-Lucky Green’. Артикул: 1672. Матеріал: Лакована шкіра. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Nike Lil Yachty x Air Force 1 Low ‘Concrete Boys-Lucky Green’ (арт. 1672) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Nike Lil Yachty x Air Force 1 Low ‘Concrete Boys-Lucky Green’ (арт. 1672) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
