@@ -2365,7 +2365,13 @@ def main():
 
             var_imgs = p.get('images', [])
             loc_path = os.path.join(PUBLIC_DIR, matched['img'].lstrip('/'))
-            if os.path.exists(loc_path):
+            loc_dir = os.path.dirname(loc_path)
+            if os.path.isdir(loc_dir):
+                local_files = sorted(os.listdir(loc_dir))
+                local_list = [f"/{os.path.dirname(matched['img'].lstrip('/'))}/{f}" for f in local_files if f.endswith(('.jpg', '.jpeg', '.webp', '.png'))]
+                if local_list:
+                    var_imgs = local_list
+            elif os.path.exists(loc_path):
                 var_imgs = [matched['img']]
 
             var_sizes = ['36', '37', '38', '39', '40', '41'] if matched['sku'] == 'UG0019' else p.get('sizes', [])
@@ -2394,7 +2400,7 @@ def main():
             other_products_lo.append(p)
 
     if lo_lowmel_variations:
-        preferred_order_lo = {'UG129': 0, '1781': 1, '1780': 2, '1779': 3, '1778': 4, '1777': 5, 'UG0019': 6}
+        preferred_order_lo = {'1780': 0, 'UG129': 1, '1781': 2, '1779': 3, '1778': 4, '1777': 5, 'UG0019': 6}
         lo_lowmel_variations.sort(key=lambda v: preferred_order_lo.get(v.get('sku'), 99))
         all_lo_sizes = sorted(
             list(set(s for v in lo_lowmel_variations for s in v['sizes'])),
