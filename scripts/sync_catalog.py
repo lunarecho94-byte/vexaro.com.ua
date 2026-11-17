@@ -520,10 +520,10 @@ CURATED_PRODUCTS = [
         'genderName': 'Чоловічі',
         'season': 'winter',
         'seasonName': 'Зима',
-        'price': 3200,
-        'oldPrice': 5333,
-        'minPrice': 3200,
-        'maxPrice': 3200,
+        'price': 3100,
+        'oldPrice': 5167,
+        'minPrice': 3100,
+        'maxPrice': 3100,
         'costPrice': 2350,
         'sku': '8296',
         'material': 'Натуральна замша, натуральна шкіра, нейлон, густе тепле хутро',
@@ -565,7 +565,7 @@ CURATED_PRODUCTS = [
         ),
         'seo': {
             'title': 'New Balance 574 ХУТРО — купити зимові кросівки з хутром в Україні в магазині VEXARO',
-            'description': 'Замовляйте теплі чоловічі зимові кросівки New Balance 574 ХУТРО за 3200 ₴. Кольори Black, Grey, Dark Grey. Натуральна замша та шкіра, густе хутро. Доставка по Україні 1–2 дні, накладений платіж.'
+            'description': 'Замовляйте теплі чоловічі зимові кросівки New Balance 574 ХУТРО за 3100 ₴. Кольори Black, Grey, Dark Grey. Натуральна замша та шкіра, густе хутро. Доставка по Україні 1–2 дні, накладений платіж.'
         },
         'variations': [
             {
@@ -574,8 +574,8 @@ CURATED_PRODUCTS = [
                 'slug': 'new-balance-574-khutro-black-8296',
                 'color': 'Black',
                 'colorSlug': 'black',
-                'price': 3200,
-                'oldPrice': 5333,
+                'price': 3100,
+                'oldPrice': 5167,
                 'costPrice': 2350,
                 'sizes': ['41', '42', '43', '44', '45', '46'],
                 'sizeChart': [
@@ -600,8 +600,8 @@ CURATED_PRODUCTS = [
                 'slug': 'new-balance-574-khutro-grey-7318',
                 'color': 'Grey',
                 'colorSlug': 'grey',
-                'price': 3200,
-                'oldPrice': 5333,
+                'price': 3100,
+                'oldPrice': 5167,
                 'costPrice': 2350,
                 'sizes': ['41', '42', '43', '44', '45', '46'],
                 'sizeChart': [
@@ -626,8 +626,8 @@ CURATED_PRODUCTS = [
                 'slug': 'new-balance-574-khutro-dark-grey-3279',
                 'color': 'Dark Grey',
                 'colorSlug': 'dark-grey',
-                'price': 3200,
-                'oldPrice': 5333,
+                'price': 3100,
+                'oldPrice': 5167,
                 'costPrice': 2350,
                 'sizes': ['41', '42', '43', '44', '45', '46'],
                 'sizeChart': [
