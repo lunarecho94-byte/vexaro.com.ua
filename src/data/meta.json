@@ -1,20 +1,20 @@
 {
-  "total": 2835,
+  "total": 2847,
   "brands": [
     {
       "name": "Nike",
       "slug": "nike",
-      "count": 993
+      "count": 992
     },
     {
       "name": "New Balance",
       "slug": "newbalance",
-      "count": 629
+      "count": 633
     },
     {
       "name": "Adidas",
       "slug": "adidas",
-      "count": 279
+      "count": 284
     },
     {
       "name": "Asics",
@@ -24,12 +24,12 @@
     {
       "name": "UGG",
       "slug": "ugg",
-      "count": 129
+      "count": 128
     },
     {
       "name": "Інші бренди",
       "slug": "other",
-      "count": 117
+      "count": 119
     },
     {
       "name": "Air Jordan",
@@ -44,12 +44,12 @@
     {
       "name": "On Cloud",
       "slug": "oncloud",
-      "count": 51
+      "count": 53
     },
     {
       "name": "Salomon",
       "slug": "salomon",
-      "count": 50
+      "count": 49
     },
     {
       "name": "Off-White",
@@ -72,13 +72,13 @@
       "count": 26
     },
     {
-      "name": "Louis Vuitton",
-      "slug": "louisvuitton",
-      "count": 20
-    },
-    {
       "name": "Premiata",
       "slug": "premiata",
+      "count": 22
+    },
+    {
+      "name": "Louis Vuitton",
+      "slug": "louisvuitton",
       "count": 20
     },
     {
@@ -176,36 +176,36 @@
     {
       "name": "Взуття",
       "slug": "shoes",
-      "count": 2835
+      "count": 2847
     }
   ],
   "genders": [
     {
       "name": "Жіночі",
       "slug": "women",
-      "count": 1303
+      "count": 1308
     },
     {
       "name": "Чоловічі",
       "slug": "men",
-      "count": 955
+      "count": 956
     },
     {
       "name": "Унісекс",
       "slug": "unisex",
-      "count": 577
+      "count": 583
     }
   ],
   "seasons": [
     {
       "name": "Демісезон",
       "slug": "demi",
-      "count": 2536
+      "count": 2549
     },
     {
       "name": "Зима",
       "slug": "winter",
-      "count": 299
+      "count": 298
     }
   ],
   "sizes": [
