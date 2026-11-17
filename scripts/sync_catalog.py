@@ -254,6 +254,7 @@ PINNED_KEYS = [
     '1672',      # New Balance 9060 Slate Grey Cordura - newest studio photos
     '1673',      # New Balance 9060 Black Grey Cordura - newest studio photos
     '1674',      # New Balance 9060 Dark Grey Lime Cordura - newest studio photos
+    '6273',      # New Balance 1906R Cordura Gore-Tex Grey - newest studio photos
     '1677',      # New Balance 1906R Graphite Metallic Primaloft - newest studio photos
     '1680',      # Nike SB Dunk White Lace Pack - newest studio photos
     '1681',      # Nike SB Dunk White Burgundy - newest studio photos
@@ -505,6 +506,55 @@ CURATED_PRODUCTS = [
             'description': 'Замовляйте Nike Air Max Plus Tn Black Teal Yellow (арт. А5689) за 2500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж).'
         },
         'isHit': False
+    },
+    {
+        'id': '136745',
+        'slug': 'new-balance-1906r-cordura-gore-tex-grey-6273',
+        'name': 'New Balance 1906R Cordura Gore-Tex Grey',
+        'brand': 'New Balance',
+        'brandSlug': 'new-balance',
+        'category': 'Взуття',
+        'categorySlug': 'shoes',
+        'gender': 'men',
+        'genderName': 'Чоловічі',
+        'season': 'winter',
+        'seasonName': 'Зима',
+        'price': 2900,
+        'oldPrice': 4833,
+        'costPrice': 1960,
+        'sku': '6273',
+        'material': 'Водонепроникний нейлон (Cordura), натуральна шкіра, термо на флісі (до -21°C)',
+        'country': "В'єтнам",
+        'sizes': ['43', '44', '45', '46'],
+        'sizeChart': [
+            {'size': '41', 'cm': '26.0', 'available': False},
+            {'size': '42', 'cm': '26.5', 'available': False},
+            {'size': '43', 'cm': '27.5', 'available': True},
+            {'size': '44', 'cm': '28.0', 'available': True},
+            {'size': '45', 'cm': '29.0', 'available': True},
+            {'size': '46', 'cm': '29.5', 'available': True},
+        ],
+        'inStock': True,
+        'isHit': True,
+        'images': [
+            '/images/products/new-balance-1906r-cordura-gore-tex-grey-6273/img-1.jpg',
+            '/images/products/new-balance-1906r-cordura-gore-tex-grey-6273/img-2.jpg',
+            '/images/products/new-balance-1906r-cordura-gore-tex-grey-6273/img-3.jpg',
+            '/images/products/new-balance-1906r-cordura-gore-tex-grey-6273/img-4.jpg',
+        ],
+        'description': (
+            'Чоловічі зимові термо-кросівки New Balance 1906R Cordura Gore-Tex Dark Grey (артикул: 6273). '
+            'Модель створена для максимального захисту від негоди в холодний сезон: зносостійкий водонепроникний '
+            'нейлон Cordura, елементи з натуральної шкіри та мембрана Gore-Tex надійно захищають від вологи та бруду. '
+            'Всередині — теплий термо-фліс, що зберігає комфортний мікроклімат за температури до -21°C. '
+            'Амортизуюча підошва N-ergy на легкій піні гарантує неперевершений комфорт та зчеплення з поверхнею. '
+            'Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. '
+            'Гарантія обміну або повернення — 14 днів.'
+        ),
+        'seo': {
+            'title': 'New Balance 1906R Cordura Gore-Tex Grey (арт. 6273) — купити зимові кросівки в інтернет-магазині VEXARO',
+            'description': 'Замовляйте чоловічі зимові термо-кросівки New Balance 1906R Cordura Gore-Tex Grey (арт. 6273) за 2900 ₴. Водонепроникна Cordura, термо-фліс до -21°C. Доставка Новою Поштою 1–2 дні, накладений платіж.'
+        }
     },
     {
         'id': '146368',
