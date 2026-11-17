@@ -239,6 +239,7 @@ EXCLUDED_SKUS = {'182883', '16006', '16005', '16004', '16003', 'NB143', '0068', 
 PINNED_FILE = os.path.join(SRC_DATA_DIR, 'pinned.json')
 PINNED_KEYS = [
     'premiata-steven', # Premiata Steven (3 кольори: Ar51737, Ar51738, Ar51739) - pinned by user
+    'new-balance-574-khutro', # New Balance 574 ХУТРО (3 кольори: 8296, 7318, 3279) - position 2
     'A6201',     # Premiata MOERUN ХУТРО Brown - pinned by user
     'PM12',      # Premiata MOERUN ХУТРО Khaki - pinned by user
     'PM11',      # Premiata MOERUN ХУТРО Anthracite - pinned by user
@@ -254,7 +255,6 @@ PINNED_KEYS = [
     '1672',      # New Balance 9060 Slate Grey Cordura - newest studio photos
     '1673',      # New Balance 9060 Black Grey Cordura - newest studio photos
     '1674',      # New Balance 9060 Dark Grey Lime Cordura - newest studio photos
-    'new-balance-574-khutro', # New Balance 574 ХУТРО (3 кольори: 8296, 7318, 3279) - newest studio photos
     '6273',      # New Balance 1906R Cordura Gore-Tex Grey - newest studio photos
     '1677',      # New Balance 1906R Graphite Metallic Primaloft - newest studio photos
     '1680',      # Nike SB Dunk White Lace Pack - newest studio photos
