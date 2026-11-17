@@ -135813,8 +135813,8 @@
       "https://easydrop.one/media/uploads/images/base/59cc0696-4e05-4ab5-887b-6cee8d62babd.jpeg",
       "https://easydrop.one/media/uploads/images/base/84e5522e-e4d8-42dc-ae63-2978f0c2b527.jpeg",
       "https://easydrop.one/media/uploads/images/base/76e2fdd3-2074-4179-ba66-c85d2bc75150.jpeg",
-      "https://easydrop.one/media/uploads/images/base/e19ec62d-58d2-46d0-9280-55b834491f1b.jpeg",
-      "https://easydrop.one/media/uploads/images/base/2947548e-f06b-4832-84be-c5ba43fd2207.jpeg"
+      "https://easydrop.one/media/uploads/images/base/2947548e-f06b-4832-84be-c5ba43fd2207.jpeg",
+      "https://easydrop.one/media/uploads/images/base/e19ec62d-58d2-46d0-9280-55b834491f1b.jpeg"
     ],
     "description": "Жіночі зимові уггі UGG CI Ultra Mini Weather Hybrid у преміальному виконанні. Оновлена версія культових Ultra Mini, створена для будь-якої негоди: водонепроникна силіконова калоша, верх із якісної натуральної водовідштовхувальної замші та густе тепле натуральне хутро (овчина) всередині. Знімна силіконова галоша забезпечує надійний захист від бруду, снігу та сльоти, а рельєфна підошва гарантує відмінне зчеплення з поверхнею в зимовий період. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
     "seo": {
@@ -136056,82 +136056,6 @@
         "slug": "ugg-ci-ultra-mini-weather-hybrid-khaki-yellow-1908"
       },
       {
-        "id": "198614",
-        "sku": "1891",
-        "color": "CHESTNUT BLUE",
-        "colorSlug": "chestnut-blue",
-        "price": 4500,
-        "oldPrice": 7500,
-        "costPrice": 4000,
-        "sizes": [
-          "36",
-          "37",
-          "39"
-        ],
-        "sizeChart": [
-          {
-            "size": "36",
-            "cm": "23.0",
-            "available": true
-          },
-          {
-            "size": "37",
-            "cm": "23.5",
-            "available": true
-          },
-          {
-            "size": "38",
-            "cm": "24.5",
-            "available": false
-          },
-          {
-            "size": "39",
-            "cm": "25.0",
-            "available": true
-          },
-          {
-            "size": "40",
-            "cm": "25.5",
-            "available": false
-          },
-          {
-            "size": "41",
-            "cm": "26.0",
-            "available": false
-          },
-          {
-            "size": "42",
-            "cm": "26.5",
-            "available": false
-          },
-          {
-            "size": "43",
-            "cm": "27.5",
-            "available": false
-          },
-          {
-            "size": "44",
-            "cm": "28.0",
-            "available": false
-          },
-          {
-            "size": "45",
-            "cm": "28.5",
-            "available": false
-          },
-          {
-            "size": "46",
-            "cm": "29.5",
-            "available": false
-          }
-        ],
-        "images": [
-          "https://easydrop.one/media/uploads/images/base/e19ec62d-58d2-46d0-9280-55b834491f1b.jpeg"
-        ],
-        "inStock": true,
-        "slug": "ugg-ci-ultra-mini-weather-hybrid-chestnut-blue-1891"
-      },
-      {
         "id": "201137",
         "sku": "1907",
         "color": "FULL BLACK",
@@ -136206,6 +136130,82 @@
         ],
         "inStock": true,
         "slug": "ugg-ci-ultra-mini-weather-hybrid-full-black-1907"
+      },
+      {
+        "id": "198614",
+        "sku": "1891",
+        "color": "CHESTNUT BLUE",
+        "colorSlug": "chestnut-blue",
+        "price": 4500,
+        "oldPrice": 7500,
+        "costPrice": 4000,
+        "sizes": [
+          "36",
+          "37",
+          "39"
+        ],
+        "sizeChart": [
+          {
+            "size": "36",
+            "cm": "23.0",
+            "available": true
+          },
+          {
+            "size": "37",
+            "cm": "23.5",
+            "available": true
+          },
+          {
+            "size": "38",
+            "cm": "24.5",
+            "available": false
+          },
+          {
+            "size": "39",
+            "cm": "25.0",
+            "available": true
+          },
+          {
+            "size": "40",
+            "cm": "25.5",
+            "available": false
+          },
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": false
+          },
+          {
+            "size": "42",
+            "cm": "26.5",
+            "available": false
+          },
+          {
+            "size": "43",
+            "cm": "27.5",
+            "available": false
+          },
+          {
+            "size": "44",
+            "cm": "28.0",
+            "available": false
+          },
+          {
+            "size": "45",
+            "cm": "28.5",
+            "available": false
+          },
+          {
+            "size": "46",
+            "cm": "29.5",
+            "available": false
+          }
+        ],
+        "images": [
+          "https://easydrop.one/media/uploads/images/base/e19ec62d-58d2-46d0-9280-55b834491f1b.jpeg"
+        ],
+        "inStock": true,
+        "slug": "ugg-ci-ultra-mini-weather-hybrid-chestnut-blue-1891"
       }
     ]
   },
