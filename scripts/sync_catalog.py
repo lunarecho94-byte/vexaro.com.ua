@@ -254,6 +254,7 @@ PINNED_KEYS = [
     '1672',      # New Balance 9060 Slate Grey Cordura - newest studio photos
     '1673',      # New Balance 9060 Black Grey Cordura - newest studio photos
     '1674',      # New Balance 9060 Dark Grey Lime Cordura - newest studio photos
+    'new-balance-574-khutro', # New Balance 574 ХУТРО (3 кольори: 8296, 7318, 3279) - newest studio photos
     '6273',      # New Balance 1906R Cordura Gore-Tex Grey - newest studio photos
     '1677',      # New Balance 1906R Graphite Metallic Primaloft - newest studio photos
     '1680',      # Nike SB Dunk White Lace Pack - newest studio photos
@@ -506,6 +507,146 @@ CURATED_PRODUCTS = [
             'description': 'Замовляйте Nike Air Max Plus Tn Black Teal Yellow (арт. А5689) за 2500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж).'
         },
         'isHit': False
+    },
+    {
+        'id': '259106',
+        'slug': 'new-balance-574-khutro',
+        'name': 'New Balance 574 ХУТРО',
+        'brand': 'New Balance',
+        'brandSlug': 'new-balance',
+        'category': 'Взуття',
+        'categorySlug': 'shoes',
+        'gender': 'men',
+        'genderName': 'Чоловічі',
+        'season': 'winter',
+        'seasonName': 'Зима',
+        'price': 3200,
+        'oldPrice': 5333,
+        'minPrice': 3200,
+        'maxPrice': 3200,
+        'costPrice': 2350,
+        'sku': '8296',
+        'material': 'Натуральна замша, натуральна шкіра, нейлон, густе тепле хутро',
+        'country': "В'єтнам",
+        'sizes': ['41', '42', '43', '44', '45', '46'],
+        'sizeChart': [
+            {'size': '40', 'cm': '25.5', 'available': False},
+            {'size': '41', 'cm': '26.0', 'available': True},
+            {'size': '42', 'cm': '26.5', 'available': True},
+            {'size': '43', 'cm': '27.5', 'available': True},
+            {'size': '44', 'cm': '28.0', 'available': True},
+            {'size': '45', 'cm': '28.5', 'available': True},
+            {'size': '46', 'cm': '29.5', 'available': True},
+        ],
+        'inStock': True,
+        'isHit': True,
+        'images': [
+            '/images/products/new-balance-574-khutro-black-8296/img-1.jpg',
+            '/images/products/new-balance-574-khutro-black-8296/img-2.jpg',
+            '/images/products/new-balance-574-khutro-black-8296/img-3.jpg',
+            '/images/products/new-balance-574-khutro-black-8296/img-4.jpg',
+            '/images/products/new-balance-574-khutro-grey-7318/img-1.jpg',
+            '/images/products/new-balance-574-khutro-grey-7318/img-2.jpg',
+            '/images/products/new-balance-574-khutro-grey-7318/img-3.jpg',
+            '/images/products/new-balance-574-khutro-grey-7318/img-4.jpg',
+            '/images/products/new-balance-574-khutro-dark-grey-3279/img-1.jpg',
+            '/images/products/new-balance-574-khutro-dark-grey-3279/img-2.jpg',
+            '/images/products/new-balance-574-khutro-dark-grey-3279/img-3.jpg',
+            '/images/products/new-balance-574-khutro-dark-grey-3279/img-4.jpg',
+        ],
+        'description': (
+            'Чоловічі зимові кросівки New Balance 574 ХУТРО у легендарному силуеті, створені спеціально для холодної пори року. '
+            'Верх виготовлений із високоякісної натуральної замші та міцної шкіри з водовідштовхувальними нейлоновими вставками. '
+            'Всередині — густе щільне тепле хутро, яке надійно зігріває ногу навіть у сильні морози. '
+            'Зносостійка підошва з піноматеріалу EVA з чіпким гумовим протектором та технологією ENCAP забезпечує м’яку амортизацію та впевнене зчеплення на слизьких зимових поверхнях. '
+            'Модель представлена у трьох фірмових кольорах: Black (арт. 8296), Grey (арт. 7318) та Dark Grey (арт. 3279). '
+            'Доставка Новою Поштою по всій Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. '
+            'Гарантія обміну та повернення — 14 днів.'
+        ),
+        'seo': {
+            'title': 'New Balance 574 ХУТРО — купити зимові кросівки з хутром в Україні в магазині VEXARO',
+            'description': 'Замовляйте теплі чоловічі зимові кросівки New Balance 574 ХУТРО за 3200 ₴. Кольори Black, Grey, Dark Grey. Натуральна замша та шкіра, густе хутро. Доставка по Україні 1–2 дні, накладений платіж.'
+        },
+        'variations': [
+            {
+                'id': '259106',
+                'sku': '8296',
+                'slug': 'new-balance-574-khutro-black-8296',
+                'color': 'Black',
+                'colorSlug': 'black',
+                'price': 3200,
+                'oldPrice': 5333,
+                'costPrice': 2350,
+                'sizes': ['41', '42', '43', '44', '45', '46'],
+                'sizeChart': [
+                    {'size': '40', 'cm': '25.5', 'available': False},
+                    {'size': '41', 'cm': '26.0', 'available': True},
+                    {'size': '42', 'cm': '26.5', 'available': True},
+                    {'size': '43', 'cm': '27.5', 'available': True},
+                    {'size': '44', 'cm': '28.0', 'available': True},
+                    {'size': '45', 'cm': '28.5', 'available': True},
+                    {'size': '46', 'cm': '29.5', 'available': True},
+                ],
+                'images': [
+                    '/images/products/new-balance-574-khutro-black-8296/img-1.jpg',
+                    '/images/products/new-balance-574-khutro-black-8296/img-2.jpg',
+                    '/images/products/new-balance-574-khutro-black-8296/img-3.jpg',
+                    '/images/products/new-balance-574-khutro-black-8296/img-4.jpg',
+                ]
+            },
+            {
+                'id': '259103',
+                'sku': '7318',
+                'slug': 'new-balance-574-khutro-grey-7318',
+                'color': 'Grey',
+                'colorSlug': 'grey',
+                'price': 3200,
+                'oldPrice': 5333,
+                'costPrice': 2350,
+                'sizes': ['41', '42', '43', '44', '45', '46'],
+                'sizeChart': [
+                    {'size': '40', 'cm': '25.5', 'available': False},
+                    {'size': '41', 'cm': '26.0', 'available': True},
+                    {'size': '42', 'cm': '26.5', 'available': True},
+                    {'size': '43', 'cm': '27.5', 'available': True},
+                    {'size': '44', 'cm': '28.0', 'available': True},
+                    {'size': '45', 'cm': '28.5', 'available': True},
+                    {'size': '46', 'cm': '29.5', 'available': True},
+                ],
+                'images': [
+                    '/images/products/new-balance-574-khutro-grey-7318/img-1.jpg',
+                    '/images/products/new-balance-574-khutro-grey-7318/img-2.jpg',
+                    '/images/products/new-balance-574-khutro-grey-7318/img-3.jpg',
+                    '/images/products/new-balance-574-khutro-grey-7318/img-4.jpg',
+                ]
+            },
+            {
+                'id': '259107',
+                'sku': '3279',
+                'slug': 'new-balance-574-khutro-dark-grey-3279',
+                'color': 'Dark Grey',
+                'colorSlug': 'dark-grey',
+                'price': 3200,
+                'oldPrice': 5333,
+                'costPrice': 2350,
+                'sizes': ['41', '42', '43', '44', '45', '46'],
+                'sizeChart': [
+                    {'size': '40', 'cm': '25.5', 'available': False},
+                    {'size': '41', 'cm': '26.0', 'available': True},
+                    {'size': '42', 'cm': '26.5', 'available': True},
+                    {'size': '43', 'cm': '27.5', 'available': True},
+                    {'size': '44', 'cm': '28.0', 'available': True},
+                    {'size': '45', 'cm': '28.5', 'available': True},
+                    {'size': '46', 'cm': '29.5', 'available': True},
+                ],
+                'images': [
+                    '/images/products/new-balance-574-khutro-dark-grey-3279/img-1.jpg',
+                    '/images/products/new-balance-574-khutro-dark-grey-3279/img-2.jpg',
+                    '/images/products/new-balance-574-khutro-dark-grey-3279/img-3.jpg',
+                    '/images/products/new-balance-574-khutro-dark-grey-3279/img-4.jpg',
+                ]
+            }
+        ]
     },
     {
         'id': '136745',
