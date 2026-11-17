@@ -141,7 +141,6 @@ export function getProductSearchText(p: Product): string {
     p.brand,
     p.brandSlug,
     p.sku || '',
-    p.id || '',
     p.genderName || '',
     p.gender || '',
     p.seasonName || '',
@@ -149,6 +148,10 @@ export function getProductSearchText(p: Product): string {
     p.material || '',
     ...(p.sizes || []),
   ];
+
+  if (p.sku) {
+    parts.push(`арт ${p.sku}`, `арт. ${p.sku}`, `артикул ${p.sku}`, `код ${p.sku}`);
+  }
 
   const brandKey = (p.brandSlug || p.brand || '').toLowerCase();
   for (const [key, aliases] of Object.entries(BRAND_ALIASES)) {
@@ -161,7 +164,10 @@ export function getProductSearchText(p: Product): string {
     for (const v of p.variations) {
       if (v.color) parts.push(v.color);
       if (v.colorSlug) parts.push(v.colorSlug);
-      if (v.sku) parts.push(v.sku);
+      if (v.sku) {
+        parts.push(v.sku);
+        parts.push(`арт ${v.sku}`, `арт. ${v.sku}`, `артикул ${v.sku}`, `код ${v.sku}`);
+      }
     }
   }
 
@@ -581,15 +587,24 @@ export async function getProducts(params: CatalogQueryParams = {}): Promise<Cata
     ? rawSearch
         .toLowerCase()
         .split(/[\s,+/|]+/)
-        .map((t) => t.trim())
+        .map((t) => t.trim().replace(/^[.,:;#!№"«»()]+|[.,:;#!№"«»()]+$/g, ''))
         .filter((t) => t.length > 0)
     : [];
 
-  if (isSearchActive && searchTokens.length > 0) {
+  // When multiple tokens are provided, strip common prefix words like "арт", "артикул", "код", "номер", "№"
+  const effectiveTokens = (() => {
+    if (searchTokens.length <= 1) return searchTokens;
+    const stripped = searchTokens.filter(
+      (t) => !['арт', 'артикул', 'код', 'номер', 'модель', 'мод', '№'].includes(t)
+    );
+    return stripped.length > 0 ? stripped : searchTokens;
+  })();
+
+  if (isSearchActive && effectiveTokens.length > 0) {
     filtered = filtered.filter((p) => {
       const text = getProductSearchText(p);
       // All tokens must be present in the product's searchable text (in any order)
-      return searchTokens.every((token) => {
+      return effectiveTokens.every((token) => {
         const normToken = normalizeHomoglyphs(token);
         return text.includes(token) || text.includes(normToken);
       });
@@ -655,31 +670,45 @@ export async function getProducts(params: CatalogQueryParams = {}): Promise<Cata
     }
 
     // Exact SKU match (+1000)
-    if (skuLower === qLower || searchTokens.includes(skuLower)) {
+    if (
+      skuLower === qLower ||
+      searchTokens.includes(skuLower) ||
+      effectiveTokens.includes(skuLower)
+    ) {
       score += 1000;
-    } else if (skuLower.includes(qLower)) {
+    } else if (
+      skuLower.includes(qLower) ||
+      effectiveTokens.some((t) => t.length >= 3 && skuLower.includes(t))
+    ) {
       score += 400;
     }
 
     // Variation SKU match (+800)
     if (
       p.variations &&
-      p.variations.some(
-        (v) =>
-          (v.sku || '').toLowerCase() === qLower ||
-          searchTokens.includes((v.sku || '').toLowerCase())
-      )
+      p.variations.some((v) => {
+        const vSku = (v.sku || '').toLowerCase();
+        return (
+          vSku === qLower ||
+          searchTokens.includes(vSku) ||
+          effectiveTokens.includes(vSku)
+        );
+      })
     ) {
       score += 800;
     }
 
     // Exact brand match (+200)
-    if (brandLower === qLower || searchTokens.includes(brandLower)) {
+    if (
+      brandLower === qLower ||
+      searchTokens.includes(brandLower) ||
+      effectiveTokens.includes(brandLower)
+    ) {
       score += 200;
     }
 
     // Individual token matches in title (+100 per word)
-    for (const t of searchTokens) {
+    for (const t of effectiveTokens) {
       if (nameLower.includes(t)) {
         score += 100;
       }
