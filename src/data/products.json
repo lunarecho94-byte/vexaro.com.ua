@@ -1893,6 +1893,7 @@
         "costPrice": 4000,
         "sizes": [
           "36",
+          "38",
           "39",
           "40"
         ],
@@ -1910,7 +1911,7 @@
           {
             "size": "38",
             "cm": "24.5",
-            "available": false
+            "available": true
           },
           {
             "size": "39",
@@ -12381,476 +12382,6 @@
     ]
   },
   {
-    "id": "260042",
-    "slug": "terrex-termo-atr258",
-    "name": "TERREX (термо)",
-    "brand": "Інші бренди",
-    "brandSlug": "other",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 2700,
-    "oldPrice": 4500,
-    "costPrice": 2200,
-    "sku": "ATR258",
-    "material": "Вологостійкий текстиль, термоутеплювач, піна, гума",
-    "country": "В'єтнам",
-    "sizes": [
-      "41",
-      "42",
-      "43",
-      "44",
-      "45",
-      "46"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": true
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": true
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": true
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": true
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": true
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/a008ab06-ea3e-44ad-9040-b8a353282c6b.jpg"
-    ],
-    "description": "Модель: TERREX (термо). Артикул: ATR258. Матеріал: Вологостійкий текстиль, термоутеплювач, піна, гума. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "TERREX (термо) (арт. ATR258) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте TERREX (термо) (арт. ATR258) за 2700 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "260041",
-    "slug": "terrex-termo-atr257",
-    "name": "TERREX (термо)",
-    "brand": "Інші бренди",
-    "brandSlug": "other",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 2700,
-    "oldPrice": 4500,
-    "costPrice": 2200,
-    "sku": "ATR257",
-    "material": "Вологостійкий текстиль, термоутеплювач, піна, гума",
-    "country": "В'єтнам",
-    "sizes": [
-      "41",
-      "42",
-      "43",
-      "44",
-      "45",
-      "46"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": true
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": true
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": true
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": true
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": true
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/7f4601dd-5001-4221-b90a-7f87375a65a5.jpg"
-    ],
-    "description": "Модель: TERREX (термо). Артикул: ATR257. Матеріал: Вологостійкий текстиль, термоутеплювач, піна, гума. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "TERREX (термо) (арт. ATR257) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте TERREX (термо) (арт. ATR257) за 2700 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "260040",
-    "slug": "terrex-termo-atr256",
-    "name": "TERREX (термо)",
-    "brand": "Інші бренди",
-    "brandSlug": "other",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 2700,
-    "oldPrice": 4500,
-    "costPrice": 2200,
-    "sku": "ATR256",
-    "material": "Вологостійкий текстиль, термоутеплювач, піна, гума",
-    "country": "В'єтнам",
-    "sizes": [
-      "41",
-      "42",
-      "43",
-      "44",
-      "45",
-      "46"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": true
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": true
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": true
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": true
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": true
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/594bbae1-525a-43fc-85c9-5d3afc10a270.jpg"
-    ],
-    "description": "Модель: TERREX (термо). Артикул: ATR256. Матеріал: Вологостійкий текстиль, термоутеплювач, піна, гума. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "TERREX (термо) (арт. ATR256) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте TERREX (термо) (арт. ATR256) за 2700 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "260038",
-    "slug": "rerids-termo-ntr839",
-    "name": "RERIDS (термо)",
-    "brand": "Інші бренди",
-    "brandSlug": "other",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 2750,
-    "oldPrice": 4583,
-    "costPrice": 2250,
-    "sku": "NTR839",
-    "material": "Влогостійкий текстиль, термоутеплювач, гума, піна, прошиті",
-    "country": "В'єтнам",
-    "sizes": [
-      "41",
-      "42",
-      "43",
-      "44",
-      "45",
-      "46"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": true
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": true
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": true
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": true
-      },
-      {
-        "size": "46",
-        "cm": "30.0",
-        "available": true
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/079200b5-bb4e-4817-9faf-4959dbbf776f.jpg"
-    ],
-    "description": "Модель: RERIDS (термо). Артикул: NTR839. Матеріал: Влогостійкий текстиль, термоутеплювач, гума, піна, прошиті. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "RERIDS (термо) (арт. NTR839) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте RERIDS (термо) (арт. NTR839) за 2750 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "260037",
-    "slug": "rerids-termo-ntr838",
-    "name": "RERIDS (термо)",
-    "brand": "Інші бренди",
-    "brandSlug": "other",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 2750,
-    "oldPrice": 4583,
-    "costPrice": 2250,
-    "sku": "NTR838",
-    "material": "Влогостійкий текстиль, термоутеплювач, гума, піна, прошиті",
-    "country": "В'єтнам",
-    "sizes": [
-      "41",
-      "42",
-      "43",
-      "44",
-      "45",
-      "46"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": true
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": true
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": true
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": true
-      },
-      {
-        "size": "46",
-        "cm": "30.0",
-        "available": true
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/73185336-f709-4391-a0c9-cefd8e0f84ce.jpg"
-    ],
-    "description": "Модель: RERIDS (термо). Артикул: NTR838. Матеріал: Влогостійкий текстиль, термоутеплювач, гума, піна, прошиті. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "RERIDS (термо) (арт. NTR838) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте RERIDS (термо) (арт. NTR838) за 2750 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "260036",
     "slug": "rerids-termo-ntr837",
     "name": "RERIDS (термо)",
@@ -15126,6 +14657,7 @@
     "country": "В'єтнам",
     "sizes": [
       "41",
+      "43",
       "44",
       "45",
       "46"
@@ -15169,7 +14701,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": false
+        "available": true
       },
       {
         "size": "44",
@@ -52776,7 +52308,8 @@
       "42",
       "43",
       "44",
-      "45"
+      "45",
+      "46"
     ],
     "sizeChart": [
       {
@@ -52832,7 +52365,7 @@
       {
         "size": "46",
         "cm": "30.0",
-        "available": false
+        "available": true
       }
     ],
     "inStock": true,
@@ -59526,7 +59059,8 @@
       "41",
       "42",
       "43",
-      "44"
+      "44",
+      "45"
     ],
     "sizeChart": [
       {
@@ -59577,7 +59111,7 @@
       {
         "size": "45",
         "cm": "28.5",
-        "available": false
+        "available": true
       },
       {
         "size": "46",
@@ -124029,6 +123563,100 @@
     }
   },
   {
+    "id": "209106",
+    "slug": "new-balance-740-v2-white-silver-black-n4330",
+    "name": "New Balance 740 V2 White/Silver/Black",
+    "brand": "New Balance",
+    "brandSlug": "newbalance",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 2700,
+    "oldPrice": 4500,
+    "costPrice": 2200,
+    "sku": "N4330",
+    "material": "шкіра,текстиль",
+    "country": "В'єтнам",
+    "sizes": [
+      "37",
+      "38",
+      "41"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": true
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "24.5",
+        "available": false
+      },
+      {
+        "size": "40",
+        "cm": "25.0",
+        "available": false
+      },
+      {
+        "size": "41",
+        "cm": "25.5",
+        "available": true
+      },
+      {
+        "size": "42",
+        "cm": "26.0",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "28.5",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/ec150cf5-55b7-4857-804c-8a4888d41692.jpg",
+      "https://easydrop.one/media/uploads/images/base/4e71c07f-a588-47ca-bfed-df2a406e24bd.jpeg",
+      "https://easydrop.one/media/uploads/images/base/27005e7d-0831-4071-9719-e0a96339b9b0.jpeg",
+      "https://easydrop.one/media/uploads/images/base/3585e4b8-c6f0-4e17-a884-d7f9939b7d5b.jpeg"
+    ],
+    "description": "Модель: New Balance 740 V2 White/Silver/Black. Артикул: N4330. Матеріал: шкіра,текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "New Balance 740 V2 White/Silver/Black (арт. N4330) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте New Balance 740 V2 White/Silver/Black (арт. N4330) за 2700 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
     "id": "209102",
     "slug": "nike-zoom-vomero-5-rnr-sustom-pink-6860",
     "name": "Nike Zoom Vomero 5 RNR Сustom Pink",
@@ -134777,6 +134405,97 @@
     }
   },
   {
+    "id": "202300",
+    "slug": "new-balance-1906r-x-cordura-haki-gore-tex-2526",
+    "name": "New Balance 1906R X Cordura Haki Gore-tex",
+    "brand": "New Balance",
+    "brandSlug": "newbalance",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "men",
+    "genderName": "Чоловічі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 3000,
+    "oldPrice": 5000,
+    "costPrice": 2500,
+    "sku": "2526",
+    "material": "Замша , текстиль",
+    "country": "В'єтнам",
+    "sizes": [
+      "40",
+      "41",
+      "44"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": false
+      },
+      {
+        "size": "39",
+        "cm": "24.5",
+        "available": false
+      },
+      {
+        "size": "40",
+        "cm": "25.0",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": true
+      },
+      {
+        "size": "45",
+        "cm": "29.0",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "30.0",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": true,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/4c8e8e63-9d6f-4ffc-9822-11368762c5db.jpeg"
+    ],
+    "description": "Модель: New Balance 1906R X Cordura Haki Gore-tex. Артикул: 2526. Матеріал: Замша , текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "New Balance 1906R X Cordura Haki Gore-tex (арт. 2526) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте New Balance 1906R X Cordura Haki Gore-tex (арт. 2526) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
     "id": "202299",
     "slug": "nike-air-force-1-low-molten-metal-black-2458",
     "name": "Nike Air Force 1 Low Molten Metal Black",
@@ -137483,6 +137202,7 @@
         "oldPrice": 8000,
         "costPrice": 4300,
         "sizes": [
+          "36",
           "37",
           "38",
           "39",
@@ -137492,7 +137212,7 @@
           {
             "size": "36",
             "cm": "23.0",
-            "available": false
+            "available": true
           },
           {
             "size": "37",
@@ -186930,6 +186650,7 @@
     "country": "Вьетрнам",
     "sizes": [
       "40",
+      "41",
       "42",
       "43",
       "44",
@@ -186964,7 +186685,7 @@
       {
         "size": "41",
         "cm": "26.0",
-        "available": false
+        "available": true
       },
       {
         "size": "42",
@@ -199533,6 +199254,7 @@
       "37",
       "38",
       "40",
+      "41",
       "43",
       "45"
     ],
@@ -199565,7 +199287,7 @@
       {
         "size": "41",
         "cm": "26.0",
-        "available": false
+        "available": true
       },
       {
         "size": "42",
@@ -206517,6 +206239,7 @@
       "36",
       "37",
       "38",
+      "39",
       "40",
       "41"
     ],
@@ -206539,7 +206262,7 @@
       {
         "size": "39",
         "cm": "24.5",
-        "available": false
+        "available": true
       },
       {
         "size": "40",
@@ -210276,6 +209999,7 @@
     "sizes": [
       "40",
       "41",
+      "42",
       "44"
     ],
     "sizeChart": [
@@ -210312,7 +210036,7 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": false
+        "available": true
       },
       {
         "size": "43",
@@ -213879,7 +213603,6 @@
     "country": "В'єтнам",
     "sizes": [
       "37",
-      "38",
       "39",
       "40",
       "41"
@@ -213898,7 +213621,7 @@
       {
         "size": "38",
         "cm": "24.5",
-        "available": true
+        "available": false
       },
       {
         "size": "39",
@@ -216485,6 +216208,108 @@
     "seo": {
       "title": "Nike V2K Run Premium Light Bone Viotech (арт. N00196) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Nike V2K Run Premium Light Bone Viotech (арт. N00196) за 2550 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "119561",
+    "slug": "nike-acg-mountain-fly-2-white-gore-tex-n00195",
+    "name": "Nike ACG Mountain Fly 2 White Gore-Tex",
+    "brand": "Nike",
+    "brandSlug": "nike",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "men",
+    "genderName": "Чоловічі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 2550,
+    "oldPrice": 4250,
+    "costPrice": 2050,
+    "sku": "N00195",
+    "material": "Текстиль",
+    "country": "-",
+    "sizes": [
+      "36",
+      "39",
+      "42.5",
+      "45"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": true
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "37,5",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": false
+      },
+      {
+        "size": "39",
+        "cm": "24.5",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.0",
+        "available": false
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": false
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "42,5",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "29.0",
+        "available": true
+      },
+      {
+        "size": "46",
+        "cm": "30.0",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/5f1592ce-0ed3-490e-8599-fa35d3b976a2.jpeg"
+    ],
+    "description": "Модель: Nike ACG Mountain Fly 2 White Gore-Tex. Артикул: N00195. Матеріал: Текстиль. Сезон: Демісезон. Виробництво: -. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Nike ACG Mountain Fly 2 White Gore-Tex (арт. N00195) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Nike ACG Mountain Fly 2 White Gore-Tex (арт. N00195) за 2550 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -231495,6 +231320,97 @@
     }
   },
   {
+    "id": "98924",
+    "slug": "asics-gel-1130-black-1738",
+    "name": "Asics Gel 1130 Black",
+    "brand": "Asics",
+    "brandSlug": "asics",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "men",
+    "genderName": "Чоловічі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 2600,
+    "oldPrice": 4333,
+    "costPrice": 2100,
+    "sku": "1738",
+    "material": "Замша , Кожа , Сетка",
+    "country": "В'єтнам",
+    "sizes": [
+      "40",
+      "42",
+      "45"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": false
+      },
+      {
+        "size": "39",
+        "cm": "24.5",
+        "available": false
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": false
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": true
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "28.5",
+        "available": true
+      },
+      {
+        "size": "46",
+        "cm": "29.0",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/f8078d20-c598-4994-9ff9-e4644c28699c.jpeg"
+    ],
+    "description": "Модель: Asics Gel 1130 Black. Артикул: 1738. Матеріал: Замша , Кожа , Сетка. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Asics Gel 1130 Black (арт. 1738) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Asics Gel 1130 Black (арт. 1738) за 2600 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
     "id": "98920",
     "slug": "asics-gel-1090-white-blue-2650",
     "name": "Asics Gel 1090 White Blue",
@@ -231705,6 +231621,7 @@
       "40",
       "41",
       "42",
+      "43",
       "45"
     ],
     "sizeChart": [
@@ -231751,7 +231668,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": false
+        "available": true
       },
       {
         "size": "44",
@@ -234575,97 +234492,6 @@
     "seo": {
       "title": "Asics Gel 1130 ‘White Midnight’ 1202A164-110 (арт. 1208) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Asics Gel 1130 ‘White Midnight’ 1202A164-110 (арт. 1208) за 2700 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "95516",
-    "slug": "new-balance-9060-rich-oak-burgundy-u9060bur-1205",
-    "name": "New Balance 9060 Rich Oak Burgundy U9060BUR",
-    "brand": "New Balance",
-    "brandSlug": "newbalance",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 2800,
-    "oldPrice": 4667,
-    "costPrice": 2300,
-    "sku": "1205",
-    "material": "Замша, текстиль",
-    "country": "В'єтнам",
-    "sizes": [
-      "42",
-      "44",
-      "45"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": true
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": true
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": true
-      },
-      {
-        "size": "46",
-        "cm": "30.0",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/7c4eb3bd-a6e2-4187-ad67-1b6237958daa.jpeg"
-    ],
-    "description": "Модель: New Balance 9060 Rich Oak Burgundy U9060BUR. Артикул: 1205. Матеріал: Замша, текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "New Balance 9060 Rich Oak Burgundy U9060BUR (арт. 1205) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте New Balance 9060 Rich Oak Burgundy U9060BUR (арт. 1205) за 2800 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -241092,6 +240918,7 @@
       "38",
       "39",
       "41",
+      "42",
       "45"
     ],
     "sizeChart": [
@@ -241128,7 +240955,7 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": false
+        "available": true
       },
       {
         "size": "43",
@@ -245821,6 +245648,98 @@
     "seo": {
       "title": "Vans Knu Skool Black/White Premium (арт. VA003) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Vans Knu Skool Black/White Premium (арт. VA003) за 2500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "69275",
+    "slug": "ugg-bailey-bow-ii-boot-black-leather-1118",
+    "name": "Ugg Bailey Bow II Boot Black Leather",
+    "brand": "UGG",
+    "brandSlug": "ugg",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 2200,
+    "oldPrice": 3667,
+    "costPrice": 1700,
+    "sku": "1118",
+    "material": "Шкіра, овчина",
+    "country": "Китай",
+    "sizes": [
+      "36",
+      "37",
+      "38"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "23.0",
+        "available": true
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": true
+      },
+      {
+        "size": "38",
+        "cm": "24.5",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": false
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": false
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": false
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "28.5",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": true,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/4bf4313a-2049-4197-a6fd-c7968a06ca26.jpeg",
+      "https://easydrop.one/media/uploads/images/base/f43a12eb-fbf6-4287-9def-6d05742099a4.jpeg"
+    ],
+    "description": "Модель: Ugg Bailey Bow II Boot Black Leather. Артикул: 1118. Матеріал: Шкіра, овчина. Сезон: Зима. Виробництво: Китай. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Ugg Bailey Bow II Boot Black Leather (арт. 1118) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Ugg Bailey Bow II Boot Black Leather (арт. 1118) за 2200 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -261446,97 +261365,6 @@
     }
   },
   {
-    "id": "22095",
-    "slug": "balenciaga-track-white-blue-ba0029",
-    "name": "Balenciaga Track White/Blue",
-    "brand": "Balenciaga",
-    "brandSlug": "balenciaga",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 2250,
-    "oldPrice": 3750,
-    "costPrice": 1750,
-    "sku": "Ba0029",
-    "material": "Кожа",
-    "country": "-",
-    "sizes": [
-      "36",
-      "37",
-      "39"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "23.0",
-        "available": true
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": true
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": true
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/item_19/6ffeca6e-fabf-45c2-be91-dbe36935dc81.webp"
-    ],
-    "description": "Модель: Balenciaga Track White/Blue. Артикул: Ba0029. Матеріал: Кожа. Сезон: Демісезон. Виробництво: -. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Balenciaga Track White/Blue (арт. Ba0029) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Balenciaga Track White/Blue (арт. Ba0029) за 2250 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "22094",
     "slug": "balenciaga-track-white-yellow-ba0028",
     "name": "Balenciaga Track White/Yellow",
@@ -265965,7 +265793,6 @@
     "sizes": [
       "35",
       "39",
-      "41",
       "43"
     ],
     "sizeChart": [
@@ -266002,7 +265829,7 @@
       {
         "size": "41",
         "cm": "26.0",
-        "available": true
+        "available": false
       },
       {
         "size": "42",
