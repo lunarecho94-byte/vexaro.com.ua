@@ -193,35 +193,35 @@ export function FootSizeSlider({
   }
 
   return (
-    <div className="rounded-3xl border-2 border-dashed border-[#dfd7cc] dark:border-border/80 bg-[#fdfcf9] dark:bg-surface-raised/40 p-4 sm:p-5 shadow-sm transition-colors select-none">
+    <div className="rounded-2xl sm:rounded-3xl border-2 border-dashed border-border bg-surface-raised/40 p-4 sm:p-5 shadow-xs transition-colors select-none">
       {/* Top Header: cm on Left, Size on Right */}
       <div className="flex items-start justify-between gap-2 mb-3">
         {/* Left: Foot Length */}
         <div>
-          <span className="text-[11px] font-bold uppercase tracking-wider text-[#8c8278] dark:text-muted block">
+          <span className="text-[11px] font-bold uppercase tracking-wider text-muted block">
             довжина вашої стопи
           </span>
-          <div className="text-2xl sm:text-3xl font-black text-[#241c15] dark:text-foreground tracking-tight my-0.5">
+          <div className="text-2xl sm:text-3xl font-black text-foreground tracking-tight my-0.5">
             {activeItem.cmFormatted}&nbsp;см
           </div>
-          <span className="text-[11px] font-medium text-[#8c8278] dark:text-muted block">
+          <span className="text-[11px] font-medium text-muted block">
             посуньте повзунок
           </span>
         </div>
 
         {/* Right: Detected Size & Table Link */}
         <div className="text-right flex flex-col items-end">
-          <span className="text-[11px] font-bold uppercase tracking-wider text-[#8c8278] dark:text-muted block">
+          <span className="text-[11px] font-bold uppercase tracking-wider text-muted block">
             ваш розмір
           </span>
-          <div className="text-3xl sm:text-4xl font-black text-[#b47539] dark:text-primary tracking-tight leading-none my-0.5">
+          <div className="text-3xl sm:text-4xl font-black text-primary tracking-tight leading-none my-0.5">
             {activeItem.size}
           </div>
           {onOpenSizeGuideModal && (
             <button
               type="button"
               onClick={onOpenSizeGuideModal}
-              className="inline-flex items-center gap-1 text-[11px] text-primary hover:underline font-semibold mt-0.5"
+              className="inline-flex items-center gap-1 text-[11px] text-primary hover:text-primary-hover hover:underline font-semibold mt-0.5 transition-colors"
             >
               <Ruler className="h-3 w-3" />
               <span>Таблиця розмірів</span>
@@ -261,14 +261,14 @@ export function FootSizeSlider({
             onChange={handleSliderChange}
             className="foot-size-slider w-full"
             style={{
-              background: `linear-gradient(to right, #b47539 0%, #b47539 ${progressPercent}%, #e8e2d9 ${progressPercent}%, #e8e2d9 100%)`,
+              background: `linear-gradient(to right, #10b981 0%, #10b981 ${progressPercent}%, var(--border, #e4e4e7) ${progressPercent}%, var(--border, #e4e4e7) 100%)`,
             }}
             aria-label="Повзунок вибору довжини стопи та розміру"
           />
         </div>
 
         {/* Scale labels under the slider */}
-        <div className="flex justify-between items-center px-1 mt-2 text-[10px] sm:text-[11px] font-semibold text-[#8c8278] dark:text-muted">
+        <div className="flex justify-between items-center px-1 mt-2 text-[10px] sm:text-[11px] font-semibold text-muted">
           {scaleMarks.map((m, idx) => (
             <span key={`${m.size}-${idx}`} className="tabular-nums">
               {m.cmFormatted}
@@ -294,12 +294,12 @@ export function FootSizeSlider({
               type="button"
               disabled={!isAvailable}
               onClick={() => handleCardClick(item)}
-              className={`flex flex-col items-center justify-center py-2 px-1 rounded-2xl transition-all ${
+              className={`flex flex-col items-center justify-center py-2 px-1 rounded-xl sm:rounded-2xl transition-all ${
                 !isAvailable
-                  ? 'border border-dashed border-[#dfd7cc]/70 dark:border-border/50 bg-[#f4efe8]/50 dark:bg-surface/30 text-muted/40 cursor-not-allowed line-through'
+                  ? 'border border-dashed border-border/60 bg-surface-raised/40 text-muted/40 cursor-not-allowed line-through'
                   : isSelected
-                  ? 'bg-[#241c15] text-white shadow-md ring-2 ring-[#241c15]/20 dark:bg-primary dark:ring-primary/30'
-                  : 'bg-white dark:bg-surface border border-[#dfd7cc] dark:border-border text-[#241c15] dark:text-foreground hover:border-[#b47539] dark:hover:border-primary shadow-xs'
+                  ? 'bg-primary text-white shadow-md shadow-primary/25 ring-2 ring-primary/40'
+                  : 'bg-surface border border-border text-foreground hover:border-primary hover:text-primary shadow-xs'
               }`}
               aria-label={`Розмір ${item.size}, довжина ${item.cmFormatted} см ${
                 !isAvailable ? '(немає в наявності)' : ''
@@ -310,7 +310,7 @@ export function FootSizeSlider({
               </span>
               <span
                 className={`text-[10px] sm:text-[11px] font-medium leading-tight mt-0.5 whitespace-nowrap ${
-                  isSelected ? 'text-white/85' : 'text-[#8c8278] dark:text-muted'
+                  isSelected ? 'text-white/90' : 'text-muted'
                 }`}
               >
                 {item.cmFormatted}&nbsp;см
@@ -321,8 +321,8 @@ export function FootSizeSlider({
       </div>
 
       {/* Foot measurement instruction text */}
-      <div className="mt-4 pt-3.5 border-t border-[#eee7dd] dark:border-border/60">
-        <p className="text-[11px] sm:text-xs text-[#73685d] dark:text-muted leading-relaxed">
+      <div className="mt-4 pt-3.5 border-t border-border">
+        <p className="text-[11px] sm:text-xs text-muted leading-relaxed">
           Як виміряти: станьте на аркуш паперу, обведіть стопу і виміряйте від п&apos;яти до найдовшого пальця. Розмір підбираємо за довжиною устілки. Сумніваєтесь — менеджер підкаже під час дзвінка.
         </p>
       </div>
