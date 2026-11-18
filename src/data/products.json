@@ -4899,7 +4899,6 @@
       "41",
       "43",
       "44",
-      "45",
       "46"
     ],
     "sizeChart": [
@@ -4951,7 +4950,7 @@
       {
         "size": "45",
         "cm": "29.0",
-        "available": true
+        "available": false
       },
       {
         "size": "46",
@@ -14940,7 +14939,6 @@
     "material": "Шкіра, замша, вологостійкий текстиль, термоутеплювач, гума, піна, прошиті",
     "country": "В'єтнам",
     "sizes": [
-      "41",
       "42",
       "43",
       "44",
@@ -14975,7 +14973,7 @@
       {
         "size": "41",
         "cm": "26.0",
-        "available": true
+        "available": false
       },
       {
         "size": "42",
@@ -15308,7 +15306,6 @@
     "material": "Вологостійкий текстиль, термоутеплювач, гума, піна, прошиті",
     "country": "В'єтнам",
     "sizes": [
-      "41",
       "42",
       "44",
       "45"
@@ -15342,7 +15339,7 @@
       {
         "size": "41",
         "cm": "26.0",
-        "available": true
+        "available": false
       },
       {
         "size": "42",
@@ -18127,7 +18124,6 @@
     "material": "Кожа , Текстиль",
     "country": "В'єтнам",
     "sizes": [
-      "40",
       "42",
       "43",
       "44",
@@ -18157,7 +18153,7 @@
       {
         "size": "40",
         "cm": "25.0",
-        "available": true
+        "available": false
       },
       {
         "size": "41",
@@ -28463,97 +28459,6 @@
     }
   },
   {
-    "id": "253857",
-    "slug": "nike-v2k-khutro-ntr812",
-    "name": "Nike V2K ХУТРО",
-    "brand": "Nike",
-    "brandSlug": "nike",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 2900,
-    "oldPrice": 4833,
-    "costPrice": 2400,
-    "sku": "NTR812",
-    "material": "Шкіра, вологостійкий текстиль, термоутеплювач, гума, піна, прошиті",
-    "country": "В'єтнам",
-    "sizes": [
-      "43",
-      "44",
-      "45"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": true
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": true
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": true
-      },
-      {
-        "size": "46",
-        "cm": "30.0",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/9b650a62-4c48-4666-ae3c-4f90873ea004.jpg"
-    ],
-    "description": "Модель: Nike V2K ХУТРО. Артикул: NTR812. Матеріал: Шкіра, вологостійкий текстиль, термоутеплювач, гума, піна, прошиті. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Nike V2K ХУТРО (арт. NTR812) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Nike V2K ХУТРО (арт. NTR812) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "253856",
     "slug": "alo-yoga-runner-beige-2749",
     "name": "Alo Yoga Runner Beige",
@@ -38687,7 +38592,6 @@
     "sizes": [
       "37",
       "38",
-      "41",
       "42",
       "43",
       "44",
@@ -38722,7 +38626,7 @@
       {
         "size": "41",
         "cm": "26.0",
-        "available": true
+        "available": false
       },
       {
         "size": "42",
@@ -43855,7 +43759,6 @@
     "country": "В'єтнам",
     "sizes": [
       "41",
-      "43",
       "44",
       "45",
       "46"
@@ -43899,7 +43802,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": true
+        "available": false
       },
       {
         "size": "44",
@@ -87591,7 +87494,6 @@
     "sizes": [
       "36",
       "37",
-      "40",
       "41",
       "42",
       "43",
@@ -87621,7 +87523,7 @@
       {
         "size": "40",
         "cm": "25.5",
-        "available": true
+        "available": false
       },
       {
         "size": "41",
@@ -100333,7 +100235,6 @@
     "sizes": [
       "37",
       "38",
-      "39",
       "40",
       "41"
     ],
@@ -100356,7 +100257,7 @@
       {
         "size": "39",
         "cm": "24.5",
-        "available": true
+        "available": false
       },
       {
         "size": "40",
@@ -108565,7 +108466,6 @@
       "40",
       "41",
       "42",
-      "43",
       "44",
       "45"
     ],
@@ -108608,7 +108508,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": true
+        "available": false
       },
       {
         "size": "44",
@@ -116000,97 +115900,6 @@
     "seo": {
       "title": "New Balance 9060 Dirty Grey (арт. NB114) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте New Balance 9060 Dirty Grey (арт. NB114) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "213811",
-    "slug": "new-balance-574-classic-black-white-nb113",
-    "name": "New Balance 574 Classic Black/White",
-    "brand": "New Balance",
-    "brandSlug": "newbalance",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "unisex",
-    "genderName": "Унісекс",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 2450,
-    "oldPrice": 4083,
-    "costPrice": 1950,
-    "sku": "NB113",
-    "material": "Замша",
-    "country": "В'єтнам",
-    "sizes": [
-      "36",
-      "38",
-      "42"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": true
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": true
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": true
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "30.0",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/969e26b5-ae5e-4c52-848f-a217926fe60e.jpg"
-    ],
-    "description": "Модель: New Balance 574 Classic Black/White. Артикул: NB113. Матеріал: Замша. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "New Balance 574 Classic Black/White (арт. NB113) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте New Balance 574 Classic Black/White (арт. NB113) за 2450 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -133016,7 +132825,6 @@
     "material": "Кожа , замша",
     "country": "В'єтнам",
     "sizes": [
-      "40",
       "41",
       "42",
       "43",
@@ -133047,7 +132855,7 @@
       {
         "size": "40",
         "cm": "25.0",
-        "available": true
+        "available": false
       },
       {
         "size": "41",
@@ -184766,97 +184574,6 @@
     }
   },
   {
-    "id": "160061",
-    "slug": "nike-air-more-uptempo-white-pink-rush-fuchsia-fn6976-100-1585",
-    "name": "Nike Air More Uptempo White Pink Rush Fuchsia FN6976-100",
-    "brand": "Nike",
-    "brandSlug": "nike",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 2600,
-    "oldPrice": 4333,
-    "costPrice": 2100,
-    "sku": "1585",
-    "material": "Шкіра",
-    "country": "В'єтнам",
-    "sizes": [
-      "37",
-      "38",
-      "40"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "23.0",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": true
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": true
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.0",
-        "available": true
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/8b86c104-ecda-4b16-9a25-2f86135e0872.jpeg"
-    ],
-    "description": "Модель: Nike Air More Uptempo White Pink Rush Fuchsia FN6976-100. Артикул: 1585. Матеріал: Шкіра. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Nike Air More Uptempo White Pink Rush Fuchsia FN6976-100 (арт. 1585) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Nike Air More Uptempo White Pink Rush Fuchsia FN6976-100 (арт. 1585) за 2600 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "160060",
     "slug": "nike-air-more-uptempo-96-beige-dv7230-100-1584",
     "name": "Nike Air More Uptempo 96 Beige DV7230-100",
@@ -201765,8 +201482,7 @@
       "38",
       "39",
       "40",
-      "44",
-      "45"
+      "44"
     ],
     "sizeChart": [
       {
@@ -201817,7 +201533,7 @@
       {
         "size": "45",
         "cm": "29.0",
-        "available": true
+        "available": false
       },
       {
         "size": "46",
@@ -204635,97 +204351,6 @@
     }
   },
   {
-    "id": "137920",
-    "slug": "salomon-xt-6-gore-tex-black-silver-1973",
-    "name": "Salomon Xt-6 Gore-Tex Black Silver",
-    "brand": "Salomon",
-    "brandSlug": "salomon",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 1990,
-    "oldPrice": 3317,
-    "costPrice": 1490,
-    "sku": "1973",
-    "material": "Текстиль , Прорезиненные вставки",
-    "country": "В'єтнам",
-    "sizes": [
-      "41",
-      "44",
-      "45"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.0",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.0",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": true
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": true
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/63c2d2ce-bcaa-4e7a-b278-672c7ea6c80a.jpeg"
-    ],
-    "description": "Модель: Salomon Xt-6 Gore-Tex Black Silver. Артикул: 1973. Матеріал: Текстиль , Прорезиненные вставки. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Salomon Xt-6 Gore-Tex Black Silver (арт. 1973) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Salomon Xt-6 Gore-Tex Black Silver (арт. 1973) за 1990 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "137911",
     "slug": "new-balance-740-gore-tex-black-grey-1969",
     "name": "New Balance 740 Gore-tex Black Grey",
@@ -205643,97 +205268,6 @@
     "seo": {
       "title": "Dolce & Gabbana Space White Premium (арт. 1470) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Dolce & Gabbana Space White Premium (арт. 1470) за 6000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "132669",
-    "slug": "ugg-mini-dipper-platform-chestnut-premium-1069",
-    "name": "UGG MINI DIPPER PLATFORM CHESTNUT premium",
-    "brand": "UGG",
-    "brandSlug": "ugg",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 2899,
-    "oldPrice": 4832,
-    "costPrice": 2399,
-    "sku": "1069",
-    "material": "Натуральна замша, натуральне хутро",
-    "country": "Китай",
-    "sizes": [
-      "39",
-      "40",
-      "41"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "23.0",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": true
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": true
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/791902b2-05b1-4a7e-a64d-16fc5c0857bf.jpeg"
-    ],
-    "description": "Модель: UGG MINI DIPPER PLATFORM CHESTNUT premium. Артикул: 1069. Матеріал: Натуральна замша, натуральне хутро. Сезон: Зима. Виробництво: Китай. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "UGG MINI DIPPER PLATFORM CHESTNUT premium (арт. 1069) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте UGG MINI DIPPER PLATFORM CHESTNUT premium (арт. 1069) за 2899 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -244171,8 +243705,7 @@
       "36",
       "38",
       "39",
-      "40",
-      "41"
+      "40"
     ],
     "sizeChart": [
       {
@@ -244203,7 +243736,7 @@
       {
         "size": "41",
         "cm": "26.0",
-        "available": true
+        "available": false
       },
       {
         "size": "42",
