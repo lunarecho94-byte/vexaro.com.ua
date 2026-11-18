@@ -60,6 +60,60 @@ button, a {
   }
 }
 
+/* Foot size range slider */
+.foot-size-slider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 10px;
+  border-radius: 9999px;
+  outline: none;
+  cursor: pointer;
+  background: #e8e2d9;
+}
+
+.foot-size-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: #241c15;
+  border: 4px solid #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  cursor: grab;
+  transition: transform 0.15s ease;
+}
+
+.foot-size-slider::-webkit-slider-thumb:active {
+  cursor: grabbing;
+  transform: scale(1.15);
+}
+
+.foot-size-slider::-moz-range-thumb {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: #241c15;
+  border: 4px solid #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  cursor: grab;
+}
+
+.dark .foot-size-slider {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.dark .foot-size-slider::-webkit-slider-thumb {
+  background: #10b981;
+  border: 4px solid #18181b;
+}
+
+.dark .foot-size-slider::-moz-range-thumb {
+  background: #10b981;
+  border: 4px solid #18181b;
+}
+
 @keyframes vexaro-shimmer {
   0% {
     transform: translateX(-150%) skewX(-20deg);

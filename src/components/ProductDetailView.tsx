@@ -8,6 +8,7 @@ import { useCartStore } from '@/lib/cart-store';
 import { ProductGallery } from './ProductGallery';
 import { SizeGuideModal } from './SizeGuideModal';
 import { FavoriteButton } from './FavoriteButton';
+import { FootSizeSlider } from './FootSizeSlider';
 import { ShoppingBag, Ruler, Check, Zap, Truck, ShieldCheck, RefreshCw } from 'lucide-react';
 import { isHitProduct } from '@/lib/product-badges';
 
@@ -232,48 +233,16 @@ export function ProductDetailView({ product }: ProductDetailViewProps) {
           </div>
         )}
 
-        {/* Size Selector Block */}
+        {/* Foot Size Slider & Size Selector Block */}
         <div className="py-5 border-b border-border">
-          <div className="flex items-center justify-between mb-2.5">
-            <label className="text-xs font-bold uppercase tracking-wider text-muted">
-              Виберіть розмір (EU)
-            </label>
-            <button
-              type="button"
-              onClick={() => setIsSizeGuideOpen(true)}
-              className="flex items-center gap-1.5 text-xs text-primary hover:underline font-medium"
-            >
-              <Ruler className="h-3.5 w-3.5" />
-              <span>Таблиця розмірів</span>
-            </button>
-          </div>
-
-          <div className="grid grid-cols-4 sm:grid-cols-6 gap-2">
-            {allSizesList.map((size) => {
-              const isAvailable = currentAvailableSizes.includes(size);
-              const isSelected = selectedSize === size && isAvailable;
-              return (
-                <button
-                  key={size}
-                  type="button"
-                  disabled={!isAvailable}
-                  onClick={() => {
-                    if (isAvailable) setSelectedSize(size);
-                  }}
-                  className={`flex h-12 flex-col items-center justify-center rounded-xl border text-sm font-bold transition-all ${
-                    !isAvailable
-                      ? 'border-border/50 bg-surface/40 text-muted/40 cursor-not-allowed line-through'
-                      : isSelected
-                      ? 'border-primary bg-primary text-white ring-2 ring-primary/30 shadow-sm'
-                      : 'border-border bg-surface text-foreground hover:border-primary/50'
-                  }`}
-                  aria-label={`Розмір ${size} ${!isAvailable ? '(немає в наявності)' : ''}`}
-                >
-                  <span>{size}</span>
-                </button>
-              );
-            })}
-          </div>
+          <FootSizeSlider
+            sizeChart={selectedVariation?.sizeChart || product.sizeChart}
+            allSizes={allSizesList}
+            availableSizes={currentAvailableSizes}
+            selectedSize={selectedSize}
+            onSelectSize={(size) => setSelectedSize(size)}
+            onOpenSizeGuideModal={() => setIsSizeGuideOpen(true)}
+          />
 
           {!currentAvailableSizes.includes(selectedSize) && currentAvailableSizes.length > 0 && (
             <p className="mt-2 text-xs text-amber-500 font-medium">
