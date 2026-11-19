@@ -1,5 +1,5 @@
 {
-  "total": 2881,
+  "total": 2891,
   "brands": [
     {
       "name": "Nike",
@@ -9,17 +9,17 @@
     {
       "name": "New Balance",
       "slug": "newbalance",
-      "count": 637
+      "count": 640
     },
     {
       "name": "Adidas",
       "slug": "adidas",
-      "count": 288
+      "count": 290
     },
     {
       "name": "Asics",
       "slug": "asics",
-      "count": 153
+      "count": 152
     },
     {
       "name": "UGG",
@@ -29,7 +29,7 @@
     {
       "name": "Інші бренди",
       "slug": "other",
-      "count": 125
+      "count": 123
     },
     {
       "name": "Air Jordan",
@@ -44,12 +44,12 @@
     {
       "name": "On Cloud",
       "slug": "oncloud",
-      "count": 55
+      "count": 56
     },
     {
       "name": "Salomon",
       "slug": "salomon",
-      "count": 47
+      "count": 49
     },
     {
       "name": "Off-White",
@@ -97,14 +97,14 @@
       "count": 12
     },
     {
+      "name": "Converse",
+      "slug": "converse",
+      "count": 11
+    },
+    {
       "name": "The North Face",
       "slug": "tnf",
       "count": 9
-    },
-    {
-      "name": "Converse",
-      "slug": "converse",
-      "count": 8
     },
     {
       "name": "Miu Miu",
@@ -127,6 +127,11 @@
       "count": 5
     },
     {
+      "name": "Prada",
+      "slug": "prada",
+      "count": 5
+    },
+    {
       "name": "Lacoste",
       "slug": "lacoste",
       "count": 5
@@ -139,11 +144,6 @@
     {
       "name": "Alexander McQueen",
       "slug": "mcqueen",
-      "count": 3
-    },
-    {
-      "name": "Prada",
-      "slug": "prada",
       "count": 3
     },
     {
@@ -176,14 +176,14 @@
     {
       "name": "Взуття",
       "slug": "shoes",
-      "count": 2881
+      "count": 2891
     }
   ],
   "genders": [
     {
       "name": "Жіночі",
       "slug": "women",
-      "count": 1329
+      "count": 1340
     },
     {
       "name": "Чоловічі",
@@ -193,19 +193,19 @@
     {
       "name": "Унісекс",
       "slug": "unisex",
-      "count": 590
+      "count": 589
     }
   ],
   "seasons": [
     {
       "name": "Демісезон",
       "slug": "demi",
-      "count": 2570
+      "count": 2582
     },
     {
       "name": "Зима",
       "slug": "winter",
-      "count": 311
+      "count": 309
     }
   ],
   "sizes": [

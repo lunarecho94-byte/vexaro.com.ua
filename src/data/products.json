@@ -6609,7 +6609,6 @@
       "39",
       "40",
       "41",
-      "42",
       "43"
     ],
     "sizeChart": [
@@ -6646,7 +6645,7 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": true
+        "available": false
       },
       {
         "size": "43",
@@ -7266,7 +7265,6 @@
           "37",
           "38",
           "39",
-          "40",
           "41"
         ],
         "sizeChart": [
@@ -7293,7 +7291,7 @@
           {
             "size": "40",
             "cm": "25.5",
-            "available": true
+            "available": false
           },
           {
             "size": "41",
@@ -15945,97 +15943,6 @@
     }
   },
   {
-    "id": "257804",
-    "slug": "fiyi-v2-termo-ntr830",
-    "name": "FIYI V2 (термо)",
-    "brand": "Інші бренди",
-    "brandSlug": "other",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 2900,
-    "oldPrice": 4833,
-    "costPrice": 2400,
-    "sku": "NTR830",
-    "material": "Шкіра, вологостійкий текстиль, термоутеплювач, гума, піна, прошиті",
-    "country": "В'єтнам",
-    "sizes": [
-      "43",
-      "44",
-      "46"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": true
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": true
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "30.0",
-        "available": true
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/80961a98-c790-4e0c-98a4-3c098bdf641e.jpg"
-    ],
-    "description": "Модель: FIYI V2 (термо). Артикул: NTR830. Матеріал: Шкіра, вологостійкий текстиль, термоутеплювач, гума, піна, прошиті. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "FIYI V2 (термо) (арт. NTR830) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте FIYI V2 (термо) (арт. NTR830) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "257743",
     "slug": "adidas-superstar-plat-black-white-3070",
     "name": "Adidas Superstar Plat Black White",
@@ -18691,7 +18598,6 @@
     "material": "Текстиль / комбінований",
     "country": "-",
     "sizes": [
-      "41",
       "42",
       "43",
       "44",
@@ -18726,7 +18632,7 @@
       {
         "size": "41",
         "cm": "26.0",
-        "available": true
+        "available": false
       },
       {
         "size": "42",
@@ -28582,7 +28488,6 @@
       "40",
       "41",
       "42",
-      "43",
       "44",
       "45"
     ],
@@ -28625,7 +28530,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": true
+        "available": false
       },
       {
         "size": "44",
@@ -32723,7 +32628,6 @@
     "country": "В'єтнам",
     "sizes": [
       "41",
-      "43",
       "44",
       "45"
     ],
@@ -32766,7 +32670,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": true
+        "available": false
       },
       {
         "size": "44",
@@ -32816,8 +32720,7 @@
     "sizes": [
       "41",
       "43",
-      "44",
-      "45"
+      "44"
     ],
     "sizeChart": [
       {
@@ -32868,7 +32771,7 @@
       {
         "size": "45",
         "cm": "29.0",
-        "available": true
+        "available": false
       },
       {
         "size": "46",
@@ -53252,7 +53155,6 @@
       "37",
       "39",
       "40",
-      "41",
       "44",
       "45"
     ],
@@ -53285,7 +53187,7 @@
       {
         "size": "41",
         "cm": "26.0",
-        "available": true
+        "available": false
       },
       {
         "size": "42",
@@ -60193,7 +60095,6 @@
       "38",
       "39",
       "40",
-      "41",
       "42",
       "44",
       "45"
@@ -60227,7 +60128,7 @@
       {
         "size": "41",
         "cm": "26.0",
-        "available": true
+        "available": false
       },
       {
         "size": "42",
@@ -62871,97 +62772,6 @@
     "seo": {
       "title": "Asics Gel NYC Black Gore-Tex (арт. 3002) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Asics Gel NYC Black Gore-Tex (арт. 3002) за 2800 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "243481",
-    "slug": "salomon-speed-cross-pro-gore-tex-thinsulate-grey-black-2995",
-    "name": "Salomon Speed Cross Pro Gore-Tex Thinsulate Grey Black",
-    "brand": "Salomon",
-    "brandSlug": "salomon",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 2900,
-    "oldPrice": 4833,
-    "costPrice": 2400,
-    "sku": "2995",
-    "material": "Кожа , Текстиль",
-    "country": "В'єтнам",
-    "sizes": [
-      "41",
-      "42",
-      "44"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.0",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.0",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": true
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": true
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/cfba774c-9436-4352-ac85-4770532c0330.jpeg"
-    ],
-    "description": "Модель: Salomon Speed Cross Pro Gore-Tex Thinsulate Grey Black. Артикул: 2995. Матеріал: Кожа , Текстиль. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Salomon Speed Cross Pro Gore-Tex Thinsulate Grey Black (арт. 2995) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Salomon Speed Cross Pro Gore-Tex Thinsulate Grey Black (арт. 2995) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -86472,6 +86282,100 @@
     }
   },
   {
+    "id": "229767",
+    "slug": "adidas-vento-xlg-runner-deluxe-cloud-white-ih7795-1992",
+    "name": "Adidas Vento XLG Runner Deluxe Cloud White IH7795",
+    "brand": "Adidas",
+    "brandSlug": "adidas",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 3500,
+    "oldPrice": 5833,
+    "costPrice": 3000,
+    "sku": "1992",
+    "material": "Шкіра, текстиль",
+    "country": "В'єтнам",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": true
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": true
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "24.5",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.0",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "25.5",
+        "available": true
+      },
+      {
+        "size": "42",
+        "cm": "26.0",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "28.5",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/1cde5026-d7a1-4fd0-af3d-f51bd9ec6875.jpeg"
+    ],
+    "description": "Модель: Adidas Vento XLG Runner Deluxe Cloud White IH7795. Артикул: 1992. Матеріал: Шкіра, текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Adidas Vento XLG Runner Deluxe Cloud White IH7795 (арт. 1992) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Adidas Vento XLG Runner Deluxe Cloud White IH7795 (арт. 1992) за 3500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
     "id": "229765",
     "slug": "dc-court-graffik-black-pink-300525-1991",
     "name": "DC Court Graffik Black Pink 300525",
@@ -88441,6 +88345,100 @@
     }
   },
   {
+    "id": "228722",
+    "slug": "loewe-x-on-cloudtilt-2-0-clove-sand-1983",
+    "name": "Loewe x ON Cloudtilt 2.0 Clove Sand",
+    "brand": "On Cloud",
+    "brandSlug": "oncloud",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 3000,
+    "oldPrice": 5000,
+    "costPrice": 2500,
+    "sku": "1983",
+    "material": "Текстиль",
+    "country": "В'єтнам",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": true
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": true
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "28.5",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/7e776728-f8c6-48da-bd3b-67edf746c867.jpeg"
+    ],
+    "description": "Модель: Loewe x ON Cloudtilt 2.0 Clove Sand. Артикул: 1983. Матеріал: Текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Loewe x ON Cloudtilt 2.0 Clove Sand (арт. 1983) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Loewe x ON Cloudtilt 2.0 Clove Sand (арт. 1983) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
     "id": "228716",
     "slug": "loewe-x-on-cloudtilt-2-0-clove-sand-1982",
     "name": "Loewe x ON Cloudtilt 2.0 Clove Sand",
@@ -88544,18 +88542,22 @@
     "genderName": "Унісекс",
     "season": "demi",
     "seasonName": "Демісезон",
-    "price": 3000,
-    "oldPrice": 5000,
-    "costPrice": 2500,
+    "price": 3100,
+    "oldPrice": 5167,
+    "costPrice": 2600,
     "sku": "1981",
     "material": "Текстиль",
     "country": "В'єтнам",
     "sizes": [
       "36",
       "37",
+      "38",
+      "39",
+      "40",
       "41",
       "42",
       "43",
+      "44",
       "45"
     ],
     "sizeChart": [
@@ -88572,17 +88574,17 @@
       {
         "size": "38",
         "cm": "24.0",
-        "available": false
+        "available": true
       },
       {
         "size": "39",
         "cm": "25.0",
-        "available": false
+        "available": true
       },
       {
         "size": "40",
         "cm": "25.5",
-        "available": false
+        "available": true
       },
       {
         "size": "41",
@@ -88602,7 +88604,7 @@
       {
         "size": "44",
         "cm": "28.0",
-        "available": false
+        "available": true
       },
       {
         "size": "45",
@@ -88623,7 +88625,7 @@
     "description": "Модель: Loewe x ON Cloudtilt 2.0 White Black. Артикул: 1981. Матеріал: Текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
     "seo": {
       "title": "Loewe x ON Cloudtilt 2.0 White Black (арт. 1981) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Loewe x ON Cloudtilt 2.0 White Black (арт. 1981) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+      "description": "Замовляйте Loewe x ON Cloudtilt 2.0 White Black (арт. 1981) за 3100 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -91533,6 +91535,194 @@
     "seo": {
       "title": "Loewe x ON Cloudtilt 2.0 White Pink (арт. 1971) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Loewe x ON Cloudtilt 2.0 White Pink (арт. 1971) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "227753",
+    "slug": "converse-chuck-taylor-70-hi-burgundy-1970",
+    "name": "Converse Chuck Taylor 70 Hi Burgundy",
+    "brand": "Converse",
+    "brandSlug": "converse",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 2900,
+    "oldPrice": 4833,
+    "costPrice": 2400,
+    "sku": "1970",
+    "material": "Текстиль",
+    "country": "В'єтнам",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": true
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": true
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "28.5",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/82511ecc-8def-4382-a87f-bfc048a38a3a.jpeg"
+    ],
+    "description": "Модель: Converse Chuck Taylor 70 Hi Burgundy. Артикул: 1970. Матеріал: Текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Converse Chuck Taylor 70 Hi Burgundy (арт. 1970) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Converse Chuck Taylor 70 Hi Burgundy (арт. 1970) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "227748",
+    "slug": "converse-chuck-taylor-70-hi-brown-1969",
+    "name": "Converse Chuck Taylor 70 Hi Brown",
+    "brand": "Converse",
+    "brandSlug": "converse",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 2900,
+    "oldPrice": 4833,
+    "costPrice": 2400,
+    "sku": "1969",
+    "material": "Текстиль",
+    "country": "В'єтнам",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": true
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": true
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "28.5",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/3ae60aa9-2c88-42b9-9756-cdc536d8dfbf.jpeg"
+    ],
+    "description": "Модель: Converse Chuck Taylor 70 Hi Brown. Артикул: 1969. Матеріал: Текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Converse Chuck Taylor 70 Hi Brown (арт. 1969) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Converse Chuck Taylor 70 Hi Brown (арт. 1969) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -109624,7 +109814,6 @@
     "sizes": [
       "40",
       "41",
-      "42",
       "44",
       "45"
     ],
@@ -109662,7 +109851,7 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": true
+        "available": false
       },
       {
         "size": "43",
@@ -120713,7 +120902,8 @@
     "sizes": [
       "40",
       "41",
-      "43"
+      "43",
+      "44"
     ],
     "sizeChart": [
       {
@@ -120759,7 +120949,7 @@
       {
         "size": "44",
         "cm": "28.0",
-        "available": false
+        "available": true
       },
       {
         "size": "45",
@@ -137269,7 +137459,6 @@
     "sizes": [
       "40",
       "41",
-      "42",
       "43",
       "44",
       "45"
@@ -137308,7 +137497,7 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": true
+        "available": false
       },
       {
         "size": "43",
@@ -139524,97 +139713,6 @@
     "seo": {
       "title": "Nike V5 RNR Premium (арт. N00241) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Nike V5 RNR Premium (арт. N00241) за 2700 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "200584",
-    "slug": "nike-v5-rnr-premium-n00262",
-    "name": "Nike V5 RNR Premium",
-    "brand": "Nike",
-    "brandSlug": "nike",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "unisex",
-    "genderName": "Унісекс",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 2450,
-    "oldPrice": 4083,
-    "costPrice": 1950,
-    "sku": "N00262",
-    "material": "Текстиль / комбінований",
-    "country": "-",
-    "sizes": [
-      "36",
-      "42",
-      "45"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "23.0",
-        "available": true
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": true
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": true
-      },
-      {
-        "size": "46",
-        "cm": "30.0",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/ea801d94-f680-4e5b-a152-ff10e378310f.jpeg"
-    ],
-    "description": "Модель: Nike V5 RNR Premium. Артикул: N00262. Матеріал: Текстиль / комбінований. Сезон: Демісезон. Виробництво: -. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Nike V5 RNR Premium (арт. N00262) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Nike V5 RNR Premium (арт. N00262) за 2450 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -152680,6 +152778,100 @@
     }
   },
   {
+    "id": "192051",
+    "slug": "adidas-edge-runner-white-pink-ji2034-1807",
+    "name": "Adidas Edge Runner White Pink JI2034",
+    "brand": "Adidas",
+    "brandSlug": "adidas",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 3300,
+    "oldPrice": 5500,
+    "costPrice": 2800,
+    "sku": "1807",
+    "material": "Текстиль",
+    "country": "В'єтнам",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": true
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": true
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "24.5",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.0",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "25.5",
+        "available": true
+      },
+      {
+        "size": "42",
+        "cm": "26.0",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "28.5",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/d6381fca-79bf-4744-a3bc-e6959456c528.jpeg"
+    ],
+    "description": "Модель: Adidas Edge Runner White Pink JI2034. Артикул: 1807. Матеріал: Текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Adidas Edge Runner White Pink JI2034 (арт. 1807) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Adidas Edge Runner White Pink JI2034 (арт. 1807) за 3300 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
     "id": "191768",
     "slug": "nike-p-6000-flat-pewter-gore-tex-2303",
     "name": "Nike P-6000 Flat Pewter Gore-Tex",
@@ -162873,97 +163065,6 @@
     "seo": {
       "title": "NIKE SB DUNK “WORLD CHAMP” (4 (арт. 1340) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте NIKE SB DUNK “WORLD CHAMP” (4 (арт. 1340) за 2800 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "184146",
-    "slug": "asics-gel-white-pink-premium-os0094",
-    "name": "Asics Gel White Pink Premium",
-    "brand": "Asics",
-    "brandSlug": "asics",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 2200,
-    "oldPrice": 3667,
-    "costPrice": 1700,
-    "sku": "Os0094",
-    "material": "Текстиль",
-    "country": "-",
-    "sizes": [
-      "36",
-      "38",
-      "40"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": true
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": true
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": true
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.0",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/03745683-3bbd-4596-b2c8-77cc8150ef98.jpeg"
-    ],
-    "description": "Модель: Asics Gel White Pink Premium. Артикул: Os0094. Матеріал: Текстиль. Сезон: Демісезон. Виробництво: -. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Asics Gel White Pink Premium (арт. Os0094) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Asics Gel White Pink Premium (арт. Os0094) за 2200 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -187337,6 +187438,99 @@
     }
   },
   {
+    "id": "159189",
+    "slug": "new-balance-574-platform-grey-wl574zba-1576",
+    "name": "New Balance 574 Platform Grey WL574ZBA",
+    "brand": "New Balance",
+    "brandSlug": "newbalance",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 3300,
+    "oldPrice": 5500,
+    "costPrice": 2800,
+    "sku": "1576",
+    "material": "Замша, текстиль",
+    "country": "В'єтнам",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": true
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": true
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "24.5",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.0",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "25.5",
+        "available": false
+      },
+      {
+        "size": "42",
+        "cm": "26.0",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "28.5",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/ee55ff33-e61f-42ee-8d14-6c202d0ff407.jpeg"
+    ],
+    "description": "Модель: New Balance 574 Platform Grey WL574ZBA. Артикул: 1576. Матеріал: Замша, текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "New Balance 574 Platform Grey WL574ZBA (арт. 1576) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте New Balance 574 Platform Grey WL574ZBA (арт. 1576) за 3300 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
     "id": "159185",
     "slug": "dior-b23-white-grey-platform-premium-1575",
     "name": "Dior B23 White Grey Platform Premium",
@@ -195170,6 +195364,98 @@
     }
   },
   {
+    "id": "153651",
+    "slug": "salomon-xt-6-dark-sapphire-l471366-1527",
+    "name": "Salomon XT-6 Dark Sapphire L471366",
+    "brand": "Salomon",
+    "brandSlug": "salomon",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 3200,
+    "oldPrice": 5333,
+    "costPrice": 2700,
+    "sku": "1527",
+    "material": "Текстиль",
+    "country": "В'єтнам",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.0",
+        "available": true
+      },
+      {
+        "size": "37",
+        "cm": "23.0",
+        "available": true
+      },
+      {
+        "size": "38",
+        "cm": "23.5",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "24.5",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.0",
+        "available": false
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": false
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "28.5",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": true,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/c02c284b-a222-45a5-97d4-833cc9275390.jpeg"
+    ],
+    "description": "Модель: Salomon XT-6 Dark Sapphire L471366. Артикул: 1527. Матеріал: Текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Salomon XT-6 Dark Sapphire L471366 (арт. 1527) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Salomon XT-6 Dark Sapphire L471366 (арт. 1527) за 3200 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
     "id": "153629",
     "slug": "nike-tn-ntr516",
     "name": "Nike TN",
@@ -195750,7 +196036,6 @@
     "sizes": [
       "36",
       "38",
-      "39",
       "41",
       "42",
       "44"
@@ -195774,7 +196059,7 @@
       {
         "size": "39",
         "cm": "24.5",
-        "available": true
+        "available": false
       },
       {
         "size": "40",
@@ -200316,6 +200601,100 @@
     }
   },
   {
+    "id": "149659",
+    "slug": "converse-chuck-taylor-70-hi-black-1504",
+    "name": "Converse Chuck Taylor 70 Hi Black",
+    "brand": "Converse",
+    "brandSlug": "converse",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 2900,
+    "oldPrice": 4833,
+    "costPrice": 2400,
+    "sku": "1504",
+    "material": "Текстиль",
+    "country": "В'єтнам",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": true
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": true
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "28.5",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/c13cdccf-ebe0-45fd-b395-030ffc5d3b90.jpeg"
+    ],
+    "description": "Модель: Converse Chuck Taylor 70 Hi Black. Артикул: 1504. Матеріал: Текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Converse Chuck Taylor 70 Hi Black (арт. 1504) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Converse Chuck Taylor 70 Hi Black (арт. 1504) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
     "id": "149649",
     "slug": "balenciaga-triple-s-black-white-red-533882-1507",
     "name": "Balenciaga Triple S Black White Red 533882",
@@ -203236,7 +203615,6 @@
     "country": "В'єтнам",
     "sizes": [
       "36",
-      "38",
       "40",
       "41",
       "42",
@@ -203257,7 +203635,7 @@
       {
         "size": "38",
         "cm": "24.0",
-        "available": true
+        "available": false
       },
       {
         "size": "39",
@@ -205935,8 +206313,7 @@
       "41",
       "42",
       "43",
-      "44",
-      "45"
+      "44"
     ],
     "sizeChart": [
       {
@@ -205987,7 +206364,7 @@
       {
         "size": "45",
         "cm": "29.0",
-        "available": true
+        "available": false
       },
       {
         "size": "46",
@@ -216857,7 +217234,6 @@
     "sizes": [
       "36",
       "37",
-      "39",
       "40",
       "41",
       "42",
@@ -216884,7 +217260,7 @@
       {
         "size": "39",
         "cm": "24.5",
-        "available": true
+        "available": false
       },
       {
         "size": "40",
@@ -221686,6 +222062,99 @@
     "seo": {
       "title": "New Balance x Joe Freshgoods 990v4 (арт. NB0092) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте New Balance x Joe Freshgoods 990v4 (арт. NB0092) за 2400 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "112670",
+    "slug": "new-balance-574-platform-black-wl574zab-1379",
+    "name": "New Balance 574+ Platform Black WL574ZAB",
+    "brand": "New Balance",
+    "brandSlug": "newbalance",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 3300,
+    "oldPrice": 5500,
+    "costPrice": 2800,
+    "sku": "1379",
+    "material": "Замша, текстиль",
+    "country": "В'єтнам",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": true
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": true
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "24.5",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.0",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "25.5",
+        "available": false
+      },
+      {
+        "size": "42",
+        "cm": "26.0",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "28.5",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/39bd05e8-7471-47b2-a007-f7d053f6d4df.jpeg"
+    ],
+    "description": "Модель: New Balance 574+ Platform Black WL574ZAB. Артикул: 1379. Матеріал: Замша, текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "New Balance 574+ Platform Black WL574ZAB (арт. 1379) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте New Balance 574+ Platform Black WL574ZAB (арт. 1379) за 3300 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -226808,6 +227277,101 @@
     }
   },
   {
+    "id": "107551",
+    "slug": "new-balance-327-beige-u327wva-1323",
+    "name": "New Balance 327 Beige U327WVA",
+    "brand": "New Balance",
+    "brandSlug": "newbalance",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 2900,
+    "oldPrice": 4833,
+    "costPrice": 2400,
+    "sku": "1323",
+    "material": "Замша, текстиль",
+    "country": "Китай",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": true
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": true
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "24.5",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.0",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "25.5",
+        "available": true
+      },
+      {
+        "size": "42",
+        "cm": "26.0",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "28.5",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/362dab99-d9bd-445b-82d1-56349fb74066.jpeg",
+      "https://easydrop.one/media/uploads/images/base/49349305-0895-4041-98d5-1af0e04fe504.jpeg"
+    ],
+    "description": "Модель: New Balance 327 Beige U327WVA. Артикул: 1323. Матеріал: Замша, текстиль. Сезон: Демісезон. Виробництво: Китай. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "New Balance 327 Beige U327WVA (арт. 1323) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте New Balance 327 Beige U327WVA (арт. 1323) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
     "id": "107550",
     "slug": "asics-srortstyle-gel-nyc-beige-1201a789-103-1322",
     "name": "ASICS Srortstyle GEL-NYC Beige 1201A789-103",
@@ -230527,6 +231091,100 @@
     }
   },
   {
+    "id": "103621",
+    "slug": "salomon-xt-6-adv-white-lunar-rock-412529-1267",
+    "name": "Salomon XT-6 ADV White Lunar Rock 412529",
+    "brand": "Salomon",
+    "brandSlug": "salomon",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 3200,
+    "oldPrice": 5333,
+    "costPrice": 2700,
+    "sku": "1267",
+    "material": "Текстиль",
+    "country": "В'єтнам",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.0",
+        "available": true
+      },
+      {
+        "size": "37",
+        "cm": "23.0",
+        "available": true
+      },
+      {
+        "size": "38",
+        "cm": "23.5",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "24.5",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.0",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": false
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "28.5",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": true,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/171bbf82-8243-4d8d-91d0-de1ea1ed4b39.jpeg",
+      "https://easydrop.one/media/uploads/images/base/7710a606-3ec5-404d-a6cc-54910d00fe8f.jpeg"
+    ],
+    "description": "Модель: Salomon XT-6 ADV White Lunar Rock 412529. Артикул: 1267. Матеріал: Текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Salomon XT-6 ADV White Lunar Rock 412529 (арт. 1267) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Salomon XT-6 ADV White Lunar Rock 412529 (арт. 1267) за 3200 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
     "id": "103328",
     "slug": "adidas-superstar-black-platform-as056",
     "name": "Adidas Superstar Black Platform",
@@ -230993,6 +231651,100 @@
     "seo": {
       "title": "Nike Dunk Low Next Nature GS 'Homer' DX3382-400 (арт. 1254) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Nike Dunk Low Next Nature GS 'Homer' DX3382-400 (арт. 1254) за 1900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "101312",
+    "slug": "salomon-xt-6-recut-monument-phantom-l47305700-1240",
+    "name": "Salomon XT-6 Recut 'Monument Phantom' L47305700",
+    "brand": "Salomon",
+    "brandSlug": "salomon",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "men",
+    "genderName": "Чоловічі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 3200,
+    "oldPrice": 5333,
+    "costPrice": 2700,
+    "sku": "1240",
+    "material": "Текстиль",
+    "country": "В'єтнам",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.0",
+        "available": true
+      },
+      {
+        "size": "37",
+        "cm": "23.0",
+        "available": true
+      },
+      {
+        "size": "38",
+        "cm": "23.5",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "24.5",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.0",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": false
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "28.5",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": true,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/3ab633af-e8e8-4fdf-bc49-518776984fda.jpeg",
+      "https://easydrop.one/media/uploads/images/base/4ad1e087-3277-477e-b8d0-f1e66a7c8810.jpeg"
+    ],
+    "description": "Модель: Salomon XT-6 Recut 'Monument Phantom' L47305700. Артикул: 1240. Матеріал: Текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Salomon XT-6 Recut 'Monument Phantom' L47305700 (арт. 1240) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Salomon XT-6 Recut 'Monument Phantom' L47305700 (арт. 1240) за 3200 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -249222,6 +249974,97 @@
     }
   },
   {
+    "id": "63728",
+    "slug": "prada-white-beige-pr0011",
+    "name": "Prada White/Beige",
+    "brand": "Prada",
+    "brandSlug": "prada",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 2000,
+    "oldPrice": 3333,
+    "costPrice": 1500,
+    "sku": "PR0011",
+    "material": "Замша, текстиль",
+    "country": "-",
+    "sizes": [
+      "38",
+      "39",
+      "40"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "23.0",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": false
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "28.5",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/6d59c0c4-f43b-4587-bbd4-2953e1004b37.jpeg"
+    ],
+    "description": "Модель: Prada White/Beige. Артикул: PR0011. Матеріал: Замша, текстиль. Сезон: Демісезон. Виробництво: -. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Prada White/Beige (арт. PR0011) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Prada White/Beige (арт. PR0011) за 2000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
     "id": "63727",
     "slug": "dg-portofino-white-dg0040",
     "name": "DG Portofino White",
@@ -256085,6 +256928,100 @@
     }
   },
   {
+    "id": "43307",
+    "slug": "nike-sb-dunk-low-mummy-0898",
+    "name": "Nike SB Dunk Low Mummy",
+    "brand": "Nike",
+    "brandSlug": "nike",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "men",
+    "genderName": "Чоловічі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 3100,
+    "oldPrice": 5167,
+    "costPrice": 2600,
+    "sku": "0898",
+    "material": "Текстиль",
+    "country": "В'єтнам",
+    "sizes": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": false
+      },
+      {
+        "size": "39",
+        "cm": "24.5",
+        "available": false
+      },
+      {
+        "size": "40",
+        "cm": "25.0",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": true
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": true
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": true
+      },
+      {
+        "size": "45",
+        "cm": "29.0",
+        "available": true
+      },
+      {
+        "size": "46",
+        "cm": "30.0",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/5a323a5b-116c-4746-9aa6-8eb19da7d13b.jpeg"
+    ],
+    "description": "Модель: Nike SB Dunk Low Mummy. Артикул: 0898. Матеріал: Текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Nike SB Dunk Low Mummy (арт. 0898) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Nike SB Dunk Low Mummy (арт. 0898) за 3100 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
     "id": "41969",
     "slug": "nike-shox-tl-triple-black-chervone-loho-0875",
     "name": "Nike Shox TL Triple Black (червоне лого",
@@ -260538,7 +261475,8 @@
     "sizes": [
       "36",
       "37",
-      "38"
+      "38",
+      "40"
     ],
     "sizeChart": [
       {
@@ -260564,7 +261502,7 @@
       {
         "size": "40",
         "cm": "25.5",
-        "available": false
+        "available": true
       },
       {
         "size": "41",
@@ -260978,97 +261916,6 @@
     "seo": {
       "title": "Valentino Garavani White (арт. VL006) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Valentino Garavani White (арт. VL006) за 2100 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "26878",
-    "slug": "valentino-garavani-black-vl005",
-    "name": "Valentino Garavani Black",
-    "brand": "Інші бренди",
-    "brandSlug": "other",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 2000,
-    "oldPrice": 3333,
-    "costPrice": 1500,
-    "sku": "Vl005",
-    "material": "Кожа",
-    "country": "-",
-    "sizes": [
-      "36",
-      "37",
-      "39"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": true
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": true
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": true
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/itemimage/8e38adce-0ba8-499d-b4a4-27ac332c3659.jpeg"
-    ],
-    "description": "Модель: Valentino Garavani Black. Артикул: Vl005. Матеріал: Кожа. Сезон: Демісезон. Виробництво: -. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Valentino Garavani Black (арт. Vl005) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Valentino Garavani Black (арт. Vl005) за 2000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -263738,97 +264585,6 @@
     }
   },
   {
-    "id": "20960",
-    "slug": "versace-trigreca-black-v001",
-    "name": "Versace Trigreca Black",
-    "brand": "Інші бренди",
-    "brandSlug": "other",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 1400,
-    "oldPrice": 2333,
-    "costPrice": 900,
-    "sku": "V001",
-    "material": "Кожа",
-    "country": "-",
-    "sizes": [
-      "36",
-      "37",
-      "38"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": true
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": true
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": true
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/item_19/bd12cf4a-12d0-4e6c-ae41-5395f4a812f1.webp"
-    ],
-    "description": "Модель: Versace Trigreca Black. Артикул: V001. Матеріал: Кожа. Сезон: Демісезон. Виробництво: -. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Versace Trigreca Black (арт. V001) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Versace Trigreca Black (арт. V001) за 1400 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "20768",
     "slug": "beige-mens-b044",
     "name": "Beige mens",
@@ -264494,7 +265250,6 @@
     "material": "Шкіра",
     "country": "-",
     "sizes": [
-      "36",
       "37",
       "38",
       "39"
@@ -264503,7 +265258,7 @@
       {
         "size": "36",
         "cm": "22.5",
-        "available": true
+        "available": false
       },
       {
         "size": "37",
@@ -265575,6 +266330,97 @@
     "seo": {
       "title": "Balenciaga Triple S Pink (арт. Ва0022) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Balenciaga Triple S Pink (арт. Ва0022) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "18863",
+    "slug": "prada-re-nylon-bryshed-beige-pr002",
+    "name": "Prada Re-Nylon Bryshed Beige",
+    "brand": "Prada",
+    "brandSlug": "prada",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 1500,
+    "oldPrice": 2500,
+    "costPrice": 1000,
+    "sku": "PR002",
+    "material": "Шкіра, замша",
+    "country": "-",
+    "sizes": [
+      "37",
+      "39",
+      "40"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "23.0",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": true
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": false
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": false
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "28.5",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/e3c3886a-b895-4277-9d22-d6f6e06c59d4.jpeg"
+    ],
+    "description": "Модель: Prada Re-Nylon Bryshed Beige. Артикул: PR002. Матеріал: Шкіра, замша. Сезон: Демісезон. Виробництво: -. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Prada Re-Nylon Bryshed Beige (арт. PR002) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Prada Re-Nylon Bryshed Beige (арт. PR002) за 1500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -273202,6 +274048,97 @@
     "seo": {
       "title": "Adidas Samba white (арт. A0048) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Adidas Samba white (арт. A0048) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "1570",
+    "slug": "black-reflective-as0043",
+    "name": "black 'reflective'",
+    "brand": "Інші бренди",
+    "brandSlug": "other",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 1700,
+    "oldPrice": 2833,
+    "costPrice": 1200,
+    "sku": "AS0043",
+    "material": "Кожа,текстиль",
+    "country": "В'єтнам",
+    "sizes": [
+      "37",
+      "38",
+      "40"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": true
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "24.5",
+        "available": false
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": false
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "28.5",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.0",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/item_19/1b503706-9c33-4d71-8f5e-8255e50762e0.webp"
+    ],
+    "description": "Модель: black 'reflective'. Артикул: AS0043. Матеріал: Кожа,текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "black 'reflective' (арт. AS0043) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте black 'reflective' (арт. AS0043) за 1700 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
