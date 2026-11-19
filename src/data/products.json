@@ -880,7 +880,6 @@
       "/images/products/ugg-lowmel-sneakers-black-leather-premium-1464/img-1.jpg",
       "/images/products/ugg-lowmel-sneakers-white-pink-premium-1683/img-1.jpg",
       "/images/products/ugg-lowmel-sneakers-olive-grey-premium-1684/img-1.jpg",
-      "/images/products/ugg-lowmel-sneakers-burnt-cedar-premium-1685/img-1.jpg",
       "/images/products/ugg-lowmel-sneakers-pink-premium-1686/img-1.jpg",
       "/images/products/ugg-lowmel-sneakers-leopard-premium-1687/img-1.jpg",
       "/images/products/ugg-lowmel-sneakers-meadow-premium-1712/img-1.jpg",
@@ -1463,85 +1462,6 @@
         ],
         "inStock": true,
         "slug": "ugg-lowmel-sneakers-olive-grey-premium-1684"
-      },
-      {
-        "id": "252316",
-        "sku": "1685",
-        "color": "BURNT CEDAR",
-        "colorSlug": "burnt-cedar",
-        "price": 4700,
-        "oldPrice": 7833,
-        "costPrice": 4200,
-        "sizes": [
-          "37",
-          "39",
-          "41"
-        ],
-        "sizeChart": [
-          {
-            "size": "36",
-            "cm": "23.0",
-            "available": false
-          },
-          {
-            "size": "37",
-            "cm": "23.5",
-            "available": true
-          },
-          {
-            "size": "38",
-            "cm": "24.5",
-            "available": false
-          },
-          {
-            "size": "39",
-            "cm": "25.0",
-            "available": true
-          },
-          {
-            "size": "40",
-            "cm": "25.5",
-            "available": false
-          },
-          {
-            "size": "41",
-            "cm": "26.0",
-            "available": true
-          },
-          {
-            "size": "42",
-            "cm": "26.5",
-            "available": false
-          },
-          {
-            "size": "43",
-            "cm": "27.5",
-            "available": false
-          },
-          {
-            "size": "44",
-            "cm": "28.0",
-            "available": false
-          },
-          {
-            "size": "45",
-            "cm": "28.5",
-            "available": false
-          },
-          {
-            "size": "46",
-            "cm": "29.5",
-            "available": false
-          }
-        ],
-        "images": [
-          "/images/products/ugg-lowmel-sneakers-burnt-cedar-premium-1685/img-1.jpg",
-          "/images/products/ugg-lowmel-sneakers-burnt-cedar-premium-1685/img-2.jpg",
-          "/images/products/ugg-lowmel-sneakers-burnt-cedar-premium-1685/img-3.jpg",
-          "/images/products/ugg-lowmel-sneakers-burnt-cedar-premium-1685/img-4.jpg"
-        ],
-        "inStock": true,
-        "slug": "ugg-lowmel-sneakers-burnt-cedar-premium-1685"
       },
       {
         "id": "252317",
@@ -7183,8 +7103,7 @@
         "sizes": [
           "37",
           "38",
-          "40",
-          "41"
+          "40"
         ],
         "sizeChart": [
           {
@@ -7215,7 +7134,7 @@
           {
             "size": "41",
             "cm": "26.0",
-            "available": true
+            "available": false
           },
           {
             "size": "42",
@@ -27824,8 +27743,7 @@
       "41",
       "43",
       "44",
-      "45",
-      "46"
+      "45"
     ],
     "sizeChart": [
       {
@@ -27881,7 +27799,7 @@
       {
         "size": "46",
         "cm": "30.0",
-        "available": true
+        "available": false
       }
     ],
     "inStock": true,
@@ -191474,8 +191392,7 @@
     "sizes": [
       "41",
       "42",
-      "43",
-      "45"
+      "43"
     ],
     "sizeChart": [
       {
@@ -191526,7 +191443,7 @@
       {
         "size": "45",
         "cm": "29.0",
-        "available": true
+        "available": false
       },
       {
         "size": "46",
