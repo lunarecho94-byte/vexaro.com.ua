@@ -1,5 +1,5 @@
 {
-  "total": 2892,
+  "total": 2893,
   "brands": [
     {
       "name": "Nike",
@@ -77,13 +77,13 @@
       "count": 22
     },
     {
-      "name": "Vans",
-      "slug": "vans",
-      "count": 21
-    },
-    {
       "name": "Premiata",
       "slug": "premiata",
+      "count": 22
+    },
+    {
+      "name": "Vans",
+      "slug": "vans",
       "count": 21
     },
     {
@@ -176,7 +176,7 @@
     {
       "name": "Взуття",
       "slug": "shoes",
-      "count": 2892
+      "count": 2893
     }
   ],
   "genders": [
@@ -188,7 +188,7 @@
     {
       "name": "Чоловічі",
       "slug": "men",
-      "count": 963
+      "count": 964
     },
     {
       "name": "Унісекс",
@@ -205,7 +205,7 @@
     {
       "name": "Зима",
       "slug": "winter",
-      "count": 309
+      "count": 310
     }
   ],
   "sizes": [

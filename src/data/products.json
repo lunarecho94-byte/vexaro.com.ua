@@ -146,10 +146,7 @@
         "costPrice": 2800,
         "sizes": [
           "36",
-          "37",
-          "38",
-          "39",
-          "40"
+          "37"
         ],
         "sizeChart": [
           {
@@ -165,17 +162,17 @@
           {
             "size": "38",
             "cm": "24.0",
-            "available": true
+            "available": false
           },
           {
             "size": "39",
             "cm": "25.0",
-            "available": true
+            "available": false
           },
           {
             "size": "40",
             "cm": "25.5",
-            "available": true
+            "available": false
           },
           {
             "size": "41",
@@ -201,7 +198,6 @@
         "oldPrice": 5500,
         "costPrice": 2800,
         "sizes": [
-          "36",
           "37",
           "38",
           "39",
@@ -211,7 +207,7 @@
           {
             "size": "36",
             "cm": "23.0",
-            "available": true
+            "available": false
           },
           {
             "size": "37",
@@ -275,8 +271,7 @@
       "42",
       "43",
       "44",
-      "45",
-      "46"
+      "45"
     ],
     "sizeChart": [
       {
@@ -312,7 +307,7 @@
       {
         "size": "46",
         "cm": "29.5",
-        "available": true
+        "available": false
       }
     ],
     "inStock": true,
@@ -351,8 +346,7 @@
           "42",
           "43",
           "44",
-          "45",
-          "46"
+          "45"
         ],
         "sizeChart": [
           {
@@ -388,7 +382,7 @@
           {
             "size": "46",
             "cm": "29.5",
-            "available": true
+            "available": false
           }
         ],
         "images": [
@@ -412,8 +406,7 @@
           "42",
           "43",
           "44",
-          "45",
-          "46"
+          "45"
         ],
         "sizeChart": [
           {
@@ -449,7 +442,7 @@
           {
             "size": "46",
             "cm": "29.5",
-            "available": true
+            "available": false
           }
         ],
         "images": [
@@ -472,9 +465,7 @@
           "41",
           "42",
           "43",
-          "44",
-          "45",
-          "46"
+          "44"
         ],
         "sizeChart": [
           {
@@ -505,12 +496,12 @@
           {
             "size": "45",
             "cm": "28.5",
-            "available": true
+            "available": false
           },
           {
             "size": "46",
             "cm": "29.5",
-            "available": true
+            "available": false
           }
         ],
         "images": [
@@ -4410,45 +4401,12 @@
     "material": "Натуральна замша, натуральне хутро",
     "country": "Італія",
     "sizes": [
+      "41",
       "42",
       "43",
-      "44",
-      "45"
+      "44"
     ],
-    "inStock": true,
-    "images": [
-      "/images/products/premiata-moerun-khutro-a6201/img-1.jpg",
-      "/images/products/premiata-moerun-khutro-a6201/img-2.jpg",
-      "/images/products/premiata-moerun-khutro-a6201/img-3.jpg",
-      "/images/products/premiata-moerun-khutro-a6201/img-4.jpg"
-    ],
-    "description": "Чоловічі зимові кросівки Premiata MOERUN ХУТРО у стильному коричневому забарвленні (артикул: A6201). Верх виконаний з натуральної замші преміум-якості, всередині — тепле натуральне хутро. Фірмова підошва Premiata забезпечує відмінну амортизацію та комфорт при щоденному носінні. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Premiata MOERUN ХУТРО (арт. A6201) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте зимові кросівки Premiata MOERUN ХУТРО (арт. A6201) за 3400 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    },
-    "isHit": false,
     "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": false
-      },
       {
         "size": "40",
         "cm": "25.5",
@@ -4457,11 +4415,11 @@
       {
         "size": "41",
         "cm": "26.0",
-        "available": false
+        "available": true
       },
       {
         "size": "42",
-        "cm": "26.5",
+        "cm": "27.0",
         "available": true
       },
       {
@@ -4477,14 +4435,27 @@
       {
         "size": "45",
         "cm": "28.5",
-        "available": true
+        "available": false
       },
       {
         "size": "46",
         "cm": "29.5",
         "available": false
       }
-    ]
+    ],
+    "inStock": true,
+    "images": [
+      "/images/products/premiata-moerun-khutro-a6201/img-1.jpg",
+      "/images/products/premiata-moerun-khutro-a6201/img-2.jpg",
+      "/images/products/premiata-moerun-khutro-a6201/img-3.jpg",
+      "/images/products/premiata-moerun-khutro-a6201/img-4.jpg"
+    ],
+    "description": "Чоловічі зимові кросівки Premiata MOERUN ХУТРО у стильному коричневому забарвленні (артикул: A6201). Верх виконаний з натуральної замші преміум-якості, всередині — тепле натуральне хутро. Фірмова підошва Premiata забезпечує відмінну амортизацію та комфорт при щоденному носінні. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Premiata MOERUN ХУТРО (арт. A6201) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте зимові кросівки Premiata MOERUN ХУТРО (арт. A6201) за 3400 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    },
+    "isHit": false
   },
   {
     "id": "258760",
@@ -24515,6 +24486,81 @@
       "title": "Adidas Handball Spezial (арт. AS08) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Adidas Handball Spezial (арт. AS08) за 2700 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
+  },
+  {
+    "id": "252868",
+    "slug": "premiata-moerun-khutro-black-ks2868",
+    "name": "Premiata MOERUN ХУТРО Black",
+    "brand": "Premiata",
+    "brandSlug": "premiata",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "men",
+    "genderName": "Чоловічі",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 3400,
+    "oldPrice": 5667,
+    "costPrice": 2690,
+    "sku": "KS 2868",
+    "material": "Натуральна замша, натуральне хутро, текстиль",
+    "country": "Італія",
+    "sizes": [
+      "41",
+      "42",
+      "44",
+      "45"
+    ],
+    "sizeChart": [
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": false
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      },
+      {
+        "size": "42",
+        "cm": "27.0",
+        "available": true
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": true
+      },
+      {
+        "size": "45",
+        "cm": "29.0",
+        "available": true
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "images": [
+      "/images/products/ks2868/img-1.jpg",
+      "/images/products/ks2868/img-2.jpg",
+      "/images/products/ks2868/img-3.jpg",
+      "/images/products/ks2868/img-4.jpg"
+    ],
+    "description": "Чоловічі зимові кросівки Premiata MOERUN ХУТРО у класичному чорному забарвленні Black (артикул: KS 2868). Верх виготовлений із комбінації преміальної натуральної замші та міцного текстилю, всередині — тепле натуральне хутро для максимального комфорту та захисту від морозів. Фірмова легка підошва Premiata з амортизацією та оригінальними принтами гарантує зручність на кожен день. Виробництво: Італія. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Premiata MOERUN ХУТРО Black (арт. KS 2868) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте зимові кросівки Premiata MOERUN ХУТРО Black (арт. KS 2868) за 3400 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    },
+    "isHit": true
   },
   {
     "id": "252765",
@@ -216869,14 +216915,14 @@
         "available": false
       },
       {
-        "size": "42.5",
-        "cm": "26.5",
-        "available": true
-      },
-      {
         "size": "42,5",
         "cm": "26.5",
         "available": false
+      },
+      {
+        "size": "42.5",
+        "cm": "26.5",
+        "available": true
       },
       {
         "size": "43",
