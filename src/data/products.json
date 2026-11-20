@@ -5640,6 +5640,7 @@
     "sizes": [
       "41",
       "42",
+      "43",
       "44",
       "45"
     ],
@@ -5682,7 +5683,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": false
+        "available": true
       },
       {
         "size": "44",
@@ -5712,6 +5713,100 @@
     "seo": {
       "title": "Premiata MOERUN ХУТРО (арт. PM11) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Premiata MOERUN ХУТРО (арт. PM11) за 3400 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "257842",
+    "slug": "premiata-moerun-khutro-pm10",
+    "name": "Premiata MOERUN ХУТРО",
+    "brand": "Premiata",
+    "brandSlug": "premiata",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "men",
+    "genderName": "Чоловічі",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 3400,
+    "oldPrice": 5667,
+    "costPrice": 2900,
+    "sku": "PM10",
+    "material": "Шкіра, замша, хутро, текстиль, піна, гума",
+    "country": "Італія",
+    "sizes": [
+      "42",
+      "44",
+      "45"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": false
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": false
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": false
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": false
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": true
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": true
+      },
+      {
+        "size": "45",
+        "cm": "28.5",
+        "available": true
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "/images/products/premiata-moerun-khutro-pm10/img-1.jpg",
+      "/images/products/premiata-moerun-khutro-pm10/img-2.jpg",
+      "/images/products/premiata-moerun-khutro-pm10/img-3.jpg",
+      "/images/products/premiata-moerun-khutro-pm10/img-4.jpg"
+    ],
+    "description": "Модель: Premiata MOERUN ХУТРО. Артикул: PM10. Матеріал: Шкіра, замша, хутро, текстиль, піна, гума. Сезон: Зима. Виробництво: Італія. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Premiata MOERUN ХУТРО (арт. PM10) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Premiata MOERUN ХУТРО (арт. PM10) за 3400 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -6178,97 +6273,6 @@
     "seo": {
       "title": "RIVAH ФЛІС (арт. NTR834) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте RIVAH ФЛІС (арт. NTR834) за 3100 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "257812",
-    "slug": "rivah-flis-ntr833",
-    "name": "RIVAH ФЛІС",
-    "brand": "Інші бренди",
-    "brandSlug": "other",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 3100,
-    "oldPrice": 5167,
-    "costPrice": 2600,
-    "sku": "NTR833",
-    "material": "Шкіра, гума, вологостійкий текстиль, фліс, текстиль, гума, прошиті",
-    "country": "В'єтнам",
-    "sizes": [
-      "42",
-      "44",
-      "46"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": true
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": true
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "30.0",
-        "available": true
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/c440ab75-91f4-4b15-98f7-d53ca96ccc7b.jpg"
-    ],
-    "description": "Модель: RIVAH ФЛІС. Артикул: NTR833. Матеріал: Шкіра, гума, вологостійкий текстиль, фліс, текстиль, гума, прошиті. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "RIVAH ФЛІС (арт. NTR833) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте RIVAH ФЛІС (арт. NTR833) за 3100 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -9288,8 +9292,8 @@
     "brandSlug": "nike",
     "category": "Взуття",
     "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
+    "gender": "unisex",
+    "genderName": "Унісекс",
     "season": "demi",
     "seasonName": "Демісезон",
     "price": 3100,
@@ -9299,6 +9303,7 @@
     "material": "Шкіра",
     "country": "-",
     "sizes": [
+      "37",
       "43",
       "44",
       "45"
@@ -9306,13 +9311,13 @@
     "sizeChart": [
       {
         "size": "36",
-        "cm": "22.5",
+        "cm": "23.0",
         "available": false
       },
       {
         "size": "37",
         "cm": "23.5",
-        "available": false
+        "available": true
       },
       {
         "size": "38",
@@ -9840,6 +9845,97 @@
     }
   },
   {
+    "id": "256420",
+    "slug": "asics-gel-kahana-gore-tex-black-ac030",
+    "name": "Asics Gel-Kahana & GORE-TEX Black",
+    "brand": "Asics",
+    "brandSlug": "asics",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "men",
+    "genderName": "Чоловічі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 3000,
+    "oldPrice": 5000,
+    "costPrice": 2500,
+    "sku": "AC030",
+    "material": "Шкіра/Текстиль",
+    "country": "-",
+    "sizes": [
+      "37",
+      "39",
+      "41"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": true
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": false
+      },
+      {
+        "size": "39",
+        "cm": "24.5",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": false
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "28.5",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.0",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/2e319ad9-98f0-49c0-b543-45cf0a403b35.jpeg"
+    ],
+    "description": "Модель: Asics Gel-Kahana & GORE-TEX Black. Артикул: AC030. Матеріал: Шкіра/Текстиль. Сезон: Демісезон. Виробництво: -. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Asics Gel-Kahana & GORE-TEX Black (арт. AC030) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Asics Gel-Kahana & GORE-TEX Black (арт. AC030) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
     "id": "256406",
     "slug": "the-north-face-glenclyffe-low-gore-tex-beige-tn01",
     "name": "The North Face Glenclyffe Low Gore-Tex Beige",
@@ -9952,6 +10048,8 @@
     "material": "Замша/Текстиль",
     "country": "-",
     "sizes": [
+      "36",
+      "37",
       "38",
       "39",
       "40",
@@ -9965,12 +10063,12 @@
       {
         "size": "36",
         "cm": "22.5",
-        "available": false
+        "available": true
       },
       {
         "size": "37",
         "cm": "23.5",
-        "available": false
+        "available": true
       },
       {
         "size": "38",
@@ -10238,6 +10336,7 @@
     "sizes": [
       "40",
       "41",
+      "42",
       "45"
     ],
     "sizeChart": [
@@ -10274,7 +10373,7 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": false
+        "available": true
       },
       {
         "size": "43",
@@ -21248,7 +21347,6 @@
     "country": "В'єтнам",
     "sizes": [
       "41",
-      "42",
       "43",
       "44",
       "45",
@@ -21288,7 +21386,7 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": true
+        "available": false
       },
       {
         "size": "43",
@@ -26713,6 +26811,401 @@
     }
   },
   {
+    "id": "251215",
+    "slug": "ugg-classic-micro",
+    "name": "Ugg Classic Micro",
+    "brand": "UGG",
+    "brandSlug": "ugg",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 3400,
+    "oldPrice": 6333,
+    "minPrice": 3400,
+    "maxPrice": 3800,
+    "costPrice": 2900,
+    "sku": "2062",
+    "material": "Натуральна замша, овчина",
+    "country": "В'єтнам",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": true
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": true
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      }
+    ],
+    "inStock": true,
+    "isHit": true,
+    "images": [
+      "/images/products/ugg-classic-micro-chocolate/img-1.jpg",
+      "/images/products/ugg-classic-micro-chocolate/img-2.jpg",
+      "/images/products/ugg-classic-micro-chocolate/img-3.jpg",
+      "/images/products/ugg-classic-micro-chocolate/img-4.jpg",
+      "/images/products/ugg-classic-micro-sand/img-1.jpg",
+      "/images/products/ugg-classic-micro-black/img-1.jpg",
+      "/images/products/ugg-classic-micro-rocky-oak/img-1.jpg"
+    ],
+    "description": "Жіночі зимові уггі Ugg Classic Micro — найзручніша та найлаконічніша ультракоротка модель для щоденного комфорту. Виготовлені з високоякісної натуральної водовідштовхувальної замші з густим теплим хутром (овчиною) всередині, що підтримує ідеальний мікроклімат у холодну погоду. Легка та гнучка підошва EVA з фірмовим протектором забезпечує відмінну амортизацію та надійне зчеплення з поверхнею. Завдяки заниженому силуету Micro вони ідеально поєднуються з будь-яким повсякденним гардеробом. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Ugg Classic Micro — купити ультракороткі жіночі зимові уггі в інтернет-магазині VEXARO",
+      "description": "Замовляйте жіночі ультракороткі зимові уггі Ugg Classic Micro у різних кольорах (Chocolate, Sand, Black, Rocky Oak, Chestnut) від 3 400 ₴. Натуральна замша, тепле хутро. Доставка 1–2 дні, накладений платіж."
+    },
+    "variations": [
+      {
+        "id": "251215",
+        "sku": "2062",
+        "color": "Chocolate",
+        "colorSlug": "chocolate",
+        "price": 3800,
+        "oldPrice": 6333,
+        "costPrice": 3300,
+        "sizes": [
+          "36",
+          "37",
+          "38",
+          "39",
+          "41"
+        ],
+        "sizeChart": [
+          {
+            "size": "36",
+            "cm": "23.0",
+            "available": true
+          },
+          {
+            "size": "37",
+            "cm": "23.5",
+            "available": true
+          },
+          {
+            "size": "38",
+            "cm": "24.5",
+            "available": true
+          },
+          {
+            "size": "39",
+            "cm": "25.0",
+            "available": true
+          },
+          {
+            "size": "40",
+            "cm": "25.5",
+            "available": false
+          },
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": true
+          },
+          {
+            "size": "42",
+            "cm": "26.5",
+            "available": false
+          },
+          {
+            "size": "43",
+            "cm": "27.5",
+            "available": false
+          },
+          {
+            "size": "44",
+            "cm": "28.0",
+            "available": false
+          },
+          {
+            "size": "45",
+            "cm": "28.5",
+            "available": false
+          },
+          {
+            "size": "46",
+            "cm": "29.5",
+            "available": false
+          }
+        ],
+        "images": [
+          "/images/products/ugg-classic-micro-chocolate/img-1.jpg",
+          "/images/products/ugg-classic-micro-chocolate/img-2.jpg",
+          "/images/products/ugg-classic-micro-chocolate/img-3.jpg",
+          "/images/products/ugg-classic-micro-chocolate/img-4.jpg"
+        ],
+        "inStock": true,
+        "slug": "ugg-classic-micro-chocolate-2062"
+      },
+      {
+        "id": "198584",
+        "sku": "1890",
+        "color": "Sand",
+        "colorSlug": "sand",
+        "price": 3400,
+        "oldPrice": 5667,
+        "costPrice": 2900,
+        "sizes": [
+          "36",
+          "37",
+          "38",
+          "40"
+        ],
+        "sizeChart": [
+          {
+            "size": "36",
+            "cm": "23.0",
+            "available": true
+          },
+          {
+            "size": "37",
+            "cm": "23.5",
+            "available": true
+          },
+          {
+            "size": "38",
+            "cm": "24.5",
+            "available": true
+          },
+          {
+            "size": "39",
+            "cm": "25.0",
+            "available": false
+          },
+          {
+            "size": "40",
+            "cm": "25.5",
+            "available": true
+          },
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": false
+          },
+          {
+            "size": "42",
+            "cm": "26.5",
+            "available": false
+          },
+          {
+            "size": "43",
+            "cm": "27.5",
+            "available": false
+          },
+          {
+            "size": "44",
+            "cm": "28.0",
+            "available": false
+          },
+          {
+            "size": "45",
+            "cm": "28.5",
+            "available": false
+          },
+          {
+            "size": "46",
+            "cm": "29.5",
+            "available": false
+          }
+        ],
+        "images": [
+          "/images/products/ugg-classic-micro-sand/img-1.jpg",
+          "/images/products/ugg-classic-micro-sand/img-2.jpg",
+          "/images/products/ugg-classic-micro-sand/img-3.jpg",
+          "/images/products/ugg-classic-micro-sand/img-4.jpg"
+        ],
+        "inStock": true,
+        "slug": "ugg-classic-micro-sand-1890"
+      },
+      {
+        "id": "198582",
+        "sku": "1889",
+        "color": "Black",
+        "colorSlug": "black",
+        "price": 3800,
+        "oldPrice": 6333,
+        "costPrice": 3300,
+        "sizes": [
+          "36",
+          "39",
+          "41"
+        ],
+        "sizeChart": [
+          {
+            "size": "36",
+            "cm": "23.0",
+            "available": true
+          },
+          {
+            "size": "37",
+            "cm": "23.5",
+            "available": false
+          },
+          {
+            "size": "38",
+            "cm": "24.5",
+            "available": false
+          },
+          {
+            "size": "39",
+            "cm": "25.0",
+            "available": true
+          },
+          {
+            "size": "40",
+            "cm": "25.5",
+            "available": false
+          },
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": true
+          },
+          {
+            "size": "42",
+            "cm": "26.5",
+            "available": false
+          },
+          {
+            "size": "43",
+            "cm": "27.5",
+            "available": false
+          },
+          {
+            "size": "44",
+            "cm": "28.0",
+            "available": false
+          },
+          {
+            "size": "45",
+            "cm": "28.5",
+            "available": false
+          },
+          {
+            "size": "46",
+            "cm": "29.5",
+            "available": false
+          }
+        ],
+        "images": [
+          "/images/products/ugg-classic-micro-black/img-1.jpg"
+        ],
+        "inStock": true,
+        "slug": "ugg-classic-micro-black-1889"
+      },
+      {
+        "id": "198580",
+        "sku": "1888",
+        "color": "Rocky Oak",
+        "colorSlug": "rocky-oak",
+        "price": 3400,
+        "oldPrice": 5667,
+        "costPrice": 2900,
+        "sizes": [
+          "36",
+          "38",
+          "41"
+        ],
+        "sizeChart": [
+          {
+            "size": "36",
+            "cm": "23.0",
+            "available": true
+          },
+          {
+            "size": "37",
+            "cm": "23.5",
+            "available": false
+          },
+          {
+            "size": "38",
+            "cm": "24.5",
+            "available": true
+          },
+          {
+            "size": "39",
+            "cm": "25.0",
+            "available": false
+          },
+          {
+            "size": "40",
+            "cm": "25.5",
+            "available": false
+          },
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": true
+          },
+          {
+            "size": "42",
+            "cm": "26.5",
+            "available": false
+          },
+          {
+            "size": "43",
+            "cm": "27.5",
+            "available": false
+          },
+          {
+            "size": "44",
+            "cm": "28.0",
+            "available": false
+          },
+          {
+            "size": "45",
+            "cm": "28.5",
+            "available": false
+          },
+          {
+            "size": "46",
+            "cm": "29.5",
+            "available": false
+          }
+        ],
+        "images": [
+          "/images/products/ugg-classic-micro-rocky-oak/img-1.jpg",
+          "/images/products/ugg-classic-micro-rocky-oak/img-2.jpg",
+          "/images/products/ugg-classic-micro-rocky-oak/img-3.jpg",
+          "/images/products/ugg-classic-micro-rocky-oak/img-4.jpg"
+        ],
+        "inStock": true,
+        "slug": "ugg-classic-micro-rocky-oak-1888"
+      }
+    ]
+  },
+  {
     "id": "251001",
     "slug": "adidas-raf-simons-ozweego-iii-green-f34266-2061",
     "name": "Adidas Raf Simons Ozweego III Green F34266",
@@ -31302,9 +31795,7 @@
     "material": "Кожа , мех",
     "country": "В'єтнам",
     "sizes": [
-      "37",
       "38",
-      "39",
       "42",
       "43",
       "44",
@@ -31319,7 +31810,7 @@
       {
         "size": "37",
         "cm": "23.5",
-        "available": true
+        "available": false
       },
       {
         "size": "38",
@@ -31329,7 +31820,7 @@
       {
         "size": "39",
         "cm": "24.5",
-        "available": true
+        "available": false
       },
       {
         "size": "40",
@@ -31399,7 +31890,6 @@
     "sizes": [
       "36",
       "38",
-      "39",
       "40",
       "41"
     ],
@@ -31422,7 +31912,7 @@
       {
         "size": "39",
         "cm": "25.0",
-        "available": true
+        "available": false
       },
       {
         "size": "40",
@@ -34802,6 +35292,7 @@
     "material": "Замша/Хутро",
     "country": "-",
     "sizes": [
+      "37",
       "38",
       "42",
       "43",
@@ -34816,7 +35307,7 @@
       {
         "size": "37",
         "cm": "23.5",
-        "available": false
+        "available": true
       },
       {
         "size": "38",
@@ -46170,7 +46661,6 @@
     "sizes": [
       "37",
       "39",
-      "40",
       "44",
       "45"
     ],
@@ -46198,7 +46688,7 @@
       {
         "size": "40",
         "cm": "25.0",
-        "available": true
+        "available": false
       },
       {
         "size": "41",
@@ -69868,6 +70358,97 @@
     }
   },
   {
+    "id": "236060",
+    "slug": "lacoste-elite-active-t-lc01",
+    "name": "Lacoste ELITE ACTIVE T",
+    "brand": "Lacoste",
+    "brandSlug": "lacoste",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "men",
+    "genderName": "Чоловічі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 2800,
+    "oldPrice": 4667,
+    "costPrice": 2300,
+    "sku": "LC01",
+    "material": "Замша, текстиль, піна, гума",
+    "country": "В'єтнам",
+    "sizes": [
+      "43",
+      "44",
+      "45"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": false
+      },
+      {
+        "size": "39",
+        "cm": "24.5",
+        "available": false
+      },
+      {
+        "size": "40",
+        "cm": "25.0",
+        "available": false
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": false
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": true
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": true
+      },
+      {
+        "size": "45",
+        "cm": "29.0",
+        "available": true
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/65b1dc91-7299-4c0a-b849-c8055205428f.jpg"
+    ],
+    "description": "Модель: Lacoste ELITE ACTIVE T. Артикул: LC01. Матеріал: Замша, текстиль, піна, гума. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Lacoste ELITE ACTIVE T (арт. LC01) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Lacoste ELITE ACTIVE T (арт. LC01) за 2800 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
     "id": "236047",
     "slug": "nike-air-zoom-ntr760",
     "name": "Nike Air Zoom",
@@ -72769,7 +73350,6 @@
     "material": "Замша , тексть",
     "country": "В'єтнам",
     "sizes": [
-      "37",
       "38",
       "39",
       "40"
@@ -72783,7 +73363,7 @@
       {
         "size": "37",
         "cm": "23.5",
-        "available": true
+        "available": false
       },
       {
         "size": "38",
@@ -74633,6 +75213,7 @@
     "country": "В'єтнам",
     "sizes": [
       "37",
+      "39",
       "40",
       "41",
       "44"
@@ -74656,7 +75237,7 @@
       {
         "size": "39",
         "cm": "25.0",
-        "available": false
+        "available": true
       },
       {
         "size": "40",
@@ -112807,6 +113388,7 @@
       "39",
       "41",
       "42",
+      "43",
       "44",
       "45"
     ],
@@ -112849,7 +113431,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": false
+        "available": true
       },
       {
         "size": "44",
@@ -116542,6 +117124,7 @@
     "country": "В'єтнам",
     "sizes": [
       "37",
+      "38",
       "43",
       "44",
       "45"
@@ -116560,7 +117143,7 @@
       {
         "size": "38",
         "cm": "24.0",
-        "available": false
+        "available": true
       },
       {
         "size": "39",
@@ -117168,98 +117751,6 @@
     "seo": {
       "title": "Air Jordan Retro 12 Black (арт. 2596) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Air Jordan Retro 12 Black (арт. 2596) за 2700 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "209541",
-    "slug": "asics-gel-pickax-haki-black-2588",
-    "name": "Asics Gel-Pickax Haki Black",
-    "brand": "Asics",
-    "brandSlug": "asics",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 3000,
-    "oldPrice": 5000,
-    "costPrice": 2500,
-    "sku": "2588",
-    "material": "Кожа , Сетка",
-    "country": "В'єтнам",
-    "sizes": [
-      "40",
-      "41",
-      "42",
-      "43"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": true
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": true
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": true
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.0",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/db2ce9be-5918-4d6e-a50a-5a462fbff171.jpeg"
-    ],
-    "description": "Модель: Asics Gel-Pickax Haki Black. Артикул: 2588. Матеріал: Кожа , Сетка. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Asics Gel-Pickax Haki Black (арт. 2588) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Asics Gel-Pickax Haki Black (арт. 2588) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -130364,97 +130855,6 @@
     }
   },
   {
-    "id": "201927",
-    "slug": "new-balance-574-winter-suede-black-1542",
-    "name": "New Balance 574 Winter Suede Black",
-    "brand": "New Balance",
-    "brandSlug": "newbalance",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "unisex",
-    "genderName": "Унісекс",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 3100,
-    "oldPrice": 5167,
-    "costPrice": 2600,
-    "sku": "1542",
-    "material": "Замша , тексть",
-    "country": "В'єтнам",
-    "sizes": [
-      "38",
-      "44",
-      "45"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": true
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": true
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": true
-      },
-      {
-        "size": "46",
-        "cm": "30.0",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/321af03b-3867-477b-b7a9-169cf95d848d.jpeg"
-    ],
-    "description": "Модель: New Balance 574 Winter Suede Black. Артикул: 1542. Матеріал: Замша , тексть. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "New Balance 574 Winter Suede Black (арт. 1542) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте New Balance 574 Winter Suede Black (арт. 1542) за 3100 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "201877",
     "slug": "air-jordan-retro-3-off-noir-black-2513",
     "name": "Air Jordan Retro 3 Off Noir Black",
@@ -137317,482 +137717,6 @@
     ]
   },
   {
-    "id": "198551",
-    "slug": "ugg-classic-micro",
-    "name": "Ugg Classic Micro",
-    "brand": "UGG",
-    "brandSlug": "ugg",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 3400,
-    "oldPrice": 6333,
-    "minPrice": 3400,
-    "maxPrice": 3800,
-    "costPrice": 2900,
-    "sku": "1887",
-    "material": "Натуральна замша, овчина",
-    "country": "В'єтнам",
-    "sizes": [
-      "36",
-      "37",
-      "38",
-      "39",
-      "40",
-      "41"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": true
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": true
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": true
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": true
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": true
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "/images/products/ugg-classic-micro-chestnut/img-1.jpg",
-      "/images/products/ugg-classic-micro-chestnut/img-2.jpg",
-      "/images/products/ugg-classic-micro-chestnut/img-3.jpg",
-      "/images/products/ugg-classic-micro-chestnut/img-4.jpg",
-      "/images/products/ugg-classic-micro-chocolate/img-1.jpg",
-      "/images/products/ugg-classic-micro-sand/img-1.jpg",
-      "/images/products/ugg-classic-micro-black/img-1.jpg",
-      "/images/products/ugg-classic-micro-rocky-oak/img-1.jpg"
-    ],
-    "description": "Жіночі зимові уггі Ugg Classic Micro — найзручніша та найлаконічніша ультракоротка модель для щоденного комфорту. Виготовлені з високоякісної натуральної водовідштовхувальної замші з густим теплим хутром (овчиною) всередині, що підтримує ідеальний мікроклімат у холодну погоду. Легка та гнучка підошва EVA з фірмовим протектором забезпечує відмінну амортизацію та надійне зчеплення з поверхнею. Завдяки заниженому силуету Micro вони ідеально поєднуються з будь-яким повсякденним гардеробом. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Ugg Classic Micro — купити ультракороткі жіночі зимові уггі в інтернет-магазині VEXARO",
-      "description": "Замовляйте жіночі ультракороткі зимові уггі Ugg Classic Micro у різних кольорах (Chocolate, Sand, Black, Rocky Oak, Chestnut) від 3 400 ₴. Натуральна замша, тепле хутро. Доставка 1–2 дні, накладений платіж."
-    },
-    "variations": [
-      {
-        "id": "198551",
-        "sku": "1887",
-        "color": "Chestnut",
-        "colorSlug": "chestnut",
-        "price": 3400,
-        "oldPrice": 5667,
-        "costPrice": 2900,
-        "sizes": [
-          "37",
-          "38",
-          "40"
-        ],
-        "sizeChart": [
-          {
-            "size": "36",
-            "cm": "23.0",
-            "available": false
-          },
-          {
-            "size": "37",
-            "cm": "23.5",
-            "available": true
-          },
-          {
-            "size": "38",
-            "cm": "24.5",
-            "available": true
-          },
-          {
-            "size": "39",
-            "cm": "25.0",
-            "available": false
-          },
-          {
-            "size": "40",
-            "cm": "25.5",
-            "available": true
-          },
-          {
-            "size": "41",
-            "cm": "26.0",
-            "available": false
-          },
-          {
-            "size": "42",
-            "cm": "26.5",
-            "available": false
-          },
-          {
-            "size": "43",
-            "cm": "27.5",
-            "available": false
-          },
-          {
-            "size": "44",
-            "cm": "28.0",
-            "available": false
-          },
-          {
-            "size": "45",
-            "cm": "28.5",
-            "available": false
-          },
-          {
-            "size": "46",
-            "cm": "29.5",
-            "available": false
-          }
-        ],
-        "images": [
-          "/images/products/ugg-classic-micro-chestnut/img-1.jpg",
-          "/images/products/ugg-classic-micro-chestnut/img-2.jpg",
-          "/images/products/ugg-classic-micro-chestnut/img-3.jpg",
-          "/images/products/ugg-classic-micro-chestnut/img-4.jpg"
-        ],
-        "inStock": true,
-        "slug": "ugg-classic-micro-chestnut-1887"
-      },
-      {
-        "id": "251215",
-        "sku": "2062",
-        "color": "Chocolate",
-        "colorSlug": "chocolate",
-        "price": 3800,
-        "oldPrice": 6333,
-        "costPrice": 3300,
-        "sizes": [
-          "36",
-          "37",
-          "38",
-          "39",
-          "41"
-        ],
-        "sizeChart": [
-          {
-            "size": "36",
-            "cm": "23.0",
-            "available": true
-          },
-          {
-            "size": "37",
-            "cm": "23.5",
-            "available": true
-          },
-          {
-            "size": "38",
-            "cm": "24.5",
-            "available": true
-          },
-          {
-            "size": "39",
-            "cm": "25.0",
-            "available": true
-          },
-          {
-            "size": "40",
-            "cm": "25.5",
-            "available": false
-          },
-          {
-            "size": "41",
-            "cm": "26.0",
-            "available": true
-          },
-          {
-            "size": "42",
-            "cm": "26.5",
-            "available": false
-          },
-          {
-            "size": "43",
-            "cm": "27.5",
-            "available": false
-          },
-          {
-            "size": "44",
-            "cm": "28.0",
-            "available": false
-          },
-          {
-            "size": "45",
-            "cm": "28.5",
-            "available": false
-          },
-          {
-            "size": "46",
-            "cm": "29.5",
-            "available": false
-          }
-        ],
-        "images": [
-          "/images/products/ugg-classic-micro-chocolate/img-1.jpg",
-          "/images/products/ugg-classic-micro-chocolate/img-2.jpg",
-          "/images/products/ugg-classic-micro-chocolate/img-3.jpg",
-          "/images/products/ugg-classic-micro-chocolate/img-4.jpg"
-        ],
-        "inStock": true,
-        "slug": "ugg-classic-micro-chocolate-2062"
-      },
-      {
-        "id": "198584",
-        "sku": "1890",
-        "color": "Sand",
-        "colorSlug": "sand",
-        "price": 3400,
-        "oldPrice": 5667,
-        "costPrice": 2900,
-        "sizes": [
-          "36",
-          "37",
-          "38",
-          "40"
-        ],
-        "sizeChart": [
-          {
-            "size": "36",
-            "cm": "23.0",
-            "available": true
-          },
-          {
-            "size": "37",
-            "cm": "23.5",
-            "available": true
-          },
-          {
-            "size": "38",
-            "cm": "24.5",
-            "available": true
-          },
-          {
-            "size": "39",
-            "cm": "25.0",
-            "available": false
-          },
-          {
-            "size": "40",
-            "cm": "25.5",
-            "available": true
-          },
-          {
-            "size": "41",
-            "cm": "26.0",
-            "available": false
-          },
-          {
-            "size": "42",
-            "cm": "26.5",
-            "available": false
-          },
-          {
-            "size": "43",
-            "cm": "27.5",
-            "available": false
-          },
-          {
-            "size": "44",
-            "cm": "28.0",
-            "available": false
-          },
-          {
-            "size": "45",
-            "cm": "28.5",
-            "available": false
-          },
-          {
-            "size": "46",
-            "cm": "29.5",
-            "available": false
-          }
-        ],
-        "images": [
-          "/images/products/ugg-classic-micro-sand/img-1.jpg",
-          "/images/products/ugg-classic-micro-sand/img-2.jpg",
-          "/images/products/ugg-classic-micro-sand/img-3.jpg",
-          "/images/products/ugg-classic-micro-sand/img-4.jpg"
-        ],
-        "inStock": true,
-        "slug": "ugg-classic-micro-sand-1890"
-      },
-      {
-        "id": "198582",
-        "sku": "1889",
-        "color": "Black",
-        "colorSlug": "black",
-        "price": 3800,
-        "oldPrice": 6333,
-        "costPrice": 3300,
-        "sizes": [
-          "36",
-          "37",
-          "39",
-          "41"
-        ],
-        "sizeChart": [
-          {
-            "size": "36",
-            "cm": "23.0",
-            "available": true
-          },
-          {
-            "size": "37",
-            "cm": "23.5",
-            "available": true
-          },
-          {
-            "size": "38",
-            "cm": "24.5",
-            "available": false
-          },
-          {
-            "size": "39",
-            "cm": "25.0",
-            "available": true
-          },
-          {
-            "size": "40",
-            "cm": "25.5",
-            "available": false
-          },
-          {
-            "size": "41",
-            "cm": "26.0",
-            "available": true
-          },
-          {
-            "size": "42",
-            "cm": "26.5",
-            "available": false
-          },
-          {
-            "size": "43",
-            "cm": "27.5",
-            "available": false
-          },
-          {
-            "size": "44",
-            "cm": "28.0",
-            "available": false
-          },
-          {
-            "size": "45",
-            "cm": "28.5",
-            "available": false
-          },
-          {
-            "size": "46",
-            "cm": "29.5",
-            "available": false
-          }
-        ],
-        "images": [
-          "/images/products/ugg-classic-micro-black/img-1.jpg"
-        ],
-        "inStock": true,
-        "slug": "ugg-classic-micro-black-1889"
-      },
-      {
-        "id": "198580",
-        "sku": "1888",
-        "color": "Rocky Oak",
-        "colorSlug": "rocky-oak",
-        "price": 3400,
-        "oldPrice": 5667,
-        "costPrice": 2900,
-        "sizes": [
-          "36",
-          "38",
-          "41"
-        ],
-        "sizeChart": [
-          {
-            "size": "36",
-            "cm": "23.0",
-            "available": true
-          },
-          {
-            "size": "37",
-            "cm": "23.5",
-            "available": false
-          },
-          {
-            "size": "38",
-            "cm": "24.5",
-            "available": true
-          },
-          {
-            "size": "39",
-            "cm": "25.0",
-            "available": false
-          },
-          {
-            "size": "40",
-            "cm": "25.5",
-            "available": false
-          },
-          {
-            "size": "41",
-            "cm": "26.0",
-            "available": true
-          },
-          {
-            "size": "42",
-            "cm": "26.5",
-            "available": false
-          },
-          {
-            "size": "43",
-            "cm": "27.5",
-            "available": false
-          },
-          {
-            "size": "44",
-            "cm": "28.0",
-            "available": false
-          },
-          {
-            "size": "45",
-            "cm": "28.5",
-            "available": false
-          },
-          {
-            "size": "46",
-            "cm": "29.5",
-            "available": false
-          }
-        ],
-        "images": [
-          "/images/products/ugg-classic-micro-rocky-oak/img-1.jpg",
-          "/images/products/ugg-classic-micro-rocky-oak/img-2.jpg",
-          "/images/products/ugg-classic-micro-rocky-oak/img-3.jpg",
-          "/images/products/ugg-classic-micro-rocky-oak/img-4.jpg"
-        ],
-        "inStock": true,
-        "slug": "ugg-classic-micro-rocky-oak-1888"
-      }
-    ]
-  },
-  {
     "id": "198527",
     "slug": "ugg-bea-mary-jane",
     "name": "UGG Bea Mary Jane",
@@ -139086,8 +139010,7 @@
           "36",
           "38",
           "39",
-          "40",
-          "41"
+          "40"
         ],
         "sizeChart": [
           {
@@ -139118,7 +139041,7 @@
           {
             "size": "41",
             "cm": "26.0",
-            "available": true
+            "available": false
           },
           {
             "size": "42",
@@ -139598,7 +139521,6 @@
     "material": "Замша",
     "country": "В'єтнам",
     "sizes": [
-      "36",
       "38",
       "42",
       "43",
@@ -139609,7 +139531,7 @@
       {
         "size": "36",
         "cm": "22.5",
-        "available": true
+        "available": false
       },
       {
         "size": "37",
@@ -163487,7 +163409,6 @@
     "country": "В'єтнам",
     "sizes": [
       "36",
-      "37",
       "38",
       "39",
       "41"
@@ -163501,7 +163422,7 @@
       {
         "size": "37",
         "cm": "23.5",
-        "available": true
+        "available": false
       },
       {
         "size": "38",
@@ -164154,8 +164075,7 @@
       "38",
       "39",
       "40",
-      "42",
-      "45"
+      "42"
     ],
     "sizeChart": [
       {
@@ -164206,7 +164126,7 @@
       {
         "size": "45",
         "cm": "29.0",
-        "available": true
+        "available": false
       },
       {
         "size": "46",
@@ -165356,10 +165276,7 @@
     "sizes": [
       "36",
       "38",
-      "40",
-      "42",
-      "44",
-      "45"
+      "40"
     ],
     "sizeChart": [
       {
@@ -165395,7 +165312,7 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": true
+        "available": false
       },
       {
         "size": "43",
@@ -165405,12 +165322,12 @@
       {
         "size": "44",
         "cm": "28.0",
-        "available": true
+        "available": false
       },
       {
         "size": "45",
         "cm": "28.5",
-        "available": true
+        "available": false
       },
       {
         "size": "46",
@@ -173818,14 +173735,14 @@
         "available": true
       },
       {
-        "size": "45",
-        "cm": "29.0",
-        "available": false
-      },
-      {
         "size": "45/46",
         "cm": "29.0",
         "available": true
+      },
+      {
+        "size": "45",
+        "cm": "29.0",
+        "available": false
       },
       {
         "size": "46",
@@ -173919,14 +173836,14 @@
         "available": true
       },
       {
-        "size": "45",
-        "cm": "29.0",
-        "available": false
-      },
-      {
         "size": "45/46",
         "cm": "29.0",
         "available": true
+      },
+      {
+        "size": "45",
+        "cm": "29.0",
+        "available": false
       },
       {
         "size": "46",
@@ -180039,7 +179956,6 @@
     "material": "Шкіра",
     "country": "В'єтнам",
     "sizes": [
-      "37",
       "38",
       "39",
       "40",
@@ -180054,7 +179970,7 @@
       {
         "size": "37",
         "cm": "23.5",
-        "available": true
+        "available": false
       },
       {
         "size": "38",
@@ -198979,11 +198895,11 @@
       "36",
       "37",
       "38",
-      "39",
       "40",
       "41",
       "42",
       "43",
+      "44",
       "45"
     ],
     "sizeChart": [
@@ -199005,7 +198921,7 @@
       {
         "size": "39",
         "cm": "24.5",
-        "available": true
+        "available": false
       },
       {
         "size": "40",
@@ -199030,7 +198946,7 @@
       {
         "size": "44",
         "cm": "28.0",
-        "available": false
+        "available": true
       },
       {
         "size": "45",
@@ -199640,6 +199556,7 @@
       "36",
       "37",
       "38",
+      "39",
       "40",
       "41",
       "42",
@@ -199666,7 +199583,7 @@
       {
         "size": "39",
         "cm": "24.5",
-        "available": false
+        "available": true
       },
       {
         "size": "40",
@@ -200379,7 +200296,6 @@
     "country": "В'єтнам",
     "sizes": [
       "38",
-      "39",
       "41",
       "42",
       "43"
@@ -200403,7 +200319,7 @@
       {
         "size": "39",
         "cm": "24.5",
-        "available": true
+        "available": false
       },
       {
         "size": "40",
@@ -201501,8 +201417,7 @@
       "42",
       "43",
       "44",
-      "45",
-      "46"
+      "45"
     ],
     "sizeChart": [
       {
@@ -201558,7 +201473,7 @@
       {
         "size": "46",
         "cm": "30.0",
-        "available": true
+        "available": false
       }
     ],
     "inStock": true,
@@ -204494,97 +204409,6 @@
     }
   },
   {
-    "id": "137926",
-    "slug": "nike-acg-air-zoom-gaiadone-gtx-gore-tex-1875",
-    "name": "Nike ACG Air Zoom Gaiadone Gtx Gore-Tex",
-    "brand": "Nike",
-    "brandSlug": "nike",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 3700,
-    "oldPrice": 6167,
-    "costPrice": 3200,
-    "sku": "1875",
-    "material": "Текстиль , Прорезиненные вставки",
-    "country": "В'єтнам",
-    "sizes": [
-      "41",
-      "43",
-      "45"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": true
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": true
-      },
-      {
-        "size": "46",
-        "cm": "30.0",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/74440ccd-1f4b-46ee-b8f7-30fc44e530f4.jpeg"
-    ],
-    "description": "Модель: Nike ACG Air Zoom Gaiadone Gtx Gore-Tex. Артикул: 1875. Матеріал: Текстиль , Прорезиненные вставки. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Nike ACG Air Zoom Gaiadone Gtx Gore-Tex (арт. 1875) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Nike ACG Air Zoom Gaiadone Gtx Gore-Tex (арт. 1875) за 3700 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "137925",
     "slug": "nike-acg-air-zoom-gaiadone-gtx-gore-tex-1874",
     "name": "Nike ACG Air Zoom Gaiadone Gtx Gore-Tex",
@@ -206445,7 +206269,6 @@
     "sizes": [
       "36",
       "37",
-      "38",
       "40",
       "41"
     ],
@@ -206463,7 +206286,7 @@
       {
         "size": "38",
         "cm": "24.0",
-        "available": true
+        "available": false
       },
       {
         "size": "39",
@@ -206894,6 +206717,97 @@
         "slug": "ugg-ultra-mini-platform-teddy-black-1034"
       }
     ]
+  },
+  {
+    "id": "131914",
+    "slug": "nike-acg-mountain-fly-2-low-dark-smoke-grey-nk118",
+    "name": "Nike ACG Mountain Fly 2 Low 'Dark Smoke Grey'",
+    "brand": "Nike",
+    "brandSlug": "nike",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "men",
+    "genderName": "Чоловічі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 2600,
+    "oldPrice": 4333,
+    "costPrice": 2100,
+    "sku": "NK118",
+    "material": "Текстиль",
+    "country": "В'єтнам",
+    "sizes": [
+      "38",
+      "41",
+      "43"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "24.5",
+        "available": false
+      },
+      {
+        "size": "40",
+        "cm": "25.0",
+        "available": false
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": true
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "29.0",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "30.0",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/936e990a-3ffb-4e14-829b-f07893a204d9.jpeg"
+    ],
+    "description": "Модель: Nike ACG Mountain Fly 2 Low 'Dark Smoke Grey'. Артикул: NK118. Матеріал: Текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Nike ACG Mountain Fly 2 Low 'Dark Smoke Grey' (арт. NK118) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Nike ACG Mountain Fly 2 Low 'Dark Smoke Grey' (арт. NK118) за 2600 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
   },
   {
     "id": "131912",
@@ -211789,8 +211703,7 @@
       "40",
       "41",
       "42",
-      "44",
-      "45"
+      "44"
     ],
     "sizeChart": [
       {
@@ -211846,7 +211759,7 @@
       {
         "size": "45",
         "cm": "29.0",
-        "available": true
+        "available": false
       },
       {
         "size": "46",
@@ -214519,12 +214432,12 @@
         "available": true
       },
       {
-        "size": "45",
+        "size": "45/46",
         "cm": "29.0",
         "available": false
       },
       {
-        "size": "45/46",
+        "size": "45",
         "cm": "29.0",
         "available": false
       },
@@ -215457,7 +215370,8 @@
       "40",
       "41",
       "42",
-      "44"
+      "44",
+      "45"
     ],
     "sizeChart": [
       {
@@ -215508,7 +215422,7 @@
       {
         "size": "45",
         "cm": "29.0",
-        "available": false
+        "available": true
       },
       {
         "size": "46",
@@ -216915,14 +216829,14 @@
         "available": false
       },
       {
-        "size": "42,5",
-        "cm": "26.5",
-        "available": false
-      },
-      {
         "size": "42.5",
         "cm": "26.5",
         "available": true
+      },
+      {
+        "size": "42,5",
+        "cm": "26.5",
+        "available": false
       },
       {
         "size": "43",
@@ -225172,8 +225086,8 @@
     "brandSlug": "newbalance",
     "category": "Взуття",
     "categorySlug": "shoes",
-    "gender": "unisex",
-    "genderName": "Унісекс",
+    "gender": "women",
+    "genderName": "Жіночі",
     "season": "demi",
     "seasonName": "Демісезон",
     "price": 2299,
@@ -225186,8 +225100,7 @@
       "38",
       "39",
       "40",
-      "41",
-      "42"
+      "41"
     ],
     "sizeChart": [
       {
@@ -225217,13 +225130,13 @@
       },
       {
         "size": "41",
-        "cm": "26.0",
+        "cm": "25.5",
         "available": true
       },
       {
         "size": "42",
-        "cm": "26.5",
-        "available": true
+        "cm": "26.0",
+        "available": false
       },
       {
         "size": "43",
@@ -225237,12 +225150,12 @@
       },
       {
         "size": "45",
-        "cm": "29.0",
+        "cm": "28.5",
         "available": false
       },
       {
         "size": "46",
-        "cm": "30.0",
+        "cm": "29.5",
         "available": false
       }
     ],
@@ -240300,98 +240213,6 @@
     }
   },
   {
-    "id": "86770",
-    "slug": "nike-acg-mountain-fly-gore-tex-all-black-1197",
-    "name": "Nike ACG Mountain Fly Gore-Tex All Black",
-    "brand": "Nike",
-    "brandSlug": "nike",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 3100,
-    "oldPrice": 5167,
-    "costPrice": 2600,
-    "sku": "1197",
-    "material": "Текстиль , проерзененный материал",
-    "country": "В'єтнам",
-    "sizes": [
-      "40",
-      "41",
-      "42"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.0",
-        "available": true
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": true
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "30.0",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/1add419d-eeab-49a6-abfc-a1b8cad6c6e0.jpeg",
-      "https://easydrop.one/media/uploads/images/base/5888b51d-5569-4caa-a433-a40c6f3fd162.jpeg"
-    ],
-    "description": "Модель: Nike ACG Mountain Fly Gore-Tex All Black. Артикул: 1197. Матеріал: Текстиль , проерзененный материал. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Nike ACG Mountain Fly Gore-Tex All Black (арт. 1197) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Nike ACG Mountain Fly Gore-Tex All Black (арт. 1197) за 3100 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "86765",
     "slug": "nike-zoom-2k-white-black-1345",
     "name": "Nike Zoom 2K White\\Black",
@@ -245297,6 +245118,7 @@
       "36",
       "38",
       "39",
+      "41",
       "43"
     ],
     "sizeChart": [
@@ -245328,7 +245150,7 @@
       {
         "size": "41",
         "cm": "26.0",
-        "available": false
+        "available": true
       },
       {
         "size": "42",
@@ -245391,6 +245213,7 @@
       "40",
       "41",
       "42",
+      "43",
       "44"
     ],
     "sizeChart": [
@@ -245432,7 +245255,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": false
+        "available": true
       },
       {
         "size": "44",
@@ -254768,7 +254591,6 @@
       "36",
       "37",
       "40",
-      "41",
       "42",
       "43",
       "44",
@@ -254803,7 +254625,7 @@
       {
         "size": "41",
         "cm": "26.0",
-        "available": true
+        "available": false
       },
       {
         "size": "42",
