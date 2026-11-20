@@ -238,63 +238,8 @@ EXCLUDED_SKUS = {'182883', '16006', '16005', '16004', '16003', 'NB143', '0068', 
 # Pinned products permanently pinned at top by store owner request (supports 'id:...' or SKU)
 PINNED_FILE = os.path.join(SRC_DATA_DIR, 'pinned.json')
 PINNED_KEYS = [
-    'premiata-steven', # Premiata Steven (3 кольори: Ar51737, Ar51738, Ar51739) - pinned by user
-    'new-balance-574-khutro', # New Balance 574 ХУТРО (3 кольори: 8296, 7318, 3279) - position 2
-    'A6201',     # Premiata MOERUN ХУТРО Brown - pinned by user
-    'PM12',      # Premiata MOERUN ХУТРО Khaki - pinned by user
-    'PM11',      # Premiata MOERUN ХУТРО Anthracite - pinned by user
-    'PM10',      # Premiata MOERUN ХУТРО Black - pinned by user
-    '1691',      # UGG LOWMEL SNEAKERS (Moss Green) - newest studio photos
-    '1692',      # UGG LOWMEL SNEAKERS (Light Bronze) - newest studio photos
-    '1096',      # UGG LOWMEL SNEAKERS (Chestnut) - newest studio photos
-    '1450',      # UGG LOWMEL SNEAKERS (Rocky Oak) - newest studio photos
-    '1464',      # UGG LOWMEL SNEAKERS (Black Leather) - newest studio photos
-    '1466',      # UGG MINI DIPPER PUFFER (Chestnut) - newest studio photos
-    '1467',      # UGG MINI DIPPER PUFFER (Sand) - newest studio photos
-    '1670',      # On Cloudrock Waterproof Ivory - newest studio photos
-    '1672',      # New Balance 9060 Slate Grey Cordura - newest studio photos
-    '1673',      # New Balance 9060 Black Grey Cordura - newest studio photos
-    '1674',      # New Balance 9060 Dark Grey Lime Cordura - newest studio photos
-    '6273',      # New Balance 1906R Cordura Gore-Tex Grey - newest studio photos
-    '1677',      # New Balance 1906R Graphite Metallic Primaloft - newest studio photos
-    '1680',      # Nike SB Dunk White Lace Pack - newest studio photos
-    '1681',      # Nike SB Dunk White Burgundy - newest studio photos
-    '1683',      # UGG LOWMEL SNEAKERS White Pink - newest studio photos
-    '1684',      # UGG LOWMEL SNEAKERS Olive Grey - newest studio photos
-    '1685',      # UGG LOWMEL SNEAKERS Burnt Cedar - newest studio photos
-    '1686',      # UGG LOWMEL SNEAKERS Pink - newest studio photos
-    '1687',      # UGG LOWMEL SNEAKERS Leopard - newest studio photos
-    '1688',      # UGG ULTRA MINI PLATFORM LATTE SUEDE - newest studio photos
-    '1689',      # UGG ULTRA MINI PLATFORM DARK CACAO SUEDE - newest studio photos
-    'А5689',     # Nike Air Max Plus Tn Black Teal Yellow - newest studio photos
-    '1705',      # UGG ULTRA MINI CHOCOLATE BROWN SUEDE - newest studio photos
-    '5174',      # Adidas Campus 00s Beige Black (хутро) - newest studio photos
-    '5187',      # Adidas Campus 00s Grey Black (хутро) - newest studio photos
-    '5188',      # Adidas Campus 00s Grey White (хутро) - newest studio photos
-    '0801',      # UGG ULTRA MINI PLATFORM BLACK SUEDE (most recent delivery)
-    '2112',      # Nike Jordan 4 Black Cat ХУТРО
-    '2113',      # Nike Jordan 4 White Cement ХУТРО
-    'TN02',      # The North Face Glenclyffe Low Gore-Tex Black
-    'VN04',      # Vans Sk8-Hi MTE Gore-Tex
-    'S1270',     # Salomon XT-6 Black Gore-Tex
-    'S1470',     # Salomon XT-6 Beige Gore-Tex
-    'NK0420',    # Nike Pegasus Zebra Print
-    'U0699',     # UGG Heritage Utility Sneaker
-    'NB527',     # New Balance 530 (термо)
-    'NB526',     # New Balance 530 (термо)
-    'NB525',     # New Balance 530 (термо)
-    'NB524',     # New Balance 530 (термо)
-    'NB523',     # New Balance 9060 (термо)
-    'NB522',     # New Balance 9060 (термо)
-    'NB521',     # New Balance 9060 (термо)
-    'NB520',     # New Balance 9060 (термо)
-    'NB519',     # New Balance 9060 (термо)
-    'NB149',     # New Balance 9060 Grey Cordura V2
-    'NB148',     # New Balance 9060 Beige Cordura
-    'NK185',     # Nike Sb Dunk Low Grey
-    'AC033',     # Asics Gel-Pickax Clay Grey Mink
-    'AS-045',    # Adidas Campus Grey (хутро)
-    '0705V',     # Adidas Campus 00s Grey White Gum (хутро)
+    'premiata-steven', # Premiata Steven (Position 1)
+    'new-balance-574-khutro', # New Balance 574 ХУТРО (Position 2)
 ]
 if os.path.exists(PINNED_FILE):
     try:
@@ -4437,11 +4382,9 @@ def main():
         for idx, key in enumerate(PINNED_KEYS):
             if match_pin(key, p):
                 return 10000 + (len(PINNED_KEYS) - idx)
-        images = p.get('images', [])
-        has_studio = any(img.startswith('/images/products/') for img in images)
-        return 5000 if has_studio else 0
+        return 0
 
-    # Sort: pinned products first (in order), then studio photography, then newest arrivals by product ID descending
+    # Sort: pinned products first (in order), then newest arrivals by product ID descending
     def sort_key(p):
         rank = get_pin_rank(p)
         pid = int(p['id']) if str(p.get('id', '')).isdigit() else 0
