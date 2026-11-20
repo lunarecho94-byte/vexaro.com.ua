@@ -1,10 +1,10 @@
 {
-  "total": 2891,
+  "total": 2890,
   "brands": [
     {
       "name": "Nike",
       "slug": "nike",
-      "count": 990
+      "count": 989
     },
     {
       "name": "New Balance",
@@ -176,7 +176,7 @@
     {
       "name": "Взуття",
       "slug": "shoes",
-      "count": 2891
+      "count": 2890
     }
   ],
   "genders": [
@@ -188,7 +188,7 @@
     {
       "name": "Чоловічі",
       "slug": "men",
-      "count": 962
+      "count": 961
     },
     {
       "name": "Унісекс",
@@ -200,7 +200,7 @@
     {
       "name": "Демісезон",
       "slug": "demi",
-      "count": 2582
+      "count": 2581
     },
     {
       "name": "Зима",

@@ -7344,7 +7344,6 @@
           "36",
           "37",
           "39",
-          "40",
           "41"
         ],
         "sizeChart": [
@@ -7371,7 +7370,7 @@
           {
             "size": "40",
             "cm": "25.5",
-            "available": true
+            "available": false
           },
           {
             "size": "41",
@@ -40183,98 +40182,6 @@
     "seo": {
       "title": "Nike Air Force 1 Low 'Valentine's Day Pink 2026' (арт. N00360) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Nike Air Force 1 Low 'Valentine's Day Pink 2026' (арт. N00360) за 2600 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "249361",
-    "slug": "nike-air-more-uptempo-low-baroque-brown-n00359",
-    "name": "Nike Air More Uptempo Low Baroque Brown",
-    "brand": "Nike",
-    "brandSlug": "nike",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 2800,
-    "oldPrice": 4667,
-    "costPrice": 2300,
-    "sku": "N00359",
-    "material": "Текстиль / комбінований",
-    "country": "-",
-    "sizes": [
-      "42",
-      "43",
-      "45"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": true
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": true
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": true
-      },
-      {
-        "size": "46",
-        "cm": "30.0",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/d5438a72-12c1-4156-a30d-dc714a003b0c.jpeg",
-      "https://easydrop.one/media/uploads/images/base/bb97b2b4-d96e-49fe-a19a-0bb66c864607.jpeg"
-    ],
-    "description": "Модель: Nike Air More Uptempo Low Baroque Brown. Артикул: N00359. Матеріал: Текстиль / комбінований. Сезон: Демісезон. Виробництво: -. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Nike Air More Uptempo Low Baroque Brown (арт. N00359) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Nike Air More Uptempo Low Baroque Brown (арт. N00359) за 2800 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -138849,7 +138756,6 @@
         "costPrice": 4300,
         "sizes": [
           "37",
-          "38",
           "39",
           "40",
           "41"
@@ -138868,7 +138774,7 @@
           {
             "size": "38",
             "cm": "24.5",
-            "available": true
+            "available": false
           },
           {
             "size": "39",
@@ -157623,7 +157529,6 @@
     "material": "Замша, хутро",
     "country": "В'єтнам",
     "sizes": [
-      "37",
       "38",
       "39",
       "41"
@@ -157637,7 +157542,7 @@
       {
         "size": "37",
         "cm": "23.5",
-        "available": true
+        "available": false
       },
       {
         "size": "38",
@@ -231122,7 +231027,6 @@
     "sizes": [
       "38",
       "39",
-      "40",
       "41"
     ],
     "sizeChart": [
@@ -231149,7 +231053,7 @@
       {
         "size": "40",
         "cm": "25.0",
-        "available": true
+        "available": false
       },
       {
         "size": "41",
