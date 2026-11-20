@@ -405,8 +405,7 @@
           "41",
           "42",
           "43",
-          "44",
-          "45"
+          "44"
         ],
         "sizeChart": [
           {
@@ -437,7 +436,7 @@
           {
             "size": "45",
             "cm": "28.5",
-            "available": true
+            "available": false
           },
           {
             "size": "46",
@@ -219550,14 +219549,14 @@
         "available": false
       },
       {
-        "size": "42.5",
-        "cm": "26.5",
-        "available": true
-      },
-      {
         "size": "42,5",
         "cm": "26.5",
         "available": false
+      },
+      {
+        "size": "42.5",
+        "cm": "26.5",
+        "available": true
       },
       {
         "size": "43",
