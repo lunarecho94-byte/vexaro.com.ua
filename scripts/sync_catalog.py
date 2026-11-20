@@ -1867,20 +1867,20 @@ def build_product_size_chart(
         p = it.find('param')
         if p is not None and p.text:
             s = clean_text(p.text).rstrip('*').strip()
-            if re.match(r'^\d+([.,]\d+)?$', s):
+            if re.match(r'^\d+([.,]\d+)?(/[^\s]+)?$', s):
                 is_avail = (it.attrib.get('available') == 'true' or it.findtext('available') == 'true')
                 feed_sizes[s] = feed_sizes.get(s, False) or (is_avail and s in sorted_sizes)
 
     all_sizes = set(feed_sizes.keys())
-    if not all_sizes:
-        all_sizes.update(sorted_sizes)
+    all_sizes.update(sorted_sizes)
     if explicit_map:
         all_sizes.update(explicit_map.keys())
 
     int_sizes = []
     for s in all_sizes:
         try:
-            int_sizes.append(int(float(s.replace(',', '.'))))
+            first = s.split('/')[0].split('-')[0].strip()
+            int_sizes.append(int(float(first.replace(',', '.'))))
         except ValueError:
             pass
 
@@ -1899,7 +1899,8 @@ def build_product_size_chart(
 
     def parse_size_key(s):
         try:
-            return float(s.replace(',', '.'))
+            first = s.split('/')[0].split('-')[0].strip()
+            return float(first.replace(',', '.'))
         except ValueError:
             return 999.0
 
@@ -1910,8 +1911,12 @@ def build_product_size_chart(
             continue
         cm = explicit_map.get(s) or brand_grid.get(s)
         if not cm:
-            int_s = str(int(float(s.replace(',', '.'))))
-            cm = brand_grid.get(int_s) or DEFAULT_UNISEX_GRID.get(int_s, '26.0')
+            try:
+                first = s.split('/')[0].split('-')[0].strip()
+                int_s = str(int(float(first.replace(',', '.'))))
+                cm = brand_grid.get(int_s) or DEFAULT_UNISEX_GRID.get(int_s, '26.0')
+            except ValueError:
+                cm = '26.0'
         is_avail = feed_sizes.get(s, s in sorted_sizes)
         chart.append({
             'size': s,

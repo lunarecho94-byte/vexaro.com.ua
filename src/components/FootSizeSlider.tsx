@@ -45,10 +45,16 @@ function formatCm(num: number): string {
 function parseCm(val: string | number | undefined, size: string): number {
   if (val !== undefined && val !== null) {
     const parsed = typeof val === 'number' ? val : parseFloat(String(val).replace(',', '.'));
-    if (!isNaN(parsed) && parsed > 0) return parsed;
+    if (!isNaN(parsed) && parsed > 0 && parsed < 40) return parsed;
   }
-  const cleanSize = size.replace(/[^\d.]/g, '');
-  return GENERAL_CM_MAP[cleanSize] || (cleanSize ? parseFloat(cleanSize) * 0.65 : 26.0);
+  const firstPart = size.split(/[\/\-]/)[0] || '';
+  const cleanSize = firstPart.replace(/[^\d.]/g, '');
+  if (GENERAL_CM_MAP[cleanSize]) return GENERAL_CM_MAP[cleanSize];
+  const num = parseFloat(cleanSize);
+  if (!isNaN(num) && num >= 30 && num <= 52) {
+    return 22.0 + (num - 35) * 0.5;
+  }
+  return 26.0;
 }
 
 export function FootSizeSlider({

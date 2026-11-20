@@ -173689,6 +173689,11 @@
         "available": true
       },
       {
+        "size": "45/46",
+        "cm": "29.0",
+        "available": true
+      },
+      {
         "size": "45",
         "cm": "29.0",
         "available": false
@@ -173713,6 +173718,107 @@
     "seo": {
       "title": "H042 (арт. H042) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте H042 (арт. H042) за 1350 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "168381",
+    "slug": "h041-h041",
+    "name": "H041",
+    "brand": "Інші бренди",
+    "brandSlug": "other",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "men",
+    "genderName": "Чоловічі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 1450,
+    "oldPrice": 2417,
+    "costPrice": 950,
+    "sku": "H041",
+    "material": "Гума",
+    "country": "В'єтнам",
+    "sizes": [
+      "43",
+      "44",
+      "45/46"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": false
+      },
+      {
+        "size": "39",
+        "cm": "24.5",
+        "available": false
+      },
+      {
+        "size": "40",
+        "cm": "25.0",
+        "available": false
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": false
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": true
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": true
+      },
+      {
+        "size": "45/46",
+        "cm": "29.0",
+        "available": true
+      },
+      {
+        "size": "45",
+        "cm": "29.0",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      },
+      {
+        "size": "47",
+        "cm": "30.0",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/46f4b10a-7c1a-47c3-8791-7bb477f817c4.jpeg"
+    ],
+    "description": "Модель: H041. Артикул: H041. Матеріал: Гума. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "H041 (арт. H041) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте H041 (арт. H041) за 1450 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -214280,6 +214386,11 @@
         "available": true
       },
       {
+        "size": "45/46",
+        "cm": "29.0",
+        "available": false
+      },
+      {
         "size": "45",
         "cm": "29.0",
         "available": false
@@ -216605,6 +216716,112 @@
     "seo": {
       "title": "Nike V2K Run Premium Light Bone Viotech (арт. N00196) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Nike V2K Run Premium Light Bone Viotech (арт. N00196) за 2550 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "119561",
+    "slug": "nike-acg-mountain-fly-2-white-gore-tex-n00195",
+    "name": "Nike ACG Mountain Fly 2 White Gore-Tex",
+    "brand": "Nike",
+    "brandSlug": "nike",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "men",
+    "genderName": "Чоловічі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 2550,
+    "oldPrice": 4250,
+    "costPrice": 2050,
+    "sku": "N00195",
+    "material": "Текстиль",
+    "country": "-",
+    "sizes": [
+      "39",
+      "42.5",
+      "45"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "37,5",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": false
+      },
+      {
+        "size": "39",
+        "cm": "24.5",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.0",
+        "available": false
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": false
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "42.5",
+        "cm": "26.5",
+        "available": true
+      },
+      {
+        "size": "42,5",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "29.0",
+        "available": true
+      },
+      {
+        "size": "46",
+        "cm": "30.0",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/5f1592ce-0ed3-490e-8599-fa35d3b976a2.jpeg"
+    ],
+    "description": "Модель: Nike ACG Mountain Fly 2 White Gore-Tex. Артикул: N00195. Матеріал: Текстиль. Сезон: Демісезон. Виробництво: -. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Nike ACG Mountain Fly 2 White Gore-Tex (арт. N00195) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Nike ACG Mountain Fly 2 White Gore-Tex (арт. N00195) за 2550 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
