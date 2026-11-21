@@ -275,11 +275,6 @@
     ],
     "sizeChart": [
       {
-        "size": "40",
-        "cm": "25.5",
-        "available": false
-      },
-      {
         "size": "41",
         "cm": "26.0",
         "available": true
@@ -350,11 +345,6 @@
         ],
         "sizeChart": [
           {
-            "size": "40",
-            "cm": "25.5",
-            "available": false
-          },
-          {
             "size": "41",
             "cm": "26.0",
             "available": true
@@ -409,11 +399,6 @@
         ],
         "sizeChart": [
           {
-            "size": "40",
-            "cm": "25.5",
-            "available": false
-          },
-          {
             "size": "41",
             "cm": "26.0",
             "available": true
@@ -467,11 +452,6 @@
           "44"
         ],
         "sizeChart": [
-          {
-            "size": "40",
-            "cm": "25.5",
-            "available": false
-          },
           {
             "size": "41",
             "cm": "26.0",
@@ -535,23 +515,10 @@
       "38",
       "39"
     ],
-    "inStock": true,
-    "images": [
-      "/images/products/adidas-campus-00s-grey-white-gum-khutro-0705v/img-1.jpg",
-      "/images/products/adidas-campus-00s-grey-white-gum-khutro-0705v/img-2.jpg",
-      "/images/products/adidas-campus-00s-grey-white-gum-khutro-0705v/img-3.jpg",
-      "/images/products/adidas-campus-00s-grey-white-gum-khutro-0705v/img-4.jpg"
-    ],
-    "description": "Зимові кросівки Adidas Campus 00s Grey White Gum (хутро) у трендовому сірому забарвленні (артикул: 0705V). Верх виконаний із преміальної натуральної замші світло-сірого кольору з контрастними білими шкіряними смужками, всередині — щільне тепле світле хутро для комфорту та збереження тепла в холодні дні. Масивний силует 00s із широкими білими шнурками, вінтажною підошвою та зносостійким гумовим протектором кольору Gum. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Adidas Campus 00s Grey White Gum (хутро) (арт. 0705V) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте зимові кросівки Adidas Campus 00s Grey White Gum (хутро) (арт. 0705V) за 2500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    },
-    "isHit": true,
     "sizeChart": [
       {
         "size": "36",
-        "cm": "22.5",
+        "cm": "23.0",
         "available": false
       },
       {
@@ -576,10 +543,23 @@
       },
       {
         "size": "41",
-        "cm": "26.0",
+        "cm": "25.5",
         "available": false
       }
-    ]
+    ],
+    "inStock": true,
+    "images": [
+      "/images/products/adidas-campus-00s-grey-white-gum-khutro-0705v/img-1.jpg",
+      "/images/products/adidas-campus-00s-grey-white-gum-khutro-0705v/img-2.jpg",
+      "/images/products/adidas-campus-00s-grey-white-gum-khutro-0705v/img-3.jpg",
+      "/images/products/adidas-campus-00s-grey-white-gum-khutro-0705v/img-4.jpg"
+    ],
+    "description": "Зимові кросівки Adidas Campus 00s Grey White Gum (хутро) у трендовому сірому забарвленні (артикул: 0705V). Верх виконаний із преміальної натуральної замші світло-сірого кольору з контрастними білими шкіряними смужками, всередині — щільне тепле світле хутро для комфорту та збереження тепла в холодні дні. Масивний силует 00s із широкими білими шнурками, вінтажною підошвою та зносостійким гумовим протектором кольору Gum. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Adidas Campus 00s Grey White Gum (хутро) (арт. 0705V) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте зимові кросівки Adidas Campus 00s Grey White Gum (хутро) (арт. 0705V) за 2500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    },
+    "isHit": true
   },
   {
     "id": "269045",
@@ -605,45 +585,7 @@
       "44",
       "45"
     ],
-    "inStock": true,
-    "images": [
-      "/images/products/adidas-campus-grey-khutro-as045/img-1.jpg",
-      "/images/products/adidas-campus-grey-khutro-as045/img-2.jpg",
-      "/images/products/adidas-campus-grey-khutro-as045/img-3.jpg",
-      "/images/products/adidas-campus-grey-khutro-as045/img-4.jpg"
-    ],
-    "description": "Зимові кросівки Adidas Campus Grey (хутро) у практичному сірому забарвленні (артикул: AS-045). Верх виконаний із натуральної замші високої якості, всередині — щільне тепле хутро для комфорту в морозну погоду. Класичний силует 00s із масивними шнурками та зносостійкою гумовою підошвою. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Adidas Campus Grey (хутро) (арт. AS-045) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте зимові кросівки Adidas Campus Grey (хутро) (арт. AS-045) за 2500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    },
-    "isHit": false,
     "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.0",
-        "available": false
-      },
       {
         "size": "41",
         "cm": "26.0",
@@ -666,15 +608,28 @@
       },
       {
         "size": "45",
-        "cm": "28.5",
+        "cm": "29.0",
         "available": true
       },
       {
         "size": "46",
-        "cm": "29.0",
+        "cm": "29.5",
         "available": false
       }
-    ]
+    ],
+    "inStock": true,
+    "images": [
+      "/images/products/adidas-campus-grey-khutro-as045/img-1.jpg",
+      "/images/products/adidas-campus-grey-khutro-as045/img-2.jpg",
+      "/images/products/adidas-campus-grey-khutro-as045/img-3.jpg",
+      "/images/products/adidas-campus-grey-khutro-as045/img-4.jpg"
+    ],
+    "description": "Зимові кросівки Adidas Campus Grey (хутро) у практичному сірому забарвленні (артикул: AS-045). Верх виконаний із натуральної замші високої якості, всередині — щільне тепле хутро для комфорту в морозну погоду. Класичний силует 00s із масивними шнурками та зносостійкою гумовою підошвою. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Adidas Campus Grey (хутро) (арт. AS-045) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте зимові кросівки Adidas Campus Grey (хутро) (арт. AS-045) за 2500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    },
+    "isHit": false
   },
   {
     "id": "260449",
@@ -6938,11 +6893,6 @@
     ],
     "sizeChart": [
       {
-        "size": "40",
-        "cm": "25.5",
-        "available": false
-      },
-      {
         "size": "41",
         "cm": "26.0",
         "available": true
@@ -7876,32 +7826,13 @@
       "37",
       "38",
       "39",
-      "40",
       "41",
       "42",
       "43",
       "44",
       "45"
     ],
-    "inStock": true,
-    "images": [
-      "/images/products/nike-jordan-4-white-cement-khutro-2113/img-1.jpg",
-      "/images/products/nike-jordan-4-white-cement-khutro-2113/img-2.jpg",
-      "/images/products/nike-jordan-4-white-cement-khutro-2113/img-3.jpg",
-      "/images/products/nike-jordan-4-white-cement-khutro-2113/img-4.jpg"
-    ],
-    "description": "Модель: Nike Jordan 4 White Cement ХУТРО. Артикул: 2113. Матеріал: Шкіра, хутро. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Nike Jordan 4 White Cement ХУТРО (арт. 2113) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Nike Jordan 4 White Cement ХУТРО (арт. 2113) за 3300 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    },
-    "isHit": false,
     "sizeChart": [
-      {
-        "size": "36",
-        "cm": "23.0",
-        "available": false
-      },
       {
         "size": "37",
         "cm": "23.5",
@@ -7920,7 +7851,7 @@
       {
         "size": "40",
         "cm": "25.0",
-        "available": true
+        "available": false
       },
       {
         "size": "41",
@@ -7946,13 +7877,21 @@
         "size": "45",
         "cm": "29.0",
         "available": true
-      },
-      {
-        "size": "46",
-        "cm": "30.0",
-        "available": false
       }
-    ]
+    ],
+    "inStock": true,
+    "images": [
+      "/images/products/nike-jordan-4-white-cement-khutro-2113/img-1.jpg",
+      "/images/products/nike-jordan-4-white-cement-khutro-2113/img-2.jpg",
+      "/images/products/nike-jordan-4-white-cement-khutro-2113/img-3.jpg",
+      "/images/products/nike-jordan-4-white-cement-khutro-2113/img-4.jpg"
+    ],
+    "description": "Модель: Nike Jordan 4 White Cement ХУТРО. Артикул: 2113. Матеріал: Шкіра, хутро. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Nike Jordan 4 White Cement ХУТРО (арт. 2113) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Nike Jordan 4 White Cement ХУТРО (арт. 2113) за 3300 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    },
+    "isHit": false
   },
   {
     "id": "257973",
@@ -7973,45 +7912,13 @@
     "material": "Нубук, хутро",
     "country": "В'єтнам",
     "sizes": [
-      "37",
-      "38",
       "39",
-      "40",
-      "41",
       "42",
       "43",
       "44",
       "45"
     ],
-    "inStock": true,
-    "images": [
-      "/images/products/nike-jordan-4-black-cat-khutro-2112/img-1.jpg",
-      "/images/products/nike-jordan-4-black-cat-khutro-2112/img-2.jpg",
-      "/images/products/nike-jordan-4-black-cat-khutro-2112/img-3.jpg",
-      "/images/products/nike-jordan-4-black-cat-khutro-2112/img-4.jpg"
-    ],
-    "description": "Модель: Nike Jordan 4 Black Cat ХУТРО. Артикул: 2112. Матеріал: Нубук, хутро. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Nike Jordan 4 Black Cat ХУТРО (арт. 2112) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Nike Jordan 4 Black Cat ХУТРО (арт. 2112) за 3100 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    },
-    "isHit": false,
     "sizeChart": [
-      {
-        "size": "36",
-        "cm": "23.0",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": true
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": true
-      },
       {
         "size": "39",
         "cm": "24.5",
@@ -8020,12 +7927,12 @@
       {
         "size": "40",
         "cm": "25.0",
-        "available": true
+        "available": false
       },
       {
         "size": "41",
         "cm": "26.0",
-        "available": true
+        "available": false
       },
       {
         "size": "42",
@@ -8046,13 +7953,21 @@
         "size": "45",
         "cm": "29.0",
         "available": true
-      },
-      {
-        "size": "46",
-        "cm": "30.0",
-        "available": false
       }
-    ]
+    ],
+    "inStock": true,
+    "images": [
+      "/images/products/nike-jordan-4-black-cat-khutro-2112/img-1.jpg",
+      "/images/products/nike-jordan-4-black-cat-khutro-2112/img-2.jpg",
+      "/images/products/nike-jordan-4-black-cat-khutro-2112/img-3.jpg",
+      "/images/products/nike-jordan-4-black-cat-khutro-2112/img-4.jpg"
+    ],
+    "description": "Модель: Nike Jordan 4 Black Cat ХУТРО. Артикул: 2112. Матеріал: Нубук, хутро. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Nike Jordan 4 Black Cat ХУТРО (арт. 2112) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Nike Jordan 4 Black Cat ХУТРО (арт. 2112) за 3100 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    },
+    "isHit": false
   },
   {
     "id": "257845",
@@ -13425,11 +13340,42 @@
     "country": "В'єтнам",
     "sizes": [
       "36",
-      "37",
       "38",
       "39",
       "40",
       "41"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "23.0",
+        "available": true
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      }
     ],
     "inStock": true,
     "images": [
@@ -13443,39 +13389,7 @@
       "title": "Adidas Campus 00s Grey White (хутро) (арт. 5188) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте зимові кросівки Adidas Campus 00s Grey White (хутро) (арт. 5188) за 2500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     },
-    "isHit": true,
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": true
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": true
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": true
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": true
-      },
-      {
-        "size": "40",
-        "cm": "25.0",
-        "available": true
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      }
-    ]
+    "isHit": true
   },
   {
     "id": "256187",
@@ -13502,23 +13416,10 @@
       "39",
       "41"
     ],
-    "inStock": true,
-    "images": [
-      "/images/products/adidas-campus-00s-grey-black-khutro-5187/img-1.jpg",
-      "/images/products/adidas-campus-00s-grey-black-khutro-5187/img-2.jpg",
-      "/images/products/adidas-campus-00s-grey-black-khutro-5187/img-3.jpg",
-      "/images/products/adidas-campus-00s-grey-black-khutro-5187/img-4.jpg"
-    ],
-    "description": "Зимові кросівки Adidas Campus 00s Grey Black (хутро) у стильному контрастному сіро-чорному забарвленні (артикул: 5187). Верх виконаний із натуральної замші благородного сірого кольору з чорними шкіряними смужками та чорною масивною підошвою. Всередині — густе тепле біле хутро для максимального захисту від холоду взимку. Культовий силует 00s із широкими чорними шнурками та комфортною посадкою на кожен день. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Adidas Campus 00s Grey Black (хутро) (арт. 5187) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте зимові кросівки Adidas Campus 00s Grey Black (хутро) (арт. 5187) за 2500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    },
-    "isHit": true,
     "sizeChart": [
       {
         "size": "36",
-        "cm": "22.5",
+        "cm": "23.0",
         "available": true
       },
       {
@@ -13533,12 +13434,12 @@
       },
       {
         "size": "39",
-        "cm": "24.5",
+        "cm": "25.0",
         "available": true
       },
       {
         "size": "40",
-        "cm": "25.0",
+        "cm": "25.5",
         "available": false
       },
       {
@@ -13546,7 +13447,20 @@
         "cm": "26.0",
         "available": true
       }
-    ]
+    ],
+    "inStock": true,
+    "images": [
+      "/images/products/adidas-campus-00s-grey-black-khutro-5187/img-1.jpg",
+      "/images/products/adidas-campus-00s-grey-black-khutro-5187/img-2.jpg",
+      "/images/products/adidas-campus-00s-grey-black-khutro-5187/img-3.jpg",
+      "/images/products/adidas-campus-00s-grey-black-khutro-5187/img-4.jpg"
+    ],
+    "description": "Зимові кросівки Adidas Campus 00s Grey Black (хутро) у стильному контрастному сіро-чорному забарвленні (артикул: 5187). Верх виконаний із натуральної замші благородного сірого кольору з чорними шкіряними смужками та чорною масивною підошвою. Всередині — густе тепле біле хутро для максимального захисту від холоду взимку. Культовий силует 00s із широкими чорними шнурками та комфортною посадкою на кожен день. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Adidas Campus 00s Grey Black (хутро) (арт. 5187) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте зимові кросівки Adidas Campus 00s Grey Black (хутро) (арт. 5187) за 2500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    },
+    "isHit": true
   },
   {
     "id": "256174",
@@ -13567,10 +13481,41 @@
     "material": "Натуральна замша, хутро",
     "country": "В'єтнам",
     "sizes": [
-      "37",
       "38",
       "40",
       "41"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "23.0",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": false
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      }
     ],
     "inStock": true,
     "images": [
@@ -13584,39 +13529,7 @@
       "title": "Adidas Campus 00s Beige Black (хутро) (арт. 5174) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте зимові кросівки Adidas Campus 00s Beige Black (хутро) (арт. 5174) за 2500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     },
-    "isHit": true,
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": true
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": true
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.0",
-        "available": true
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      }
-    ]
+    "isHit": true
   },
   {
     "id": "256044",
@@ -18374,19 +18287,6 @@
       "39",
       "40"
     ],
-    "inStock": true,
-    "images": [
-      "/images/products/ugg-ultra-mini-chocolate-brown-suede-1705/img-1.jpg",
-      "/images/products/ugg-ultra-mini-chocolate-brown-suede-1705/img-2.jpg",
-      "/images/products/ugg-ultra-mini-chocolate-brown-suede-1705/img-3.jpg",
-      "/images/products/ugg-ultra-mini-chocolate-brown-suede-1705/img-4.jpg"
-    ],
-    "description": "Жіночі зимові уггі UGG ULTRA MINI CHOCOLATE BROWN SUEDE у насиченому шоколадно-коричневому забарвленні (артикул: 1705). Верх виконаний із якісної натуральної замші з водовідштовхувальним ефектом, всередині — густе тепле натуральне хутро (овчина) для максимального комфорту в зимові холоди. Потовщена підошва-платформа надійно захищає від промерзання та забезпечує м’яку амортизацію при ходьбі. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "UGG ULTRA MINI CHOCOLATE BROWN SUEDE (арт. 1705) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте UGG ULTRA MINI CHOCOLATE BROWN SUEDE (арт. 1705) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    },
-    "isHit": true,
     "sizeChart": [
       {
         "size": "36",
@@ -18418,7 +18318,20 @@
         "cm": "26.0",
         "available": false
       }
-    ]
+    ],
+    "inStock": true,
+    "images": [
+      "/images/products/ugg-ultra-mini-chocolate-brown-suede-1705/img-1.jpg",
+      "/images/products/ugg-ultra-mini-chocolate-brown-suede-1705/img-2.jpg",
+      "/images/products/ugg-ultra-mini-chocolate-brown-suede-1705/img-3.jpg",
+      "/images/products/ugg-ultra-mini-chocolate-brown-suede-1705/img-4.jpg"
+    ],
+    "description": "Жіночі зимові уггі UGG ULTRA MINI CHOCOLATE BROWN SUEDE у насиченому шоколадно-коричневому забарвленні (артикул: 1705). Верх виконаний із якісної натуральної замші з водовідштовхувальним ефектом, всередині — густе тепле натуральне хутро (овчина) для максимального комфорту в зимові холоди. Потовщена підошва-платформа надійно захищає від промерзання та забезпечує м’яку амортизацію при ходьбі. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "UGG ULTRA MINI CHOCOLATE BROWN SUEDE (арт. 1705) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте UGG ULTRA MINI CHOCOLATE BROWN SUEDE (арт. 1705) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    },
+    "isHit": true
   },
   {
     "id": "254776",
@@ -18439,51 +18352,18 @@
     "material": "Шкіра, текстиль",
     "country": "В'єтнам",
     "sizes": [
-      "40",
       "41",
       "42",
       "43",
       "44",
-      "45"
+      "45",
+      "46"
     ],
-    "inStock": true,
-    "images": [
-      "/images/products/nike-air-max-plus-tn-black-teal-yellow-a5689/img-1.jpg",
-      "/images/products/nike-air-max-plus-tn-black-teal-yellow-a5689/img-2.jpg",
-      "/images/products/nike-air-max-plus-tn-black-teal-yellow-a5689/img-3.jpg",
-      "/images/products/nike-air-max-plus-tn-black-teal-yellow-a5689/img-4.jpg"
-    ],
-    "description": "Легендарні чоловічі кросівки Nike Air Max Plus Tn у рідкісному контрастному забарвленні Black Teal Yellow (артикул: А5689). Верх виконаний із дихаючої сітки чорного кольору з градієнтними вставками бірюзового (Teal) та золотисто-жовтого (University Gold) кольорів. Фірмова підошва з технологією Tuned Air забезпечує максимальну амортизацію та комфорт протягом усього дня. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Nike Air Max Plus Tn Black Teal Yellow (арт. А5689) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Nike Air Max Plus Tn Black Teal Yellow (арт. А5689) за 2500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    },
-    "isHit": false,
     "sizeChart": [
       {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": false
-      },
-      {
         "size": "40",
-        "cm": "25.0",
-        "available": true
+        "cm": "25.5",
+        "available": false
       },
       {
         "size": "41",
@@ -18507,15 +18387,28 @@
       },
       {
         "size": "45",
-        "cm": "29.0",
+        "cm": "28.5",
         "available": true
       },
       {
         "size": "46",
-        "cm": "30.0",
-        "available": false
+        "cm": "29.0",
+        "available": true
       }
-    ]
+    ],
+    "inStock": true,
+    "images": [
+      "/images/products/nike-air-max-plus-tn-black-teal-yellow-a5689/img-1.jpg",
+      "/images/products/nike-air-max-plus-tn-black-teal-yellow-a5689/img-2.jpg",
+      "/images/products/nike-air-max-plus-tn-black-teal-yellow-a5689/img-3.jpg",
+      "/images/products/nike-air-max-plus-tn-black-teal-yellow-a5689/img-4.jpg"
+    ],
+    "description": "Легендарні чоловічі кросівки Nike Air Max Plus Tn у рідкісному контрастному забарвленні Black Teal Yellow (артикул: А5689). Верх виконаний із дихаючої сітки чорного кольору з градієнтними вставками бірюзового (Teal) та золотисто-жовтого (University Gold) кольорів. Фірмова підошва з технологією Tuned Air забезпечує максимальну амортизацію та комфорт протягом усього дня. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Nike Air Max Plus Tn Black Teal Yellow (арт. А5689) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Nike Air Max Plus Tn Black Teal Yellow (арт. А5689) за 2500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    },
+    "isHit": false
   },
   {
     "id": "254598",
@@ -27333,11 +27226,6 @@
       "45"
     ],
     "sizeChart": [
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": false
-      },
       {
         "size": "41",
         "cm": "26.0",
@@ -167776,43 +167664,7 @@
       "44",
       "45"
     ],
-    "inStock": true,
-    "images": [
-      "/images/products/ad186/img-1.jpg",
-      "https://easydrop.one/media/uploads/images/itemimage_18225/3a3ba61d-6375-4a1a-87b0-f154717e6442.webp"
-    ],
-    "description": "Зимові кросівки Adidas Campus 00s Core Black Gum (хутро) у трендовому забарвленні (артикул: AD-186). Верх виконаний із якісної натуральної замші глибокого чорного кольору з широкими білими смужками, всередині — щільне тепле світле хутро для максимального комфорту в морозну погоду. Вінтажна кремова підошва з чіпким гумовим протектором кольору Gum. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Adidas Campus 00s Core Black Gum (хутро) (арт. AD-186) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте зимові кросівки Adidas Campus 00s Core Black Gum (хутро) (арт. AD-186) за 2500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    },
-    "isHit": true,
     "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.0",
-        "available": false
-      },
       {
         "size": "41",
         "cm": "26.0",
@@ -167843,7 +167695,18 @@
         "cm": "29.0",
         "available": false
       }
-    ]
+    ],
+    "inStock": true,
+    "images": [
+      "/images/products/ad186/img-1.jpg",
+      "https://easydrop.one/media/uploads/images/itemimage_18225/3a3ba61d-6375-4a1a-87b0-f154717e6442.webp"
+    ],
+    "description": "Зимові кросівки Adidas Campus 00s Core Black Gum (хутро) у трендовому забарвленні (артикул: AD-186). Верх виконаний із якісної натуральної замші глибокого чорного кольору з широкими білими смужками, всередині — щільне тепле світле хутро для максимального комфорту в морозну погоду. Вінтажна кремова підошва з чіпким гумовим протектором кольору Gum. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Adidas Campus 00s Core Black Gum (хутро) (арт. AD-186) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте зимові кросівки Adidas Campus 00s Core Black Gum (хутро) (арт. AD-186) за 2500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    },
+    "isHit": true
   },
   {
     "id": "181949",
@@ -198296,42 +198159,7 @@
       "43",
       "44"
     ],
-    "inStock": true,
-    "images": [
-      "/images/products/ks2227/img-1.jpg"
-    ],
-    "description": "Зимові кросівки Adidas Campus 00s Green (хутро) у стильному темно-зеленому забарвленні (артикул: KS 2227). Верх виготовлений із високоякісної натуральної замші смарагдово-зеленого кольору з контрастними білими шкіряними смужками, всередині — щільне тепле хутро для збереження тепла в зимову пору. Культовий дутий силует у стилі нульових із широкими білими шнурками та міцною підошвою. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Adidas Campus 00s Green (хутро) (арт. KS 2227) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте зимові кросівки Adidas Campus 00s Green (хутро) (арт. KS 2227) за 2500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    },
-    "isHit": true,
     "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.0",
-        "available": false
-      },
       {
         "size": "41",
         "cm": "26.0",
@@ -198362,7 +198190,17 @@
         "cm": "29.0",
         "available": false
       }
-    ]
+    ],
+    "inStock": true,
+    "images": [
+      "/images/products/ks2227/img-1.jpg"
+    ],
+    "description": "Зимові кросівки Adidas Campus 00s Green (хутро) у стильному темно-зеленому забарвленні (артикул: KS 2227). Верх виготовлений із високоякісної натуральної замші смарагдово-зеленого кольору з контрастними білими шкіряними смужками, всередині — щільне тепле хутро для збереження тепла в зимову пору. Культовий дутий силует у стилі нульових із широкими білими шнурками та міцною підошвою. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Adidas Campus 00s Green (хутро) (арт. KS 2227) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте зимові кросівки Adidas Campus 00s Green (хутро) (арт. KS 2227) за 2500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    },
+    "isHit": true
   },
   {
     "id": "152204",
@@ -198389,44 +198227,7 @@
       "44",
       "45"
     ],
-    "inStock": true,
-    "images": [
-      "/images/products/ks2204/img-1.jpg",
-      "/images/products/ks2204/img-2.jpg",
-      "/images/products/ks2204/img-3.jpg"
-    ],
-    "description": "Зимові кросівки Adidas Campus 00s Black White (хутро) у класичному чорно-білому забарвленні (артикул: KS 2204). Верх виготовлений із преміальної натуральної замші глибокого чорного кольору з культовими білими смужками, всередині — щільне тепле хутро для надійного захисту від холоду. Масивний силует нульових 00s із широкими шнурками та зносостійкою білою підошвою. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Adidas Campus 00s Black White (хутро) (арт. KS 2204) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте зимові кросівки Adidas Campus 00s Black White (хутро) (арт. KS 2204) за 2500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    },
-    "isHit": true,
     "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.0",
-        "available": false
-      },
       {
         "size": "41",
         "cm": "26.0",
@@ -198457,7 +198258,19 @@
         "cm": "29.0",
         "available": false
       }
-    ]
+    ],
+    "inStock": true,
+    "images": [
+      "/images/products/ks2204/img-1.jpg",
+      "/images/products/ks2204/img-2.jpg",
+      "/images/products/ks2204/img-3.jpg"
+    ],
+    "description": "Зимові кросівки Adidas Campus 00s Black White (хутро) у класичному чорно-білому забарвленні (артикул: KS 2204). Верх виготовлений із преміальної натуральної замші глибокого чорного кольору з культовими білими смужками, всередині — щільне тепле хутро для надійного захисту від холоду. Масивний силует нульових 00s із широкими шнурками та зносостійкою білою підошвою. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Adidas Campus 00s Black White (хутро) (арт. KS 2204) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте зимові кросівки Adidas Campus 00s Black White (хутро) (арт. KS 2204) за 2500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    },
+    "isHit": true
   },
   {
     "id": "152138",
@@ -205588,50 +205401,12 @@
     "country": "В'єтнам",
     "sizes": [
       "40",
-      "41",
       "42",
       "43",
       "44",
       "45"
     ],
-    "inStock": true,
-    "images": [
-      "/images/products/nike-air-max-plus-tn-lace-toggle-white-black/img-1.jpg",
-      "/images/products/nike-air-max-plus-tn-lace-toggle-white-black/img-2.jpg",
-      "/images/products/nike-air-max-plus-tn-lace-toggle-white-black/img-3.jpg",
-      "/images/products/nike-air-max-plus-tn-lace-toggle-white-black/img-4.jpg",
-      "/images/products/nike-air-max-plus-tn-lace-toggle-white-black/img-5.jpg",
-      "/images/products/nike-air-max-plus-tn-lace-toggle-white-black/img-6.jpg",
-      "/images/products/nike-air-max-plus-tn-lace-toggle-white-black/img-7.jpg",
-      "/images/products/nike-air-max-plus-tn-lace-toggle-white-black/img-8.jpg"
-    ],
-    "description": "Культові чоловічі кросівки Nike Air Max Plus TN Lace Toggle у фірмовому забарвленні White Black / Metallic Silver (артикул: 2002, офіційний стиль-код: FD0799-001). Особливістю моделі є система швидкої шнурівки з надійним фіксатором (toggle), світловідбиваючий принт 3M на дихаючій сітці та преміальні сріблясті накладки. Легендарна підошва Tuned Air (TN) із блакитними балонами забезпечує амортизацію та комфорт найвищого рівня. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Nike Air Max Plus TN Lace Toggle White Black (арт. 2002) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте кросівки Nike Air Max Plus TN Lace Toggle White Black (арт. 2002 / FD0799-001) за 2450 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    },
-    "isHit": false,
     "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": false
-      },
       {
         "size": "40",
         "cm": "25.0",
@@ -205640,7 +205415,7 @@
       {
         "size": "41",
         "cm": "26.0",
-        "available": true
+        "available": false
       },
       {
         "size": "42",
@@ -205661,13 +205436,25 @@
         "size": "45",
         "cm": "29.0",
         "available": true
-      },
-      {
-        "size": "46",
-        "cm": "30.0",
-        "available": false
       }
-    ]
+    ],
+    "inStock": true,
+    "images": [
+      "/images/products/nike-air-max-plus-tn-lace-toggle-white-black/img-1.jpg",
+      "/images/products/nike-air-max-plus-tn-lace-toggle-white-black/img-2.jpg",
+      "/images/products/nike-air-max-plus-tn-lace-toggle-white-black/img-3.jpg",
+      "/images/products/nike-air-max-plus-tn-lace-toggle-white-black/img-4.jpg",
+      "/images/products/nike-air-max-plus-tn-lace-toggle-white-black/img-5.jpg",
+      "/images/products/nike-air-max-plus-tn-lace-toggle-white-black/img-6.jpg",
+      "/images/products/nike-air-max-plus-tn-lace-toggle-white-black/img-7.jpg",
+      "/images/products/nike-air-max-plus-tn-lace-toggle-white-black/img-8.jpg"
+    ],
+    "description": "Культові чоловічі кросівки Nike Air Max Plus TN Lace Toggle у фірмовому забарвленні White Black / Metallic Silver (артикул: 2002, офіційний стиль-код: FD0799-001). Особливістю моделі є система швидкої шнурівки з надійним фіксатором (toggle), світловідбиваючий принт 3M на дихаючій сітці та преміальні сріблясті накладки. Легендарна підошва Tuned Air (TN) із блакитними балонами забезпечує амортизацію та комфорт найвищого рівня. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Nike Air Max Plus TN Lace Toggle White Black (арт. 2002) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте кросівки Nike Air Max Plus TN Lace Toggle White Black (арт. 2002 / FD0799-001) за 2450 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    },
+    "isHit": false
   },
   {
     "id": "145779",
@@ -218938,20 +218725,10 @@
       "40",
       "41"
     ],
-    "inStock": true,
-    "images": [
-      "/images/products/r339/img-1.jpg"
-    ],
-    "description": "Зимові кросівки Adidas Campus 00s White Black (хутро) у класичному забарвленні (артикул: R339). Верх виготовлений із якісної натуральної шкіри білого кольору з контрастними чорними шкіряними смужками та чорним задником. Всередині — щільне тепле біле хутро для максимального комфорту та збереження тепла в холодну пору. Класичний силует 00s із масивними білими шнурками та міцною підошвою. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Adidas Campus 00s White Black (хутро) (арт. R339) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте зимові кросівки Adidas Campus 00s White Black (хутро) (арт. R339) за 2500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    },
-    "isHit": true,
     "sizeChart": [
       {
         "size": "36",
-        "cm": "22.5",
+        "cm": "23.0",
         "available": false
       },
       {
@@ -218966,12 +218743,12 @@
       },
       {
         "size": "39",
-        "cm": "24.5",
+        "cm": "25.0",
         "available": true
       },
       {
         "size": "40",
-        "cm": "25.0",
+        "cm": "25.5",
         "available": true
       },
       {
@@ -218979,7 +218756,17 @@
         "cm": "26.0",
         "available": true
       }
-    ]
+    ],
+    "inStock": true,
+    "images": [
+      "/images/products/r339/img-1.jpg"
+    ],
+    "description": "Зимові кросівки Adidas Campus 00s White Black (хутро) у класичному забарвленні (артикул: R339). Верх виготовлений із якісної натуральної шкіри білого кольору з контрастними чорними шкіряними смужками та чорним задником. Всередині — щільне тепле біле хутро для максимального комфорту та збереження тепла в холодну пору. Класичний силует 00s із масивними білими шнурками та міцною підошвою. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Adidas Campus 00s White Black (хутро) (арт. R339) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте зимові кросівки Adidas Campus 00s White Black (хутро) (арт. R339) за 2500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    },
+    "isHit": true
   },
   {
     "id": "122338",
@@ -219006,20 +218793,10 @@
       "40",
       "41"
     ],
-    "inStock": true,
-    "images": [
-      "/images/products/r338/img-1.jpg"
-    ],
-    "description": "Зимові кросівки Adidas Campus 00s White Grey (хутро) у свіжому біло-сірому забарвленні (артикул: R338). Верх виготовлений із високоякісної натуральної шкіри білого кольору зі світло-сірими фірмовими смужками, всередині — щільне тепле сіре хутро для комфорту та збереження тепла в холодний сезон. Класичний силует 00s із масивними сірими шнурками та міцною підошвою. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Adidas Campus 00s White Grey (хутро) (арт. R338) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте зимові кросівки Adidas Campus 00s White Grey (хутро) (арт. R338) за 2500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    },
-    "isHit": true,
     "sizeChart": [
       {
         "size": "36",
-        "cm": "22.5",
+        "cm": "23.0",
         "available": false
       },
       {
@@ -219034,12 +218811,12 @@
       },
       {
         "size": "39",
-        "cm": "24.5",
+        "cm": "25.0",
         "available": true
       },
       {
         "size": "40",
-        "cm": "25.0",
+        "cm": "25.5",
         "available": true
       },
       {
@@ -219047,7 +218824,17 @@
         "cm": "26.0",
         "available": true
       }
-    ]
+    ],
+    "inStock": true,
+    "images": [
+      "/images/products/r338/img-1.jpg"
+    ],
+    "description": "Зимові кросівки Adidas Campus 00s White Grey (хутро) у свіжому біло-сірому забарвленні (артикул: R338). Верх виготовлений із високоякісної натуральної шкіри білого кольору зі світло-сірими фірмовими смужками, всередині — щільне тепле сіре хутро для комфорту та збереження тепла в холодний сезон. Класичний силует 00s із масивними сірими шнурками та міцною підошвою. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Adidas Campus 00s White Grey (хутро) (арт. R338) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте зимові кросівки Adidas Campus 00s White Grey (хутро) (арт. R338) за 2500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    },
+    "isHit": true
   },
   {
     "id": "122182",
@@ -220627,14 +220414,14 @@
         "available": false
       },
       {
-        "size": "42,5",
-        "cm": "26.5",
-        "available": false
-      },
-      {
         "size": "42.5",
         "cm": "26.5",
         "available": true
+      },
+      {
+        "size": "42,5",
+        "cm": "26.5",
+        "available": false
       },
       {
         "size": "43",
@@ -276393,16 +276180,6 @@
       "38",
       "39"
     ],
-    "inStock": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/6d3396c2-aee6-48b9-8a6c-07ca57ae0883.jpeg"
-    ],
-    "description": "Модель: New Balance 9060 Pink Fur. Артикул: 1037. Матеріал: Замша, хутро / Gore-Tex термо. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "New Balance 9060 Pink Fur (арт. 1037) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте New Balance 9060 Pink Fur (арт. 1037) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    },
-    "isHit": false,
     "sizeChart": [
       {
         "size": "36",
@@ -276434,7 +276211,17 @@
         "cm": "25.5",
         "available": false
       }
-    ]
+    ],
+    "inStock": true,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/6d3396c2-aee6-48b9-8a6c-07ca57ae0883.jpeg"
+    ],
+    "description": "Модель: New Balance 9060 Pink Fur. Артикул: 1037. Матеріал: Замша, хутро / Gore-Tex термо. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "New Balance 9060 Pink Fur (арт. 1037) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте New Balance 9060 Pink Fur (арт. 1037) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    },
+    "isHit": false
   },
   {
     "id": "809",
