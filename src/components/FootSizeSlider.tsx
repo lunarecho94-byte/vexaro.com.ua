@@ -102,7 +102,10 @@ export function FootSizeSlider({
     }
 
     // 2. Filter sizes to the relevant range of this shoe model
-    // E.g. for men's 41-46 shoe, do not include 36-40
+    // If sizeChart is provided, keep all sizes defined in sizeChart plus any available sizes
+    const hasExplicitChart = Boolean(sizeChart && sizeChart.length > 0);
+    const chartSizesSet = new Set(sizeChart?.map((r) => r.size.trim()) || []);
+
     const activeNumerics = availableSizes
       .map((s) => parseFloat(s.replace(',', '.')))
       .filter((n) => !isNaN(n));
@@ -115,8 +118,12 @@ export function FootSizeSlider({
     map.forEach((data, sizeStr) => {
       const num = parseFloat(sizeStr.replace(',', '.'));
       const isNumeric = !isNaN(num);
-      // Keep if within shoe range or if available
-      if (data.isAvailable || (isNumeric && num >= minNum && num <= maxNum)) {
+      // Keep if defined in explicit chart, or if within fallback range or if available
+      const shouldKeep = hasExplicitChart
+        ? chartSizesSet.has(sizeStr) || data.isAvailable
+        : data.isAvailable || (isNumeric && num >= minNum && num <= maxNum);
+
+      if (shouldKeep) {
         list.push({
           size: sizeStr,
           cmRaw: data.cmRaw,

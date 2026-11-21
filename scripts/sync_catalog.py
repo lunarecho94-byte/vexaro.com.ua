@@ -431,7 +431,16 @@ CURATED_PRODUCTS = [
         'sku': 'А5689',
         'material': 'Шкіра, текстиль',
         'country': "В'єтнам",
-        'sizes': ['40', '41', '42', '43', '44', '45'],
+        'sizes': ['41', '42', '43', '44', '45', '46'],
+        'sizeChart': [
+            {'size': '40', 'cm': '25.5', 'available': False},
+            {'size': '41', 'cm': '26.0', 'available': True},
+            {'size': '42', 'cm': '26.5', 'available': True},
+            {'size': '43', 'cm': '27.5', 'available': True},
+            {'size': '44', 'cm': '28.0', 'available': True},
+            {'size': '45', 'cm': '28.5', 'available': True},
+            {'size': '46', 'cm': '29.0', 'available': True},
+        ],
         'inStock': True,
         'images': [
             '/images/products/nike-air-max-plus-tn-black-teal-yellow-a5689/img-1.jpg',
@@ -475,7 +484,6 @@ CURATED_PRODUCTS = [
         'country': "В'єтнам",
         'sizes': ['41', '42', '43', '44', '45'],
         'sizeChart': [
-            {'size': '40', 'cm': '25.5', 'available': False},
             {'size': '41', 'cm': '26.0', 'available': True},
             {'size': '42', 'cm': '26.5', 'available': True},
             {'size': '43', 'cm': '27.5', 'available': True},
@@ -524,7 +532,6 @@ CURATED_PRODUCTS = [
                 'costPrice': 2350,
                 'sizes': ['41', '42', '43', '44', '45'],
                 'sizeChart': [
-                    {'size': '40', 'cm': '25.5', 'available': False},
                     {'size': '41', 'cm': '26.0', 'available': True},
                     {'size': '42', 'cm': '26.5', 'available': True},
                     {'size': '43', 'cm': '27.5', 'available': True},
@@ -550,7 +557,6 @@ CURATED_PRODUCTS = [
                 'costPrice': 2350,
                 'sizes': ['41', '42', '43', '44'],
                 'sizeChart': [
-                    {'size': '40', 'cm': '25.5', 'available': False},
                     {'size': '41', 'cm': '26.0', 'available': True},
                     {'size': '42', 'cm': '26.5', 'available': True},
                     {'size': '43', 'cm': '27.5', 'available': True},
@@ -576,7 +582,6 @@ CURATED_PRODUCTS = [
                 'costPrice': 2350,
                 'sizes': ['41', '42', '43', '44'],
                 'sizeChart': [
-                    {'size': '40', 'cm': '25.5', 'available': False},
                     {'size': '41', 'cm': '26.0', 'available': True},
                     {'size': '42', 'cm': '26.5', 'available': True},
                     {'size': '43', 'cm': '27.5', 'available': True},
@@ -660,7 +665,15 @@ CURATED_PRODUCTS = [
         'sku': '2002',
         'material': 'Текстиль, шкіра, 3M рефлектив',
         'country': "В'єтнам",
-        'sizes': ['40', '41', '42', '43', '44', '45'],
+        'sizes': ['40', '42', '43', '44', '45'],
+        'sizeChart': [
+            {'size': '40', 'cm': '25.0', 'available': True},
+            {'size': '41', 'cm': '26.0', 'available': False},
+            {'size': '42', 'cm': '26.5', 'available': True},
+            {'size': '43', 'cm': '27.5', 'available': True},
+            {'size': '44', 'cm': '28.0', 'available': True},
+            {'size': '45', 'cm': '29.0', 'available': True},
+        ],
         'inStock': True,
         'images': [
             '/images/products/nike-air-max-plus-tn-lace-toggle-white-black/img-1.jpg',
@@ -705,6 +718,14 @@ CURATED_PRODUCTS = [
         'material': 'Замша, хутро / Gore-Tex термо',
         'country': "В'єтнам",
         'sizes': ['37', '38', '39'],
+        'sizeChart': [
+            {'size': '36', 'cm': '22.5', 'available': False},
+            {'size': '37', 'cm': '23.5', 'available': True},
+            {'size': '38', 'cm': '24.0', 'available': True},
+            {'size': '39', 'cm': '24.5', 'available': True},
+            {'size': '40', 'cm': '25.0', 'available': False},
+            {'size': '41', 'cm': '25.5', 'available': False},
+        ],
         'inStock': True,
         'images': [
             'https://easydrop.one/media/uploads/images/base/6d3396c2-aee6-48b9-8a6c-07ca57ae0883.jpeg'
@@ -740,7 +761,16 @@ CURATED_PRODUCTS = [
         'sku': '2112',
         'material': 'Нубук, хутро',
         'country': "В'єтнам",
-        'sizes': ['37', '38', '39', '40', '41', '42', '43', '44', '45'],
+        'sizes': ['39', '42', '43', '44', '45'],
+        'sizeChart': [
+            {'size': '39', 'cm': '24.5', 'available': True},
+            {'size': '40', 'cm': '25.0', 'available': False},
+            {'size': '41', 'cm': '26.0', 'available': False},
+            {'size': '42', 'cm': '26.5', 'available': True},
+            {'size': '43', 'cm': '27.5', 'available': True},
+            {'size': '44', 'cm': '28.0', 'available': True},
+            {'size': '45', 'cm': '29.0', 'available': True},
+        ],
         'inStock': True,
         'images': [
             '/images/products/nike-jordan-4-black-cat-khutro-2112/img-1.jpg',
@@ -773,7 +803,18 @@ CURATED_PRODUCTS = [
         'sku': '2113',
         'material': 'Шкіра, хутро',
         'country': "В'єтнам",
-        'sizes': ['37', '38', '39', '40', '41', '42', '43', '44', '45'],
+        'sizes': ['37', '38', '39', '41', '42', '43', '44', '45'],
+        'sizeChart': [
+            {'size': '37', 'cm': '23.5', 'available': True},
+            {'size': '38', 'cm': '24.0', 'available': True},
+            {'size': '39', 'cm': '24.5', 'available': True},
+            {'size': '40', 'cm': '25.0', 'available': False},
+            {'size': '41', 'cm': '26.0', 'available': True},
+            {'size': '42', 'cm': '26.5', 'available': True},
+            {'size': '43', 'cm': '27.5', 'available': True},
+            {'size': '44', 'cm': '28.0', 'available': True},
+            {'size': '45', 'cm': '29.0', 'available': True},
+        ],
         'inStock': True,
         'images': [
             '/images/products/nike-jordan-4-white-cement-khutro-2113/img-1.jpg',
@@ -808,7 +849,6 @@ CURATED_PRODUCTS = [
         'country': 'Італія',
         'sizes': ['41', '42', '43', '44'],
         'sizeChart': [
-            {'size': '40', 'cm': '25.5', 'available': False},
             {'size': '41', 'cm': '26.0', 'available': True},
             {'size': '42', 'cm': '27.0', 'available': True},
             {'size': '43', 'cm': '27.5', 'available': True},
@@ -856,7 +896,6 @@ CURATED_PRODUCTS = [
         'country': 'Італія',
         'sizes': ['41', '42', '44', '45'],
         'sizeChart': [
-            {'size': '40', 'cm': '25.5', 'available': False},
             {'size': '41', 'cm': '26.0', 'available': True},
             {'size': '42', 'cm': '27.0', 'available': True},
             {'size': '43', 'cm': '27.5', 'available': False},
@@ -905,6 +944,14 @@ CURATED_PRODUCTS = [
         'material': 'Натуральна замша, хутро',
         'country': "В'єтнам",
         'sizes': ['41', '42', '44', '45'],
+        'sizeChart': [
+            {'size': '41', 'cm': '26.0', 'available': True},
+            {'size': '42', 'cm': '26.5', 'available': True},
+            {'size': '43', 'cm': '27.5', 'available': False},
+            {'size': '44', 'cm': '28.0', 'available': True},
+            {'size': '45', 'cm': '29.0', 'available': True},
+            {'size': '46', 'cm': '29.5', 'available': False},
+        ],
         'inStock': True,
         'images': [
             '/images/products/adidas-campus-grey-khutro-as045/img-1.jpg',
@@ -944,6 +991,14 @@ CURATED_PRODUCTS = [
         'material': 'Натуральна замша, хутро',
         'country': "В'єтнам",
         'sizes': ['41', '42', '43', '44'],
+        'sizeChart': [
+            {'size': '41', 'cm': '26.0', 'available': True},
+            {'size': '42', 'cm': '26.5', 'available': True},
+            {'size': '43', 'cm': '27.5', 'available': True},
+            {'size': '44', 'cm': '28.0', 'available': True},
+            {'size': '45', 'cm': '28.5', 'available': False},
+            {'size': '46', 'cm': '29.0', 'available': False},
+        ],
         'inStock': True,
         'images': [
             '/images/products/ks2227/img-1.jpg',
@@ -981,6 +1036,14 @@ CURATED_PRODUCTS = [
         'material': 'Натуральна замша, хутро',
         'country': "В'єтнам",
         'sizes': ['41', '42', '43', '44', '45'],
+        'sizeChart': [
+            {'size': '41', 'cm': '26.0', 'available': True},
+            {'size': '42', 'cm': '26.5', 'available': True},
+            {'size': '43', 'cm': '27.5', 'available': True},
+            {'size': '44', 'cm': '28.0', 'available': True},
+            {'size': '45', 'cm': '28.5', 'available': True},
+            {'size': '46', 'cm': '29.0', 'available': False},
+        ],
         'inStock': True,
         'images': [
             '/images/products/ks2204/img-1.jpg',
@@ -1020,6 +1083,14 @@ CURATED_PRODUCTS = [
         'material': 'Натуральна замша, хутро',
         'country': "В'єтнам",
         'sizes': ['42', '44', '45'],
+        'sizeChart': [
+            {'size': '41', 'cm': '26.0', 'available': False},
+            {'size': '42', 'cm': '26.5', 'available': True},
+            {'size': '43', 'cm': '27.5', 'available': False},
+            {'size': '44', 'cm': '28.0', 'available': True},
+            {'size': '45', 'cm': '28.5', 'available': True},
+            {'size': '46', 'cm': '29.0', 'available': False},
+        ],
         'inStock': True,
         'images': [
             '/images/products/ad186/img-1.jpg',
@@ -1057,6 +1128,14 @@ CURATED_PRODUCTS = [
         'material': 'Натуральна замша, хутро',
         'country': "В'єтнам",
         'sizes': ['37', '38', '39'],
+        'sizeChart': [
+            {'size': '36', 'cm': '23.0', 'available': False},
+            {'size': '37', 'cm': '23.5', 'available': True},
+            {'size': '38', 'cm': '24.0', 'available': True},
+            {'size': '39', 'cm': '24.5', 'available': True},
+            {'size': '40', 'cm': '25.0', 'available': False},
+            {'size': '41', 'cm': '25.5', 'available': False},
+        ],
         'inStock': True,
         'images': [
             '/images/products/adidas-campus-00s-grey-white-gum-khutro-0705v/img-1.jpg',
@@ -1097,6 +1176,14 @@ CURATED_PRODUCTS = [
         'material': 'Натуральна шкіра, хутро',
         'country': "В'єтнам",
         'sizes': ['37', '38', '39', '40', '41'],
+        'sizeChart': [
+            {'size': '36', 'cm': '23.0', 'available': False},
+            {'size': '37', 'cm': '23.5', 'available': True},
+            {'size': '38', 'cm': '24.0', 'available': True},
+            {'size': '39', 'cm': '25.0', 'available': True},
+            {'size': '40', 'cm': '25.5', 'available': True},
+            {'size': '41', 'cm': '26.0', 'available': True},
+        ],
         'inStock': True,
         'images': [
             '/images/products/r338/img-1.jpg',
@@ -1134,6 +1221,14 @@ CURATED_PRODUCTS = [
         'material': 'Натуральна шкіра, хутро',
         'country': "В'єтнам",
         'sizes': ['37', '38', '39', '40', '41'],
+        'sizeChart': [
+            {'size': '36', 'cm': '23.0', 'available': False},
+            {'size': '37', 'cm': '23.5', 'available': True},
+            {'size': '38', 'cm': '24.0', 'available': True},
+            {'size': '39', 'cm': '25.0', 'available': True},
+            {'size': '40', 'cm': '25.5', 'available': True},
+            {'size': '41', 'cm': '26.0', 'available': True},
+        ],
         'inStock': True,
         'images': [
             '/images/products/r339/img-1.jpg',
@@ -1170,7 +1265,15 @@ CURATED_PRODUCTS = [
         'sku': '5174',
         'material': 'Натуральна замша, хутро',
         'country': "В'єтнам",
-        'sizes': ['37', '38', '40', '41'],
+        'sizes': ['38', '40', '41'],
+        'sizeChart': [
+            {'size': '36', 'cm': '23.0', 'available': False},
+            {'size': '37', 'cm': '23.5', 'available': False},
+            {'size': '38', 'cm': '24.0', 'available': True},
+            {'size': '39', 'cm': '25.0', 'available': False},
+            {'size': '40', 'cm': '25.5', 'available': True},
+            {'size': '41', 'cm': '26.0', 'available': True},
+        ],
         'inStock': True,
         'images': [
             '/images/products/adidas-campus-00s-beige-black-khutro-5174/img-1.jpg',
@@ -1209,7 +1312,15 @@ CURATED_PRODUCTS = [
         'sku': '5188',
         'material': 'Натуральна замша, хутро',
         'country': "В'єтнам",
-        'sizes': ['36', '37', '38', '39', '40', '41'],
+        'sizes': ['36', '38', '39', '40', '41'],
+        'sizeChart': [
+            {'size': '36', 'cm': '23.0', 'available': True},
+            {'size': '37', 'cm': '23.5', 'available': False},
+            {'size': '38', 'cm': '24.0', 'available': True},
+            {'size': '39', 'cm': '25.0', 'available': True},
+            {'size': '40', 'cm': '25.5', 'available': True},
+            {'size': '41', 'cm': '26.0', 'available': True},
+        ],
         'inStock': True,
         'images': [
             '/images/products/adidas-campus-00s-grey-white-khutro-5188/img-1.jpg',
@@ -1250,6 +1361,14 @@ CURATED_PRODUCTS = [
         'material': 'Натуральна замша, хутро',
         'country': "В'єтнам",
         'sizes': ['36', '37', '38', '39', '41'],
+        'sizeChart': [
+            {'size': '36', 'cm': '23.0', 'available': True},
+            {'size': '37', 'cm': '23.5', 'available': True},
+            {'size': '38', 'cm': '24.0', 'available': True},
+            {'size': '39', 'cm': '25.0', 'available': True},
+            {'size': '40', 'cm': '25.5', 'available': False},
+            {'size': '41', 'cm': '26.0', 'available': True},
+        ],
         'inStock': True,
         'images': [
             '/images/products/adidas-campus-00s-grey-black-khutro-5187/img-1.jpg',
@@ -1289,6 +1408,14 @@ CURATED_PRODUCTS = [
         'material': 'Натуральна замша та хутро',
         'country': 'Китай',
         'sizes': ['36', '37', '38', '39', '40'],
+        'sizeChart': [
+            {'size': '36', 'cm': '23.0', 'available': True},
+            {'size': '37', 'cm': '23.5', 'available': True},
+            {'size': '38', 'cm': '24.5', 'available': True},
+            {'size': '39', 'cm': '25.0', 'available': True},
+            {'size': '40', 'cm': '25.5', 'available': True},
+            {'size': '41', 'cm': '26.0', 'available': False},
+        ],
         'inStock': True,
         'images': [
             '/images/products/ugg-ultra-mini-chocolate-brown-suede-1705/img-1.jpg',
