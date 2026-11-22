@@ -4202,7 +4202,7 @@
     "inStock": true,
     "isHit": false,
     "images": [
-      "https://easydrop.one/media/uploads/images/base/079200b5-bb4e-4817-9faf-4959dbbf776f.jpg"
+      "https://easydrop.one/media/uploads/images/base/7ca5731c-d77c-4d5e-95a2-de9a45eb0fd1.jpg"
     ],
     "description": "Модель: RERIDS (термо). Артикул: NTR839. Матеріал: Влогостійкий текстиль, термоутеплювач, гума, піна, прошиті. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
     "seo": {
@@ -4295,7 +4295,7 @@
     "inStock": true,
     "isHit": false,
     "images": [
-      "https://easydrop.one/media/uploads/images/base/73185336-f709-4391-a0c9-cefd8e0f84ce.jpg"
+      "https://easydrop.one/media/uploads/images/base/1d29f33d-4453-487f-b0db-6cdf0101af80.jpg"
     ],
     "description": "Модель: RERIDS (термо). Артикул: NTR838. Матеріал: Влогостійкий текстиль, термоутеплювач, гума, піна, прошиті. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
     "seo": {
@@ -4389,7 +4389,7 @@
     "inStock": true,
     "isHit": false,
     "images": [
-      "https://easydrop.one/media/uploads/images/base/37588fca-79ff-4004-b5f4-7d15bd842956.jpg"
+      "https://easydrop.one/media/uploads/images/base/50062b84-4b66-49fd-80d3-f3c7964e4992.jpg"
     ],
     "description": "Модель: RERIDS (термо). Артикул: NTR837. Матеріал: Влогостійкий текстиль, термоутеплювач, гума, піна, прошиті. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
     "seo": {
@@ -4483,7 +4483,7 @@
     "inStock": true,
     "isHit": false,
     "images": [
-      "https://easydrop.one/media/uploads/images/base/61222c7d-9f57-4f6b-a016-7a5871402d99.jpg"
+      "https://easydrop.one/media/uploads/images/base/0cd7109d-f274-4d1c-bf34-6a84cc2dc5ec.jpg"
     ],
     "description": "Модель: RERIDS (термо). Артикул: NTR836. Матеріал: Влогостійкий текстиль, термоутеплювач, гума, піна, прошиті. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
     "seo": {
@@ -9105,9 +9105,7 @@
     "country": "В'єтнам",
     "sizes": [
       "41",
-      "42",
       "43",
-      "44",
       "46"
     ],
     "sizeChart": [
@@ -9144,7 +9142,7 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": true
+        "available": false
       },
       {
         "size": "43",
@@ -9154,7 +9152,7 @@
       {
         "size": "44",
         "cm": "28.0",
-        "available": true
+        "available": false
       },
       {
         "size": "45",
@@ -11176,7 +11174,6 @@
     "material": "Натуральна замша, натуральне хутро",
     "country": "В'єтнам",
     "sizes": [
-      "36",
       "37",
       "38",
       "39",
@@ -11187,7 +11184,7 @@
       {
         "size": "36",
         "cm": "23.0",
-        "available": true
+        "available": false
       },
       {
         "size": "37",
@@ -12872,7 +12869,6 @@
     "sizes": [
       "40",
       "41",
-      "42",
       "45"
     ],
     "sizeChart": [
@@ -12909,7 +12905,7 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": true
+        "available": false
       },
       {
         "size": "43",
@@ -20846,97 +20842,6 @@
     }
   },
   {
-    "id": "254063",
-    "slug": "new-balance-9060-khutro-nb514",
-    "name": "New Balance 9060 ХУТРО",
-    "brand": "New Balance",
-    "brandSlug": "newbalance",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 2900,
-    "oldPrice": 4833,
-    "costPrice": 2400,
-    "sku": "NB514",
-    "material": "Замша, хутро гума, піна, прошиті",
-    "country": "В'єтнам",
-    "sizes": [
-      "41",
-      "44",
-      "46"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": true
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "30.0",
-        "available": true
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/44e97d14-bfe8-4a5a-8133-7d1548986eda.jpg"
-    ],
-    "description": "Модель: New Balance 9060 ХУТРО. Артикул: NB514. Матеріал: Замша, хутро гума, піна, прошиті. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "New Balance 9060 ХУТРО (арт. NB514) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте New Balance 9060 ХУТРО (арт. NB514) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "254060",
     "slug": "lacoste-elite-active-t-lc07",
     "name": "Lacoste ELITE ACTIVE T",
@@ -22088,6 +21993,98 @@
     "sizes": [
       "40",
       "41",
+      "44",
+      "45"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.0",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.0",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "39",
+        "cm": "24.5",
+        "available": false
+      },
+      {
+        "size": "40",
+        "cm": "25.0",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": true
+      },
+      {
+        "size": "45",
+        "cm": "28.5",
+        "available": true
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": true,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/383ecd1b-b6be-46b2-9fcc-3b3fa56f7f9d.jpeg"
+    ],
+    "description": "Модель: Salomon Xt-6 Gore-Tex Grey Salt. Артикул: 3078. Матеріал: Текстиь. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Salomon Xt-6 Gore-Tex Grey Salt (арт. 3078) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Salomon Xt-6 Gore-Tex Grey Salt (арт. 3078) за 3300 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "253864",
+    "slug": "salomon-xt-6-gore-tex-blue-white-3077",
+    "name": "Salomon Xt-6 Gore-Tex Blue White",
+    "brand": "Salomon",
+    "brandSlug": "salomon",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "men",
+    "genderName": "Чоловічі",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 3400,
+    "oldPrice": 5667,
+    "costPrice": 2900,
+    "sku": "3077",
+    "material": "Текстиь",
+    "country": "В'єтнам",
+    "sizes": [
+      "40",
+      "41",
       "42",
       "44",
       "45"
@@ -22147,100 +22144,6 @@
         "size": "46",
         "cm": "29.5",
         "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/383ecd1b-b6be-46b2-9fcc-3b3fa56f7f9d.jpeg"
-    ],
-    "description": "Модель: Salomon Xt-6 Gore-Tex Grey Salt. Артикул: 3078. Матеріал: Текстиь. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Salomon Xt-6 Gore-Tex Grey Salt (арт. 3078) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Salomon Xt-6 Gore-Tex Grey Salt (арт. 3078) за 3300 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "253864",
-    "slug": "salomon-xt-6-gore-tex-blue-white-3077",
-    "name": "Salomon Xt-6 Gore-Tex Blue White",
-    "brand": "Salomon",
-    "brandSlug": "salomon",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 3400,
-    "oldPrice": 5667,
-    "costPrice": 2900,
-    "sku": "3077",
-    "material": "Текстиь",
-    "country": "В'єтнам",
-    "sizes": [
-      "40",
-      "41",
-      "42",
-      "44",
-      "45",
-      "46"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.0",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.0",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.0",
-        "available": true
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": true
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": true
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": true
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": true
       }
     ],
     "inStock": true,
@@ -25149,8 +25052,7 @@
       "/images/products/ugg-lowmel-sneakers-olive-grey-premium-1684/img-1.jpg",
       "/images/products/ugg-lowmel-sneakers-pink-premium-1686/img-1.jpg",
       "/images/products/ugg-lowmel-sneakers-leopard-premium-1687/img-1.jpg",
-      "/images/products/ugg-lowmel-sneakers-meadow-premium-1712/img-1.jpg",
-      "/images/products/ugg-lowmel-sneaker-black-2393/img-1.jpg"
+      "/images/products/ugg-lowmel-sneakers-meadow-premium-1712/img-1.jpg"
     ],
     "description": "Жіночі зимові кросівки UGG LOWMEL SNEAKERS у преміальному виконанні. Модель поєднує фірмовий комфорт UGG з силуетом міських кросівок: верх із якісної натуральної замші, всередині — густе тепле натуральне хутро (овчина) для надійного захисту від зимових морозів. Потовщена амортизуюча підошва, масивні акцентні шнурки та широкий вибір забарвлень під будь-який гардероб. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
     "seo": {
@@ -25894,85 +25796,6 @@
         ],
         "inStock": true,
         "slug": "ugg-lowmel-sneakers-meadow-premium-1712"
-      },
-      {
-        "id": "199671",
-        "sku": "2393",
-        "color": "BLACK",
-        "colorSlug": "black",
-        "price": 4500,
-        "oldPrice": 7500,
-        "costPrice": 4000,
-        "sizes": [
-          "36",
-          "39",
-          "40"
-        ],
-        "sizeChart": [
-          {
-            "size": "36",
-            "cm": "23.0",
-            "available": true
-          },
-          {
-            "size": "37",
-            "cm": "23.5",
-            "available": false
-          },
-          {
-            "size": "38",
-            "cm": "24.5",
-            "available": false
-          },
-          {
-            "size": "39",
-            "cm": "25.0",
-            "available": true
-          },
-          {
-            "size": "40",
-            "cm": "25.5",
-            "available": true
-          },
-          {
-            "size": "41",
-            "cm": "26.0",
-            "available": false
-          },
-          {
-            "size": "42",
-            "cm": "26.5",
-            "available": false
-          },
-          {
-            "size": "43",
-            "cm": "27.5",
-            "available": false
-          },
-          {
-            "size": "44",
-            "cm": "28.0",
-            "available": false
-          },
-          {
-            "size": "45",
-            "cm": "28.5",
-            "available": false
-          },
-          {
-            "size": "46",
-            "cm": "29.5",
-            "available": false
-          }
-        ],
-        "images": [
-          "/images/products/ugg-lowmel-sneaker-black-2393/img-1.jpg",
-          "/images/products/ugg-lowmel-sneaker-black-2393/img-2.jpg",
-          "/images/products/ugg-lowmel-sneaker-black-2393/img-3.jpg",
-          "/images/products/ugg-lowmel-sneaker-black-2393/img-4.jpg"
-        ],
-        "inStock": true,
-        "slug": "ugg-lowmel-sneaker-black-2393"
       }
     ]
   },
@@ -32638,97 +32461,6 @@
     }
   },
   {
-    "id": "250339",
-    "slug": "the-north-face-hoka-kaha-2-frost-moc-gtx-3021",
-    "name": "The North Face Hoka Kaha 2 Frost Moc GTX",
-    "brand": "The North Face",
-    "brandSlug": "tnf",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 3400,
-    "oldPrice": 5667,
-    "costPrice": 2900,
-    "sku": "3021",
-    "material": "Текстиль",
-    "country": "В'єтнам",
-    "sizes": [
-      "42",
-      "43",
-      "44"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": true
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": true
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": true
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/69a03276-4e6d-45c8-a376-a515513f0377.jpeg"
-    ],
-    "description": "Модель: The North Face Hoka Kaha 2 Frost Moc GTX. Артикул: 3021. Матеріал: Текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "The North Face Hoka Kaha 2 Frost Moc GTX (арт. 3021) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте The North Face Hoka Kaha 2 Frost Moc GTX (арт. 3021) за 3400 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "250326",
     "slug": "nike-air-force-1-low-gore-tex-n00362",
     "name": "Nike Air Force 1 Low Gore-Tex",
@@ -37740,7 +37472,6 @@
     "country": "-",
     "sizes": [
       "37",
-      "42",
       "43",
       "45"
     ],
@@ -37778,7 +37509,7 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": true
+        "available": false
       },
       {
         "size": "43",
@@ -40188,7 +39919,6 @@
     "country": "В'єтнам",
     "sizes": [
       "41",
-      "42",
       "43",
       "44",
       "45",
@@ -40228,7 +39958,7 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": true
+        "available": false
       },
       {
         "size": "43",
@@ -48628,97 +48358,6 @@
     }
   },
   {
-    "id": "247347",
-    "slug": "new-balance-530-classic-black-nb138",
-    "name": "New Balance 530 Classic Black",
-    "brand": "New Balance",
-    "brandSlug": "newbalance",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 2800,
-    "oldPrice": 4667,
-    "costPrice": 2300,
-    "sku": "NB138",
-    "material": "Сітка/замша",
-    "country": "В'єтнам",
-    "sizes": [
-      "42",
-      "43",
-      "45"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": true
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": true
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": true
-      },
-      {
-        "size": "46",
-        "cm": "30.0",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/7f333936-e1d5-4dde-b34a-1484d088108a.webp"
-    ],
-    "description": "Модель: New Balance 530 Classic Black. Артикул: NB138. Матеріал: Сітка/замша. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "New Balance 530 Classic Black (арт. NB138) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте New Balance 530 Classic Black (арт. NB138) за 2800 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "247342",
     "slug": "louis-vuitton-trainer-white-2032",
     "name": "Louis Vuitton Trainer White",
@@ -53726,8 +53365,7 @@
       "41",
       "42",
       "43",
-      "44",
-      "45"
+      "44"
     ],
     "sizeChart": [
       {
@@ -53778,7 +53416,7 @@
       {
         "size": "45",
         "cm": "29.0",
-        "available": true
+        "available": false
       },
       {
         "size": "46",
@@ -57153,97 +56791,6 @@
     }
   },
   {
-    "id": "244305",
-    "slug": "new-balance-725-termo-nb492",
-    "name": "New Balance 725 (термо)",
-    "brand": "New Balance",
-    "brandSlug": "newbalance",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 2600,
-    "oldPrice": 4333,
-    "costPrice": 2100,
-    "sku": "NB492",
-    "material": "Шкіра, вологостійкий текстиль, термоутеплювач, гума, піна, прошиті",
-    "country": "В'єтнам",
-    "sizes": [
-      "42",
-      "44",
-      "46"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": true
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": true
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "30.0",
-        "available": true
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/39f1637c-0477-4718-9f4e-c34d746a0cdb.jpg"
-    ],
-    "description": "Модель: New Balance 725 (термо). Артикул: NB492. Матеріал: Шкіра, вологостійкий текстиль, термоутеплювач, гума, піна, прошиті. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "New Balance 725 (термо) (арт. NB492) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте New Balance 725 (термо) (арт. NB492) за 2600 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "244304",
     "slug": "new-balance-725-termo-nb491",
     "name": "New Balance 725 (термо)",
@@ -58835,97 +58382,6 @@
     }
   },
   {
-    "id": "243481",
-    "slug": "salomon-speed-cross-pro-gore-tex-thinsulate-grey-black-2995",
-    "name": "Salomon Speed Cross Pro Gore-Tex Thinsulate Grey Black",
-    "brand": "Salomon",
-    "brandSlug": "salomon",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 2900,
-    "oldPrice": 4833,
-    "costPrice": 2400,
-    "sku": "2995",
-    "material": "Кожа , Текстиль",
-    "country": "В'єтнам",
-    "sizes": [
-      "41",
-      "43",
-      "44"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.0",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.0",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": true
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": true
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/cfba774c-9436-4352-ac85-4770532c0330.jpeg"
-    ],
-    "description": "Модель: Salomon Speed Cross Pro Gore-Tex Thinsulate Grey Black. Артикул: 2995. Матеріал: Кожа , Текстиль. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Salomon Speed Cross Pro Gore-Tex Thinsulate Grey Black (арт. 2995) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Salomon Speed Cross Pro Gore-Tex Thinsulate Grey Black (арт. 2995) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "243480",
     "slug": "new-balance-204l-cream-burgundy-2-1644",
     "name": "NEW BALANCE 204L | CREAM / BURGUNDY (2",
@@ -59296,97 +58752,6 @@
     }
   },
   {
-    "id": "243466",
-    "slug": "salomon-xa-pro-street-thinsulate-gore-tex-black-grey-2989",
-    "name": "Salomon XA Pro Street Thinsulate Gore-Tex Black Grey",
-    "brand": "Salomon",
-    "brandSlug": "salomon",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 2900,
-    "oldPrice": 4833,
-    "costPrice": 2400,
-    "sku": "2989",
-    "material": "Кожа , Замша , Текстиль",
-    "country": "В'єтнам",
-    "sizes": [
-      "41",
-      "43",
-      "44"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.0",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.0",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": true
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": true
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/fa76c930-bb2c-467f-aa19-cdaa61338410.jpeg"
-    ],
-    "description": "Модель: Salomon XA Pro Street Thinsulate Gore-Tex Black Grey. Артикул: 2989. Матеріал: Кожа , Замша , Текстиль. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Salomon XA Pro Street Thinsulate Gore-Tex Black Grey (арт. 2989) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Salomon XA Pro Street Thinsulate Gore-Tex Black Grey (арт. 2989) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "243360",
     "slug": "loewe-x-on-cloudtilt-2-0-tan-white-rn008",
     "name": "Loewe x On Cloudtilt 2.0 Tan White",
@@ -59689,7 +59054,6 @@
     "sizes": [
       "41",
       "43",
-      "44",
       "45",
       "46"
     ],
@@ -59737,7 +59101,7 @@
       {
         "size": "44",
         "cm": "28.0",
-        "available": true
+        "available": false
       },
       {
         "size": "45",
@@ -75625,7 +74989,6 @@
       "39",
       "40",
       "41",
-      "43",
       "44"
     ],
     "sizeChart": [
@@ -75667,7 +75030,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": true
+        "available": false
       },
       {
         "size": "44",
@@ -87705,8 +87068,7 @@
       "37",
       "38",
       "39",
-      "40",
-      "41"
+      "40"
     ],
     "sizeChart": [
       {
@@ -87737,7 +87099,7 @@
       {
         "size": "41",
         "cm": "26.0",
-        "available": true
+        "available": false
       },
       {
         "size": "42",
@@ -93024,7 +92386,6 @@
     "sizes": [
       "36",
       "38",
-      "39",
       "40",
       "41",
       "42",
@@ -93050,7 +92411,7 @@
       {
         "size": "39",
         "cm": "25.0",
-        "available": true
+        "available": false
       },
       {
         "size": "40",
@@ -111169,8 +110530,7 @@
       "41",
       "42",
       "43",
-      "44",
-      "45"
+      "44"
     ],
     "sizeChart": [
       {
@@ -111221,7 +110581,7 @@
       {
         "size": "45",
         "cm": "28.5",
-        "available": true
+        "available": false
       },
       {
         "size": "46",
@@ -123518,7 +122878,6 @@
     "country": "В'єтнам",
     "sizes": [
       "38",
-      "40",
       "41",
       "42",
       "45",
@@ -123548,7 +122907,7 @@
       {
         "size": "40",
         "cm": "25.0",
-        "available": true
+        "available": false
       },
       {
         "size": "41",
@@ -141988,8 +141347,7 @@
       "/images/products/ugg-lowmel-jasmine/img-1.jpg",
       "/images/products/ugg-lowmel-mustard-seed-fur/img-1.jpg",
       "/images/products/ugg-lowmel-chestnut-fur/img-1.jpg",
-      "/images/products/ugg-lowmel-grey-fur/img-1.jpg",
-      "/images/products/ugg-lowmel-sneaker-pumice-ug0019/img-1.jpg"
+      "/images/products/ugg-lowmel-grey-fur/img-1.jpg"
     ],
     "description": "Жіночі зимові кросівки UGG Lo Lowmel у преміальному заниженому силуеті з фірмовим теплим хутром. Модель поєднує культовий комфорт лінійки Lowmel зі зручною низькою посадкою: преміальний верх із натуральної замші, всередині — густе затишне натуральне хутро (овчина) для надійного тепла у холодну пору року. Потовщена легка підошва забезпечує мʼяку амортизацію та впевнене зчеплення з поверхнею, а фірмова шнурівка додає стильного акценту. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
     "seo": {
@@ -142480,60 +141838,6 @@
         ],
         "inStock": true,
         "slug": "ugg-lo-lowmel-sneaker-grey-fur-1777"
-      },
-      {
-        "id": "252592",
-        "sku": "UG0019",
-        "color": "PUMICE",
-        "colorSlug": "pumice",
-        "price": 4700,
-        "oldPrice": 7833,
-        "costPrice": 4200,
-        "sizes": [
-          "36",
-          "37",
-          "38",
-          "39",
-          "40",
-          "41"
-        ],
-        "sizeChart": [
-          {
-            "size": "36",
-            "cm": "22.5",
-            "available": true
-          },
-          {
-            "size": "37",
-            "cm": "23.5",
-            "available": true
-          },
-          {
-            "size": "38",
-            "cm": "24.0",
-            "available": true
-          },
-          {
-            "size": "39",
-            "cm": "25.0",
-            "available": true
-          },
-          {
-            "size": "40",
-            "cm": "25.5",
-            "available": true
-          },
-          {
-            "size": "41",
-            "cm": "26.0",
-            "available": true
-          }
-        ],
-        "images": [
-          "/images/products/ugg-lowmel-sneaker-pumice-ug0019/img-1.jpg"
-        ],
-        "inStock": true,
-        "slug": "ugg-lowmel-sneaker-pumice-ug0019"
       }
     ]
   },
@@ -168658,8 +167962,7 @@
     "sizes": [
       "36",
       "38",
-      "40",
-      "44"
+      "40"
     ],
     "sizeChart": [
       {
@@ -168705,7 +168008,7 @@
       {
         "size": "44",
         "cm": "28.0",
-        "available": true
+        "available": false
       },
       {
         "size": "45",
@@ -177118,14 +176421,14 @@
         "available": true
       },
       {
-        "size": "45/46",
-        "cm": "29.0",
-        "available": true
-      },
-      {
         "size": "45",
         "cm": "29.0",
         "available": false
+      },
+      {
+        "size": "45/46",
+        "cm": "29.0",
+        "available": true
       },
       {
         "size": "46",
@@ -177219,14 +176522,14 @@
         "available": true
       },
       {
-        "size": "45/46",
-        "cm": "29.0",
-        "available": true
-      },
-      {
         "size": "45",
         "cm": "29.0",
         "available": false
+      },
+      {
+        "size": "45/46",
+        "cm": "29.0",
+        "available": true
       },
       {
         "size": "46",
@@ -208168,97 +207471,6 @@
     }
   },
   {
-    "id": "137139",
-    "slug": "ugg-classic-ultra-mini-platform-boot-grey-1903",
-    "name": "UGG Classic Ultra Mini Platform Boot Grey",
-    "brand": "UGG",
-    "brandSlug": "ugg",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 2400,
-    "oldPrice": 4000,
-    "costPrice": 1900,
-    "sku": "1903",
-    "material": "Замша , Натуральный мех",
-    "country": "Китай",
-    "sizes": [
-      "38",
-      "39",
-      "41"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "23.0",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.5",
-        "available": true
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": true
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/76f94c67-530b-4f54-aa92-aa7e70652433.jpeg"
-    ],
-    "description": "Модель: UGG Classic Ultra Mini Platform Boot Grey. Артикул: 1903. Матеріал: Замша , Натуральный мех. Сезон: Зима. Виробництво: Китай. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "UGG Classic Ultra Mini Platform Boot Grey (арт. 1903) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте UGG Classic Ultra Mini Platform Boot Grey (арт. 1903) за 2400 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "137138",
     "slug": "ugg-classic-ultra-mini-platform-boot-beige-1904",
     "name": "UGG Classic Ultra Mini Platform Boot Beige",
@@ -210107,6 +209319,97 @@
         "slug": "ugg-ultra-mini-platform-teddy-black-1034"
       }
     ]
+  },
+  {
+    "id": "131914",
+    "slug": "nike-acg-mountain-fly-2-low-dark-smoke-grey-nk118",
+    "name": "Nike ACG Mountain Fly 2 Low 'Dark Smoke Grey'",
+    "brand": "Nike",
+    "brandSlug": "nike",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "men",
+    "genderName": "Чоловічі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 2600,
+    "oldPrice": 4333,
+    "costPrice": 2100,
+    "sku": "NK118",
+    "material": "Текстиль",
+    "country": "В'єтнам",
+    "sizes": [
+      "38",
+      "41",
+      "43"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "24.5",
+        "available": false
+      },
+      {
+        "size": "40",
+        "cm": "25.0",
+        "available": false
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": true
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "29.0",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "30.0",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/936e990a-3ffb-4e14-829b-f07893a204d9.jpeg"
+    ],
+    "description": "Модель: Nike ACG Mountain Fly 2 Low 'Dark Smoke Grey'. Артикул: NK118. Матеріал: Текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Nike ACG Mountain Fly 2 Low 'Dark Smoke Grey' (арт. NK118) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Nike ACG Mountain Fly 2 Low 'Dark Smoke Grey' (арт. NK118) за 2600 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
   },
   {
     "id": "131912",
@@ -213870,97 +213173,6 @@
     }
   },
   {
-    "id": "127734",
-    "slug": "asics-gel-kahana-8-gore-tex-grey-1939",
-    "name": "Asics Gel-Kahana 8 GORE-TEX Grey",
-    "brand": "Asics",
-    "brandSlug": "asics",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 3000,
-    "oldPrice": 5000,
-    "costPrice": 2500,
-    "sku": "1939",
-    "material": "Кожа , Текстиль",
-    "country": "В'єтнам",
-    "sizes": [
-      "41",
-      "43",
-      "45"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": true
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": true
-      },
-      {
-        "size": "46",
-        "cm": "29.0",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/df1a90fd-67d7-4d50-ab0b-4174be722a35.jpeg"
-    ],
-    "description": "Модель: Asics Gel-Kahana 8 GORE-TEX Grey. Артикул: 1939. Матеріал: Кожа , Текстиль. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Asics Gel-Kahana 8 GORE-TEX Grey (арт. 1939) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Asics Gel-Kahana 8 GORE-TEX Grey (арт. 1939) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "127549",
     "slug": "nike-air-more-uptempo-96-n00214",
     "name": "Nike Air More Uptempo 96",
@@ -217203,98 +216415,6 @@
     }
   },
   {
-    "id": "123491",
-    "slug": "ugg-ultra-mini-platform-black-1432",
-    "name": "UGG Ultra Mini Platform Black",
-    "brand": "UGG",
-    "brandSlug": "ugg",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 4400,
-    "oldPrice": 7333,
-    "costPrice": 3900,
-    "sku": "1432",
-    "material": "Замша, овчина",
-    "country": "В'єтнам",
-    "sizes": [
-      "37",
-      "39",
-      "40",
-      "41"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "23.0",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": true
-      },
-      {
-        "size": "38",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": true
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": true
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/61a111ba-10cb-4708-9f81-842d45c20e77.jpeg"
-    ],
-    "description": "Модель: UGG Ultra Mini Platform Black. Артикул: 1432. Матеріал: Замша, овчина. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "UGG Ultra Mini Platform Black (арт. 1432) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте UGG Ultra Mini Platform Black (арт. 1432) за 4400 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "123475",
     "slug": "ugg-classic-dipper-boot-chestnut-1426",
     "name": "UGG Classic Dipper Boot Chestnut",
@@ -217548,12 +216668,12 @@
         "available": true
       },
       {
-        "size": "45/46",
+        "size": "45",
         "cm": "29.0",
         "available": false
       },
       {
-        "size": "45",
+        "size": "45/46",
         "cm": "29.0",
         "available": false
       },
@@ -218157,8 +217277,7 @@
     "sizes": [
       "36",
       "37",
-      "39",
-      "43"
+      "39"
     ],
     "sizeChart": [
       {
@@ -218199,7 +217318,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": true
+        "available": false
       },
       {
         "size": "44",
@@ -218677,6 +217796,7 @@
       "38",
       "41",
       "42",
+      "44",
       "45"
     ],
     "sizeChart": [
@@ -218723,7 +217843,7 @@
       {
         "size": "44",
         "cm": "28.0",
-        "available": false
+        "available": true
       },
       {
         "size": "45",
@@ -219943,14 +219063,14 @@
         "available": false
       },
       {
-        "size": "42,5",
-        "cm": "26.5",
-        "available": false
-      },
-      {
         "size": "42.5",
         "cm": "26.5",
         "available": true
+      },
+      {
+        "size": "42,5",
+        "cm": "26.5",
+        "available": false
       },
       {
         "size": "43",
@@ -230420,100 +229540,6 @@
     }
   },
   {
-    "id": "106426",
-    "slug": "new-balance-9060-brown-haki-1687",
-    "name": "New Balance 9060 Brown\\Haki",
-    "brand": "New Balance",
-    "brandSlug": "newbalance",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 2700,
-    "oldPrice": 4500,
-    "costPrice": 2200,
-    "sku": "1687",
-    "material": "Замша , Сетка , кожа",
-    "country": "В'єтнам",
-    "sizes": [
-      "40",
-      "41",
-      "42"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "24.5",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.0",
-        "available": true
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": true
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "30.0",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "/images/products/1687/img-1.jpg",
-      "/images/products/1687/img-2.jpg",
-      "/images/products/1687/img-3.jpg",
-      "/images/products/1687/img-4.jpg"
-    ],
-    "description": "Модель: New Balance 9060 Brown\\Haki. Артикул: 1687. Матеріал: Замша , Сетка , кожа. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "New Balance 9060 Brown\\Haki (арт. 1687) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте New Balance 9060 Brown\\Haki (арт. 1687) за 2700 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "106425",
     "slug": "nike-air-max-tn-terrascape-plus-all-black-1717",
     "name": "Nike Air Max TN Terrascape Plus All Black",
@@ -239691,9 +238717,9 @@
     "genderName": "Чоловічі",
     "season": "demi",
     "seasonName": "Демісезон",
-    "price": 3250,
-    "oldPrice": 5417,
-    "costPrice": 2750,
+    "price": 3050,
+    "oldPrice": 5083,
+    "costPrice": 2550,
     "sku": "1282",
     "material": "Кожа , Текстиль",
     "country": "В'єтнам",
@@ -239769,7 +238795,7 @@
     "description": "Модель: Nike Air Max 90 x Terrascape. Артикул: 1282. Матеріал: Кожа , Текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
     "seo": {
       "title": "Nike Air Max 90 x Terrascape (арт. 1282) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Nike Air Max 90 x Terrascape (арт. 1282) за 3250 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+      "description": "Замовляйте Nike Air Max 90 x Terrascape (арт. 1282) за 3050 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -243162,9 +242188,9 @@
     "genderName": "Чоловічі",
     "season": "demi",
     "seasonName": "Демісезон",
-    "price": 3250,
-    "oldPrice": 5417,
-    "costPrice": 2750,
+    "price": 3200,
+    "oldPrice": 5333,
+    "costPrice": 2700,
     "sku": "1280",
     "material": "Текстиль , кожа",
     "country": "В'єтнам",
@@ -243241,7 +242267,7 @@
     "description": "Модель: Nike Air Max 90 x Terrascape Brown. Артикул: 1280. Матеріал: Текстиль , кожа. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
     "seo": {
       "title": "Nike Air Max 90 x Terrascape Brown (арт. 1280) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Nike Air Max 90 x Terrascape Brown (арт. 1280) за 3250 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+      "description": "Замовляйте Nike Air Max 90 x Terrascape Brown (арт. 1280) за 3200 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -243256,9 +242282,9 @@
     "genderName": "Чоловічі",
     "season": "demi",
     "seasonName": "Демісезон",
-    "price": 3250,
-    "oldPrice": 5417,
-    "costPrice": 2750,
+    "price": 3050,
+    "oldPrice": 5083,
+    "costPrice": 2550,
     "sku": "1357",
     "material": "Текстиль",
     "country": "В'єтнам",
@@ -243335,7 +242361,7 @@
     "description": "Модель: Nike Air Max 90 x Terrascape. Артикул: 1357. Матеріал: Текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
     "seo": {
       "title": "Nike Air Max 90 x Terrascape (арт. 1357) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Nike Air Max 90 x Terrascape (арт. 1357) за 3250 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+      "description": "Замовляйте Nike Air Max 90 x Terrascape (арт. 1357) за 3050 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -245154,7 +244180,6 @@
     "country": "В'єтнам",
     "sizes": [
       "41",
-      "42",
       "43",
       "44",
       "45"
@@ -245193,7 +244218,7 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": true
+        "available": false
       },
       {
         "size": "43",
@@ -248520,8 +247545,7 @@
       "39",
       "40",
       "41",
-      "42",
-      "44"
+      "42"
     ],
     "sizeChart": [
       {
@@ -248567,7 +247591,7 @@
       {
         "size": "44",
         "cm": "28.0",
-        "available": true
+        "available": false
       },
       {
         "size": "45",
@@ -249054,222 +248078,6 @@
       "title": "Nike Kyrie 7 Anime CQ9327-401 (арт. 1152) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Nike Kyrie 7 Anime CQ9327-401 (арт. 1152) за 3150 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
-  },
-  {
-    "id": "73379",
-    "slug": "ugg-mini-lacquer-zip",
-    "name": "UGG Mini Lacquer ZIP",
-    "brand": "UGG",
-    "brandSlug": "ugg",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 1800,
-    "oldPrice": 3167,
-    "minPrice": 1800,
-    "maxPrice": 1900,
-    "costPrice": 1250,
-    "sku": "1151",
-    "material": "Натуральна замша з лаковим покриттям, натуральне хутро (овчина), бічна блискавка ZIP",
-    "country": "В'єтнам",
-    "sizes": [
-      "36",
-      "37",
-      "38",
-      "39"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "23.0",
-        "available": true
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": true
-      },
-      {
-        "size": "38",
-        "cm": "24.5",
-        "available": true
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": true
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "/images/products/ugg-mini-lacquer-zip-light-grey/img-1.jpg",
-      "/images/products/ugg-mini-lacquer-zip-light-grey/img-2.jpg",
-      "/images/products/ugg-mini-lacquer-zip-black/img-1.jpg"
-    ],
-    "description": "Жіночі зимові уггі з бічною блискавкою UGG Mini Lacquer ZIP у стильному глянцевому виконанні. Культовий силует Classic Mini, доповнений практичною металевою блискавкою ZIP для швидкого та комфортного взування: верх виготовлений із високоякісної натуральної замші з вологозахисним лаковим напиленням, всередині — густе тепле натуральне хутро (овчина) для надійного збереження тепла в морозні дні. Легка підошва забезпечує комфортну амортизацію та надійне зчеплення зі слизькими зимовими поверхнями. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "UGG Mini Lacquer ZIP — купити жіночі зимові уггі з блискавкою в інтернет-магазині VEXARO",
-      "description": "Замовляйте жіночі зимові уггі UGG Mini Lacquer ZIP у кольорах Light Grey та Black Lacquer за ціною від 1800 ₴. Натуральна лакована замша, овчина, блискавка. Доставка Новою Поштою 1–2 дні, накладений платіж."
-    },
-    "variations": [
-      {
-        "id": "73379",
-        "sku": "1151",
-        "color": "Light Grey",
-        "colorSlug": "light-grey",
-        "price": 1800,
-        "oldPrice": 3000,
-        "costPrice": 1300,
-        "sizes": [
-          "36",
-          "37",
-          "38"
-        ],
-        "sizeChart": [
-          {
-            "size": "36",
-            "cm": "23.0",
-            "available": true
-          },
-          {
-            "size": "37",
-            "cm": "23.5",
-            "available": true
-          },
-          {
-            "size": "38",
-            "cm": "24.5",
-            "available": true
-          },
-          {
-            "size": "39",
-            "cm": "25.0",
-            "available": false
-          },
-          {
-            "size": "40",
-            "cm": "25.5",
-            "available": false
-          },
-          {
-            "size": "41",
-            "cm": "26.0",
-            "available": false
-          },
-          {
-            "size": "42",
-            "cm": "26.5",
-            "available": false
-          },
-          {
-            "size": "43",
-            "cm": "27.5",
-            "available": false
-          },
-          {
-            "size": "44",
-            "cm": "28.0",
-            "available": false
-          },
-          {
-            "size": "45",
-            "cm": "28.5",
-            "available": false
-          },
-          {
-            "size": "46",
-            "cm": "29.5",
-            "available": false
-          }
-        ],
-        "images": [
-          "/images/products/ugg-mini-lacquer-zip-light-grey/img-1.jpg",
-          "/images/products/ugg-mini-lacquer-zip-light-grey/img-2.jpg"
-        ],
-        "inStock": true,
-        "slug": "ugg-mini-lacquer-zip-light-grey-1151"
-      },
-      {
-        "id": "69270",
-        "sku": "1115",
-        "color": "Black Lacquer",
-        "colorSlug": "black-lacquer",
-        "price": 1900,
-        "oldPrice": 3167,
-        "costPrice": 1400,
-        "sizes": [
-          "36",
-          "38",
-          "39"
-        ],
-        "sizeChart": [
-          {
-            "size": "36",
-            "cm": "23.0",
-            "available": true
-          },
-          {
-            "size": "37",
-            "cm": "23.5",
-            "available": false
-          },
-          {
-            "size": "38",
-            "cm": "24.5",
-            "available": true
-          },
-          {
-            "size": "39",
-            "cm": "25.0",
-            "available": true
-          },
-          {
-            "size": "40",
-            "cm": "25.5",
-            "available": false
-          },
-          {
-            "size": "41",
-            "cm": "26.0",
-            "available": false
-          },
-          {
-            "size": "42",
-            "cm": "26.5",
-            "available": false
-          },
-          {
-            "size": "43",
-            "cm": "27.5",
-            "available": false
-          },
-          {
-            "size": "44",
-            "cm": "28.0",
-            "available": false
-          },
-          {
-            "size": "45",
-            "cm": "28.5",
-            "available": false
-          },
-          {
-            "size": "46",
-            "cm": "29.5",
-            "available": false
-          }
-        ],
-        "images": [
-          "/images/products/ugg-mini-lacquer-zip-black/img-1.jpg"
-        ],
-        "inStock": true,
-        "slug": "ugg-mini-zip-black-lacquer-1115"
-      }
-    ]
   },
   {
     "id": "73095",
@@ -251512,7 +250320,6 @@
       "36",
       "37",
       "38",
-      "39",
       "40",
       "41"
     ],
@@ -251535,7 +250342,7 @@
       {
         "size": "39",
         "cm": "25.0",
-        "available": true
+        "available": false
       },
       {
         "size": "40",
@@ -259936,6 +258743,7 @@
     "sizes": [
       "36",
       "41",
+      "42",
       "43",
       "44"
     ],
@@ -259973,7 +258781,7 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": false
+        "available": true
       },
       {
         "size": "43",
