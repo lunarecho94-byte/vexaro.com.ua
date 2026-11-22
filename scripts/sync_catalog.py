@@ -1436,6 +1436,56 @@ CURATED_PRODUCTS = [
             'description': 'Замовляйте UGG ULTRA MINI CHOCOLATE BROWN SUEDE (арт. 1705) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж).'
         },
         'isHit': True
+    },
+    {
+        'id': '257842',
+        'slug': 'premiata-moerun-khutro-pm10',
+        'name': 'Premiata MOERUN ХУТРО',
+        'brand': 'Premiata',
+        'brandSlug': 'premiata',
+        'category': 'Взуття',
+        'categorySlug': 'shoes',
+        'gender': 'men',
+        'genderName': 'Чоловічі',
+        'season': 'winter',
+        'seasonName': 'Зима',
+        'price': 3400,
+        'oldPrice': 5667,
+        'costPrice': 2900,
+        'sku': 'PM10',
+        'material': 'Шкіра, замша, хутро, текстиль, піна, гума',
+        'country': 'Італія',
+        'sizes': ['42', '43', '44', '45'],
+        'sizeChart': [
+            {'size': '36', 'cm': '22.5', 'available': False},
+            {'size': '37', 'cm': '23.5', 'available': False},
+            {'size': '38', 'cm': '24.0', 'available': False},
+            {'size': '39', 'cm': '25.0', 'available': False},
+            {'size': '40', 'cm': '25.5', 'available': False},
+            {'size': '41', 'cm': '26.0', 'available': False},
+            {'size': '42', 'cm': '26.5', 'available': True},
+            {'size': '43', 'cm': '27.5', 'available': True},
+            {'size': '44', 'cm': '28.0', 'available': True},
+            {'size': '45', 'cm': '28.5', 'available': True},
+            {'size': '46', 'cm': '29.5', 'available': False},
+        ],
+        'inStock': True,
+        'isHit': False,
+        'images': [
+            '/images/products/premiata-moerun-khutro-pm10/img-1.jpg',
+            '/images/products/premiata-moerun-khutro-pm10/img-2.jpg',
+            '/images/products/premiata-moerun-khutro-pm10/img-3.jpg',
+            '/images/products/premiata-moerun-khutro-pm10/img-4.jpg'
+        ],
+        'description': (
+            'Модель: Premiata MOERUN ХУТРО. Артикул: PM10. Матеріал: Шкіра, замша, хутро, текстиль, піна, гума. '
+            'Сезон: Зима. Виробництво: Італія. Доставка Новою Поштою по Україні протягом 1–2 днів. '
+            'Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.'
+        ),
+        'seo': {
+            'title': 'Premiata MOERUN ХУТРО (арт. PM10) — купити в інтернет-магазині VEXARO',
+            'description': 'Замовляйте Premiata MOERUN ХУТРО (арт. PM10) за 3400 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж).'
+        }
     }
 ]
 

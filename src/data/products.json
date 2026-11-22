@@ -8270,6 +8270,7 @@
     "country": "Італія",
     "sizes": [
       "42",
+      "43",
       "44",
       "45"
     ],
@@ -8312,7 +8313,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": false
+        "available": true
       },
       {
         "size": "44",
@@ -177198,14 +177199,14 @@
         "available": true
       },
       {
-        "size": "45/46",
-        "cm": "29.0",
-        "available": true
-      },
-      {
         "size": "45",
         "cm": "29.0",
         "available": false
+      },
+      {
+        "size": "45/46",
+        "cm": "29.0",
+        "available": true
       },
       {
         "size": "46",
@@ -177299,14 +177300,14 @@
         "available": true
       },
       {
-        "size": "45/46",
-        "cm": "29.0",
-        "available": true
-      },
-      {
         "size": "45",
         "cm": "29.0",
         "available": false
+      },
+      {
+        "size": "45/46",
+        "cm": "29.0",
+        "available": true
       },
       {
         "size": "46",
@@ -217638,12 +217639,12 @@
         "available": true
       },
       {
-        "size": "45/46",
+        "size": "45",
         "cm": "29.0",
         "available": false
       },
       {
-        "size": "45",
+        "size": "45/46",
         "cm": "29.0",
         "available": false
       },
@@ -220033,14 +220034,14 @@
         "available": false
       },
       {
-        "size": "42.5",
-        "cm": "26.5",
-        "available": true
-      },
-      {
         "size": "42,5",
         "cm": "26.5",
         "available": false
+      },
+      {
+        "size": "42.5",
+        "cm": "26.5",
+        "available": true
       },
       {
         "size": "43",
