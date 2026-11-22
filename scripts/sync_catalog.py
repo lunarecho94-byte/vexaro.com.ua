@@ -530,11 +530,11 @@ CURATED_PRODUCTS = [
                 'price': 3100,
                 'oldPrice': 5167,
                 'costPrice': 2350,
-                'sizes': ['41', '42', '43', '44', '45'],
+                'sizes': ['41', '42', '44', '45'],
                 'sizeChart': [
                     {'size': '41', 'cm': '26.0', 'available': True},
                     {'size': '42', 'cm': '26.5', 'available': True},
-                    {'size': '43', 'cm': '27.5', 'available': True},
+                    {'size': '43', 'cm': '27.5', 'available': False},
                     {'size': '44', 'cm': '28.0', 'available': True},
                     {'size': '45', 'cm': '28.5', 'available': True},
                     {'size': '46', 'cm': '29.5', 'available': False},
