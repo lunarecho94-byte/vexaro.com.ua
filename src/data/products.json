@@ -1939,6 +1939,99 @@
     }
   },
   {
+    "id": "260344",
+    "slug": "nike-sb-dunk-low-the-north-face-collaboration-dn3168-008-2119",
+    "name": "Nike SB Dunk Low The North Face Collaboration DN3168-008",
+    "brand": "Nike",
+    "brandSlug": "nike",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "men",
+    "genderName": "Чоловічі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 3200,
+    "oldPrice": 5333,
+    "costPrice": 2700,
+    "sku": "2119",
+    "material": "Замша, шкіра",
+    "country": "В'єтнам",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": false
+      },
+      {
+        "size": "39",
+        "cm": "24.5",
+        "available": false
+      },
+      {
+        "size": "40",
+        "cm": "25.0",
+        "available": false
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": true
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": true
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": true
+      },
+      {
+        "size": "45",
+        "cm": "29.0",
+        "available": true
+      },
+      {
+        "size": "46",
+        "cm": "30.0",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/b8abec39-9326-4dd0-b2f1-7c041d4e42df.png"
+    ],
+    "description": "Модель: Nike SB Dunk Low The North Face Collaboration DN3168-008. Артикул: 2119. Матеріал: Замша, шкіра. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Nike SB Dunk Low The North Face Collaboration DN3168-008 (арт. 2119) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Nike SB Dunk Low The North Face Collaboration DN3168-008 (арт. 2119) за 3200 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
     "id": "260343",
     "slug": "salomon-xt-6-black-coffee-french-roast-478661-2118",
     "name": "Salomon XT-6 Black Coffee French Roast 478661",
@@ -22931,10 +23024,8 @@
       "39",
       "40",
       "41",
-      "42",
       "43",
-      "44",
-      "45"
+      "44"
     ],
     "sizeChart": [
       {
@@ -22970,7 +23061,7 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": true
+        "available": false
       },
       {
         "size": "43",
@@ -22985,7 +23076,7 @@
       {
         "size": "45",
         "cm": "28.5",
-        "available": true
+        "available": false
       },
       {
         "size": "46",
@@ -59121,8 +59212,7 @@
     "sizes": [
       "41",
       "43",
-      "44",
-      "46"
+      "44"
     ],
     "sizeChart": [
       {
@@ -59178,7 +59268,7 @@
       {
         "size": "46",
         "cm": "29.5",
-        "available": true
+        "available": false
       }
     ],
     "inStock": true,
@@ -148378,8 +148468,7 @@
     "sizes": [
       "41",
       "43",
-      "44",
-      "46"
+      "44"
     ],
     "sizeChart": [
       {
@@ -148435,7 +148524,7 @@
       {
         "size": "46",
         "cm": "29.5",
-        "available": true
+        "available": false
       }
     ],
     "inStock": true,
@@ -154955,7 +155044,6 @@
         "sizes": [
           "36",
           "37",
-          "38",
           "39",
           "40"
         ],
@@ -154973,7 +155061,7 @@
           {
             "size": "38",
             "cm": "24.5",
-            "available": true
+            "available": false
           },
           {
             "size": "39",
@@ -177014,14 +177102,14 @@
         "available": true
       },
       {
-        "size": "45/46",
-        "cm": "29.0",
-        "available": true
-      },
-      {
         "size": "45",
         "cm": "29.0",
         "available": false
+      },
+      {
+        "size": "45/46",
+        "cm": "29.0",
+        "available": true
       },
       {
         "size": "46",
@@ -177115,14 +177203,14 @@
         "available": true
       },
       {
-        "size": "45/46",
-        "cm": "29.0",
-        "available": true
-      },
-      {
         "size": "45",
         "cm": "29.0",
         "available": false
+      },
+      {
+        "size": "45/46",
+        "cm": "29.0",
+        "available": true
       },
       {
         "size": "46",
@@ -191906,7 +191994,6 @@
       "40",
       "41",
       "43",
-      "44",
       "45"
     ],
     "sizeChart": [
@@ -191953,7 +192040,7 @@
       {
         "size": "44",
         "cm": "28.0",
-        "available": true
+        "available": false
       },
       {
         "size": "45",
@@ -206153,7 +206240,6 @@
     "country": "В'єтнам",
     "sizes": [
       "40",
-      "41",
       "42",
       "43",
       "44",
@@ -206188,7 +206274,7 @@
       {
         "size": "41",
         "cm": "26.0",
-        "available": true
+        "available": false
       },
       {
         "size": "42",
@@ -217548,12 +217634,12 @@
         "available": true
       },
       {
-        "size": "45/46",
+        "size": "45",
         "cm": "29.0",
         "available": false
       },
       {
-        "size": "45",
+        "size": "45/46",
         "cm": "29.0",
         "available": false
       },
@@ -230724,7 +230810,6 @@
       "39",
       "40",
       "41",
-      "42",
       "43",
       "44",
       "45"
@@ -230763,7 +230848,7 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": true
+        "available": false
       },
       {
         "size": "43",
@@ -245910,7 +245995,6 @@
     "sizes": [
       "40",
       "41",
-      "43",
       "44",
       "45"
     ],
@@ -245953,7 +246037,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": true
+        "available": false
       },
       {
         "size": "44",
