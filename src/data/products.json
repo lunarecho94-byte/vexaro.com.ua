@@ -5702,6 +5702,7 @@
     "material": "Текстиль",
     "country": "В'єтнам",
     "sizes": [
+      "40",
       "41",
       "42",
       "43"
@@ -5730,7 +5731,7 @@
       {
         "size": "40",
         "cm": "25.5",
-        "available": false
+        "available": true
       },
       {
         "size": "41",
@@ -6983,101 +6984,6 @@
     "seo": {
       "title": "Nike Sb Dunk Low Grey (арт. NK185) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Nike Sb Dunk Low Grey (арт. NK185) за 3100 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "259185",
-    "slug": "asics-gel-pickax-grey-black-ac034",
-    "name": "Asics Gel-Pickax Grey Black",
-    "brand": "Asics",
-    "brandSlug": "asics",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 3100,
-    "oldPrice": 5167,
-    "costPrice": 2600,
-    "sku": "AC034",
-    "material": "Шкіра",
-    "country": "-",
-    "sizes": [
-      "42",
-      "43",
-      "44",
-      "45"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": true
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": true
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": true
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": true
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "/images/products/asics-gel-pickax-grey-black-ac034/img-1.jpg",
-      "/images/products/asics-gel-pickax-grey-black-ac034/img-2.jpg",
-      "/images/products/asics-gel-pickax-grey-black-ac034/img-3.jpg",
-      "/images/products/asics-gel-pickax-grey-black-ac034/img-4.jpg"
-    ],
-    "description": "Модель: Asics Gel-Pickax Grey Black. Артикул: AC034. Матеріал: Шкіра. Сезон: Демісезон. Виробництво: -. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Asics Gel-Pickax Grey Black (арт. AC034) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Asics Gel-Pickax Grey Black (арт. AC034) за 3100 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -9115,8 +9021,7 @@
     "sizes": [
       "41",
       "43",
-      "44",
-      "45"
+      "44"
     ],
     "sizeChart": [
       {
@@ -9167,7 +9072,7 @@
       {
         "size": "45",
         "cm": "28.5",
-        "available": true
+        "available": false
       },
       {
         "size": "46",
@@ -9207,7 +9112,6 @@
     "sizes": [
       "41",
       "44",
-      "45",
       "46"
     ],
     "sizeChart": [
@@ -9259,7 +9163,7 @@
       {
         "size": "45",
         "cm": "28.5",
-        "available": true
+        "available": false
       },
       {
         "size": "46",
@@ -10805,7 +10709,6 @@
     "sizes": [
       "37",
       "38",
-      "39",
       "41"
     ],
     "sizeChart": [
@@ -10827,7 +10730,7 @@
       {
         "size": "39",
         "cm": "25.0",
-        "available": true
+        "available": false
       },
       {
         "size": "40",
@@ -26199,7 +26102,6 @@
     "sizes": [
       "36",
       "38",
-      "42",
       "43",
       "44"
     ],
@@ -26237,7 +26139,7 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": true
+        "available": false
       },
       {
         "size": "43",
@@ -27209,7 +27111,6 @@
     "sizes": [
       "43",
       "44",
-      "45",
       "46"
     ],
     "sizeChart": [
@@ -27261,7 +27162,7 @@
       {
         "size": "45",
         "cm": "28.5",
-        "available": true
+        "available": false
       },
       {
         "size": "46",
@@ -29159,245 +29060,6 @@
       "title": "New Balance 9060 Breakfast Tea (арт. Nb00145) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте New Balance 9060 Breakfast Tea (арт. Nb00145) за 3300 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
-  },
-  {
-    "id": "251215",
-    "slug": "ugg-classic-micro",
-    "name": "Ugg Classic Micro",
-    "brand": "UGG",
-    "brandSlug": "ugg",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 3400,
-    "oldPrice": 6333,
-    "minPrice": 3400,
-    "maxPrice": 3800,
-    "costPrice": 2900,
-    "sku": "2062",
-    "material": "Натуральна замша, овчина",
-    "country": "В'єтнам",
-    "sizes": [
-      "36",
-      "37",
-      "38",
-      "39",
-      "40",
-      "41"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": true
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": true
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": true
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": true
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": true
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "/images/products/ugg-classic-micro-chocolate/img-1.jpg",
-      "/images/products/ugg-classic-micro-chocolate/img-2.jpg",
-      "/images/products/ugg-classic-micro-chocolate/img-3.jpg",
-      "/images/products/ugg-classic-micro-chocolate/img-4.jpg",
-      "/images/products/ugg-classic-micro-sand/img-1.jpg"
-    ],
-    "description": "Жіночі зимові уггі Ugg Classic Micro — найзручніша та найлаконічніша ультракоротка модель для щоденного комфорту. Виготовлені з високоякісної натуральної водовідштовхувальної замші з густим теплим хутром (овчиною) всередині, що підтримує ідеальний мікроклімат у холодну погоду. Легка та гнучка підошва EVA з фірмовим протектором забезпечує відмінну амортизацію та надійне зчеплення з поверхнею. Завдяки заниженому силуету Micro вони ідеально поєднуються з будь-яким повсякденним гардеробом. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Ugg Classic Micro — купити ультракороткі жіночі зимові уггі в інтернет-магазині VEXARO",
-      "description": "Замовляйте жіночі ультракороткі зимові уггі Ugg Classic Micro у різних кольорах (Chocolate, Sand, Black, Rocky Oak, Chestnut) від 3 400 ₴. Натуральна замша, тепле хутро. Доставка 1–2 дні, накладений платіж."
-    },
-    "variations": [
-      {
-        "id": "251215",
-        "sku": "2062",
-        "color": "Chocolate",
-        "colorSlug": "chocolate",
-        "price": 3800,
-        "oldPrice": 6333,
-        "costPrice": 3300,
-        "sizes": [
-          "36",
-          "37",
-          "38",
-          "39",
-          "40",
-          "41"
-        ],
-        "sizeChart": [
-          {
-            "size": "36",
-            "cm": "22.5",
-            "available": true
-          },
-          {
-            "size": "37",
-            "cm": "23.5",
-            "available": true
-          },
-          {
-            "size": "38",
-            "cm": "24.0",
-            "available": true
-          },
-          {
-            "size": "39",
-            "cm": "25.0",
-            "available": true
-          },
-          {
-            "size": "40",
-            "cm": "25.5",
-            "available": true
-          },
-          {
-            "size": "41",
-            "cm": "26.0",
-            "available": true
-          },
-          {
-            "size": "42",
-            "cm": "26.5",
-            "available": false
-          },
-          {
-            "size": "43",
-            "cm": "27.5",
-            "available": false
-          },
-          {
-            "size": "44",
-            "cm": "28.0",
-            "available": false
-          },
-          {
-            "size": "45",
-            "cm": "28.5",
-            "available": false
-          },
-          {
-            "size": "46",
-            "cm": "29.5",
-            "available": false
-          }
-        ],
-        "images": [
-          "/images/products/ugg-classic-micro-chocolate/img-1.jpg",
-          "/images/products/ugg-classic-micro-chocolate/img-2.jpg",
-          "/images/products/ugg-classic-micro-chocolate/img-3.jpg",
-          "/images/products/ugg-classic-micro-chocolate/img-4.jpg"
-        ],
-        "inStock": true,
-        "slug": "ugg-classic-micro-chocolate-2062"
-      },
-      {
-        "id": "198584",
-        "sku": "1890",
-        "color": "Sand",
-        "colorSlug": "sand",
-        "price": 3400,
-        "oldPrice": 5667,
-        "costPrice": 2900,
-        "sizes": [
-          "36",
-          "37",
-          "38",
-          "40"
-        ],
-        "sizeChart": [
-          {
-            "size": "36",
-            "cm": "22.5",
-            "available": true
-          },
-          {
-            "size": "37",
-            "cm": "23.5",
-            "available": true
-          },
-          {
-            "size": "38",
-            "cm": "24.0",
-            "available": true
-          },
-          {
-            "size": "39",
-            "cm": "25.0",
-            "available": false
-          },
-          {
-            "size": "40",
-            "cm": "25.5",
-            "available": true
-          },
-          {
-            "size": "41",
-            "cm": "26.0",
-            "available": false
-          },
-          {
-            "size": "42",
-            "cm": "26.5",
-            "available": false
-          },
-          {
-            "size": "43",
-            "cm": "27.5",
-            "available": false
-          },
-          {
-            "size": "44",
-            "cm": "28.0",
-            "available": false
-          },
-          {
-            "size": "45",
-            "cm": "28.5",
-            "available": false
-          },
-          {
-            "size": "46",
-            "cm": "29.5",
-            "available": false
-          }
-        ],
-        "images": [
-          "/images/products/ugg-classic-micro-sand/img-1.jpg",
-          "/images/products/ugg-classic-micro-sand/img-2.jpg",
-          "/images/products/ugg-classic-micro-sand/img-3.jpg",
-          "/images/products/ugg-classic-micro-sand/img-4.jpg"
-        ],
-        "inStock": true,
-        "slug": "ugg-classic-micro-sand-1890"
-      }
-    ]
   },
   {
     "id": "251001",
@@ -31442,97 +31104,6 @@
     }
   },
   {
-    "id": "250421",
-    "slug": "nike-p-6000-termo-ntr793",
-    "name": "Nike P-6000 (термо)",
-    "brand": "Nike",
-    "brandSlug": "nike",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 2800,
-    "oldPrice": 4667,
-    "costPrice": 2300,
-    "sku": "NTR793",
-    "material": "Замша, шкіра, вологостійкий текстиль, термоутеплювач, гума, піна, прошиті",
-    "country": "В'єтнам",
-    "sizes": [
-      "42",
-      "44",
-      "45"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": true
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": true
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": true
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/6861cede-ba30-4991-b845-d72e3335ea87.jpg"
-    ],
-    "description": "Модель: Nike P-6000 (термо). Артикул: NTR793. Матеріал: Замша, шкіра, вологостійкий текстиль, термоутеплювач, гума, піна, прошиті. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Nike P-6000 (термо) (арт. NTR793) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Nike P-6000 (термо) (арт. NTR793) за 2800 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "250416",
     "slug": "nike-sb-dunk-white-burgundy-10-1681",
     "name": "NIKE SB DUNK | “WHITE / BURGUNDY” (10",
@@ -33425,7 +32996,8 @@
       "41",
       "42",
       "43",
-      "44"
+      "44",
+      "45"
     ],
     "sizeChart": [
       {
@@ -33476,7 +33048,7 @@
       {
         "size": "45",
         "cm": "28.5",
-        "available": false
+        "available": true
       },
       {
         "size": "46",
@@ -33896,9 +33468,7 @@
     "material": "Кожа , мех",
     "country": "В'єтнам",
     "sizes": [
-      "37",
       "38",
-      "39",
       "42",
       "43",
       "44",
@@ -33913,7 +33483,7 @@
       {
         "size": "37",
         "cm": "23.5",
-        "available": true
+        "available": false
       },
       {
         "size": "38",
@@ -33923,7 +33493,7 @@
       {
         "size": "39",
         "cm": "25.0",
-        "available": true
+        "available": false
       },
       {
         "size": "40",
@@ -33973,6 +33543,97 @@
     }
   },
   {
+    "id": "249680",
+    "slug": "ugg-neumel-chelsea-platform-chocolate-2045",
+    "name": "UGG Neumel Chelsea Platform Chocolate",
+    "brand": "UGG",
+    "brandSlug": "ugg",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 4800,
+    "oldPrice": 8000,
+    "costPrice": 4300,
+    "sku": "2045",
+    "material": "Замша, хутро",
+    "country": "В'єтнам",
+    "sizes": [
+      "39",
+      "40",
+      "41"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": false
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "28.5",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": true,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/f50cd259-8d0d-46eb-8a7d-18d4df6a6dd8.jpeg"
+    ],
+    "description": "Модель: UGG Neumel Chelsea Platform Chocolate. Артикул: 2045. Матеріал: Замша, хутро. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "UGG Neumel Chelsea Platform Chocolate (арт. 2045) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте UGG Neumel Chelsea Platform Chocolate (арт. 2045) за 4800 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
     "id": "249679",
     "slug": "ugg-classic-mini-dipper-chocolate-2044",
     "name": "UGG Classic Mini Dipper Chocolate",
@@ -33992,8 +33653,9 @@
     "country": "В'єтнам",
     "sizes": [
       "36",
-      "38",
-      "40"
+      "39",
+      "40",
+      "41"
     ],
     "sizeChart": [
       {
@@ -34009,12 +33671,12 @@
       {
         "size": "38",
         "cm": "24.0",
-        "available": true
+        "available": false
       },
       {
         "size": "39",
         "cm": "25.0",
-        "available": false
+        "available": true
       },
       {
         "size": "40",
@@ -34024,7 +33686,7 @@
       {
         "size": "41",
         "cm": "26.0",
-        "available": false
+        "available": true
       },
       {
         "size": "42",
@@ -34277,7 +33939,6 @@
       "37",
       "38",
       "39",
-      "40",
       "43"
     ],
     "sizeChart": [
@@ -34304,7 +33965,7 @@
       {
         "size": "40",
         "cm": "25.5",
-        "available": true
+        "available": false
       },
       {
         "size": "41",
@@ -37373,97 +37034,6 @@
     }
   },
   {
-    "id": "249269",
-    "slug": "new-balance-574-grey-white-fur-nb134",
-    "name": "New Balance 574 Grey White Fur",
-    "brand": "New Balance",
-    "brandSlug": "newbalance",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "unisex",
-    "genderName": "Унісекс",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 3100,
-    "oldPrice": 5167,
-    "costPrice": 2600,
-    "sku": "NB134",
-    "material": "Замша/Хутро",
-    "country": "-",
-    "sizes": [
-      "37",
-      "43",
-      "45"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": true
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": true
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": true
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/59035ef7-061f-4934-805c-b1b0306c82b3.jpeg"
-    ],
-    "description": "Модель: New Balance 574 Grey White Fur. Артикул: NB134. Матеріал: Замша/Хутро. Сезон: Зима. Виробництво: -. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "New Balance 574 Grey White Fur (арт. NB134) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте New Balance 574 Grey White Fur (арт. NB134) за 3100 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "249268",
     "slug": "new-balance-574-classic-black-red-2824",
     "name": "New Balance 574 Classic Black Red",
@@ -39087,7 +38657,6 @@
     "sizes": [
       "40",
       "41",
-      "42",
       "43",
       "45"
     ],
@@ -39125,7 +38694,7 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": true
+        "available": false
       },
       {
         "size": "43",
@@ -39934,11 +39503,9 @@
     "country": "В'єтнам",
     "sizes": [
       "41",
-      "42",
       "43",
       "44",
-      "45",
-      "46"
+      "45"
     ],
     "sizeChart": [
       {
@@ -39974,7 +39541,7 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": true
+        "available": false
       },
       {
         "size": "43",
@@ -39994,7 +39561,7 @@
       {
         "size": "46",
         "cm": "29.5",
-        "available": true
+        "available": false
       }
     ],
     "inStock": true,
@@ -48768,7 +48335,6 @@
       "37",
       "38",
       "43",
-      "44",
       "45"
     ],
     "sizeChart": [
@@ -48815,7 +48381,7 @@
       {
         "size": "44",
         "cm": "28.0",
-        "available": true
+        "available": false
       },
       {
         "size": "45",
@@ -49611,7 +49177,6 @@
     "sizes": [
       "41",
       "42",
-      "43",
       "45"
     ],
     "sizeChart": [
@@ -49653,7 +49218,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": true
+        "available": false
       },
       {
         "size": "44",
@@ -54398,6 +53963,7 @@
     "sizes": [
       "36",
       "37",
+      "38",
       "40",
       "41"
     ],
@@ -54415,7 +53981,7 @@
       {
         "size": "38",
         "cm": "24.0",
-        "available": false
+        "available": true
       },
       {
         "size": "39",
@@ -56636,7 +56202,6 @@
     "country": "В'єтнам",
     "sizes": [
       "41",
-      "42",
       "43",
       "44",
       "45",
@@ -56676,7 +56241,7 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": true
+        "available": false
       },
       {
         "size": "43",
@@ -58131,7 +57696,6 @@
     "country": "В'єтнам",
     "sizes": [
       "36",
-      "37",
       "38",
       "40"
     ],
@@ -58144,7 +57708,7 @@
       {
         "size": "37",
         "cm": "23.5",
-        "available": true
+        "available": false
       },
       {
         "size": "38",
@@ -58577,97 +58141,6 @@
     }
   },
   {
-    "id": "243470",
-    "slug": "salomon-xa-pro-street-thinsulate-gore-tex-grey-2990",
-    "name": "Salomon XA Pro Street Thinsulate Gore-Tex Grey",
-    "brand": "Salomon",
-    "brandSlug": "salomon",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 2900,
-    "oldPrice": 4833,
-    "costPrice": 2400,
-    "sku": "2990",
-    "material": "Кожа , Замша , Текстиль",
-    "country": "В'єтнам",
-    "sizes": [
-      "41",
-      "44",
-      "46"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": true
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": true
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/3f76a5cc-e3a9-4b9d-85ad-19a7c06757ef.jpeg"
-    ],
-    "description": "Модель: Salomon XA Pro Street Thinsulate Gore-Tex Grey. Артикул: 2990. Матеріал: Кожа , Замша , Текстиль. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Salomon XA Pro Street Thinsulate Gore-Tex Grey (арт. 2990) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Salomon XA Pro Street Thinsulate Gore-Tex Grey (арт. 2990) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "243468",
     "slug": "new-balance-204l-candy-pink-1-1641",
     "name": "NEW BALANCE 204L | CANDY PINK (1",
@@ -58782,8 +58255,7 @@
     "sizes": [
       "41",
       "43",
-      "44",
-      "45"
+      "44"
     ],
     "sizeChart": [
       {
@@ -58834,7 +58306,7 @@
       {
         "size": "45",
         "cm": "28.5",
-        "available": true
+        "available": false
       },
       {
         "size": "46",
@@ -72648,97 +72120,6 @@
     "seo": {
       "title": "New Balance 9060 (арт. NB453) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте New Balance 9060 (арт. NB453) за 2850 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "235424",
-    "slug": "nike-air-force-black-white-nk22",
-    "name": "Nike Air Force Black/White",
-    "brand": "Nike",
-    "brandSlug": "nike",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 1700,
-    "oldPrice": 2833,
-    "costPrice": 1200,
-    "sku": "#NK22",
-    "material": "Текстиль / комбінований",
-    "country": "-",
-    "sizes": [
-      "40",
-      "41",
-      "42"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": true
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": true
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/1e25d341-71d6-4bb3-a42b-fda5fc9e53bb.webp"
-    ],
-    "description": "Модель: Nike Air Force Black/White. Артикул: #NK22. Матеріал: Текстиль / комбінований. Сезон: Демісезон. Виробництво: -. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Nike Air Force Black/White (арт. #NK22) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Nike Air Force Black/White (арт. #NK22) за 1700 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -95665,100 +95046,6 @@
     }
   },
   {
-    "id": "224367",
-    "slug": "nike-air-force-wolf-grey-suede-6150",
-    "name": "Nike Air Force Wolf Grey Suede",
-    "brand": "Nike",
-    "brandSlug": "nike",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 2800,
-    "oldPrice": 4667,
-    "costPrice": 2300,
-    "sku": "6150",
-    "material": "шкіра",
-    "country": "В'єтнам",
-    "sizes": [
-      "38",
-      "40",
-      "41"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": true
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": true
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/746fa4db-d381-4da4-bdb0-b39e5eababac.jpg",
-      "https://easydrop.one/media/uploads/images/base/6ea6487c-8ee4-4f52-bf34-f937da9e3b83.jpeg",
-      "https://easydrop.one/media/uploads/images/base/9c3e5a2f-3af3-4eb2-accd-80bc3aeb12ac.jpeg",
-      "https://easydrop.one/media/uploads/images/base/614ba98f-5948-4ecc-b2c7-1e5ef2388014.jpeg"
-    ],
-    "description": "Модель: Nike Air Force Wolf Grey Suede. Артикул: 6150. Матеріал: шкіра. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Nike Air Force Wolf Grey Suede (арт. 6150) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Nike Air Force Wolf Grey Suede (арт. 6150) за 2800 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "224359",
     "slug": "nike-low-valentine-s-day-pink-6275",
     "name": "Nike Low Valentine`s Day Pink",
@@ -96787,6 +96074,97 @@
     "seo": {
       "title": "Asics Gel-Kahana 8 Beige Red Blue (арт. 0050) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Asics Gel-Kahana 8 Beige Red Blue (арт. 0050) за 2890 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "224174",
+    "slug": "asics-superblast-pink-violet-0049",
+    "name": "Asics Superblast Pink Violet",
+    "brand": "Asics",
+    "brandSlug": "asics",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 2740,
+    "oldPrice": 4567,
+    "costPrice": 2240,
+    "sku": "0049",
+    "material": "Текстиль, піна",
+    "country": "Китай",
+    "sizes": [
+      "36",
+      "37",
+      "39"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": true
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": true
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": false
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": false
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": false
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "28.5",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/246782d1-c5b9-4b02-a049-fe6b9220316d.jpeg"
+    ],
+    "description": "Модель: Asics Superblast Pink Violet. Артикул: 0049. Матеріал: Текстиль, піна. Сезон: Демісезон. Виробництво: Китай. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Asics Superblast Pink Violet (арт. 0049) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Asics Superblast Pink Violet (арт. 0049) за 2740 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -119888,6 +119266,7 @@
     "sizes": [
       "41",
       "42",
+      "43",
       "44"
     ],
     "sizeChart": [
@@ -119929,7 +119308,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": false
+        "available": true
       },
       {
         "size": "44",
@@ -132234,7 +131613,6 @@
     "material": "Кожа , Текстиль",
     "country": "В'єтнам",
     "sizes": [
-      "37",
       "38",
       "39",
       "40",
@@ -132253,7 +131631,7 @@
       {
         "size": "37",
         "cm": "23.5",
-        "available": true
+        "available": false
       },
       {
         "size": "38",
@@ -133549,7 +132927,6 @@
     "sizes": [
       "40",
       "41",
-      "42",
       "43",
       "45"
     ],
@@ -133587,7 +132964,7 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": true
+        "available": false
       },
       {
         "size": "43",
@@ -135048,9 +134425,9 @@
     "season": "winter",
     "seasonName": "Зима",
     "price": 4500,
-    "oldPrice": 7500,
+    "oldPrice": 8000,
     "minPrice": 4500,
-    "maxPrice": 4500,
+    "maxPrice": 4800,
     "costPrice": 4000,
     "sku": "1909",
     "material": "Натуральна замша, силіконова калоша, натуральне хутро",
@@ -135060,7 +134437,8 @@
       "37",
       "38",
       "39",
-      "40"
+      "40",
+      "41"
     ],
     "sizeChart": [
       {
@@ -135087,13 +134465,20 @@
         "size": "40",
         "cm": "25.5",
         "available": true
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
       }
     ],
     "inStock": true,
     "isHit": true,
     "images": [
+      "https://easydrop.one/media/uploads/images/base/59cc0696-4e05-4ab5-887b-6cee8d62babd.jpeg",
       "https://easydrop.one/media/uploads/images/base/84e5522e-e4d8-42dc-ae63-2978f0c2b527.jpeg",
-      "https://easydrop.one/media/uploads/images/base/76e2fdd3-2074-4179-ba66-c85d2bc75150.jpeg"
+      "https://easydrop.one/media/uploads/images/base/76e2fdd3-2074-4179-ba66-c85d2bc75150.jpeg",
+      "https://easydrop.one/media/uploads/images/base/2947548e-f06b-4832-84be-c5ba43fd2207.jpeg"
     ],
     "description": "Жіночі зимові уггі UGG CI Ultra Mini Weather Hybrid у преміальному виконанні. Оновлена версія культових Ultra Mini, створена для будь-якої негоди: водонепроникна силіконова калоша, верх із якісної натуральної водовідштовхувальної замші та густе тепле натуральне хутро (овчина) всередині. Знімна силіконова галоша забезпечує надійний захист від бруду, снігу та сльоти, а рельєфна підошва гарантує відмінне зчеплення з поверхнею в зимовий період. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
     "seo": {
@@ -135101,6 +134486,82 @@
       "description": "Замовляйте водонепроникні зимові уггі UGG CI Ultra Mini Weather Hybrid у різних кольорах від 4 500 ₴. Натуральна замша, силіконовий захист, тепле хутро. Доставка 1–2 дні, накладений платіж."
     },
     "variations": [
+      {
+        "id": "201143",
+        "sku": "1909",
+        "color": "CHESTNUT WHITE",
+        "colorSlug": "chestnut-white",
+        "price": 4800,
+        "oldPrice": 8000,
+        "costPrice": 4300,
+        "sizes": [
+          "38",
+          "39",
+          "41"
+        ],
+        "sizeChart": [
+          {
+            "size": "36",
+            "cm": "22.5",
+            "available": false
+          },
+          {
+            "size": "37",
+            "cm": "23.5",
+            "available": false
+          },
+          {
+            "size": "38",
+            "cm": "24.0",
+            "available": true
+          },
+          {
+            "size": "39",
+            "cm": "25.0",
+            "available": true
+          },
+          {
+            "size": "40",
+            "cm": "25.5",
+            "available": false
+          },
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": true
+          },
+          {
+            "size": "42",
+            "cm": "26.5",
+            "available": false
+          },
+          {
+            "size": "43",
+            "cm": "27.5",
+            "available": false
+          },
+          {
+            "size": "44",
+            "cm": "28.0",
+            "available": false
+          },
+          {
+            "size": "45",
+            "cm": "28.5",
+            "available": false
+          },
+          {
+            "size": "46",
+            "cm": "29.5",
+            "available": false
+          }
+        ],
+        "images": [
+          "https://easydrop.one/media/uploads/images/base/59cc0696-4e05-4ab5-887b-6cee8d62babd.jpeg"
+        ],
+        "inStock": true,
+        "slug": "ugg-ci-ultra-mini-weather-hybrid-chestnut-white-1909"
+      },
       {
         "id": "201135",
         "sku": "1906",
@@ -135255,6 +134716,82 @@
         ],
         "inStock": true,
         "slug": "ugg-ci-ultra-mini-weather-hybrid-khaki-yellow-1908"
+      },
+      {
+        "id": "201137",
+        "sku": "1907",
+        "color": "FULL BLACK",
+        "colorSlug": "full-black",
+        "price": 4800,
+        "oldPrice": 8000,
+        "costPrice": 4300,
+        "sizes": [
+          "36",
+          "37",
+          "41"
+        ],
+        "sizeChart": [
+          {
+            "size": "36",
+            "cm": "22.5",
+            "available": true
+          },
+          {
+            "size": "37",
+            "cm": "23.5",
+            "available": true
+          },
+          {
+            "size": "38",
+            "cm": "24.0",
+            "available": false
+          },
+          {
+            "size": "39",
+            "cm": "25.0",
+            "available": false
+          },
+          {
+            "size": "40",
+            "cm": "25.5",
+            "available": false
+          },
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": true
+          },
+          {
+            "size": "42",
+            "cm": "26.5",
+            "available": false
+          },
+          {
+            "size": "43",
+            "cm": "27.5",
+            "available": false
+          },
+          {
+            "size": "44",
+            "cm": "28.0",
+            "available": false
+          },
+          {
+            "size": "45",
+            "cm": "28.5",
+            "available": false
+          },
+          {
+            "size": "46",
+            "cm": "29.5",
+            "available": false
+          }
+        ],
+        "images": [
+          "https://easydrop.one/media/uploads/images/base/2947548e-f06b-4832-84be-c5ba43fd2207.jpeg"
+        ],
+        "inStock": true,
+        "slug": "ugg-ci-ultra-mini-weather-hybrid-full-black-1907"
       }
     ]
   },
@@ -137160,8 +136697,7 @@
       "37",
       "38",
       "39",
-      "40",
-      "41"
+      "40"
     ],
     "sizeChart": [
       {
@@ -137192,7 +136728,7 @@
       {
         "size": "41",
         "cm": "26.0",
-        "available": true
+        "available": false
       },
       {
         "size": "42",
@@ -139166,8 +138702,7 @@
       "36",
       "37",
       "38",
-      "40",
-      "41"
+      "40"
     ],
     "sizeChart": [
       {
@@ -139198,7 +138733,7 @@
       {
         "size": "41",
         "cm": "26.0",
-        "available": true
+        "available": false
       },
       {
         "size": "42",
@@ -140129,6 +139664,402 @@
         ],
         "inStock": true,
         "slug": "ugg-mini-dipper-puffer-sand-premium-1467"
+      }
+    ]
+  },
+  {
+    "id": "198551",
+    "slug": "ugg-classic-micro",
+    "name": "Ugg Classic Micro",
+    "brand": "UGG",
+    "brandSlug": "ugg",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 3400,
+    "oldPrice": 6333,
+    "minPrice": 3400,
+    "maxPrice": 3800,
+    "costPrice": 2900,
+    "sku": "1887",
+    "material": "Натуральна замша, овчина",
+    "country": "В'єтнам",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": true
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": true
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      }
+    ],
+    "inStock": true,
+    "isHit": true,
+    "images": [
+      "/images/products/ugg-classic-micro-chestnut/img-1.jpg",
+      "/images/products/ugg-classic-micro-chestnut/img-2.jpg",
+      "/images/products/ugg-classic-micro-chestnut/img-3.jpg",
+      "/images/products/ugg-classic-micro-chestnut/img-4.jpg",
+      "/images/products/ugg-classic-micro-chocolate/img-1.jpg",
+      "/images/products/ugg-classic-micro-sand/img-1.jpg",
+      "/images/products/ugg-classic-micro-black/img-1.jpg"
+    ],
+    "description": "Жіночі зимові уггі Ugg Classic Micro — найзручніша та найлаконічніша ультракоротка модель для щоденного комфорту. Виготовлені з високоякісної натуральної водовідштовхувальної замші з густим теплим хутром (овчиною) всередині, що підтримує ідеальний мікроклімат у холодну погоду. Легка та гнучка підошва EVA з фірмовим протектором забезпечує відмінну амортизацію та надійне зчеплення з поверхнею. Завдяки заниженому силуету Micro вони ідеально поєднуються з будь-яким повсякденним гардеробом. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Ugg Classic Micro — купити ультракороткі жіночі зимові уггі в інтернет-магазині VEXARO",
+      "description": "Замовляйте жіночі ультракороткі зимові уггі Ugg Classic Micro у різних кольорах (Chocolate, Sand, Black, Rocky Oak, Chestnut) від 3 400 ₴. Натуральна замша, тепле хутро. Доставка 1–2 дні, накладений платіж."
+    },
+    "variations": [
+      {
+        "id": "198551",
+        "sku": "1887",
+        "color": "Chestnut",
+        "colorSlug": "chestnut",
+        "price": 3400,
+        "oldPrice": 5667,
+        "costPrice": 2900,
+        "sizes": [
+          "37",
+          "38",
+          "41"
+        ],
+        "sizeChart": [
+          {
+            "size": "36",
+            "cm": "22.5",
+            "available": false
+          },
+          {
+            "size": "37",
+            "cm": "23.5",
+            "available": true
+          },
+          {
+            "size": "38",
+            "cm": "24.0",
+            "available": true
+          },
+          {
+            "size": "39",
+            "cm": "25.0",
+            "available": false
+          },
+          {
+            "size": "40",
+            "cm": "25.5",
+            "available": false
+          },
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": true
+          },
+          {
+            "size": "42",
+            "cm": "26.5",
+            "available": false
+          },
+          {
+            "size": "43",
+            "cm": "27.5",
+            "available": false
+          },
+          {
+            "size": "44",
+            "cm": "28.0",
+            "available": false
+          },
+          {
+            "size": "45",
+            "cm": "28.5",
+            "available": false
+          },
+          {
+            "size": "46",
+            "cm": "29.5",
+            "available": false
+          }
+        ],
+        "images": [
+          "/images/products/ugg-classic-micro-chestnut/img-1.jpg",
+          "/images/products/ugg-classic-micro-chestnut/img-2.jpg",
+          "/images/products/ugg-classic-micro-chestnut/img-3.jpg",
+          "/images/products/ugg-classic-micro-chestnut/img-4.jpg"
+        ],
+        "inStock": true,
+        "slug": "ugg-classic-micro-chestnut-1887"
+      },
+      {
+        "id": "251215",
+        "sku": "2062",
+        "color": "Chocolate",
+        "colorSlug": "chocolate",
+        "price": 3800,
+        "oldPrice": 6333,
+        "costPrice": 3300,
+        "sizes": [
+          "36",
+          "37",
+          "38",
+          "39",
+          "40",
+          "41"
+        ],
+        "sizeChart": [
+          {
+            "size": "36",
+            "cm": "22.5",
+            "available": true
+          },
+          {
+            "size": "37",
+            "cm": "23.5",
+            "available": true
+          },
+          {
+            "size": "38",
+            "cm": "24.0",
+            "available": true
+          },
+          {
+            "size": "39",
+            "cm": "25.0",
+            "available": true
+          },
+          {
+            "size": "40",
+            "cm": "25.5",
+            "available": true
+          },
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": true
+          },
+          {
+            "size": "42",
+            "cm": "26.5",
+            "available": false
+          },
+          {
+            "size": "43",
+            "cm": "27.5",
+            "available": false
+          },
+          {
+            "size": "44",
+            "cm": "28.0",
+            "available": false
+          },
+          {
+            "size": "45",
+            "cm": "28.5",
+            "available": false
+          },
+          {
+            "size": "46",
+            "cm": "29.5",
+            "available": false
+          }
+        ],
+        "images": [
+          "/images/products/ugg-classic-micro-chocolate/img-1.jpg",
+          "/images/products/ugg-classic-micro-chocolate/img-2.jpg",
+          "/images/products/ugg-classic-micro-chocolate/img-3.jpg",
+          "/images/products/ugg-classic-micro-chocolate/img-4.jpg"
+        ],
+        "inStock": true,
+        "slug": "ugg-classic-micro-chocolate-2062"
+      },
+      {
+        "id": "198584",
+        "sku": "1890",
+        "color": "Sand",
+        "colorSlug": "sand",
+        "price": 3400,
+        "oldPrice": 5667,
+        "costPrice": 2900,
+        "sizes": [
+          "36",
+          "37",
+          "38",
+          "40"
+        ],
+        "sizeChart": [
+          {
+            "size": "36",
+            "cm": "22.5",
+            "available": true
+          },
+          {
+            "size": "37",
+            "cm": "23.5",
+            "available": true
+          },
+          {
+            "size": "38",
+            "cm": "24.0",
+            "available": true
+          },
+          {
+            "size": "39",
+            "cm": "25.0",
+            "available": false
+          },
+          {
+            "size": "40",
+            "cm": "25.5",
+            "available": true
+          },
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": false
+          },
+          {
+            "size": "42",
+            "cm": "26.5",
+            "available": false
+          },
+          {
+            "size": "43",
+            "cm": "27.5",
+            "available": false
+          },
+          {
+            "size": "44",
+            "cm": "28.0",
+            "available": false
+          },
+          {
+            "size": "45",
+            "cm": "28.5",
+            "available": false
+          },
+          {
+            "size": "46",
+            "cm": "29.5",
+            "available": false
+          }
+        ],
+        "images": [
+          "/images/products/ugg-classic-micro-sand/img-1.jpg",
+          "/images/products/ugg-classic-micro-sand/img-2.jpg",
+          "/images/products/ugg-classic-micro-sand/img-3.jpg",
+          "/images/products/ugg-classic-micro-sand/img-4.jpg"
+        ],
+        "inStock": true,
+        "slug": "ugg-classic-micro-sand-1890"
+      },
+      {
+        "id": "198582",
+        "sku": "1889",
+        "color": "Black",
+        "colorSlug": "black",
+        "price": 3800,
+        "oldPrice": 6333,
+        "costPrice": 3300,
+        "sizes": [
+          "36",
+          "39",
+          "41"
+        ],
+        "sizeChart": [
+          {
+            "size": "36",
+            "cm": "22.5",
+            "available": true
+          },
+          {
+            "size": "37",
+            "cm": "23.5",
+            "available": false
+          },
+          {
+            "size": "38",
+            "cm": "24.0",
+            "available": false
+          },
+          {
+            "size": "39",
+            "cm": "25.0",
+            "available": true
+          },
+          {
+            "size": "40",
+            "cm": "25.5",
+            "available": false
+          },
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": true
+          },
+          {
+            "size": "42",
+            "cm": "26.5",
+            "available": false
+          },
+          {
+            "size": "43",
+            "cm": "27.5",
+            "available": false
+          },
+          {
+            "size": "44",
+            "cm": "28.0",
+            "available": false
+          },
+          {
+            "size": "45",
+            "cm": "28.5",
+            "available": false
+          },
+          {
+            "size": "46",
+            "cm": "29.5",
+            "available": false
+          }
+        ],
+        "images": [
+          "/images/products/ugg-classic-micro-black/img-1.jpg"
+        ],
+        "inStock": true,
+        "slug": "ugg-classic-micro-black-1889"
       }
     ]
   },
@@ -141422,6 +141353,7 @@
         "costPrice": 4300,
         "sizes": [
           "36",
+          "37",
           "38",
           "39",
           "40"
@@ -141435,7 +141367,7 @@
           {
             "size": "37",
             "cm": "23.5",
-            "available": false
+            "available": true
           },
           {
             "size": "38",
@@ -167706,7 +167638,6 @@
       "38",
       "40",
       "42",
-      "43",
       "45"
     ],
     "sizeChart": [
@@ -167748,7 +167679,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": true
+        "available": false
       },
       {
         "size": "44",
@@ -183786,7 +183717,6 @@
     "country": "В'єтнам",
     "sizes": [
       "42",
-      "43",
       "44",
       "45"
     ],
@@ -183829,7 +183759,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": true
+        "available": false
       },
       {
         "size": "44",
@@ -204258,7 +204188,8 @@
       "37",
       "38",
       "39",
-      "40"
+      "40",
+      "41"
     ],
     "sizeChart": [
       {
@@ -204284,6 +204215,11 @@
       {
         "size": "40",
         "cm": "25.5",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
         "available": true
       }
     ],
@@ -204313,7 +204249,8 @@
           "37",
           "38",
           "39",
-          "40"
+          "40",
+          "41"
         ],
         "sizeChart": [
           {
@@ -204344,7 +204281,7 @@
           {
             "size": "41",
             "cm": "26.0",
-            "available": false
+            "available": true
           },
           {
             "size": "42",
@@ -206784,7 +206721,6 @@
     "sizes": [
       "41",
       "42",
-      "43",
       "44"
     ],
     "sizeChart": [
@@ -206826,7 +206762,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": true
+        "available": false
       },
       {
         "size": "44",
@@ -211829,6 +211765,7 @@
     "material": "Замша, овчина",
     "country": "В'єтнам",
     "sizes": [
+      "36",
       "38",
       "39",
       "40",
@@ -211838,7 +211775,7 @@
       {
         "size": "36",
         "cm": "22.5",
-        "available": false
+        "available": true
       },
       {
         "size": "37",
@@ -218000,6 +217937,97 @@
     }
   },
   {
+    "id": "121894",
+    "slug": "ugg-neumel-platform-chukka-black-1411",
+    "name": "UGG Neumel Platform Chukka Black",
+    "brand": "UGG",
+    "brandSlug": "ugg",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 4800,
+    "oldPrice": 8000,
+    "costPrice": 4300,
+    "sku": "1411",
+    "material": "Замша, овчина",
+    "country": "В'єтнам",
+    "sizes": [
+      "39",
+      "40",
+      "41"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": false
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "28.5",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": true,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/644a3543-8c33-4822-89c0-2f288e4ce71b.jpeg"
+    ],
+    "description": "Модель: UGG Neumel Platform Chukka Black. Артикул: 1411. Матеріал: Замша, овчина. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "UGG Neumel Platform Chukka Black (арт. 1411) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте UGG Neumel Platform Chukka Black (арт. 1411) за 4800 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
     "id": "121415",
     "slug": "nike-air-force-nafc01",
     "name": "Nike AIR FORCE",
@@ -219620,8 +219648,7 @@
       "41",
       "42",
       "43",
-      "44",
-      "45"
+      "44"
     ],
     "sizeChart": [
       {
@@ -219672,7 +219699,7 @@
       {
         "size": "45",
         "cm": "28.5",
-        "available": true
+        "available": false
       },
       {
         "size": "46",
@@ -243908,98 +243935,6 @@
     }
   },
   {
-    "id": "85590",
-    "slug": "air-jordan-retro-5-x-off-white-668",
-    "name": "Air Jordan Retro 5 x Off White",
-    "brand": "Air Jordan",
-    "brandSlug": "jordan",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 3400,
-    "oldPrice": 5667,
-    "costPrice": 2900,
-    "sku": "668",
-    "material": "Текстиль",
-    "country": "В'єтнам",
-    "sizes": [
-      "39",
-      "41",
-      "43",
-      "44"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": true
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": true
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": true
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/2cb32ae4-a6f8-4960-931d-839c3e6c378b.jpeg"
-    ],
-    "description": "Модель: Air Jordan Retro 5 x Off White. Артикул: 668. Матеріал: Текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Air Jordan Retro 5 x Off White (арт. 668) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Air Jordan Retro 5 x Off White (арт. 668) за 3400 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "85589",
     "slug": "new-balance-574-classic-black-white-1401",
     "name": "New Balance 574 Classic Black White",
@@ -247829,6 +247764,137 @@
     }
   },
   {
+    "id": "73379",
+    "slug": "ugg-mini-lacquer-zip",
+    "name": "UGG Mini Lacquer ZIP",
+    "brand": "UGG",
+    "brandSlug": "ugg",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 1900,
+    "oldPrice": 3167,
+    "minPrice": 1900,
+    "maxPrice": 1900,
+    "costPrice": 1250,
+    "sku": "1151",
+    "material": "Натуральна замша з лаковим покриттям, натуральне хутро (овчина), бічна блискавка ZIP",
+    "country": "В'єтнам",
+    "sizes": [
+      "36",
+      "38",
+      "39"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": true
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": true
+      }
+    ],
+    "inStock": true,
+    "isHit": true,
+    "images": [
+      "/images/products/ugg-mini-lacquer-zip-black/img-1.jpg"
+    ],
+    "description": "Жіночі зимові уггі з бічною блискавкою UGG Mini Lacquer ZIP у стильному глянцевому виконанні. Культовий силует Classic Mini, доповнений практичною металевою блискавкою ZIP для швидкого та комфортного взування: верх виготовлений із високоякісної натуральної замші з вологозахисним лаковим напиленням, всередині — густе тепле натуральне хутро (овчина) для надійного збереження тепла в морозні дні. Легка підошва забезпечує комфортну амортизацію та надійне зчеплення зі слизькими зимовими поверхнями. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "UGG Mini Lacquer ZIP — купити жіночі зимові уггі з блискавкою в інтернет-магазині VEXARO",
+      "description": "Замовляйте жіночі зимові уггі UGG Mini Lacquer ZIP у кольорах Light Grey та Black Lacquer за ціною від 1900 ₴. Натуральна лакована замша, овчина, блискавка. Доставка Новою Поштою 1–2 дні, накладений платіж."
+    },
+    "variations": [
+      {
+        "id": "69270",
+        "sku": "1115",
+        "color": "Black Lacquer",
+        "colorSlug": "black-lacquer",
+        "price": 1900,
+        "oldPrice": 3167,
+        "costPrice": 1400,
+        "sizes": [
+          "36",
+          "38",
+          "39"
+        ],
+        "sizeChart": [
+          {
+            "size": "36",
+            "cm": "22.5",
+            "available": true
+          },
+          {
+            "size": "37",
+            "cm": "23.5",
+            "available": false
+          },
+          {
+            "size": "38",
+            "cm": "24.0",
+            "available": true
+          },
+          {
+            "size": "39",
+            "cm": "25.0",
+            "available": true
+          },
+          {
+            "size": "40",
+            "cm": "25.5",
+            "available": false
+          },
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": false
+          },
+          {
+            "size": "42",
+            "cm": "26.5",
+            "available": false
+          },
+          {
+            "size": "43",
+            "cm": "27.5",
+            "available": false
+          },
+          {
+            "size": "44",
+            "cm": "28.0",
+            "available": false
+          },
+          {
+            "size": "45",
+            "cm": "28.5",
+            "available": false
+          },
+          {
+            "size": "46",
+            "cm": "29.5",
+            "available": false
+          }
+        ],
+        "images": [
+          "/images/products/ugg-mini-lacquer-zip-black/img-1.jpg"
+        ],
+        "inStock": true,
+        "slug": "ugg-mini-zip-black-lacquer-1115"
+      }
+    ]
+  },
+  {
     "id": "73095",
     "slug": "ugg-ultra-mini-pink-suede-rozprodazh-ug097",
     "name": "Ugg Ultra Mini Pink Suede РОЗПРОДАЖ",
@@ -249679,6 +249745,97 @@
     }
   },
   {
+    "id": "67497",
+    "slug": "ugg-mini-platform-chestnut-1103",
+    "name": "Ugg Mini Platform Chestnut",
+    "brand": "UGG",
+    "brandSlug": "ugg",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 4000,
+    "oldPrice": 6667,
+    "costPrice": 3500,
+    "sku": "1103",
+    "material": "Замша, овчина",
+    "country": "В'єтнам",
+    "sizes": [
+      "36",
+      "39",
+      "40"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": true
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": false
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": false
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "28.5",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": true,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/daa00a8a-a96f-45f1-a86b-bf1c0fe9d905.jpeg"
+    ],
+    "description": "Модель: Ugg Mini Platform Chestnut. Артикул: 1103. Матеріал: Замша, овчина. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Ugg Mini Platform Chestnut (арт. 1103) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Ugg Mini Platform Chestnut (арт. 1103) за 4000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
     "id": "67489",
     "slug": "ugg-neumel-chelsea-chestnut-platform-1099",
     "name": "Ugg Neumel Chelsea Chestnut Platform",
@@ -249698,6 +249855,7 @@
     "country": "В'єтнам",
     "sizes": [
       "36",
+      "37",
       "40",
       "41"
     ],
@@ -249710,7 +249868,7 @@
       {
         "size": "37",
         "cm": "23.5",
-        "available": false
+        "available": true
       },
       {
         "size": "38",
@@ -249881,6 +250039,7 @@
     "country": "В'єтнам",
     "sizes": [
       "36",
+      "37",
       "39",
       "40",
       "41"
@@ -249894,7 +250053,7 @@
       {
         "size": "37",
         "cm": "23.5",
-        "available": false
+        "available": true
       },
       {
         "size": "38",
@@ -270179,8 +270338,7 @@
           "37",
           "38",
           "39",
-          "40",
-          "41"
+          "40"
         ],
         "sizeChart": [
           {
@@ -270216,7 +270374,7 @@
           {
             "size": "41",
             "cm": "26.0",
-            "available": true
+            "available": false
           },
           {
             "size": "42",
