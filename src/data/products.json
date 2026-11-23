@@ -218687,14 +218687,14 @@
         "available": false
       },
       {
-        "size": "42.5",
-        "cm": "26.5",
-        "available": true
-      },
-      {
         "size": "42,5",
         "cm": "26.5",
         "available": false
+      },
+      {
+        "size": "42.5",
+        "cm": "26.5",
+        "available": true
       },
       {
         "size": "43",
