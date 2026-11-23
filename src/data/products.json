@@ -17141,7 +17141,6 @@
       "40",
       "41",
       "42",
-      "43",
       "44",
       "45"
     ],
@@ -17184,7 +17183,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": true
+        "available": false
       },
       {
         "size": "44",
@@ -176096,14 +176095,14 @@
         "available": true
       },
       {
-        "size": "45/46",
-        "cm": "28.5",
-        "available": true
-      },
-      {
         "size": "45",
         "cm": "28.5",
         "available": false
+      },
+      {
+        "size": "45/46",
+        "cm": "28.5",
+        "available": true
       },
       {
         "size": "46",
@@ -176197,14 +176196,14 @@
         "available": true
       },
       {
-        "size": "45/46",
-        "cm": "28.5",
-        "available": true
-      },
-      {
         "size": "45",
         "cm": "28.5",
         "available": false
+      },
+      {
+        "size": "45/46",
+        "cm": "28.5",
+        "available": true
       },
       {
         "size": "46",
@@ -202706,7 +202705,6 @@
     "country": "В'єтнам",
     "sizes": [
       "38",
-      "40",
       "42",
       "44"
     ],
@@ -202734,7 +202732,7 @@
       {
         "size": "40",
         "cm": "25.5",
-        "available": true
+        "available": false
       },
       {
         "size": "41",
@@ -216264,12 +216262,12 @@
         "available": true
       },
       {
-        "size": "45/46",
+        "size": "45",
         "cm": "28.5",
         "available": false
       },
       {
-        "size": "45",
+        "size": "45/46",
         "cm": "28.5",
         "available": false
       },
@@ -218749,14 +218747,14 @@
         "available": false
       },
       {
-        "size": "42.5",
-        "cm": "26.5",
-        "available": true
-      },
-      {
         "size": "42,5",
         "cm": "26.5",
         "available": false
+      },
+      {
+        "size": "42.5",
+        "cm": "26.5",
+        "available": true
       },
       {
         "size": "43",
