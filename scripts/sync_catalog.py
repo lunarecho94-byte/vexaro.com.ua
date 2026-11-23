@@ -293,7 +293,7 @@ CURATED_PRODUCTS = [
         'country': "В'єтнам",
         'sizes': ['36', '37', '38', '39', '40'],
         'sizeChart': [
-            {'size': '36', 'cm': '23.0', 'available': True},
+            {'size': '36', 'cm': '22.5', 'available': True},
             {'size': '37', 'cm': '23.5', 'available': True},
             {'size': '38', 'cm': '24.0', 'available': True},
             {'size': '39', 'cm': '25.0', 'available': True},
@@ -340,7 +340,7 @@ CURATED_PRODUCTS = [
                 'costPrice': 2800,
                 'sizes': ['36', '37', '38', '39', '40'],
                 'sizeChart': [
-                    {'size': '36', 'cm': '23.0', 'available': True},
+                    {'size': '36', 'cm': '22.5', 'available': True},
                     {'size': '37', 'cm': '23.5', 'available': True},
                     {'size': '38', 'cm': '24.0', 'available': True},
                     {'size': '39', 'cm': '25.0', 'available': True},
@@ -366,7 +366,7 @@ CURATED_PRODUCTS = [
                 'costPrice': 2800,
                 'sizes': ['36', '37'],
                 'sizeChart': [
-                    {'size': '36', 'cm': '23.0', 'available': True},
+                    {'size': '36', 'cm': '22.5', 'available': True},
                     {'size': '37', 'cm': '23.5', 'available': True},
                     {'size': '38', 'cm': '24.0', 'available': False},
                     {'size': '39', 'cm': '25.0', 'available': False},
@@ -392,7 +392,7 @@ CURATED_PRODUCTS = [
                 'costPrice': 2800,
                 'sizes': ['37', '38', '39', '40'],
                 'sizeChart': [
-                    {'size': '36', 'cm': '23.0', 'available': False},
+                    {'size': '36', 'cm': '22.5', 'available': False},
                     {'size': '37', 'cm': '23.5', 'available': True},
                     {'size': '38', 'cm': '24.0', 'available': True},
                     {'size': '39', 'cm': '25.0', 'available': True},
@@ -664,7 +664,7 @@ CURATED_PRODUCTS = [
         'country': "В'єтнам",
         'sizes': ['40', '42', '43', '44', '45'],
         'sizeChart': [
-            {'size': '40', 'cm': '25.0', 'available': True},
+            {'size': '40', 'cm': '25.5', 'available': True},
             {'size': '41', 'cm': '26.0', 'available': False},
             {'size': '42', 'cm': '26.5', 'available': True},
             {'size': '43', 'cm': '27.5', 'available': True},
@@ -719,9 +719,9 @@ CURATED_PRODUCTS = [
             {'size': '36', 'cm': '22.5', 'available': False},
             {'size': '37', 'cm': '23.5', 'available': True},
             {'size': '38', 'cm': '24.0', 'available': True},
-            {'size': '39', 'cm': '24.5', 'available': True},
-            {'size': '40', 'cm': '25.0', 'available': False},
-            {'size': '41', 'cm': '25.5', 'available': False},
+            {'size': '39', 'cm': '25.0', 'available': True},
+            {'size': '40', 'cm': '25.5', 'available': False},
+            {'size': '41', 'cm': '26.0', 'available': False},
         ],
         'inStock': True,
         'images': [
@@ -760,8 +760,8 @@ CURATED_PRODUCTS = [
         'country': "В'єтнам",
         'sizes': ['39', '42', '43', '44', '45'],
         'sizeChart': [
-            {'size': '39', 'cm': '24.5', 'available': True},
-            {'size': '40', 'cm': '25.0', 'available': False},
+            {'size': '39', 'cm': '25.0', 'available': True},
+            {'size': '40', 'cm': '25.5', 'available': False},
             {'size': '41', 'cm': '26.0', 'available': False},
             {'size': '42', 'cm': '26.5', 'available': True},
             {'size': '43', 'cm': '27.5', 'available': True},
@@ -804,8 +804,8 @@ CURATED_PRODUCTS = [
         'sizeChart': [
             {'size': '37', 'cm': '23.5', 'available': True},
             {'size': '38', 'cm': '24.0', 'available': True},
-            {'size': '39', 'cm': '24.5', 'available': True},
-            {'size': '40', 'cm': '25.0', 'available': False},
+            {'size': '39', 'cm': '25.0', 'available': True},
+            {'size': '40', 'cm': '25.5', 'available': False},
             {'size': '41', 'cm': '26.0', 'available': True},
             {'size': '42', 'cm': '26.5', 'available': True},
             {'size': '43', 'cm': '27.5', 'available': True},
@@ -847,7 +847,7 @@ CURATED_PRODUCTS = [
         'sizes': ['41', '42', '43', '44'],
         'sizeChart': [
             {'size': '41', 'cm': '26.0', 'available': True},
-            {'size': '42', 'cm': '27.0', 'available': True},
+            {'size': '42', 'cm': '26.5', 'available': True},
             {'size': '43', 'cm': '27.5', 'available': True},
             {'size': '44', 'cm': '28.0', 'available': True},
             {'size': '45', 'cm': '28.5', 'available': False},
@@ -894,7 +894,7 @@ CURATED_PRODUCTS = [
         'sizes': ['41', '42', '44', '45'],
         'sizeChart': [
             {'size': '41', 'cm': '26.0', 'available': True},
-            {'size': '42', 'cm': '27.0', 'available': True},
+            {'size': '42', 'cm': '26.5', 'available': True},
             {'size': '43', 'cm': '27.5', 'available': False},
             {'size': '44', 'cm': '28.0', 'available': True},
             {'size': '45', 'cm': '29.0', 'available': True},
@@ -1126,12 +1126,12 @@ CURATED_PRODUCTS = [
         'country': "В'єтнам",
         'sizes': ['37', '38', '39'],
         'sizeChart': [
-            {'size': '36', 'cm': '23.0', 'available': False},
+            {'size': '36', 'cm': '22.5', 'available': False},
             {'size': '37', 'cm': '23.5', 'available': True},
             {'size': '38', 'cm': '24.0', 'available': True},
-            {'size': '39', 'cm': '24.5', 'available': True},
-            {'size': '40', 'cm': '25.0', 'available': False},
-            {'size': '41', 'cm': '25.5', 'available': False},
+            {'size': '39', 'cm': '25.0', 'available': True},
+            {'size': '40', 'cm': '25.5', 'available': False},
+            {'size': '41', 'cm': '26.0', 'available': False},
         ],
         'inStock': True,
         'images': [
@@ -1174,7 +1174,7 @@ CURATED_PRODUCTS = [
         'country': "В'єтнам",
         'sizes': ['37', '38', '39', '40', '41'],
         'sizeChart': [
-            {'size': '36', 'cm': '23.0', 'available': False},
+            {'size': '36', 'cm': '22.5', 'available': False},
             {'size': '37', 'cm': '23.5', 'available': True},
             {'size': '38', 'cm': '24.0', 'available': True},
             {'size': '39', 'cm': '25.0', 'available': True},
@@ -1219,7 +1219,7 @@ CURATED_PRODUCTS = [
         'country': "В'єтнам",
         'sizes': ['37', '38', '39', '40', '41'],
         'sizeChart': [
-            {'size': '36', 'cm': '23.0', 'available': False},
+            {'size': '36', 'cm': '22.5', 'available': False},
             {'size': '37', 'cm': '23.5', 'available': True},
             {'size': '38', 'cm': '24.0', 'available': True},
             {'size': '39', 'cm': '25.0', 'available': True},
@@ -1264,7 +1264,7 @@ CURATED_PRODUCTS = [
         'country': "В'єтнам",
         'sizes': ['38', '40', '41'],
         'sizeChart': [
-            {'size': '36', 'cm': '23.0', 'available': False},
+            {'size': '36', 'cm': '22.5', 'available': False},
             {'size': '37', 'cm': '23.5', 'available': False},
             {'size': '38', 'cm': '24.0', 'available': True},
             {'size': '39', 'cm': '25.0', 'available': False},
@@ -1311,7 +1311,7 @@ CURATED_PRODUCTS = [
         'country': "В'єтнам",
         'sizes': ['36', '38', '39', '40', '41'],
         'sizeChart': [
-            {'size': '36', 'cm': '23.0', 'available': True},
+            {'size': '36', 'cm': '22.5', 'available': True},
             {'size': '37', 'cm': '23.5', 'available': False},
             {'size': '38', 'cm': '24.0', 'available': True},
             {'size': '39', 'cm': '25.0', 'available': True},
@@ -1359,7 +1359,7 @@ CURATED_PRODUCTS = [
         'country': "В'єтнам",
         'sizes': ['36', '37', '38', '39', '41'],
         'sizeChart': [
-            {'size': '36', 'cm': '23.0', 'available': True},
+            {'size': '36', 'cm': '22.5', 'available': True},
             {'size': '37', 'cm': '23.5', 'available': True},
             {'size': '38', 'cm': '24.0', 'available': True},
             {'size': '39', 'cm': '25.0', 'available': True},
@@ -1406,9 +1406,9 @@ CURATED_PRODUCTS = [
         'country': 'Китай',
         'sizes': ['36', '37', '38', '39', '40'],
         'sizeChart': [
-            {'size': '36', 'cm': '23.0', 'available': True},
+            {'size': '36', 'cm': '22.5', 'available': True},
             {'size': '37', 'cm': '23.5', 'available': True},
-            {'size': '38', 'cm': '24.5', 'available': True},
+            {'size': '38', 'cm': '24.0', 'available': True},
             {'size': '39', 'cm': '25.0', 'available': True},
             {'size': '40', 'cm': '25.5', 'available': True},
             {'size': '41', 'cm': '26.0', 'available': False},
@@ -1844,112 +1844,43 @@ def check_is_hit(name: str, brand_slug: str = '') -> bool:
     return False
 
 
-# Supplier & Brand specific insole grids (EU size -> insole length in cm)
-PREMIATA_ITALY_GRID = {
-    '35': '22.0', '36': '22.5', '37': '23.5', '38': '24.0', '39': '25.0',
-    '40': '25.5', '41': '26.0', '42': '26.5', '43': '27.5', '44': '28.0',
-    '45': '28.5', '46': '29.5', '47': '30.0', '48': '30.5'
+# Standard EasyDrop footwear supplier insole grid (strictly matches EasyDrop platform supplier tables)
+EASYDROP_STANDARD_GRID = {
+    '35': '22.0',
+    '36': '22.5',
+    '37': '23.5',
+    '38': '24.0',
+    '39': '25.0',
+    '40': '25.5',
+    '41': '26.0',
+    '42': '26.5',
+    '43': '27.5',
+    '44': '28.0',
+    '45': '28.5',
+    '46': '29.5',
+    '47': '30.0',
+    '48': '30.5',
 }
 
-NIKE_MEN_GRID = {
-    '38': '24.0', '39': '24.5', '40': '25.0', '41': '26.0', '42': '26.5',
-    '43': '27.5', '44': '28.0', '45': '29.0', '46': '30.0', '47': '30.5', '48': '31.0'
-}
-
-NIKE_WOMEN_GRID = {
-    '35': '22.0', '36': '23.0', '37': '23.5', '38': '24.0', '39': '24.5',
-    '40': '25.0', '41': '26.0', '42': '26.5'
-}
-
-NIKE_UNISEX_GRID = {
-    '35': '22.0', '36': '23.0', '37': '23.5', '38': '24.0', '39': '24.5',
-    '40': '25.0', '41': '26.0', '42': '26.5', '43': '27.5', '44': '28.0',
-    '45': '29.0', '46': '30.0', '47': '30.5', '48': '31.0'
-}
-
-ADIDAS_MEN_GRID = {
-    '38': '24.0', '39': '24.5', '40': '25.0', '41': '26.0', '42': '26.5',
-    '43': '27.5', '44': '28.0', '45': '28.5', '46': '29.0', '47': '30.0', '48': '30.5'
-}
-
-ADIDAS_WOMEN_GRID = {
-    '35': '22.0', '36': '22.5', '37': '23.5', '38': '24.0', '39': '24.5',
-    '40': '25.0', '41': '25.5', '42': '26.0'
-}
-
-ADIDAS_UNISEX_GRID = {
-    '35': '22.0', '36': '22.5', '37': '23.5', '38': '24.0', '39': '24.5',
-    '40': '25.0', '41': '26.0', '42': '26.5', '43': '27.5', '44': '28.0',
-    '45': '28.5', '46': '29.0', '47': '30.0', '48': '30.5'
-}
-
-NB_MEN_GRID = {
-    '38': '24.0', '39': '24.5', '40': '25.0', '41': '26.0', '42': '26.5',
-    '43': '27.5', '44': '28.0', '45': '29.0', '46': '30.0', '47': '30.5', '48': '31.0'
-}
-
-NB_WOMEN_GRID = {
-    '35': '22.0', '36': '22.5', '37': '23.5', '38': '24.0', '39': '24.5',
-    '40': '25.0', '41': '25.5', '42': '26.0'
-}
-
-NB_UNISEX_GRID = {
-    '35': '22.0', '36': '22.5', '37': '23.5', '38': '24.0', '39': '24.5',
-    '40': '25.0', '41': '26.0', '42': '26.5', '43': '27.5', '44': '28.0',
-    '45': '29.0', '46': '30.0', '47': '30.5'
-}
-
-UGG_GRID = {
-    '35': '22.5', '36': '23.0', '37': '23.5', '38': '24.5', '39': '25.0',
-    '40': '25.5', '41': '26.0', '42': '26.5', '43': '27.5', '44': '28.0'
-}
-
-DR_MARTENS_GRID = {
-    '36': '23.0', '37': '23.5', '38': '24.5', '39': '25.0', '40': '25.5',
-    '41': '26.0', '42': '26.5', '43': '27.5', '44': '28.0', '45': '28.5'
-}
-
-PUMA_GRID = {
-    '35': '22.0', '36': '22.5', '37': '23.0', '38': '24.0', '39': '24.5',
-    '40': '25.5', '41': '26.0', '42': '26.5', '43': '27.5', '44': '28.0',
-    '45': '29.0', '46': '29.5', '47': '30.0'
-}
-
-ASICS_GRID = {
-    '35': '22.0', '36': '22.5', '37': '23.5', '38': '24.0', '39': '24.5',
-    '40': '25.5', '41': '26.0', '42': '26.5', '43': '27.5', '44': '28.0',
-    '45': '28.5', '46': '29.0', '47': '30.0'
-}
-
-SALOMON_GRID = {
-    '35': '21.5', '36': '22.0', '37': '23.0', '38': '23.5', '39': '24.5',
-    '40': '25.0', '41': '26.0', '42': '26.5', '43': '27.5', '44': '28.0',
-    '45': '28.5', '46': '29.5', '47': '30.0'
-}
-
-LUXURY_GRID = {
-    '35': '22.5', '36': '23.0', '37': '23.5', '38': '24.0', '39': '25.0',
-    '40': '25.5', '41': '26.0', '42': '26.5', '43': '27.5', '44': '28.0',
-    '45': '28.5', '46': '29.5', '47': '30.0'
-}
-
-DEFAULT_MEN_GRID = {
-    '38': '24.0', '39': '24.5', '40': '25.0', '41': '26.0', '42': '26.5',
-    '43': '27.5', '44': '28.0', '45': '29.0', '46': '29.5', '47': '30.0', '48': '30.5'
-}
-
-DEFAULT_WOMEN_GRID = {
-    '35': '22.0', '36': '22.5', '37': '23.5', '38': '24.0', '39': '25.0',
-    '40': '25.5', '41': '26.0', '42': '26.5'
-}
-
-DEFAULT_UNISEX_GRID = {
-    '35': '22.0', '36': '22.5', '37': '23.5', '38': '24.0', '39': '25.0',
-    '40': '25.5', '41': '26.0', '42': '26.5', '43': '27.5', '44': '28.0',
-    '45': '28.5', '46': '29.5', '47': '30.0', '48': '30.5'
-}
-
-EASYDROP_STANDARD_GRID = DEFAULT_UNISEX_GRID
+PREMIATA_ITALY_GRID = EASYDROP_STANDARD_GRID
+NIKE_MEN_GRID = EASYDROP_STANDARD_GRID
+NIKE_WOMEN_GRID = EASYDROP_STANDARD_GRID
+NIKE_UNISEX_GRID = EASYDROP_STANDARD_GRID
+ADIDAS_MEN_GRID = EASYDROP_STANDARD_GRID
+ADIDAS_WOMEN_GRID = EASYDROP_STANDARD_GRID
+ADIDAS_UNISEX_GRID = EASYDROP_STANDARD_GRID
+NB_MEN_GRID = EASYDROP_STANDARD_GRID
+NB_WOMEN_GRID = EASYDROP_STANDARD_GRID
+NB_UNISEX_GRID = EASYDROP_STANDARD_GRID
+UGG_GRID = EASYDROP_STANDARD_GRID
+DR_MARTENS_GRID = EASYDROP_STANDARD_GRID
+PUMA_GRID = EASYDROP_STANDARD_GRID
+ASICS_GRID = EASYDROP_STANDARD_GRID
+SALOMON_GRID = EASYDROP_STANDARD_GRID
+LUXURY_GRID = EASYDROP_STANDARD_GRID
+DEFAULT_MEN_GRID = EASYDROP_STANDARD_GRID
+DEFAULT_WOMEN_GRID = EASYDROP_STANDARD_GRID
+DEFAULT_UNISEX_GRID = EASYDROP_STANDARD_GRID
 
 EU_CM_RANGE = {
     35: (21.5, 23.0),
@@ -1969,58 +1900,7 @@ EU_CM_RANGE = {
 
 
 def get_supplier_brand_grid(brand_slug: str, clean_sku: str, gender: str, country: str = '', name: str = '') -> dict:
-    b = (brand_slug or '').lower()
-    sku = (clean_sku or '').upper()
-    n = (name or '').lower()
-    c = (country or '').lower()
-
-    if b == 'premiata' or sku.startswith('PM') or 'moerun' in n or 'італія' in c or 'italy' in c or 'італія' in n:
-        return PREMIATA_ITALY_GRID
-
-    if b in ('dr-martens', 'martens') or 'martens' in n or sku.startswith('DR'):
-        return DR_MARTENS_GRID
-
-    if b == 'ugg' or 'ugg' in n or 'угг' in n or sku.startswith(('UG', 'U-')):
-        return UGG_GRID
-
-    if b in ('nike', 'jordan') or 'nike' in n or 'jordan' in n or sku.startswith(('NK', 'NJ', 'NTR', 'N-', 'J-')):
-        if gender == 'women':
-            return NIKE_WOMEN_GRID
-        elif gender == 'men':
-            return NIKE_MEN_GRID
-        return NIKE_UNISEX_GRID
-
-    if b in ('adidas', 'yeezy') or 'adidas' in n or 'yeezy' in n or sku.startswith(('A-', 'YE', 'Y-')):
-        if gender == 'women':
-            return ADIDAS_WOMEN_GRID
-        elif gender == 'men':
-            return ADIDAS_MEN_GRID
-        return ADIDAS_UNISEX_GRID
-
-    if b in ('newbalance', 'new-balance') or 'new balance' in n or sku.startswith('NB'):
-        if gender == 'women':
-            return NB_WOMEN_GRID
-        elif gender == 'men':
-            return NB_MEN_GRID
-        return NB_UNISEX_GRID
-
-    if b == 'puma' or 'puma' in n or sku.startswith('PU'):
-        return PUMA_GRID
-
-    if b == 'asics' or 'asics' in n or sku.startswith('AS'):
-        return ASICS_GRID
-
-    if b == 'salomon' or 'salomon' in n or sku.startswith('SL'):
-        return SALOMON_GRID
-
-    if b in ('balenciaga', 'dior', 'goldengoose', 'offwhite', 'prada', 'gucci', 'saintlaurent', 'alexandermcqueen') or sku.startswith(('BA', 'MQ', 'OS')):
-        return LUXURY_GRID
-
-    if gender == 'women':
-        return DEFAULT_WOMEN_GRID
-    elif gender == 'men':
-        return DEFAULT_MEN_GRID
-    return DEFAULT_UNISEX_GRID
+    return dict(EASYDROP_STANDARD_GRID)
 
 
 def build_product_size_chart(
