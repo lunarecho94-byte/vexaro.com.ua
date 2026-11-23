@@ -237,15 +237,12 @@ EXCLUDED_SKUS = {'182883', '16006', '16005', '16004', '16003', 'NB143', '0068', 
 
 # Pinned products permanently pinned at top by store owner request (supports 'id:...' or SKU)
 PINNED_FILE = os.path.join(SRC_DATA_DIR, 'pinned.json')
-PINNED_KEYS = [
-    'premiata-steven', # Premiata Steven (Position 1)
-    'new-balance-574-khutro', # New Balance 574 ХУТРО (Position 2)
-]
+PINNED_KEYS = []
 if os.path.exists(PINNED_FILE):
     try:
         with open(PINNED_FILE, 'r', encoding='utf-8') as pf:
             loaded_pins = json.load(pf)
-            if isinstance(loaded_pins, list) and loaded_pins:
+            if isinstance(loaded_pins, list):
                 PINNED_KEYS = loaded_pins
     except Exception as e:
         print(f"Warning: could not load {PINNED_FILE}: {e}")

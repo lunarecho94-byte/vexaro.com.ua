@@ -1,497 +1,5 @@
 [
   {
-    "id": "259190",
-    "slug": "premiata-steven",
-    "name": "Premiata Steven",
-    "brand": "Premiata",
-    "brandSlug": "premiata",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 3300,
-    "oldPrice": 5500,
-    "minPrice": 3300,
-    "maxPrice": 3300,
-    "costPrice": 2800,
-    "sku": "Ar51737",
-    "material": "Натуральна шкіра / замша, натуральне хутро",
-    "country": "В'єтнам",
-    "sizes": [
-      "36",
-      "37",
-      "38",
-      "39",
-      "40"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "23.0",
-        "available": true
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": true
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": true
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": true
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": true
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "/images/products/premiata-steven-black-ar51737/img-1.jpg",
-      "/images/products/premiata-steven-black-ar51737/img-2.jpg",
-      "/images/products/premiata-steven-black-ar51737/img-3.jpg",
-      "/images/products/premiata-steven-black-ar51737/img-4.jpg",
-      "/images/products/premiata-steven-beige-ar51738/img-1.jpg",
-      "/images/products/premiata-steven-beige-ar51738/img-2.jpg",
-      "/images/products/premiata-steven-beige-ar51738/img-3.jpg",
-      "/images/products/premiata-steven-beige-ar51738/img-4.jpg",
-      "/images/products/premiata-steven-dark-chocolate-ar51739/img-1.jpg",
-      "/images/products/premiata-steven-dark-chocolate-ar51739/img-2.jpg",
-      "/images/products/premiata-steven-dark-chocolate-ar51739/img-3.jpg",
-      "/images/products/premiata-steven-dark-chocolate-ar51739/img-4.jpg"
-    ],
-    "description": "Жіночі зимові кросівки Premiata Steven у культовому силуеті з теплим натуральним хутром. Верх виготовлений із преміальної натуральної шкіри та замші, всередині — густе тепле натуральне хутро для надійного захисту в морозну погоду. Фірмова підошва Premiata зі штампами забезпечує відмінну амортизацію та максимальний комфорт при щоденній ходьбі. Модель представлена у 3 стильних кольорах: Black (арт. Ar51737), Beige (арт. Ar51738) та Dark Chocolate (арт. Ar51739). Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Premiata Steven — купити жіночі зимові кросівки з хутром в інтернет-магазині VEXARO",
-      "description": "Замовляйте жіночі зимові кросівки Premiata Steven на натуральному хутрі за 3300 ₴. Кольори Black, Beige, Dark Chocolate. Доставка по Україні 1–2 дні, накладений платіж."
-    },
-    "variations": [
-      {
-        "id": "259190",
-        "sku": "Ar51737",
-        "color": "Black",
-        "colorSlug": "black",
-        "price": 3300,
-        "oldPrice": 5500,
-        "costPrice": 2800,
-        "sizes": [
-          "36",
-          "37",
-          "38",
-          "39",
-          "40"
-        ],
-        "sizeChart": [
-          {
-            "size": "36",
-            "cm": "23.0",
-            "available": true
-          },
-          {
-            "size": "37",
-            "cm": "23.5",
-            "available": true
-          },
-          {
-            "size": "38",
-            "cm": "24.0",
-            "available": true
-          },
-          {
-            "size": "39",
-            "cm": "25.0",
-            "available": true
-          },
-          {
-            "size": "40",
-            "cm": "25.5",
-            "available": true
-          },
-          {
-            "size": "41",
-            "cm": "26.0",
-            "available": false
-          }
-        ],
-        "images": [
-          "/images/products/premiata-steven-black-ar51737/img-1.jpg",
-          "/images/products/premiata-steven-black-ar51737/img-2.jpg",
-          "/images/products/premiata-steven-black-ar51737/img-3.jpg",
-          "/images/products/premiata-steven-black-ar51737/img-4.jpg"
-        ],
-        "inStock": true,
-        "slug": "premiata-steven-black-ar51737"
-      },
-      {
-        "id": "259191",
-        "sku": "Ar51738",
-        "color": "Beige",
-        "colorSlug": "beige",
-        "price": 3300,
-        "oldPrice": 5500,
-        "costPrice": 2800,
-        "sizes": [
-          "36",
-          "37"
-        ],
-        "sizeChart": [
-          {
-            "size": "36",
-            "cm": "23.0",
-            "available": true
-          },
-          {
-            "size": "37",
-            "cm": "23.5",
-            "available": true
-          },
-          {
-            "size": "38",
-            "cm": "24.0",
-            "available": false
-          },
-          {
-            "size": "39",
-            "cm": "25.0",
-            "available": false
-          },
-          {
-            "size": "40",
-            "cm": "25.5",
-            "available": false
-          },
-          {
-            "size": "41",
-            "cm": "26.0",
-            "available": false
-          }
-        ],
-        "images": [
-          "/images/products/premiata-steven-beige-ar51738/img-1.jpg",
-          "/images/products/premiata-steven-beige-ar51738/img-2.jpg",
-          "/images/products/premiata-steven-beige-ar51738/img-3.jpg",
-          "/images/products/premiata-steven-beige-ar51738/img-4.jpg"
-        ],
-        "inStock": true,
-        "slug": "premiata-steven-beige-ar51738"
-      },
-      {
-        "id": "259701",
-        "sku": "Ar51739",
-        "color": "Dark Chocolate",
-        "colorSlug": "dark-chocolate",
-        "price": 3300,
-        "oldPrice": 5500,
-        "costPrice": 2800,
-        "sizes": [
-          "37",
-          "38",
-          "39",
-          "40"
-        ],
-        "sizeChart": [
-          {
-            "size": "36",
-            "cm": "23.0",
-            "available": false
-          },
-          {
-            "size": "37",
-            "cm": "23.5",
-            "available": true
-          },
-          {
-            "size": "38",
-            "cm": "24.0",
-            "available": true
-          },
-          {
-            "size": "39",
-            "cm": "25.0",
-            "available": true
-          },
-          {
-            "size": "40",
-            "cm": "25.5",
-            "available": true
-          },
-          {
-            "size": "41",
-            "cm": "26.0",
-            "available": false
-          }
-        ],
-        "images": [
-          "/images/products/premiata-steven-dark-chocolate-ar51739/img-1.jpg",
-          "/images/products/premiata-steven-dark-chocolate-ar51739/img-2.jpg",
-          "/images/products/premiata-steven-dark-chocolate-ar51739/img-3.jpg",
-          "/images/products/premiata-steven-dark-chocolate-ar51739/img-4.jpg"
-        ],
-        "inStock": true,
-        "slug": "premiata-steven-dark-chocolate-ar51739"
-      }
-    ]
-  },
-  {
-    "id": "259106",
-    "slug": "new-balance-574-khutro",
-    "name": "New Balance 574 ХУТРО",
-    "brand": "New Balance",
-    "brandSlug": "new-balance",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 3100,
-    "oldPrice": 5167,
-    "minPrice": 3100,
-    "maxPrice": 3100,
-    "costPrice": 2350,
-    "sku": "8296",
-    "material": "Натуральна замша, натуральна шкіра, нейлон, густе тепле хутро",
-    "country": "В'єтнам",
-    "sizes": [
-      "41",
-      "42",
-      "43",
-      "44",
-      "45"
-    ],
-    "sizeChart": [
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": true
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": true
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": true
-      },
-      {
-        "size": "45",
-        "cm": "28.5",
-        "available": true
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "/images/products/new-balance-574-khutro-black-8296/img-1.jpg",
-      "/images/products/new-balance-574-khutro-black-8296/img-2.jpg",
-      "/images/products/new-balance-574-khutro-black-8296/img-3.jpg",
-      "/images/products/new-balance-574-khutro-black-8296/img-4.jpg",
-      "/images/products/new-balance-574-khutro-grey-7318/img-1.jpg",
-      "/images/products/new-balance-574-khutro-grey-7318/img-2.jpg",
-      "/images/products/new-balance-574-khutro-grey-7318/img-3.jpg",
-      "/images/products/new-balance-574-khutro-grey-7318/img-4.jpg",
-      "/images/products/new-balance-574-khutro-dark-grey-3279/img-1.jpg",
-      "/images/products/new-balance-574-khutro-dark-grey-3279/img-2.jpg",
-      "/images/products/new-balance-574-khutro-dark-grey-3279/img-3.jpg",
-      "/images/products/new-balance-574-khutro-dark-grey-3279/img-4.jpg"
-    ],
-    "description": "Чоловічі зимові кросівки New Balance 574 ХУТРО у легендарному силуеті, створені спеціально для холодної пори року. Верх виготовлений із високоякісної натуральної замші та міцної шкіри з водовідштовхувальними нейлоновими вставками. Всередині — густе щільне тепле хутро, яке надійно зігріває ногу навіть у сильні морози. Зносостійка підошва з піноматеріалу EVA з чіпким гумовим протектором та технологією ENCAP забезпечує м’яку амортизацію та впевнене зчеплення на слизьких зимових поверхнях. Модель представлена у трьох фірмових кольорах: Black (арт. 8296), Grey (арт. 7318) та Dark Grey (арт. 3279). Доставка Новою Поштою по всій Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну та повернення — 14 днів.",
-    "seo": {
-      "title": "New Balance 574 ХУТРО — купити зимові кросівки з хутром в Україні в магазині VEXARO",
-      "description": "Замовляйте теплі чоловічі зимові кросівки New Balance 574 ХУТРО за 3100 ₴. Кольори Black, Grey, Dark Grey. Натуральна замша та шкіра, густе хутро. Доставка по Україні 1–2 дні, накладений платіж."
-    },
-    "variations": [
-      {
-        "id": "259106",
-        "sku": "8296",
-        "slug": "new-balance-574-khutro-black-8296",
-        "color": "Black",
-        "colorSlug": "black",
-        "price": 3100,
-        "oldPrice": 5167,
-        "costPrice": 2350,
-        "sizes": [
-          "41",
-          "42",
-          "44",
-          "45"
-        ],
-        "sizeChart": [
-          {
-            "size": "41",
-            "cm": "26.0",
-            "available": true
-          },
-          {
-            "size": "42",
-            "cm": "26.5",
-            "available": true
-          },
-          {
-            "size": "43",
-            "cm": "27.5",
-            "available": false
-          },
-          {
-            "size": "44",
-            "cm": "28.0",
-            "available": true
-          },
-          {
-            "size": "45",
-            "cm": "28.5",
-            "available": true
-          },
-          {
-            "size": "46",
-            "cm": "29.5",
-            "available": false
-          }
-        ],
-        "images": [
-          "/images/products/new-balance-574-khutro-black-8296/img-1.jpg",
-          "/images/products/new-balance-574-khutro-black-8296/img-2.jpg",
-          "/images/products/new-balance-574-khutro-black-8296/img-3.jpg",
-          "/images/products/new-balance-574-khutro-black-8296/img-4.jpg"
-        ]
-      },
-      {
-        "id": "259103",
-        "sku": "7318",
-        "slug": "new-balance-574-khutro-grey-7318",
-        "color": "Grey",
-        "colorSlug": "grey",
-        "price": 3100,
-        "oldPrice": 5167,
-        "costPrice": 2350,
-        "sizes": [
-          "41",
-          "42",
-          "43",
-          "44"
-        ],
-        "sizeChart": [
-          {
-            "size": "41",
-            "cm": "26.0",
-            "available": true
-          },
-          {
-            "size": "42",
-            "cm": "26.5",
-            "available": true
-          },
-          {
-            "size": "43",
-            "cm": "27.5",
-            "available": true
-          },
-          {
-            "size": "44",
-            "cm": "28.0",
-            "available": true
-          },
-          {
-            "size": "45",
-            "cm": "28.5",
-            "available": false
-          },
-          {
-            "size": "46",
-            "cm": "29.5",
-            "available": false
-          }
-        ],
-        "images": [
-          "/images/products/new-balance-574-khutro-grey-7318/img-1.jpg",
-          "/images/products/new-balance-574-khutro-grey-7318/img-2.jpg",
-          "/images/products/new-balance-574-khutro-grey-7318/img-3.jpg",
-          "/images/products/new-balance-574-khutro-grey-7318/img-4.jpg"
-        ]
-      },
-      {
-        "id": "259107",
-        "sku": "3279",
-        "slug": "new-balance-574-khutro-dark-grey-3279",
-        "color": "Dark Grey",
-        "colorSlug": "dark-grey",
-        "price": 3100,
-        "oldPrice": 5167,
-        "costPrice": 2350,
-        "sizes": [
-          "41",
-          "42",
-          "43",
-          "44"
-        ],
-        "sizeChart": [
-          {
-            "size": "41",
-            "cm": "26.0",
-            "available": true
-          },
-          {
-            "size": "42",
-            "cm": "26.5",
-            "available": true
-          },
-          {
-            "size": "43",
-            "cm": "27.5",
-            "available": true
-          },
-          {
-            "size": "44",
-            "cm": "28.0",
-            "available": true
-          },
-          {
-            "size": "45",
-            "cm": "28.5",
-            "available": false
-          },
-          {
-            "size": "46",
-            "cm": "29.5",
-            "available": false
-          }
-        ],
-        "images": [
-          "/images/products/new-balance-574-khutro-dark-grey-3279/img-1.jpg",
-          "/images/products/new-balance-574-khutro-dark-grey-3279/img-2.jpg",
-          "/images/products/new-balance-574-khutro-dark-grey-3279/img-3.jpg",
-          "/images/products/new-balance-574-khutro-dark-grey-3279/img-4.jpg"
-        ]
-      }
-    ]
-  },
-  {
     "id": "933705",
     "slug": "adidas-campus-00s-grey-white-gum-khutro-0705v",
     "name": "Adidas Campus 00s Grey White Gum (хутро)",
@@ -6659,6 +6167,253 @@
     }
   },
   {
+    "id": "259190",
+    "slug": "premiata-steven",
+    "name": "Premiata Steven",
+    "brand": "Premiata",
+    "brandSlug": "premiata",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 3300,
+    "oldPrice": 5500,
+    "minPrice": 3300,
+    "maxPrice": 3300,
+    "costPrice": 2800,
+    "sku": "Ar51737",
+    "material": "Натуральна шкіра / замша, натуральне хутро",
+    "country": "В'єтнам",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "23.0",
+        "available": true
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": true
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": true,
+    "images": [
+      "/images/products/premiata-steven-black-ar51737/img-1.jpg",
+      "/images/products/premiata-steven-black-ar51737/img-2.jpg",
+      "/images/products/premiata-steven-black-ar51737/img-3.jpg",
+      "/images/products/premiata-steven-black-ar51737/img-4.jpg",
+      "/images/products/premiata-steven-beige-ar51738/img-1.jpg",
+      "/images/products/premiata-steven-beige-ar51738/img-2.jpg",
+      "/images/products/premiata-steven-beige-ar51738/img-3.jpg",
+      "/images/products/premiata-steven-beige-ar51738/img-4.jpg",
+      "/images/products/premiata-steven-dark-chocolate-ar51739/img-1.jpg",
+      "/images/products/premiata-steven-dark-chocolate-ar51739/img-2.jpg",
+      "/images/products/premiata-steven-dark-chocolate-ar51739/img-3.jpg",
+      "/images/products/premiata-steven-dark-chocolate-ar51739/img-4.jpg"
+    ],
+    "description": "Жіночі зимові кросівки Premiata Steven у культовому силуеті з теплим натуральним хутром. Верх виготовлений із преміальної натуральної шкіри та замші, всередині — густе тепле натуральне хутро для надійного захисту в морозну погоду. Фірмова підошва Premiata зі штампами забезпечує відмінну амортизацію та максимальний комфорт при щоденній ходьбі. Модель представлена у 3 стильних кольорах: Black (арт. Ar51737), Beige (арт. Ar51738) та Dark Chocolate (арт. Ar51739). Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Premiata Steven — купити жіночі зимові кросівки з хутром в інтернет-магазині VEXARO",
+      "description": "Замовляйте жіночі зимові кросівки Premiata Steven на натуральному хутрі за 3300 ₴. Кольори Black, Beige, Dark Chocolate. Доставка по Україні 1–2 дні, накладений платіж."
+    },
+    "variations": [
+      {
+        "id": "259190",
+        "sku": "Ar51737",
+        "color": "Black",
+        "colorSlug": "black",
+        "price": 3300,
+        "oldPrice": 5500,
+        "costPrice": 2800,
+        "sizes": [
+          "36",
+          "37",
+          "38",
+          "39",
+          "40"
+        ],
+        "sizeChart": [
+          {
+            "size": "36",
+            "cm": "23.0",
+            "available": true
+          },
+          {
+            "size": "37",
+            "cm": "23.5",
+            "available": true
+          },
+          {
+            "size": "38",
+            "cm": "24.0",
+            "available": true
+          },
+          {
+            "size": "39",
+            "cm": "25.0",
+            "available": true
+          },
+          {
+            "size": "40",
+            "cm": "25.5",
+            "available": true
+          },
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": false
+          }
+        ],
+        "images": [
+          "/images/products/premiata-steven-black-ar51737/img-1.jpg",
+          "/images/products/premiata-steven-black-ar51737/img-2.jpg",
+          "/images/products/premiata-steven-black-ar51737/img-3.jpg",
+          "/images/products/premiata-steven-black-ar51737/img-4.jpg"
+        ],
+        "inStock": true,
+        "slug": "premiata-steven-black-ar51737"
+      },
+      {
+        "id": "259191",
+        "sku": "Ar51738",
+        "color": "Beige",
+        "colorSlug": "beige",
+        "price": 3300,
+        "oldPrice": 5500,
+        "costPrice": 2800,
+        "sizes": [
+          "36",
+          "37"
+        ],
+        "sizeChart": [
+          {
+            "size": "36",
+            "cm": "23.0",
+            "available": true
+          },
+          {
+            "size": "37",
+            "cm": "23.5",
+            "available": true
+          },
+          {
+            "size": "38",
+            "cm": "24.0",
+            "available": false
+          },
+          {
+            "size": "39",
+            "cm": "25.0",
+            "available": false
+          },
+          {
+            "size": "40",
+            "cm": "25.5",
+            "available": false
+          },
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": false
+          }
+        ],
+        "images": [
+          "/images/products/premiata-steven-beige-ar51738/img-1.jpg",
+          "/images/products/premiata-steven-beige-ar51738/img-2.jpg",
+          "/images/products/premiata-steven-beige-ar51738/img-3.jpg",
+          "/images/products/premiata-steven-beige-ar51738/img-4.jpg"
+        ],
+        "inStock": true,
+        "slug": "premiata-steven-beige-ar51738"
+      },
+      {
+        "id": "259701",
+        "sku": "Ar51739",
+        "color": "Dark Chocolate",
+        "colorSlug": "dark-chocolate",
+        "price": 3300,
+        "oldPrice": 5500,
+        "costPrice": 2800,
+        "sizes": [
+          "37",
+          "38",
+          "39",
+          "40"
+        ],
+        "sizeChart": [
+          {
+            "size": "36",
+            "cm": "23.0",
+            "available": false
+          },
+          {
+            "size": "37",
+            "cm": "23.5",
+            "available": true
+          },
+          {
+            "size": "38",
+            "cm": "24.0",
+            "available": true
+          },
+          {
+            "size": "39",
+            "cm": "25.0",
+            "available": true
+          },
+          {
+            "size": "40",
+            "cm": "25.5",
+            "available": true
+          },
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": false
+          }
+        ],
+        "images": [
+          "/images/products/premiata-steven-dark-chocolate-ar51739/img-1.jpg",
+          "/images/products/premiata-steven-dark-chocolate-ar51739/img-2.jpg",
+          "/images/products/premiata-steven-dark-chocolate-ar51739/img-3.jpg",
+          "/images/products/premiata-steven-dark-chocolate-ar51739/img-4.jpg"
+        ],
+        "inStock": true,
+        "slug": "premiata-steven-dark-chocolate-ar51739"
+      }
+    ]
+  },
+  {
     "id": "259189",
     "slug": "new-balance-9060-grey-cordura-v2-nb149",
     "name": "New Balance 9060 Grey Cordura V2",
@@ -7142,6 +6897,251 @@
       "title": "Asics Gel-Pickax Clay Grey Mink (арт. AC033) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Asics Gel-Pickax Clay Grey Mink (арт. AC033) за 3100 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
+  },
+  {
+    "id": "259106",
+    "slug": "new-balance-574-khutro",
+    "name": "New Balance 574 ХУТРО",
+    "brand": "New Balance",
+    "brandSlug": "new-balance",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "men",
+    "genderName": "Чоловічі",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 3100,
+    "oldPrice": 5167,
+    "minPrice": 3100,
+    "maxPrice": 3100,
+    "costPrice": 2350,
+    "sku": "8296",
+    "material": "Натуральна замша, натуральна шкіра, нейлон, густе тепле хутро",
+    "country": "В'єтнам",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "sizeChart": [
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": true
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": true
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": true
+      },
+      {
+        "size": "45",
+        "cm": "28.5",
+        "available": true
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": true,
+    "images": [
+      "/images/products/new-balance-574-khutro-black-8296/img-1.jpg",
+      "/images/products/new-balance-574-khutro-black-8296/img-2.jpg",
+      "/images/products/new-balance-574-khutro-black-8296/img-3.jpg",
+      "/images/products/new-balance-574-khutro-black-8296/img-4.jpg",
+      "/images/products/new-balance-574-khutro-grey-7318/img-1.jpg",
+      "/images/products/new-balance-574-khutro-grey-7318/img-2.jpg",
+      "/images/products/new-balance-574-khutro-grey-7318/img-3.jpg",
+      "/images/products/new-balance-574-khutro-grey-7318/img-4.jpg",
+      "/images/products/new-balance-574-khutro-dark-grey-3279/img-1.jpg",
+      "/images/products/new-balance-574-khutro-dark-grey-3279/img-2.jpg",
+      "/images/products/new-balance-574-khutro-dark-grey-3279/img-3.jpg",
+      "/images/products/new-balance-574-khutro-dark-grey-3279/img-4.jpg"
+    ],
+    "description": "Чоловічі зимові кросівки New Balance 574 ХУТРО у легендарному силуеті, створені спеціально для холодної пори року. Верх виготовлений із високоякісної натуральної замші та міцної шкіри з водовідштовхувальними нейлоновими вставками. Всередині — густе щільне тепле хутро, яке надійно зігріває ногу навіть у сильні морози. Зносостійка підошва з піноматеріалу EVA з чіпким гумовим протектором та технологією ENCAP забезпечує м’яку амортизацію та впевнене зчеплення на слизьких зимових поверхнях. Модель представлена у трьох фірмових кольорах: Black (арт. 8296), Grey (арт. 7318) та Dark Grey (арт. 3279). Доставка Новою Поштою по всій Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну та повернення — 14 днів.",
+    "seo": {
+      "title": "New Balance 574 ХУТРО — купити зимові кросівки з хутром в Україні в магазині VEXARO",
+      "description": "Замовляйте теплі чоловічі зимові кросівки New Balance 574 ХУТРО за 3100 ₴. Кольори Black, Grey, Dark Grey. Натуральна замша та шкіра, густе хутро. Доставка по Україні 1–2 дні, накладений платіж."
+    },
+    "variations": [
+      {
+        "id": "259106",
+        "sku": "8296",
+        "slug": "new-balance-574-khutro-black-8296",
+        "color": "Black",
+        "colorSlug": "black",
+        "price": 3100,
+        "oldPrice": 5167,
+        "costPrice": 2350,
+        "sizes": [
+          "41",
+          "42",
+          "44",
+          "45"
+        ],
+        "sizeChart": [
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": true
+          },
+          {
+            "size": "42",
+            "cm": "26.5",
+            "available": true
+          },
+          {
+            "size": "43",
+            "cm": "27.5",
+            "available": false
+          },
+          {
+            "size": "44",
+            "cm": "28.0",
+            "available": true
+          },
+          {
+            "size": "45",
+            "cm": "28.5",
+            "available": true
+          },
+          {
+            "size": "46",
+            "cm": "29.5",
+            "available": false
+          }
+        ],
+        "images": [
+          "/images/products/new-balance-574-khutro-black-8296/img-1.jpg",
+          "/images/products/new-balance-574-khutro-black-8296/img-2.jpg",
+          "/images/products/new-balance-574-khutro-black-8296/img-3.jpg",
+          "/images/products/new-balance-574-khutro-black-8296/img-4.jpg"
+        ]
+      },
+      {
+        "id": "259103",
+        "sku": "7318",
+        "slug": "new-balance-574-khutro-grey-7318",
+        "color": "Grey",
+        "colorSlug": "grey",
+        "price": 3100,
+        "oldPrice": 5167,
+        "costPrice": 2350,
+        "sizes": [
+          "41",
+          "42",
+          "43",
+          "44"
+        ],
+        "sizeChart": [
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": true
+          },
+          {
+            "size": "42",
+            "cm": "26.5",
+            "available": true
+          },
+          {
+            "size": "43",
+            "cm": "27.5",
+            "available": true
+          },
+          {
+            "size": "44",
+            "cm": "28.0",
+            "available": true
+          },
+          {
+            "size": "45",
+            "cm": "28.5",
+            "available": false
+          },
+          {
+            "size": "46",
+            "cm": "29.5",
+            "available": false
+          }
+        ],
+        "images": [
+          "/images/products/new-balance-574-khutro-grey-7318/img-1.jpg",
+          "/images/products/new-balance-574-khutro-grey-7318/img-2.jpg",
+          "/images/products/new-balance-574-khutro-grey-7318/img-3.jpg",
+          "/images/products/new-balance-574-khutro-grey-7318/img-4.jpg"
+        ]
+      },
+      {
+        "id": "259107",
+        "sku": "3279",
+        "slug": "new-balance-574-khutro-dark-grey-3279",
+        "color": "Dark Grey",
+        "colorSlug": "dark-grey",
+        "price": 3100,
+        "oldPrice": 5167,
+        "costPrice": 2350,
+        "sizes": [
+          "41",
+          "42",
+          "43",
+          "44"
+        ],
+        "sizeChart": [
+          {
+            "size": "41",
+            "cm": "26.0",
+            "available": true
+          },
+          {
+            "size": "42",
+            "cm": "26.5",
+            "available": true
+          },
+          {
+            "size": "43",
+            "cm": "27.5",
+            "available": true
+          },
+          {
+            "size": "44",
+            "cm": "28.0",
+            "available": true
+          },
+          {
+            "size": "45",
+            "cm": "28.5",
+            "available": false
+          },
+          {
+            "size": "46",
+            "cm": "29.5",
+            "available": false
+          }
+        ],
+        "images": [
+          "/images/products/new-balance-574-khutro-dark-grey-3279/img-1.jpg",
+          "/images/products/new-balance-574-khutro-dark-grey-3279/img-2.jpg",
+          "/images/products/new-balance-574-khutro-dark-grey-3279/img-3.jpg",
+          "/images/products/new-balance-574-khutro-dark-grey-3279/img-4.jpg"
+        ]
+      }
+    ]
   },
   {
     "id": "258770",

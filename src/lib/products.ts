@@ -10,10 +10,7 @@ let catalogMeta: CatalogMeta | null = null;
 const productBySlug = new Map<string, Product>();
 const productById = new Map<string, Product>();
 
-const DEFAULT_PINNED_KEYS: string[] = [
-  'premiata-steven',       // Premiata Steven (Position 1)
-  'new-balance-574-khutro', // New Balance 574 ХУТРО (Position 2)
-];
+const DEFAULT_PINNED_KEYS: string[] = [];
 
 let pinnedKeys: string[] = DEFAULT_PINNED_KEYS;
 
@@ -247,7 +244,7 @@ function ensureLoaded() {
     const pinnedPath = path.join(dataDir, 'pinned.json');
     if (fs.existsSync(pinnedPath)) {
       const parsed = JSON.parse(fs.readFileSync(pinnedPath, 'utf-8'));
-      if (Array.isArray(parsed) && parsed.length > 0) {
+      if (Array.isArray(parsed)) {
         pinnedKeys = parsed;
       }
     }
