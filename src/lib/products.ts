@@ -10,7 +10,7 @@ let catalogMeta: CatalogMeta | null = null;
 const productBySlug = new Map<string, Product>();
 const productById = new Map<string, Product>();
 
-const DEFAULT_PINNED_KEYS: string[] = [];
+const DEFAULT_PINNED_KEYS: string[] = ['NTR828', 'NTR827', 'NTR825'];
 
 let pinnedKeys: string[] = DEFAULT_PINNED_KEYS;
 
