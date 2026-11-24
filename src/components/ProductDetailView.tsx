@@ -236,6 +236,7 @@ export function ProductDetailView({ product }: ProductDetailViewProps) {
         {/* Foot Size Slider & Size Selector Block */}
         <div className="py-5 border-b border-border">
           <FootSizeSlider
+            brand={product.brand || product.brandSlug}
             sizeChart={selectedVariation?.sizeChart || product.sizeChart}
             allSizes={allSizesList}
             availableSizes={currentAvailableSizes}

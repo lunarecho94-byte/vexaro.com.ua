@@ -11,6 +11,7 @@ interface FootSizeSliderProps {
   selectedSize: string;
   onSelectSize: (size: string) => void;
   onOpenSizeGuideModal?: () => void;
+  brand?: string;
 }
 
 interface SliderSizeItem {
@@ -32,7 +33,7 @@ const GENERAL_CM_MAP: Record<string, number> = {
   '42': 26.5,
   '43': 27.5,
   '44': 28.0,
-  '45': 28.5,
+  '45': 29.0,
   '46': 29.5,
   '47': 30.0,
 };
@@ -53,13 +54,16 @@ function formatCm(num: number): string {
   return num.toFixed(1).replace('.', ',');
 }
 
-function parseCm(val: string | number | undefined, size: string): number {
+function parseCm(val: string | number | undefined, size: string, brand?: string): number {
   if (val !== undefined && val !== null) {
     const parsed = typeof val === 'number' ? val : parseFloat(String(val).replace(',', '.'));
     if (!isNaN(parsed) && parsed > 0 && parsed < 40) return parsed;
   }
   const firstPart = size.split(/[\/\-]/)[0] || '';
   const cleanSize = firstPart.replace(/[^\d.]/g, '');
+  const isNB = brand && (brand.toLowerCase().includes('balance') || brand.toLowerCase().includes('nb'));
+  if (isNB && cleanSize === '36') return 23.0;
+  if (cleanSize === '45') return 29.0;
   if (GENERAL_CM_MAP[cleanSize]) return GENERAL_CM_MAP[cleanSize];
   const num = parseFloat(cleanSize);
   if (!isNaN(num) && num >= 30 && num <= 52) {
@@ -112,6 +116,7 @@ export function FootSizeSlider({
   selectedSize,
   onSelectSize,
   onOpenSizeGuideModal,
+  brand,
 }: FootSizeSliderProps) {
   // Determine the relevant size run for this sneaker model
   const items: SliderSizeItem[] = useMemo(() => {
@@ -122,7 +127,7 @@ export function FootSizeSlider({
     if (sizeChart && sizeChart.length > 0) {
       for (const row of sizeChart) {
         const s = row.size.trim();
-        const cm = parseCm(row.cm, s);
+        const cm = parseCm(row.cm, s, brand);
         map.set(s, {
           cmRaw: cm,
           isAvailable: availableSizes.includes(s) || Boolean(row.available),
@@ -136,7 +141,7 @@ export function FootSizeSlider({
       const trimmed = s.trim();
       if (!map.has(trimmed)) {
         map.set(trimmed, {
-          cmRaw: parseCm(undefined, trimmed),
+          cmRaw: parseCm(undefined, trimmed, brand),
           isAvailable: availableSizes.includes(trimmed),
         });
       } else {
@@ -187,7 +192,7 @@ export function FootSizeSlider({
     });
 
     return list;
-  }, [sizeChart, allSizes, availableSizes]);
+  }, [sizeChart, allSizes, availableSizes, brand]);
 
   // Initial centimeter value derived from selectedSize or first available size
   const getInitialCm = (): number => {

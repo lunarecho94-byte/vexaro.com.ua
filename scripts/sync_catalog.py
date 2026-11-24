@@ -435,7 +435,7 @@ CURATED_PRODUCTS = [
             {'size': '42', 'cm': '26.5', 'available': True},
             {'size': '43', 'cm': '27.5', 'available': True},
             {'size': '44', 'cm': '28.0', 'available': True},
-            {'size': '45', 'cm': '28.5', 'available': True},
+            {'size': '45', 'cm': '29.0', 'available': True},
             {'size': '46', 'cm': '29.0', 'available': True},
         ],
         'inStock': True,
@@ -485,7 +485,7 @@ CURATED_PRODUCTS = [
             {'size': '42', 'cm': '26.5', 'available': True},
             {'size': '43', 'cm': '27.5', 'available': True},
             {'size': '44', 'cm': '28.0', 'available': True},
-            {'size': '45', 'cm': '28.5', 'available': True},
+            {'size': '45', 'cm': '29.0', 'available': True},
             {'size': '46', 'cm': '29.5', 'available': False},
         ],
         'inStock': True,
@@ -533,7 +533,7 @@ CURATED_PRODUCTS = [
                     {'size': '42', 'cm': '26.5', 'available': True},
                     {'size': '43', 'cm': '27.5', 'available': False},
                     {'size': '44', 'cm': '28.0', 'available': True},
-                    {'size': '45', 'cm': '28.5', 'available': True},
+                    {'size': '45', 'cm': '29.0', 'available': True},
                     {'size': '46', 'cm': '29.5', 'available': False},
                 ],
                 'images': [
@@ -558,7 +558,7 @@ CURATED_PRODUCTS = [
                     {'size': '42', 'cm': '26.5', 'available': True},
                     {'size': '43', 'cm': '27.5', 'available': True},
                     {'size': '44', 'cm': '28.0', 'available': True},
-                    {'size': '45', 'cm': '28.5', 'available': False},
+                    {'size': '45', 'cm': '29.0', 'available': False},
                     {'size': '46', 'cm': '29.5', 'available': False},
                 ],
                 'images': [
@@ -583,7 +583,7 @@ CURATED_PRODUCTS = [
                     {'size': '42', 'cm': '26.5', 'available': True},
                     {'size': '43', 'cm': '27.5', 'available': True},
                     {'size': '44', 'cm': '28.0', 'available': True},
-                    {'size': '45', 'cm': '28.5', 'available': False},
+                    {'size': '45', 'cm': '29.0', 'available': False},
                     {'size': '46', 'cm': '29.5', 'available': False},
                 ],
                 'images': [
@@ -850,7 +850,7 @@ CURATED_PRODUCTS = [
             {'size': '42', 'cm': '26.5', 'available': True},
             {'size': '43', 'cm': '27.5', 'available': True},
             {'size': '44', 'cm': '28.0', 'available': True},
-            {'size': '45', 'cm': '28.5', 'available': False},
+            {'size': '45', 'cm': '29.0', 'available': False},
             {'size': '46', 'cm': '29.5', 'available': False},
         ],
         'inStock': True,
@@ -993,7 +993,7 @@ CURATED_PRODUCTS = [
             {'size': '42', 'cm': '26.5', 'available': True},
             {'size': '43', 'cm': '27.5', 'available': True},
             {'size': '44', 'cm': '28.0', 'available': True},
-            {'size': '45', 'cm': '28.5', 'available': False},
+            {'size': '45', 'cm': '29.0', 'available': False},
             {'size': '46', 'cm': '29.0', 'available': False},
         ],
         'inStock': True,
@@ -1038,7 +1038,7 @@ CURATED_PRODUCTS = [
             {'size': '42', 'cm': '26.5', 'available': True},
             {'size': '43', 'cm': '27.5', 'available': True},
             {'size': '44', 'cm': '28.0', 'available': True},
-            {'size': '45', 'cm': '28.5', 'available': True},
+            {'size': '45', 'cm': '29.0', 'available': True},
             {'size': '46', 'cm': '29.0', 'available': False},
         ],
         'inStock': True,
@@ -1085,7 +1085,7 @@ CURATED_PRODUCTS = [
             {'size': '42', 'cm': '26.5', 'available': True},
             {'size': '43', 'cm': '27.5', 'available': False},
             {'size': '44', 'cm': '28.0', 'available': True},
-            {'size': '45', 'cm': '28.5', 'available': True},
+            {'size': '45', 'cm': '29.0', 'available': True},
             {'size': '46', 'cm': '29.0', 'available': False},
         ],
         'inStock': True,
@@ -1463,7 +1463,7 @@ CURATED_PRODUCTS = [
             {'size': '42', 'cm': '26.5', 'available': True},
             {'size': '43', 'cm': '27.5', 'available': True},
             {'size': '44', 'cm': '28.0', 'available': True},
-            {'size': '45', 'cm': '28.5', 'available': True},
+            {'size': '45', 'cm': '29.0', 'available': True},
             {'size': '46', 'cm': '29.5', 'available': False},
         ],
         'inStock': True,
@@ -1856,7 +1856,24 @@ EASYDROP_STANDARD_GRID = {
     '42': '26.5',
     '43': '27.5',
     '44': '28.0',
-    '45': '28.5',
+    '45': '29.0',
+    '46': '29.5',
+    '47': '30.0',
+    '48': '30.5',
+}
+
+NEW_BALANCE_GRID = {
+    '35': '22.0',
+    '36': '23.0',
+    '37': '23.5',
+    '38': '24.0',
+    '39': '25.0',
+    '40': '25.5',
+    '41': '26.0',
+    '42': '26.5',
+    '43': '27.5',
+    '44': '28.0',
+    '45': '29.0',
     '46': '29.5',
     '47': '30.0',
     '48': '30.5',
@@ -1869,9 +1886,9 @@ NIKE_UNISEX_GRID = EASYDROP_STANDARD_GRID
 ADIDAS_MEN_GRID = EASYDROP_STANDARD_GRID
 ADIDAS_WOMEN_GRID = EASYDROP_STANDARD_GRID
 ADIDAS_UNISEX_GRID = EASYDROP_STANDARD_GRID
-NB_MEN_GRID = EASYDROP_STANDARD_GRID
-NB_WOMEN_GRID = EASYDROP_STANDARD_GRID
-NB_UNISEX_GRID = EASYDROP_STANDARD_GRID
+NB_MEN_GRID = NEW_BALANCE_GRID
+NB_WOMEN_GRID = NEW_BALANCE_GRID
+NB_UNISEX_GRID = NEW_BALANCE_GRID
 UGG_GRID = EASYDROP_STANDARD_GRID
 DR_MARTENS_GRID = EASYDROP_STANDARD_GRID
 PUMA_GRID = EASYDROP_STANDARD_GRID
@@ -1900,6 +1917,11 @@ EU_CM_RANGE = {
 
 
 def get_supplier_brand_grid(brand_slug: str, clean_sku: str, gender: str, country: str = '', name: str = '') -> dict:
+    b_slug = (brand_slug or '').lower()
+    n_lower = (name or '').lower()
+    sku_lower = (clean_sku or '').lower()
+    if 'balance' in b_slug or 'balance' in n_lower or 'newbalance' in b_slug or sku_lower.startswith('nb'):
+        return dict(NEW_BALANCE_GRID)
     return dict(EASYDROP_STANDARD_GRID)
 
 
