@@ -176095,14 +176095,14 @@
         "available": true
       },
       {
-        "size": "45",
-        "cm": "28.5",
-        "available": false
-      },
-      {
         "size": "45/46",
         "cm": "28.5",
         "available": true
+      },
+      {
+        "size": "45",
+        "cm": "28.5",
+        "available": false
       },
       {
         "size": "46",
@@ -176196,14 +176196,14 @@
         "available": true
       },
       {
-        "size": "45",
-        "cm": "28.5",
-        "available": false
-      },
-      {
         "size": "45/46",
         "cm": "28.5",
         "available": true
+      },
+      {
+        "size": "45",
+        "cm": "28.5",
+        "available": false
       },
       {
         "size": "46",
@@ -216262,12 +216262,12 @@
         "available": true
       },
       {
-        "size": "45",
+        "size": "45/46",
         "cm": "28.5",
         "available": false
       },
       {
-        "size": "45/46",
+        "size": "45",
         "cm": "28.5",
         "available": false
       },
