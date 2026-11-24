@@ -1,5 +1,5 @@
 {
-  "total": 2893,
+  "total": 2891,
   "brands": [
     {
       "name": "Nike",
@@ -9,12 +9,12 @@
     {
       "name": "New Balance",
       "slug": "newbalance",
-      "count": 630
+      "count": 632
     },
     {
       "name": "Adidas",
       "slug": "adidas",
-      "count": 295
+      "count": 293
     },
     {
       "name": "Asics",
@@ -159,7 +159,7 @@
     {
       "name": "New Balance",
       "slug": "new-balance",
-      "count": 2
+      "count": 632
     },
     {
       "name": "Dr. Martens",
@@ -176,7 +176,7 @@
     {
       "name": "Взуття",
       "slug": "shoes",
-      "count": 2893
+      "count": 2891
     }
   ],
   "genders": [
@@ -193,7 +193,7 @@
     {
       "name": "Унісекс",
       "slug": "unisex",
-      "count": 580
+      "count": 578
     }
   ],
   "seasons": [
@@ -205,7 +205,7 @@
     {
       "name": "Зима",
       "slug": "winter",
-      "count": 291
+      "count": 289
     }
   ],
   "sizes": [

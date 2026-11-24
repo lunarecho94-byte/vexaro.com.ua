@@ -232,8 +232,8 @@ COLOR_WORDS = {
     'classic', 'oreo', 'zebra', 'blush', 'salt', 'cinder', 'bone', 'flax', 'clay', 'ash', 'mono'
 }
 
-# Explicitly excluded items (all slippers, slides, clogs, mules, sandals, etc. per store owner request)
-EXCLUDED_SKUS = {'182883', '16006', '16005', '16004', '16003', 'NB143', '0068', '2688', 'R343', 'SL015', '258739', '2263', '2169', '5193', '256193', 'UG0020', '252588', '253417', '253416', 'UG0016', '249465', '2579', '208607', 'U930', '203123', '1918', '201924', '2395', '201383', '2397', '199672', '2394', '199670', '198587', 'UG0017', '252589', 'U880', '185521', '189534', 'U920', '185523', 'U830', '185520', '185202', '185186', 'U960', '143621', 'U950', '143187', '136690', '129394', '121895', 'U0290', '189211', '3091', '1101', 'UG0015', '252584'}
+# Explicitly excluded items (supplier 12225 / Rufus Drop, slippers, slides, clogs, mules, sandals, etc. per store owner request)
+EXCLUDED_SKUS = {'182883', '16006', '16005', '16004', '16003', 'NB143', '0068', '2688', 'R338', 'R339', 'R343', '122338', '122339', 'SL015', '258739', '2263', '2169', '5193', '256193', 'UG0020', '252588', '253417', '253416', 'UG0016', '249465', '2579', '208607', 'U930', '203123', '1918', '201924', '2395', '201383', '2397', '199672', '2394', '199670', '198587', 'UG0017', '252589', 'U880', '185521', '189534', 'U920', '185523', 'U830', '185520', '185202', '185186', 'U960', '143621', 'U950', '143187', '136690', '129394', '121895', 'U0290', '189211', '3091', '1101', 'UG0015', '252584'}
 
 # Pinned products permanently pinned at top by store owner request (supports 'id:...' or SKU)
 PINNED_FILE = os.path.join(SRC_DATA_DIR, 'pinned.json')
@@ -1155,96 +1155,6 @@ CURATED_PRODUCTS = [
         'isHit': True
     },
     {
-        'id': '122338',
-        'slug': 'adidas-campus-00s-white-grey-khutro-r338',
-        'name': 'Adidas Campus 00s White Grey (хутро)',
-        'brand': 'Adidas',
-        'brandSlug': 'adidas',
-        'category': 'Взуття',
-        'categorySlug': 'shoes',
-        'gender': 'unisex',
-        'genderName': 'Унісекс',
-        'season': 'winter',
-        'seasonName': 'Зима',
-        'price': 2500,
-        'oldPrice': 4167,
-        'costPrice': 1700,
-        'sku': 'R338',
-        'material': 'Натуральна шкіра, хутро',
-        'country': "В'єтнам",
-        'sizes': ['37', '38', '39', '40', '41'],
-        'sizeChart': [
-            {'size': '36', 'cm': '22.5', 'available': False},
-            {'size': '37', 'cm': '23.5', 'available': True},
-            {'size': '38', 'cm': '24.0', 'available': True},
-            {'size': '39', 'cm': '25.0', 'available': True},
-            {'size': '40', 'cm': '25.5', 'available': True},
-            {'size': '41', 'cm': '26.0', 'available': True},
-        ],
-        'inStock': True,
-        'images': [
-            '/images/products/r338/img-1.jpg',
-            'https://easydrop.one/media/uploads/images/itemimage_12225/856e64fc-b66b-4966-9823-52721e2e4e4b.webp'
-        ],
-        'description': (
-            'Зимові кросівки Adidas Campus 00s White Grey (хутро) у свіжому біло-сірому забарвленні '
-            '(артикул: R338). Верх виготовлений із високоякісної натуральної шкіри білого кольору зі світло-сірими фірмовими смужками, '
-            'всередині — щільне тепле сіре хутро для комфорту та збереження тепла в холодний сезон. '
-            'Класичний силует 00s із масивними сірими шнурками та міцною підошвою. Доставка Новою Поштою по Україні протягом 1–2 днів. '
-            'Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.'
-        ),
-        'seo': {
-            'title': 'Adidas Campus 00s White Grey (хутро) (арт. R338) — купити в інтернет-магазині VEXARO',
-            'description': 'Замовляйте зимові кросівки Adidas Campus 00s White Grey (хутро) (арт. R338) за 2500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж).'
-        },
-        'isHit': True
-    },
-    {
-        'id': '122339',
-        'slug': 'adidas-campus-00s-white-black-khutro-r339',
-        'name': 'Adidas Campus 00s White Black (хутро)',
-        'brand': 'Adidas',
-        'brandSlug': 'adidas',
-        'category': 'Взуття',
-        'categorySlug': 'shoes',
-        'gender': 'unisex',
-        'genderName': 'Унісекс',
-        'season': 'winter',
-        'seasonName': 'Зима',
-        'price': 2500,
-        'oldPrice': 4167,
-        'costPrice': 1700,
-        'sku': 'R339',
-        'material': 'Натуральна шкіра, хутро',
-        'country': "В'єтнам",
-        'sizes': ['37', '38', '39', '40', '41'],
-        'sizeChart': [
-            {'size': '36', 'cm': '22.5', 'available': False},
-            {'size': '37', 'cm': '23.5', 'available': True},
-            {'size': '38', 'cm': '24.0', 'available': True},
-            {'size': '39', 'cm': '25.0', 'available': True},
-            {'size': '40', 'cm': '25.5', 'available': True},
-            {'size': '41', 'cm': '26.0', 'available': True},
-        ],
-        'inStock': True,
-        'images': [
-            '/images/products/r339/img-1.jpg',
-            'https://easydrop.one/media/uploads/images/itemimage_12225/127e38db-19b3-49b7-9b58-b9c5d2768fcc.webp'
-        ],
-        'description': (
-            'Зимові кросівки Adidas Campus 00s White Black (хутро) у класичному забарвленні '
-            '(артикул: R339). Верх виготовлений із якісної натуральної шкіри білого кольору з контрастними чорними шкіряними смужками '
-            'та чорним задником. Всередині — щільне тепле біле хутро для максимального комфорту та збереження тепла в холодну пору. '
-            'Класичний силует 00s із масивними білими шнурками та міцною підошвою. Доставка Новою Поштою по Україні протягом 1–2 днів. '
-            'Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.'
-        ),
-        'seo': {
-            'title': 'Adidas Campus 00s White Black (хутро) (арт. R339) — купити в інтернет-магазині VEXARO',
-            'description': 'Замовляйте зимові кросівки Adidas Campus 00s White Black (хутро) (арт. R339) за 2500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж).'
-        },
-        'isHit': True
-    },
-    {
         'id': '256174',
         'slug': 'adidas-campus-00s-beige-black-khutro-5174',
         'name': 'Adidas Campus 00s Beige Black (хутро)',
@@ -2146,6 +2056,8 @@ def main():
         if (
             clean_sku.upper() in {s.upper() for s in EXCLUDED_SKUS}
             or clean_gid in EXCLUDED_SKUS
+            or '12225' in clean_gid
+            or any('12225' in img for img in imgs)
             or ((clean_sku.upper() in ('2071', '2072', '1892', '1782', '1704', '1700', '1476', '1459', '1776') or (clean_sku.upper() == '1412' and 'neumel' in name.lower())) and 'ugg' in name.lower())
             or EXCLUDED_NAME_PATTERNS.search(name)
         ):
