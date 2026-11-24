@@ -209,7 +209,6 @@
     "material": "Шкіра, замша, вологостійкий текстиль, термоутеплювач, гума, піна, прошиті",
     "country": "В'єтнам",
     "sizes": [
-      "42",
       "43",
       "44",
       "46"
@@ -248,7 +247,7 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": true
+        "available": false
       },
       {
         "size": "43",
@@ -3912,8 +3911,7 @@
       "41",
       "42",
       "43",
-      "44",
-      "45"
+      "44"
     ],
     "sizeChart": [
       {
@@ -3964,7 +3962,7 @@
       {
         "size": "45",
         "cm": "29.0",
-        "available": true
+        "available": false
       },
       {
         "size": "46",
@@ -7120,6 +7118,7 @@
     "material": "Шкіра, вологостійкий текстиль, термоутеплювач, гума, піна, прошиті",
     "country": "В'єтнам",
     "sizes": [
+      "42",
       "43",
       "44",
       "45",
@@ -7159,7 +7158,7 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": false
+        "available": true
       },
       {
         "size": "43",
@@ -7734,100 +7733,6 @@
     "seo": {
       "title": "Nike Sb Dunk Low Grey (арт. NK185) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Nike Sb Dunk Low Grey (арт. NK185) за 3100 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "259185",
-    "slug": "asics-gel-pickax-grey-black-ac034",
-    "name": "Asics Gel-Pickax Grey Black",
-    "brand": "Asics",
-    "brandSlug": "asics",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 3100,
-    "oldPrice": 5167,
-    "costPrice": 2600,
-    "sku": "AC034",
-    "material": "Шкіра",
-    "country": "-",
-    "sizes": [
-      "42",
-      "44",
-      "45"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": true
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": true
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": true
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "/images/products/asics-gel-pickax-grey-black-ac034/img-1.jpg",
-      "/images/products/asics-gel-pickax-grey-black-ac034/img-2.jpg",
-      "/images/products/asics-gel-pickax-grey-black-ac034/img-3.jpg",
-      "/images/products/asics-gel-pickax-grey-black-ac034/img-4.jpg"
-    ],
-    "description": "Модель: Asics Gel-Pickax Grey Black. Артикул: AC034. Матеріал: Шкіра. Сезон: Демісезон. Виробництво: -. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Asics Gel-Pickax Grey Black (арт. AC034) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Asics Gel-Pickax Grey Black (арт. AC034) за 3100 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -8647,7 +8552,6 @@
       "37",
       "38",
       "39",
-      "40",
       "41"
     ],
     "sizeChart": [
@@ -8674,7 +8578,7 @@
       {
         "size": "40",
         "cm": "25.5",
-        "available": true
+        "available": false
       },
       {
         "size": "41",
@@ -9484,7 +9388,6 @@
     "material": "Натуральна замша, натуральне хутро",
     "country": "В'єтнам",
     "sizes": [
-      "36",
       "38",
       "39",
       "40",
@@ -9494,7 +9397,7 @@
       {
         "size": "36",
         "cm": "22.5",
-        "available": true
+        "available": false
       },
       {
         "size": "37",
@@ -11342,97 +11245,6 @@
     "seo": {
       "title": "ASICS GEL-PICKAX White (арт. AC031) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте ASICS GEL-PICKAX White (арт. AC031) за 3100 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "257543",
-    "slug": "new-balance-9060-black-grey-cordura-fur-nb147",
-    "name": "New Balance 9060 Black/Grey Cordura Fur",
-    "brand": "New Balance",
-    "brandSlug": "newbalance",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 3300,
-    "oldPrice": 5500,
-    "costPrice": 2800,
-    "sku": "NB147",
-    "material": "Замша/Текстиль",
-    "country": "В'єтнам",
-    "sizes": [
-      "37",
-      "38",
-      "41"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "23.0",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": true
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": true
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/37a0d282-cd7b-4f2e-bd3a-70f57fa3a260.jpg"
-    ],
-    "description": "Модель: New Balance 9060 Black/Grey Cordura Fur. Артикул: NB147. Матеріал: Замша/Текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "New Balance 9060 Black/Grey Cordura Fur (арт. NB147) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте New Balance 9060 Black/Grey Cordura Fur (арт. NB147) за 3300 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -15406,7 +15218,6 @@
     "sizes": [
       "41",
       "42",
-      "43",
       "45",
       "46"
     ],
@@ -15449,7 +15260,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": true
+        "available": false
       },
       {
         "size": "44",
@@ -17496,97 +17307,6 @@
     "seo": {
       "title": "Adidas Samba (арт. SM01) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Adidas Samba (арт. SM01) за 2600 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "254838",
-    "slug": "lanvin-curb-sneakers-black-grey-2755",
-    "name": "Lanvin Curb Sneakers Black Grey",
-    "brand": "Інші бренди",
-    "brandSlug": "other",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 3700,
-    "oldPrice": 6167,
-    "costPrice": 3200,
-    "sku": "2755",
-    "material": "Кожа , Замша",
-    "country": "В'єтнам",
-    "sizes": [
-      "42",
-      "43",
-      "45"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": true
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": true
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": true
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/ddcecbc4-8322-4785-881e-6b1b9345e003.jpeg"
-    ],
-    "description": "Модель: Lanvin Curb Sneakers Black Grey. Артикул: 2755. Матеріал: Кожа , Замша. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Lanvin Curb Sneakers Black Grey (арт. 2755) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Lanvin Curb Sneakers Black Grey (арт. 2755) за 3700 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -21146,7 +20866,6 @@
     "material": "Замша, хутро гума, піна, прошиті",
     "country": "В'єтнам",
     "sizes": [
-      "42",
       "43",
       "44",
       "46"
@@ -21185,7 +20904,7 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": true
+        "available": false
       },
       {
         "size": "43",
@@ -27559,97 +27278,6 @@
     }
   },
   {
-    "id": "252761",
-    "slug": "new-balance-1906r-cordura-khutro-nb507",
-    "name": "New Balance 1906R Cordura ХУТРО",
-    "brand": "New Balance",
-    "brandSlug": "newbalance",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 2900,
-    "oldPrice": 4833,
-    "costPrice": 2400,
-    "sku": "NB507",
-    "material": "Шкіра, вологостійкий текстиль, термоутеплювач, гума, піна, прошиті",
-    "country": "В'єтнам",
-    "sizes": [
-      "43",
-      "44",
-      "46"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "23.0",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": true
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": true
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": true
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/bd63b6e9-07fb-4b45-89ef-44b1f504d1a1.jpeg"
-    ],
-    "description": "Модель: New Balance 1906R Cordura ХУТРО. Артикул: NB507. Матеріал: Шкіра, вологостійкий текстиль, термоутеплювач, гума, піна, прошиті. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "New Balance 1906R Cordura ХУТРО (арт. NB507) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте New Balance 1906R Cordura ХУТРО (арт. NB507) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "252444",
     "slug": "new-balance-1906r-cordura-termo-nb505",
     "name": "New Balance 1906R Cordura (термо)",
@@ -28232,7 +27860,6 @@
       "36",
       "37",
       "38",
-      "39",
       "40",
       "43"
     ],
@@ -28255,7 +27882,7 @@
       {
         "size": "39",
         "cm": "25.0",
-        "available": true
+        "available": false
       },
       {
         "size": "40",
@@ -29176,8 +28803,7 @@
       "41",
       "42",
       "43",
-      "44",
-      "45"
+      "44"
     ],
     "sizeChart": [
       {
@@ -29228,7 +28854,7 @@
       {
         "size": "45",
         "cm": "29.0",
-        "available": true
+        "available": false
       },
       {
         "size": "46",
@@ -30670,7 +30296,6 @@
       "38",
       "41",
       "42",
-      "44",
       "45"
     ],
     "sizeChart": [
@@ -30717,7 +30342,7 @@
       {
         "size": "44",
         "cm": "28.0",
-        "available": true
+        "available": false
       },
       {
         "size": "45",
@@ -31408,7 +31033,6 @@
     "country": "В'єтнам",
     "sizes": [
       "41",
-      "43",
       "44",
       "45"
     ],
@@ -31451,7 +31075,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": true
+        "available": false
       },
       {
         "size": "44",
@@ -33844,7 +33468,6 @@
     "material": "Кожа , мех",
     "country": "В'єтнам",
     "sizes": [
-      "38",
       "42",
       "43",
       "44",
@@ -33864,7 +33487,7 @@
       {
         "size": "38",
         "cm": "24.0",
-        "available": true
+        "available": false
       },
       {
         "size": "39",
@@ -36678,7 +36301,6 @@
     "material": "Кожа , замша",
     "country": "В'єтнам",
     "sizes": [
-      "40",
       "42",
       "43",
       "44",
@@ -36708,7 +36330,7 @@
       {
         "size": "40",
         "cm": "25.5",
-        "available": true
+        "available": false
       },
       {
         "size": "41",
@@ -39597,7 +39219,6 @@
     "country": "В'єтнам",
     "sizes": [
       "41",
-      "42",
       "43",
       "44",
       "45",
@@ -39637,7 +39258,7 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": true
+        "available": false
       },
       {
         "size": "43",
@@ -48507,8 +48128,8 @@
     "brandSlug": "newbalance",
     "category": "Взуття",
     "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
+    "gender": "unisex",
+    "genderName": "Унісекс",
     "season": "winter",
     "seasonName": "Зима",
     "price": 3100,
@@ -48518,6 +48139,7 @@
     "material": "Замша , тексть",
     "country": "В'єтнам",
     "sizes": [
+      "38",
       "42",
       "43",
       "44",
@@ -48537,7 +48159,7 @@
       {
         "size": "38",
         "cm": "24.0",
-        "available": false
+        "available": true
       },
       {
         "size": "39",
@@ -62148,97 +61770,6 @@
     "seo": {
       "title": "Adidas Adistar Jellyfish x Pharrell Williams Pink (арт. 2017) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Adidas Adistar Jellyfish x Pharrell Williams Pink (арт. 2017) за 4000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "241854",
-    "slug": "nike-dunk-low-embossed-black-sail-n00341",
-    "name": "Nike Dunk Low \"Embossed Black Sail\"",
-    "brand": "Nike",
-    "brandSlug": "nike",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 3000,
-    "oldPrice": 5000,
-    "costPrice": 2500,
-    "sku": "N00341",
-    "material": "Текстиль / комбінований",
-    "country": "-",
-    "sizes": [
-      "36",
-      "37",
-      "38"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": true
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": true
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": true
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/bbcf819a-d04d-4052-9cec-855bef36facd.jpeg"
-    ],
-    "description": "Модель: Nike Dunk Low \"Embossed Black Sail\". Артикул: N00341. Матеріал: Текстиль / комбінований. Сезон: Демісезон. Виробництво: -. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Nike Dunk Low \"Embossed Black Sail\" (арт. N00341) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Nike Dunk Low \"Embossed Black Sail\" (арт. N00341) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -119358,7 +118889,6 @@
       "40",
       "41",
       "42",
-      "43",
       "44",
       "45"
     ],
@@ -119401,7 +118931,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": true
+        "available": false
       },
       {
         "size": "44",
@@ -122268,7 +121798,6 @@
     "material": "Кожа , замша",
     "country": "В'єтнам",
     "sizes": [
-      "38",
       "41",
       "45",
       "46"
@@ -122287,7 +121816,7 @@
       {
         "size": "38",
         "cm": "24.0",
-        "available": true
+        "available": false
       },
       {
         "size": "39",
@@ -126731,7 +126260,6 @@
     "sizes": [
       "42",
       "43",
-      "44",
       "45"
     ],
     "sizeChart": [
@@ -126778,7 +126306,7 @@
       {
         "size": "44",
         "cm": "28.0",
-        "available": true
+        "available": false
       },
       {
         "size": "45",
@@ -136707,143 +136235,6 @@
     }
   },
   {
-    "id": "199876",
-    "slug": "ugg-lowmel-sneakers-high",
-    "name": "UGG LOWMEL SNEAKERS HIGH",
-    "brand": "UGG",
-    "brandSlug": "ugg",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 3500,
-    "oldPrice": 5833,
-    "minPrice": 3500,
-    "maxPrice": 3500,
-    "costPrice": 3000,
-    "sku": "2404",
-    "material": "Натуральна замша, натуральне хутро",
-    "country": "В'єтнам",
-    "sizes": [
-      "36",
-      "37",
-      "38"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": true
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": true
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": true
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "/images/products/ugg-lowmel-high-black/img-1.jpg",
-      "/images/products/ugg-lowmel-high-black/img-2.jpg",
-      "/images/products/ugg-lowmel-high-black/img-3.jpg",
-      "/images/products/ugg-lowmel-high-black/img-4.jpg"
-    ],
-    "description": "Жіночі зимові високі кросівки UGG LOWMEL SNEAKERS HIGH у преміальному виконанні. Завищена версія популярного силуету Lowmel з подовженою халявою для максимального тепла та захисту від холоду взимку. Верх виготовлено з якісної натуральної замші, внутрішня підкладка — густе тепле натуральне хутро (овчина). Потовщена амортизуюча підошва, стильні широкі шнурки та неперевершений зимовий комфорт UGG. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "UGG LOWMEL SNEAKERS HIGH — купити зимові завищені кросівки в інтернет-магазині VEXARO",
-      "description": "Замовляйте зимові високі кросівки UGG LOWMEL SNEAKERS HIGH у забарвленнях Chestnut та Black за ціною від 3500 ₴. Натуральна замша та овчина. Швидка доставка Новою Поштою по Україні."
-    },
-    "variations": [
-      {
-        "id": "199876",
-        "sku": "2404",
-        "color": "HIGH BLACK",
-        "colorSlug": "high-black",
-        "price": 3500,
-        "oldPrice": 5833,
-        "costPrice": 3000,
-        "sizes": [
-          "36",
-          "37",
-          "38"
-        ],
-        "sizeChart": [
-          {
-            "size": "36",
-            "cm": "22.5",
-            "available": true
-          },
-          {
-            "size": "37",
-            "cm": "23.5",
-            "available": true
-          },
-          {
-            "size": "38",
-            "cm": "24.0",
-            "available": true
-          },
-          {
-            "size": "39",
-            "cm": "25.0",
-            "available": false
-          },
-          {
-            "size": "40",
-            "cm": "25.5",
-            "available": false
-          },
-          {
-            "size": "41",
-            "cm": "26.0",
-            "available": false
-          },
-          {
-            "size": "42",
-            "cm": "26.5",
-            "available": false
-          },
-          {
-            "size": "43",
-            "cm": "27.5",
-            "available": false
-          },
-          {
-            "size": "44",
-            "cm": "28.0",
-            "available": false
-          },
-          {
-            "size": "45",
-            "cm": "29.0",
-            "available": false
-          },
-          {
-            "size": "46",
-            "cm": "29.5",
-            "available": false
-          }
-        ],
-        "images": [
-          "/images/products/ugg-lowmel-high-black/img-1.jpg",
-          "/images/products/ugg-lowmel-high-black/img-2.jpg",
-          "/images/products/ugg-lowmel-high-black/img-3.jpg",
-          "/images/products/ugg-lowmel-high-black/img-4.jpg"
-        ],
-        "inStock": true,
-        "slug": "ugg-lowmel-sneaker-high-black-2404"
-      }
-    ]
-  },
-  {
     "id": "199870",
     "slug": "ugg-classic-dipper-boot-mid-chestnut-2402",
     "name": "UGG Classic Dipper Boot Mid Chestnut",
@@ -138262,7 +137653,6 @@
     "material": "замша,текстиль",
     "country": "В'єтнам",
     "sizes": [
-      "36",
       "38",
       "39",
       "41",
@@ -138273,7 +137663,7 @@
       {
         "size": "36",
         "cm": "23.0",
-        "available": true
+        "available": false
       },
       {
         "size": "37",
@@ -143762,7 +143152,6 @@
         "oldPrice": 5000,
         "costPrice": 2500,
         "sizes": [
-          "37",
           "39",
           "40",
           "41"
@@ -143776,7 +143165,7 @@
           {
             "size": "37",
             "cm": "23.5",
-            "available": true
+            "available": false
           },
           {
             "size": "38",
@@ -152427,7 +151816,6 @@
       "40",
       "41",
       "42",
-      "43",
       "44",
       "45"
     ],
@@ -152470,7 +151858,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": true
+        "available": false
       },
       {
         "size": "44",
@@ -167271,8 +166659,7 @@
       "36",
       "38",
       "40",
-      "42",
-      "43"
+      "42"
     ],
     "sizeChart": [
       {
@@ -167313,7 +166700,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": true
+        "available": false
       },
       {
         "size": "44",
@@ -199508,100 +198895,6 @@
     }
   },
   {
-    "id": "150241",
-    "slug": "new-balance-9060-brown-nb0070",
-    "name": "New Balance 9060 Brown",
-    "brand": "New Balance",
-    "brandSlug": "newbalance",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "unisex",
-    "genderName": "Унісекс",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 2800,
-    "oldPrice": 4667,
-    "costPrice": 2300,
-    "sku": "NB0070",
-    "material": "Текстиль / комбінований",
-    "country": "-",
-    "sizes": [
-      "37",
-      "38",
-      "39",
-      "43"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "23.0",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": true
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": true
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": true
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": true
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/9a90994f-2b20-4e9b-97c2-f68fbfa84ac5.jpeg",
-      "https://easydrop.one/media/uploads/images/base/6d7308dc-69c0-4f5a-a8dd-bd3922043f20.jpeg",
-      "https://easydrop.one/media/uploads/images/base/3657bad0-5601-4124-aaa7-503e404b2271.jpeg"
-    ],
-    "description": "Модель: New Balance 9060 Brown. Артикул: NB0070. Матеріал: Текстиль / комбінований. Сезон: Демісезон. Виробництво: -. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "New Balance 9060 Brown (арт. NB0070) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте New Balance 9060 Brown (арт. NB0070) за 2800 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "150171",
     "slug": "air-jordan-retro-3-craft-white-premium-7-1137",
     "name": "AIR JORDAN RETRO 3 | “CRAFT WHITE” premium (7",
@@ -212235,7 +211528,6 @@
     "sizes": [
       "36",
       "37",
-      "38",
       "43",
       "44",
       "45"
@@ -212254,7 +211546,7 @@
       {
         "size": "38",
         "cm": "24.0",
-        "available": true
+        "available": false
       },
       {
         "size": "39",
@@ -213979,97 +213271,6 @@
     "seo": {
       "title": "Nike SB Dunk Low Freddy Krueger 313170-202 (арт. 1442) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Nike SB Dunk Low Freddy Krueger 313170-202 (арт. 1442) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "125851",
-    "slug": "asics-gel-kahana-8-gore-tex-silver-dark-grey-1012a978-028-1439",
-    "name": "Asics Gel-Kahana 8 Gore-Tex 'Silver Dark Grey' 1012A978-028",
-    "brand": "Asics",
-    "brandSlug": "asics",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 2800,
-    "oldPrice": 4667,
-    "costPrice": 2300,
-    "sku": "1439",
-    "material": "Шкіра, Gore-Tex",
-    "country": "В'єтнам",
-    "sizes": [
-      "42",
-      "44",
-      "45"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": true
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": true
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": true
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/753ed781-ef65-4da7-8319-49219e795ec8.jpeg"
-    ],
-    "description": "Модель: Asics Gel-Kahana 8 Gore-Tex 'Silver Dark Grey' 1012A978-028. Артикул: 1439. Матеріал: Шкіра, Gore-Tex. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Asics Gel-Kahana 8 Gore-Tex 'Silver Dark Grey' 1012A978-028 (арт. 1439) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Asics Gel-Kahana 8 Gore-Tex 'Silver Dark Grey' 1012A978-028 (арт. 1439) за 2800 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -216992,7 +216193,6 @@
       "36",
       "37",
       "38",
-      "39",
       "40",
       "41"
     ],
@@ -217015,7 +216215,7 @@
       {
         "size": "39",
         "cm": "25.0",
-        "available": true
+        "available": false
       },
       {
         "size": "40",
@@ -224360,97 +223560,6 @@
     }
   },
   {
-    "id": "110263",
-    "slug": "adidas-yeezy-500-termo-blush-1561",
-    "name": "Adidas Yeezy 500 Termo Blush",
-    "brand": "Adidas",
-    "brandSlug": "adidas",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 1799,
-    "oldPrice": 2998,
-    "costPrice": 1299,
-    "sku": "1561",
-    "material": "Кожа , Замша , Сетка",
-    "country": "В'єтнам",
-    "sizes": [
-      "41",
-      "44",
-      "45"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": true
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": true
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/39209f5f-1814-40aa-91ca-1bcfd21e9ea3.jpeg"
-    ],
-    "description": "Модель: Adidas Yeezy 500 Termo Blush. Артикул: 1561. Матеріал: Кожа , Замша , Сетка. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Adidas Yeezy 500 Termo Blush (арт. 1561) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Adidas Yeezy 500 Termo Blush (арт. 1561) за 1799 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "110254",
     "slug": "nike-air-max-tn-terrascape-plus-black-white-1804",
     "name": "Nike Air Max TN Terrascape Plus Black White",
@@ -226701,8 +225810,7 @@
       "37",
       "38",
       "39",
-      "40",
-      "41"
+      "40"
     ],
     "sizeChart": [
       {
@@ -226733,7 +225841,7 @@
       {
         "size": "41",
         "cm": "26.0",
-        "available": true
+        "available": false
       },
       {
         "size": "42",
@@ -243460,7 +242568,6 @@
     "sizes": [
       "41",
       "43",
-      "44",
       "45"
     ],
     "sizeChart": [
@@ -243507,7 +242614,7 @@
       {
         "size": "44",
         "cm": "28.0",
-        "available": true
+        "available": false
       },
       {
         "size": "45",
@@ -247879,7 +246986,6 @@
     "sizes": [
       "36",
       "41",
-      "43",
       "44"
     ],
     "sizeChart": [
@@ -247921,7 +247027,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": true
+        "available": false
       },
       {
         "size": "44",
@@ -249260,8 +248366,7 @@
       "36",
       "37",
       "38",
-      "40",
-      "41"
+      "40"
     ],
     "sizeChart": [
       {
@@ -249292,7 +248397,7 @@
       {
         "size": "41",
         "cm": "26.0",
-        "available": true
+        "available": false
       },
       {
         "size": "42",
@@ -272757,98 +271862,6 @@
       "description": "Замовляйте New Balance 9060 Pink Fur (арт. 1037) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     },
     "isHit": false
-  },
-  {
-    "id": "809",
-    "slug": "nike-af1-shadow-white-premium-n0034",
-    "name": "NIKE AF1 SHADOW WHITE PREMIUM",
-    "brand": "Nike",
-    "brandSlug": "nike",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 2600,
-    "oldPrice": 4333,
-    "costPrice": 2100,
-    "sku": "N0034",
-    "material": "Кожа",
-    "country": "В'єтнам",
-    "sizes": [
-      "38",
-      "39",
-      "40"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": true
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": true
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": true
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/6e2268e5-5d0f-42d7-99da-13e786f93df0.jpeg",
-      "https://easydrop.one/media/uploads/images/base/d1b9debd-b12c-4135-beec-d332b6a008a5.jpeg"
-    ],
-    "description": "Модель: NIKE AF1 SHADOW WHITE PREMIUM. Артикул: N0034. Матеріал: Кожа. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "NIKE AF1 SHADOW WHITE PREMIUM (арт. N0034) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте NIKE AF1 SHADOW WHITE PREMIUM (арт. N0034) за 2600 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
   },
   {
     "id": "40",
