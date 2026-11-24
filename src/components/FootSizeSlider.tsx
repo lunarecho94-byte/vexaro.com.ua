@@ -192,13 +192,17 @@ export function FootSizeSlider({
     onSelectSize(item.size);
   };
 
-  // Choose scale marks to display under the slider (up to 5-6 evenly spaced)
+  // Choose scale marks to display under the slider (aligned precisely with slider thumb positions)
   const scaleMarks = useMemo(() => {
     if (items.length === 0) return [];
-    if (items.length <= 6) return items;
-    // Pick first, middle, last or spaced marks
+    if (items.length <= 6) {
+      return items.map((it, idx) => ({ ...it, index: idx }));
+    }
+    // Pick 5 evenly spaced marks across the full size run
     const step = (items.length - 1) / 4;
-    return [0, 1, 2, 3, 4].map((i) => items[Math.round(i * step)]);
+    const indices = [0, 1, 2, 3, 4].map((i) => Math.round(i * step));
+    const unique = Array.from(new Set(indices));
+    return unique.map((idx) => ({ ...items[idx], index: idx }));
   }, [items]);
 
   if (items.length === 0) {
@@ -280,13 +284,34 @@ export function FootSizeSlider({
           />
         </div>
 
-        {/* Scale labels under the slider */}
-        <div className="flex justify-between items-center px-1 mt-2 text-[10px] sm:text-[11px] font-semibold text-muted">
-          {scaleMarks.map((m, idx) => (
-            <span key={`${m.size}-${idx}`} className="tabular-nums">
-              {m.cmFormatted}
-            </span>
-          ))}
+        {/* Scale labels under the slider - aligned precisely with slider thumb coordinates */}
+        <div className="relative w-full h-5 mt-2.5 select-none pointer-events-none">
+          {scaleMarks.map((m) => {
+            const percent = maxIndex > 0 ? m.index / maxIndex : 0;
+            const isClosest = Math.round(sliderIndex) === m.index;
+            return (
+              <button
+                key={`${m.size}-${m.index}`}
+                type="button"
+                onClick={() => handleCardClick(m)}
+                className="absolute top-0 -translate-x-1/2 flex flex-col items-center pointer-events-auto cursor-pointer focus:outline-none"
+                style={{
+                  left: `calc(13px + (100% - 26px) * ${percent})`,
+                }}
+                aria-label={`Обрати розмір ${m.size} (${m.cmFormatted} см)`}
+              >
+                <span
+                  className={`text-[10px] sm:text-[11px] tabular-nums whitespace-nowrap transition-colors ${
+                    isClosest
+                      ? 'text-primary font-bold'
+                      : 'text-muted font-semibold hover:text-foreground'
+                  }`}
+                >
+                  {m.cmFormatted}
+                </span>
+              </button>
+            );
+          })}
         </div>
       </div>
 
