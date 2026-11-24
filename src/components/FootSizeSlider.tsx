@@ -16,7 +16,7 @@ interface FootSizeSliderProps {
 interface SliderSizeItem {
   size: string;
   cmRaw: number;
-  cmFormatted: string; // e.g. "24,0" or "24"
+  cmFormatted: string; // e.g. "24,0" or "24,5"
   isAvailable: boolean;
 }
 
@@ -37,6 +37,17 @@ const GENERAL_CM_MAP: Record<string, number> = {
   '47': 30.0,
 };
 
+// Fixed 17-point scale from 22.0 cm to 30.0 cm with 0.5 cm step
+const MIN_SCALE_CM = 22.0;
+const MAX_SCALE_CM = 30.0;
+const STEP_SCALE_CM = 0.5;
+const RANGE_SCALE_CM = MAX_SCALE_CM - MIN_SCALE_CM; // 8.0
+
+export const SCALE_CM_VALUES: number[] = [
+  22.0, 22.5, 23.0, 23.5, 24.0, 24.5, 25.0, 25.5,
+  26.0, 26.5, 27.0, 27.5, 28.0, 28.5, 29.0, 29.5, 30.0,
+];
+
 function formatCm(num: number): string {
   // Format with comma in Ukrainian style: 24 -> "24,0", 24.5 -> "24,5"
   return num.toFixed(1).replace('.', ',');
@@ -55,6 +66,43 @@ function parseCm(val: string | number | undefined, size: string): number {
     return 22.0 + (num - 35) * 0.5;
   }
   return 26.0;
+}
+
+function findBestSizeForCm(
+  cm: number,
+  items: SliderSizeItem[],
+  preferredSize?: string
+): SliderSizeItem {
+  if (items.length === 0) {
+    return {
+      size: preferredSize || '41',
+      cmRaw: cm,
+      cmFormatted: formatCm(cm),
+      isAvailable: true,
+    };
+  }
+
+  // If preferredSize already matches this cm, keep it
+  if (preferredSize) {
+    const pref = items.find(
+      (it) => it.size === preferredSize && Math.abs(it.cmRaw - cm) < 0.01
+    );
+    if (pref) return pref;
+  }
+
+  // 1. Exact match by cm
+  const exact = items.find((it) => Math.abs(it.cmRaw - cm) < 0.01);
+  if (exact) return exact;
+
+  // 2. Next size up that accommodates foot (insole >= foot length)
+  const larger = items.filter((it) => it.cmRaw > cm);
+  if (larger.length > 0) {
+    larger.sort((a, b) => a.cmRaw - b.cmRaw);
+    return larger[0];
+  }
+
+  // 3. Fallback to largest available size
+  return items[items.length - 1];
 }
 
 export function FootSizeSlider({
@@ -92,7 +140,6 @@ export function FootSizeSlider({
           isAvailable: availableSizes.includes(trimmed),
         });
       } else {
-        // Update availability from current active variation
         const existing = map.get(trimmed)!;
         map.set(trimmed, {
           ...existing,
@@ -102,7 +149,6 @@ export function FootSizeSlider({
     }
 
     // 2. Filter sizes to the relevant range of this shoe model
-    // If sizeChart is provided, keep all sizes defined in sizeChart plus any available sizes
     const hasExplicitChart = Boolean(sizeChart && sizeChart.length > 0);
     const chartSizesSet = new Set(sizeChart?.map((r) => r.size.trim()) || []);
 
@@ -118,7 +164,6 @@ export function FootSizeSlider({
     map.forEach((data, sizeStr) => {
       const num = parseFloat(sizeStr.replace(',', '.'));
       const isNumeric = !isNaN(num);
-      // Keep if defined in explicit chart, or if within fallback range or if available
       const shouldKeep = hasExplicitChart
         ? chartSizesSet.has(sizeStr) || data.isAvailable
         : data.isAvailable || (isNumeric && num >= minNum && num <= maxNum);
@@ -144,66 +189,60 @@ export function FootSizeSlider({
     return list;
   }, [sizeChart, allSizes, availableSizes]);
 
-  // Find index of currently selected size
-  const selectedIndex = useMemo(() => {
-    if (!selectedSize) return 0;
-    const idx = items.findIndex((it) => it.size === selectedSize);
-    return idx >= 0 ? idx : 0;
-  }, [items, selectedSize]);
-
-  // Local state for smooth slider dragging
-  const [sliderIndex, setSliderIndex] = useState<number>(selectedIndex);
-  const isDraggingRef = useRef(false);
-
-  // Keep slider synced when selectedSize changes externally
-  useEffect(() => {
-    if (!isDraggingRef.current) {
-      setSliderIndex(selectedIndex);
+  // Initial centimeter value derived from selectedSize or first available size
+  const getInitialCm = (): number => {
+    if (selectedSize) {
+      const found = items.find((it) => it.size === selectedSize);
+      if (found) return found.cmRaw;
     }
-  }, [selectedIndex]);
-
-  // Current active item derived from slider index
-  const activeItem = items[Math.round(sliderIndex)] || items[0] || {
-    size: selectedSize || '41',
-    cmRaw: 26.0,
-    cmFormatted: '26,0',
-    isAvailable: true,
+    const firstAvailable = items.find((it) => it.isAvailable);
+    if (firstAvailable) return firstAvailable.cmRaw;
+    return items[0]?.cmRaw ?? 26.0;
   };
 
-  const maxIndex = Math.max(1, items.length - 1);
-  const progressPercent = (sliderIndex / maxIndex) * 100;
+  const [currentCm, setCurrentCm] = useState<number>(getInitialCm);
+  const isDraggingRef = useRef(false);
+
+  // Keep slider synced when selectedSize changes externally (e.g. from parent component)
+  useEffect(() => {
+    if (!isDraggingRef.current && selectedSize) {
+      const found = items.find((it) => it.size === selectedSize);
+      if (found) {
+        setCurrentCm((prev) => (Math.abs(found.cmRaw - prev) > 0.01 ? found.cmRaw : prev));
+      }
+    }
+  }, [selectedSize, items]);
+
+  // Current active size item derived from currentCm
+  const activeItem = useMemo(() => {
+    return findBestSizeForCm(currentCm, items, selectedSize);
+  }, [currentCm, items, selectedSize]);
+
+  // Thumb ratio for exact positioning: 0.0 at 22.0 cm, 1.0 at 30.0 cm
+  const sliderRatio = Math.max(0, Math.min(1, (currentCm - MIN_SCALE_CM) / RANGE_SCALE_CM));
 
   const handleSliderChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const val = parseFloat(e.target.value);
-    setSliderIndex(val);
-    const closestIdx = Math.round(val);
-    const item = items[closestIdx];
-    if (item && item.size !== selectedSize) {
-      onSelectSize(item.size);
+    setCurrentCm(val);
+    const matched = findBestSizeForCm(val, items, selectedSize);
+    if (matched && matched.size !== selectedSize) {
+      onSelectSize(matched.size);
+    }
+  };
+
+  const handleCmSelect = (val: number) => {
+    setCurrentCm(val);
+    const matched = findBestSizeForCm(val, items, selectedSize);
+    if (matched && matched.size !== selectedSize) {
+      onSelectSize(matched.size);
     }
   };
 
   const handleCardClick = (item: SliderSizeItem) => {
     if (!item.isAvailable) return;
-    const idx = items.findIndex((it) => it.size === item.size);
-    if (idx >= 0) {
-      setSliderIndex(idx);
-    }
+    setCurrentCm(item.cmRaw);
     onSelectSize(item.size);
   };
-
-  // Choose scale marks to display under the slider (aligned precisely with slider thumb positions)
-  const scaleMarks = useMemo(() => {
-    if (items.length === 0) return [];
-    if (items.length <= 6) {
-      return items.map((it, idx) => ({ ...it, index: idx }));
-    }
-    // Pick 5 evenly spaced marks across the full size run
-    const step = (items.length - 1) / 4;
-    const indices = [0, 1, 2, 3, 4].map((i) => Math.round(i * step));
-    const unique = Array.from(new Set(indices));
-    return unique.map((idx) => ({ ...items[idx], index: idx }));
-  }, [items]);
 
   if (items.length === 0) {
     return null;
@@ -219,7 +258,7 @@ export function FootSizeSlider({
             довжина вашої стопи
           </span>
           <div className="text-2xl sm:text-3xl font-black text-foreground tracking-tight my-0.5">
-            {activeItem.cmFormatted}&nbsp;см
+            {formatCm(currentCm)}&nbsp;см
           </div>
           <span className="text-[11px] font-medium text-muted block">
             посуньте повзунок
@@ -252,62 +291,78 @@ export function FootSizeSlider({
         <div className="relative flex items-center">
           <input
             type="range"
-            min={0}
-            max={maxIndex}
-            step={0.01}
-            value={sliderIndex}
+            min={MIN_SCALE_CM}
+            max={MAX_SCALE_CM}
+            step={STEP_SCALE_CM}
+            value={currentCm}
             onMouseDown={() => {
               isDraggingRef.current = true;
             }}
             onMouseUp={() => {
               isDraggingRef.current = false;
-              // Snap to nearest integer index
-              const snapped = Math.round(sliderIndex);
-              setSliderIndex(snapped);
-              if (items[snapped]) onSelectSize(items[snapped].size);
             }}
             onTouchStart={() => {
               isDraggingRef.current = true;
             }}
             onTouchEnd={() => {
               isDraggingRef.current = false;
-              const snapped = Math.round(sliderIndex);
-              setSliderIndex(snapped);
-              if (items[snapped]) onSelectSize(items[snapped].size);
             }}
             onChange={handleSliderChange}
             className="foot-size-slider w-full"
             style={{
-              background: `linear-gradient(to right, #10b981 0%, #10b981 ${progressPercent}%, var(--border, #e4e4e7) ${progressPercent}%, var(--border, #e4e4e7) 100%)`,
+              background: `linear-gradient(to right, #10b981 0%, #10b981 calc(13px + (100% - 26px) * ${sliderRatio}), var(--border, #e4e4e7) calc(13px + (100% - 26px) * ${sliderRatio}), var(--border, #e4e4e7) 100%)`,
             }}
-            aria-label="Повзунок вибору довжини стопи та розміру"
+            aria-label="Повзунок вибору довжини стопи від 22,0 до 30,0 см"
           />
         </div>
 
-        {/* Scale labels under the slider - aligned precisely with slider thumb coordinates */}
-        <div className="relative w-full h-5 mt-2.5 select-none pointer-events-none">
-          {scaleMarks.map((m) => {
-            const percent = maxIndex > 0 ? m.index / maxIndex : 0;
-            const isClosest = Math.round(sliderIndex) === m.index;
+        {/* Scale labels under slider (22.0 to 30.0 with 0.5 step, staggered 2-tier for crystal-clear readability) */}
+        <div className="relative w-full h-11 mt-2.5 select-none pointer-events-none">
+          {SCALE_CM_VALUES.map((val) => {
+            const ratio = (val - MIN_SCALE_CM) / RANGE_SCALE_CM;
+            const isWhole = val % 1 === 0;
+            const isSelected = Math.abs(currentCm - val) < 0.05;
+
             return (
               <button
-                key={`${m.size}-${m.index}`}
+                key={val}
                 type="button"
-                onClick={() => handleCardClick(m)}
-                className="absolute top-0 -translate-x-1/2 flex flex-col items-center pointer-events-auto cursor-pointer focus:outline-none"
+                onClick={() => handleCmSelect(val)}
+                className="absolute -translate-x-1/2 flex flex-col items-center pointer-events-auto cursor-pointer focus:outline-none group"
                 style={{
-                  left: `calc(13px + (100% - 26px) * ${percent})`,
+                  left: `calc(13px + (100% - 26px) * ${ratio})`,
+                  top: 0,
+                  bottom: 0,
+                  width: '20px',
                 }}
-                aria-label={`Обрати розмір ${m.size} (${m.cmFormatted} см)`}
+                aria-label={`Обрати довжину стопи ${formatCm(val)} см`}
               >
+                {/* Top tick mark pointing directly to the slider track */}
                 <span
-                  className={`text-[10px] sm:text-[11px] tabular-nums whitespace-nowrap transition-colors ${
-                    isClosest
-                      ? 'text-primary font-bold'
-                      : 'text-muted font-semibold hover:text-foreground'
+                  className={`rounded-full transition-all ${
+                    isWhole ? 'h-2 w-[1.5px]' : 'h-1.5 w-[1px]'
+                  } ${
+                    isSelected
+                      ? 'bg-primary scale-y-110 shadow-xs'
+                      : isWhole
+                      ? 'bg-foreground/40 group-hover:bg-foreground'
+                      : 'bg-muted/40 group-hover:bg-muted-foreground'
+                  }`}
+                />
+
+                {/* Centimeter number label: whole numbers on upper tier, half numbers on lower tier */}
+                <span
+                  className={`tabular-nums whitespace-nowrap leading-none transition-all ${
+                    isWhole ? 'mt-1.5' : 'mt-5'
+                  } ${
+                    isSelected
+                      ? 'text-primary font-bold text-[10px] sm:text-[11px] scale-105'
+                      : isWhole
+                      ? 'text-foreground/80 font-semibold text-[8.5px] sm:text-[9.5px] group-hover:text-foreground'
+                      : 'text-muted font-medium text-[8px] sm:text-[9px] group-hover:text-foreground'
                   }`}
                 >
-                  {m.cmFormatted}
+                  {formatCm(val)}
                 </span>
               </button>
             );
