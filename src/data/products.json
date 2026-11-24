@@ -1,5 +1,103 @@
 [
   {
+    "id": "162297",
+    "slug": "new-balance-9060-burgundy-pink-nb103",
+    "name": "New balance 9060 Burgundy Pink",
+    "brand": "New Balance",
+    "brandSlug": "newbalance",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 2900,
+    "oldPrice": 4833,
+    "costPrice": 2400,
+    "sku": "NB103",
+    "material": "Замша/сітка",
+    "country": "В'єтнам",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "23.0",
+        "available": true
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": true
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": true
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": true
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": true
+      },
+      {
+        "size": "45",
+        "cm": "29.0",
+        "available": true
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": true,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/11831fb8-5e67-49a7-ae1b-350c71446bcc.jpeg"
+    ],
+    "description": "Модель: New balance 9060 Burgundy Pink. Артикул: NB103. Матеріал: Замша/сітка. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "New balance 9060 Burgundy Pink (арт. NB103) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте New balance 9060 Burgundy Pink (арт. NB103) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
     "id": "256509",
     "slug": "nike-p-6000-khutro-ntr828",
     "name": "Nike P-6000 ХУТРО",
@@ -184617,104 +184715,6 @@
     "seo": {
       "title": "Adidas x Raf Simons Ozweego Black (арт. 2154) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Adidas x Raf Simons Ozweego Black (арт. 2154) за 2700 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "162297",
-    "slug": "new-balance-9060-burgundy-pink-nb103",
-    "name": "New balance 9060 Burgundy Pink",
-    "brand": "New Balance",
-    "brandSlug": "newbalance",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 2900,
-    "oldPrice": 4833,
-    "costPrice": 2400,
-    "sku": "NB103",
-    "material": "Замша/сітка",
-    "country": "В'єтнам",
-    "sizes": [
-      "36",
-      "37",
-      "38",
-      "39",
-      "40",
-      "41",
-      "42",
-      "43",
-      "44",
-      "45"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "23.0",
-        "available": true
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": true
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": true
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": true
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": true
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": true
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": true
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": true
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": true
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/11831fb8-5e67-49a7-ae1b-350c71446bcc.jpeg"
-    ],
-    "description": "Модель: New balance 9060 Burgundy Pink. Артикул: NB103. Матеріал: Замша/сітка. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "New balance 9060 Burgundy Pink (арт. NB103) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте New balance 9060 Burgundy Pink (арт. NB103) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
