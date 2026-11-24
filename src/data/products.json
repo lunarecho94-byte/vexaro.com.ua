@@ -110642,99 +110642,6 @@
     }
   },
   {
-    "id": "214319",
-    "slug": "new-balance-9060-burgundy-pink-2592",
-    "name": "New Balance 9060 Burgundy Pink",
-    "brand": "New Balance",
-    "brandSlug": "newbalance",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 2800,
-    "oldPrice": 4667,
-    "costPrice": 2300,
-    "sku": "2592",
-    "material": "Замша , Кожа , Текстиль",
-    "country": "В'єтнам",
-    "sizes": [
-      "38",
-      "42",
-      "43",
-      "44",
-      "45"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "23.0",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": true
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": true
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": true
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": true
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": true
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/c1bb21e2-dec5-40e6-a93f-d5c1f3187a15.jpeg"
-    ],
-    "description": "Модель: New Balance 9060 Burgundy Pink. Артикул: 2592. Матеріал: Замша , Кожа , Текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "New Balance 9060 Burgundy Pink (арт. 2592) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте New Balance 9060 Burgundy Pink (арт. 2592) за 2800 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
     "id": "214313",
     "slug": "nike-sb-x-louis-vuitton-white-grey-2619",
     "name": "Nike SB x Louis Vuitton White Grey",
@@ -175917,14 +175824,14 @@
         "available": true
       },
       {
-        "size": "45/46",
-        "cm": "29.0",
-        "available": true
-      },
-      {
         "size": "45",
         "cm": "29.0",
         "available": false
+      },
+      {
+        "size": "45/46",
+        "cm": "29.0",
+        "available": true
       },
       {
         "size": "46",
@@ -176018,14 +175925,14 @@
         "available": true
       },
       {
-        "size": "45/46",
-        "cm": "29.0",
-        "available": true
-      },
-      {
         "size": "45",
         "cm": "29.0",
         "available": false
+      },
+      {
+        "size": "45/46",
+        "cm": "29.0",
+        "available": true
       },
       {
         "size": "46",
@@ -191435,100 +191342,6 @@
     "seo": {
       "title": "NEW BALANCE 530 x MIU MIU | BLACK / YELLOW premium (4 (арт. 1174) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте NEW BALANCE 530 x MIU MIU | BLACK / YELLOW premium (4 (арт. 1174) за 2599 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    }
-  },
-  {
-    "id": "156116",
-    "slug": "new-balance-9060-burgundy-pink-0012",
-    "name": "New Balance 9060 Burgundy Pink",
-    "brand": "New Balance",
-    "brandSlug": "newbalance",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 2790,
-    "oldPrice": 4650,
-    "costPrice": 2290,
-    "sku": "0012",
-    "material": "Замша текстиль",
-    "country": "Китай",
-    "sizes": [
-      "36",
-      "38",
-      "42",
-      "43",
-      "44",
-      "45"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "23.0",
-        "available": true
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": true
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": true
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": true
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": true
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": true
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/55d694c2-ae59-4344-96cc-93be4c912cd6.jpeg"
-    ],
-    "description": "Модель: New Balance 9060 Burgundy Pink. Артикул: 0012. Матеріал: Замша текстиль. Сезон: Демісезон. Виробництво: Китай. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "New Balance 9060 Burgundy Pink (арт. 0012) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте New Balance 9060 Burgundy Pink (арт. 0012) за 2790 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -215903,12 +215716,12 @@
         "available": true
       },
       {
-        "size": "45/46",
+        "size": "45",
         "cm": "29.0",
         "available": false
       },
       {
-        "size": "45",
+        "size": "45/46",
         "cm": "29.0",
         "available": false
       },
