@@ -41,6 +41,7 @@ COPY --from=builder /app/next.config.mjs ./next.config.mjs
 COPY --from=builder /app/public ./public
 COPY --from=builder /app/.next ./.next
 COPY --from=builder /app/src/data ./src/data
+COPY --from=builder /app/src/lib/image-loader.ts ./src/lib/image-loader.ts
 
 RUN mkdir -p /app/storage
 
