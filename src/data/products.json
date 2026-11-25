@@ -38466,7 +38466,6 @@
     "country": "В'єтнам",
     "sizes": [
       "40",
-      "41",
       "43",
       "45"
     ],
@@ -38499,7 +38498,7 @@
       {
         "size": "41",
         "cm": "26.0",
-        "available": true
+        "available": false
       },
       {
         "size": "42",
@@ -133013,9 +133012,9 @@
     "genderName": "Чоловічі",
     "season": "winter",
     "seasonName": "Зима",
-    "price": 3000,
-    "oldPrice": 5000,
-    "costPrice": 2500,
+    "price": 2900,
+    "oldPrice": 4833,
+    "costPrice": 2400,
     "sku": "1909",
     "material": "Текстиь",
     "country": "В'єтнам",
@@ -133092,7 +133091,7 @@
     "description": "Модель: Salomon Xt-6 Gore-Tex Black\\Grey. Артикул: 1909. Матеріал: Текстиь. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
     "seo": {
       "title": "Salomon Xt-6 Gore-Tex Black\\Grey (арт. 1909) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Salomon Xt-6 Gore-Tex Black\\Grey (арт. 1909) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+      "description": "Замовляйте Salomon Xt-6 Gore-Tex Black\\Grey (арт. 1909) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -175117,14 +175116,14 @@
         "available": true
       },
       {
-        "size": "45",
-        "cm": "29.0",
-        "available": false
-      },
-      {
         "size": "45/46",
         "cm": "29.0",
         "available": true
+      },
+      {
+        "size": "45",
+        "cm": "29.0",
+        "available": false
       },
       {
         "size": "46",
@@ -175218,14 +175217,14 @@
         "available": true
       },
       {
-        "size": "45",
-        "cm": "29.0",
-        "available": false
-      },
-      {
         "size": "45/46",
         "cm": "29.0",
         "available": true
+      },
+      {
+        "size": "45",
+        "cm": "29.0",
+        "available": false
       },
       {
         "size": "46",
@@ -205185,8 +205184,7 @@
       "41",
       "42",
       "43",
-      "44",
-      "45"
+      "44"
     ],
     "sizeChart": [
       {
@@ -205237,7 +205235,7 @@
       {
         "size": "45",
         "cm": "29.0",
-        "available": true
+        "available": false
       },
       {
         "size": "46",
@@ -214730,12 +214728,12 @@
         "available": true
       },
       {
-        "size": "45",
+        "size": "45/46",
         "cm": "29.0",
         "available": false
       },
       {
-        "size": "45/46",
+        "size": "45",
         "cm": "29.0",
         "available": false
       },
@@ -246151,8 +246149,7 @@
       "37",
       "38",
       "39",
-      "40",
-      "41"
+      "40"
     ],
     "sizeChart": [
       {
@@ -246183,7 +246180,7 @@
       {
         "size": "41",
         "cm": "26.0",
-        "available": true
+        "available": false
       },
       {
         "size": "42",
