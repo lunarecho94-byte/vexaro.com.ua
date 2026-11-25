@@ -149,8 +149,14 @@ export async function POST(req: NextRequest) {
     // 1. Save order to persistent local database
     saveOrderToDb(orderRecord);
 
-    // 2. Dispatch Telegram alert
+    // 2. Dispatch Telegram alert & Google Sheets sync
     await sendTelegramNotification(orderRecord);
+    try {
+      const { sendOrderToGoogleSheets } = await import('@/lib/google-sheets');
+      await sendOrderToGoogleSheets(orderRecord);
+    } catch (gsErr) {
+      console.error('Google Sheets sync error:', gsErr);
+    }
 
     // 3. Dispatch Meta CAPI Purchase event (server-side deduplication)
     try {
