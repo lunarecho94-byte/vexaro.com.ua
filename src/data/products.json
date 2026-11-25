@@ -1558,7 +1558,7 @@
     "oldPrice": 5667,
     "costPrice": 2900,
     "sku": "2131",
-    "material": "Текстиль",
+    "material": "Теустиль",
     "country": "В'єтнам",
     "sizes": [
       "41",
@@ -1629,7 +1629,7 @@
     "images": [
       "https://easydrop.one/media/uploads/images/base/30c451ec-258f-4fce-abc3-28aa9a420fe8.jpeg"
     ],
-    "description": "Модель: Nike ACG Air Phassad Barocco Brown HM7133-201. Артикул: 2131. Матеріал: Текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "description": "Модель: Nike ACG Air Phassad Barocco Brown HM7133-201. Артикул: 2131. Матеріал: Теустиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
     "seo": {
       "title": "Nike ACG Air Phassad Barocco Brown HM7133-201 (арт. 2131) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Nike ACG Air Phassad Barocco Brown HM7133-201 (арт. 2131) за 3400 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
@@ -9083,6 +9083,100 @@
     }
   },
   {
+    "id": "257843",
+    "slug": "premiata-moerun-khutro-pm11",
+    "name": "Premiata MOERUN ХУТРО",
+    "brand": "Premiata",
+    "brandSlug": "premiata",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "men",
+    "genderName": "Чоловічі",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 3400,
+    "oldPrice": 5667,
+    "costPrice": 2900,
+    "sku": "PM11",
+    "material": "Шкіра, замша, хутро, текстиль, піна, гума",
+    "country": "Італія",
+    "sizes": [
+      "41",
+      "42",
+      "44"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": false
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": false
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": false
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": true
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": true
+      },
+      {
+        "size": "45",
+        "cm": "29.0",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "/images/products/premiata-moerun-khutro-pm11/img-1.jpg",
+      "/images/products/premiata-moerun-khutro-pm11/img-2.jpg",
+      "/images/products/premiata-moerun-khutro-pm11/img-3.jpg",
+      "/images/products/premiata-moerun-khutro-pm11/img-4.jpg"
+    ],
+    "description": "Модель: Premiata MOERUN ХУТРО. Артикул: PM11. Матеріал: Шкіра, замша, хутро, текстиль, піна, гума. Сезон: Зима. Виробництво: Італія. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Premiata MOERUN ХУТРО (арт. PM11) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Premiata MOERUN ХУТРО (арт. PM11) за 3400 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
     "id": "257842",
     "slug": "premiata-moerun-khutro-pm10",
     "name": "Premiata MOERUN ХУТРО",
@@ -12464,6 +12558,97 @@
     "seo": {
       "title": "Nike Sb Dunk Low Beige Leo (арт. NK184) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Nike Sb Dunk Low Beige Leo (арт. NK184) за 3100 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "256702",
+    "slug": "nike-sb-dunk-low-black-white-fur-nk180",
+    "name": "Nike Sb Dunk Low Black/White Fur",
+    "brand": "Nike",
+    "brandSlug": "nike",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "men",
+    "genderName": "Чоловічі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 3100,
+    "oldPrice": 5167,
+    "costPrice": 2600,
+    "sku": "NK180",
+    "material": "Шкіра",
+    "country": "-",
+    "sizes": [
+      "43",
+      "44",
+      "45"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": false
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": false
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": false
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": false
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": true
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": true
+      },
+      {
+        "size": "45",
+        "cm": "29.0",
+        "available": true
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/0f4d6f1c-ce6a-4eba-a534-fb965f567f11.jpeg"
+    ],
+    "description": "Модель: Nike Sb Dunk Low Black/White Fur. Артикул: NK180. Матеріал: Шкіра. Сезон: Демісезон. Виробництво: -. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Nike Sb Dunk Low Black/White Fur (арт. NK180) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Nike Sb Dunk Low Black/White Fur (арт. NK180) за 3100 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -22251,6 +22436,97 @@
     }
   },
   {
+    "id": "253855",
+    "slug": "nike-v2k-khutro-ntr811",
+    "name": "Nike V2K ХУТРО",
+    "brand": "Nike",
+    "brandSlug": "nike",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "men",
+    "genderName": "Чоловічі",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 2900,
+    "oldPrice": 4833,
+    "costPrice": 2400,
+    "sku": "NTR811",
+    "material": "Шкіра, вологостійкий текстиль, термоутеплювач, гума, піна, прошиті",
+    "country": "В'єтнам",
+    "sizes": [
+      "43",
+      "44",
+      "46"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": false
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": false
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": false
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": false
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": true
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": true
+      },
+      {
+        "size": "45",
+        "cm": "29.0",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": true
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/47fbb941-cb7b-4522-a80e-a69b31f7af2d.jpg"
+    ],
+    "description": "Модель: Nike V2K ХУТРО. Артикул: NTR811. Матеріал: Шкіра, вологостійкий текстиль, термоутеплювач, гума, піна, прошиті. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Nike V2K ХУТРО (арт. NTR811) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Nike V2K ХУТРО (арт. NTR811) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
     "id": "253854",
     "slug": "alo-yoga-runner-white-2750",
     "name": "Alo Yoga Runner White",
@@ -24440,6 +24716,7 @@
     "material": "Текстиль",
     "country": "В'єтнам",
     "sizes": [
+      "42",
       "43",
       "44",
       "45"
@@ -24478,7 +24755,7 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": false
+        "available": true
       },
       {
         "size": "43",
@@ -27485,7 +27762,6 @@
       "37",
       "38",
       "40",
-      "41",
       "43"
     ],
     "sizeChart": [
@@ -27517,7 +27793,7 @@
       {
         "size": "41",
         "cm": "26.0",
-        "available": true
+        "available": false
       },
       {
         "size": "42",
@@ -33094,6 +33370,7 @@
     "material": "Кожа , мех",
     "country": "В'єтнам",
     "sizes": [
+      "39",
       "42",
       "43",
       "44",
@@ -33118,7 +33395,7 @@
       {
         "size": "39",
         "cm": "25.0",
-        "available": false
+        "available": true
       },
       {
         "size": "40",
@@ -59941,6 +60218,7 @@
     "sizes": [
       "41",
       "42",
+      "43",
       "44",
       "45",
       "46"
@@ -59984,7 +60262,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": false
+        "available": true
       },
       {
         "size": "44",
@@ -132266,6 +132544,7 @@
     "material": "Текстиь",
     "country": "В'єтнам",
     "sizes": [
+      "40",
       "41",
       "42",
       "43",
@@ -132296,7 +132575,7 @@
       {
         "size": "40",
         "cm": "25.5",
-        "available": false
+        "available": true
       },
       {
         "size": "41",
@@ -241614,6 +241893,7 @@
     "sizes": [
       "40",
       "41",
+      "43",
       "44",
       "45"
     ],
@@ -241656,7 +241936,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": false
+        "available": true
       },
       {
         "size": "44",
@@ -244207,6 +244487,97 @@
     }
   },
   {
+    "id": "76408",
+    "slug": "nike-acg-mountain-fly-gore-tex-all-black-nk092",
+    "name": "Nike ACG Mountain Fly Gore-Tex All Black",
+    "brand": "Nike",
+    "brandSlug": "nike",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "men",
+    "genderName": "Чоловічі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 3300,
+    "oldPrice": 5500,
+    "costPrice": 2800,
+    "sku": "NK092",
+    "material": "Текстиль / комбінований",
+    "country": "В'єтнам",
+    "sizes": [
+      "39",
+      "41",
+      "42"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": false
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": false
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": true
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "29.0",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/16bdbc2b-01c0-4bb0-a94e-5ff71bebf0f1.jpeg"
+    ],
+    "description": "Модель: Nike ACG Mountain Fly Gore-Tex All Black. Артикул: NK092. Матеріал: Текстиль / комбінований. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Nike ACG Mountain Fly Gore-Tex All Black (арт. NK092) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Nike ACG Mountain Fly Gore-Tex All Black (арт. NK092) за 3300 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
     "id": "75465",
     "slug": "ugg-mini-ginger-suede-0815",
     "name": "UGG MINI GINGER SUEDE",
@@ -245077,6 +245448,97 @@
     "seo": {
       "title": "New Balance 9060 White Black (арт. NB060) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте New Balance 9060 White Black (арт. NB060) за 2700 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    }
+  },
+  {
+    "id": "73083",
+    "slug": "ugg-ultra-mini-platform-beige-ug092",
+    "name": "Ugg Ultra Mini Platform Beige",
+    "brand": "UGG",
+    "brandSlug": "ugg",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 2100,
+    "oldPrice": 3500,
+    "costPrice": 1600,
+    "sku": "UG092",
+    "material": "Замша/овчина",
+    "country": "В'єтнам",
+    "sizes": [
+      "39",
+      "40",
+      "41"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": false
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "29.0",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": true,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/94393793-8f5a-4411-96ee-58ff44400bcb.jpeg"
+    ],
+    "description": "Модель: Ugg Ultra Mini Platform Beige. Артикул: UG092. Матеріал: Замша/овчина. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Ugg Ultra Mini Platform Beige (арт. UG092) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Ugg Ultra Mini Platform Beige (арт. UG092) за 2100 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     }
   },
   {
@@ -247038,6 +247500,7 @@
     "sizes": [
       "36",
       "37",
+      "38",
       "40"
     ],
     "sizeChart": [
@@ -247054,7 +247517,7 @@
       {
         "size": "38",
         "cm": "24.0",
-        "available": false
+        "available": true
       },
       {
         "size": "39",
