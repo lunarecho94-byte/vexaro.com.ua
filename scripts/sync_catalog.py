@@ -1904,14 +1904,14 @@ def build_product_size_chart(
     def parse_size_key(s):
         try:
             first = s.split('/')[0].split('-')[0].strip()
-            return float(first.replace(',', '.'))
+            return (float(first.replace(',', '.')), s)
         except ValueError:
-            return 999.0
+            return (999.0, s)
 
     sorted_keys = sorted(all_sizes, key=parse_size_key)
     chart = []
     for s in sorted_keys:
-        if parse_size_key(s) >= 900:
+        if parse_size_key(s)[0] >= 900:
             continue
         cm = explicit_map.get(s) or brand_grid.get(s)
         if not cm:
@@ -4354,18 +4354,19 @@ def main():
 
     def sort_key_sizes(x):
         try:
-            return float(x.replace(',', '.'))
+            first = x.split('/')[0].split('-')[0].strip()
+            return (float(first.replace(',', '.')), x)
         except ValueError:
-            return 999
+            return (999.0, x)
 
     sorted_all_sizes = sorted(list(size_set), key=sort_key_sizes)
 
     meta = {
         'total': len(products),
-        'brands': sorted(list(brand_map.values()), key=lambda b: b['count'], reverse=True),
+        'brands': sorted(list(brand_map.values()), key=lambda b: (-b['count'], b['slug'])),
         'categories': [{'name': 'Взуття', 'slug': 'shoes', 'count': len(products)}],
-        'genders': sorted(list(gender_map.values()), key=lambda g: g['count'], reverse=True),
-        'seasons': sorted(list(season_map.values()), key=lambda s: s['count'], reverse=True),
+        'genders': sorted(list(gender_map.values()), key=lambda g: (-g['count'], g['slug'])),
+        'seasons': sorted(list(season_map.values()), key=lambda s: (-s['count'], s['slug'])),
         'sizes': sorted_all_sizes,
         'minPrice': int(min_price) if min_price != float('inf') else 0,
         'maxPrice': int(max_price)

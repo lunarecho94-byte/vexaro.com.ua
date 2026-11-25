@@ -45,10 +45,11 @@ const orderSchema = z.object({
   totalAmount: z.number().positive(),
 });
 
-const ORDERS_FILE = path.join(process.cwd(), 'src', 'data', 'orders.json');
+const ORDERS_FILE = process.env.ORDERS_FILE_PATH || path.join(process.cwd(), 'src', 'data', 'orders.json');
 
 function saveOrderToDb(order: any) {
   try {
+    fs.mkdirSync(path.dirname(ORDERS_FILE), { recursive: true });
     let orders = [];
     if (fs.existsSync(ORDERS_FILE)) {
       const data = fs.readFileSync(ORDERS_FILE, 'utf-8');
@@ -168,7 +169,11 @@ export async function POST(req: NextRequest) {
         user: {
           name: validatedData.customerName,
           phone: validatedData.phone,
-          clientIp: req.headers.get('x-forwarded-for')?.split(',')[0] || req.headers.get('x-real-ip') || undefined,
+          clientIp:
+            req.headers.get('cf-connecting-ip') ||
+            req.headers.get('x-forwarded-for')?.split(',')[0]?.trim() ||
+            req.headers.get('x-real-ip') ||
+            undefined,
           clientUserAgent: req.headers.get('user-agent') || undefined,
         },
         customData: {

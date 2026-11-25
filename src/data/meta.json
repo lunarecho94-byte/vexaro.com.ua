@@ -72,13 +72,13 @@
       "count": 28
     },
     {
-      "name": "Vans",
-      "slug": "vans",
+      "name": "Premiata",
+      "slug": "premiata",
       "count": 21
     },
     {
-      "name": "Premiata",
-      "slug": "premiata",
+      "name": "Vans",
+      "slug": "vans",
       "count": 21
     },
     {
@@ -112,23 +112,23 @@
       "count": 9
     },
     {
-      "name": "Miu Miu",
-      "slug": "miumiu",
-      "count": 6
-    },
-    {
       "name": "Bottega Veneta",
       "slug": "bottega",
       "count": 6
     },
     {
-      "name": "Under Armour",
-      "slug": "underarmour",
+      "name": "Lacoste",
+      "slug": "lacoste",
       "count": 6
     },
     {
-      "name": "Lacoste",
-      "slug": "lacoste",
+      "name": "Miu Miu",
+      "slug": "miumiu",
+      "count": 6
+    },
+    {
+      "name": "Under Armour",
+      "slug": "underarmour",
       "count": 6
     },
     {
@@ -162,13 +162,13 @@
       "count": 2
     },
     {
-      "name": "Dr. Martens",
-      "slug": "drmartens",
+      "name": "Bape",
+      "slug": "bape",
       "count": 1
     },
     {
-      "name": "Bape",
-      "slug": "bape",
+      "name": "Dr. Martens",
+      "slug": "drmartens",
       "count": 1
     }
   ],
@@ -223,9 +223,9 @@
     "43",
     "44",
     "45",
+    "45/46",
     "46",
-    "47",
-    "45/46"
+    "47"
   ],
   "minPrice": 900,
   "maxPrice": 6400

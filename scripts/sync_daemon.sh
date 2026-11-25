@@ -4,7 +4,8 @@
 # Executes sync_runner.sh every 20 minutes (1200 seconds)
 # ==============================================================================
 
-PROJECT_DIR="/Users/mac/.gemini/antigravity/scratch/urban-next"
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PROJECT_DIR="$(dirname "$SCRIPT_DIR")"
 cd "$PROJECT_DIR"
 
 INTERVAL_SECONDS=1200  # 20 minutes

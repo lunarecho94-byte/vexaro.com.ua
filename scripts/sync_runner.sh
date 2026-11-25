@@ -8,7 +8,8 @@ set -e
 
 export PATH="/usr/local/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
 
-PROJECT_DIR="/Users/mac/.gemini/antigravity/scratch/urban-next"
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PROJECT_DIR="$(dirname "$SCRIPT_DIR")"
 cd "$PROJECT_DIR"
 
 TIMESTAMP=$(date '+%Y-%m-%d %H:%M:%S')

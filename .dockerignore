@@ -1,0 +1,15 @@
+node_modules
+.next
+out
+.git
+.gitignore
+data
+*.xml
+.env*.local
+.vercel
+scratch
+scripts/*.log
+scripts/*.tmp
+scripts/.sync_daemon.pid
+tsconfig.tsbuildinfo
+README.md
