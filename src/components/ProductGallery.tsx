@@ -20,11 +20,23 @@ export function ProductGallery({ images, productName }: ProductGalleryProps) {
 
   const validImages = images.filter((img) => !failedImages[img] && !img.includes('empty_item_square'));
   const total = validImages.length;
-  const currentImage = validImages[activeIdx] || validImages[0] || '/images/shoe-placeholder.svg';
+  const safeIdx = total > 0 ? Math.min(activeIdx, total - 1) : 0;
+  const currentImage = validImages[safeIdx] || '/images/shoe-placeholder.svg';
 
   const handleImageError = (imgUrl: string) => {
     setFailedImages((prev) => ({ ...prev, [imgUrl]: true }));
   };
+
+  // Preload all gallery images in browser cache for instant switching
+  useEffect(() => {
+    if (typeof window === 'undefined' || validImages.length <= 1) return;
+    validImages.forEach((imgUrl) => {
+      if (imgUrl && !imgUrl.includes('shoe-placeholder')) {
+        const preload = new window.Image();
+        preload.src = imgUrl;
+      }
+    });
+  }, [validImages]);
 
   const handlePrev = useCallback(() => {
     if (total <= 1) return;
@@ -83,8 +95,9 @@ export function ProductGallery({ images, productName }: ProductGalleryProps) {
         onTouchEnd={onTouchEnd}
       >
         <Image
+          key={currentImage}
           src={currentImage}
-          alt={`${productName} — фото ${activeIdx + 1}`}
+          alt={`${productName} — фото ${safeIdx + 1}`}
           fill
           priority
           sizes="(max-width: 768px) 100vw, 50vw"
@@ -96,7 +109,7 @@ export function ProductGallery({ images, productName }: ProductGalleryProps) {
         {/* Counter Badge */}
         {total > 1 && (
           <div className="absolute top-3 left-3 z-10 rounded-lg bg-white/90 border border-zinc-200/80 backdrop-blur-md px-2.5 py-1 text-xs font-mono font-bold text-zinc-700 shadow-sm pointer-events-none">
-            {activeIdx + 1} / {total}
+            {safeIdx + 1} / {total}
           </div>
         )}
 
@@ -148,7 +161,7 @@ export function ProductGallery({ images, productName }: ProductGalleryProps) {
               <span
                 key={idx}
                 className={`h-1.5 rounded-full transition-all duration-300 ${
-                  activeIdx === idx
+                  safeIdx === idx
                     ? 'w-5 bg-primary shadow'
                     : 'w-1.5 bg-white/40'
                 }`}
@@ -167,7 +180,7 @@ export function ProductGallery({ images, productName }: ProductGalleryProps) {
               type="button"
               onClick={() => setActiveIdx(idx)}
               className={`relative h-20 w-20 shrink-0 overflow-hidden rounded-xl border-2 bg-white transition-all ${
-                activeIdx === idx
+                safeIdx === idx
                   ? 'border-primary ring-2 ring-primary/40 scale-[1.02]'
                   : 'border-border/80 opacity-70 hover:opacity-100 hover:border-border'
               }`}
@@ -200,7 +213,7 @@ export function ProductGallery({ images, productName }: ProductGalleryProps) {
             onClick={(e) => e.stopPropagation()}
           >
             <div className="rounded-lg bg-white/10 px-3 py-1.5 text-xs sm:text-sm font-mono font-bold backdrop-blur-md">
-              {activeIdx + 1} / {total}
+              {safeIdx + 1} / {total}
             </div>
             <button
               type="button"
@@ -221,8 +234,9 @@ export function ProductGallery({ images, productName }: ProductGalleryProps) {
           >
             <div className="relative w-full h-full max-h-[75vh] aspect-square">
               <Image
+                key={`modal-${currentImage}`}
                 src={currentImage}
-                alt={`${productName} — збільшене фото ${activeIdx + 1}`}
+                alt={`${productName} — збільшене фото ${safeIdx + 1}`}
                 fill
                 sizes="(max-width: 1200px) 100vw, 1200px"
                 className="object-contain"
@@ -266,7 +280,7 @@ export function ProductGallery({ images, productName }: ProductGalleryProps) {
                   type="button"
                   onClick={() => setActiveIdx(idx)}
                   className={`relative h-14 w-14 shrink-0 overflow-hidden rounded-lg border-2 transition-all ${
-                    activeIdx === idx
+                    safeIdx === idx
                       ? 'border-primary ring-2 ring-primary/50 scale-105'
                       : 'border-white/20 opacity-60 hover:opacity-100'
                   }`}

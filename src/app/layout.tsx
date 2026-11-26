@@ -48,8 +48,6 @@ export default function RootLayout({
     <html lang="uk" className="dark">
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
-        <link rel="preconnect" href="https://wsrv.nl" crossOrigin="anonymous" />
-        <link rel="dns-prefetch" href="https://wsrv.nl" />
         <link rel="preconnect" href="https://easydrop.one" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://easydrop.one" />
       </head>
