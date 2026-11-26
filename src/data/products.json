@@ -3263,7 +3263,7 @@
     "sizes": [
       "41",
       "42",
-      "44"
+      "46"
     ],
     "sizeChart": [
       {
@@ -3309,7 +3309,7 @@
       {
         "size": "44",
         "cm": "28.0",
-        "available": true
+        "available": false
       },
       {
         "size": "45",
@@ -3319,7 +3319,7 @@
       {
         "size": "46",
         "cm": "29.5",
-        "available": false
+        "available": true
       }
     ],
     "inStock": true,
@@ -6200,7 +6200,6 @@
     "country": "В'єтнам",
     "sizes": [
       "41",
-      "43",
       "44",
       "45",
       "46"
@@ -6244,7 +6243,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": true
+        "available": false
       },
       {
         "size": "44",
@@ -6297,7 +6296,6 @@
     "country": "В'єтнам",
     "sizes": [
       "41",
-      "42",
       "43",
       "44",
       "45",
@@ -6337,7 +6335,7 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": true
+        "available": false
       },
       {
         "size": "43",
@@ -12817,8 +12815,7 @@
     "sizes": [
       "41",
       "42",
-      "43",
-      "45"
+      "43"
     ],
     "sizeChart": [
       {
@@ -12869,7 +12866,7 @@
       {
         "size": "45",
         "cm": "29.0",
-        "available": true
+        "available": false
       },
       {
         "size": "46",
@@ -13006,7 +13003,6 @@
     "country": "В'єтнам",
     "sizes": [
       "41",
-      "42",
       "43",
       "44",
       "45"
@@ -13045,7 +13041,7 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": true
+        "available": false
       },
       {
         "size": "43",
@@ -16425,7 +16421,6 @@
     "sizes": [
       "41",
       "42",
-      "43",
       "44",
       "45"
     ],
@@ -16468,7 +16463,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": true
+        "available": false
       },
       {
         "size": "44",
@@ -28144,7 +28139,6 @@
       "37",
       "38",
       "41",
-      "45",
       "46"
     ],
     "sizeChart": [
@@ -28196,7 +28190,7 @@
       {
         "size": "45",
         "cm": "29.0",
-        "available": true
+        "available": false
       },
       {
         "size": "46",
@@ -37123,7 +37117,6 @@
     "country": "В'єтнам",
     "sizes": [
       "42",
-      "43",
       "44",
       "45"
     ],
@@ -37166,7 +37159,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": true
+        "available": false
       },
       {
         "size": "44",
@@ -38260,7 +38253,6 @@
       "37",
       "38",
       "39",
-      "40",
       "41",
       "42",
       "43",
@@ -38291,7 +38283,7 @@
       {
         "size": "40",
         "cm": "25.5",
-        "available": true
+        "available": false
       },
       {
         "size": "41",
@@ -40078,7 +40070,6 @@
     "country": "В'єтнам",
     "sizes": [
       "41",
-      "42",
       "43",
       "44",
       "45",
@@ -40118,7 +40109,7 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": true
+        "available": false
       },
       {
         "size": "43",
@@ -42715,7 +42706,6 @@
     "country": "В'єтнам",
     "sizes": [
       "41",
-      "43",
       "44",
       "46"
     ],
@@ -42758,7 +42748,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": true
+        "available": false
       },
       {
         "size": "44",
@@ -72724,98 +72714,6 @@
     "addedAt": 0
   },
   {
-    "id": "242775",
-    "slug": "nyc-gore-tex-acx46",
-    "name": "NYC Gore-Tex",
-    "brand": "Інші бренди",
-    "brandSlug": "other",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 2900,
-    "oldPrice": 4833,
-    "costPrice": 2400,
-    "sku": "ACX46",
-    "material": "Замша, шкіра, вологостійкий текстиль, термоутеплювач, гума, піна, прошиті",
-    "country": "В'єтнам",
-    "sizes": [
-      "43",
-      "44",
-      "45"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": true
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": true
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": true
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/44cbb9de-47d6-410f-b7eb-7b36b9f38ed9.jpeg"
-    ],
-    "description": "Модель: NYC Gore-Tex. Артикул: ACX46. Матеріал: Замша, шкіра, вологостійкий текстиль, термоутеплювач, гума, піна, прошиті. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "NYC Gore-Tex (арт. ACX46) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте NYC Gore-Tex (арт. ACX46) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    },
-    "addedAt": 0
-  },
-  {
     "id": "242765",
     "slug": "nike-mind-sneakers-grey-dmin04",
     "name": "Nike mind sneakers grey",
@@ -75686,7 +75584,6 @@
     "sizes": [
       "41",
       "43",
-      "44",
       "45",
       "46"
     ],
@@ -75734,7 +75631,7 @@
       {
         "size": "44",
         "cm": "28.0",
-        "available": true
+        "available": false
       },
       {
         "size": "45",
@@ -76817,6 +76714,7 @@
     "sizes": [
       "41",
       "42",
+      "43",
       "44"
     ],
     "sizeChart": [
@@ -76858,7 +76756,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": false
+        "available": true
       },
       {
         "size": "44",
@@ -95238,98 +95136,6 @@
     "seo": {
       "title": "Nike Shox TL Black (арт. #DNK9995) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Nike Shox TL Black (арт. #DNK9995) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    },
-    "addedAt": 0
-  },
-  {
-    "id": "231431",
-    "slug": "nike-zoom-vomero-roam-summit-black-dnb169",
-    "name": "NIKE ZOOM VOMERO ROAM SUMMIT BLACK",
-    "brand": "Nike",
-    "brandSlug": "nike",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "unisex",
-    "genderName": "Унісекс",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 3000,
-    "oldPrice": 5000,
-    "costPrice": 2500,
-    "sku": "#DNB169",
-    "material": "Текстиль/піна",
-    "country": "В'єтнам",
-    "sizes": [
-      "37",
-      "38",
-      "45"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": true
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": true
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": true
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/ec61e382-f2f8-448a-ac4d-c8c51ca49715.jpg"
-    ],
-    "description": "Модель: NIKE ZOOM VOMERO ROAM SUMMIT BLACK. Артикул: #DNB169. Матеріал: Текстиль/піна. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "NIKE ZOOM VOMERO ROAM SUMMIT BLACK (арт. #DNB169) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте NIKE ZOOM VOMERO ROAM SUMMIT BLACK (арт. #DNB169) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     },
     "addedAt": 0
   },
@@ -170680,7 +170486,6 @@
     "sizes": [
       "40",
       "42",
-      "43",
       "44"
     ],
     "sizeChart": [
@@ -170722,7 +170527,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": true
+        "available": false
       },
       {
         "size": "44",
@@ -177593,8 +177398,7 @@
       "42",
       "43",
       "44",
-      "45",
-      "46"
+      "45"
     ],
     "sizeChart": [
       {
@@ -177650,7 +177454,7 @@
       {
         "size": "46",
         "cm": "29.5",
-        "available": true
+        "available": false
       }
     ],
     "inStock": true,
@@ -234800,98 +234604,6 @@
     "seo": {
       "title": "New Balance 9060 «Bricks & Wood » (арт. #DNB159) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте New Balance 9060 «Bricks & Wood » (арт. #DNB159) за 2600 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    },
-    "addedAt": 0
-  },
-  {
-    "id": "144061",
-    "slug": "asics-gel-kahana-8-black-white-gore-tex-termo-0280",
-    "name": "ASICS Gel Kahana 8 Black White Gore Tex (термо)",
-    "brand": "Asics",
-    "brandSlug": "asics",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 2900,
-    "oldPrice": 4833,
-    "costPrice": 2400,
-    "sku": "0280",
-    "material": "Gore Tex",
-    "country": "В'єтнам",
-    "sizes": [
-      "40",
-      "41",
-      "42"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": true
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": true
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/824ca6ac-69bd-44fb-aa5b-580580106b5d.jpeg"
-    ],
-    "description": "Модель: ASICS Gel Kahana 8 Black White Gore Tex (термо). Артикул: 0280. Матеріал: Gore Tex. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "ASICS Gel Kahana 8 Black White Gore Tex (термо) (арт. 0280) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте ASICS Gel Kahana 8 Black White Gore Tex (термо) (арт. 0280) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     },
     "addedAt": 0
   },
