@@ -1,30 +1,30 @@
 {
-  "total": 2417,
+  "total": 2632,
   "brands": [
     {
       "name": "Nike",
       "slug": "nike",
-      "count": 824
+      "count": 933
     },
     {
       "name": "New Balance",
       "slug": "newbalance",
-      "count": 576
+      "count": 630
     },
     {
       "name": "Adidas",
       "slug": "adidas",
-      "count": 219
+      "count": 247
     },
     {
       "name": "Asics",
       "slug": "asics",
-      "count": 188
+      "count": 192
     },
     {
       "name": "Інші бренди",
       "slug": "other",
-      "count": 107
+      "count": 108
     },
     {
       "name": "UGG",
@@ -32,29 +32,29 @@
       "count": 59
     },
     {
+      "name": "Salomon",
+      "slug": "salomon",
+      "count": 58
+    },
+    {
       "name": "On Cloud",
       "slug": "oncloud",
       "count": 57
     },
     {
-      "name": "Salomon",
-      "slug": "salomon",
-      "count": 54
-    },
-    {
       "name": "Air Jordan",
       "slug": "jordan",
-      "count": 50
+      "count": 51
+    },
+    {
+      "name": "Premiata",
+      "slug": "premiata",
+      "count": 46
     },
     {
       "name": "Balenciaga",
       "slug": "balenciaga",
       "count": 38
-    },
-    {
-      "name": "Premiata",
-      "slug": "premiata",
-      "count": 36
     },
     {
       "name": "Off-White",
@@ -74,7 +74,7 @@
     {
       "name": "Puma",
       "slug": "puma",
-      "count": 17
+      "count": 18
     },
     {
       "name": "Dior",
@@ -89,7 +89,7 @@
     {
       "name": "The North Face",
       "slug": "tnf",
-      "count": 12
+      "count": 13
     },
     {
       "name": "Alexander McQueen",
@@ -107,13 +107,13 @@
       "count": 9
     },
     {
-      "name": "Converse",
-      "slug": "converse",
-      "count": 7
-    },
-    {
       "name": "Lacoste",
       "slug": "lacoste",
+      "count": 8
+    },
+    {
+      "name": "Converse",
+      "slug": "converse",
       "count": 7
     },
     {
@@ -167,6 +167,11 @@
       "count": 1
     },
     {
+      "name": "Dr. Martens",
+      "slug": "drmartens",
+      "count": 1
+    },
+    {
       "name": "Hugo Boss",
       "slug": "hugo",
       "count": 1
@@ -181,36 +186,36 @@
     {
       "name": "Взуття",
       "slug": "shoes",
-      "count": 2417
+      "count": 2632
     }
   ],
   "genders": [
     {
       "name": "Чоловічі",
       "slug": "men",
-      "count": 1135
+      "count": 1323
     },
     {
       "name": "Жіночі",
       "slug": "women",
-      "count": 766
+      "count": 783
     },
     {
       "name": "Унісекс",
       "slug": "unisex",
-      "count": 516
+      "count": 526
     }
   ],
   "seasons": [
     {
       "name": "Демісезон",
       "slug": "demi",
-      "count": 2209
+      "count": 2413
     },
     {
       "name": "Зима",
       "slug": "winter",
-      "count": 208
+      "count": 219
     }
   ],
   "sizes": [
