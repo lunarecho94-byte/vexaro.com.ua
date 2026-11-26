@@ -1,59 +1,99 @@
 {
-  "total": 533,
+  "total": 1425,
   "brands": [
-    {
-      "name": "New Balance",
-      "slug": "newbalance",
-      "count": 157
-    },
     {
       "name": "Nike",
       "slug": "nike",
-      "count": 136
+      "count": 487
+    },
+    {
+      "name": "New Balance",
+      "slug": "newbalance",
+      "count": 309
     },
     {
       "name": "Adidas",
       "slug": "adidas",
-      "count": 52
-    },
-    {
-      "name": "Інші бренди",
-      "slug": "other",
-      "count": 51
-    },
-    {
-      "name": "UGG",
-      "slug": "ugg",
-      "count": 32
+      "count": 140
     },
     {
       "name": "Asics",
       "slug": "asics",
-      "count": 22
+      "count": 101
     },
     {
-      "name": "Balenciaga",
-      "slug": "balenciaga",
-      "count": 11
+      "name": "Інші бренди",
+      "slug": "other",
+      "count": 69
     },
     {
-      "name": "On Cloud",
-      "slug": "oncloud",
-      "count": 10
+      "name": "Air Jordan",
+      "slug": "jordan",
+      "count": 50
+    },
+    {
+      "name": "UGG",
+      "slug": "ugg",
+      "count": 47
     },
     {
       "name": "Salomon",
       "slug": "salomon",
-      "count": 10
+      "count": 35
     },
     {
-      "name": "Vans",
-      "slug": "vans",
-      "count": 9
+      "name": "Balenciaga",
+      "slug": "balenciaga",
+      "count": 29
+    },
+    {
+      "name": "On Cloud",
+      "slug": "oncloud",
+      "count": 25
+    },
+    {
+      "name": "Off-White",
+      "slug": "offwhite",
+      "count": 17
     },
     {
       "name": "Premiata",
       "slug": "premiata",
+      "count": 14
+    },
+    {
+      "name": "Golden Goose",
+      "slug": "goldengoose",
+      "count": 13
+    },
+    {
+      "name": "Loro Piana",
+      "slug": "loropiana",
+      "count": 12
+    },
+    {
+      "name": "Vans",
+      "slug": "vans",
+      "count": 12
+    },
+    {
+      "name": "Puma",
+      "slug": "puma",
+      "count": 11
+    },
+    {
+      "name": "The North Face",
+      "slug": "tnf",
+      "count": 9
+    },
+    {
+      "name": "Dior",
+      "slug": "dior",
+      "count": 7
+    },
+    {
+      "name": "Louis Vuitton",
+      "slug": "louisvuitton",
       "count": 7
     },
     {
@@ -62,39 +102,29 @@
       "count": 6
     },
     {
+      "name": "Under Armour",
+      "slug": "underarmour",
+      "count": 6
+    },
+    {
+      "name": "Alo Yoga",
+      "slug": "aloyoga",
+      "count": 5
+    },
+    {
       "name": "Bottega Veneta",
       "slug": "bottega",
       "count": 5
     },
     {
-      "name": "Dior",
-      "slug": "dior",
-      "count": 5
-    },
-    {
-      "name": "Off-White",
-      "slug": "offwhite",
-      "count": 4
-    },
-    {
-      "name": "The North Face",
-      "slug": "tnf",
+      "name": "Converse",
+      "slug": "converse",
       "count": 3
     },
     {
-      "name": "Alo Yoga",
-      "slug": "aloyoga",
-      "count": 2
-    },
-    {
-      "name": "Converse",
-      "slug": "converse",
-      "count": 2
-    },
-    {
-      "name": "Air Jordan",
-      "slug": "jordan",
-      "count": 2
+      "name": "Reebok",
+      "slug": "reebok",
+      "count": 3
     },
     {
       "name": "Prada",
@@ -102,23 +132,8 @@
       "count": 2
     },
     {
-      "name": "Reebok",
-      "slug": "reebok",
-      "count": 2
-    },
-    {
-      "name": "Loro Piana",
-      "slug": "loropiana",
-      "count": 1
-    },
-    {
-      "name": "Louis Vuitton",
-      "slug": "louisvuitton",
-      "count": 1
-    },
-    {
-      "name": "Puma",
-      "slug": "puma",
+      "name": "Gucci",
+      "slug": "gucci",
       "count": 1
     }
   ],
@@ -126,36 +141,36 @@
     {
       "name": "Взуття",
       "slug": "shoes",
-      "count": 533
+      "count": 1425
     }
   ],
   "genders": [
     {
       "name": "Чоловічі",
       "slug": "men",
-      "count": 260
-    },
-    {
-      "name": "Унісекс",
-      "slug": "unisex",
-      "count": 149
+      "count": 698
     },
     {
       "name": "Жіночі",
       "slug": "women",
-      "count": 124
+      "count": 382
+    },
+    {
+      "name": "Унісекс",
+      "slug": "unisex",
+      "count": 345
     }
   ],
   "seasons": [
     {
       "name": "Демісезон",
       "slug": "demi",
-      "count": 411
+      "count": 1261
     },
     {
       "name": "Зима",
       "slug": "winter",
-      "count": 122
+      "count": 164
     }
   ],
   "sizes": [
@@ -173,5 +188,5 @@
     "46"
   ],
   "minPrice": 900,
-  "maxPrice": 4950
+  "maxPrice": 5700
 }

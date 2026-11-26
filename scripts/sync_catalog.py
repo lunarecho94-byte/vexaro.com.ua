@@ -35,6 +35,7 @@ OUTPUT_META = os.path.join(SRC_DATA_DIR, 'meta.json')
 EXPORT_URLS = [
     "https://easydrop.one/prom-export?key=30816448450308&pid=86764974149158",
     "https://easydrop.one/prom-export?key=12333849528094&pid=86764974149158",
+    "https://easydrop.one/prom-export?key=70419283037987&pid=86764974149158",
 ]
 EXPORT_URL = EXPORT_URLS[0] if EXPORT_URLS else ''
 
