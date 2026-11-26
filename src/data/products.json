@@ -3085,7 +3085,8 @@
       "42",
       "43",
       "44",
-      "45"
+      "45",
+      "46"
     ],
     "sizeChart": [
       {
@@ -3141,7 +3142,7 @@
       {
         "size": "46",
         "cm": "29.5",
-        "available": false
+        "available": true
       }
     ],
     "inStock": true,
@@ -46634,6 +46635,7 @@
     "material": "Кожа , мех",
     "country": "В'єтнам",
     "sizes": [
+      "39",
       "42",
       "43",
       "44",
@@ -46658,7 +46660,7 @@
       {
         "size": "39",
         "cm": "25.0",
-        "available": false
+        "available": true
       },
       {
         "size": "40",
@@ -184603,7 +184605,6 @@
     "sizes": [
       "41",
       "42",
-      "43",
       "44"
     ],
     "sizeChart": [
@@ -184645,7 +184646,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": true
+        "available": false
       },
       {
         "size": "44",
@@ -295502,6 +295503,7 @@
     "material": "шкіра+текстиль",
     "country": "Китай",
     "sizes": [
+      "41",
       "43",
       "44",
       "45"
@@ -295535,7 +295537,7 @@
       {
         "size": "41",
         "cm": "26.0",
-        "available": false
+        "available": true
       },
       {
         "size": "42",
