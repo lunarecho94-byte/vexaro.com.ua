@@ -1,5 +1,5 @@
 {
-  "total": 2860,
+  "total": 2859,
   "brands": [
     {
       "name": "Nike",
@@ -34,7 +34,7 @@
     {
       "name": "Air Jordan",
       "slug": "jordan",
-      "count": 95
+      "count": 94
     },
     {
       "name": "Balenciaga",
@@ -176,7 +176,7 @@
     {
       "name": "Взуття",
       "slug": "shoes",
-      "count": 2860
+      "count": 2859
     }
   ],
   "genders": [
@@ -188,7 +188,7 @@
     {
       "name": "Чоловічі",
       "slug": "men",
-      "count": 944
+      "count": 943
     },
     {
       "name": "Унісекс",
@@ -200,7 +200,7 @@
     {
       "name": "Демісезон",
       "slug": "demi",
-      "count": 2590
+      "count": 2589
     },
     {
       "name": "Зима",
