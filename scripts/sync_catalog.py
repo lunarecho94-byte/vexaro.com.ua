@@ -33,7 +33,8 @@ OUTPUT_PRODUCTS = os.path.join(SRC_DATA_DIR, 'products.json')
 OUTPUT_META = os.path.join(SRC_DATA_DIR, 'meta.json')
 
 EXPORT_URLS = [
-    "https://easydrop.one/prom-export?key=30816448450308&pid=86764974149158"
+    "https://easydrop.one/prom-export?key=30816448450308&pid=86764974149158",
+    "https://easydrop.one/prom-export?key=12333849528094&pid=86764974149158",
 ]
 EXPORT_URL = EXPORT_URLS[0] if EXPORT_URLS else ''
 
@@ -437,7 +438,9 @@ def determine_season(name, cat_slug, mat="", desc="", cname="", brand_slug=""):
     full_ctx = f"{name_lower} {mat_lower} {cname_lower} {desc_lower}"
 
     # Summer check (open shoes, slides, crocs, sandals, slippers) - checked first!
-    is_open_shoe = bool(EXCLUDED_NAME_PATTERNS.search(name_lower))
+    is_open_shoe = bool(EXCLUDED_NAME_PATTERNS.search(name_lower)) or bool(
+        re.search(r'шльоп|шлеп|сланц|сланец|босоніж|босонож|тапк|тапочк|сабо|\b(sandals?|slides?|slippers?|clogs?|crocs|flip.?flops?)\b', cname_lower, re.I)
+    )
     is_summer_mesh = bool(re.search(r'\b(?:climacool|breeze)\b', name_lower)) and not bool(re.search(r'шкіра|кожа|замша|нубук|suede|leather', full_ctx))
 
     if is_open_shoe or is_summer_mesh:

@@ -1,15 +1,25 @@
 {
-  "total": 279,
+  "total": 533,
   "brands": [
     {
       "name": "New Balance",
       "slug": "newbalance",
-      "count": 75
+      "count": 157
     },
     {
       "name": "Nike",
       "slug": "nike",
-      "count": 50
+      "count": 136
+    },
+    {
+      "name": "Adidas",
+      "slug": "adidas",
+      "count": 52
+    },
+    {
+      "name": "Інші бренди",
+      "slug": "other",
+      "count": 51
     },
     {
       "name": "UGG",
@@ -17,19 +27,9 @@
       "count": 32
     },
     {
-      "name": "Adidas",
-      "slug": "adidas",
-      "count": 28
-    },
-    {
       "name": "Asics",
       "slug": "asics",
-      "count": 20
-    },
-    {
-      "name": "Інші бренди",
-      "slug": "other",
-      "count": 13
+      "count": 22
     },
     {
       "name": "Balenciaga",
@@ -44,7 +44,22 @@
     {
       "name": "Salomon",
       "slug": "salomon",
+      "count": 10
+    },
+    {
+      "name": "Vans",
+      "slug": "vans",
+      "count": 9
+    },
+    {
+      "name": "Premiata",
+      "slug": "premiata",
       "count": 7
+    },
+    {
+      "name": "Lacoste",
+      "slug": "lacoste",
+      "count": 6
     },
     {
       "name": "Bottega Veneta",
@@ -62,13 +77,8 @@
       "count": 4
     },
     {
-      "name": "Premiata",
-      "slug": "premiata",
-      "count": 3
-    },
-    {
-      "name": "Vans",
-      "slug": "vans",
+      "name": "The North Face",
+      "slug": "tnf",
       "count": 3
     },
     {
@@ -92,8 +102,8 @@
       "count": 2
     },
     {
-      "name": "The North Face",
-      "slug": "tnf",
+      "name": "Reebok",
+      "slug": "reebok",
       "count": 2
     },
     {
@@ -116,36 +126,36 @@
     {
       "name": "Взуття",
       "slug": "shoes",
-      "count": 279
+      "count": 533
     }
   ],
   "genders": [
     {
-      "name": "Жіночі",
-      "slug": "women",
-      "count": 115
+      "name": "Чоловічі",
+      "slug": "men",
+      "count": 260
     },
     {
       "name": "Унісекс",
       "slug": "unisex",
-      "count": 105
+      "count": 149
     },
     {
-      "name": "Чоловічі",
-      "slug": "men",
-      "count": 59
+      "name": "Жіночі",
+      "slug": "women",
+      "count": 124
     }
   ],
   "seasons": [
     {
       "name": "Демісезон",
       "slug": "demi",
-      "count": 237
+      "count": 411
     },
     {
       "name": "Зима",
       "slug": "winter",
-      "count": 42
+      "count": 122
     }
   ],
   "sizes": [
