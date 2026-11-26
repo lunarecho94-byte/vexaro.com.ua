@@ -1,45 +1,45 @@
 {
-  "total": 2632,
+  "total": 2872,
   "brands": [
     {
       "name": "Nike",
       "slug": "nike",
-      "count": 933
+      "count": 1016
     },
     {
       "name": "New Balance",
       "slug": "newbalance",
-      "count": 630
+      "count": 701
     },
     {
       "name": "Adidas",
       "slug": "adidas",
-      "count": 247
+      "count": 257
     },
     {
       "name": "Asics",
       "slug": "asics",
-      "count": 192
+      "count": 230
     },
     {
       "name": "Інші бренди",
       "slug": "other",
-      "count": 108
-    },
-    {
-      "name": "UGG",
-      "slug": "ugg",
-      "count": 59
+      "count": 109
     },
     {
       "name": "Salomon",
       "slug": "salomon",
-      "count": 58
+      "count": 68
+    },
+    {
+      "name": "UGG",
+      "slug": "ugg",
+      "count": 67
     },
     {
       "name": "On Cloud",
       "slug": "oncloud",
-      "count": 57
+      "count": 59
     },
     {
       "name": "Air Jordan",
@@ -49,22 +49,22 @@
     {
       "name": "Premiata",
       "slug": "premiata",
-      "count": 46
+      "count": 47
     },
     {
       "name": "Balenciaga",
       "slug": "balenciaga",
-      "count": 38
+      "count": 46
     },
     {
       "name": "Off-White",
       "slug": "offwhite",
-      "count": 25
+      "count": 27
     },
     {
       "name": "Golden Goose",
       "slug": "goldengoose",
-      "count": 21
+      "count": 23
     },
     {
       "name": "Vans",
@@ -77,6 +77,11 @@
       "count": 18
     },
     {
+      "name": "The North Face",
+      "slug": "tnf",
+      "count": 16
+    },
+    {
       "name": "Dior",
       "slug": "dior",
       "count": 15
@@ -84,11 +89,6 @@
     {
       "name": "Loro Piana",
       "slug": "loropiana",
-      "count": 13
-    },
-    {
-      "name": "The North Face",
-      "slug": "tnf",
       "count": 13
     },
     {
@@ -180,42 +180,47 @@
       "name": "Merrell",
       "slug": "merrell",
       "count": 1
+    },
+    {
+      "name": "Timberland",
+      "slug": "timberland",
+      "count": 1
     }
   ],
   "categories": [
     {
       "name": "Взуття",
       "slug": "shoes",
-      "count": 2632
+      "count": 2872
     }
   ],
   "genders": [
     {
       "name": "Чоловічі",
       "slug": "men",
-      "count": 1323
+      "count": 1424
     },
     {
       "name": "Жіночі",
       "slug": "women",
-      "count": 783
+      "count": 871
     },
     {
       "name": "Унісекс",
       "slug": "unisex",
-      "count": 526
+      "count": 577
     }
   ],
   "seasons": [
     {
       "name": "Демісезон",
       "slug": "demi",
-      "count": 2413
+      "count": 2595
     },
     {
       "name": "Зима",
       "slug": "winter",
-      "count": 219
+      "count": 277
     }
   ],
   "sizes": [
