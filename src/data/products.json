@@ -46635,6 +46635,7 @@
     "material": "Кожа , мех",
     "country": "В'єтнам",
     "sizes": [
+      "39",
       "42",
       "43",
       "44",
@@ -46659,7 +46660,7 @@
       {
         "size": "39",
         "cm": "25.0",
-        "available": false
+        "available": true
       },
       {
         "size": "40",
