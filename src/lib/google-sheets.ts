@@ -79,7 +79,7 @@ export async function sendOrderToGoogleSheets(order: SheetOrderPayload): Promise
           phone: order.phone,
           city: order.city,
           warehouse: order.warehouse,
-          paymentType: 'Наложенный платёж',
+          paymentType: 'Накладений платіж',
           note: noteParts.join(' | '),
           items: enrichedItems,
         },
