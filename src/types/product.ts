@@ -52,6 +52,7 @@ export interface Product {
     description: string;
   };
   isHit?: boolean;
+  addedAt?: number;
   variations?: ProductVariation[];
   activeVariation?: ProductVariation;
 }

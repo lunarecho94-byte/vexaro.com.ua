@@ -643,10 +643,13 @@ export async function getProducts(params: CatalogQueryParams = {}): Promise<Cata
       const pA = getProductPriority(a);
       const pB = getProductPriority(b);
       if (pB !== pA) return pB - pA;
+      const addA = a.addedAt || 0;
+      const addB = b.addedAt || 0;
+      if (addB !== addA) return addB - addA;
       return (Number(b.id) || 0) - (Number(a.id) || 0);
     });
   } else {
-    // 'newest' (default) -> search relevance first (if searching), UGG colors count (if UGG active), pinned items, then newest arrivals by ID descending
+    // 'newest' (default) -> search relevance first, UGG colors count, pinned items, new arrivals (addedAt), then ID descending
     filtered = [...filtered].sort((a, b) => {
       if (isSearchActive) {
         const sA = getSearchRelevance(a);
@@ -661,6 +664,9 @@ export async function getProducts(params: CatalogQueryParams = {}): Promise<Cata
       const pinA = getPinRank(a);
       const pinB = getPinRank(b);
       if (pinB !== pinA) return pinB - pinA;
+      const addA = a.addedAt || 0;
+      const addB = b.addedAt || 0;
+      if (addB !== addA) return addB - addA;
       return (Number(b.id) || 0) - (Number(a.id) || 0);
     });
   }

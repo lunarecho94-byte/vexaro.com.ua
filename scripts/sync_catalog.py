@@ -17,6 +17,7 @@ import sys
 import re
 import json
 import math
+import time
 import shutil
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -31,6 +32,8 @@ FALLBACK_FEED = ''
 
 OUTPUT_PRODUCTS = os.path.join(SRC_DATA_DIR, 'products.json')
 OUTPUT_META = os.path.join(SRC_DATA_DIR, 'meta.json')
+ARRIVALS_STATE_FILE = os.path.join(LOCAL_FEED_DIR, 'arrivals_state.json')
+RESTOCK_ABSENCE_SECONDS = 7200  # 2h absence before a restock counts as a fresh arrival
 
 EXPORT_URLS = [
     "https://easydrop.one/prom-export?key=30816448450308&pid=86764974149158",
@@ -3308,13 +3311,13 @@ def main():
                 return 10000 + (len(PINNED_KEYS) - idx)
         return 0
 
-    # Sort: pinned products first (in order), then newest arrivals by product ID descending
-    def sort_key(p):
-        rank = get_pin_rank(p)
-        pid = int(p['id']) if str(p.get('id', '')).isdigit() else 0
-        return (rank, pid)
-
-    products.sort(key=sort_key, reverse=True)
+    prev_products = []
+    if os.path.exists(OUTPUT_PRODUCTS):
+        try:
+            with open(OUTPUT_PRODUCTS, 'r', encoding='utf-8') as f:
+                prev_products = json.load(f)
+        except Exception:
+            prev_products = []
 
     # Circuit breaker: ensure product catalog has not shrunk abnormally
     if len(products) < 100:
@@ -3323,18 +3326,59 @@ def main():
             f"Aborting sync to prevent catalog wipeout."
         )
 
-    if os.path.exists(OUTPUT_PRODUCTS):
+    if len(prev_products) >= 100 and len(products) < len(prev_products) * 0.4:
+        raise RuntimeError(
+            f"Circuit breaker triggered: catalog shrunk unexpectedly from {len(prev_products)} "
+            f"to {len(products)} products (>60% drop). Aborting sync."
+        )
+
+    # Track new models and genuine restocks so new arrivals always appear first
+    now_ts = int(time.time())
+    arrivals = {}
+    absent_since = {}
+    if os.path.exists(ARRIVALS_STATE_FILE):
         try:
-            with open(OUTPUT_PRODUCTS, 'r', encoding='utf-8') as f:
-                prev_products = json.load(f)
-                if len(prev_products) >= 100 and len(products) < len(prev_products) * 0.4:
-                    raise RuntimeError(
-                        f"Circuit breaker triggered: catalog shrunk unexpectedly from {len(prev_products)} "
-                        f"to {len(products)} products (>60% drop). Aborting sync."
-                    )
-        except Exception as err:
-            if "Circuit breaker" in str(err):
-                raise
+            with open(ARRIVALS_STATE_FILE, 'r', encoding='utf-8') as af:
+                state = json.load(af)
+                arrivals = {str(k): int(v) for k, v in state.get('arrivals', {}).items()}
+                absent_since = {str(k): int(v) for k, v in state.get('absentSince', {}).items()}
+        except Exception:
+            arrivals = {}
+            absent_since = {}
+
+    if not arrivals and prev_products:
+        for pp in prev_products:
+            arrivals[str(pp.get('id', ''))] = int(pp.get('addedAt', 0) or 0)
+
+    current_ids = {str(p['id']) for p in products}
+    for p in products:
+        pid_str = str(p['id'])
+        if pid_str not in arrivals:
+            arrivals[pid_str] = now_ts
+        elif pid_str in absent_since:
+            if now_ts - absent_since[pid_str] >= RESTOCK_ABSENCE_SECONDS:
+                arrivals[pid_str] = now_ts
+            absent_since.pop(pid_str, None)
+        p['addedAt'] = int(arrivals[pid_str])
+
+    for known_id in list(arrivals.keys()):
+        if known_id not in current_ids and known_id not in absent_since:
+            absent_since[known_id] = now_ts
+
+    os.makedirs(LOCAL_FEED_DIR, exist_ok=True)
+    tmp_state = ARRIVALS_STATE_FILE + '.tmp'
+    with open(tmp_state, 'w', encoding='utf-8') as af:
+        json.dump({'arrivals': arrivals, 'absentSince': absent_since}, af, ensure_ascii=False, indent=2)
+    os.replace(tmp_state, ARRIVALS_STATE_FILE)
+
+    # Sort: pinned products first, then newest deliveries (addedAt), then product ID descending
+    def sort_key(p):
+        rank = get_pin_rank(p)
+        added = int(p.get('addedAt', 0))
+        pid = int(p['id']) if str(p.get('id', '')).isdigit() else 0
+        return (rank, added, pid)
+
+    products.sort(key=sort_key, reverse=True)
 
     os.makedirs(SRC_DATA_DIR, exist_ok=True)
     with open(OUTPUT_PRODUCTS, 'w', encoding='utf-8') as f:
