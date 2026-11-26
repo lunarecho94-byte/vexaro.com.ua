@@ -1,10 +1,10 @@
 {
-  "total": 3243,
+  "total": 3240,
   "brands": [
     {
       "name": "Nike",
       "slug": "nike",
-      "count": 1173
+      "count": 1171
     },
     {
       "name": "New Balance",
@@ -89,7 +89,7 @@
     {
       "name": "Lacoste",
       "slug": "lacoste",
-      "count": 14
+      "count": 13
     },
     {
       "name": "Loro Piana",
@@ -191,14 +191,14 @@
     {
       "name": "Взуття",
       "slug": "shoes",
-      "count": 3243
+      "count": 3240
     }
   ],
   "genders": [
     {
       "name": "Чоловічі",
       "slug": "men",
-      "count": 1767
+      "count": 1764
     },
     {
       "name": "Жіночі",
@@ -215,12 +215,12 @@
     {
       "name": "Демісезон",
       "slug": "demi",
-      "count": 2893
+      "count": 2891
     },
     {
       "name": "Зима",
       "slug": "winter",
-      "count": 350
+      "count": 349
     }
   ],
   "sizes": [

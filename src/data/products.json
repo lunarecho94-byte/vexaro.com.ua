@@ -5438,8 +5438,7 @@
     "sizes": [
       "40",
       "41",
-      "42",
-      "44"
+      "42"
     ],
     "sizeChart": [
       {
@@ -5485,7 +5484,7 @@
       {
         "size": "44",
         "cm": "28.0",
-        "available": true
+        "available": false
       },
       {
         "size": "45",
@@ -10977,101 +10976,6 @@
     "seo": {
       "title": "Кросівки Lacoste Elite Active High Dark Olive ЗИМА (арт. KS 2870) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Кросівки Lacoste Elite Active High Dark Olive ЗИМА (арт. KS 2870) за 3350 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    },
-    "addedAt": 0
-  },
-  {
-    "id": "258298",
-    "slug": "krosivky-lacoste-elite-active-high-black-zyma-ks2869",
-    "name": "Кросівки Lacoste Elite Active High Black ЗИМА",
-    "brand": "Lacoste",
-    "brandSlug": "lacoste",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 3350,
-    "oldPrice": 5583,
-    "costPrice": 2850,
-    "sku": "KS 2869",
-    "material": "Шкіра, текстиль",
-    "country": "Китай",
-    "sizes": [
-      "42",
-      "44",
-      "45"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": true
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": true
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": true
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/52b79e65-29e4-42bc-8ac0-d4d5f42e43e4.jpg",
-      "https://easydrop.one/media/uploads/images/base/463750b5-e52a-438b-8a7d-15c7d8259133.jpg",
-      "https://easydrop.one/media/uploads/images/base/a249aba8-5489-496d-8cc2-f43927c92373.jpg",
-      "https://easydrop.one/media/uploads/images/base/46a3b326-2fbe-47f6-93ec-c5254f7a6c5f.jpg"
-    ],
-    "description": "Модель: Кросівки Lacoste Elite Active High Black ЗИМА. Артикул: KS 2869. Матеріал: Шкіра, текстиль. Сезон: Зима. Виробництво: Китай. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Кросівки Lacoste Elite Active High Black ЗИМА (арт. KS 2869) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Кросівки Lacoste Elite Active High Black ЗИМА (арт. KS 2869) за 3350 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     },
     "addedAt": 0
   },
@@ -26222,7 +26126,7 @@
     "sizes": [
       "43",
       "44",
-      "46"
+      "45"
     ],
     "sizeChart": [
       {
@@ -26273,12 +26177,12 @@
       {
         "size": "45",
         "cm": "29.0",
-        "available": false
+        "available": true
       },
       {
         "size": "46",
         "cm": "29.5",
-        "available": true
+        "available": false
       }
     ],
     "inStock": true,
@@ -47260,101 +47164,6 @@
     "seo": {
       "title": "Air Jordan Retro 4 Fur Black Cat (арт. 3048) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Air Jordan Retro 4 Fur Black Cat (арт. 3048) за 3100 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    },
-    "addedAt": 0
-  },
-  {
-    "id": "249656",
-    "slug": "krosivky-nike-air-jordan-5-retro-x-off-white-gray-ks2807",
-    "name": "Кросівки Nike Air Jordan 5 Retro X Off-White Gray",
-    "brand": "Nike",
-    "brandSlug": "nike",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 3020,
-    "oldPrice": 5033,
-    "costPrice": 2520,
-    "sku": "KS 2807",
-    "material": "Текстиль",
-    "country": "Китай",
-    "sizes": [
-      "41",
-      "44",
-      "45"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": true
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": true
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/5faa605d-71f5-490c-b66a-3bd9ab8dd1ad.jpg",
-      "https://easydrop.one/media/uploads/images/base/52258b17-6de8-4ecd-869e-6a1e65a7efd1.jpg",
-      "https://easydrop.one/media/uploads/images/base/83380216-e9d4-4f1a-9f8c-db64484af74e.jpg",
-      "https://easydrop.one/media/uploads/images/base/adfb60e4-e5c9-4965-a963-c0806d9b34be.jpg"
-    ],
-    "description": "Модель: Кросівки Nike Air Jordan 5 Retro X Off-White Gray. Артикул: KS 2807. Матеріал: Текстиль. Сезон: Демісезон. Виробництво: Китай. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Кросівки Nike Air Jordan 5 Retro X Off-White Gray (арт. KS 2807) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Кросівки Nike Air Jordan 5 Retro X Off-White Gray (арт. KS 2807) за 3020 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     },
     "addedAt": 0
   },
@@ -73869,101 +73678,6 @@
     "seo": {
       "title": "Кросівки Nike Air More Uptempo Low Gray (сірі (арт. KS 2771) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Кросівки Nike Air More Uptempo Low Gray (сірі (арт. KS 2771) за 2690 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    },
-    "addedAt": 0
-  },
-  {
-    "id": "242751",
-    "slug": "krosivky-nike-air-more-uptempo-low-black-chorni-ks2770",
-    "name": "Кросівки Nike Air More Uptempo Low Black (чорні",
-    "brand": "Nike",
-    "brandSlug": "nike",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 2680,
-    "oldPrice": 4467,
-    "costPrice": 2180,
-    "sku": "KS 2770",
-    "material": "Нубук, текстиль",
-    "country": "Китай",
-    "sizes": [
-      "42",
-      "43",
-      "44"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": true
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": true
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": true
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/b0efb3f8-6d3c-4c66-85ec-ebb2dbda5f43.jpg",
-      "https://easydrop.one/media/uploads/images/base/f1c40e12-07ae-4a74-9c6e-9f4b7b04283b.jpg",
-      "https://easydrop.one/media/uploads/images/base/ffc6ecca-e93b-4c94-b81f-956118b92893.jpg",
-      "https://easydrop.one/media/uploads/images/base/a7323d0f-7ccd-4fa9-88fe-5ba0e9929e4d.jpg"
-    ],
-    "description": "Модель: Кросівки Nike Air More Uptempo Low Black (чорні. Артикул: KS 2770. Матеріал: Нубук, текстиль. Сезон: Демісезон. Виробництво: Китай. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Кросівки Nike Air More Uptempo Low Black (чорні (арт. KS 2770) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Кросівки Nike Air More Uptempo Low Black (чорні (арт. KS 2770) за 2680 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     },
     "addedAt": 0
   },
@@ -184498,6 +184212,7 @@
     "sizes": [
       "41",
       "42",
+      "43",
       "44"
     ],
     "sizeChart": [
@@ -184539,7 +184254,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": false
+        "available": true
       },
       {
         "size": "44",
@@ -228034,6 +227749,7 @@
       "36",
       "38",
       "39",
+      "41",
       "42"
     ],
     "sizeChart": [
@@ -228065,7 +227781,7 @@
       {
         "size": "41",
         "cm": "26.0",
-        "available": false
+        "available": true
       },
       {
         "size": "42",
@@ -231319,7 +231035,6 @@
       "38",
       "41",
       "42",
-      "43",
       "44",
       "45"
     ],
@@ -231362,7 +231077,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": true
+        "available": false
       },
       {
         "size": "44",
@@ -238113,7 +237828,6 @@
     "sizes": [
       "37",
       "38",
-      "39",
       "41",
       "44"
     ],
@@ -238136,7 +237850,7 @@
       {
         "size": "39",
         "cm": "25.0",
-        "available": true
+        "available": false
       },
       {
         "size": "40",
