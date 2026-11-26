@@ -1,5 +1,285 @@
 [
   {
+    "id": "257843",
+    "slug": "premiata-moerun-khutro-pm11",
+    "name": "Premiata MOERUN ХУТРО",
+    "brand": "Premiata",
+    "brandSlug": "premiata",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "men",
+    "genderName": "Чоловічі",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 3400,
+    "oldPrice": 5667,
+    "costPrice": 2900,
+    "sku": "PM11",
+    "material": "Шкіра, замша, хутро, текстиль, піна, гума",
+    "country": "Італія",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": false
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": false
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": false
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": true
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": true
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": true
+      },
+      {
+        "size": "45",
+        "cm": "29.0",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "/images/products/premiata-moerun-khutro-pm11/img-1.jpg",
+      "/images/products/premiata-moerun-khutro-pm11/img-2.jpg",
+      "/images/products/premiata-moerun-khutro-pm11/img-3.jpg",
+      "/images/products/premiata-moerun-khutro-pm11/img-4.jpg"
+    ],
+    "description": "Модель: Premiata MOERUN ХУТРО. Артикул: PM11. Матеріал: Шкіра, замша, хутро, текстиль, піна, гума. Сезон: Зима. Виробництво: Італія. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Premiata MOERUN ХУТРО (арт. PM11) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Premiata MOERUN ХУТРО (арт. PM11) за 3400 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    },
+    "addedAt": 1795710111
+  },
+  {
+    "id": "253536",
+    "slug": "new-balance-9060-pink-gore-tex-termo-1051",
+    "name": "New Balance 9060 Pink Gore Tex (термо)",
+    "brand": "New Balance",
+    "brandSlug": "newbalance",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 2900,
+    "oldPrice": 4833,
+    "costPrice": 2400,
+    "sku": "1051",
+    "material": "Gore Tex, Термо",
+    "country": "В'єтнам",
+    "sizes": [
+      "37",
+      "38",
+      "39"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "23.0",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": true
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": false
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": false
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "29.0",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": true,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/e6f08996-c284-466c-9721-a42dd190e647.jpeg"
+    ],
+    "description": "Модель: New Balance 9060 Pink Gore Tex (термо). Артикул: 1051. Матеріал: Gore Tex, Термо. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "New Balance 9060 Pink Gore Tex (термо) (арт. 1051) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте New Balance 9060 Pink Gore Tex (термо) (арт. 1051) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    },
+    "addedAt": 1795710111
+  },
+  {
+    "id": "116901",
+    "slug": "nike-acg-terra-antarktik-gore-tex-black-white-0175",
+    "name": "Nike ACG Terra Antarktik Gore-Tex Black White",
+    "brand": "Nike",
+    "brandSlug": "nike",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "men",
+    "genderName": "Чоловічі",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 3300,
+    "oldPrice": 5500,
+    "costPrice": 2800,
+    "sku": "0175",
+    "material": "Теутсиль",
+    "country": "В'єтнам",
+    "sizes": [
+      "40",
+      "41",
+      "44"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": false
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": false
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": true
+      },
+      {
+        "size": "45",
+        "cm": "29.0",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/9f8ff570-ea19-497b-ab33-d2e4d4711166.jpg"
+    ],
+    "description": "Модель: Nike ACG Terra Antarktik Gore-Tex Black White. Артикул: 0175. Матеріал: Теутсиль. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Nike ACG Terra Antarktik Gore-Tex Black White (арт. 0175) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Nike ACG Terra Antarktik Gore-Tex Black White (арт. 0175) за 3300 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    },
+    "addedAt": 1795710111
+  },
+  {
     "id": "243698",
     "slug": "new-balance-574-gore-tex-termo-3101",
     "name": "New Balance 574 | Gore-Tex | (термо)",
@@ -1411,98 +1691,6 @@
     "seo": {
       "title": "UGG Lo Lowmel Sneaker Pink (арт. 1136) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте UGG Lo Lowmel Sneaker Pink (арт. 1136) за 4300 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    },
-    "addedAt": 0
-  },
-  {
-    "id": "260615",
-    "slug": "nike-zoom-acg-black-grey-gore-tex-khutro-1133",
-    "name": "Nike Zoom ACG Black Grey Gore Tex, хутро",
-    "brand": "Nike",
-    "brandSlug": "nike",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 3200,
-    "oldPrice": 5333,
-    "costPrice": 2700,
-    "sku": "1133",
-    "material": "Хутро, Gore Tex",
-    "country": "В'єтнам",
-    "sizes": [
-      "41",
-      "43",
-      "44"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": true
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": true
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/6d459871-864b-4990-bf5b-5ded2775b7d6.jpg"
-    ],
-    "description": "Модель: Nike Zoom ACG Black Grey Gore Tex, хутро. Артикул: 1133. Матеріал: Хутро, Gore Tex. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Nike Zoom ACG Black Grey Gore Tex, хутро (арт. 1133) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Nike Zoom ACG Black Grey Gore Tex, хутро (арт. 1133) за 3200 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     },
     "addedAt": 0
   },
@@ -4299,7 +4487,6 @@
     "sizes": [
       "42",
       "43",
-      "44",
       "45"
     ],
     "sizeChart": [
@@ -4346,7 +4533,7 @@
       {
         "size": "44",
         "cm": "28.0",
-        "available": true
+        "available": false
       },
       {
         "size": "45",
@@ -5825,7 +6012,6 @@
     "sizes": [
       "36",
       "37",
-      "38",
       "40",
       "41"
     ],
@@ -5843,7 +6029,7 @@
       {
         "size": "38",
         "cm": "24.0",
-        "available": true
+        "available": false
       },
       {
         "size": "39",
@@ -6111,6 +6297,7 @@
     "material": "Шкіра, вологостійкий текстиль, термоутеплювач, гума, піна, прошиті",
     "country": "В'єтнам",
     "sizes": [
+      "41",
       "42",
       "43",
       "44",
@@ -6146,7 +6333,7 @@
       {
         "size": "41",
         "cm": "26.0",
-        "available": false
+        "available": true
       },
       {
         "size": "42",
@@ -16333,6 +16520,7 @@
     "country": "В'єтнам",
     "sizes": [
       "41",
+      "42",
       "43",
       "44",
       "45"
@@ -16371,7 +16559,7 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": false
+        "available": true
       },
       {
         "size": "43",
@@ -19661,6 +19849,7 @@
     "country": "В'єтнам",
     "sizes": [
       "36",
+      "37",
       "38",
       "39",
       "40",
@@ -19675,7 +19864,7 @@
       {
         "size": "37",
         "cm": "23.5",
-        "available": false
+        "available": true
       },
       {
         "size": "38",
@@ -23953,7 +24142,8 @@
       "41",
       "42",
       "43",
-      "44"
+      "44",
+      "46"
     ],
     "sizeChart": [
       {
@@ -24009,7 +24199,7 @@
       {
         "size": "46",
         "cm": "29.5",
-        "available": false
+        "available": true
       }
     ],
     "inStock": true,
@@ -37313,7 +37503,6 @@
     "material": "Шкіра, вологостійкий текстиль, термоутеплювач, гума, піна, прошиті",
     "country": "В'єтнам",
     "sizes": [
-      "41",
       "43",
       "44",
       "46"
@@ -37347,7 +37536,7 @@
       {
         "size": "41",
         "cm": "26.0",
-        "available": true
+        "available": false
       },
       {
         "size": "42",
@@ -37499,7 +37688,6 @@
     "country": "В'єтнам",
     "sizes": [
       "41",
-      "42",
       "43",
       "44",
       "45",
@@ -37539,7 +37727,7 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": true
+        "available": false
       },
       {
         "size": "43",
@@ -42344,7 +42532,6 @@
     "sizes": [
       "41",
       "42",
-      "43",
       "44"
     ],
     "sizeChart": [
@@ -42386,7 +42573,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": true
+        "available": false
       },
       {
         "size": "44",
@@ -42625,7 +42812,6 @@
     "country": "В'єтнам",
     "sizes": [
       "41",
-      "44",
       "45",
       "46"
     ],
@@ -42673,7 +42859,7 @@
       {
         "size": "44",
         "cm": "28.0",
-        "available": true
+        "available": false
       },
       {
         "size": "45",
@@ -42718,6 +42904,7 @@
     "country": "В'єтнам",
     "sizes": [
       "41",
+      "43",
       "44",
       "46"
     ],
@@ -42760,7 +42947,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": false
+        "available": true
       },
       {
         "size": "44",
@@ -42787,98 +42974,6 @@
     "seo": {
       "title": "ACG (термо) (арт. NTR796) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте ACG (термо) (арт. NTR796) за 2950 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    },
-    "addedAt": 0
-  },
-  {
-    "id": "250422",
-    "slug": "nike-p-6000-termo-ntr794",
-    "name": "Nike P-6000 (термо)",
-    "brand": "Nike",
-    "brandSlug": "nike",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 2800,
-    "oldPrice": 4667,
-    "costPrice": 2300,
-    "sku": "NTR794",
-    "material": "Шкіра, вологостійкий текстиль, термоутеплювач, гума, піна, прошиті",
-    "country": "В'єтнам",
-    "sizes": [
-      "41",
-      "44",
-      "45"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": true
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": true
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/5b2c7be4-f019-402a-9f71-eb487648b7b4.jpg"
-    ],
-    "description": "Модель: Nike P-6000 (термо). Артикул: NTR794. Матеріал: Шкіра, вологостійкий текстиль, термоутеплювач, гума, піна, прошиті. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Nike P-6000 (термо) (арт. NTR794) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Nike P-6000 (термо) (арт. NTR794) за 2800 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     },
     "addedAt": 0
   },
@@ -47634,98 +47729,6 @@
     "seo": {
       "title": "New Balance Total Black Purple 1906R Cordura (термо) (арт. 1006) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте New Balance Total Black Purple 1906R Cordura (термо) (арт. 1006) за 2800 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    },
-    "addedAt": 0
-  },
-  {
-    "id": "249495",
-    "slug": "nike-initiator-black-white-gore-tex-termo-1004",
-    "name": "Nike Initiator Black White Gore Tex (термо)",
-    "brand": "Nike",
-    "brandSlug": "nike",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 2800,
-    "oldPrice": 4667,
-    "costPrice": 2300,
-    "sku": "1004",
-    "material": "Gore Tex",
-    "country": "В'єтнам",
-    "sizes": [
-      "41",
-      "45",
-      "46"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": true
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": true
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/a69fea5a-5a82-4479-8711-cc8d30e9c3ff.jpg"
-    ],
-    "description": "Модель: Nike Initiator Black White Gore Tex (термо). Артикул: 1004. Матеріал: Gore Tex. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Nike Initiator Black White Gore Tex (термо) (арт. 1004) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Nike Initiator Black White Gore Tex (термо) (арт. 1004) за 2800 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     },
     "addedAt": 0
   },
@@ -67269,8 +67272,7 @@
     "sizes": [
       "43",
       "44",
-      "45",
-      "46"
+      "45"
     ],
     "sizeChart": [
       {
@@ -67326,7 +67328,7 @@
       {
         "size": "46",
         "cm": "29.5",
-        "available": true
+        "available": false
       }
     ],
     "inStock": true,
@@ -171243,6 +171245,7 @@
     "sizes": [
       "40",
       "42",
+      "43",
       "44"
     ],
     "sizeChart": [
@@ -171284,7 +171287,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": false
+        "available": true
       },
       {
         "size": "44",
@@ -178155,7 +178158,8 @@
       "42",
       "43",
       "44",
-      "45"
+      "45",
+      "46"
     ],
     "sizeChart": [
       {
@@ -178211,7 +178215,7 @@
       {
         "size": "46",
         "cm": "29.5",
-        "available": false
+        "available": true
       }
     ],
     "inStock": true,
@@ -179962,7 +179966,8 @@
       "38",
       "40",
       "41",
-      "42"
+      "42",
+      "44"
     ],
     "sizeChart": [
       {
@@ -180008,7 +180013,7 @@
       {
         "size": "44",
         "cm": "28.0",
-        "available": false
+        "available": true
       },
       {
         "size": "45",
@@ -236414,7 +236419,6 @@
     "sizes": [
       "40",
       "41",
-      "43",
       "44"
     ],
     "sizeChart": [
@@ -236456,7 +236460,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": true
+        "available": false
       },
       {
         "size": "44",
