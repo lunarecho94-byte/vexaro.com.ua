@@ -1,5 +1,98 @@
 [
   {
+    "id": "101627",
+    "slug": "nike-air-force-1-low-black-white-nk100",
+    "name": "Nike Air Force 1 Low Black/White",
+    "brand": "Nike",
+    "brandSlug": "nike",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "unisex",
+    "genderName": "Унісекс",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 2400,
+    "oldPrice": 4000,
+    "costPrice": 1900,
+    "sku": "NK100",
+    "material": "Шкіра",
+    "country": "-",
+    "sizes": [
+      "36",
+      "40",
+      "41",
+      "44"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": true
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": false
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": false
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": true
+      },
+      {
+        "size": "45",
+        "cm": "29.0",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": true,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/bae76b95-e960-41fd-acf9-aff636295802.jpeg"
+    ],
+    "description": "Модель: Nike Air Force 1 Low Black/White. Артикул: NK100. Матеріал: Шкіра. Сезон: Демісезон. Виробництво: -. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Nike Air Force 1 Low Black/White (арт. NK100) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Nike Air Force 1 Low Black/White (арт. NK100) за 2400 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    },
+    "addedAt": 1795707632
+  },
+  {
     "id": "261013",
     "slug": "krosivky-premiata-lauryn-7479-black-white-chorno-bili-ks2883",
     "name": "Кросівки Premiata Lauryn 7479 Black White (чорно/білі",
@@ -3085,8 +3178,7 @@
       "42",
       "43",
       "44",
-      "45",
-      "46"
+      "45"
     ],
     "sizeChart": [
       {
@@ -3142,7 +3234,7 @@
       {
         "size": "46",
         "cm": "29.5",
-        "available": true
+        "available": false
       }
     ],
     "inStock": true,
@@ -19370,98 +19462,6 @@
     "seo": {
       "title": "New Balance 9060 Cordura Dark Grey (арт. NB145) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте New Balance 9060 Cordura Dark Grey (арт. NB145) за 3100 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    },
-    "addedAt": 0
-  },
-  {
-    "id": "256384",
-    "slug": "nike-air-max-90-black-green-gore-tex-nk178",
-    "name": "Nike Air Max 90 Black/Green Gore-Tex",
-    "brand": "Nike",
-    "brandSlug": "nike",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 3100,
-    "oldPrice": 5167,
-    "costPrice": 2600,
-    "sku": "NK178",
-    "material": "Шкіра/текстиль",
-    "country": "-",
-    "sizes": [
-      "40",
-      "42",
-      "45"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": true
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": true
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": true
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/8a8a3c09-b195-45cc-b0ad-8fdb92e804f4.jpeg"
-    ],
-    "description": "Модель: Nike Air Max 90 Black/Green Gore-Tex. Артикул: NK178. Матеріал: Шкіра/текстиль. Сезон: Демісезон. Виробництво: -. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Nike Air Max 90 Black/Green Gore-Tex (арт. NK178) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Nike Air Max 90 Black/Green Gore-Tex (арт. NK178) за 3100 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     },
     "addedAt": 0
   },
@@ -41700,8 +41700,7 @@
     "sizes": [
       "38",
       "41",
-      "42",
-      "45"
+      "42"
     ],
     "sizeChart": [
       {
@@ -41752,7 +41751,7 @@
       {
         "size": "45",
         "cm": "29.0",
-        "available": true
+        "available": false
       },
       {
         "size": "46",
@@ -95072,7 +95071,6 @@
     "material": "Текстиль\\шкіра",
     "country": "В'єтнам",
     "sizes": [
-      "37",
       "39",
       "40",
       "41",
@@ -95087,7 +95085,7 @@
       {
         "size": "37",
         "cm": "23.5",
-        "available": true
+        "available": false
       },
       {
         "size": "38",
@@ -113086,8 +113084,7 @@
       "38",
       "39",
       "41",
-      "42",
-      "43"
+      "42"
     ],
     "sizeChart": [
       {
@@ -113128,7 +113125,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": true
+        "available": false
       },
       {
         "size": "44",
@@ -141635,7 +141632,6 @@
     "country": "В'єтнам",
     "sizes": [
       "37",
-      "38",
       "43",
       "44",
       "45"
@@ -141654,7 +141650,7 @@
       {
         "size": "38",
         "cm": "24.0",
-        "available": true
+        "available": false
       },
       {
         "size": "39",
@@ -184604,6 +184600,7 @@
     "sizes": [
       "41",
       "42",
+      "43",
       "44"
     ],
     "sizeChart": [
@@ -184645,7 +184642,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": false
+        "available": true
       },
       {
         "size": "44",
@@ -295502,7 +295499,6 @@
     "material": "шкіра+текстиль",
     "country": "Китай",
     "sizes": [
-      "41",
       "43",
       "44",
       "45"
@@ -295536,7 +295532,7 @@
       {
         "size": "41",
         "cm": "26.0",
-        "available": true
+        "available": false
       },
       {
         "size": "42",
@@ -300696,8 +300692,7 @@
       "39",
       "40",
       "42",
-      "44",
-      "45"
+      "44"
     ],
     "sizeChart": [
       {
@@ -300748,7 +300743,7 @@
       {
         "size": "45",
         "cm": "29.0",
-        "available": true
+        "available": false
       },
       {
         "size": "46",
@@ -303781,7 +303776,8 @@
       "36",
       "37",
       "38",
-      "39"
+      "39",
+      "40"
     ],
     "sizeChart": [
       {
@@ -303807,7 +303803,7 @@
       {
         "size": "40",
         "cm": "25.5",
-        "available": false
+        "available": true
       },
       {
         "size": "41",
