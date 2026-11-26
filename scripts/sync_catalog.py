@@ -41,6 +41,7 @@ EXPORT_URLS = [
     "https://easydrop.one/prom-export?key=05766417715725&pid=86764974149158",
     "https://easydrop.one/prom-export?key=33422967305889&pid=86764974149158",
     "https://easydrop.one/prom-export?key=20169905339896&pid=86764974149158",
+    "https://easydrop.one/prom-export?key=42147462915546&pid=86764974149158",
 ]
 EXPORT_URL = EXPORT_URLS[0] if EXPORT_URLS else ''
 
