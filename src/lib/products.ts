@@ -17,7 +17,7 @@ let pinnedKeys: string[] = DEFAULT_PINNED_KEYS;
 const EXCLUDED_TAPKI_REGEX =
   /\b(slides?|slippers?|clogs?|mules?|sandals?|flip.?flops?|adimule|tazz|tasman|funkette|disquette|tazzlita|lanah|goldenstar|crocs|thongs?|sabot|adilette|chypre|dway|tippi|birkenstock)\b|triomphe.*mule|summer charms|тапк|тапочк|шльоп|шлеп|сланц|сланец|босоніж|босонож|вьетнамк|в'єтнамк|сабо|пантоф|лофер|loafer/i;
 
-const EXCLUDED_SKUS = new Set<string>();
+const EXCLUDED_SKUS = new Set<string>(['2688', '253863', 'NK163', '226824']);
 
 const BRAND_ALIASES: Record<string, string[]> = {
   nike: ['найк', 'найки', 'nike'],

@@ -231,8 +231,8 @@ COLOR_WORDS = {
     'classic', 'oreo', 'zebra', 'blush', 'salt', 'cinder', 'bone', 'flax', 'clay', 'ash', 'mono'
 }
 
-# Explicitly excluded items (supplier 12225 / Rufus Drop, slippers, slides, clogs, mules, sandals, etc. per store owner request)
-EXCLUDED_SKUS = set()
+# Explicitly excluded items per store owner request
+EXCLUDED_SKUS = {'2688', '253863', 'NK163', '226824'}
 
 # Pinned products permanently pinned at top by store owner request (supports 'id:...' or SKU)
 PINNED_FILE = os.path.join(SRC_DATA_DIR, 'pinned.json')
