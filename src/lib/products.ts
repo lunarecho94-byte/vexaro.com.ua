@@ -10,68 +10,14 @@ let catalogMeta: CatalogMeta | null = null;
 const productBySlug = new Map<string, Product>();
 const productById = new Map<string, Product>();
 
-const DEFAULT_PINNED_KEYS: string[] = ['NTR828', 'NTR827', 'NTR825'];
+const DEFAULT_PINNED_KEYS: string[] = [];
 
 let pinnedKeys: string[] = DEFAULT_PINNED_KEYS;
 
 const EXCLUDED_TAPKI_REGEX =
   /\b(slides?|slippers?|clogs?|mules?|sandals?|flip.?flops?|adimule|tazz|tasman|funkette|disquette|tazzlita|lanah|goldenstar|crocs|thongs?|sabot|adilette|chypre|dway|tippi|birkenstock)\b|triomphe.*mule|summer charms|тапк|тапочк|шльоп|шлеп|сланц|сланец|босоніж|босонож|вьетнамк|в'єтнамк|сабо|пантоф|лофер|loafer/i;
 
-const EXCLUDED_SKUS = new Set([
-  '16006',
-  '16005',
-  '16004',
-  '16003',
-  'NB143',
-  '0068',
-  '2688',
-  'R343',
-  'SL015',
-  '258739',
-  '2263',
-  '2169',
-  '5193',
-  '256193',
-  'UG0020',
-  '252588',
-  '253417',
-  '253416',
-  'UG0016',
-  '249465',
-  '2579',
-  '208607',
-  'U930',
-  '203123',
-  '1918',
-  '201924',
-  '2395',
-  '201383',
-  '2397',
-  '199672',
-  '2394',
-  '199670',
-  '198587',
-  'UG0017',
-  '252589',
-  'U880',
-  '185521',
-  '189534',
-  'U920',
-  '185523',
-  'U830',
-  '185520',
-  '185202',
-  '185186',
-  'U960',
-  '143621',
-  'U950',
-  '143187',
-  '136690',
-  '129394',
-  '121895',
-  'U0290',
-  '189211',
-]);
+const EXCLUDED_SKUS = new Set<string>();
 
 const BRAND_ALIASES: Record<string, string[]> = {
   nike: ['найк', 'найки', 'nike'],
@@ -231,12 +177,7 @@ function ensureLoaded() {
     (p) =>
       !EXCLUDED_TAPKI_REGEX.test(p.name) &&
       !EXCLUDED_SKUS.has((p.sku || '').trim().toUpperCase()) &&
-      !EXCLUDED_SKUS.has((p.id || '').trim()) &&
-      !(
-        (['2071', '2072', '1892', '1782', '1704', '1700', '1476', '1459', '1776'].includes((p.sku || '').trim().toUpperCase()) ||
-          ((p.sku || '').trim().toUpperCase() === '1412' && (p.name || '').toLowerCase().includes('neumel'))) &&
-        (p.name || '').toLowerCase().includes('ugg')
-      )
+      !EXCLUDED_SKUS.has((p.id || '').trim())
   );
   catalogMeta = JSON.parse(metaRaw) as CatalogMeta;
 
@@ -275,14 +216,6 @@ function ensureLoaded() {
           productById.set(v.id, variantProduct);
         }
       }
-    }
-
-    if (p.id === '254776') {
-      productBySlug.set('nike-air-max-plus-tn-black-teal-yellow-dh4776-001', p);
-    }
-    if (p.id === '146368') {
-      productBySlug.set('nike-air-max-plus-tn-lace-toggle-white-black-fd0799-001', p);
-      productBySlug.set('nike-air-max-plus-tn-lace-toggle-white-black', p);
     }
   }
 }
