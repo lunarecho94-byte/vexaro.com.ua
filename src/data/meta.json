@@ -1,45 +1,45 @@
 {
-  "total": 2103,
+  "total": 2417,
   "brands": [
     {
       "name": "Nike",
       "slug": "nike",
-      "count": 695
+      "count": 824
     },
     {
       "name": "New Balance",
       "slug": "newbalance",
-      "count": 490
+      "count": 576
     },
     {
       "name": "Adidas",
       "slug": "adidas",
-      "count": 199
+      "count": 219
     },
     {
       "name": "Asics",
       "slug": "asics",
-      "count": 162
+      "count": 188
     },
     {
       "name": "Інші бренди",
       "slug": "other",
-      "count": 99
+      "count": 107
     },
     {
       "name": "UGG",
       "slug": "ugg",
-      "count": 56
+      "count": 59
     },
     {
       "name": "On Cloud",
       "slug": "oncloud",
-      "count": 55
+      "count": 57
     },
     {
       "name": "Salomon",
       "slug": "salomon",
-      "count": 51
+      "count": 54
     },
     {
       "name": "Air Jordan",
@@ -47,34 +47,39 @@
       "count": 50
     },
     {
-      "name": "Premiata",
-      "slug": "premiata",
-      "count": 34
-    },
-    {
       "name": "Balenciaga",
       "slug": "balenciaga",
-      "count": 32
+      "count": 38
+    },
+    {
+      "name": "Premiata",
+      "slug": "premiata",
+      "count": 36
     },
     {
       "name": "Off-White",
       "slug": "offwhite",
-      "count": 21
+      "count": 25
     },
     {
       "name": "Golden Goose",
       "slug": "goldengoose",
-      "count": 15
+      "count": 21
     },
     {
       "name": "Vans",
       "slug": "vans",
-      "count": 15
+      "count": 20
+    },
+    {
+      "name": "Puma",
+      "slug": "puma",
+      "count": 17
     },
     {
       "name": "Dior",
       "slug": "dior",
-      "count": 14
+      "count": 15
     },
     {
       "name": "Loro Piana",
@@ -92,19 +97,14 @@
       "count": 11
     },
     {
-      "name": "Puma",
-      "slug": "puma",
-      "count": 11
+      "name": "Alo Yoga",
+      "slug": "aloyoga",
+      "count": 9
     },
     {
       "name": "Mizuno",
       "slug": "mizuno",
       "count": 9
-    },
-    {
-      "name": "Alo Yoga",
-      "slug": "aloyoga",
-      "count": 7
     },
     {
       "name": "Converse",
@@ -122,6 +122,11 @@
       "count": 7
     },
     {
+      "name": "Miu Miu",
+      "slug": "miumiu",
+      "count": 6
+    },
+    {
       "name": "Under Armour",
       "slug": "underarmour",
       "count": 6
@@ -137,9 +142,9 @@
       "count": 5
     },
     {
-      "name": "Miu Miu",
-      "slug": "miumiu",
-      "count": 4
+      "name": "Celine",
+      "slug": "celine",
+      "count": 3
     },
     {
       "name": "Reebok",
@@ -176,36 +181,36 @@
     {
       "name": "Взуття",
       "slug": "shoes",
-      "count": 2103
+      "count": 2417
     }
   ],
   "genders": [
     {
       "name": "Чоловічі",
       "slug": "men",
-      "count": 1079
+      "count": 1135
     },
     {
       "name": "Жіночі",
       "slug": "women",
-      "count": 574
+      "count": 766
     },
     {
       "name": "Унісекс",
       "slug": "unisex",
-      "count": 450
+      "count": 516
     }
   ],
   "seasons": [
     {
       "name": "Демісезон",
       "slug": "demi",
-      "count": 1905
+      "count": 2209
     },
     {
       "name": "Зима",
       "slug": "winter",
-      "count": 198
+      "count": 208
     }
   ],
   "sizes": [
@@ -217,6 +222,7 @@
     "40",
     "41",
     "42",
+    "42.5",
     "43",
     "44",
     "45",
