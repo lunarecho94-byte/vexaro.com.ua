@@ -32,7 +32,9 @@ FALLBACK_FEED = ''
 OUTPUT_PRODUCTS = os.path.join(SRC_DATA_DIR, 'products.json')
 OUTPUT_META = os.path.join(SRC_DATA_DIR, 'meta.json')
 
-EXPORT_URLS = []
+EXPORT_URLS = [
+    "https://easydrop.one/prom-export?key=30816448450308&pid=86764974149158"
+]
 EXPORT_URL = EXPORT_URLS[0] if EXPORT_URLS else ''
 
 
@@ -277,7 +279,7 @@ def download_export_feed():
                 shutil.copyfileobj(response, out_file)
             
             file_size = os.path.getsize(temp_path)
-            min_size = 50_000_000 if idx == 0 else 5000
+            min_size = 500_000 if idx == 0 else 5000
             if file_size < min_size:
                 raise ValueError(f"Downloaded file too small: {file_size} bytes (expected at least {min_size})")
             with open(temp_path, 'rb') as f:
@@ -3279,9 +3281,9 @@ def main():
     products.sort(key=sort_key, reverse=True)
 
     # Circuit breaker: ensure product catalog has not shrunk abnormally
-    if len(products) < 2000:
+    if len(products) < 100:
         raise RuntimeError(
-            f"Circuit breaker triggered: catalog product count is {len(products)} (expected >= 2000). "
+            f"Circuit breaker triggered: catalog product count is {len(products)} (expected >= 100). "
             f"Aborting sync to prevent catalog wipeout."
         )
 
@@ -3289,7 +3291,7 @@ def main():
         try:
             with open(OUTPUT_PRODUCTS, 'r', encoding='utf-8') as f:
                 prev_products = json.load(f)
-                if len(prev_products) >= 2000 and len(products) < len(prev_products) * 0.4:
+                if len(prev_products) >= 100 and len(products) < len(prev_products) * 0.4:
                     raise RuntimeError(
                         f"Circuit breaker triggered: catalog shrunk unexpectedly from {len(prev_products)} "
                         f"to {len(products)} products (>60% drop). Aborting sync."
