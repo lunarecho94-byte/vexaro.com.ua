@@ -3213,6 +3213,32 @@ def main():
         }
         products = [parent_lacquer_zip] + other_products_15
 
+    # Enforce uniform flat 500 UAH markup on every product and variation
+    MARKUP_UAH = 500
+    for p in products:
+        vars_list = p.get('variations')
+        if vars_list:
+            for v in vars_list:
+                vc = v.get('costPrice')
+                if vc and vc > 0:
+                    v['price'] = int(vc + MARKUP_UAH)
+                    v['oldPrice'] = int(round(v['price'] / 0.60))
+            v_costs = [v['costPrice'] for v in vars_list if v.get('costPrice') and v['costPrice'] > 0]
+            if v_costs:
+                p['costPrice'] = min(v_costs)
+            p['minPrice'] = min(v['price'] for v in vars_list)
+            p['maxPrice'] = max(v['price'] for v in vars_list)
+            p['price'] = p['minPrice']
+            p['oldPrice'] = max(v.get('oldPrice') or int(round(v['price'] / 0.60)) for v in vars_list)
+        else:
+            pc = p.get('costPrice')
+            if pc and pc > 0:
+                p['price'] = int(pc + MARKUP_UAH)
+                p['oldPrice'] = int(round(p['price'] / 0.60))
+
+    min_price = min((p['price'] for p in products), default=0)
+    max_price = max((p['price'] for p in products), default=0)
+
     brand_map = defaultdict(lambda: {'name': '', 'slug': '', 'count': 0})
     season_map = defaultdict(lambda: {'name': '', 'slug': '', 'count': 0})
     gender_map = defaultdict(lambda: {'name': '', 'slug': '', 'count': 0})
