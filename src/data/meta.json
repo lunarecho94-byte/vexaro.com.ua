@@ -1,5 +1,5 @@
 {
-  "total": 3232,
+  "total": 3231,
   "brands": [
     {
       "name": "Nike",
@@ -97,13 +97,13 @@
       "count": 13
     },
     {
-      "name": "Reebok",
-      "slug": "reebok",
-      "count": 12
-    },
-    {
       "name": "Alexander McQueen",
       "slug": "mcqueen",
+      "count": 11
+    },
+    {
+      "name": "Reebok",
+      "slug": "reebok",
       "count": 11
     },
     {
@@ -191,14 +191,14 @@
     {
       "name": "Взуття",
       "slug": "shoes",
-      "count": 3232
+      "count": 3231
     }
   ],
   "genders": [
     {
       "name": "Чоловічі",
       "slug": "men",
-      "count": 1757
+      "count": 1756
     },
     {
       "name": "Жіночі",
@@ -220,7 +220,7 @@
     {
       "name": "Зима",
       "slug": "winter",
-      "count": 346
+      "count": 345
     }
   ],
   "sizes": [
