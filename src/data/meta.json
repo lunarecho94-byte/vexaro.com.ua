@@ -1,5 +1,5 @@
 {
-  "total": 3232,
+  "total": 3234,
   "brands": [
     {
       "name": "Nike",
@@ -39,7 +39,7 @@
     {
       "name": "On Cloud",
       "slug": "oncloud",
-      "count": 61
+      "count": 62
     },
     {
       "name": "Premiata",
@@ -62,13 +62,13 @@
       "count": 30
     },
     {
-      "name": "Golden Goose",
-      "slug": "goldengoose",
-      "count": 25
-    },
-    {
       "name": "The North Face",
       "slug": "tnf",
+      "count": 26
+    },
+    {
+      "name": "Golden Goose",
+      "slug": "goldengoose",
       "count": 25
     },
     {
@@ -191,19 +191,19 @@
     {
       "name": "Взуття",
       "slug": "shoes",
-      "count": 3232
+      "count": 3234
     }
   ],
   "genders": [
     {
       "name": "Чоловічі",
       "slug": "men",
-      "count": 1758
+      "count": 1759
     },
     {
       "name": "Жіночі",
       "slug": "women",
-      "count": 888
+      "count": 889
     },
     {
       "name": "Унісекс",
@@ -215,12 +215,12 @@
     {
       "name": "Демісезон",
       "slug": "demi",
-      "count": 2887
+      "count": 2888
     },
     {
       "name": "Зима",
       "slug": "winter",
-      "count": 345
+      "count": 346
     }
   ],
   "sizes": [
