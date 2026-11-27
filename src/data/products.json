@@ -1,5 +1,101 @@
 [
   {
+    "id": "227955",
+    "slug": "asics-onitsuka-tiger-takuten-grey-das13071",
+    "name": "Asics Onitsuka Tiger Takuten Grey",
+    "brand": "Asics",
+    "brandSlug": "asics",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "unisex",
+    "genderName": "Унісекс",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 2600,
+    "oldPrice": 4333,
+    "costPrice": 2100,
+    "sku": "#DAS13071",
+    "material": "Натуральна замша",
+    "country": "В'єтнам",
+    "sizes": [
+      "38",
+      "39",
+      "42",
+      "44"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": false
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": false
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": true
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": true
+      },
+      {
+        "size": "45",
+        "cm": "29.0",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/d7c5f9f2-a94b-45c4-a3a2-57b4ffe5db59.jpeg",
+      "https://easydrop.one/media/uploads/images/base/c5e19296-0c08-493d-bb61-68df8ca70b62.jpeg",
+      "https://easydrop.one/media/uploads/images/base/35b9a20b-4609-4220-9d11-4ebd640dfe00.jpeg",
+      "https://easydrop.one/media/uploads/images/base/10e19714-0a99-447a-a230-f0f5e6076ad7.jpeg"
+    ],
+    "description": "Модель: Asics Onitsuka Tiger Takuten Grey. Артикул: #DAS13071. Матеріал: Натуральна замша. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Asics Onitsuka Tiger Takuten Grey (арт. #DAS13071) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Asics Onitsuka Tiger Takuten Grey (арт. #DAS13071) за 2600 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    },
+    "addedAt": 1795810277
+  },
+  {
     "id": "249656",
     "slug": "krosivky-nike-air-jordan-5-retro-x-off-white-gray-ks2807",
     "name": "Кросівки Nike Air Jordan 5 Retro X Off-White Gray",
@@ -4149,7 +4245,6 @@
     "country": "Китай",
     "sizes": [
       "41",
-      "43",
       "44",
       "45"
     ],
@@ -4192,7 +4287,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": true
+        "available": false
       },
       {
         "size": "44",
@@ -8419,99 +8514,6 @@
     "addedAt": 0
   },
   {
-    "id": "259859",
-    "slug": "asics-gel-pickah-white-black-das2018",
-    "name": "ASICS Gel-Pickah white black",
-    "brand": "Asics",
-    "brandSlug": "asics",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 3100,
-    "oldPrice": 5167,
-    "costPrice": 2600,
-    "sku": "#DAS2018",
-    "material": "Сітка,текстиль,піна",
-    "country": "В'єтнам",
-    "sizes": [
-      "41",
-      "42",
-      "43",
-      "44"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": true
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": true
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": true
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/d2f1be0a-aea0-4e88-8ebb-08b34dacc560.jpeg"
-    ],
-    "description": "Модель: ASICS Gel-Pickah white black. Артикул: #DAS2018. Матеріал: Сітка,текстиль,піна. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "ASICS Gel-Pickah white black (арт. #DAS2018) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте ASICS Gel-Pickah white black (арт. #DAS2018) за 3100 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    },
-    "addedAt": 0
-  },
-  {
     "id": "259858",
     "slug": "asics-gel-pickah-grey-black-das2017",
     "name": "ASICS Gel-Pickah grey black",
@@ -8625,7 +8627,6 @@
       "36",
       "37",
       "38",
-      "39",
       "40",
       "41"
     ],
@@ -8648,7 +8649,7 @@
       {
         "size": "39",
         "cm": "25.0",
-        "available": true
+        "available": false
       },
       {
         "size": "40",
@@ -11426,7 +11427,6 @@
     "country": "Китай",
     "sizes": [
       "41",
-      "42",
       "43",
       "44",
       "45",
@@ -11466,7 +11466,7 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": true
+        "available": false
       },
       {
         "size": "43",
@@ -14001,7 +14001,6 @@
     "sizes": [
       "41",
       "42",
-      "43",
       "44",
       "45",
       "46"
@@ -14045,7 +14044,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": true
+        "available": false
       },
       {
         "size": "44",
@@ -14196,7 +14195,6 @@
     "country": "Китай",
     "sizes": [
       "41",
-      "42",
       "44",
       "46"
     ],
@@ -14234,7 +14232,7 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": true
+        "available": false
       },
       {
         "size": "43",
@@ -19327,7 +19325,6 @@
     "material": "Gore Tex, термо",
     "country": "В'єтнам",
     "sizes": [
-      "42",
       "43",
       "44",
       "46"
@@ -19366,7 +19363,7 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": true
+        "available": false
       },
       {
         "size": "43",
@@ -39270,101 +39267,6 @@
     "addedAt": 0
   },
   {
-    "id": "253130",
-    "slug": "new-balance-574-legacy-cordura-black-1655tp",
-    "name": "New Balance 574 Legacy Cordura Black",
-    "brand": "New Balance",
-    "brandSlug": "newbalance",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 2820,
-    "oldPrice": 4700,
-    "costPrice": 2320,
-    "sku": "1655TP",
-    "material": "текстиль Cordura+ ворсистий замш",
-    "country": "Китай",
-    "sizes": [
-      "41",
-      "42",
-      "44"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "23.0",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": true
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": true
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/df23d319-cee1-4b91-b8e7-a1b3f08521d5.jpg",
-      "https://easydrop.one/media/uploads/images/base/1d851998-7c48-4431-b6f9-0faf3ca38afd.jpg",
-      "https://easydrop.one/media/uploads/images/base/43b458cb-70b5-4378-bbf1-22e90a83c9af.jpg",
-      "https://easydrop.one/media/uploads/images/base/451dbfe6-e7fa-4520-8aef-982ffcd41937.jpg"
-    ],
-    "description": "Модель: New Balance 574 Legacy Cordura Black. Артикул: 1655TP. Матеріал: текстиль Cordura+ ворсистий замш. Сезон: Демісезон. Виробництво: Китай. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "New Balance 574 Legacy Cordura Black (арт. 1655TP) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте New Balance 574 Legacy Cordura Black (арт. 1655TP) за 2820 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    },
-    "addedAt": 0
-  },
-  {
     "id": "253129",
     "slug": "new-balance-1906r-cordura-pack-black-1657tp",
     "name": "New Balance 1906R Cordura Pack Black",
@@ -39458,98 +39360,6 @@
     "seo": {
       "title": "New Balance 1906R Cordura Pack Black (арт. 1657TP) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте New Balance 1906R Cordura Pack Black (арт. 1657TP) за 2840 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    },
-    "addedAt": 0
-  },
-  {
-    "id": "253101",
-    "slug": "nike-jordan-4-black-grey-khutro-1046",
-    "name": "Nike Jordan 4 Black Grey хутро",
-    "brand": "Nike",
-    "brandSlug": "nike",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 3100,
-    "oldPrice": 5167,
-    "costPrice": 2600,
-    "sku": "1046",
-    "material": "Хутро",
-    "country": "В'єтнам",
-    "sizes": [
-      "40",
-      "42",
-      "44"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": true
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": true
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": true
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/164edca2-4f90-4da6-834e-4a7dbeded809.jpeg"
-    ],
-    "description": "Модель: Nike Jordan 4 Black Grey хутро. Артикул: 1046. Матеріал: Хутро. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Nike Jordan 4 Black Grey хутро (арт. 1046) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Nike Jordan 4 Black Grey хутро (арт. 1046) за 3100 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     },
     "addedAt": 0
   },
@@ -49520,98 +49330,6 @@
     "seo": {
       "title": "Кросівки Nike Air Force 1 Low Cactus Plant Flea Market White (арт. KS 2808) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Кросівки Nike Air Force 1 Low Cactus Plant Flea Market White (арт. KS 2808) за 3010 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    },
-    "addedAt": 0
-  },
-  {
-    "id": "249498",
-    "slug": "the-north-face-black-white-gore-tex-termo-1007",
-    "name": "The North Face Black White Gore Tex (термо)",
-    "brand": "The North Face",
-    "brandSlug": "tnf",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 2500,
-    "oldPrice": 4167,
-    "costPrice": 2000,
-    "sku": "1007",
-    "material": "Gore Tex",
-    "country": "В'єтнам",
-    "sizes": [
-      "42",
-      "43",
-      "44"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": true
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": true
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": true
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/a98ceece-f531-4c79-9354-b98f71a49298.jpg"
-    ],
-    "description": "Модель: The North Face Black White Gore Tex (термо). Артикул: 1007. Матеріал: Gore Tex. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "The North Face Black White Gore Tex (термо) (арт. 1007) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте The North Face Black White Gore Tex (термо) (арт. 1007) за 2500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     },
     "addedAt": 0
   },
@@ -71610,7 +71328,6 @@
     "sizes": [
       "41",
       "44",
-      "45",
       "46"
     ],
     "sizeChart": [
@@ -71662,7 +71379,7 @@
       {
         "size": "45",
         "cm": "29.0",
-        "available": true
+        "available": false
       },
       {
         "size": "46",
@@ -73778,7 +73495,6 @@
     "sizes": [
       "38",
       "39",
-      "40",
       "41",
       "42",
       "43",
@@ -73808,7 +73524,7 @@
       {
         "size": "40",
         "cm": "25.5",
-        "available": true
+        "available": false
       },
       {
         "size": "41",
@@ -96963,8 +96679,7 @@
       "42",
       "43",
       "44",
-      "45",
-      "46"
+      "45"
     ],
     "sizeChart": [
       {
@@ -97020,7 +96735,7 @@
       {
         "size": "46",
         "cm": "29.5",
-        "available": true
+        "available": false
       }
     ],
     "inStock": true,
@@ -149925,7 +149640,6 @@
     "country": "В'єтнам",
     "sizes": [
       "40",
-      "41",
       "42",
       "43",
       "44"
@@ -149959,7 +149673,7 @@
       {
         "size": "41",
         "cm": "26.0",
-        "available": true
+        "available": false
       },
       {
         "size": "42",
@@ -163521,6 +163235,8 @@
     "sizes": [
       "36",
       "37",
+      "38",
+      "42",
       "43"
     ],
     "sizeChart": [
@@ -163537,7 +163253,7 @@
       {
         "size": "38",
         "cm": "24.0",
-        "available": false
+        "available": true
       },
       {
         "size": "39",
@@ -163557,7 +163273,7 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": false
+        "available": true
       },
       {
         "size": "43",
@@ -170816,101 +170532,6 @@
     "addedAt": 0
   },
   {
-    "id": "196019",
-    "slug": "new-balance-9060-blacktop-dark-moss-v2-dnb1521",
-    "name": "New Balance 9060 Blacktop Dark Moss v2",
-    "brand": "New Balance",
-    "brandSlug": "newbalance",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 2750,
-    "oldPrice": 4583,
-    "costPrice": 2250,
-    "sku": "#DNB1521-",
-    "material": "Натуральна замша,текстиль",
-    "country": "В'єтнам",
-    "sizes": [
-      "37",
-      "38",
-      "39"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "23.0",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": true
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": true
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": true
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/a649e219-0521-45a2-950b-d3a83b3e1a78.jpeg",
-      "https://easydrop.one/media/uploads/images/base/59646aca-235a-4fb2-805e-09b603469ca1.jpeg",
-      "https://easydrop.one/media/uploads/images/base/350f1586-9bf6-4a0a-a759-981b2c12599d.jpeg",
-      "https://easydrop.one/media/uploads/images/base/a0c482a1-9e19-45aa-84c7-c8e5e46df967.jpeg"
-    ],
-    "description": "Модель: New Balance 9060 Blacktop Dark Moss v2. Артикул: #DNB1521-. Матеріал: Натуральна замша,текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "New Balance 9060 Blacktop Dark Moss v2 (арт. #DNB1521-) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте New Balance 9060 Blacktop Dark Moss v2 (арт. #DNB1521-) за 2750 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    },
-    "addedAt": 0
-  },
-  {
     "id": "196015",
     "slug": "nike-air-force-pixel-beige-789",
     "name": "Nike Air Force Pixel Beige",
@@ -177014,6 +176635,8 @@
     "material": "Натуральна замша,текстиль",
     "country": "В'єтнам",
     "sizes": [
+      "36",
+      "37",
       "38",
       "39",
       "40",
@@ -177026,12 +176649,12 @@
       {
         "size": "36",
         "cm": "23.0",
-        "available": false
+        "available": true
       },
       {
         "size": "37",
         "cm": "23.5",
-        "available": false
+        "available": true
       },
       {
         "size": "38",
@@ -191099,8 +190722,8 @@
     "brandSlug": "salomon",
     "category": "Взуття",
     "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
+    "gender": "women",
+    "genderName": "Жіночі",
     "season": "demi",
     "seasonName": "Демісезон",
     "price": 3100,
@@ -191112,8 +190735,7 @@
     "sizes": [
       "36",
       "38",
-      "40",
-      "44"
+      "40"
     ],
     "sizeChart": [
       {
@@ -191159,7 +190781,7 @@
       {
         "size": "44",
         "cm": "28.0",
-        "available": true
+        "available": false
       },
       {
         "size": "45",
@@ -228772,98 +228394,6 @@
     "addedAt": 0
   },
   {
-    "id": "148664",
-    "slug": "2079-on-cloudtilt-2079",
-    "name": "2079 ON Cloudtilt",
-    "brand": "On Cloud",
-    "brandSlug": "oncloud",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 3000,
-    "oldPrice": 5000,
-    "costPrice": 2500,
-    "sku": "2079",
-    "material": "Текстиль",
-    "country": "В'єтнам",
-    "sizes": [
-      "36",
-      "37",
-      "38"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": true
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": true
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": true
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/e7029abc-34ed-4891-ac4d-12fb648d9be9.jpg"
-    ],
-    "description": "Модель: 2079 ON Cloudtilt. Артикул: 2079. Матеріал: Текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "2079 ON Cloudtilt (арт. 2079) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте 2079 ON Cloudtilt (арт. 2079) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    },
-    "addedAt": 0
-  },
-  {
     "id": "148663",
     "slug": "2078-on-cloudtilt-2078",
     "name": "2078 ON Cloudtilt",
@@ -250492,8 +250022,7 @@
       "41",
       "42",
       "43",
-      "44",
-      "45"
+      "44"
     ],
     "sizeChart": [
       {
@@ -250544,7 +250073,7 @@
       {
         "size": "45",
         "cm": "29.0",
-        "available": true
+        "available": false
       },
       {
         "size": "46",
@@ -285806,101 +285335,6 @@
     "addedAt": 0
   },
   {
-    "id": "69341",
-    "slug": "nike-jordan-4-black-cat-zovnishnya-birka-ta-shnurky-djr12",
-    "name": "Nike Jordan 4 black cat + Зовнішня бірка та шнурки",
-    "brand": "Nike",
-    "brandSlug": "nike",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 2950,
-    "oldPrice": 4917,
-    "costPrice": 2450,
-    "sku": "#DJR12",
-    "material": "Нубук",
-    "country": "В'єтнам",
-    "sizes": [
-      "38",
-      "44",
-      "45"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": true
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": true
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": true
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/d4ca6737-f8c7-460f-a2c2-ad991e58be69.jpeg",
-      "https://easydrop.one/media/uploads/images/base/ddaa4e11-3e63-48b5-a409-438ccbe3f529.jpeg",
-      "https://easydrop.one/media/uploads/images/base/5cc85d41-ede4-401d-b426-4e61966fc896.jpeg",
-      "https://easydrop.one/media/uploads/images/base/9fac845c-017c-4cba-b3c4-fa623a2642fa.jpeg"
-    ],
-    "description": "Модель: Nike Jordan 4 black cat + Зовнішня бірка та шнурки. Артикул: #DJR12. Матеріал: Нубук. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Nike Jordan 4 black cat + Зовнішня бірка та шнурки (арт. #DJR12) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Nike Jordan 4 black cat + Зовнішня бірка та шнурки (арт. #DJR12) за 2950 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    },
-    "addedAt": 0
-  },
-  {
     "id": "69335",
     "slug": "adidas-campus-00s-core-grey-dad32",
     "name": "Adidas Campus 00s core grey",
@@ -295205,9 +294639,9 @@
     "genderName": "Унісекс",
     "season": "demi",
     "seasonName": "Демісезон",
-    "price": 2580,
-    "oldPrice": 4300,
-    "costPrice": 2080,
+    "price": 2780,
+    "oldPrice": 4633,
+    "costPrice": 2280,
     "sku": "1129TP",
     "material": "натуральний замш+текстиль",
     "country": "Китай",
@@ -295281,7 +294715,7 @@
     "description": "Модель: New Balance 2002R Protection Pack 'Rain Cloud'. Артикул: 1129TP. Матеріал: натуральний замш+текстиль. Сезон: Демісезон. Виробництво: Китай. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
     "seo": {
       "title": "New Balance 2002R Protection Pack 'Rain Cloud' (арт. 1129TP) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте New Balance 2002R Protection Pack 'Rain Cloud' (арт. 1129TP) за 2580 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+      "description": "Замовляйте New Balance 2002R Protection Pack 'Rain Cloud' (арт. 1129TP) за 2780 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     },
     "addedAt": 0
   },
