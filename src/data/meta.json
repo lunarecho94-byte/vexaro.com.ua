@@ -1,10 +1,10 @@
 {
-  "total": 3235,
+  "total": 3232,
   "brands": [
     {
       "name": "Nike",
       "slug": "nike",
-      "count": 1170
+      "count": 1169
     },
     {
       "name": "New Balance",
@@ -24,12 +24,12 @@
     {
       "name": "Інші бренди",
       "slug": "other",
-      "count": 111
+      "count": 110
     },
     {
       "name": "Salomon",
       "slug": "salomon",
-      "count": 77
+      "count": 76
     },
     {
       "name": "UGG",
@@ -191,7 +191,7 @@
     {
       "name": "Взуття",
       "slug": "shoes",
-      "count": 3235
+      "count": 3232
     }
   ],
   "genders": [
@@ -208,19 +208,19 @@
     {
       "name": "Унісекс",
       "slug": "unisex",
-      "count": 589
+      "count": 586
     }
   ],
   "seasons": [
     {
       "name": "Демісезон",
       "slug": "demi",
-      "count": 2889
+      "count": 2887
     },
     {
       "name": "Зима",
       "slug": "winter",
-      "count": 346
+      "count": 345
     }
   ],
   "sizes": [
