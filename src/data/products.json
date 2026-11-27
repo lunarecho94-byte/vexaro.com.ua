@@ -1,5 +1,557 @@
 [
   {
+    "id": "256384",
+    "slug": "nike-air-max-90-black-green-gore-tex-nk178",
+    "name": "Nike Air Max 90 Black/Green Gore-Tex",
+    "brand": "Nike",
+    "brandSlug": "nike",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "men",
+    "genderName": "Чоловічі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 3100,
+    "oldPrice": 5167,
+    "costPrice": 2600,
+    "sku": "NK178",
+    "material": "Шкіра/текстиль",
+    "country": "-",
+    "sizes": [
+      "40",
+      "41",
+      "45"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": false
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": false
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "29.0",
+        "available": true
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/8a8a3c09-b195-45cc-b0ad-8fdb92e804f4.jpeg"
+    ],
+    "description": "Модель: Nike Air Max 90 Black/Green Gore-Tex. Артикул: NK178. Матеріал: Шкіра/текстиль. Сезон: Демісезон. Виробництво: -. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Nike Air Max 90 Black/Green Gore-Tex (арт. NK178) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Nike Air Max 90 Black/Green Gore-Tex (арт. NK178) за 3100 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    },
+    "addedAt": 1795786056
+  },
+  {
+    "id": "247347",
+    "slug": "new-balance-530-classic-black-nb138",
+    "name": "New Balance 530 Classic Black",
+    "brand": "New Balance",
+    "brandSlug": "newbalance",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "men",
+    "genderName": "Чоловічі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 2800,
+    "oldPrice": 4667,
+    "costPrice": 2300,
+    "sku": "NB138",
+    "material": "Сітка/замша",
+    "country": "В'єтнам",
+    "sizes": [
+      "42",
+      "43",
+      "45"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "23.0",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": false
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": false
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": false
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": false
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": true
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": true
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "29.0",
+        "available": true
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/7f333936-e1d5-4dde-b34a-1484d088108a.webp"
+    ],
+    "description": "Модель: New Balance 530 Classic Black. Артикул: NB138. Матеріал: Сітка/замша. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "New Balance 530 Classic Black (арт. NB138) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте New Balance 530 Classic Black (арт. NB138) за 2800 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    },
+    "addedAt": 1795786056
+  },
+  {
+    "id": "185646",
+    "slug": "nike-acg-air-zoom-gaiadome-gtx-white-nk142",
+    "name": "Nike ACG Air Zoom Gaiadome GTX White",
+    "brand": "Nike",
+    "brandSlug": "nike",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "men",
+    "genderName": "Чоловічі",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 3500,
+    "oldPrice": 5833,
+    "costPrice": 3000,
+    "sku": "NK142",
+    "material": "Текстиль",
+    "country": "В'єтнам",
+    "sizes": [
+      "36",
+      "37",
+      "38"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": true
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": true
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": false
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": false
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": false
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "29.0",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/567fe6bc-8eed-48a6-8eed-f27f8b4a7cd3.jpeg"
+    ],
+    "description": "Модель: Nike ACG Air Zoom Gaiadome GTX White. Артикул: NK142. Матеріал: Текстиль. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Nike ACG Air Zoom Gaiadome GTX White (арт. NK142) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Nike ACG Air Zoom Gaiadome GTX White (арт. NK142) за 3500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    },
+    "addedAt": 1795786056
+  },
+  {
+    "id": "127914",
+    "slug": "nike-acg-terra-antarktik-white-black-nk108",
+    "name": "Nike ACG Terra Antarktik White Black",
+    "brand": "Nike",
+    "brandSlug": "nike",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "men",
+    "genderName": "Чоловічі",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 3300,
+    "oldPrice": 5500,
+    "costPrice": 2800,
+    "sku": "NK108",
+    "material": "Текстиль",
+    "country": "В'єтнам",
+    "sizes": [
+      "40",
+      "42",
+      "44"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": false
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": false
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": false
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": true
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": true
+      },
+      {
+        "size": "45",
+        "cm": "29.0",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/f296af3b-66a7-4055-816e-4547303c65a5.jpeg"
+    ],
+    "description": "Модель: Nike ACG Terra Antarktik White Black. Артикул: NK108. Матеріал: Текстиль. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Nike ACG Terra Antarktik White Black (арт. NK108) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Nike ACG Terra Antarktik White Black (арт. NK108) за 3300 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    },
+    "addedAt": 1795786056
+  },
+  {
+    "id": "27873",
+    "slug": "ugg-classic-mini-ii-zip-boot-rozprodazh-ug081",
+    "name": "Ugg classic mini II Zip Boot РОЗПРОДАЖ",
+    "brand": "UGG",
+    "brandSlug": "ugg",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 1450,
+    "oldPrice": 2417,
+    "costPrice": 950,
+    "sku": "UG081",
+    "material": "Шкіра/Овчина",
+    "country": "-",
+    "sizes": [
+      "36",
+      "37",
+      "39"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": true
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": true
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": false
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": false
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": false
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "29.0",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": true,
+    "images": [
+      "https://easydrop.one/media/uploads/images/item_876/164fbb78-324a-43d2-9b99-05b66f10900e.webp"
+    ],
+    "description": "Модель: Ugg classic mini II Zip Boot РОЗПРОДАЖ. Артикул: UG081. Матеріал: Шкіра/Овчина. Сезон: Зима. Виробництво: -. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Ugg classic mini II Zip Boot РОЗПРОДАЖ (арт. UG081) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Ugg classic mini II Zip Boot РОЗПРОДАЖ (арт. UG081) за 1450 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    },
+    "addedAt": 1795786056
+  },
+  {
+    "id": "13613",
+    "slug": "nike-air-jordan-retro-4-black-nj031",
+    "name": "Nike Air Jordan Retro 4 Black",
+    "brand": "Nike",
+    "brandSlug": "nike",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "unisex",
+    "genderName": "Унісекс",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 2600,
+    "oldPrice": 4333,
+    "costPrice": 2100,
+    "sku": "NJ031",
+    "material": "Кожа",
+    "country": "В'єтнам",
+    "sizes": [
+      "37",
+      "38",
+      "45"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": true
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": false
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": false
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": false
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "29.0",
+        "available": true
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/itemimage/8292243b-0f65-40bc-a275-9c01de062477.jpeg"
+    ],
+    "description": "Модель: Nike Air Jordan Retro 4 Black. Артикул: NJ031. Матеріал: Кожа. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Nike Air Jordan Retro 4 Black (арт. NJ031) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Nike Air Jordan Retro 4 Black (арт. NJ031) за 2600 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    },
+    "addedAt": 1795786056
+  },
+  {
     "id": "255820",
     "slug": "new-balance-9060-pink-fur-nb143",
     "name": "New Balance 9060 Pink Fur",
@@ -204,7 +756,8 @@
     "sizes": [
       "41",
       "42",
-      "44"
+      "44",
+      "45"
     ],
     "sizeChart": [
       {
@@ -255,7 +808,7 @@
       {
         "size": "45",
         "cm": "29.0",
-        "available": false
+        "available": true
       },
       {
         "size": "46",
@@ -1024,98 +1577,6 @@
     "seo": {
       "title": "New Balance 1906R Cordura (арт. NB479) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте New Balance 1906R Cordura (арт. NB479) за 2450 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    },
-    "addedAt": 1795780855
-  },
-  {
-    "id": "207931",
-    "slug": "air-jordan-retro-13-triple-black-2519",
-    "name": "Air Jordan Retro 13 Triple Black",
-    "brand": "Air Jordan",
-    "brandSlug": "jordan",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 3300,
-    "oldPrice": 5500,
-    "costPrice": 2800,
-    "sku": "2519",
-    "material": "Кожа , замша",
-    "country": "В'єтнам",
-    "sizes": [
-      "38",
-      "41",
-      "42"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": true
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": true
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/d5c1b07d-cbcc-43a1-b98e-2ed465b65502.jpeg"
-    ],
-    "description": "Модель: Air Jordan Retro 13 Triple Black. Артикул: 2519. Матеріал: Кожа , замша. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Air Jordan Retro 13 Triple Black (арт. 2519) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Air Jordan Retro 13 Triple Black (арт. 2519) за 3300 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     },
     "addedAt": 1795780855
   },
@@ -7023,7 +7484,6 @@
       "37",
       "38",
       "39",
-      "40",
       "41",
       "42",
       "43"
@@ -7052,7 +7512,7 @@
       {
         "size": "40",
         "cm": "25.5",
-        "available": true
+        "available": false
       },
       {
         "size": "41",
@@ -12788,7 +13248,6 @@
     "country": "Китай",
     "sizes": [
       "41",
-      "42",
       "43",
       "44",
       "45",
@@ -12828,7 +13287,7 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": true
+        "available": false
       },
       {
         "size": "43",
@@ -20096,98 +20555,6 @@
     "addedAt": 0
   },
   {
-    "id": "256507",
-    "slug": "nike-p-6000-khutro-ntr827",
-    "name": "Nike P-6000 ХУТРО",
-    "brand": "Nike",
-    "brandSlug": "nike",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 3000,
-    "oldPrice": 5000,
-    "costPrice": 2500,
-    "sku": "NTR827",
-    "material": "Шкіра, замша, вологостійкий текстиль, термоутеплювач, гума, піна, прошиті",
-    "country": "В'єтнам",
-    "sizes": [
-      "43",
-      "44",
-      "46"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": true
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": true
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": true
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/5e00f1b5-1678-4495-8f61-93f2c7144c72.jpeg"
-    ],
-    "description": "Модель: Nike P-6000 ХУТРО. Артикул: NTR827. Матеріал: Шкіра, замша, вологостійкий текстиль, термоутеплювач, гума, піна, прошиті. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Nike P-6000 ХУТРО (арт. NTR827) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Nike P-6000 ХУТРО (арт. NTR827) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    },
-    "addedAt": 0
-  },
-  {
     "id": "256504",
     "slug": "nike-p-6000-khutro-ntr825",
     "name": "Nike P-6000 ХУТРО",
@@ -25157,8 +25524,7 @@
       "37",
       "41",
       "43",
-      "44",
-      "46"
+      "44"
     ],
     "sizeChart": [
       {
@@ -25214,7 +25580,7 @@
       {
         "size": "46",
         "cm": "29.5",
-        "available": true
+        "available": false
       }
     ],
     "inStock": true,
@@ -34323,8 +34689,7 @@
       "40",
       "41",
       "42",
-      "44",
-      "46"
+      "44"
     ],
     "sizeChart": [
       {
@@ -34380,7 +34745,7 @@
       {
         "size": "46",
         "cm": "29.5",
-        "available": true
+        "available": false
       }
     ],
     "inStock": true,
@@ -38029,8 +38394,8 @@
     "brandSlug": "nike",
     "category": "Взуття",
     "categorySlug": "shoes",
-    "gender": "unisex",
-    "genderName": "Унісекс",
+    "gender": "men",
+    "genderName": "Чоловічі",
     "season": "winter",
     "seasonName": "Зима",
     "price": 3100,
@@ -38040,7 +38405,7 @@
     "material": "Хутро",
     "country": "В'єтнам",
     "sizes": [
-      "38",
+      "40",
       "42",
       "44"
     ],
@@ -38058,7 +38423,7 @@
       {
         "size": "38",
         "cm": "24.0",
-        "available": true
+        "available": false
       },
       {
         "size": "39",
@@ -38068,7 +38433,7 @@
       {
         "size": "40",
         "cm": "25.5",
-        "available": false
+        "available": true
       },
       {
         "size": "41",
@@ -38321,7 +38686,6 @@
     "sizes": [
       "41",
       "42",
-      "43",
       "44"
     ],
     "sizeChart": [
@@ -38363,7 +38727,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": true
+        "available": false
       },
       {
         "size": "44",
@@ -38415,6 +38779,7 @@
     "material": "Шкіра, вологостійкий текстиль, термоутеплювач, гума, піна, прошиті",
     "country": "В'єтнам",
     "sizes": [
+      "41",
       "43",
       "44",
       "46"
@@ -38448,7 +38813,7 @@
       {
         "size": "41",
         "cm": "26.0",
-        "available": false
+        "available": true
       },
       {
         "size": "42",
@@ -51810,6 +52175,7 @@
     "country": "В'єтнам",
     "sizes": [
       "41",
+      "42",
       "43",
       "44",
       "45",
@@ -51849,7 +52215,7 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": false
+        "available": true
       },
       {
         "size": "43",
@@ -51904,6 +52270,7 @@
     "country": "В'єтнам",
     "sizes": [
       "41",
+      "42",
       "44",
       "45",
       "46"
@@ -51942,7 +52309,7 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": false
+        "available": true
       },
       {
         "size": "43",
@@ -84767,7 +85134,8 @@
       "41",
       "42",
       "43",
-      "44"
+      "44",
+      "45"
     ],
     "sizeChart": [
       {
@@ -84818,7 +85186,7 @@
       {
         "size": "45",
         "cm": "29.0",
-        "available": false
+        "available": true
       },
       {
         "size": "46",
@@ -136389,6 +136757,7 @@
     "sizes": [
       "36",
       "37",
+      "39",
       "41",
       "42",
       "44"
@@ -136412,7 +136781,7 @@
       {
         "size": "39",
         "cm": "25.0",
-        "available": false
+        "available": true
       },
       {
         "size": "40",
@@ -144225,8 +144594,7 @@
       "40",
       "41",
       "42",
-      "43",
-      "45"
+      "43"
     ],
     "sizeChart": [
       {
@@ -144277,7 +144645,7 @@
       {
         "size": "45",
         "cm": "29.0",
-        "available": true
+        "available": false
       },
       {
         "size": "46",
@@ -226595,6 +226963,7 @@
       "40",
       "41",
       "42",
+      "43",
       "44",
       "45"
     ],
@@ -226637,7 +227006,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": false
+        "available": true
       },
       {
         "size": "44",
@@ -249223,7 +249592,8 @@
       "39",
       "40",
       "41",
-      "42"
+      "42",
+      "44"
     ],
     "sizeChart": [
       {
@@ -249269,7 +249639,7 @@
       {
         "size": "44",
         "cm": "28.0",
-        "available": false
+        "available": true
       },
       {
         "size": "45",
@@ -264542,6 +264912,7 @@
     "sizes": [
       "38",
       "39",
+      "40",
       "41"
     ],
     "sizeChart": [
@@ -264568,7 +264939,7 @@
       {
         "size": "40",
         "cm": "25.5",
-        "available": false
+        "available": true
       },
       {
         "size": "41",
@@ -285507,9 +285878,9 @@
     "genderName": "Чоловічі",
     "season": "winter",
     "seasonName": "Зима",
-    "price": 2100,
-    "oldPrice": 3500,
-    "costPrice": 1600,
+    "price": 2450,
+    "oldPrice": 4083,
+    "costPrice": 1950,
     "sku": "KS 2204",
     "material": "Замша",
     "country": "В'єтнам",
@@ -285587,7 +285958,7 @@
     "description": "Модель: Кросівки Adidas Campus 00s Black White ЗИМА (чорні. Артикул: KS 2204. Матеріал: Замша. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
     "seo": {
       "title": "Кросівки Adidas Campus 00s Black White ЗИМА (чорні (арт. KS 2204) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Кросівки Adidas Campus 00s Black White ЗИМА (чорні (арт. KS 2204) за 2100 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+      "description": "Замовляйте Кросівки Adidas Campus 00s Black White ЗИМА (чорні (арт. KS 2204) за 2450 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     },
     "addedAt": 0
   },
