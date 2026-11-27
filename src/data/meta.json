@@ -1,15 +1,15 @@
 {
-  "total": 3238,
+  "total": 3240,
   "brands": [
     {
       "name": "Nike",
       "slug": "nike",
-      "count": 1169
+      "count": 1171
     },
     {
       "name": "New Balance",
       "slug": "newbalance",
-      "count": 777
+      "count": 780
     },
     {
       "name": "Adidas",
@@ -34,7 +34,7 @@
     {
       "name": "UGG",
       "slug": "ugg",
-      "count": 65
+      "count": 66
     },
     {
       "name": "On Cloud",
@@ -44,7 +44,7 @@
     {
       "name": "Premiata",
       "slug": "premiata",
-      "count": 54
+      "count": 53
     },
     {
       "name": "Air Jordan",
@@ -62,14 +62,14 @@
       "count": 30
     },
     {
-      "name": "The North Face",
-      "slug": "tnf",
-      "count": 26
-    },
-    {
       "name": "Golden Goose",
       "slug": "goldengoose",
       "count": 25
+    },
+    {
+      "name": "The North Face",
+      "slug": "tnf",
+      "count": 24
     },
     {
       "name": "Vans",
@@ -89,7 +89,7 @@
     {
       "name": "Lacoste",
       "slug": "lacoste",
-      "count": 14
+      "count": 13
     },
     {
       "name": "Loro Piana",
@@ -191,7 +191,7 @@
     {
       "name": "Взуття",
       "slug": "shoes",
-      "count": 3238
+      "count": 3240
     }
   ],
   "genders": [
@@ -203,19 +203,19 @@
     {
       "name": "Жіночі",
       "slug": "women",
-      "count": 889
+      "count": 890
     },
     {
       "name": "Унісекс",
       "slug": "unisex",
-      "count": 587
+      "count": 588
     }
   ],
   "seasons": [
     {
       "name": "Демісезон",
       "slug": "demi",
-      "count": 2888
+      "count": 2890
     },
     {
       "name": "Зима",
