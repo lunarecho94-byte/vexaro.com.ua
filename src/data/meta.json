@@ -1,5 +1,5 @@
 {
-  "total": 3232,
+  "total": 3230,
   "brands": [
     {
       "name": "Nike",
@@ -19,7 +19,7 @@
     {
       "name": "Asics",
       "slug": "asics",
-      "count": 276
+      "count": 275
     },
     {
       "name": "Інші бренди",
@@ -34,7 +34,7 @@
     {
       "name": "UGG",
       "slug": "ugg",
-      "count": 65
+      "count": 64
     },
     {
       "name": "On Cloud",
@@ -191,19 +191,19 @@
     {
       "name": "Взуття",
       "slug": "shoes",
-      "count": 3232
+      "count": 3230
     }
   ],
   "genders": [
     {
       "name": "Чоловічі",
       "slug": "men",
-      "count": 1756
+      "count": 1755
     },
     {
       "name": "Жіночі",
       "slug": "women",
-      "count": 888
+      "count": 887
     },
     {
       "name": "Унісекс",
@@ -220,7 +220,7 @@
     {
       "name": "Зима",
       "slug": "winter",
-      "count": 347
+      "count": 345
     }
   ],
   "sizes": [
