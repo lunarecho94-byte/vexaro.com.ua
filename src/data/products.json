@@ -1,5 +1,953 @@
 [
   {
+    "id": "258894",
+    "slug": "krosivky-premiata-moerun-fur-m-black-white-zyma-ks2866",
+    "name": "Кросівки Premiata Moerun Fur M Black White ЗИМА",
+    "brand": "Premiata",
+    "brandSlug": "premiata",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "men",
+    "genderName": "Чоловічі",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 3190,
+    "oldPrice": 5317,
+    "costPrice": 2690,
+    "sku": "KS 2866",
+    "material": "Натуральна замша , шкіра",
+    "country": "Італія",
+    "sizes": [
+      "41",
+      "42",
+      "44"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": false
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": false
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": false
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": true
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": true
+      },
+      {
+        "size": "45",
+        "cm": "29.0",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/73343c6f-961c-46da-b7cc-bad61ffd1839.jpg",
+      "https://easydrop.one/media/uploads/images/base/631601b0-9876-44d2-a49d-a255f7012f74.jpg",
+      "https://easydrop.one/media/uploads/images/base/3e3c0933-9a32-46ce-97a3-950c953c31fd.jpg",
+      "https://easydrop.one/media/uploads/images/base/ebf5c407-57e6-4b82-9531-50d96161f1da.jpg"
+    ],
+    "description": "Модель: Кросівки Premiata Moerun Fur M Black White ЗИМА. Артикул: KS 2866. Матеріал: Натуральна замша , шкіра. Сезон: Зима. Виробництво: Італія. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Кросівки Premiata Moerun Fur M Black White ЗИМА (арт. KS 2866) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Кросівки Premiata Moerun Fur M Black White ЗИМА (арт. KS 2866) за 3190 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    },
+    "addedAt": 1795792791
+  },
+  {
+    "id": "258298",
+    "slug": "krosivky-lacoste-elite-active-high-black-zyma-ks2869",
+    "name": "Кросівки Lacoste Elite Active High Black ЗИМА",
+    "brand": "Lacoste",
+    "brandSlug": "lacoste",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "men",
+    "genderName": "Чоловічі",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 3350,
+    "oldPrice": 5583,
+    "costPrice": 2850,
+    "sku": "KS 2869",
+    "material": "Шкіра, текстиль",
+    "country": "Китай",
+    "sizes": [
+      "41",
+      "44",
+      "45"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": false
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": false
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": false
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": true
+      },
+      {
+        "size": "45",
+        "cm": "29.0",
+        "available": true
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/52b79e65-29e4-42bc-8ac0-d4d5f42e43e4.jpg",
+      "https://easydrop.one/media/uploads/images/base/463750b5-e52a-438b-8a7d-15c7d8259133.jpg",
+      "https://easydrop.one/media/uploads/images/base/a249aba8-5489-496d-8cc2-f43927c92373.jpg",
+      "https://easydrop.one/media/uploads/images/base/46a3b326-2fbe-47f6-93ec-c5254f7a6c5f.jpg"
+    ],
+    "description": "Модель: Кросівки Lacoste Elite Active High Black ЗИМА. Артикул: KS 2869. Матеріал: Шкіра, текстиль. Сезон: Зима. Виробництво: Китай. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Кросівки Lacoste Elite Active High Black ЗИМА (арт. KS 2869) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Кросівки Lacoste Elite Active High Black ЗИМА (арт. KS 2869) за 3350 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    },
+    "addedAt": 1795792791
+  },
+  {
+    "id": "258250",
+    "slug": "krosivky-the-north-face-glenclyffe-low-gtx-total-black-termo-ks2862",
+    "name": "Кросівки The North Face Glenclyffe Low GTX Total Black (термо)",
+    "brand": "The North Face",
+    "brandSlug": "tnf",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "men",
+    "genderName": "Чоловічі",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 2950,
+    "oldPrice": 4917,
+    "costPrice": 2450,
+    "sku": "KS 2862",
+    "material": "Водонепроникний текстиль",
+    "country": "Китай",
+    "sizes": [
+      "41",
+      "42",
+      "45",
+      "46"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": false
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": false
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": false
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": true
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "29.0",
+        "available": true
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": true
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/3b08297e-bab8-43a2-ac98-be196cb26c68.jpg",
+      "https://easydrop.one/media/uploads/images/base/a951e4d2-5f40-4ee9-b854-59ef1ed6bdb8.jpg",
+      "https://easydrop.one/media/uploads/images/base/f083e275-3984-462b-86c0-353479c7c70b.jpg",
+      "https://easydrop.one/media/uploads/images/base/50afc6e8-b332-41d0-aa00-5fb44da2a35f.jpg"
+    ],
+    "description": "Модель: Кросівки The North Face Glenclyffe Low GTX Total Black (термо). Артикул: KS 2862. Матеріал: Водонепроникний текстиль. Сезон: Зима. Виробництво: Китай. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Кросівки The North Face Glenclyffe Low GTX Total Black (термо) (арт. KS 2862) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Кросівки The North Face Glenclyffe Low GTX Total Black (термо) (арт. KS 2862) за 2950 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    },
+    "addedAt": 1795792791
+  },
+  {
+    "id": "244622",
+    "slug": "krosivky-the-north-face-glenclyffe-low-gtx-termo-black-gray-ks2790",
+    "name": "Кросівки The North Face Glenclyffe Low GTX (термо)Black/Gray",
+    "brand": "The North Face",
+    "brandSlug": "tnf",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "men",
+    "genderName": "Чоловічі",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 2780,
+    "oldPrice": 4633,
+    "costPrice": 2280,
+    "sku": "KS 2790",
+    "material": "Водонепроникний текстиль",
+    "country": "Китай",
+    "sizes": [
+      "41",
+      "43",
+      "44"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": false
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": false
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": false
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": true
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": true
+      },
+      {
+        "size": "45",
+        "cm": "29.0",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/7c84d90c-f5b0-41b9-a00a-79db2802e1f6.jpg",
+      "https://easydrop.one/media/uploads/images/base/19d52c46-6dd3-4601-9964-ae6516456c7c.jpg",
+      "https://easydrop.one/media/uploads/images/base/89b3e9d9-d6d7-4768-8b96-0282bad5e48b.jpg",
+      "https://easydrop.one/media/uploads/images/base/95d92c90-4d9c-489f-b910-03a81b05488a.jpg"
+    ],
+    "description": "Модель: Кросівки The North Face Glenclyffe Low GTX (термо)Black/Gray. Артикул: KS 2790. Матеріал: Водонепроникний текстиль. Сезон: Зима. Виробництво: Китай. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Кросівки The North Face Glenclyffe Low GTX (термо)Black/Gray (арт. KS 2790) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Кросівки The North Face Glenclyffe Low GTX (термо)Black/Gray (арт. KS 2790) за 2780 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    },
+    "addedAt": 1795792791
+  },
+  {
+    "id": "242751",
+    "slug": "krosivky-nike-air-more-uptempo-low-black-chorni-ks2770",
+    "name": "Кросівки Nike Air More Uptempo Low Black (чорні",
+    "brand": "Nike",
+    "brandSlug": "nike",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "men",
+    "genderName": "Чоловічі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 2680,
+    "oldPrice": 4467,
+    "costPrice": 2180,
+    "sku": "KS 2770",
+    "material": "Нубук, текстиль",
+    "country": "Китай",
+    "sizes": [
+      "41",
+      "42",
+      "44"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": false
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": false
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": false
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": true
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": true
+      },
+      {
+        "size": "45",
+        "cm": "29.0",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/b0efb3f8-6d3c-4c66-85ec-ebb2dbda5f43.jpg",
+      "https://easydrop.one/media/uploads/images/base/f1c40e12-07ae-4a74-9c6e-9f4b7b04283b.jpg",
+      "https://easydrop.one/media/uploads/images/base/ffc6ecca-e93b-4c94-b81f-956118b92893.jpg",
+      "https://easydrop.one/media/uploads/images/base/a7323d0f-7ccd-4fa9-88fe-5ba0e9929e4d.jpg"
+    ],
+    "description": "Модель: Кросівки Nike Air More Uptempo Low Black (чорні. Артикул: KS 2770. Матеріал: Нубук, текстиль. Сезон: Демісезон. Виробництво: Китай. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Кросівки Nike Air More Uptempo Low Black (чорні (арт. KS 2770) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Кросівки Nike Air More Uptempo Low Black (чорні (арт. KS 2770) за 2680 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    },
+    "addedAt": 1795792791
+  },
+  {
+    "id": "191529",
+    "slug": "nike-air-force-white-pink-0693",
+    "name": "Nike air force white pink",
+    "brand": "Nike",
+    "brandSlug": "nike",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 2600,
+    "oldPrice": 4333,
+    "costPrice": 2100,
+    "sku": "0693",
+    "material": "Шкіра",
+    "country": "В'єтнам",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": true
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": true
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "29.0",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": true,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/508dccf4-23cd-416a-83cb-597cefe7ca13.jpeg"
+    ],
+    "description": "Модель: Nike air force white pink. Артикул: 0693. Матеріал: Шкіра. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Nike air force white pink (арт. 0693) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Nike air force white pink (арт. 0693) за 2600 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    },
+    "addedAt": 1795792791
+  },
+  {
+    "id": "190072",
+    "slug": "puma-suede-xl-black-white-0682",
+    "name": "Puma Suede XL Black White",
+    "brand": "Puma",
+    "brandSlug": "puma",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 2800,
+    "oldPrice": 4667,
+    "costPrice": 2300,
+    "sku": "0682",
+    "material": "Замш",
+    "country": "В'єтнам",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": true
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": true
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "29.0",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/a3d59de0-c781-4807-a853-2fd0bee1206c.jpeg"
+    ],
+    "description": "Модель: Puma Suede XL Black White. Артикул: 0682. Матеріал: Замш. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Puma Suede XL Black White (арт. 0682) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Puma Suede XL Black White (арт. 0682) за 2800 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    },
+    "addedAt": 1795792791
+  },
+  {
+    "id": "116901",
+    "slug": "nike-acg-terra-antarktik-gore-tex-black-white-0175",
+    "name": "Nike ACG Terra Antarktik Gore-Tex Black White",
+    "brand": "Nike",
+    "brandSlug": "nike",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "men",
+    "genderName": "Чоловічі",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 3300,
+    "oldPrice": 5500,
+    "costPrice": 2800,
+    "sku": "0175",
+    "material": "Теутсиль",
+    "country": "В'єтнам",
+    "sizes": [
+      "40",
+      "41",
+      "42"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": false
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": false
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": true
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "29.0",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/9f8ff570-ea19-497b-ab33-d2e4d4711166.jpg"
+    ],
+    "description": "Модель: Nike ACG Terra Antarktik Gore-Tex Black White. Артикул: 0175. Матеріал: Теутсиль. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Nike ACG Terra Antarktik Gore-Tex Black White (арт. 0175) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Nike ACG Terra Antarktik Gore-Tex Black White (арт. 0175) за 3300 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    },
+    "addedAt": 1795792791
+  },
+  {
+    "id": "64510",
+    "slug": "krosivky-nike-air-max-90-surplus-cordura-black-chorni-ks1933",
+    "name": "Кросівки Nike Air Max 90 Surplus Cordura Black (чорні",
+    "brand": "Nike",
+    "brandSlug": "nike",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "men",
+    "genderName": "Чоловічі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 2690,
+    "oldPrice": 4483,
+    "costPrice": 2190,
+    "sku": "KS 1933",
+    "material": "Шкіра, текстиль",
+    "country": "В'єтнам",
+    "sizes": [
+      "41",
+      "43",
+      "44"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": false
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": false
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": false
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": true
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": true
+      },
+      {
+        "size": "45",
+        "cm": "29.0",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/97a2c079-f55d-4be0-b8fa-e45ae27110a6.jpg",
+      "https://easydrop.one/media/uploads/images/base/071ec6d1-678e-4ced-8175-504ded97bb6a.jpg",
+      "https://easydrop.one/media/uploads/images/base/74333f4f-acfb-4f72-a19b-58a939c5e5c9.jpg",
+      "https://easydrop.one/media/uploads/images/base/0a0d3dc4-0a7f-4426-935f-0c3d5530d4f1.jpg"
+    ],
+    "description": "Модель: Кросівки Nike Air Max 90 Surplus Cordura Black (чорні. Артикул: KS 1933. Матеріал: Шкіра, текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Кросівки Nike Air Max 90 Surplus Cordura Black (чорні (арт. KS 1933) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Кросівки Nike Air Max 90 Surplus Cordura Black (чорні (арт. KS 1933) за 2690 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    },
+    "addedAt": 1795792791
+  },
+  {
+    "id": "58234",
+    "slug": "nike-m2k-tekno-ks1356",
+    "name": "Nike М2K Tekno",
+    "brand": "Nike",
+    "brandSlug": "nike",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "men",
+    "genderName": "Чоловічі",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 2350,
+    "oldPrice": 3917,
+    "costPrice": 1850,
+    "sku": "KS 1356",
+    "material": "Шкіра, текстиль",
+    "country": "В'єтнам",
+    "sizes": [
+      "41",
+      "42",
+      "44"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": false
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": false
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": false
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": true
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": true
+      },
+      {
+        "size": "45",
+        "cm": "29.0",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/acd9d520-771c-46cd-86a5-b915afbb11f6.jpg",
+      "https://easydrop.one/media/uploads/images/base/a24b2183-c576-40a9-b809-b378dba182a3.jpg",
+      "https://easydrop.one/media/uploads/images/base/492ff252-38d6-47eb-a6e8-329e967ec3a0.jpg",
+      "https://easydrop.one/media/uploads/images/base/007706a6-ffca-4a93-940a-4fc40db87276.jpg"
+    ],
+    "description": "Модель: Nike М2K Tekno. Артикул: KS 1356. Матеріал: Шкіра, текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Nike М2K Tekno (арт. KS 1356) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Nike М2K Tekno (арт. KS 1356) за 2350 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    },
+    "addedAt": 1795792791
+  },
+  {
     "id": "255820",
     "slug": "new-balance-9060-pink-fur-nb143",
     "name": "New Balance 9060 Pink Fur",
@@ -6839,7 +7787,6 @@
       "37",
       "38",
       "39",
-      "40",
       "41",
       "42",
       "43"
@@ -6868,7 +7815,7 @@
       {
         "size": "40",
         "cm": "25.5",
-        "available": true
+        "available": false
       },
       {
         "size": "41",
@@ -7224,8 +8171,7 @@
     "sizes": [
       "36",
       "37",
-      "40",
-      "41"
+      "40"
     ],
     "sizeChart": [
       {
@@ -7256,7 +8202,7 @@
       {
         "size": "41",
         "cm": "26.0",
-        "available": true
+        "available": false
       },
       {
         "size": "42",
@@ -12315,6 +13261,7 @@
     "country": "Китай",
     "sizes": [
       "41",
+      "42",
       "43",
       "44",
       "46"
@@ -12353,7 +13300,7 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": false
+        "available": true
       },
       {
         "size": "43",
@@ -12604,7 +13551,6 @@
     "country": "Китай",
     "sizes": [
       "41",
-      "42",
       "43",
       "44",
       "45",
@@ -12644,7 +13590,7 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": true
+        "available": false
       },
       {
         "size": "43",
@@ -13280,8 +14226,7 @@
       "41",
       "42",
       "43",
-      "44",
-      "45"
+      "44"
     ],
     "sizeChart": [
       {
@@ -13332,7 +14277,7 @@
       {
         "size": "45",
         "cm": "29.0",
-        "available": true
+        "available": false
       },
       {
         "size": "46",
@@ -16112,10 +17057,10 @@
     "material": "хутро",
     "country": "В'єтнам",
     "sizes": [
-      "37",
       "38",
       "39",
-      "40"
+      "40",
+      "41"
     ],
     "sizeChart": [
       {
@@ -16126,7 +17071,7 @@
       {
         "size": "37",
         "cm": "23.5",
-        "available": true
+        "available": false
       },
       {
         "size": "38",
@@ -16146,7 +17091,7 @@
       {
         "size": "41",
         "cm": "26.0",
-        "available": false
+        "available": true
       },
       {
         "size": "42",
@@ -16303,9 +17248,7 @@
       "40",
       "41",
       "42",
-      "43",
-      "44",
-      "45"
+      "43"
     ],
     "sizeChart": [
       {
@@ -16351,12 +17294,12 @@
       {
         "size": "44",
         "cm": "28.0",
-        "available": true
+        "available": false
       },
       {
         "size": "45",
         "cm": "29.0",
-        "available": true
+        "available": false
       },
       {
         "size": "46",
@@ -17357,6 +18300,7 @@
     "country": "В'єтнам",
     "sizes": [
       "41",
+      "43",
       "44",
       "45"
     ],
@@ -17399,7 +18343,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": false
+        "available": true
       },
       {
         "size": "44",
@@ -17916,9 +18860,9 @@
     "genderName": "Чоловічі",
     "season": "winter",
     "seasonName": "Зима",
-    "price": 3300,
-    "oldPrice": 5500,
-    "costPrice": 2800,
+    "price": 3000,
+    "oldPrice": 5000,
+    "costPrice": 2500,
     "sku": "3249",
     "material": "Текстиль",
     "country": "В'єтнам",
@@ -17995,7 +18939,7 @@
     "description": "Модель: Nike | Gore-Tex | (термо). Артикул: 3249. Матеріал: Текстиль. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
     "seo": {
       "title": "Nike | Gore-Tex | (термо) (арт. 3249) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Nike | Gore-Tex | (термо) (арт. 3249) за 3300 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+      "description": "Замовляйте Nike | Gore-Tex | (термо) (арт. 3249) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     },
     "addedAt": 0
   },
@@ -18011,9 +18955,9 @@
     "genderName": "Чоловічі",
     "season": "winter",
     "seasonName": "Зима",
-    "price": 3300,
-    "oldPrice": 5500,
-    "costPrice": 2800,
+    "price": 3000,
+    "oldPrice": 5000,
+    "costPrice": 2500,
     "sku": "3248",
     "material": "Текстиль",
     "country": "В'єтнам",
@@ -18090,7 +19034,7 @@
     "description": "Модель: Nike | Gore-Tex | (термо). Артикул: 3248. Матеріал: Текстиль. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
     "seo": {
       "title": "Nike | Gore-Tex | (термо) (арт. 3248) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Nike | Gore-Tex | (термо) (арт. 3248) за 3300 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+      "description": "Замовляйте Nike | Gore-Tex | (термо) (арт. 3248) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     },
     "addedAt": 0
   },
@@ -18106,9 +19050,9 @@
     "genderName": "Чоловічі",
     "season": "winter",
     "seasonName": "Зима",
-    "price": 3300,
-    "oldPrice": 5500,
-    "costPrice": 2800,
+    "price": 3000,
+    "oldPrice": 5000,
+    "costPrice": 2500,
     "sku": "3247",
     "material": "Текстиль",
     "country": "В'єтнам",
@@ -18185,7 +19129,7 @@
     "description": "Модель: Nike | Gore-Tex | (термо). Артикул: 3247. Матеріал: Текстиль. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
     "seo": {
       "title": "Nike | Gore-Tex | (термо) (арт. 3247) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Nike | Gore-Tex | (термо) (арт. 3247) за 3300 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+      "description": "Замовляйте Nike | Gore-Tex | (термо) (арт. 3247) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     },
     "addedAt": 0
   },
@@ -18201,9 +19145,9 @@
     "genderName": "Чоловічі",
     "season": "winter",
     "seasonName": "Зима",
-    "price": 3300,
-    "oldPrice": 5500,
-    "costPrice": 2800,
+    "price": 3000,
+    "oldPrice": 5000,
+    "costPrice": 2500,
     "sku": "3246",
     "material": "Текстиль",
     "country": "В'єтнам",
@@ -18280,7 +19224,7 @@
     "description": "Модель: Nike | Gore-Tex | (термо). Артикул: 3246. Матеріал: Текстиль. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
     "seo": {
       "title": "Nike | Gore-Tex | (термо) (арт. 3246) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Nike | Gore-Tex | (термо) (арт. 3246) за 3300 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+      "description": "Замовляйте Nike | Gore-Tex | (термо) (арт. 3246) за 3000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     },
     "addedAt": 0
   },
@@ -24972,8 +25916,7 @@
       "37",
       "41",
       "43",
-      "44",
-      "46"
+      "44"
     ],
     "sizeChart": [
       {
@@ -25029,7 +25972,7 @@
       {
         "size": "46",
         "cm": "29.5",
-        "available": true
+        "available": false
       }
     ],
     "inStock": true,
@@ -26762,6 +27705,7 @@
     "country": "Китай",
     "sizes": [
       "41",
+      "42",
       "43",
       "44",
       "45",
@@ -26801,7 +27745,7 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": false
+        "available": true
       },
       {
         "size": "43",
@@ -36524,7 +37468,6 @@
           "39",
           "40",
           "41",
-          "43",
           "44",
           "45"
         ],
@@ -36567,7 +37510,7 @@
           {
             "size": "43",
             "cm": "27.5",
-            "available": true
+            "available": false
           },
           {
             "size": "44",
@@ -37764,8 +38707,8 @@
     "brandSlug": "nike",
     "category": "Взуття",
     "categorySlug": "shoes",
-    "gender": "unisex",
-    "genderName": "Унісекс",
+    "gender": "men",
+    "genderName": "Чоловічі",
     "season": "winter",
     "seasonName": "Зима",
     "price": 3100,
@@ -37775,7 +38718,7 @@
     "material": "Хутро",
     "country": "В'єтнам",
     "sizes": [
-      "38",
+      "40",
       "42",
       "44"
     ],
@@ -37793,7 +38736,7 @@
       {
         "size": "38",
         "cm": "24.0",
-        "available": true
+        "available": false
       },
       {
         "size": "39",
@@ -37803,7 +38746,7 @@
       {
         "size": "40",
         "cm": "25.5",
-        "available": false
+        "available": true
       },
       {
         "size": "41",
@@ -38056,7 +38999,6 @@
     "sizes": [
       "41",
       "42",
-      "43",
       "44"
     ],
     "sizeChart": [
@@ -38098,7 +39040,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": true
+        "available": false
       },
       {
         "size": "44",
@@ -54929,98 +55871,6 @@
     "addedAt": 0
   },
   {
-    "id": "247985",
-    "slug": "new-balance-574-black-gore-tex-termo-1000",
-    "name": "New Balance 574 Black Gore Tex, (термо)",
-    "brand": "New Balance",
-    "brandSlug": "newbalance",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 2900,
-    "oldPrice": 4833,
-    "costPrice": 2400,
-    "sku": "1000",
-    "material": "Gore Tex, Термо",
-    "country": "В'єтнам",
-    "sizes": [
-      "41",
-      "42",
-      "45"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "23.0",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": true
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": true
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/3ead792a-c0f6-4492-829d-b54b046b9b27.jpg"
-    ],
-    "description": "Модель: New Balance 574 Black Gore Tex, (термо). Артикул: 1000. Матеріал: Gore Tex, Термо. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "New Balance 574 Black Gore Tex, (термо) (арт. 1000) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте New Balance 574 Black Gore Tex, (термо) (арт. 1000) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    },
-    "addedAt": 0
-  },
-  {
     "id": "247978",
     "slug": "new-balance-9060-grey-pink-gore-tex-cordura-termo-0998",
     "name": "New Balance 9060 Grey Pink Gore Tex Cordura (термо)",
@@ -58363,7 +59213,6 @@
     "material": "Текстиль, шкіра",
     "country": "В'єтнам",
     "sizes": [
-      "40",
       "41",
       "43",
       "44",
@@ -58393,7 +59242,7 @@
       {
         "size": "40",
         "cm": "25.5",
-        "available": true
+        "available": false
       },
       {
         "size": "41",
@@ -74078,8 +74927,7 @@
       "41",
       "42",
       "43",
-      "44",
-      "46"
+      "44"
     ],
     "sizeChart": [
       {
@@ -74135,7 +74983,7 @@
       {
         "size": "46",
         "cm": "29.5",
-        "available": true
+        "available": false
       }
     ],
     "inStock": true,
@@ -83733,6 +84581,7 @@
     "sizes": [
       "36",
       "37",
+      "38",
       "39",
       "40",
       "41"
@@ -83751,7 +84600,7 @@
       {
         "size": "38",
         "cm": "24.0",
-        "available": false
+        "available": true
       },
       {
         "size": "39",
@@ -129895,8 +130744,7 @@
     "sizes": [
       "41",
       "42",
-      "44",
-      "45"
+      "44"
     ],
     "sizeChart": [
       {
@@ -129947,7 +130795,7 @@
       {
         "size": "45",
         "cm": "29.0",
-        "available": true
+        "available": false
       },
       {
         "size": "46",
@@ -137440,7 +138288,6 @@
     "country": "В'єтнам",
     "sizes": [
       "41",
-      "42",
       "43",
       "44",
       "45"
@@ -137479,7 +138326,7 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": true
+        "available": false
       },
       {
         "size": "43",
@@ -158948,98 +159795,6 @@
     "addedAt": 0
   },
   {
-    "id": "202771",
-    "slug": "premiata-hill-premium-2734",
-    "name": "Premiata HILL | PREMIUM",
-    "brand": "Premiata",
-    "brandSlug": "premiata",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "women",
-    "genderName": "Жіночі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 5000,
-    "oldPrice": 8333,
-    "costPrice": 4500,
-    "sku": "2734",
-    "material": "Шкіра, замша",
-    "country": "В'єтнам",
-    "sizes": [
-      "38",
-      "39",
-      "40"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": true
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": true
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": true
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/fbffc44c-6353-4e12-ab38-c15663c7347e.jpg"
-    ],
-    "description": "Модель: Premiata HILL | PREMIUM. Артикул: 2734. Матеріал: Шкіра, замша. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Premiata HILL | PREMIUM (арт. 2734) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Premiata HILL | PREMIUM (арт. 2734) за 5000 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    },
-    "addedAt": 0
-  },
-  {
     "id": "202770",
     "slug": "premiata-hill-premium-2730",
     "name": "Premiata HILL | PREMIUM",
@@ -168358,8 +169113,7 @@
     "sizes": [
       "37",
       "38",
-      "39",
-      "40"
+      "39"
     ],
     "sizeChart": [
       {
@@ -168385,7 +169139,7 @@
       {
         "size": "40",
         "cm": "25.5",
-        "available": true
+        "available": false
       },
       {
         "size": "41",
@@ -170269,6 +171023,103 @@
     "seo": {
       "title": "Adidas XLG vento black white (арт. #DAD6001) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Adidas XLG vento black white (арт. #DAD6001) за 3500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    },
+    "addedAt": 0
+  },
+  {
+    "id": "194831",
+    "slug": "ugg-boots-chestnut-dugg3333",
+    "name": "UGG boots chestnut",
+    "brand": "UGG",
+    "brandSlug": "ugg",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "women",
+    "genderName": "Жіночі",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 3150,
+    "oldPrice": 5250,
+    "costPrice": 2650,
+    "sku": "#DUGG3333",
+    "material": "Натуральна замша,натуральне хутро",
+    "country": "В'єтнам",
+    "sizes": [
+      "38",
+      "39",
+      "40"
+    ],
+    "sizeChart": [
+      {
+        "size": "35",
+        "cm": "22.0",
+        "available": false
+      },
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": true
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": false
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "29.0",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": true,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/62447a00-a78a-4d82-b587-140909263a8e.jpg"
+    ],
+    "description": "Модель: UGG boots chestnut. Артикул: #DUGG3333. Матеріал: Натуральна замша,натуральне хутро. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "UGG boots chestnut (арт. #DUGG3333) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте UGG boots chestnut (арт. #DUGG3333) за 3150 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     },
     "addedAt": 0
   },
@@ -178427,6 +179278,7 @@
       "39",
       "40",
       "41",
+      "43",
       "45"
     ],
     "sizeChart": [
@@ -178468,7 +179320,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": false
+        "available": true
       },
       {
         "size": "44",
@@ -188996,98 +189848,6 @@
     "seo": {
       "title": "Nike Initiator | Gore-Tex (арт. 2382) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Nike Initiator | Gore-Tex (арт. 2382) за 2700 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    },
-    "addedAt": 0
-  },
-  {
-    "id": "176778",
-    "slug": "asics-gel-nyc-gore-tex-termo-2378",
-    "name": "Asics Gel-NYC | Gore-Tex | (термо)",
-    "brand": "Asics",
-    "brandSlug": "asics",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 2800,
-    "oldPrice": 4667,
-    "costPrice": 2300,
-    "sku": "2378",
-    "material": "Текстиль, шкіра",
-    "country": "В'єтнам",
-    "sizes": [
-      "41",
-      "43",
-      "44"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": true
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": true
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/ed36aae1-e02b-4c7a-9fdf-abfced27eb89.jpg"
-    ],
-    "description": "Модель: Asics Gel-NYC | Gore-Tex | (термо). Артикул: 2378. Матеріал: Текстиль, шкіра. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Asics Gel-NYC | Gore-Tex | (термо) (арт. 2378) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Asics Gel-NYC | Gore-Tex | (термо) (арт. 2378) за 2800 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     },
     "addedAt": 0
   },
@@ -227634,8 +228394,7 @@
     "sizes": [
       "36",
       "37",
-      "38",
-      "39"
+      "38"
     ],
     "sizeChart": [
       {
@@ -227656,7 +228415,7 @@
       {
         "size": "39",
         "cm": "25.0",
-        "available": true
+        "available": false
       },
       {
         "size": "40",
@@ -235367,7 +236126,8 @@
     "sizes": [
       "40",
       "41",
-      "44"
+      "44",
+      "45"
     ],
     "sizeChart": [
       {
@@ -235418,7 +236178,7 @@
       {
         "size": "45",
         "cm": "29.0",
-        "available": false
+        "available": true
       },
       {
         "size": "46",
@@ -244807,8 +245567,7 @@
     "sizes": [
       "40",
       "41",
-      "42",
-      "43"
+      "42"
     ],
     "sizeChart": [
       {
@@ -244849,7 +245608,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": true
+        "available": false
       },
       {
         "size": "44",
@@ -285140,9 +285899,9 @@
     "genderName": "Чоловічі",
     "season": "winter",
     "seasonName": "Зима",
-    "price": 2100,
-    "oldPrice": 3500,
-    "costPrice": 1600,
+    "price": 2450,
+    "oldPrice": 4083,
+    "costPrice": 1950,
     "sku": "KS 2204",
     "material": "Замша",
     "country": "В'єтнам",
@@ -285220,7 +285979,7 @@
     "description": "Модель: Кросівки Adidas Campus 00s Black White ЗИМА (чорні. Артикул: KS 2204. Матеріал: Замша. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
     "seo": {
       "title": "Кросівки Adidas Campus 00s Black White ЗИМА (чорні (арт. KS 2204) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Кросівки Adidas Campus 00s Black White ЗИМА (чорні (арт. KS 2204) за 2100 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+      "description": "Замовляйте Кросівки Adidas Campus 00s Black White ЗИМА (чорні (арт. KS 2204) за 2450 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     },
     "addedAt": 0
   },
