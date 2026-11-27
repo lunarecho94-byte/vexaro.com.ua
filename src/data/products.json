@@ -8625,7 +8625,6 @@
       "36",
       "37",
       "38",
-      "39",
       "40",
       "41"
     ],
@@ -8648,7 +8647,7 @@
       {
         "size": "39",
         "cm": "25.0",
-        "available": true
+        "available": false
       },
       {
         "size": "40",
@@ -19327,7 +19326,6 @@
     "material": "Gore Tex, термо",
     "country": "В'єтнам",
     "sizes": [
-      "42",
       "43",
       "44",
       "46"
@@ -19366,7 +19364,7 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": true
+        "available": false
       },
       {
         "size": "43",
@@ -26942,7 +26940,6 @@
     "material": "Кожа , Замша , Текстиль",
     "country": "В'єтнам",
     "sizes": [
-      "41",
       "42",
       "43",
       "44",
@@ -26977,7 +26974,7 @@
       {
         "size": "41",
         "cm": "26.0",
-        "available": true
+        "available": false
       },
       {
         "size": "42",
@@ -30855,7 +30852,6 @@
       "40",
       "41",
       "42",
-      "43",
       "44",
       "45"
     ],
@@ -30898,7 +30894,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": true
+        "available": false
       },
       {
         "size": "44",
@@ -37893,9 +37889,9 @@
     "season": "winter",
     "seasonName": "Зима",
     "price": 4100,
-    "oldPrice": 7833,
+    "oldPrice": 7500,
     "minPrice": 4100,
-    "maxPrice": 4700,
+    "maxPrice": 4500,
     "costPrice": 3600,
     "sku": "1691",
     "material": "Натуральна замша, натуральне хутро",
@@ -37969,7 +37965,6 @@
     "images": [
       "https://easydrop.one/media/uploads/images/base/a2f3ba05-3635-427b-b6e8-a2fd098b16e6.jpeg",
       "https://easydrop.one/media/uploads/images/base/7926b36f-4775-4ffe-ae45-f0878b6db1c9.jpeg",
-      "https://easydrop.one/media/uploads/images/base/d39d005e-4225-4179-b8d9-ddeecb606ec2.jpeg",
       "https://easydrop.one/media/uploads/images/base/85efc1cc-6d3d-431b-991f-7ebabac2cbbb.jpg",
       "https://easydrop.one/media/uploads/images/base/82d64280-10f9-4b1e-8e22-ccbac5a0094a.jpg",
       "https://easydrop.one/media/uploads/images/base/152f1adf-1d9a-4e3b-9a19-9a05676dd0c2.jpg",
@@ -38136,82 +38131,6 @@
         ],
         "inStock": true,
         "slug": "ugg-lowmel-sneaker-platform-chestnut-2397"
-      },
-      {
-        "id": "208607",
-        "sku": "2579",
-        "color": "CHOCOLATE BROWN",
-        "colorSlug": "chocolate-brown",
-        "price": 4700,
-        "oldPrice": 7833,
-        "costPrice": 4200,
-        "sizes": [
-          "37",
-          "38",
-          "39"
-        ],
-        "sizeChart": [
-          {
-            "size": "36",
-            "cm": "22.5",
-            "available": false
-          },
-          {
-            "size": "37",
-            "cm": "23.5",
-            "available": true
-          },
-          {
-            "size": "38",
-            "cm": "24.0",
-            "available": true
-          },
-          {
-            "size": "39",
-            "cm": "25.0",
-            "available": true
-          },
-          {
-            "size": "40",
-            "cm": "25.5",
-            "available": false
-          },
-          {
-            "size": "41",
-            "cm": "26.0",
-            "available": false
-          },
-          {
-            "size": "42",
-            "cm": "26.5",
-            "available": false
-          },
-          {
-            "size": "43",
-            "cm": "27.5",
-            "available": false
-          },
-          {
-            "size": "44",
-            "cm": "28.0",
-            "available": false
-          },
-          {
-            "size": "45",
-            "cm": "29.0",
-            "available": false
-          },
-          {
-            "size": "46",
-            "cm": "29.5",
-            "available": false
-          }
-        ],
-        "images": [
-          "https://easydrop.one/media/uploads/images/base/d39d005e-4225-4179-b8d9-ddeecb606ec2.jpeg"
-        ],
-        "inStock": true,
-        "slug": "ugg-lowmel-sneaker-chocolate-brown-2579"
       },
       {
         "id": "254575",
@@ -45125,6 +45044,98 @@
     "seo": {
       "title": "Кросівки New Balance 327 Gray (арт. KS 2823) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Кросівки New Balance 327 Gray (арт. KS 2823) за 2390 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    },
+    "addedAt": 0
+  },
+  {
+    "id": "250518",
+    "slug": "acg-termo-ntr796",
+    "name": "ACG (термо)",
+    "brand": "Інші бренди",
+    "brandSlug": "other",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "men",
+    "genderName": "Чоловічі",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 2950,
+    "oldPrice": 4917,
+    "costPrice": 2450,
+    "sku": "NTR796",
+    "material": "Вологостійкий текстиль, термоутеплювач, гума, піна, прошиті",
+    "country": "В'єтнам",
+    "sizes": [
+      "41",
+      "44",
+      "46"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": false
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": false
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": false
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": true
+      },
+      {
+        "size": "45",
+        "cm": "29.0",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": true
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/a3948ebc-864c-4563-8d4f-a31e829d5357.jpg"
+    ],
+    "description": "Модель: ACG (термо). Артикул: NTR796. Матеріал: Вологостійкий текстиль, термоутеплювач, гума, піна, прошиті. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "ACG (термо) (арт. NTR796) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте ACG (термо) (арт. NTR796) за 2950 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     },
     "addedAt": 0
   },
@@ -66510,98 +66521,6 @@
     "addedAt": 0
   },
   {
-    "id": "245866",
-    "slug": "new-balance-9060-termo-white-grey-black-3015",
-    "name": "New Balance 9060 Termo White Grey Black",
-    "brand": "New Balance",
-    "brandSlug": "newbalance",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 2900,
-    "oldPrice": 4833,
-    "costPrice": 2400,
-    "sku": "3015",
-    "material": "Замша , Кожа , Текстиль",
-    "country": "В'єтнам",
-    "sizes": [
-      "41",
-      "42",
-      "44"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "23.0",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": true
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": true
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": true,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/10ea6b35-a89d-4069-8278-beefde6e137b.jpeg"
-    ],
-    "description": "Модель: New Balance 9060 Termo White Grey Black. Артикул: 3015. Матеріал: Замша , Кожа , Текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "New Balance 9060 Termo White Grey Black (арт. 3015) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте New Balance 9060 Termo White Grey Black (арт. 3015) за 2900 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    },
-    "addedAt": 0
-  },
-  {
     "id": "245808",
     "slug": "moncler-trailgrip-black-gore-tex-0985",
     "name": "Moncler Trailgrip Black Gore Tex",
@@ -71689,7 +71608,6 @@
     "sizes": [
       "41",
       "44",
-      "45",
       "46"
     ],
     "sizeChart": [
@@ -71741,7 +71659,7 @@
       {
         "size": "45",
         "cm": "29.0",
-        "available": true
+        "available": false
       },
       {
         "size": "46",
@@ -152628,7 +152546,6 @@
     "sizes": [
       "36",
       "37",
-      "38",
       "39",
       "40"
     ],
@@ -152646,7 +152563,7 @@
       {
         "size": "38",
         "cm": "24.0",
-        "available": true
+        "available": false
       },
       {
         "size": "39",
@@ -164634,7 +164551,6 @@
     "material": "Замша , Натуральный мех",
     "country": "Китай",
     "sizes": [
-      "38",
       "39",
       "40",
       "41"
@@ -164653,7 +164569,7 @@
       {
         "size": "38",
         "cm": "24.0",
-        "available": true
+        "available": false
       },
       {
         "size": "39",
@@ -188662,7 +188578,6 @@
       "36",
       "38",
       "40",
-      "44",
       "45"
     ],
     "sizeChart": [
@@ -188709,7 +188624,7 @@
       {
         "size": "44",
         "cm": "28.0",
-        "available": true
+        "available": false
       },
       {
         "size": "45",
@@ -191181,8 +191096,8 @@
     "brandSlug": "salomon",
     "category": "Взуття",
     "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
+    "gender": "women",
+    "genderName": "Жіночі",
     "season": "demi",
     "seasonName": "Демісезон",
     "price": 3100,
@@ -191194,8 +191109,7 @@
     "sizes": [
       "36",
       "38",
-      "40",
-      "44"
+      "40"
     ],
     "sizeChart": [
       {
@@ -191241,7 +191155,7 @@
       {
         "size": "44",
         "cm": "28.0",
-        "available": true
+        "available": false
       },
       {
         "size": "45",
@@ -240562,7 +240476,6 @@
     "sizes": [
       "41",
       "42",
-      "43",
       "44"
     ],
     "sizeChart": [
@@ -240604,7 +240517,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": true
+        "available": false
       },
       {
         "size": "44",
@@ -242147,8 +242060,7 @@
       "37",
       "38",
       "39",
-      "42",
-      "44"
+      "42"
     ],
     "sizeChart": [
       {
@@ -242194,7 +242106,7 @@
       {
         "size": "44",
         "cm": "28.0",
-        "available": true
+        "available": false
       },
       {
         "size": "45",
@@ -245768,7 +245680,6 @@
     "sizes": [
       "41",
       "42",
-      "43",
       "44"
     ],
     "sizeChart": [
@@ -245810,7 +245721,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": true
+        "available": false
       },
       {
         "size": "44",
@@ -278885,98 +278796,6 @@
     "addedAt": 0
   },
   {
-    "id": "85590",
-    "slug": "air-jordan-retro-5-x-off-white-668",
-    "name": "Air Jordan Retro 5 x Off White",
-    "brand": "Air Jordan",
-    "brandSlug": "jordan",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "demi",
-    "seasonName": "Демісезон",
-    "price": 3400,
-    "oldPrice": 5667,
-    "costPrice": 2900,
-    "sku": "668",
-    "material": "Текстиль",
-    "country": "В'єтнам",
-    "sizes": [
-      "38",
-      "43",
-      "45"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": true
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": false
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": true
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": true
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": false
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/2cb32ae4-a6f8-4960-931d-839c3e6c378b.jpeg"
-    ],
-    "description": "Модель: Air Jordan Retro 5 x Off White. Артикул: 668. Матеріал: Текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "Air Jordan Retro 5 x Off White (арт. 668) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте Air Jordan Retro 5 x Off White (арт. 668) за 3400 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    },
-    "addedAt": 0
-  },
-  {
     "id": "85589",
     "slug": "new-balance-574-classic-black-white-1401",
     "name": "New Balance 574 Classic Black White",
@@ -279195,7 +279014,6 @@
       "39",
       "41",
       "42",
-      "43",
       "45"
     ],
     "sizeChart": [
@@ -279237,7 +279055,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": true
+        "available": false
       },
       {
         "size": "44",
