@@ -9,7 +9,7 @@
     {
       "name": "New Balance",
       "slug": "newbalance",
-      "count": 780
+      "count": 779
     },
     {
       "name": "Adidas",
@@ -24,7 +24,7 @@
     {
       "name": "Інші бренди",
       "slug": "other",
-      "count": 111
+      "count": 112
     },
     {
       "name": "Salomon",
@@ -198,17 +198,17 @@
     {
       "name": "Чоловічі",
       "slug": "men",
-      "count": 1766
+      "count": 1767
     },
     {
       "name": "Жіночі",
       "slug": "women",
-      "count": 888
+      "count": 889
     },
     {
       "name": "Унісекс",
       "slug": "unisex",
-      "count": 589
+      "count": 587
     }
   ],
   "seasons": [
