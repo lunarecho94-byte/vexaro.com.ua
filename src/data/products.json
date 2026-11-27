@@ -190,6 +190,102 @@
     "addedAt": 1795799585
   },
   {
+    "id": "139555",
+    "slug": "new-balance-9060-full-black-dnb112",
+    "name": "New Balance 9060 full Black",
+    "brand": "New Balance",
+    "brandSlug": "newbalance",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "unisex",
+    "genderName": "Унісекс",
+    "season": "demi",
+    "seasonName": "Демісезон",
+    "price": 2850,
+    "oldPrice": 4750,
+    "costPrice": 2350,
+    "sku": "#DNB112",
+    "material": "Натуральна замша,текстиль",
+    "country": "В'єтнам",
+    "sizes": [
+      "37",
+      "38",
+      "41",
+      "43"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "23.0",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": true
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": true
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": false
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": false
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": true
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": false
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": true
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": false
+      },
+      {
+        "size": "45",
+        "cm": "29.0",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": true,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/f791a0f7-446f-4c9c-b78b-881e6c0df2c9.jpg",
+      "https://easydrop.one/media/uploads/images/base/fe034937-8b70-4d67-8b30-4c985b19b94e.jpg",
+      "https://easydrop.one/media/uploads/images/base/7f1826c2-0651-4ad6-9c94-dc189dd94ba3.jpg",
+      "https://easydrop.one/media/uploads/images/base/d3b63575-3453-42fe-9332-ed35bf0be61f.jpg"
+    ],
+    "description": "Модель: New Balance 9060 full Black. Артикул: #DNB112. Матеріал: Натуральна замша,текстиль. Сезон: Демісезон. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "New Balance 9060 full Black (арт. #DNB112) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте New Balance 9060 full Black (арт. #DNB112) за 2850 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    },
+    "addedAt": 1795799585
+  },
+  {
     "id": "261235",
     "slug": "new-balance-574-black-gore-tex-khutro-1139",
     "name": "New Balance 574 Black Gore Tex, хутро",
@@ -6357,8 +6453,7 @@
     "sizes": [
       "41",
       "42",
-      "43",
-      "44"
+      "43"
     ],
     "sizeChart": [
       {
@@ -6404,7 +6499,7 @@
       {
         "size": "44",
         "cm": "28.0",
-        "available": true
+        "available": false
       },
       {
         "size": "45",
@@ -21716,7 +21811,6 @@
       "42",
       "43",
       "44",
-      "45",
       "46"
     ],
     "sizeChart": [
@@ -21768,7 +21862,7 @@
       {
         "size": "45",
         "cm": "29.0",
-        "available": true
+        "available": false
       },
       {
         "size": "46",
@@ -45031,190 +45125,6 @@
     "seo": {
       "title": "Кросівки New Balance 327 Gray (арт. KS 2823) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Кросівки New Balance 327 Gray (арт. KS 2823) за 2390 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    },
-    "addedAt": 0
-  },
-  {
-    "id": "250521",
-    "slug": "acg-termo-ntr797",
-    "name": "ACG (термо)",
-    "brand": "Інші бренди",
-    "brandSlug": "other",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 2950,
-    "oldPrice": 4917,
-    "costPrice": 2450,
-    "sku": "NTR797",
-    "material": "Вологостійкий текстиль, термоутеплювач, гума, піна, прошиті",
-    "country": "В'єтнам",
-    "sizes": [
-      "41",
-      "45",
-      "46"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": false
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": true
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": true
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/20025091-f70c-44f7-b984-ea927524867c.jpg"
-    ],
-    "description": "Модель: ACG (термо). Артикул: NTR797. Матеріал: Вологостійкий текстиль, термоутеплювач, гума, піна, прошиті. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "ACG (термо) (арт. NTR797) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте ACG (термо) (арт. NTR797) за 2950 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
-    },
-    "addedAt": 0
-  },
-  {
-    "id": "250518",
-    "slug": "acg-termo-ntr796",
-    "name": "ACG (термо)",
-    "brand": "Інші бренди",
-    "brandSlug": "other",
-    "category": "Взуття",
-    "categorySlug": "shoes",
-    "gender": "men",
-    "genderName": "Чоловічі",
-    "season": "winter",
-    "seasonName": "Зима",
-    "price": 2950,
-    "oldPrice": 4917,
-    "costPrice": 2450,
-    "sku": "NTR796",
-    "material": "Вологостійкий текстиль, термоутеплювач, гума, піна, прошиті",
-    "country": "В'єтнам",
-    "sizes": [
-      "41",
-      "44",
-      "46"
-    ],
-    "sizeChart": [
-      {
-        "size": "36",
-        "cm": "22.5",
-        "available": false
-      },
-      {
-        "size": "37",
-        "cm": "23.5",
-        "available": false
-      },
-      {
-        "size": "38",
-        "cm": "24.0",
-        "available": false
-      },
-      {
-        "size": "39",
-        "cm": "25.0",
-        "available": false
-      },
-      {
-        "size": "40",
-        "cm": "25.5",
-        "available": false
-      },
-      {
-        "size": "41",
-        "cm": "26.0",
-        "available": true
-      },
-      {
-        "size": "42",
-        "cm": "26.5",
-        "available": false
-      },
-      {
-        "size": "43",
-        "cm": "27.5",
-        "available": false
-      },
-      {
-        "size": "44",
-        "cm": "28.0",
-        "available": true
-      },
-      {
-        "size": "45",
-        "cm": "29.0",
-        "available": false
-      },
-      {
-        "size": "46",
-        "cm": "29.5",
-        "available": true
-      }
-    ],
-    "inStock": true,
-    "isHit": false,
-    "images": [
-      "https://easydrop.one/media/uploads/images/base/a3948ebc-864c-4563-8d4f-a31e829d5357.jpg"
-    ],
-    "description": "Модель: ACG (термо). Артикул: NTR796. Матеріал: Вологостійкий текстиль, термоутеплювач, гума, піна, прошиті. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
-    "seo": {
-      "title": "ACG (термо) (арт. NTR796) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте ACG (термо) (арт. NTR796) за 2950 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     },
     "addedAt": 0
   },
@@ -70561,7 +70471,6 @@
     "country": "В'єтнам",
     "sizes": [
       "41",
-      "43",
       "44",
       "45",
       "46"
@@ -70605,7 +70514,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": true
+        "available": false
       },
       {
         "size": "44",
@@ -240173,8 +240082,7 @@
       "40",
       "41",
       "42",
-      "43",
-      "44"
+      "43"
     ],
     "sizeChart": [
       {
@@ -240220,7 +240128,7 @@
       {
         "size": "44",
         "cm": "28.0",
-        "available": true
+        "available": false
       },
       {
         "size": "45",
