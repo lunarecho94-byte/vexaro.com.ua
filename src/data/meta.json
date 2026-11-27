@@ -1,15 +1,15 @@
 {
-  "total": 3242,
+  "total": 3230,
   "brands": [
     {
       "name": "Nike",
       "slug": "nike",
-      "count": 1169
+      "count": 1164
     },
     {
       "name": "New Balance",
       "slug": "newbalance",
-      "count": 777
+      "count": 778
     },
     {
       "name": "Adidas",
@@ -29,12 +29,12 @@
     {
       "name": "Salomon",
       "slug": "salomon",
-      "count": 78
+      "count": 77
     },
     {
       "name": "UGG",
       "slug": "ugg",
-      "count": 65
+      "count": 64
     },
     {
       "name": "On Cloud",
@@ -44,12 +44,12 @@
     {
       "name": "Premiata",
       "slug": "premiata",
-      "count": 55
+      "count": 54
     },
     {
       "name": "Air Jordan",
       "slug": "jordan",
-      "count": 52
+      "count": 51
     },
     {
       "name": "Balenciaga",
@@ -62,14 +62,14 @@
       "count": 30
     },
     {
-      "name": "The North Face",
-      "slug": "tnf",
-      "count": 26
-    },
-    {
       "name": "Golden Goose",
       "slug": "goldengoose",
       "count": 25
+    },
+    {
+      "name": "The North Face",
+      "slug": "tnf",
+      "count": 24
     },
     {
       "name": "Vans",
@@ -79,7 +79,7 @@
     {
       "name": "Puma",
       "slug": "puma",
-      "count": 19
+      "count": 18
     },
     {
       "name": "Dior",
@@ -89,7 +89,7 @@
     {
       "name": "Lacoste",
       "slug": "lacoste",
-      "count": 14
+      "count": 13
     },
     {
       "name": "Loro Piana",
@@ -191,36 +191,36 @@
     {
       "name": "Взуття",
       "slug": "shoes",
-      "count": 3242
+      "count": 3230
     }
   ],
   "genders": [
     {
       "name": "Чоловічі",
       "slug": "men",
-      "count": 1765
+      "count": 1755
     },
     {
       "name": "Жіночі",
       "slug": "women",
-      "count": 890
+      "count": 887
     },
     {
       "name": "Унісекс",
       "slug": "unisex",
-      "count": 587
+      "count": 588
     }
   ],
   "seasons": [
     {
       "name": "Демісезон",
       "slug": "demi",
-      "count": 2890
+      "count": 2884
     },
     {
       "name": "Зима",
       "slug": "winter",
-      "count": 352
+      "count": 346
     }
   ],
   "sizes": [
