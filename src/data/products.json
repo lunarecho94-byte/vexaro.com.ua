@@ -4059,6 +4059,7 @@
     "country": "Китай",
     "sizes": [
       "41",
+      "43",
       "44",
       "45"
     ],
@@ -4101,7 +4102,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": false
+        "available": true
       },
       {
         "size": "44",
@@ -11241,6 +11242,7 @@
     "country": "Китай",
     "sizes": [
       "41",
+      "42",
       "43",
       "44",
       "45",
@@ -11280,7 +11282,7 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": false
+        "available": true
       },
       {
         "size": "43",
@@ -13814,6 +13816,7 @@
     "sizes": [
       "41",
       "42",
+      "43",
       "44",
       "45",
       "46"
@@ -13857,7 +13860,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": false
+        "available": true
       },
       {
         "size": "44",
@@ -14008,6 +14011,7 @@
     "country": "Китай",
     "sizes": [
       "41",
+      "42",
       "44",
       "46"
     ],
@@ -14045,7 +14049,7 @@
       {
         "size": "42",
         "cm": "26.5",
-        "available": false
+        "available": true
       },
       {
         "size": "43",
@@ -39177,6 +39181,98 @@
     "addedAt": 0
   },
   {
+    "id": "253101",
+    "slug": "nike-jordan-4-black-grey-khutro-1046",
+    "name": "Nike Jordan 4 Black Grey хутро",
+    "brand": "Nike",
+    "brandSlug": "nike",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "men",
+    "genderName": "Чоловічі",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 3100,
+    "oldPrice": 5167,
+    "costPrice": 2600,
+    "sku": "1046",
+    "material": "Хутро",
+    "country": "В'єтнам",
+    "sizes": [
+      "40",
+      "42",
+      "44"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": false
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": false
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": true
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": false
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": true
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": false
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": true
+      },
+      {
+        "size": "45",
+        "cm": "29.0",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/164edca2-4f90-4da6-834e-4a7dbeded809.jpeg"
+    ],
+    "description": "Модель: Nike Jordan 4 Black Grey хутро. Артикул: 1046. Матеріал: Хутро. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "Nike Jordan 4 Black Grey хутро (арт. 1046) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте Nike Jordan 4 Black Grey хутро (арт. 1046) за 3100 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    },
+    "addedAt": 0
+  },
+  {
     "id": "253100",
     "slug": "nike-jordan-4-black-khutro-1045",
     "name": "Nike Jordan 4 Black хутро",
@@ -49051,6 +49147,98 @@
     "seo": {
       "title": "Кросівки Nike Air Force 1 Low Cactus Plant Flea Market White (арт. KS 2808) — купити в інтернет-магазині VEXARO",
       "description": "Замовляйте Кросівки Nike Air Force 1 Low Cactus Plant Flea Market White (арт. KS 2808) за 3010 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+    },
+    "addedAt": 0
+  },
+  {
+    "id": "249498",
+    "slug": "the-north-face-black-white-gore-tex-termo-1007",
+    "name": "The North Face Black White Gore Tex (термо)",
+    "brand": "The North Face",
+    "brandSlug": "tnf",
+    "category": "Взуття",
+    "categorySlug": "shoes",
+    "gender": "men",
+    "genderName": "Чоловічі",
+    "season": "winter",
+    "seasonName": "Зима",
+    "price": 2500,
+    "oldPrice": 4167,
+    "costPrice": 2000,
+    "sku": "1007",
+    "material": "Gore Tex",
+    "country": "В'єтнам",
+    "sizes": [
+      "42",
+      "43",
+      "44"
+    ],
+    "sizeChart": [
+      {
+        "size": "36",
+        "cm": "22.5",
+        "available": false
+      },
+      {
+        "size": "37",
+        "cm": "23.5",
+        "available": false
+      },
+      {
+        "size": "38",
+        "cm": "24.0",
+        "available": false
+      },
+      {
+        "size": "39",
+        "cm": "25.0",
+        "available": false
+      },
+      {
+        "size": "40",
+        "cm": "25.5",
+        "available": false
+      },
+      {
+        "size": "41",
+        "cm": "26.0",
+        "available": false
+      },
+      {
+        "size": "42",
+        "cm": "26.5",
+        "available": true
+      },
+      {
+        "size": "43",
+        "cm": "27.5",
+        "available": true
+      },
+      {
+        "size": "44",
+        "cm": "28.0",
+        "available": true
+      },
+      {
+        "size": "45",
+        "cm": "29.0",
+        "available": false
+      },
+      {
+        "size": "46",
+        "cm": "29.5",
+        "available": false
+      }
+    ],
+    "inStock": true,
+    "isHit": false,
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/a98ceece-f531-4c79-9354-b98f71a49298.jpg"
+    ],
+    "description": "Модель: The North Face Black White Gore Tex (термо). Артикул: 1007. Матеріал: Gore Tex. Сезон: Зима. Виробництво: В'єтнам. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
+    "seo": {
+      "title": "The North Face Black White Gore Tex (термо) (арт. 1007) — купити в інтернет-магазині VEXARO",
+      "description": "Замовляйте The North Face Black White Gore Tex (термо) (арт. 1007) за 2500 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     },
     "addedAt": 0
   },
@@ -76921,7 +77109,6 @@
     "sizes": [
       "41",
       "42",
-      "43",
       "44",
       "45"
     ],
@@ -76964,7 +77151,7 @@
       {
         "size": "43",
         "cm": "27.5",
-        "available": true
+        "available": false
       },
       {
         "size": "44",
@@ -294356,9 +294543,9 @@
     "genderName": "Унісекс",
     "season": "demi",
     "seasonName": "Демісезон",
-    "price": 2780,
-    "oldPrice": 4633,
-    "costPrice": 2280,
+    "price": 2580,
+    "oldPrice": 4300,
+    "costPrice": 2080,
     "sku": "1129TP",
     "material": "натуральний замш+текстиль",
     "country": "Китай",
@@ -294432,7 +294619,7 @@
     "description": "Модель: New Balance 2002R Protection Pack 'Rain Cloud'. Артикул: 1129TP. Матеріал: натуральний замш+текстиль. Сезон: Демісезон. Виробництво: Китай. Доставка Новою Поштою по Україні протягом 1–2 днів. Оплата при отриманні (накладений платіж) після огляду та примірки у відділенні. Гарантія обміну або повернення — 14 днів.",
     "seo": {
       "title": "New Balance 2002R Protection Pack 'Rain Cloud' (арт. 1129TP) — купити в інтернет-магазині VEXARO",
-      "description": "Замовляйте New Balance 2002R Protection Pack 'Rain Cloud' (арт. 1129TP) за 2780 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
+      "description": "Замовляйте New Balance 2002R Protection Pack 'Rain Cloud' (арт. 1129TP) за 2580 ₴. Доставка Новою Поштою по Україні 1–2 дні, оплата після примірки (накладений платіж)."
     },
     "addedAt": 0
   },

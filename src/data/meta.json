@@ -1,10 +1,10 @@
 {
-  "total": 3232,
+  "total": 3234,
   "brands": [
     {
       "name": "Nike",
       "slug": "nike",
-      "count": 1169
+      "count": 1170
     },
     {
       "name": "New Balance",
@@ -62,13 +62,13 @@
       "count": 30
     },
     {
-      "name": "Golden Goose",
-      "slug": "goldengoose",
-      "count": 25
-    },
-    {
       "name": "The North Face",
       "slug": "tnf",
+      "count": 26
+    },
+    {
+      "name": "Golden Goose",
+      "slug": "goldengoose",
       "count": 25
     },
     {
@@ -191,14 +191,14 @@
     {
       "name": "Взуття",
       "slug": "shoes",
-      "count": 3232
+      "count": 3234
     }
   ],
   "genders": [
     {
       "name": "Чоловічі",
       "slug": "men",
-      "count": 1758
+      "count": 1760
     },
     {
       "name": "Жіночі",
@@ -220,7 +220,7 @@
     {
       "name": "Зима",
       "slug": "winter",
-      "count": 345
+      "count": 347
     }
   ],
   "sizes": [
